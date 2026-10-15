@@ -1,0 +1,888 @@
+{
+  "curated_on": "2026-10-10",
+  "historical_snapshot_utc": "2026-10-09T19:04:40+00:00",
+  "current_curation_checks": {
+    "scope": "Unchanged file copying, JPEG format/dimensions, all local HTML href/src/srcset and CSS url resources/HTML anchors, and JavaScript syntax. Browser interactions and rendered review were not rerun by the curator.",
+    "copied_source_files": 40,
+    "copied_opening_captures": 18,
+    "html_pages": 9,
+    "local_resource_references_checked": 170,
+    "javascript_syntax_files": [
+      "assets/task-cases/lantern/site/inspector-core.js",
+      "assets/task-cases/lantern/site/inspector.js",
+      "assets/task-cases/common-ground/site/planner.js",
+      "assets/task-cases/common-ground/site/site.js",
+      "assets/task-cases/northline/site/core.js",
+      "assets/task-cases/northline/site/site.js",
+      "assets/task-cases/northline/site/studies.js"
+    ],
+    "original_svg_files": 14,
+    "bundled_font_files_with_full_notices": 2,
+    "font_files_match_frozen_design_input": true,
+    "errors": []
+  },
+  "historical_local_trial": {
+    "lantern": {
+      "initial": {
+        "behavior_assertions": [
+          {
+            "name": "keyboard Failed filter selects exact failed record and payload",
+            "passed": true
+          },
+          {
+            "name": "retry changes result while preserving identity and payload, explains emptied filter",
+            "passed": true
+          },
+          {
+            "name": "return All preserves changed event and original order",
+            "passed": true
+          },
+          {
+            "name": "real reload retains the changed record and selected identity",
+            "passed": true
+          },
+          {
+            "name": "different filter selects its matching record",
+            "passed": true
+          },
+          {
+            "name": "retry a different record independently",
+            "passed": true
+          },
+          {
+            "name": "manually choose empty filter clears unrelated selection",
+            "passed": true
+          },
+          {
+            "name": "reset restores exact original stream and initial selection",
+            "passed": true
+          }
+        ],
+        "behavior_assertions_count": 8,
+        "responsive_observations": 51,
+        "tested_widths": [
+          320,
+          369,
+          370,
+          371,
+          390,
+          699,
+          700,
+          701,
+          849,
+          850,
+          851,
+          1099,
+          1100,
+          1101,
+          1440
+        ],
+        "layout_or_resource_failures": 0
+      },
+      "final": {
+        "behavior_assertions": [
+          {
+            "name": "Phone native guide jump reaches field reference",
+            "passed": true
+          },
+          {
+            "name": "Guide deep link opens exact failed event",
+            "passed": true
+          },
+          {
+            "name": "Revised inspector preserves exact retry result",
+            "passed": true
+          },
+          {
+            "name": "Revised inspector persisted retry",
+            "passed": true
+          }
+        ],
+        "behavior_assertions_count": 4,
+        "responsive_observations": 51,
+        "tested_widths": [
+          320,
+          369,
+          370,
+          371,
+          390,
+          699,
+          700,
+          701,
+          849,
+          850,
+          851,
+          1099,
+          1100,
+          1101,
+          1440
+        ],
+        "layout_or_resource_failures": 0
+      },
+      "final_rendered_review": {
+        "judgment": "Strong enough to represent this limited edition, on rendered design evidence.",
+        "reviewer_scope": "Same independent critic following up their initial review; read task request and viewed all 12 final opening/full-page captures. No source, builder rationale, root findings, browser interactions, or other reviews.",
+        "source_trial_relative_path": "reviews/LANTERN_FINAL.md",
+        "source_sha256": "32c12d89740915613c25bc186bc617169cfdf5c5e7c995db9665302cb55fd033",
+        "owner_acceptance": false
+      }
+    },
+    "common-ground": {
+      "initial": {
+        "behavior_assertions": [
+          {
+            "name": "missing date validation focuses date and creates no saved plan",
+            "passed": true
+          },
+          {
+            "name": "complete guide example computes exact workshop, date and cost before saving",
+            "passed": true
+          },
+          {
+            "name": "saved view agrees with exact current choice and storage result",
+            "passed": true
+          },
+          {
+            "name": "editing distinguishes current input from unchanged saved plan",
+            "passed": true
+          },
+          {
+            "name": "return to saved choice restores fields and current status",
+            "passed": true
+          },
+          {
+            "name": "fractional people rejected with focused correction and saved plan preserved",
+            "passed": true
+          },
+          {
+            "name": "different workshop updates facts/dates and clears unavailable date without overwriting saved plan",
+            "passed": true
+          },
+          {
+            "name": "actual reload restores saved example and discards unsaved selection",
+            "passed": true
+          },
+          {
+            "name": "reset clears saved plan and restores exact documented initial choice",
+            "passed": true
+          },
+          {
+            "name": "real reload preserves reset",
+            "passed": true
+          }
+        ],
+        "behavior_assertions_count": 10,
+        "responsive_observations": 60,
+        "tested_widths": [
+          320,
+          359,
+          360,
+          361,
+          390,
+          579,
+          580,
+          581,
+          779,
+          780,
+          781,
+          1049,
+          1050,
+          1051,
+          1440,
+          1499,
+          1500,
+          1501
+        ],
+        "layout_or_resource_failures": 0
+      },
+      "final": {
+        "behavior_assertions": [
+          {
+            "name": "Current date quantity and total precede Save in phone geometry and source order",
+            "passed": true
+          },
+          {
+            "name": "Revised layout computes exact poster example before save",
+            "passed": true
+          },
+          {
+            "name": "Keyboard saves exact visible configuration",
+            "passed": true
+          },
+          {
+            "name": "Current and saved receipts remain distinct after edit",
+            "passed": true
+          },
+          {
+            "name": "Restored saved example persists through reload",
+            "passed": true
+          }
+        ],
+        "behavior_assertions_count": 5,
+        "responsive_observations": 60,
+        "tested_widths": [
+          320,
+          359,
+          360,
+          361,
+          390,
+          579,
+          580,
+          581,
+          779,
+          780,
+          781,
+          1049,
+          1050,
+          1051,
+          1440,
+          1499,
+          1500,
+          1501
+        ],
+        "layout_or_resource_failures": 0
+      },
+      "final_rendered_review": {
+        "judgment": "Strong enough to represent this limited edition, on rendered design evidence.",
+        "reviewer_scope": "Same independent critic following up their initial review; read task request and viewed all 12 final opening/full-page captures. No source, builder rationale, root findings, browser interactions, or other reviews.",
+        "source_trial_relative_path": "reviews/COMMON_GROUND_FINAL.md",
+        "source_sha256": "73a1e61624330df08d8c65d1f236e3fcb40c76b1ec257246a836ff7a9b27ac50",
+        "owner_acceptance": false
+      }
+    },
+    "northline": {
+      "initial": {
+        "behavior_assertions": [
+          {
+            "name": "blank title and goal prevent preparation and focus title",
+            "passed": true
+          },
+          {
+            "name": "study metadata and actual drawn role visibility agree with independent controls",
+            "passed": true
+          },
+          {
+            "name": "switch study preserves chosen role settings while replacing exact plan meaning",
+            "passed": true
+          },
+          {
+            "name": "complete guide example prepares exact input and selected study/roles with focus",
+            "passed": true
+          },
+          {
+            "name": "Edits make prepared summary stale and prevent saving",
+            "passed": true
+          },
+          {
+            "name": "Reprepare updates exact changed goal",
+            "passed": true
+          },
+          {
+            "name": "Saved exact brief and roles survive browser reload",
+            "passed": true
+          },
+          {
+            "name": "All roles off preserves drawing and stales prepared brief",
+            "passed": true
+          },
+          {
+            "name": "Prepare without roles states no lighting roles",
+            "passed": true
+          },
+          {
+            "name": "Reset survives reload and restores original study and blank brief",
+            "passed": true
+          }
+        ],
+        "behavior_assertions_count": 10,
+        "responsive_observations": 51,
+        "tested_widths": [
+          320,
+          390,
+          559,
+          560,
+          561,
+          799,
+          800,
+          801,
+          1049,
+          1050,
+          1051,
+          1440,
+          1599,
+          1600,
+          1601
+        ],
+        "layout_or_resource_failures": 0
+      },
+      "final": {
+        "behavior_assertions": [
+          {
+            "name": "Phone and desktop drawings retain exact selected study and layer states",
+            "passed": true
+          },
+          {
+            "name": "Revised guide example produces exact focused prepared result",
+            "passed": true
+          },
+          {
+            "name": "Revised prepared result survives actual save and reload",
+            "passed": true
+          },
+          {
+            "name": "Changed phone layers visibly match stale state and disabled save",
+            "passed": true
+          },
+          {
+            "name": "Revised reset restores both drawings and blank form",
+            "passed": true
+          },
+          {
+            "name": "Desktop returns to original full plate without duplicate phone drawing",
+            "passed": true
+          }
+        ],
+        "behavior_assertions_count": 6,
+        "responsive_observations": 51,
+        "tested_widths": [
+          320,
+          390,
+          559,
+          560,
+          561,
+          799,
+          800,
+          801,
+          1049,
+          1050,
+          1051,
+          1440,
+          1599,
+          1600,
+          1601
+        ],
+        "layout_or_resource_failures": 0
+      },
+      "final_rendered_review": {
+        "judgment": "Strong enough to represent this limited edition, on rendered design evidence.",
+        "reviewer_scope": "Same independent critic following up their initial review; read task request and viewed all 12 final opening/full-page captures. No source, builder rationale, root findings, browser interactions, or other reviews.",
+        "source_trial_relative_path": "reviews/NORTHLINE_FINAL.md",
+        "source_sha256": "2ee5ee96af9ee281ca18775e3ac7e22a52fb0b18dfe5d6920b5a3e0cf21d9fdf",
+        "owner_acceptance": false
+      }
+    }
+  },
+  "evidence_limits": [
+    "Fresh builds used the frozen candidate pack; these newly curated case assets were added after those builds.",
+    "Initial and final assertions are recorded separately; final refinements did not rerun every initial browser assertion.",
+    "Rendering, browser operations, source integrity, and archive completeness are different evidence.",
+    "Fictional local samples with browser storage only; no production, real client data, ordinary-user completion, account, backend, webhook transmission, booking, payment, commission, all-host or commercial proof.",
+    "The final visual judgments are follow-ups by the same independent critic, not new independent opinions.",
+    "An adaptation needs its own functional and rendered review."
+  ],
+  "latest_copy_revision": {
+    "date": "2026-10-11",
+    "source": "Owner feedback about two observed Agent output habits; conditional copy editing rather than a general model-family result",
+    "scope": "Title punctuation and repeated supporting copy in the three bundled cases, plus the unbundled overview and independent repeat",
+    "matching_source_pages": 9,
+    "refreshed_opening_captures": 18,
+    "four_case_render_observations": 36,
+    "render_widths": [
+      320,
+      390,
+      1440
+    ],
+    "measured_viewport_overflow": false,
+    "failed_loaded_images": 0,
+    "font_status": "loaded",
+    "jpeg_dimensions_checked": true,
+    "independent_aesthetic_review_repeated": false,
+    "behavior_study_repeated": false,
+    "javascript_css_art_fonts_unchanged": true
+  },
+  "expansion_curation": {
+    "date": "2026-10-11",
+    "snapshot_utc": "2026-10-10T20:41:12.108987+00:00",
+    "scope": "Six case resource integrity, exact new source/notice and native opening-JPEG copying, JPEG dimensions, local HTML/CSS resources and HTML anchors, and JavaScript syntax; no new browser operation by curator",
+    "new_cases": [
+      "handoff",
+      "aldermere",
+      "pressline"
+    ],
+    "copied_new_source_files": 32,
+    "copied_new_opening_captures": 18,
+    "total_case_source_files": 72,
+    "total_opening_captures": 36,
+    "html_pages": 18,
+    "local_resource_references_checked": 311,
+    "javascript_syntax_files": [
+      "assets/task-cases/lantern/site/inspector.js",
+      "assets/task-cases/lantern/site/inspector-core.js",
+      "assets/task-cases/common-ground/site/planner.js",
+      "assets/task-cases/common-ground/site/site.js",
+      "assets/task-cases/northline/site/core.js",
+      "assets/task-cases/northline/site/studies.js",
+      "assets/task-cases/northline/site/site.js",
+      "assets/task-cases/handoff/site/brief.js",
+      "assets/task-cases/handoff/site/brief-core.js",
+      "assets/task-cases/aldermere/site/core.js",
+      "assets/task-cases/aldermere/site/enquiry.js",
+      "assets/task-cases/pressline/site/desk.js",
+      "assets/task-cases/pressline/site/overview.js",
+      "assets/task-cases/pressline/site/desk-core.js"
+    ],
+    "all_original_case_bytes_preserved": true,
+    "initial_source_freezes": [
+      {
+        "slug": "handoff",
+        "manifest": {
+          "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/handoff/INITIAL_SOURCE.json",
+          "bytes": 2935,
+          "sha256": "1834e20ec11e30809c12906075b6d8587ea965e5f6ae88bec615edcc4956faca",
+          "snapshot_utc": "2026-10-10T20:39:31.268212+00:00"
+        },
+        "files_verified": 17,
+        "bytes_preserved": true
+      },
+      {
+        "slug": "aldermere",
+        "manifest": {
+          "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/aldermere/INITIAL_SOURCE.json",
+          "bytes": 2978,
+          "sha256": "99e4aa1fd6af29986072d3af16b10bb7761a634db6785a6ab35de74cb5334b88",
+          "snapshot_utc": "2026-10-10T20:39:31.268212+00:00"
+        },
+        "files_verified": 17,
+        "bytes_preserved": true
+      },
+      {
+        "slug": "pressline",
+        "manifest": {
+          "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/pressline/INITIAL_SOURCE.json",
+          "bytes": 2947,
+          "sha256": "54c2e39c6732b1fd11442989c4e59901c3ba6f9d527e4040a3acd2040087a056",
+          "snapshot_utc": "2026-10-10T20:39:31.268212+00:00"
+        },
+        "files_verified": 16,
+        "bytes_preserved": true
+      }
+    ],
+    "copied_font_and_notice_files_match_frozen_input": [
+      "assets/task-cases/handoff/site/fonts/fieldnotes-sans.woff2",
+      "assets/task-cases/handoff/site/fonts/source-serif-4-OFL.txt",
+      "assets/task-cases/handoff/site/fonts/source-sans-3-OFL.txt",
+      "assets/task-cases/handoff/site/fonts/source-serif-4.woff2",
+      "assets/task-cases/pressline/site/fonts/source-sans-3.woff2",
+      "assets/task-cases/pressline/site/fonts/source-sans-3-OFL.txt"
+    ],
+    "new_font_files_with_complete_notices": 3,
+    "new_photograph_files_unchanged_with_provenance": 3,
+    "all_new_copies_match_recorded_originals": true,
+    "jpeg_dimensions_checked": true,
+    "independent_rendered_reviews": {
+      "handoff": {
+        "initial_review": {
+          "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/handoff/INDEPENDENT_REVIEW.md",
+          "bytes": 5108,
+          "sha256": "53c8553b07a4c5042e09df45f1eb0761c3f5de229d04038b98fab0213270304d",
+          "snapshot_utc": "2026-10-10T20:39:31.268212+00:00"
+        },
+        "final_rendered_review": {
+          "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/handoff/FINAL_REVIEW.md",
+          "bytes": 4082,
+          "sha256": "279959afc530764c41772a91d86b5d8244402be0d54d2e14e906ba9130bf5601",
+          "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+        },
+        "review_scope": "Independent capture-only follow-up: 12 opening/full final images, desktop 1440\u00d71000 and phone 390\u00d7844; no browser operations or source inspection",
+        "judgment": "Material initial findings resolved in the final captured routes; bounded local visual demonstration",
+        "owner_acceptance": false,
+        "supplement": "After curation source audit/native phone text confirmed Usingthe brief, the builder added a semantic space; root recaptured both guide sizes and the same critic inspected all four refreshed guide views and acknowledged the prior miss."
+      },
+      "aldermere": {
+        "initial_review": {
+          "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/aldermere/INDEPENDENT_REVIEW.md",
+          "bytes": 6013,
+          "sha256": "38a34d16b54894dd7a2f41123ee38c5896bfccf0c7e56239ee0d081cecfa74d2",
+          "snapshot_utc": "2026-10-10T20:39:31.268212+00:00"
+        },
+        "final_rendered_review": {
+          "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/aldermere/FINAL_REVIEW.md",
+          "bytes": 4802,
+          "sha256": "2600edb2506e69bc54b381667e790c9788f7baee5d0676272a8f22a68511d0f6",
+          "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+        },
+        "review_scope": "Independent capture-only follow-up: 12 opening/full final images, desktop 1440\u00d71000 and phone 390\u00d7844; no browser operations or source inspection",
+        "judgment": "Material initial findings resolved in the final captured routes; bounded local visual demonstration",
+        "owner_acceptance": false
+      },
+      "pressline": {
+        "initial_review": {
+          "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/pressline/INDEPENDENT_REVIEW.md",
+          "bytes": 3976,
+          "sha256": "d35df6881099ff4c10e4b0d2040ce6d696a955009cf288d2857728faa9084b01",
+          "snapshot_utc": "2026-10-10T20:39:31.268212+00:00"
+        },
+        "final_rendered_review": {
+          "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/pressline/FINAL_REVIEW.md",
+          "bytes": 2493,
+          "sha256": "374d29dbefcde3f59a0da81dcfb31d7feb14ff8439397f8922f61fb4e2c80d68",
+          "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+        },
+        "review_scope": "Independent capture-only follow-up: 12 opening/full final images, desktop 1440\u00d71000 and phone 390\u00d7844; no browser operations or source inspection",
+        "judgment": "Material initial findings resolved in the final captured routes; bounded local visual demonstration",
+        "owner_acceptance": false
+      }
+    },
+    "coordinator_browser_evidence": {
+      "status": "Completed native browser task checks; snapshot of coordinator records",
+      "record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/BROWSER_TESTS.json",
+        "bytes": 7769,
+        "sha256": "2288f45e81bcefedcb9e1ee6708c6fe18e0a203e86a04b3dcc972559771fbc5a",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      "passing_behavior_assertions": 37,
+      "per_case": {
+        "handoff": {
+          "passing_behavior_assertions": 12,
+          "assertions": [
+            {
+              "name": "Missing fields reject preparation",
+              "passed": true
+            },
+            {
+              "name": "Prepared exact scope and inputs",
+              "passed": true
+            },
+            {
+              "name": "Save reload restores input and result",
+              "passed": true
+            },
+            {
+              "name": "Edits mark prior brief out of date",
+              "passed": true
+            },
+            {
+              "name": "Reprepare uses changed scope and problem",
+              "passed": true
+            },
+            {
+              "name": "Actual brief UTF8 download",
+              "passed": true
+            },
+            {
+              "name": "Copy places prepared brief on clipboard",
+              "passed": true
+            },
+            {
+              "name": "Cancel reset preserves brief",
+              "passed": true
+            },
+            {
+              "name": "Confirmed reset clears local saved brief",
+              "passed": true
+            },
+            {
+              "name": "Revised guide fixture matches real prepared output",
+              "passed": true
+            },
+            {
+              "name": "Phone result precedes storage controls",
+              "passed": true
+            },
+            {
+              "name": "Guide title preserves words on phone",
+              "passed": true
+            }
+          ]
+        },
+        "aldermere": {
+          "passing_behavior_assertions": 10,
+          "assertions": [
+            {
+              "name": "Empty dates rejected using observed wording",
+              "passed": true
+            },
+            {
+              "name": "Equal dates rejected",
+              "passed": true
+            },
+            {
+              "name": "Estimate updates before preparation",
+              "passed": true
+            },
+            {
+              "name": "Prepared exact choices",
+              "passed": true
+            },
+            {
+              "name": "Save and reload restores enquiry",
+              "passed": true
+            },
+            {
+              "name": "Edit marks prior summary stale with observed wording",
+              "passed": true
+            },
+            {
+              "name": "Actual UTF8 summary download",
+              "passed": true
+            },
+            {
+              "name": "Reset clears saved enquiry",
+              "passed": true
+            },
+            {
+              "name": "Reset survives reload",
+              "passed": true
+            },
+            {
+              "name": "Phone keyboard prepares complete enquiry",
+              "passed": true
+            }
+          ]
+        },
+        "pressline": {
+          "passing_behavior_assertions": 15,
+          "assertions": [
+            {
+              "name": "Blocked view preserves global totals",
+              "passed": true
+            },
+            {
+              "name": "Selection differs from inspected record",
+              "passed": true
+            },
+            {
+              "name": "Negative hours rejected",
+              "passed": true
+            },
+            {
+              "name": "Cancel restores saved hours",
+              "passed": true
+            },
+            {
+              "name": "Saved edit updates totals and preserves outside-view context",
+              "passed": true
+            },
+            {
+              "name": "Exit filter shows all records",
+              "passed": true
+            },
+            {
+              "name": "Empty search has recovery",
+              "passed": true
+            },
+            {
+              "name": "Saved record survives browser reload",
+              "passed": true
+            },
+            {
+              "name": "Reset sample restores original totals",
+              "passed": true
+            },
+            {
+              "name": "Phone return-to-queue action works",
+              "passed": true
+            },
+            {
+              "name": "Different phone record keeps identity",
+              "passed": true
+            },
+            {
+              "name": "Revised desktop save is keyboard reachable and visible",
+              "passed": true
+            },
+            {
+              "name": "Keyboard save updates actual desk",
+              "passed": true
+            },
+            {
+              "name": "Save and cancel visible in unscrolled desktop opening",
+              "passed": true
+            },
+            {
+              "name": "Owner filter reports matching scope",
+              "passed": true
+            }
+          ]
+        }
+      },
+      "corrected_test_selector_mismatches": [
+        {
+          "slug": "aldermere",
+          "name": "Empty dates rejected",
+          "passed": false,
+          "category": "test_selector_mismatch",
+          "resolved": true,
+          "detail": "Initial test assertion expected different error wording; corrected against observed UI. This was a test-selector error."
+        },
+        {
+          "slug": "aldermere",
+          "name": "Edit marks prior summary stale",
+          "passed": false,
+          "category": "test_selector_mismatch",
+          "resolved": true,
+          "detail": "Test selector used exact Stale, observed actual wording Stale \u2014 prepare again; assertion corrected. App state was correct."
+        }
+      ],
+      "correction_meaning": "Two inaccurate exact-text test selectors were corrected against observed UI and corresponding browser assertions passed; original mismatches remain in source record.",
+      "root_render_notes": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/ROOT_RENDER_NOTES.md",
+        "bytes": 3991,
+        "sha256": "e8f996a33d2d496cb8da8698ba82810bbc4cb8107b2ae23912093d033ff6ce97",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      "evidence_boundary": "Coordinator native task checks are separate from curator resource checks, pure-model builder checks and capture-only independent visual reviews."
+    },
+    "errors": [],
+    "evidence_limits": [
+      "Initial source freezes are preserved; every new case needed a targeted revision after its first rendered review.",
+      "The frozen dev.8 builders could use earlier cases and conditional material/density guidance; the three new outputs were absent from their input.",
+      "Independent visual reviews cover the supplied opening/full captures; demo images show initial states and do not prove operations or persistence.",
+      "Handoff phone guide title spacing was corrected after its final image review missed joined words; supplemental source/native-text/capture evidence is recorded separately.",
+      "Resource/syntax checks, native browser checks, independent image review and archive extraction checks are different evidence.",
+      "These are original fictional local examples with no deployment, customer, production, host-support or commercial result."
+    ],
+    "final_source_manifests": [
+      {
+        "slug": "handoff",
+        "manifest": {
+          "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/handoff/FINAL_SOURCE.json",
+          "bytes": 2791,
+          "sha256": "0ef36025f9916ffb67791ff161ae55d6a5584a2f0851504f8fe08d61b3d0683b",
+          "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+        },
+        "files_verified": 18,
+        "bytes_match_manifest": true
+      },
+      {
+        "slug": "aldermere",
+        "manifest": {
+          "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/aldermere/FINAL_SOURCE.json",
+          "bytes": 2760,
+          "sha256": "1eb4fd968f134536530e5ed803990590e634f346340bbeff4ffd85c4d4705a9e",
+          "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+        },
+        "files_verified": 18,
+        "bytes_match_manifest": true
+      },
+      {
+        "slug": "pressline",
+        "manifest": {
+          "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/pressline/FINAL_SOURCE.json",
+          "bytes": 2614,
+          "sha256": "5254e412fc029af09efeeb2fd6476a619ac612417559f2df99d4d44e6a529f82",
+          "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+        },
+        "files_verified": 17,
+        "bytes_match_manifest": true
+      }
+    ],
+    "coordinator_responsive_evidence": {
+      "opening_observation_record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/OBSERVATIONS.json",
+        "bytes": 11128,
+        "sha256": "6ffe1469bb39142fc34a13b6c9e3f7a742200c36a8153c89adc440f77c8c8d90",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      "additional_width_record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/RESPONSIVE.json",
+        "bytes": 23852,
+        "sha256": "6bd9f4fa779e85f3065531220190482c7338f02d792d6ebaf65150ba9c59846a",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      "initial_opening_observations": 18,
+      "final_opening_observations": 18,
+      "additional_final_observations": 72,
+      "additional_observations_per_case": {
+        "handoff": 24,
+        "aldermere": 24,
+        "pressline": 24
+      },
+      "opening_widths": [
+        390,
+        1440
+      ],
+      "additional_widths": [
+        320,
+        559,
+        560,
+        561,
+        719,
+        720,
+        721,
+        749,
+        750,
+        751,
+        768,
+        799,
+        800,
+        801,
+        979,
+        980,
+        981,
+        1049,
+        1050,
+        1051
+      ],
+      "measured_viewport_overflow": false,
+      "broken_loaded_images": 0,
+      "font_status": "loaded",
+      "guide_heading_width_observations_refreshed": 8,
+      "scope": "Specified routes, initial/final opening states and selected task-reflow neighbors; no accessibility certification or all-device claim"
+    },
+    "coordinator_console_evidence": {
+      "record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/BROWSER_LOGS.json",
+        "bytes": 86,
+        "sha256": "61e98ef81b3e5bc3b26a4671e55bdd0132cc55aa77a207a82a004055dbaa31b5",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      "levels": [
+        "warn",
+        "error"
+      ],
+      "returned_entries": 0,
+      "limit": 100
+    },
+    "capture_corpus_evidence": {
+      "record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/CAPTURES.json",
+        "bytes": 21761,
+        "sha256": "c06867547da43100e2415ab66ea7618aaf97e7f4a32394dbe057152ab4b73377",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      "records": 76,
+      "initial_opening_and_full_views": 36,
+      "current_final_opening_and_full_views": 36,
+      "prior_final_handoff_guide_views_retained": 4,
+      "copied_new_final_openings": 18,
+      "retention_note": "Only the six current final opening JPEGs per new case are copied into this Skill; full/initial/earlier-final corpus remains unbundled."
+    },
+    "supplemental_handoff_heading_correction": {
+      "current_source": {
+        "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+        "original_trial_relative_path": "handoff/output/site/guide.html",
+        "bytes": 7193,
+        "sha256": "901010784d235c5e570279fb0e5e983b4464023f905c561b8abb9b3da2ae76f3"
+      },
+      "source_change": "Using<br>the brief \u2192 Using <br>the brief",
+      "actual_phone_heading": "Using the brief",
+      "source_native_text_and_refreshed_capture_checks": true,
+      "independent_critic_rechecked_four_current_guide_images": true,
+      "prior_four_guide_capture_directory_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/handoff/captures/final-before-guide-space",
+      "review": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/handoff/FINAL_REVIEW.md",
+        "bytes": 4082,
+        "sha256": "279959afc530764c41772a91d86b5d8244402be0d54d2e14e906ba9130bf5601",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      "record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/ROOT_RENDER_NOTES.md",
+        "bytes": 3991,
+        "sha256": "e8f996a33d2d496cb8da8698ba82810bbc4cb8107b2ae23912093d033ff6ce97",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      }
+    }
+  }
+}

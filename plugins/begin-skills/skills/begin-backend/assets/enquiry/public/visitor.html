@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Start a conversation · Begin enquiry example</title>
+    <meta
+      name="description"
+      content="A local, working enquiry form with server validation and private owner access."
+    />
+    <link rel="stylesheet" href="/app.css" />
+    <script type="module" src="/visitor.mjs"></script>
+  </head>
+  <body>
+    <header class="shell header">
+      <a class="wordmark" href="/">Begin <span>Field notes / 01</span></a>
+      <nav aria-label="Example views">
+        <a href="/owner">Owner inbox <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <main class="shell visitor-layout">
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">A working enquiry, from end to end</p>
+        <h1 id="page-title">A good conversation starts here.</h1>
+        <p class="lede">
+          A simple way to reach the right person. Tell them a little about what
+          you have in mind.
+        </p>
+        <div class="process" aria-label="How this example works">
+          <span>01 &nbsp; Your note</span><span>02 &nbsp; Saved locally</span
+          ><span>03 &nbsp; A private inbox</span>
+        </div>
+        <aside class="scope">
+          <p class="eyebrow">Local teaching example</p>
+          <p>
+            Use synthetic names and messages. This form saves to the local
+            database. It sends no email and connects to no external service.
+          </p>
+        </aside>
+      </section>
+      <section class="panel" aria-labelledby="form-title">
+        <div class="panel-heading">
+          <p class="eyebrow">Make the first move</p>
+          <h2 id="form-title">What are you thinking about?</h2>
+        </div>
+        <form id="enquiry-form" novalidate>
+          <div class="field">
+            <label for="recipient">Website owner</label
+            ><select id="recipient" name="recipient" required disabled>
+              <option value="">Loading local sites…</option>
+            </select>
+            <p class="hint">
+              The server assigns your message to this site's owner.
+            </p>
+          </div>
+          <div class="field">
+            <label for="name">Your name</label
+            ><input
+              id="name"
+              name="name"
+              autocomplete="name"
+              maxlength="120"
+              required
+            />
+            <p id="name-error" class="field-error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="email">Email address</label
+            ><input
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              maxlength="254"
+              required
+            />
+            <p id="email-error" class="field-error" hidden></p>
+          </div>
+          <div class="field">
+            <label for="message">A little about your idea</label
+            ><textarea
+              id="message"
+              name="message"
+              rows="5"
+              minlength="10"
+              maxlength="4000"
+              required
+              aria-describedby="message-hint"
+            ></textarea>
+            <p id="message-hint" class="hint">
+              10–4,000 characters. Use a synthetic message for this example.
+            </p>
+            <p id="message-error" class="field-error" hidden></p>
+          </div>
+          <button id="submit" type="submit" disabled>
+            Save your enquiry <span aria-hidden="true">→</span>
+          </button>
+          <div
+            id="form-status"
+            class="status"
+            role="status"
+            aria-live="polite"
+            tabindex="-1"
+          ></div>
+        </form>
+      </section>
+    </main>
+    <footer class="shell footer">
+      <span>Professional methods. A small, complete example.</span
+      ><a href="/owner">See the owner view</a>
+    </footer>
+  </body>
+</html>

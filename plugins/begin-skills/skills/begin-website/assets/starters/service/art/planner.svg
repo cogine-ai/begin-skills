@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 440">
+  <rect width="620" height="440" fill="#bcc9e0" />
+  <rect x="56" y="50" width="508" height="340" rx="7" fill="#fafbfe" />
+  <path d="M56 95h508" stroke="#dae2ef" />
+  <circle cx="77" cy="73" r="3" fill="#9eacc6" />
+  <circle cx="89" cy="73" r="3" fill="#9eacc6" />
+  <circle cx="101" cy="73" r="3" fill="#9eacc6" />
+  <text
+    x="285"
+    y="78"
+    fill="#64738e"
+    font-family="Arial,sans-serif"
+    font-size="9"
+  >
+    A LITTLE PLAN
+  </text>
+  <text
+    x="85"
+    y="141"
+    fill="#26344d"
+    font-family="Georgia,serif"
+    font-size="28"
+  >
+    What matters next?
+  </text>
+  <text
+    x="87"
+    y="169"
+    fill="#64738e"
+    font-family="Arial,sans-serif"
+    font-size="10"
+  >
+    Start with one useful thing.
+  </text>
+  <rect x="85" y="193" width="274" height="134" rx="4" fill="#3f63bb" />
+  <g font-family="Arial,sans-serif" fill="#fff">
+    <text x="104" y="219" font-size="8" letter-spacing="1">THE NEXT STEP</text>
+    <text x="104" y="254" font-size="17">Make a first version.</text>
+    <text x="104" y="278" font-size="9">
+      Enough to see what needs to change.
+    </text>
+    <text x="104" y="308" font-size="9">START HERE →</text>
+  </g>
+  <text
+    x="383"
+    y="207"
+    fill="#64738e"
+    font-family="Arial,sans-serif"
+    font-size="8"
+  >
+    NEARBY, FOR LATER
+  </text>
+  <path d="M383 226h148M383 264h148M383 302h148" stroke="#d4ddec" />
+  <g font-family="Arial,sans-serif" fill="#64738e" font-size="9">
+    <text x="383" y="248">Explore another direction</text>
+    <text x="383" y="286">Refine the details</text>
+    <text x="383" y="324">Ask a useful question</text>
+    <text x="85" y="364" font-size="8">ORIGINAL PLANNING TOOL CONCEPT</text>
+  </g>
+</svg>

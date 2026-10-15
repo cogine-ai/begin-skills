@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Original portable website component examples: navigation, page composition, projects, services, forms, FAQ, and recovery states."
+    />
+    <title>Begin — Working component examples</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a href="#" class="brand">begin<span> / components</span></a
+      ><button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="navigation"
+        hidden
+      >
+        Menu +
+      </button>
+      <nav id="navigation" aria-label="Component examples">
+        <a href="#composition">Composition</a><a href="#actions">Actions</a
+        ><a href="#states">States</a>
+      </nav>
+    </header>
+    <main id="main" class="wrap">
+      <section class="intro">
+        <p class="eyebrow">Original working examples</p>
+        <h1>Useful pieces.<br />Thoughtful details.</h1>
+        <p>
+          Browse the interactions, read the notes, and adapt the source to your
+          website. These examples use native HTML, CSS, and JavaScript.
+        </p>
+      </section>
+      <section id="composition" class="section">
+        <div class="section-title">
+          <h2>Page composition</h2>
+          <p>Use hierarchy and content before reaching for another card.</p>
+        </div>
+        <article class="example">
+          <div class="example-label">
+            <h3>Navigation and hero</h3>
+            <span>Responsive menu · Visible focus</span>
+          </div>
+          <div class="hero-example">
+            <p class="eyebrow">A specific offer</p>
+            <h3>Make your next idea<br />a little clearer.</h3>
+            <p>
+              A useful introduction names the audience, explains the offer, and
+              gives the visitor a clear next step.
+            </p>
+            <a href="#actions" class="button">Explore the action examples ↗</a>
+          </div>
+          <p class="implementation-note">
+            The header on this page is the navigation example. Its menu works on
+            small screens, supports Escape, and remains readable without
+            JavaScript.
+          </p>
+        </article>
+        <article class="example">
+          <div class="example-label">
+            <h3>Project and service presentation</h3>
+            <span>Content structure · Native disclosure</span>
+          </div>
+          <div class="content-example">
+            <article class="project-card">
+              <div class="project-art" aria-hidden="true">
+                <span>A useful<br /><em>next step.</em></span
+                ><i></i>
+              </div>
+              <p class="eyebrow">Self-initiated example</p>
+              <h4>Make the choice easier.</h4>
+              <p>
+                A short description explains the project’s question. The detail
+                explains a concrete design decision.
+              </p>
+              <details>
+                <summary>Read the design choice<span>+</span></summary>
+                <p>
+                  The central action has one clear place. Secondary detail stays
+                  nearby, without competing for attention.
+                </p>
+              </details>
+            </article>
+            <div class="service-list">
+              <article>
+                <h4>Find the direction</h4>
+                <p>
+                  Organize the audience, content, and central action before
+                  making the page.
+                </p>
+              </article>
+              <article>
+                <h4>Make it tangible</h4>
+                <p>
+                  Use a real preview to see what the content and interactions
+                  need.
+                </p>
+              </article>
+              <article>
+                <h4>Refine the detail</h4>
+                <p>
+                  Check phone layouts, keyboard use, missing content, and the
+                  visitor’s next step.
+                </p>
+              </article>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="actions" class="section">
+        <div class="section-title">
+          <h2>Visitor actions</h2>
+          <p>Make the next step clear and explain the result truthfully.</p>
+        </div>
+        <article class="example">
+          <div class="example-label">
+            <h3>Contact action</h3>
+            <span>Explicit fixture destination</span>
+          </div>
+          <div class="cta-example">
+            <div>
+              <p class="eyebrow">Something in mind?</p>
+              <h4>Start a useful conversation.</h4>
+              <p>
+                Say what the visitor can bring and where the action will take
+                them.
+              </p>
+            </div>
+            <a href="mailto:hello@example.com" class="button" data-begin-contact
+              >Let’s talk ↗</a
+            >
+          </div>
+          <p class="implementation-note">
+            This destination is a fixture. Configure a real recipient before
+            publishing. A mail link opening does not establish email delivery.
+          </p>
+        </article>
+        <article class="example">
+          <div class="example-label">
+            <h3>Form validation and a real next step</h3>
+            <span>No receiving service · No fake success</span>
+          </div>
+          <div class="form-example">
+            <form id="sample-form" novalidate>
+              <div class="field">
+                <label for="sample-name">Your name</label
+                ><input
+                  id="sample-name"
+                  name="name"
+                  autocomplete="name"
+                  required
+                  maxlength="100"
+                  aria-describedby="name-error"
+                /><span class="field-error" id="name-error" hidden></span>
+              </div>
+              <div class="field">
+                <label for="sample-email">Your email</label
+                ><input
+                  id="sample-email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  maxlength="254"
+                  aria-describedby="email-error"
+                /><span class="field-error" id="email-error" hidden></span>
+              </div>
+              <div class="field">
+                <label for="sample-message">What would you like to make?</label
+                ><textarea
+                  id="sample-message"
+                  name="message"
+                  rows="3"
+                  required
+                  maxlength="2000"
+                  aria-describedby="message-error"
+                ></textarea
+                ><span class="field-error" id="message-error" hidden></span>
+              </div>
+              <button class="button" type="submit" disabled>
+                Check this sample
+              </button>
+              <p
+                id="form-result"
+                class="status-message"
+                role="status"
+                hidden
+              ></p>
+            </form>
+            <aside>
+              <h4>A useful form needs a destination.</h4>
+              <p>
+                This form validates locally. It does not send or save messages.
+                For a live form, connect a receiving service and handle server
+                validation, receipt, failure, and retry.
+              </p>
+              <p>
+                Visitor input is rendered as text. Required fields have visible
+                labels and specific errors.
+              </p>
+              <noscript
+                ><p>
+                  JavaScript is disabled. This sample’s check button will not
+                  send a message.
+                </p></noscript
+              >
+            </aside>
+          </div>
+        </article>
+      </section>
+      <section id="states" class="section">
+        <div class="section-title">
+          <h2>States and recovery</h2>
+          <p>Tell people what happened and give them a useful next action.</p>
+        </div>
+        <article class="example">
+          <div class="example-label">
+            <h3>Loading, empty, error, and success</h3>
+            <span>Explicit state demonstrations</span>
+          </div>
+          <div
+            class="state-controls"
+            role="group"
+            aria-label="Choose a sample state"
+          >
+            <button type="button" data-state="empty" aria-pressed="true">
+              Empty</button
+            ><button type="button" data-state="loading" aria-pressed="false">
+              Loading</button
+            ><button type="button" data-state="error" aria-pressed="false">
+              Error</button
+            ><button type="button" data-state="success" aria-pressed="false">
+              Success
+            </button>
+          </div>
+          <div
+            class="state-demo"
+            id="state-demo"
+            role="status"
+            aria-live="polite"
+          >
+            <strong>No examples selected.</strong>
+            <p>Choose a sample state above to inspect its message.</p>
+          </div>
+          <p class="implementation-note">
+            These controls display sample messages. They do not represent a
+            network request or a completed submission.
+          </p>
+        </article>
+        <article class="example">
+          <div class="example-label">
+            <h3>Image failure</h3>
+            <span>Stable space · Useful fallback</span>
+          </div>
+          <div class="media-example">
+            <div class="image-frame">
+              <img
+                id="sample-image"
+                src="sample-art.svg"
+                alt="Original diagram with a green arch, a blue circle, and a clear composition"
+                width="660"
+                height="390"
+              />
+              <div class="image-fallback" hidden>
+                <strong>The illustration is unavailable.</strong
+                ><span
+                  >The description and action remain usable. Try loading it
+                  again.</span
+                >
+              </div>
+            </div>
+            <div>
+              <h4>Keep the content useful.</h4>
+              <p>
+                An optional image should not take the whole page with it.
+                Preserve its space and provide a useful description.
+              </p>
+              <button type="button" class="secondary-button" id="break-image">
+                Show missing image</button
+              ><button
+                type="button"
+                class="secondary-button"
+                id="restore-image"
+              >
+                Try loading again
+              </button>
+              <p class="visually-hidden" id="image-status" role="status"></p>
+            </div>
+          </div>
+        </article>
+        <article class="example">
+          <div class="example-label">
+            <h3>Questions and answers</h3>
+            <span>Native keyboard-friendly disclosure</span>
+          </div>
+          <details class="faq">
+            <summary>Does this need a UI library?<span>+</span></summary>
+            <p>
+              No. This collection uses browser-native elements and a small
+              amount of JavaScript.
+            </p>
+          </details>
+          <details class="faq">
+            <summary>How should I adapt the components?<span>+</span></summary>
+            <p>
+              Start with the website’s content, visual direction, and action.
+              Keep the semantics and recovery behavior while changing the layout
+              and styling.
+            </p>
+          </details>
+        </article>
+      </section>
+    </main>
+    <footer class="wrap">
+      <span>Original examples by Begin. No third-party runtime assets.</span
+      ><a href="#">Back to top ↑</a>
+    </footer>
+  </body>
+</html>

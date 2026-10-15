@@ -1,0 +1,4922 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-11",
+  "input_version": "0.1.0-dev.14",
+  "source_files": 51,
+  "native_openings": 18,
+  "font_binaries": 7,
+  "preserved": {
+    "archives": 28,
+    "assets": 543,
+    "references": 15
+  },
+  "initial_native_tasks": {
+    "tide-club": {
+      "path": "downloads/tide-club-plan.txt",
+      "bytes": 442,
+      "sha256": "58a92ff3a994ea5e06fd624978e0671028cbc51aff57f61990059c9a8b2f6661",
+      "expected": "EXPECTED_PLAN.txt",
+      "exact_match": true,
+      "fixture": "Native actual checkboxes, supplied title and note; prepared totals, stale export disabled, kept reload recovery, reset preserves kept, forget removes kept inspected."
+    },
+    "margin-press": {
+      "path": "downloads/margin-press-reading-shelf.txt",
+      "bytes": 586,
+      "sha256": "99d70f889a0ebb998658f3bbc26f7fc24eaf1b92e86e251a8ae9ccdc521337ef",
+      "expected": "FIXTURE.txt",
+      "exact_match": true,
+      "fixture": "Native actual checkboxes, supplied title and note; prepared totals, stale export disabled, kept reload recovery, reset preserves kept, forget removes kept inspected."
+    },
+    "open-form": {
+      "path": "downloads/open-form-route.txt",
+      "bytes": 956,
+      "sha256": "e6b0043eb8215c253d428fe1d757def8bcfd0a405a14f7921673c2043d48be16",
+      "expected": "site/fixture-route.txt",
+      "exact_match": true,
+      "fixture": "Native actual checkboxes, supplied title and note; prepared totals, stale export disabled, kept reload recovery, reset preserves kept, forget removes kept inspected."
+    }
+  },
+  "final_native_tasks": [
+    {
+      "slug": "tide-club",
+      "phase": "final",
+      "actualNativeActions": true,
+      "displayTextEqualsFixture": true,
+      "downloadEqualsFixture": true,
+      "downloadPath": "downloads/final-tide-club.txt",
+      "downloadBytes": 442,
+      "downloadSha256": "58a92ff3a994ea5e06fd624978e0671028cbc51aff57f61990059c9a8b2f6661",
+      "stale": {
+        "keepBlocked": true,
+        "downloadBlocked": true,
+        "earlierTextPreserved": true
+      },
+      "recoverAvailable": true,
+      "recovered": true,
+      "resetKeptAvailable": true,
+      "forgotten": true
+    },
+    {
+      "slug": "margin-press",
+      "phase": "final",
+      "actualNativeActions": true,
+      "displayTextEqualsFixture": true,
+      "downloadEqualsFixture": true,
+      "downloadPath": "downloads/final-margin-press.txt",
+      "downloadBytes": 586,
+      "downloadSha256": "99d70f889a0ebb998658f3bbc26f7fc24eaf1b92e86e251a8ae9ccdc521337ef",
+      "stale": {
+        "keepBlocked": true,
+        "downloadBlocked": true,
+        "earlierTextPreserved": true
+      },
+      "recoverAvailable": true,
+      "recovered": true,
+      "resetKeptAvailable": true,
+      "forgotten": true
+    },
+    {
+      "slug": "open-form",
+      "phase": "final-2",
+      "actualNativeActions": true,
+      "displayTextEqualsFixture": true,
+      "downloadEqualsFixture": true,
+      "downloadPath": "downloads/final-open-form.txt",
+      "downloadBytes": 956,
+      "downloadSha256": "e6b0043eb8215c253d428fe1d757def8bcfd0a405a14f7921673c2043d48be16",
+      "stale": {
+        "keepBlocked": true,
+        "downloadBlocked": true,
+        "earlierTextPreserved": true
+      },
+      "recoverAvailable": true,
+      "recovered": true,
+      "resetKeptAvailable": true,
+      "forgotten": true
+    }
+  ],
+  "responsive": [
+    {
+      "slug": "margin-press",
+      "page": "home",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "84.48px",
+          "text": "Margin\nPress",
+          "weight": "450"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "15px",
+          "text": "Our first five editions",
+          "weight": "600"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "43px",
+          "text": "A little room\nfor another voice",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/index.html",
+      "width": 320
+    },
+    {
+      "slug": "margin-press",
+      "page": "demo",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "43px",
+          "text": "Your reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Make it yours",
+          "weight": "500"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "15px",
+          "text": "Your prepared list",
+          "weight": "600"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/demo.html",
+      "width": 320
+    },
+    {
+      "slug": "margin-press",
+      "page": "guide",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "42px",
+          "text": "Three books,\none reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "01\nChoose your three books",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "02\nPrepare and inspect",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "03\nKeep, then make a change",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "04\nRestore the kept shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "05\nDownload and finish",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "Shelf reference",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/guide.html",
+      "width": 320
+    },
+    {
+      "slug": "margin-press",
+      "page": "home",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "100.056px",
+          "text": "Margin\nPress",
+          "weight": "450"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "15px",
+          "text": "Our first five editions",
+          "weight": "600"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "43px",
+          "text": "A little room\nfor another voice",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/index.html",
+      "width": 379
+    },
+    {
+      "slug": "margin-press",
+      "page": "demo",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "43px",
+          "text": "Your reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Make it yours",
+          "weight": "500"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "15px",
+          "text": "Your prepared list",
+          "weight": "600"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/demo.html",
+      "width": 379
+    },
+    {
+      "slug": "margin-press",
+      "page": "guide",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "42px",
+          "text": "Three books,\none reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "01\nChoose your three books",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "02\nPrepare and inspect",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "03\nKeep, then make a change",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "04\nRestore the kept shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "05\nDownload and finish",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "Shelf reference",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/guide.html",
+      "width": 379
+    },
+    {
+      "slug": "margin-press",
+      "page": "home",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "100.32px",
+          "text": "Margin\nPress",
+          "weight": "450"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "15px",
+          "text": "Our first five editions",
+          "weight": "600"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "43px",
+          "text": "A little room\nfor another voice",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/index.html",
+      "width": 380
+    },
+    {
+      "slug": "margin-press",
+      "page": "demo",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "43px",
+          "text": "Your reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Make it yours",
+          "weight": "500"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "15px",
+          "text": "Your prepared list",
+          "weight": "600"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/demo.html",
+      "width": 380
+    },
+    {
+      "slug": "margin-press",
+      "page": "guide",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "42px",
+          "text": "Three books,\none reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "01\nChoose your three books",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "02\nPrepare and inspect",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "03\nKeep, then make a change",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "04\nRestore the kept shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "05\nDownload and finish",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "Shelf reference",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/guide.html",
+      "width": 380
+    },
+    {
+      "slug": "margin-press",
+      "page": "home",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "101.346px",
+          "text": "Margin\nPress",
+          "weight": "450"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "15px",
+          "text": "Our first five editions",
+          "weight": "600"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "43px",
+          "text": "A little room\nfor another voice",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/index.html",
+      "width": 381
+    },
+    {
+      "slug": "margin-press",
+      "page": "demo",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "48px",
+          "text": "Your reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Make it yours",
+          "weight": "500"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "15px",
+          "text": "Your prepared list",
+          "weight": "600"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/demo.html",
+      "width": 381
+    },
+    {
+      "slug": "margin-press",
+      "page": "guide",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "47px",
+          "text": "Three books,\none reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "01\nChoose your three books",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "02\nPrepare and inspect",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "03\nKeep, then make a change",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "04\nRestore the kept shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "05\nDownload and finish",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "Shelf reference",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/guide.html",
+      "width": 381
+    },
+    {
+      "slug": "margin-press",
+      "page": "home",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "103.74px",
+          "text": "Margin\nPress",
+          "weight": "450"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "15px",
+          "text": "Our first five editions",
+          "weight": "600"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "43px",
+          "text": "A little room\nfor another voice",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/index.html",
+      "width": 390
+    },
+    {
+      "slug": "margin-press",
+      "page": "demo",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "48px",
+          "text": "Your reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Make it yours",
+          "weight": "500"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "15px",
+          "text": "Your prepared list",
+          "weight": "600"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/demo.html",
+      "width": 390
+    },
+    {
+      "slug": "margin-press",
+      "page": "guide",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "47px",
+          "text": "Three books,\none reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "01\nChoose your three books",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "02\nPrepare and inspect",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "03\nKeep, then make a change",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "04\nRestore the kept shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "05\nDownload and finish",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "Shelf reference",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/guide.html",
+      "width": 390
+    },
+    {
+      "slug": "margin-press",
+      "page": "home",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "166px",
+          "text": "Margin\nPress",
+          "weight": "450"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "15px",
+          "text": "Our first five editions",
+          "weight": "600"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "43px",
+          "text": "A little room\nfor another voice",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/index.html",
+      "width": 699
+    },
+    {
+      "slug": "margin-press",
+      "page": "demo",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "48px",
+          "text": "Your reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Make it yours",
+          "weight": "500"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "15px",
+          "text": "Your prepared list",
+          "weight": "600"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/demo.html",
+      "width": 699
+    },
+    {
+      "slug": "margin-press",
+      "page": "guide",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "47px",
+          "text": "Three books,\none reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "01\nChoose your three books",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "02\nPrepare and inspect",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "03\nKeep, then make a change",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "04\nRestore the kept shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "05\nDownload and finish",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "Shelf reference",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/guide.html",
+      "width": 699
+    },
+    {
+      "slug": "margin-press",
+      "page": "home",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "166px",
+          "text": "Margin\nPress",
+          "weight": "450"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "15px",
+          "text": "Our first five editions",
+          "weight": "600"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "43px",
+          "text": "A little room\nfor another voice",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/index.html",
+      "width": 700
+    },
+    {
+      "slug": "margin-press",
+      "page": "demo",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "48px",
+          "text": "Your reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Make it yours",
+          "weight": "500"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "15px",
+          "text": "Your prepared list",
+          "weight": "600"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/demo.html",
+      "width": 700
+    },
+    {
+      "slug": "margin-press",
+      "page": "guide",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "47px",
+          "text": "Three books,\none reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "01\nChoose your three books",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "02\nPrepare and inspect",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "03\nKeep, then make a change",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "04\nRestore the kept shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "05\nDownload and finish",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "Shelf reference",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/guide.html",
+      "width": 700
+    },
+    {
+      "slug": "margin-press",
+      "page": "home",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "110.758px",
+          "text": "Margin Press",
+          "weight": "450"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "16px",
+          "text": "Our first five editions",
+          "weight": "600"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "44px",
+          "text": "A little room\nfor another voice",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/index.html",
+      "width": 701
+    },
+    {
+      "slug": "margin-press",
+      "page": "demo",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "44px",
+          "text": "Your reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "Make it yours",
+          "weight": "500"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "16px",
+          "text": "Your prepared list",
+          "weight": "600"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/demo.html",
+      "width": 701
+    },
+    {
+      "slug": "margin-press",
+      "page": "guide",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "56px",
+          "text": "Three books,\none reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "01 Choose your three books",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "02 Prepare and inspect",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "03 Keep, then make a change",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "04 Restore the kept shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "05 Download and finish",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "Shelf reference",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/guide.html",
+      "width": 701
+    },
+    {
+      "slug": "margin-press",
+      "page": "home",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "121.344px",
+          "text": "Margin Press",
+          "weight": "450"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "16px",
+          "text": "Our first five editions",
+          "weight": "600"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "44px",
+          "text": "A little room\nfor another voice",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/index.html",
+      "width": 768
+    },
+    {
+      "slug": "margin-press",
+      "page": "demo",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "44px",
+          "text": "Your reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "Make it yours",
+          "weight": "500"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "16px",
+          "text": "Your prepared list",
+          "weight": "600"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/demo.html",
+      "width": 768
+    },
+    {
+      "slug": "margin-press",
+      "page": "guide",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "56px",
+          "text": "Three books,\none reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "01 Choose your three books",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "02 Prepare and inspect",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "03 Keep, then make a change",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "04 Restore the kept shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "05 Download and finish",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "Shelf reference",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/guide.html",
+      "width": 768
+    },
+    {
+      "slug": "margin-press",
+      "page": "home",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "157.842px",
+          "text": "Margin Press",
+          "weight": "450"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "16px",
+          "text": "Our first five editions",
+          "weight": "600"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "49.95px",
+          "text": "A little room\nfor another voice",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/index.html",
+      "width": 999
+    },
+    {
+      "slug": "margin-press",
+      "page": "demo",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "49.95px",
+          "text": "Your reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "Make it yours",
+          "weight": "500"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "16px",
+          "text": "Your prepared list",
+          "weight": "600"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/demo.html",
+      "width": 999
+    },
+    {
+      "slug": "margin-press",
+      "page": "guide",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "56px",
+          "text": "Three books,\none reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "01 Choose your three books",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "02 Prepare and inspect",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "03 Keep, then make a change",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "04 Restore the kept shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "05 Download and finish",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "Shelf reference",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/guide.html",
+      "width": 999
+    },
+    {
+      "slug": "margin-press",
+      "page": "home",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "158px",
+          "text": "Margin Press",
+          "weight": "450"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "16px",
+          "text": "Our first five editions",
+          "weight": "600"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "50px",
+          "text": "A little room\nfor another voice",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/index.html",
+      "width": 1000
+    },
+    {
+      "slug": "margin-press",
+      "page": "demo",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "50px",
+          "text": "Your reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "Make it yours",
+          "weight": "500"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "16px",
+          "text": "Your prepared list",
+          "weight": "600"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/demo.html",
+      "width": 1000
+    },
+    {
+      "slug": "margin-press",
+      "page": "guide",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "56px",
+          "text": "Three books,\none reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "01\nChoose your three books",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "02\nPrepare and inspect",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "03\nKeep, then make a change",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "04\nRestore the kept shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "05\nDownload and finish",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "Shelf reference",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/guide.html",
+      "width": 1000
+    },
+    {
+      "slug": "margin-press",
+      "page": "home",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "159.159px",
+          "text": "Margin Press",
+          "weight": "450"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "16px",
+          "text": "Our first five editions",
+          "weight": "600"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "50.05px",
+          "text": "A little room\nfor another voice",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/index.html",
+      "width": 1001
+    },
+    {
+      "slug": "margin-press",
+      "page": "demo",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "50.05px",
+          "text": "Your reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "Make it yours",
+          "weight": "500"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "16px",
+          "text": "Your prepared list",
+          "weight": "600"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/demo.html",
+      "width": 1001
+    },
+    {
+      "slug": "margin-press",
+      "page": "guide",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "66px",
+          "text": "Three books,\none reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "01\nChoose your three books",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "02\nPrepare and inspect",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "03\nKeep, then make a change",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "04\nRestore the kept shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "05\nDownload and finish",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "Shelf reference",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/guide.html",
+      "width": 1001
+    },
+    {
+      "slug": "margin-press",
+      "page": "home",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "216px",
+          "text": "Margin Press",
+          "weight": "450"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "16px",
+          "text": "Our first five editions",
+          "weight": "600"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "70px",
+          "text": "A little room\nfor another voice",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/index.html",
+      "width": 1440
+    },
+    {
+      "slug": "margin-press",
+      "page": "demo",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "72px",
+          "text": "Your reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "Make it yours",
+          "weight": "500"
+        },
+        {
+          "family": "\"Source Sans 3\", Arial, sans-serif",
+          "font_check": true,
+          "size": "16px",
+          "text": "Your prepared list",
+          "weight": "600"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/demo.html",
+      "width": 1440
+    },
+    {
+      "slug": "margin-press",
+      "page": "guide",
+      "phase": "final",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "66px",
+          "text": "Three books,\none reading shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "01\nChoose your three books",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "02\nPrepare and inspect",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "03\nKeep, then make a change",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "04\nRestore the kept shelf",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "05\nDownload and finish",
+          "weight": "500"
+        },
+        {
+          "family": "\"Bodoni Moda\", Georgia, serif",
+          "font_check": true,
+          "size": "36px",
+          "text": "Shelf reference",
+          "weight": "500"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/margin-press/site/guide.html",
+      "width": 1440
+    },
+    {
+      "slug": "tide-club",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "70px",
+          "text": "FIND YOUR\nFLOW",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "ONE LENGTH AT A TIME",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "43px",
+          "text": "GOOD TECHNIQUE\nHAS ROOM TO GROW",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/index.html",
+      "width": 320
+    },
+    {
+      "slug": "tide-club",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "47px",
+          "text": "BUILD YOUR\nSATURDAY",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "33px",
+          "text": "YOUR CLINIC PLAN",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/demo.html",
+      "width": 320
+    },
+    {
+      "slug": "tide-club",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "47px",
+          "text": "TAKE IT\nTO THE POOL",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "01\nCHOOSE SESSIONS",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "02\nPREPARE AND CHECK",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "03\nKEEP OR DOWNLOAD",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "04\nRECOVER YOUR PLAN",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "05\nCHANGE OR RESET",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "06\nYOUR PLAN STAYS HERE",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/guide.html",
+      "width": 320
+    },
+    {
+      "slug": "tide-club",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "78.78px",
+          "text": "FIND YOUR\nFLOW",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "ONE LENGTH AT A TIME",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "43px",
+          "text": "GOOD TECHNIQUE\nHAS ROOM TO GROW",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/index.html",
+      "width": 390
+    },
+    {
+      "slug": "tide-club",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "48.75px",
+          "text": "BUILD YOUR\nSATURDAY",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "33px",
+          "text": "YOUR CLINIC PLAN",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/demo.html",
+      "width": 390
+    },
+    {
+      "slug": "tide-club",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "48.75px",
+          "text": "TAKE IT\nTO THE POOL",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "01\nCHOOSE SESSIONS",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "02\nPREPARE AND CHECK",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "03\nKEEP OR DOWNLOAD",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "04\nRECOVER YOUR PLAN",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "05\nCHANGE OR RESET",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "06\nYOUR PLAN STAYS HERE",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/guide.html",
+      "width": 390
+    },
+    {
+      "slug": "tide-club",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "128px",
+          "text": "FIND YOUR\nFLOW",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "ONE LENGTH AT A TIME",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "43px",
+          "text": "GOOD TECHNIQUE\nHAS ROOM TO GROW",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/index.html",
+      "width": 639
+    },
+    {
+      "slug": "tide-club",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "68px",
+          "text": "BUILD YOUR\nSATURDAY",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "33px",
+          "text": "YOUR CLINIC PLAN",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/demo.html",
+      "width": 639
+    },
+    {
+      "slug": "tide-club",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "68px",
+          "text": "TAKE IT\nTO THE POOL",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "01\nCHOOSE SESSIONS",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "02\nPREPARE AND CHECK",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "03\nKEEP OR DOWNLOAD",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "04\nRECOVER YOUR PLAN",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "05\nCHANGE OR RESET",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "06\nYOUR PLAN STAYS HERE",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/guide.html",
+      "width": 639
+    },
+    {
+      "slug": "tide-club",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "128px",
+          "text": "FIND YOUR\nFLOW",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "ONE LENGTH AT A TIME",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "43px",
+          "text": "GOOD TECHNIQUE\nHAS ROOM TO GROW",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/index.html",
+      "width": 640
+    },
+    {
+      "slug": "tide-club",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "68px",
+          "text": "BUILD YOUR\nSATURDAY",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "33px",
+          "text": "YOUR CLINIC PLAN",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/demo.html",
+      "width": 640
+    },
+    {
+      "slug": "tide-club",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "68px",
+          "text": "TAKE IT\nTO THE POOL",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "01\nCHOOSE SESSIONS",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "02\nPREPARE AND CHECK",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "03\nKEEP OR DOWNLOAD",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "04\nRECOVER YOUR PLAN",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "05\nCHANGE OR RESET",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "31px",
+          "text": "06\nYOUR PLAN STAYS HERE",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/guide.html",
+      "width": 640
+    },
+    {
+      "slug": "tide-club",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "89.74px",
+          "text": "FIND YOUR\nFLOW",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "ONE LENGTH AT A TIME",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "44px",
+          "text": "GOOD TECHNIQUE\nHAS ROOM TO GROW",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/index.html",
+      "width": 641
+    },
+    {
+      "slug": "tide-club",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "55px",
+          "text": "BUILD YOUR\nSATURDAY",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "44px",
+          "text": "YOUR CLINIC PLAN",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/demo.html",
+      "width": 641
+    },
+    {
+      "slug": "tide-club",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "55px",
+          "text": "TAKE IT\nTO THE POOL",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "01\nCHOOSE SESSIONS",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "02\nPREPARE AND CHECK",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "03\nKEEP OR DOWNLOAD",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "04\nRECOVER YOUR PLAN",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "05\nCHANGE OR RESET",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "06\nYOUR PLAN STAYS HERE",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/guide.html",
+      "width": 641
+    },
+    {
+      "slug": "tide-club",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "107.52px",
+          "text": "FIND YOUR\nFLOW",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "38.4px",
+          "text": "ONE LENGTH AT A TIME",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "46.08px",
+          "text": "GOOD TECHNIQUE\nHAS ROOM TO GROW",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/index.html",
+      "width": 768
+    },
+    {
+      "slug": "tide-club",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "57.6px",
+          "text": "BUILD YOUR\nSATURDAY",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "44px",
+          "text": "YOUR CLINIC PLAN",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/demo.html",
+      "width": 768
+    },
+    {
+      "slug": "tide-club",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "57.6px",
+          "text": "TAKE IT\nTO THE POOL",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "01\nCHOOSE SESSIONS",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "02\nPREPARE AND CHECK",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "03\nKEEP OR DOWNLOAD",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "04\nRECOVER YOUR PLAN",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "05\nCHANGE OR RESET",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "06\nYOUR PLAN STAYS HERE",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/guide.html",
+      "width": 768
+    },
+    {
+      "slug": "tide-club",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "125.86px",
+          "text": "FIND YOUR\nFLOW",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "44.95px",
+          "text": "ONE LENGTH AT A TIME",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "53.94px",
+          "text": "GOOD TECHNIQUE\nHAS ROOM TO GROW",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/index.html",
+      "width": 899
+    },
+    {
+      "slug": "tide-club",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "67.425px",
+          "text": "BUILD YOUR\nSATURDAY",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "44px",
+          "text": "YOUR CLINIC PLAN",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/demo.html",
+      "width": 899
+    },
+    {
+      "slug": "tide-club",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "67.425px",
+          "text": "TAKE IT\nTO THE POOL",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "01\nCHOOSE SESSIONS",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "02\nPREPARE AND CHECK",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "03\nKEEP OR DOWNLOAD",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "04\nRECOVER YOUR PLAN",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "05\nCHANGE OR RESET",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "06\nYOUR PLAN STAYS HERE",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/guide.html",
+      "width": 899
+    },
+    {
+      "slug": "tide-club",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "126px",
+          "text": "FIND YOUR\nFLOW",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "45px",
+          "text": "ONE LENGTH AT A TIME",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "54px",
+          "text": "GOOD TECHNIQUE\nHAS ROOM TO GROW",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/index.html",
+      "width": 900
+    },
+    {
+      "slug": "tide-club",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "67.5px",
+          "text": "BUILD YOUR\nSATURDAY",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "44px",
+          "text": "YOUR CLINIC PLAN",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/demo.html",
+      "width": 900
+    },
+    {
+      "slug": "tide-club",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "67.5px",
+          "text": "TAKE IT\nTO THE POOL",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "01\nCHOOSE SESSIONS",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "02\nPREPARE AND CHECK",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "03\nKEEP OR DOWNLOAD",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "04\nRECOVER YOUR PLAN",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "05\nCHANGE OR RESET",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "06\nYOUR PLAN STAYS HERE",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/guide.html",
+      "width": 900
+    },
+    {
+      "slug": "tide-club",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "113.526px",
+          "text": "FIND YOUR\nFLOW",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "45.05px",
+          "text": "ONE LENGTH AT A TIME",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "54.06px",
+          "text": "GOOD TECHNIQUE\nHAS ROOM TO GROW",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/index.html",
+      "width": 901
+    },
+    {
+      "slug": "tide-club",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "60px",
+          "text": "BUILD YOUR\nSATURDAY",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "44px",
+          "text": "YOUR CLINIC PLAN",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/demo.html",
+      "width": 901
+    },
+    {
+      "slug": "tide-club",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "60px",
+          "text": "TAKE IT\nTO THE POOL",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "01\nCHOOSE SESSIONS",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "02\nPREPARE AND CHECK",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "03\nKEEP OR DOWNLOAD",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "04\nRECOVER YOUR PLAN",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "05\nCHANGE OR RESET",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "06\nYOUR PLAN STAYS HERE",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/guide.html",
+      "width": 901
+    },
+    {
+      "slug": "tide-club",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "113.652px",
+          "text": "FIND YOUR\nFLOW",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "45.1px",
+          "text": "ONE LENGTH AT A TIME",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "54.12px",
+          "text": "GOOD TECHNIQUE\nHAS ROOM TO GROW",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/index.html",
+      "width": 902
+    },
+    {
+      "slug": "tide-club",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "60px",
+          "text": "BUILD YOUR\nSATURDAY",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "44px",
+          "text": "YOUR CLINIC PLAN",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/demo.html",
+      "width": 902
+    },
+    {
+      "slug": "tide-club",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "60px",
+          "text": "TAKE IT\nTO THE POOL",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "01\nCHOOSE SESSIONS",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "02\nPREPARE AND CHECK",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "03\nKEEP OR DOWNLOAD",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "04\nRECOVER YOUR PLAN",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "05\nCHANGE OR RESET",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "06\nYOUR PLAN STAYS HERE",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/guide.html",
+      "width": 902
+    },
+    {
+      "slug": "tide-club",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "181.44px",
+          "text": "FIND YOUR\nFLOW",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "68px",
+          "text": "ONE LENGTH AT A TIME",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "84px",
+          "text": "GOOD TECHNIQUE\nHAS ROOM TO GROW",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/index.html",
+      "width": 1440
+    },
+    {
+      "slug": "tide-club",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "82px",
+          "text": "BUILD YOUR\nSATURDAY",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "44px",
+          "text": "YOUR CLINIC PLAN",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/demo.html",
+      "width": 1440
+    },
+    {
+      "slug": "tide-club",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Anton, Impact, sans-serif",
+          "font_check": true,
+          "size": "82px",
+          "text": "TAKE IT\nTO THE POOL",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "01\nCHOOSE SESSIONS",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "02\nPREPARE AND CHECK",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "03\nKEEP OR DOWNLOAD",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "04\nRECOVER YOUR PLAN",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "05\nCHANGE OR RESET",
+          "weight": "400"
+        },
+        {
+          "family": "Anton, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "06\nYOUR PLAN STAYS HERE",
+          "weight": "400"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/tide-club/site/guide.html",
+      "width": 1440
+    },
+    {
+      "slug": "open-form",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "OPEN\nFORM",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "32px",
+          "text": "The programme",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "37px",
+          "text": "Leave with ink on your hands",
+          "weight": "700"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/index.html",
+      "width": 320
+    },
+    {
+      "slug": "open-form",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "Your workshop route",
+          "weight": "650"
+        },
+        {
+          "family": "\"DM Sans\", Arial, sans-serif",
+          "font_check": true,
+          "size": "21px",
+          "text": "Choose your sessions",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30px",
+          "text": "Make it yours",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30px",
+          "text": "Prepared route",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/demo.html",
+      "width": 320
+    },
+    {
+      "slug": "open-form",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "42px",
+          "text": "Make room\nfor making",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "24px",
+          "text": "In this guide",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "27px",
+          "text": "Try a four-session route",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "27px",
+          "text": "Resolve an overlap",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "27px",
+          "text": "Keep, recover & export",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "27px",
+          "text": "Local data & limits",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/guide.html",
+      "width": 320
+    },
+    {
+      "slug": "open-form",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "OPEN\nFORM",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "33.21px",
+          "text": "The programme",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "37px",
+          "text": "Leave with ink on your hands",
+          "weight": "700"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/index.html",
+      "width": 369
+    },
+    {
+      "slug": "open-form",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "Your workshop route",
+          "weight": "650"
+        },
+        {
+          "family": "\"DM Sans\", Arial, sans-serif",
+          "font_check": true,
+          "size": "21px",
+          "text": "Choose your sessions",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30px",
+          "text": "Make it yours",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30px",
+          "text": "Prepared route",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/demo.html",
+      "width": 369
+    },
+    {
+      "slug": "open-form",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "42px",
+          "text": "Make room\nfor making",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "24px",
+          "text": "In this guide",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30.258px",
+          "text": "Try a four-session route",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30.258px",
+          "text": "Resolve an overlap",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30.258px",
+          "text": "Keep, recover & export",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30.258px",
+          "text": "Local data & limits",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/guide.html",
+      "width": 369
+    },
+    {
+      "slug": "open-form",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "OPEN\nFORM",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "33.3px",
+          "text": "The programme",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "37px",
+          "text": "Leave with ink on your hands",
+          "weight": "700"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/index.html",
+      "width": 370
+    },
+    {
+      "slug": "open-form",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "Your workshop route",
+          "weight": "650"
+        },
+        {
+          "family": "\"DM Sans\", Arial, sans-serif",
+          "font_check": true,
+          "size": "21px",
+          "text": "Choose your sessions",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30px",
+          "text": "Make it yours",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30px",
+          "text": "Prepared route",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/demo.html",
+      "width": 370
+    },
+    {
+      "slug": "open-form",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "42px",
+          "text": "Make room\nfor making",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "24px",
+          "text": "In this guide",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30.34px",
+          "text": "Try a four-session route",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30.34px",
+          "text": "Resolve an overlap",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30.34px",
+          "text": "Keep, recover & export",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30.34px",
+          "text": "Local data & limits",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/guide.html",
+      "width": 370
+    },
+    {
+      "slug": "open-form",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "OPEN\nFORM",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "33.39px",
+          "text": "The programme",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "37px",
+          "text": "Leave with ink on your hands",
+          "weight": "700"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/index.html",
+      "width": 371
+    },
+    {
+      "slug": "open-form",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35.245px",
+          "text": "Your workshop route",
+          "weight": "650"
+        },
+        {
+          "family": "\"DM Sans\", Arial, sans-serif",
+          "font_check": true,
+          "size": "21px",
+          "text": "Choose your sessions",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30px",
+          "text": "Make it yours",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30px",
+          "text": "Prepared route",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/demo.html",
+      "width": 371
+    },
+    {
+      "slug": "open-form",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "44px",
+          "text": "Make room\nfor making",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "24px",
+          "text": "In this guide",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30.422px",
+          "text": "Try a four-session route",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30.422px",
+          "text": "Resolve an overlap",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30.422px",
+          "text": "Keep, recover & export",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30.422px",
+          "text": "Local data & limits",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/guide.html",
+      "width": 371
+    },
+    {
+      "slug": "open-form",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "OPEN\nFORM",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35.1px",
+          "text": "The programme",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "37px",
+          "text": "Leave with ink on your hands",
+          "weight": "700"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/index.html",
+      "width": 390
+    },
+    {
+      "slug": "open-form",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "37.05px",
+          "text": "Your workshop route",
+          "weight": "650"
+        },
+        {
+          "family": "\"DM Sans\", Arial, sans-serif",
+          "font_check": true,
+          "size": "21px",
+          "text": "Choose your sessions",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30px",
+          "text": "Make it yours",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30px",
+          "text": "Prepared route",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/demo.html",
+      "width": 390
+    },
+    {
+      "slug": "open-form",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "44.07px",
+          "text": "Make room\nfor making",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "24px",
+          "text": "In this guide",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "31.98px",
+          "text": "Try a four-session route",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "31.98px",
+          "text": "Resolve an overlap",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "31.98px",
+          "text": "Keep, recover & export",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "31.98px",
+          "text": "Local data & limits",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/guide.html",
+      "width": 390
+    },
+    {
+      "slug": "open-form",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "OPEN\nFORM",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "40px",
+          "text": "The programme",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "37px",
+          "text": "Leave with ink on your hands",
+          "weight": "700"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/index.html",
+      "width": 759
+    },
+    {
+      "slug": "open-form",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "56px",
+          "text": "Your workshop route",
+          "weight": "650"
+        },
+        {
+          "family": "\"DM Sans\", Arial, sans-serif",
+          "font_check": true,
+          "size": "21px",
+          "text": "Choose your sessions",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30px",
+          "text": "Make it yours",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30px",
+          "text": "Prepared route",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/demo.html",
+      "width": 759
+    },
+    {
+      "slug": "open-form",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "82px",
+          "text": "Make room\nfor making",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "24px",
+          "text": "In this guide",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "32px",
+          "text": "Try a four-session route",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "32px",
+          "text": "Resolve an overlap",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "32px",
+          "text": "Keep, recover & export",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "32px",
+          "text": "Local data & limits",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/guide.html",
+      "width": 759
+    },
+    {
+      "slug": "open-form",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "OPEN\nFORM",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "40px",
+          "text": "The programme",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "37px",
+          "text": "Leave with ink on your hands",
+          "weight": "700"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/index.html",
+      "width": 760
+    },
+    {
+      "slug": "open-form",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "56px",
+          "text": "Your workshop route",
+          "weight": "650"
+        },
+        {
+          "family": "\"DM Sans\", Arial, sans-serif",
+          "font_check": true,
+          "size": "21px",
+          "text": "Choose your sessions",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30px",
+          "text": "Make it yours",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30px",
+          "text": "Prepared route",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/demo.html",
+      "width": 760
+    },
+    {
+      "slug": "open-form",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "82px",
+          "text": "Make room\nfor making",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "24px",
+          "text": "In this guide",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "32px",
+          "text": "Try a four-session route",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "32px",
+          "text": "Resolve an overlap",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "32px",
+          "text": "Keep, recover & export",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "32px",
+          "text": "Local data & limits",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/guide.html",
+      "width": 760
+    },
+    {
+      "slug": "open-form",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "OPEN\nFORM",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30px",
+          "text": "The programme",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "45px",
+          "text": "Leave with ink on your hands",
+          "weight": "700"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/index.html",
+      "width": 761
+    },
+    {
+      "slug": "open-form",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "42px",
+          "text": "Your workshop route",
+          "weight": "650"
+        },
+        {
+          "family": "\"DM Sans\", Arial, sans-serif",
+          "font_check": true,
+          "size": "22px",
+          "text": "Choose your sessions",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "32px",
+          "text": "Make it yours",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "Prepared route",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/demo.html",
+      "width": 761
+    },
+    {
+      "slug": "open-form",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "50px",
+          "text": "Make room\nfor making",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "26px",
+          "text": "In this guide",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Try a four-session route",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Resolve an overlap",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Keep, recover & export",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Local data & limits",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/guide.html",
+      "width": 761
+    },
+    {
+      "slug": "open-form",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "OPEN\nFORM",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "30px",
+          "text": "The programme",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "45px",
+          "text": "Leave with ink on your hands",
+          "weight": "700"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/index.html",
+      "width": 768
+    },
+    {
+      "slug": "open-form",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "42px",
+          "text": "Your workshop route",
+          "weight": "650"
+        },
+        {
+          "family": "\"DM Sans\", Arial, sans-serif",
+          "font_check": true,
+          "size": "22px",
+          "text": "Choose your sessions",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "32px",
+          "text": "Make it yours",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "Prepared route",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/demo.html",
+      "width": 768
+    },
+    {
+      "slug": "open-form",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "50px",
+          "text": "Make room\nfor making",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "26px",
+          "text": "In this guide",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Try a four-session route",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Resolve an overlap",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Keep, recover & export",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Local data & limits",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/guide.html",
+      "width": 768
+    },
+    {
+      "slug": "open-form",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "OPEN\nFORM",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "42.861px",
+          "text": "The programme",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "45px",
+          "text": "Leave with ink on your hands",
+          "weight": "700"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/index.html",
+      "width": 1099
+    },
+    {
+      "slug": "open-form",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "46.158px",
+          "text": "Your workshop route",
+          "weight": "650"
+        },
+        {
+          "family": "\"DM Sans\", Arial, sans-serif",
+          "font_check": true,
+          "size": "22px",
+          "text": "Choose your sessions",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "32px",
+          "text": "Make it yours",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "Prepared route",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/demo.html",
+      "width": 1099
+    },
+    {
+      "slug": "open-form",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "71.435px",
+          "text": "Make room\nfor making",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "26px",
+          "text": "In this guide",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Try a four-session route",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Resolve an overlap",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Keep, recover & export",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Local data & limits",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/guide.html",
+      "width": 1099
+    },
+    {
+      "slug": "open-form",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "OPEN\nFORM",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "42.9px",
+          "text": "The programme",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "45px",
+          "text": "Leave with ink on your hands",
+          "weight": "700"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/index.html",
+      "width": 1100
+    },
+    {
+      "slug": "open-form",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "46.2px",
+          "text": "Your workshop route",
+          "weight": "650"
+        },
+        {
+          "family": "\"DM Sans\", Arial, sans-serif",
+          "font_check": true,
+          "size": "22px",
+          "text": "Choose your sessions",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "32px",
+          "text": "Make it yours",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "Prepared route",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/demo.html",
+      "width": 1100
+    },
+    {
+      "slug": "open-form",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "71.5px",
+          "text": "Make room\nfor making",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "26px",
+          "text": "In this guide",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Try a four-session route",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Resolve an overlap",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Keep, recover & export",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "35px",
+          "text": "Local data & limits",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/guide.html",
+      "width": 1100
+    },
+    {
+      "slug": "open-form",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "OPEN\nFORM",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "42.939px",
+          "text": "The programme",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "45px",
+          "text": "Leave with ink on your hands",
+          "weight": "700"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/index.html",
+      "width": 1101
+    },
+    {
+      "slug": "open-form",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "46.242px",
+          "text": "Your workshop route",
+          "weight": "650"
+        },
+        {
+          "family": "\"DM Sans\", Arial, sans-serif",
+          "font_check": true,
+          "size": "22px",
+          "text": "Choose your sessions",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "32px",
+          "text": "Make it yours",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "Prepared route",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/demo.html",
+      "width": 1101
+    },
+    {
+      "slug": "open-form",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "71.565px",
+          "text": "Make room\nfor making",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "26px",
+          "text": "In this guide",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "Try a four-session route",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "Resolve an overlap",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "Keep, recover & export",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "Local data & limits",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/guide.html",
+      "width": 1101
+    },
+    {
+      "slug": "open-form",
+      "page": "home",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "34px",
+          "text": "OPEN\nFORM",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "56px",
+          "text": "The programme",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "45px",
+          "text": "Leave with ink on your hands",
+          "weight": "700"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/index.html",
+      "width": 1440
+    },
+    {
+      "slug": "open-form",
+      "page": "demo",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "60px",
+          "text": "Your workshop route",
+          "weight": "650"
+        },
+        {
+          "family": "\"DM Sans\", Arial, sans-serif",
+          "font_check": true,
+          "size": "22px",
+          "text": "Choose your sessions",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "32px",
+          "text": "Make it yours",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "38px",
+          "text": "Prepared route",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/demo.html",
+      "width": 1440
+    },
+    {
+      "slug": "open-form",
+      "page": "guide",
+      "phase": "final-2",
+      "broken_images": [],
+      "font_status": "loaded",
+      "headings": [
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "93.6px",
+          "text": "Make room\nfor making",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "26px",
+          "text": "In this guide",
+          "weight": "700"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "Try a four-session route",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "Resolve an overlap",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "Keep, recover & export",
+          "weight": "650"
+        },
+        {
+          "family": "Syne, Arial, sans-serif",
+          "font_check": true,
+          "size": "39px",
+          "text": "Local data & limits",
+          "weight": "650"
+        }
+      ],
+      "height": 844,
+      "overflow": 0,
+      "url": "http://127.0.0.1:53534/open-form/site/guide.html",
+      "width": 1440
+    }
+  ],
+  "capture_correction": {
+    "reason": "One unchanged-first-source home opening was overwritten by a second first-source capture because a stale helper array did not detect the prior record. Earlier hash metadata retained; earlier exact JPEG bytes are unavailable. Exclude that event from accepted indexed images. Complete first source remains unchanged. Future captures consult disk ledger and use unique paths.",
+    "excluded_events": [
+      {
+        "path": "captures/initial/tide-club/home-desktop.jpg",
+        "slug": "tide-club",
+        "phase": "initial",
+        "page": "home",
+        "view": "desktop",
+        "broken_images": [],
+        "font_status": "loaded",
+        "headings": [
+          {
+            "family": "Anton, Impact, sans-serif",
+            "font_check": true,
+            "line_height": "177.811px",
+            "rect": {
+              "height": 355.59375,
+              "width": 1300,
+              "x": 60.46875,
+              "y": 291.671875
+            },
+            "size": "181.44px",
+            "style": "normal",
+            "text": "FIND YOURFLOW",
+            "variation": "normal",
+            "weight": "400"
+          },
+          {
+            "family": "Anton, Impact, sans-serif",
+            "font_check": true,
+            "line_height": "66.64px",
+            "rect": {
+              "height": 66.625,
+              "width": 534.03125,
+              "x": 60.46875,
+              "y": 909.671875
+            },
+            "size": "68px",
+            "style": "normal",
+            "text": "ONE LENGTH AT A TIME",
+            "variation": "normal",
+            "weight": "400"
+          },
+          {
+            "family": "Anton, Impact, sans-serif",
+            "font_check": true,
+            "line_height": "82.32px",
+            "rect": {
+              "height": 164.625,
+              "width": 600.25,
+              "x": 60.46875,
+              "y": 1582.671875
+            },
+            "size": "84px",
+            "style": "normal",
+            "text": "GOOD TECHNIQUEHAS ROOM TO GROW",
+            "variation": "normal",
+            "weight": "400"
+          }
+        ],
+        "height": 1000,
+        "overflow": 0,
+        "page_height": 1874,
+        "scroll_y": 0,
+        "url": "http://127.0.0.1:53534/tide-club/site/index.html",
+        "width": 1440,
+        "bytes": 126339,
+        "sha256": "ed900a42f61a19b4f0e2b0e3a2b85ff27362531e0e58fe6291673fb863434905",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    ],
+    "second_audit": {
+      "event_count": 82,
+      "accepted_unique_matching": 81,
+      "excluded": [
+        {
+          "path": "captures/initial/tide-club/home-desktop.jpg",
+          "recorded_sha256": "ed900a42f61a19b4f0e2b0e3a2b85ff27362531e0e58fe6291673fb863434905",
+          "actual_sha256": "e918a7b6425058cf70e0da390b790170134a5b8375beff4b3af0464d092b3bff",
+          "duplicate": false
+        }
+      ],
+      "reason": "The old page-loop closure retained an old capture helper. Page-loop helper is now rebound to the fresh disk-ledger helper. Existing matching files remain the rendered first-draft evidence."
+    }
+  },
+  "scope": "Guided builds with explicit font suggestions and internal rendered revision. Geometry and local actions do not establish aesthetic rates, automatic discovery, all-host/model results or commercial acceptance."
+}

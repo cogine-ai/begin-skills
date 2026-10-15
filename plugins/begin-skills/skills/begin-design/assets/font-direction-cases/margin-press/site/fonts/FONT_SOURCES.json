@@ -1,0 +1,61 @@
+{
+  "source_repository": "https://github.com/google/fonts",
+  "commit": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+  "retrieved_at": "2026-10-11",
+  "files": [
+    {
+      "file": "BodoniModa-Roman.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/bodonimoda/BodoniModa%5Bopsz%2Cwght%5D.ttf",
+      "bytes": 162104,
+      "sha256": "550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf"
+    },
+    {
+      "file": "BodoniModa-Italic.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/bodonimoda/BodoniModa-Italic%5Bopsz%2Cwght%5D.ttf",
+      "bytes": 176300,
+      "sha256": "dfff1619f8f6871c6372f8855b67211f9a73b4e93d45aca868cd8f46a48622de"
+    },
+    {
+      "file": "SourceSans3-Roman.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/sourcesans3/SourceSans3%5Bwght%5D.ttf",
+      "bytes": 646340,
+      "sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9"
+    },
+    {
+      "file": "bodonimoda-OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/bodonimoda/OFL.txt",
+      "bytes": 4400,
+      "sha256": "931dfe2e0cd3c9443295f5c1d754b8a8403bf060df50c1d5900267ade83d0046"
+    },
+    {
+      "file": "bodonimoda-METADATA.pb",
+      "url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/bodonimoda/METADATA.pb",
+      "bytes": 1468,
+      "sha256": "f4ba29335a79d264135d7062fc1c79e8fa9a076719e99095416334e27aa00489"
+    },
+    {
+      "file": "bodonimoda-DESCRIPTION.en_us.html",
+      "url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/bodonimoda/DESCRIPTION.en_us.html",
+      "bytes": 502,
+      "sha256": "87ca8a210b55573b23b69c8483997ca009109ebc44bb3db6fb10843a001efe41"
+    },
+    {
+      "file": "sourcesans3-OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/sourcesans3/OFL.txt",
+      "bytes": 4579,
+      "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+    },
+    {
+      "file": "sourcesans3-METADATA.pb",
+      "url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/sourcesans3/METADATA.pb",
+      "bytes": 995,
+      "sha256": "f855c7833e0c780c90e5a797a003f86e1201990c0af65b9c75d0a04c9be05ed7"
+    },
+    {
+      "file": "sourcesans3-DESCRIPTION.en_us.html",
+      "url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/sourcesans3/DESCRIPTION.en_us.html",
+      "bytes": 292,
+      "sha256": "2f8a0cd41ad87407c195c29fcfbc0ce265ed7976d72a410a2c7f6ead65c6cdef"
+    }
+  ]
+}

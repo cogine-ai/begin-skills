@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="930" viewBox="0 0 760 930">
+<title>A small weather atlas: original two-color print concept</title>
+<defs><pattern id="dots" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#c73d23"/></pattern><pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M0 0v10" stroke="#2741a5" stroke-width="3"/></pattern><clipPath id="sun"><circle cx="243" cy="315" r="137"/></clipPath></defs>
+<rect width="760" height="930" fill="#f5f0dc"/>
+<g stroke="#2741a5" stroke-width="1" opacity=".3"><path d="M60 150h640M60 465h640M60 785h640M60 150v635M380 150v635M700 150v635"/></g>
+<g fill="#2741a5" font-family="sans-serif" font-size="15" letter-spacing="2"><text x="62" y="92">A SMALL WEATHER ATLAS</text><text x="62" y="817">01 / TWO INKS</text><text x="570" y="817">FIELD STUDY</text></g>
+<g fill="none" stroke="#2741a5" stroke-width="2"><path d="M27 41h34M44 24v34M699 41h34M716 24v34M27 889h34M44 872v34M699 889h34M716 872v34"/></g>
+<circle cx="251" cy="320" r="137" fill="#2741a5"/><circle cx="240" cy="310" r="137" fill="url(#dots)"/>
+<g fill="none" stroke="#c73d23" stroke-width="4"><path d="M430 345c-12-44 15-76 58-72 15-65 102-75 135-25 66-20 111 59 71 102H430z"/><path d="M427 356c-12-44 15-76 58-72 15-65 102-75 135-25 66-20 111 59 71 102H427z"/></g>
+<g stroke="#2741a5" stroke-width="4"><path d="m452 389-18 30m55-30-18 30m55-30-18 30m55-30-18 30m55-30-18 30m55-30-18 30"/></g>
+<path d="M108 684c44-93 44-93 87 0s44 93 88 0 44-93 88 0" fill="none" stroke="#2741a5" stroke-width="7"/>
+<path d="M104 694c44-93 44-93 87 0s44 93 88 0 44-93 88 0" fill="none" stroke="#c73d23" stroke-width="5"/>
+<circle cx="553" cy="639" r="105" fill="url(#lines)"/>
+<path d="M461 653a95 95 0 0 0 183 0c-23 32-60 19-86-13s-70-32-97 13" fill="#c73d23" opacity=".9"/>
+<g font-family="sans-serif" font-size="13" fill="#2741a5" letter-spacing="2"><text x="78" y="443">01 / SUN</text><text x="401" y="443">02 / RAIN</text><text x="78" y="762">03 / WIND</text><text x="401" y="762">04 / TIDE</text></g>
+<g fill="#c73d23"><circle cx="652" cy="91" r="9"/><circle cx="679" cy="91" r="9"/></g>
+</svg>

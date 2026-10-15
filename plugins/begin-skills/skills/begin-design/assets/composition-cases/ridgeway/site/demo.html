@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Choose a fictional walk, group size and pace, then prepare and save an exact local sample plan.">
+  <meta name="theme-color" content="#123f38"><title>Plan a walk — Ridgeway</title>
+  <link rel="icon" href="mark.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><script src="plan-core.js" defer></script><script src="plan.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap"><a class="brand" href="index.html" aria-label="Ridgeway home"><img src="mark.svg" alt="" width="40" height="40"><span>Ridgeway</span></a><nav class="main-nav" aria-label="Main navigation"><a href="index.html#walks">Walks</a><a href="demo.html" aria-current="page">Plan</a><a href="guide.html">Guide</a></nav></header>
+  <main id="main" class="task-main">
+    <div class="task-heading"><h1>Plan a walk</h1><p>Choose a sample walk, make room for your group, and set the pace. Prepare a plan before you save or download it.</p><a class="text-link" href="guide.html#try-it">Try the guided example <span aria-hidden="true">↗</span></a></div>
+    <noscript><p class="notice">The walk descriptions are available below. Turn on JavaScript to calculate, prepare and save a sample plan.</p></noscript>
+    <form id="plan-form" novalidate>
+      <fieldset class="task-section" aria-describedby="walk-help walkId-error">
+        <legend id="choose-title"><span class="step-number" aria-hidden="true">01</span>Choose your walk</legend>
+        <div class="section-body">
+          <div class="walk-choices" id="walk-choices">
+            <label class="walk-choice selected"><input type="radio" name="walkId" value="pinefold" checked><span class="choice-content"><span class="choice-top"><span class="choice-title">Pinefold Loop</span><span class="choice-facts">4 km · 1 hr 30 min</span></span><span class="choice-description">A forest loop with a little time beside the water.</span><span class="choice-sequence">Pine grove → Stillwater clearing → Pine grove</span></span></label>
+            <label class="walk-choice"><input type="radio" name="walkId" value="high-meadow"><span class="choice-content"><span class="choice-top"><span class="choice-title">High Meadow Way</span><span class="choice-facts">7.5 km · 2 hrs 30 min</span></span><span class="choice-description">Open ground, an imagined meadow, and a long pause to look around.</span><span class="choice-sequence">Fern gate → High meadow → Fern gate</span></span></label>
+            <label class="walk-choice"><input type="radio" name="walkId" value="granite"><span class="choice-content"><span class="choice-top"><span class="choice-title">Granite Passage</span><span class="choice-facts">11 km · 3 hrs 30 min</span></span><span class="choice-description">A longer day between the trees and an imagined ridge.</span><span class="choice-sequence">Forest edge → Granite ridge → Forest edge</span></span></label>
+          </div>
+          <p class="field-help" id="walk-help">Three invented walks. Distances and times are sample planning values, with no real route or availability attached.</p><p class="field-error" id="walkId-error" hidden></p>
+        </div>
+      </fieldset>
+      <fieldset class="task-section">
+        <legend><span class="step-number" aria-hidden="true">02</span>Set the day’s pace</legend>
+        <div class="section-body">
+          <div class="field"><label for="walkers">Number of walkers</label><input id="walkers" name="walkers" type="number" inputmode="numeric" min="1" max="8" step="1" value="2" required aria-describedby="walkers-help walkers-error"><p class="field-help" id="walkers-help">1–8 walkers, as a whole number. Group size does not change the sample distance or time.</p><p class="field-error" id="walkers-error" hidden></p></div>
+          <div class="field"><label for="pace">Pace preference</label><select id="pace" name="pace" aria-describedby="pace-help pace-error"><option value="steady">Steady — the sample walking time</option><option value="lingering">Lingering — allow 20 minutes more</option></select><p class="field-help" id="pace-help">Lingering adds a little time for a pause or a conversation.</p><p class="field-error" id="pace-error" hidden></p></div>
+          <div class="field"><label for="intendedDate">Intended date <span class="muted" style="font-weight:400">(optional)</span></label><input id="intendedDate" name="intendedDate" type="date" aria-describedby="intendedDate-help intendedDate-error"><p class="field-help" id="intendedDate-help">Choose a date with your browser’s date picker. The plan shows it in English; availability is not checked.</p><p class="field-error" id="intendedDate-error" hidden></p></div>
+        </div>
+      </fieldset>
+      <h2 class="final-stage-heading"><span class="step-number" aria-hidden="true">03</span>Prepare and keep your plan</h2>
+      <section class="current-preview" aria-labelledby="current-walk">
+        <p class="preview-caption">Your current choices</p><h2 id="current-walk">Pinefold Loop</h2>
+        <dl class="preview-metrics"><div><dt>Distance</dt><dd id="current-distance">4 km</dd></div><div><dt>Time to allow</dt><dd id="current-time">1 hr 30 min</dd></div><div><dt>Your group</dt><dd id="current-group">2 walkers</dd></div></dl>
+        <p class="basis" id="current-basis">90 min + 0 min for steady pace</p><p class="date-review" id="current-date">Intended date: Not set</p>
+      </section>
+      <div class="prepare-area"><button class="button" type="submit">Prepare plan <span aria-hidden="true">↓</span></button><p>Preparation creates a snapshot of these details. It does not save them yet.</p></div>
+    </form>
+    <section class="prepared-panel is-empty" id="prepared-panel" aria-labelledby="prepared-title">
+      <div class="prepared-heading"><h2 id="prepared-title" tabindex="-1">Your prepared plan</h2><span class="state" id="prepared-state" data-state="empty">Not prepared</span></div>
+      <div id="prepared-empty" class="prepared-empty"><p>Your plan will appear here after preparation. Check it, then choose how to keep it.</p></div>
+      <div id="prepared-content" hidden><h3 id="prepared-name"></h3><pre id="prepared-text"></pre><p class="prepared-help" id="prepared-help"></p></div>
+      <div class="retention-actions"><button class="button" type="button" id="save-plan" disabled>Save in this browser <span aria-hidden="true">↗</span></button><button class="button button-outline" type="button" id="download-plan" disabled>Download text <span aria-hidden="true">↓</span></button></div>
+      <p class="local-note">Saving keeps only this plan in this browser. Nothing is sent to Ridgeway, and no booking is made.</p>
+      <p class="action-status" id="action-status" role="status" aria-live="polite" aria-atomic="true"></p>
+    </section>
+    <section class="saved-panel" aria-labelledby="saved-title"><h2 id="saved-title">Saved for this browser</h2><div id="saved-empty"><p>No saved plan yet.</p></div><div id="saved-content" hidden><h3 id="saved-name"></h3><p id="saved-details"></p><p id="saved-date"></p><button class="text-link" type="button" id="restore-saved">Return to saved plan <span aria-hidden="true">↶</span></button></div></section>
+    <div class="reset-area"><button class="reset-button" type="button" id="reset-plan">Clear plan and start again</button><a href="guide.html#local-save">How local saving works</a></div>
+    <p class="storage-warning" id="storage-warning" hidden></p>
+  </main>
+  <footer class="site-footer wrap"><a class="footer-brand" href="index.html">Ridgeway</a><p>An original fictional walking service. Your plan is an example, with no actual route, availability, booking, payment or sent enquiry.</p><div class="footer-links"><a href="guide.html">Plan guide</a><a href="NOTICES.md">Credits &amp; notices</a></div></footer>
+</body>
+</html>

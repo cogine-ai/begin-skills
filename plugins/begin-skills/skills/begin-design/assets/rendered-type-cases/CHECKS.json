@@ -1,0 +1,82 @@
+{
+  "scope": "Three particular fictional local sites. Separate raw generation, own rendered preview and independent final pixel acceptance; native workflow, bytes and geometry have their own evidence. No causal or all-host/model/ordinary-person quality claim.",
+  "phases": [
+    "raw initial",
+    "author preview",
+    "independent final"
+  ],
+  "model_tests": {
+    "gridshift": 10,
+    "checkout": 18,
+    "elsewhere": 17,
+    "root_total_passed": 45
+  },
+  "responsive": {
+    "observations": 114,
+    "page_overflow": 0,
+    "broken_images": 0,
+    "unloaded_fonts": 0,
+    "false_heading_checks": 0,
+    "scope": "Actual CSS media width neighbors,320,768,1440 across8realpages. Geometry does not establish taste."
+  },
+  "pixel_review": {
+    "independent_final_findings_resolved": [
+      "G1",
+      "C1",
+      "C2",
+      "E1"
+    ],
+    "scope": "Supplied native1440/390/320 openings and complete records; no arbitrary-content visual acceptance."
+  },
+  "native": {
+    "assertion_rows": 41,
+    "passed": 40,
+    "retained_failed_expectation": 1,
+    "failure_scope": "One early incorrect expectation that native form validation disables Prepare. Actual invalid click blocked preparation; later correct checks pass.",
+    "confirmation_scope": "Checkout reset/recovery outcomes observed. Separate native confirm accept/cancel branches unverified. Other sites use independently exercised local controls."
+  },
+  "downloads": [
+    {
+      "file": "checkout-final.txt",
+      "bytes": 2468,
+      "sha256": "27195fde071c7224644adaf23a0c175cbedaec6f90551d2774f17de0dfd954cb"
+    },
+    {
+      "file": "checkout-initial.txt",
+      "bytes": 2468,
+      "sha256": "27195fde071c7224644adaf23a0c175cbedaec6f90551d2774f17de0dfd954cb"
+    },
+    {
+      "file": "elsewhere-final.txt",
+      "bytes": 4339,
+      "sha256": "d8bb5cbd84d766de376f6d74f70efa24d27f6f4f0755e47a4ad07d0e9dce3716"
+    },
+    {
+      "file": "elsewhere-initial.txt",
+      "bytes": 4339,
+      "sha256": "d8bb5cbd84d766de376f6d74f70efa24d27f6f4f0755e47a4ad07d0e9dce3716"
+    },
+    {
+      "file": "gridshift-final.txt",
+      "bytes": 1185,
+      "sha256": "79b6d8dbefb689238ad6f6ddc8958fa44aa72636e09205ee83c312c0402d3090"
+    },
+    {
+      "file": "gridshift-initial.txt",
+      "bytes": 1185,
+      "sha256": "79b6d8dbefb689238ad6f6ddc8958fa44aa72636e09205ee83c312c0402d3090"
+    }
+  ],
+  "font_choice": {
+    "frozen_ttf_families": 20,
+    "scope": "TTF availability;27unique binaries. Counts exclude WOFF/WOFF2 and system fonts.",
+    "post_author_probe": "Three tournament type directions compared in18native images. Barlow retained for that task; no causal explanation of recurrence."
+  },
+  "schema_version": 1,
+  "checked_on": "2026-10-11",
+  "input_version": "0.1.0-dev.18",
+  "source_files": 39,
+  "native_openings": 16,
+  "result_excerpts": 6,
+  "font_binaries": 9
+}

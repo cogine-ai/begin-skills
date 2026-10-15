@@ -1,0 +1,45 @@
+{
+  "source": "Exact local font binaries from Begin dev.20; no network retrieval or font modification.",
+  "fonts": [
+    {
+      "file": "fonts/syne.ttf",
+      "family": "Syne",
+      "style": "normal",
+      "supported_axes": {
+        "wght": [
+          400,
+          800
+        ]
+      },
+      "notice": "fonts/syne-OFL.txt",
+      "primary_source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/syne/Syne%5Bwght%5D.ttf",
+      "modified": false,
+      "bytes": 146980,
+      "sha256": "ce5ac77142a65cab2248a1a2ebb740b1d4d9c20b52488877d3ff664d1356104a",
+      "source_in_begin_pack": "begin-design/assets/preflight-type-cases/flipturn/site/fonts/syne.ttf"
+    },
+    {
+      "file": "fonts/dm-sans.ttf",
+      "family": "DM Sans",
+      "style": "normal",
+      "supported_axes": {
+        "wght": [
+          100,
+          1000
+        ],
+        "opsz": [
+          9,
+          40
+        ]
+      },
+      "notice": "fonts/dm-sans-OFL.txt",
+      "primary_source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/dmsans/DMSans%5Bopsz%2Cwght%5D.ttf",
+      "modified": false,
+      "bytes": 240164,
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+      "source_in_begin_pack": "begin-design/assets/preflight-type-cases/flipturn/site/fonts/dm-sans.ttf"
+    }
+  ],
+  "loading": "Local files only",
+  "license": "SIL Open Font License 1.1; complete notices alongside fonts."
+}

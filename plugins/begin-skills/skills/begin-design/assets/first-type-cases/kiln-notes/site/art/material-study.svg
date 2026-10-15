@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="690" viewBox="0 0 760 690">
+  <defs>
+    <linearGradient id="paper" x2="1" y2="1"><stop stop-color="#deddd1"/><stop offset="1" stop-color="#c5c9bc"/></linearGradient>
+    <linearGradient id="ash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#acb8aa"/><stop offset=".5" stop-color="#638d82"/><stop offset="1" stop-color="#41615c"/></linearGradient>
+    <linearGradient id="clay" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dcc392"/><stop offset=".45" stop-color="#b48e58"/><stop offset="1" stop-color="#866545"/></linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".4" numOctaves="3" seed="23"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".15"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="3" dy="12" stdDeviation="9" flood-color="#343c35" flood-opacity=".2"/></filter>
+  </defs>
+  <path fill="url(#paper)" d="M0 0h760v690H0z"/>
+  <g opacity=".3" fill="none" stroke="#8c9486"><path d="M50 60h660M50 625h660M64 44v602M696 44v602"/><path d="M54 79h20M54 113h20M54 147h20M54 181h20M54 215h20M54 249h20M54 283h20M54 317h20M54 351h20M54 385h20M54 419h20M54 453h20M54 487h20M54 521h20M54 555h20M54 589h20"/></g>
+  <g transform="rotate(-8 252 290)" filter="url(#shadow)">
+    <path fill="#e5d7b9" d="M147 127q95-14 199 4l12 323q-98 12-208-2z"/>
+    <path fill="url(#ash)" d="M153 133q90-9 187 4l11 286q-85 14-193-1z" filter="url(#grain)"/>
+    <path fill="none" stroke="#ccd1b8" stroke-width="10" opacity=".48" d="M166 151q76-7 157 3"/>
+    <path fill="none" stroke="#31534d" opacity=".3" d="M166 217q59-14 159 0M167 323q80 12 165-5"/>
+    <circle cx="190" cy="447" r="4" fill="#7b765f"/>
+  </g>
+  <g transform="rotate(7 506 382)" filter="url(#shadow)">
+    <path fill="#ead6b0" d="M398 210q104-13 209 1l-4 331q-93 14-214-4z"/>
+    <path fill="url(#clay)" d="M404 217q95-11 195 0l-4 295q-100 15-198-3z" filter="url(#grain)"/>
+    <path fill="none" stroke="#ecce91" stroke-width="10" opacity=".5" d="M417 232q87-8 165 0"/>
+    <path fill="none" stroke="#715637" opacity=".3" d="M413 328q95-19 177-1M408 426q94 17 180 0"/>
+    <circle cx="566" cy="533" r="4" fill="#7b765f"/>
+  </g>
+  <g fill="#384b43" opacity=".75"><path d="M113 513h160v1H113zM478 154h160v1H478z"/><path d="m270 514 31-41-1-1-31 41zM477 155l-41 37 1 1 41-37z"/></g>
+  <g fill="#606d61" opacity=".3"><circle cx="301" cy="107" r="2"/><circle cx="660" cy="525" r="2"/><circle cx="139" cy="594" r="2"/><circle cx="617" cy="579" r="2"/></g>
+</svg>

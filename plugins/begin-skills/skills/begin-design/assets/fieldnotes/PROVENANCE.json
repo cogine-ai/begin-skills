@@ -1,0 +1,122 @@
+{
+  "curated_at_utc": "2026-10-09T00:26:44.036826+00:00",
+  "case": "Fieldnotes editorial candidate",
+  "source_snapshot": "Current original editorial site, copied byte for byte on 2026-10-09; unchanged during capture refresh.",
+  "capture_record": "Actual browser homepage captures supplied by the coordinating Agent on 2026-10-09. Viewports: desktop 1012x970, phone 390x844. The coordinating Agent reported loaded fonts and no phone document overflow.",
+  "evidence_boundary": "One locally accepted homepage direction and historical local checks; no universal quality, host compatibility, visitor or commercial claim.",
+  "files": [
+    {
+      "path": "site/art/paper-bridge.png",
+      "origin": "products/begin-skills/docs/design-trials/2026-10-09-fieldnotes-editorial/site/art/paper-bridge.png",
+      "bytes": 1979882,
+      "sha256": "6996ec08759456d1082c771c53e975069ee2a9f1c25a95878c3c0ddc7fa6bb5b"
+    },
+    {
+      "path": "site/art/reading-path.svg",
+      "origin": "products/begin-skills/docs/design-trials/2026-10-09-fieldnotes-editorial/site/art/reading-path.svg",
+      "bytes": 1991,
+      "sha256": "121491f26dd685ede4119fb3dd9810c5483232cb18876539ea3cd50343fe4d87"
+    },
+    {
+      "path": "site/article.html",
+      "origin": "products/begin-skills/docs/design-trials/2026-10-09-fieldnotes-editorial/site/article.html",
+      "bytes": 10058,
+      "sha256": "a0108d06d123e81e1c7a7f8acbad998b3fa32cb6f9865d348387df0c6699e4d4"
+    },
+    {
+      "path": "site/common.css",
+      "origin": "products/begin-skills/docs/design-trials/2026-10-09-fieldnotes-editorial/site/common.css",
+      "bytes": 3310,
+      "sha256": "c99b7792d3afd6029e9cc4e21bdc9c6a6af9f28f6af3c84d28dd0fe91571022f"
+    },
+    {
+      "path": "site/docs.html",
+      "origin": "products/begin-skills/docs/design-trials/2026-10-09-fieldnotes-editorial/site/docs.html",
+      "bytes": 11472,
+      "sha256": "0477d97ddcb4bf0ad0306cc1fccbc17b3c4047cd4a2416478a1c976b78e6b1cb"
+    },
+    {
+      "path": "site/fonts/fieldnotes-sans.woff2",
+      "origin": "products/begin-skills/docs/design-trials/2026-10-09-fieldnotes-editorial/site/fonts/fieldnotes-sans.woff2",
+      "bytes": 67504,
+      "sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0"
+    },
+    {
+      "path": "site/fonts/source-sans-3-OFL.txt",
+      "origin": "products/begin-skills/docs/design-trials/2026-10-09-fieldnotes-editorial/site/fonts/source-sans-3-OFL.txt",
+      "bytes": 4579,
+      "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+    },
+    {
+      "path": "site/fonts/source-serif-4-OFL.txt",
+      "origin": "products/begin-skills/docs/design-trials/2026-10-09-fieldnotes-editorial/site/fonts/source-serif-4-OFL.txt",
+      "bytes": 4400,
+      "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+    },
+    {
+      "path": "site/fonts/source-serif-4.woff2",
+      "origin": "products/begin-skills/docs/design-trials/2026-10-09-fieldnotes-editorial/site/fonts/source-serif-4.woff2",
+      "bytes": 222928,
+      "sha256": "ec0754e1fb47c9465d0282c89e3a890ddcf8c4e6a912a695ce1b09fb3d1b571d"
+    },
+    {
+      "path": "site/index.css",
+      "origin": "products/begin-skills/docs/design-trials/2026-10-09-fieldnotes-editorial/site/index.css",
+      "bytes": 6875,
+      "sha256": "69f6938169bb3b5b4a34589e59f97915565d2fcdbe0ffc8d41814dc5015d6175"
+    },
+    {
+      "path": "site/index.html",
+      "origin": "products/begin-skills/docs/design-trials/2026-10-09-fieldnotes-editorial/site/index.html",
+      "bytes": 4234,
+      "sha256": "448f4ffad5109726cd0a5d04c8996748e213af86fd72032f1639a9bc2fab1dd2"
+    },
+    {
+      "path": "site/reading.css",
+      "origin": "products/begin-skills/docs/design-trials/2026-10-09-fieldnotes-editorial/site/reading.css",
+      "bytes": 6752,
+      "sha256": "d76b0d0fffaa9314765b03cfd326b6cecbad20a12db2641a18972cc3061c2245"
+    },
+    {
+      "path": "site/site.js",
+      "origin": "products/begin-skills/docs/design-trials/2026-10-09-fieldnotes-editorial/site/site.js",
+      "bytes": 2489,
+      "sha256": "dd36af1e469dcb59ab1a19b00e33fddfcdc0c48a12ee99cf46f36e1c829fc4d4"
+    },
+    {
+      "path": "art-provenance.json",
+      "origin": "products/begin-skills/docs/design-trials/2026-10-09-fieldnotes-editorial/art-provenance.json",
+      "bytes": 653,
+      "sha256": "752d9f322f18f32704ea77a5ac3bcf9323673024d3b59044038624e84c465525",
+      "original_sha256": "0de204b4d058aa4239da0461b0a3ec902186c56ba0054f24ee1b814733d8c40e",
+      "original_bytes": 682,
+      "portable_metadata": true
+    },
+    {
+      "path": "IMAGE_PROMPT.md",
+      "origin": "products/begin-skills/docs/design-trials/2026-10-09-fieldnotes-editorial/IMAGE_PROMPT.md",
+      "bytes": 1669,
+      "sha256": "2dd65f33d2b6db33966c8370f7fa594822cfbf26ada931b7bbc44fff35b85b7b"
+    },
+    {
+      "path": "captures/desktop.jpg",
+      "origin": "products/begin-skills/.review/2026-10-09-begin-refinement/reference-captures/desktop.jpg",
+      "file_mtime_utc": "2026-10-09T00:24:58.489828+00:00",
+      "width_px": 1012,
+      "height_px": 970,
+      "bytes": 83285,
+      "sha256": "07c6ebed9e6e8051267dfcd6d1faa9508e516fbd21f5bbcbd58a30ea53890c51"
+    },
+    {
+      "path": "captures/phone.jpg",
+      "origin": "products/begin-skills/.review/2026-10-09-begin-refinement/reference-captures/phone.jpg",
+      "file_mtime_utc": "2026-10-09T00:24:58.689809+00:00",
+      "width_px": 390,
+      "height_px": 844,
+      "bytes": 39883,
+      "sha256": "d1d388e35f043bf40d50f79efcc59f96de9f26d0df1e702747ea530c7346c7b5"
+    }
+  ],
+  "original_provenance_sha256": "a808e37d7114866fc8d94107f485581e75c1bfb9149bd3ab3646ae031c82f238",
+  "delivery_note": "Only records marked portable_metadata derive local origin paths for delivery. All other resources retain their original bytes."
+}

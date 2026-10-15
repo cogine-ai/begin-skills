@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-11",
+  "curation_scope": "Source/capture copy, syntax, resource, dimensions, input, provenance and font checks. Browser evidence was read from retained records; no browser or server was run during curation.",
+  "static_checks": {
+    "source_files_copied_unchanged": 45,
+    "source_files_by_case": {
+      "offset": 21,
+      "ridgeway": 13,
+      "proofnote": 11
+    },
+    "opening_captures_copied_unchanged": 18,
+    "captures_per_case": 6,
+    "desktop_dimensions": [
+      1440,
+      1000
+    ],
+    "phone_dimensions": [
+      390,
+      844
+    ],
+    "capture_scroll_y": 0,
+    "illustrative_photographs": 1,
+    "photograph_dimensions": [
+      2400,
+      3598
+    ],
+    "javascript_syntax_checks_passed": 8,
+    "site_resource_checks_passed": 3,
+    "svg_xml_checks_passed": 10,
+    "embedded_font_payloads_match_supplied_bytes": 10,
+    "bundled_fonts_match_frozen_input": 5,
+    "full_OFL_notices_match_frozen_input": 5,
+    "initial_source_receipt_entries_unchanged": 42,
+    "frozen_portable_input_files_match_manifest": 324,
+    "frozen_archive_matches_recorded_sha256": true
+  },
+  "recorded_browser_assertions": {
+    "record": "BROWSER_ASSERTIONS.json",
+    "attempts": 43,
+    "passed": 42,
+    "failed": 1,
+    "per_case": {
+      "offset": {
+        "attempts": 16,
+        "passed": 15,
+        "failed": 1
+      },
+      "ridgeway": {
+        "attempts": 14,
+        "passed": 14,
+        "failed": 0
+      },
+      "proofnote": {
+        "attempts": 13,
+        "passed": 13,
+        "failed": 0
+      }
+    },
+    "retained_timing_exception": {
+      "immediate_read": {
+        "slug": "offset",
+        "name": "Top shortlist route and navigation agree with the displayed section",
+        "passed": false,
+        "actual": {
+          "current": "Work",
+          "hash": "#shortlist"
+        }
+      },
+      "settled_followup": {
+        "slug": "offset",
+        "name": "Settled shortlist view and navigation agree after native scroll",
+        "passed": true,
+        "actual": {
+          "current": "Shortlist 2",
+          "hash": "#shortlist",
+          "top": -0.15625
+        }
+      },
+      "interpretation": "The early Offset read saw the #shortlist hash while Work was still active; the settled native-scroll view passed. The failed attempt is retained. The record contains no timestamps or elapsed delay."
+    }
+  },
+  "recorded_responsive_observations": {
+    "record": "RESPONSIVE.json",
+    "observations": 45,
+    "per_case": {
+      "offset": {
+        "observations": 15,
+        "widths": [
+          320,
+          719,
+          720,
+          721,
+          768
+        ]
+      },
+      "ridgeway": {
+        "observations": 15,
+        "widths": [
+          320,
+          699,
+          700,
+          701,
+          768
+        ]
+      },
+      "proofnote": {
+        "observations": 15,
+        "widths": [
+          320,
+          599,
+          600,
+          601,
+          768
+        ]
+      }
+    },
+    "pages": [
+      "index.html",
+      "demo.html",
+      "guide.html"
+    ],
+    "viewport_overflow_observed": false,
+    "broken_loaded_images": 0,
+    "fonts": "loaded in all 45 observations"
+  },
+  "recorded_opening_observations": {
+    "record": "OBSERVATIONS.json",
+    "observations": 38,
+    "initial": 18,
+    "final": 18,
+    "refreshed_Proofnote_guide": 2,
+    "opening_sizes": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "scroll_y": 0,
+    "viewport_overflow_observed": false,
+    "complete_image_instances_with_positive_dimensions": 48,
+    "fonts": "loaded in all 38 observations"
+  },
+  "recorded_console_evidence": {
+    "record": "BROWSER_LOGS.json",
+    "entries": 0,
+    "scope": "Empty retained ledger; this does not claim all possible routes or sessions were inspected."
+  },
+  "independent_rendered_followup": {
+    "offset": "All four initial material concerns resolved in the reviewed final set; deeper application evidence is established for Offsite. The prepared phone crop shows only the beginning of the result.",
+    "ridgeway": "Phone utility actions and practical guide hierarchy resolved; home, planner, guide and shown saved/stale states retained. The photograph illustrates fictional walks.",
+    "proofnote": "Both guide-entry concerns and the narrower guide measure resolved. A supplement reviewed four refreshed guide images and closed the remaining wording concern."
+  },
+  "proofnote_capture_refresh": "The four earlier guide images remain in captures/final-before-copy. The current guide opening/full images are final-copy records at captures/final; this collection copies only the two current opening guide JPEGs.",
+  "evidence_boundary": "Recorded local paths and reviewed surfaces; no first-draft consistency, accessibility certification, all-device, host support, deployment or commercial claim."
+}

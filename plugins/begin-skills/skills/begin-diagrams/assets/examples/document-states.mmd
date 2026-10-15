@@ -1,0 +1,9 @@
+stateDiagram-v2
+    %% Status: illustrative fictional workflow for one document revision.
+    accTitle: Illustrative document revision states
+    accDescr: A revision starts as a draft, can be approved or returned for changes, and ends when it is published.
+    [*] --> Draft
+    Draft --> Approved: Reviewer approves revision
+    Approved --> Draft: Author requests changes
+    Approved --> Published: Owner publishes revision
+    Published --> [*]

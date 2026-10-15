@@ -1,0 +1,63 @@
+{
+  "copied_from": "frozen dev.19 input, no external retrieval",
+  "files": [
+    {
+      "source_path": "input/begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/BarlowCondensed-ExtraBold.ttf",
+      "destination": "site/assets/fonts/BarlowCondensed-ExtraBold.ttf",
+      "source_url_from_frozen_manifest": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraBold.ttf",
+      "modified": false,
+      "bytes": 110296,
+      "sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260"
+    },
+    {
+      "source_path": "input/begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/Barlow-Regular.ttf",
+      "destination": "site/assets/fonts/Barlow-Regular.ttf",
+      "source_url_from_frozen_manifest": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/Barlow-Regular.ttf",
+      "modified": false,
+      "bytes": 104068,
+      "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea"
+    },
+    {
+      "source_path": "input/begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/Barlow-SemiBold.ttf",
+      "destination": "site/assets/fonts/Barlow-SemiBold.ttf",
+      "source_url_from_frozen_manifest": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/Barlow-SemiBold.ttf",
+      "modified": false,
+      "bytes": 108348,
+      "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5"
+    },
+    {
+      "source_path": "input/begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/BarlowCondensed-OFL.txt",
+      "destination": "site/assets/notices/BarlowCondensed-OFL.txt",
+      "source_url_from_frozen_manifest": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/OFL.txt",
+      "modified": false,
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "source_path": "input/begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/Barlow-OFL.txt",
+      "destination": "site/assets/notices/Barlow-OFL.txt",
+      "source_url_from_frozen_manifest": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/OFL.txt",
+      "modified": false,
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    }
+  ],
+  "font_styles_from_binary": {
+    "assets/fonts/BarlowCondensed-ExtraBold.ttf": {
+      "OS_2_weight": 800,
+      "axes": [],
+      "style": "roman"
+    },
+    "assets/fonts/Barlow-Regular.ttf": {
+      "OS_2_weight": 400,
+      "axes": [],
+      "style": "roman"
+    },
+    "assets/fonts/Barlow-SemiBold.ttf": {
+      "OS_2_weight": 600,
+      "axes": [],
+      "style": "roman"
+    }
+  },
+  "license_note": "Full unmodified copyright and SIL OFL notices are in assets/notices. Project-authored licensing is undecided."
+}

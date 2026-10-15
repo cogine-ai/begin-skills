@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-11",
+  "static_checks": {
+    "source_files": 58,
+    "opening_captures": 18,
+    "javascript_syntax_files": 6,
+    "svg_xml_files": 6,
+    "font_binaries": 10,
+    "preserved_archives": 24,
+    "preserved_curated_assets": 389,
+    "frozen_dev12_payload_files": 550,
+    "frozen_dev11_payload_files": 481
+  },
+  "browser_assertions": {
+    "attempts": 26,
+    "passed": 23,
+    "failed_attempts": 3,
+    "retained_test_corrections": "Three wrong snapshot expectations were inspected and corrected; failures do not represent observed product failures. See raw TOOL_NOTES.md.",
+    "actual_downloaded_text_files": 7,
+    "download_checks_pass": true
+  },
+  "selected_final_responsive": {
+    "phases": {
+      "little-stage": "final-2",
+      "kiln-notes": "final-3",
+      "home-current": "final-2"
+    },
+    "observations": 108,
+    "viewport_overflow": 0,
+    "broken_images": 0,
+    "heading_font_checks_false": 0
+  },
+  "evidence_boundary": "Explicit guided frozen-pack transfers and internal rendered criticism; one blinded same-brief comparison. No causal effect, population success rate, automatic discovery, beginner acceptance, all-host/model quality or commercial result established."
+}

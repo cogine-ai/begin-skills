@@ -1,0 +1,41 @@
+{
+  "source": "Unmodified files from frozen portable dev.18. Upstream URLs are bundle provenance, no network retrieval performed in this task.",
+  "files": [
+    {
+      "file": "assets/fonts/BarlowCondensed-ExtraBold.ttf",
+      "frozen_input": "../input/begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/BarlowCondensed-ExtraBold.ttf",
+      "bytes": 110296,
+      "sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260",
+      "role": "Display; actual 800 weight",
+      "upstream_source_record": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraBold.ttf"
+    },
+    {
+      "file": "assets/fonts/BarlowCondensed-OFL.txt",
+      "frozen_input": "../input/begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/BarlowCondensed-OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "role": "Complete original notice and OFL 1.1",
+      "upstream_source_record": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/OFL.txt"
+    },
+    {
+      "file": "assets/fonts/WorkSans-Variable.ttf",
+      "frozen_input": "../input/begin-design/assets/font-direction-cases/tide-club/site/fonts/WorkSans-Variable.ttf",
+      "bytes": 361072,
+      "sha256": "f50f61f2ba738e239442d40bf1069adb195c224b6a5a73a581fc2f3ed62a9f63",
+      "role": "Reading and controls; variable roman 100\u2013900",
+      "upstream_source_record": "https://github.com/weiweihuanghuang/Work-Sans",
+      "source_commit_record": "b35c81086186162164947bd39574683073d9b268",
+      "source_file_record": "fonts/variable/WorkSans[wght].ttf"
+    },
+    {
+      "file": "assets/fonts/WorkSans-OFL.txt",
+      "frozen_input": "../input/begin-design/assets/font-direction-cases/tide-club/site/fonts/OFL-WorkSans.txt",
+      "bytes": 4396,
+      "sha256": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272",
+      "role": "Complete original notice and OFL 1.1",
+      "upstream_source_record": "https://github.com/weiweihuanghuang/Work-Sans",
+      "source_commit_record": "b35c81086186162164947bd39574683073d9b268",
+      "source_file_record": "OFL.txt"
+    }
+  ]
+}

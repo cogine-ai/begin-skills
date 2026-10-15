@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620">
+  <rect width="920" height="620" fill="#cbd8d0" />
+  <rect x="72" y="75" width="424" height="480" rx="3" fill="#224a3e" />
+  <text
+    x="108"
+    y="111"
+    fill="#d6e3d5"
+    font-family="Arial,sans-serif"
+    font-size="11"
+    letter-spacing="2"
+  >
+    A SELF-INITIATED COMMUNITY CONCEPT
+  </text>
+  <text
+    x="108"
+    y="215"
+    fill="#eef2e3"
+    font-family="Georgia,serif"
+    font-size="65"
+  >
+    <tspan x="108">Make</tspan>
+    <tspan x="108" dy="68">something.</tspan>
+  </text>
+  <circle cx="370" cy="421" r="94" fill="#d79058" />
+  <path d="M320 421h100M370 371v100" stroke="#224a3e" stroke-width="3" />
+  <text
+    x="108"
+    y="390"
+    fill="#d6e3d5"
+    font-family="Arial,sans-serif"
+    font-size="13"
+  >
+    A place to learn,
+  </text>
+  <text
+    x="108"
+    y="413"
+    fill="#d6e3d5"
+    font-family="Arial,sans-serif"
+    font-size="13"
+  >
+    make, and meet.
+  </text>
+  <path d="M108 485h82" stroke="#d6e3d5" />
+  <text
+    x="108"
+    y="520"
+    fill="#d6e3d5"
+    font-family="Arial,sans-serif"
+    font-size="10"
+  >
+    FIND A WORKSHOP →
+  </text>
+  <rect x="524" y="139" width="324" height="346" rx="3" fill="#f4f5ed" />
+  <text
+    x="551"
+    y="180"
+    fill="#224a3e"
+    font-family="Arial,sans-serif"
+    font-size="11"
+  >
+    Something for the weekend.
+  </text>
+  <path d="M551 200h270" stroke="#bbc8bd" />
+  <g font-family="Arial,sans-serif" fill="#224a3e">
+    <text x="551" y="236" font-size="15">
+      A little clay, a lot of possibility.
+    </text>
+    <text x="551" y="258" font-size="9">
+      Pottery · A beginner-friendly workshop
+    </text>
+    <text x="551" y="313" font-size="15">Put a new idea on paper.</text>
+    <text x="551" y="335" font-size="9">
+      Printmaking · Explore shape and colour
+    </text>
+    <text x="551" y="389" font-size="15">Make room for something green.</text>
+    <text x="551" y="411" font-size="9">
+      Planting · Bring a small garden home
+    </text>
+  </g>
+  <path d="M551 277h270M551 354h270M551 430h270" stroke="#cbd6ca" />
+  <text
+    x="551"
+    y="462"
+    fill="#617266"
+    font-family="Arial,sans-serif"
+    font-size="9"
+  >
+    ORIGINAL CONCEPT · MAYA ELLIS
+  </text>
+</svg>

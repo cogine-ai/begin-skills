@@ -1,0 +1,20 @@
+{
+  "interface": {
+    "displayName": "Begin"
+  },
+  "name": "begin",
+  "plugins": [
+    {
+      "category": "Developer Tools",
+      "name": "begin-skills",
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      },
+      "source": {
+        "path": "./plugins/begin-skills",
+        "source": "local"
+      }
+    }
+  ]
+}

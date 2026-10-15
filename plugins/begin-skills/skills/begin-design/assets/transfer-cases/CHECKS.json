@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-11",
+  "curation_scope": "Byte copy, frozen-input/source identities, link/anchor/CSS resource resolution, JavaScript syntax, SVG XML, JPEG dimensions, font name tables, complete notices and provenance. No browser or server was run during curation.",
+  "static_checks": {
+    "source_files_copied_unchanged": 44,
+    "source_files_by_case": {
+      "folio": 22,
+      "side-a": 12,
+      "cadence": 10
+    },
+    "source_files_match_root_final_receipt": 44,
+    "opening_captures_copied_unchanged": 18,
+    "captures_per_case": 6,
+    "desktop_dimensions": [
+      1440,
+      1000
+    ],
+    "phone_dimensions": [
+      390,
+      844
+    ],
+    "capture_scroll_y": 0,
+    "illustrative_photographs": 1,
+    "photograph_dimensions": [
+      2400,
+      3606
+    ],
+    "photograph_bytes": 522086,
+    "javascript_syntax_checks_passed": 8,
+    "site_resource_checks_passed": 3,
+    "svg_xml_checks_passed": 11,
+    "embedded_font_payloads_match_frozen_input": 16,
+    "bundled_fonts_match_frozen_input": 4,
+    "full_OFL_notices_match_frozen_input": 4,
+    "font_internal_name_tables_inspected": 4,
+    "font_inspection_tool": "fontTools 4.63.0, existing cached libraries; no conversion",
+    "initial_source_receipt_entries_unchanged": 41,
+    "initial_source_files_by_case": {
+      "folio": 19,
+      "side-a": 12,
+      "cadence": 10
+    },
+    "frozen_portable_input_files_match_manifest": 391,
+    "frozen_archive_matches_recorded_sha256": true,
+    "preserved_prior_archives_unchanged": 18,
+    "preserved_curated_resources_unchanged": 232
+  },
+  "recorded_native_browser_assertions": {
+    "record": "BROWSER_ASSERTIONS.json",
+    "attempts": 43,
+    "passed": 41,
+    "failed": 2,
+    "per_case": {
+      "folio": {
+        "attempts": 21,
+        "passed": 21,
+        "failed": 0
+      },
+      "side-a": {
+        "attempts": 11,
+        "passed": 10,
+        "failed": 1
+      },
+      "cadence": {
+        "attempts": 11,
+        "passed": 10,
+        "failed": 1
+      }
+    },
+    "retained_failed_expectations": [
+      {
+        "slug": "cadence",
+        "name": "initial fixture exact dates and total",
+        "passed": false,
+        "actual": "Your prepared week\n\nReady to keep or export\n\nPREPARED FROM YOUR FIELDS\n\n3 SESSIONS\n\nLearn Spanish\n\n16–20 November 2026\n\n135\nminutes this week\n\nMonday\n16\n\n18:00–18:45\n\nLearn Spanish\n\n45 minutes · session 01\n\nTuesday\n17\n\nAn open day\nNo study session\n\nWednesday\n18\n\n18:00–18:45\n\nLearn Spanish\n\n45 minutes · session 02\n\nThursday\n19\n\nAn open day\nNo study session\n\nFriday\n20\n\n18:00–18:45\n\nLearn Spanish\n\n45 minutes · session 03\n\n3 sessions × 45 minutes = 135 minutes\nAll times are your chosen local time\nKeep plan\n✓\n\nKeeping stores this plan in this browser. Export takes the prepared result without needing to keep it.\n\nExport text\n↓\nExport JSON\n↓"
+      },
+      {
+        "slug": "side-a",
+        "name": "guide exact chronological sessions and gap",
+        "passed": false,
+        "actual": "SIDE A\n13 / 11 / 26\nYour itinerary\n\nPrepared from your current selection\n\nFriday 13 November 2026\n\nThe Cabinet Room · venue local time\n\n19:00–20:00\nDeep Listening\n60 minutes listening\n20:00–21:30\n90 minutes between sessions\n21:30–22:30\nAfter Hours\n60 minutes listening\nminutes listening\n120\nminutes between\n90\n\nYour evening: 19:00–22:30\n\nFictional programme · no booking is made"
+      }
+    ],
+    "interpretation": "Two retained failed assertions expected a different text arrangement: Cadence separates month/date labels, and Side A places summary labels before values. Actual DOM inspection corrected these expectations and immediate followups passed. These failed attempts remain in the ledger; later native followups are counted separately."
+  },
+  "recorded_opening_observations": {
+    "record": "OBSERVATIONS.json",
+    "observations": 42,
+    "by_phase": {
+      "initial": 18,
+      "final": 24
+    },
+    "opening_sizes": [
+      [
+        1440,
+        1000
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "all_observed_scroll_y_zero": true,
+    "viewport_overflow_observed": false,
+    "complete_image_instances_with_positive_dimensions": 68,
+    "fonts_loaded_observations": 42
+  },
+  "recorded_responsive_observations": {
+    "record": "RESPONSIVE.json",
+    "observations": 45,
+    "per_case": {
+      "folio": {
+        "observations": 15,
+        "widths": [
+          320,
+          719,
+          720,
+          721,
+          768
+        ]
+      },
+      "side-a": {
+        "observations": 15,
+        "widths": [
+          320,
+          759,
+          760,
+          761,
+          768
+        ]
+      },
+      "cadence": {
+        "observations": 15,
+        "widths": [
+          320,
+          759,
+          760,
+          761,
+          768
+        ]
+      }
+    },
+    "viewport_overflow_observed": false,
+    "broken_loaded_images": 0,
+    "fonts_loaded_observations": 45
+  },
+  "recorded_capture_ledger": {
+    "record": "CAPTURES.json",
+    "entries": 104,
+    "by_phase": {
+      "initial": 38,
+      "during-revision": 3,
+      "final": 47,
+      "final-before-url": 16
+    },
+    "comparable_initial_opening_and_full_images": 36,
+    "during_revision_state_images_excluded_from_comparable_initial_evidence_and_distribution": [
+      "cadence/captures/initial/prepared-phone.jpg",
+      "cadence/captures/initial/stale-phone.jpg",
+      "folio/captures/initial/bag-phone.jpg"
+    ],
+    "bundled_opening_images": 18,
+    "full_state_intermediate_and_external_images_bundled": 0
+  },
+  "recorded_console_evidence": {
+    "record": "BROWSER_LOGS.json",
+    "entries": 0,
+    "scope": "Retained root ledger only; no all-route or all-session claim."
+  },
+  "folio_current_source_followup": {
+    "source_record": "ROOT_FINAL_SOURCE.json",
+    "native_followups": [
+      {
+        "slug": "folio",
+        "name": "final format URL keeps actual selection and hash",
+        "passed": true,
+        "actual": "http://127.0.0.1:53294/folio/output/site/demo.html?book=the-room-next-door&format=hardback#bag"
+      },
+      {
+        "slug": "folio",
+        "name": "format survives real reload",
+        "passed": true,
+        "actual": "hardback"
+      },
+      {
+        "slug": "folio",
+        "name": "clear removes obsolete add success",
+        "passed": true,
+        "actual": "empty0 no staleaddfeedback"
+      },
+      {
+        "slug": "folio",
+        "name": "final fraction rejection and exact prior bag",
+        "passed": true,
+        "actual": "invalid1.5 preserved total114"
+      },
+      {
+        "slug": "folio",
+        "name": "final actual text export exact114",
+        "passed": true,
+        "actual": "FOLIO PRESS — SAMPLE BAG\nFictional catalogue · USD · no order or payment\n\nSoft Geometry — Paperback\n2 × $36.00 = $72.00\n\nThe Room Next Door — Hardback\n1 × $42.00 = $42.00\n\n3 copies\nTotal: $114.00\n\nThis selection stays in your browser."
+      },
+      {
+        "slug": "folio",
+        "name": "phone guide correction link works",
+        "passed": true,
+        "actual": "http://127.0.0.1:53294/folio/output/site/guide.html#changes"
+      },
+      {
+        "slug": "folio",
+        "name": "settled sample destination visible",
+        "passed": true,
+        "actual": {
+          "heading": "Inside Soft Geometry",
+          "scrollY": 1533,
+          "top": 24.15625
+        }
+      }
+    ],
+    "capture_refresh": "Folio's site.js alone changed after its first revision to synchronize book/format query values and preserve hash/unrelated query parameters. All twelve opening/full images were refreshed from the current source. Earlier revised images remain in final-before-url; only the current six opening JPEGs are bundled.",
+    "responsive_boundary": "The fifteen Folio responsive observations precede the URL-only correction; page, style, artwork and font bytes did not change. These are retained layout observations, not rerun current-source operations.",
+    "capture_artifact_and_settlement": "The earlier supplementary full-page images show a fixed skip link that root measured outside the viewport at top -100/bottom -49. Actual 390x844 viewport images show no covering link. The first sample viewport was captured during smooth scrolling; the settled followup records Inside Soft Geometry at top 24.15625/scrollY 1533. State/full/intermediate images remain excluded from distribution."
+  },
+  "independent_rendered_followup": {
+    "folio": "Ordinary catalogue/book/bag/guide composition accepted at the reviewed widths; all initial material priorities addressed. Photography samples are authored field notes without photographic plates. Earlier stitched full-page captures show an offscreen fixed skip link; four actual phone viewport images and a settled sample viewport close that capture artifact without an ordinary overlay defect. Critic reviewed 21 images across the preserved and current sets; the current twelve comparable captures were refreshed after the nonvisual URL fix.",
+    "side-a": "Poster composition, quiet empty itinerary and overlap cue resolved. Musician photograph remains an illustrative concert image rather than depicting the fictional shared room; inspected prepared/conflict states accepted.",
+    "cadence": "Phone day alignment, shared-session rule, guide state comparison and fixture gutter resolved. Long-goal/midnight and 320px guide captures reviewed. Final opening planner copy represents a returned draft rather than the identical initial status."
+  },
+  "evidence_boundary": "Guided local transfer using the exact completed dev.9 portable input, explicit resource directions and shared files. All complete first builds needed refinement. Recorded source/static, native-operation and pixel-review results have distinct scopes. No automatic Skill discovery, ordinary-person acceptance, reliable first drafts, every-device/host, deployment or commercial claim."
+}

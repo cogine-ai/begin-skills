@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="760" viewBox="0 0 1000 760">
+<title>Platform Seven in the rain</title><desc>An original drawing of a quiet iron station canopy, a lit carriage and a green-string parcel. Rain falls across a blue night.</desc>
+<defs>
+  <linearGradient id="night" x2="0" y2="1"><stop stop-color="#152a32"/><stop offset="1" stop-color="#293c43"/></linearGradient>
+  <linearGradient id="ground" x2="0" y2="1"><stop stop-color="#4b595b"/><stop offset="1" stop-color="#172a32"/></linearGradient>
+  <linearGradient id="glass" x2="0" y2="1"><stop stop-color="#e4b96d"/><stop offset="1" stop-color="#967441"/></linearGradient>
+  <linearGradient id="glow" x2="0" y2="1"><stop stop-color="#d5ae62" stop-opacity=".36"/><stop offset="1" stop-color="#d5ae62" stop-opacity="0"/></linearGradient>
+  <pattern id="rain" width="81" height="130" patternUnits="userSpaceOnUse" patternTransform="rotate(14)"><path d="M9 4v25 M41 46v12 M69 87v32" stroke="#98b4bb" stroke-width="1" opacity=".22"/></pattern>
+</defs>
+<path fill="url(#night)" d="M0 0h1000v760H0z"/>
+<circle cx="716" cy="142" r="72" fill="#698288" opacity=".06"/><circle cx="716" cy="142" r="45" fill="#8aa1a1" opacity=".07"/>
+<path d="M0 413 230 313 521 382 1000 325V760H0Z" fill="#0f242c"/>
+<path d="m0 585 491-120 509 29v266H0Z" fill="url(#ground)"/>
+<path d="m376 490 624 86M312 518l688 131M216 546l784 190" stroke="#819195" stroke-opacity=".25"/>
+<path d="m0 747 556-188 444 137M0 705l550-166 450 102" fill="none" stroke="#0c1b24" stroke-width="8"/>
+<path d="m0 754 556-188 444 137M0 710l550-166 450 102" fill="none" stroke="#75858a" stroke-width="1"/>
+<path d="m371 477 287-86 329 56v104l-333-36-283 90z" fill="#233d45" stroke="#718589" stroke-width="2"/>
+<path d="m391 483 62-18v79l-62 17zM470 460l64-20v80l-64 17zM554 435l61-18v80l-61 17z" fill="#192e36" stroke="#597077"/>
+<path d="m652 419 76 10v73l-76-8z" fill="url(#glass)"/><path d="m747 432 70 9v70l-70-7zM836 443l65 9v68l-65-7zM920 454l47 6v66l-47-4z" fill="#566d70"/>
+<path d="m655 502 81 9 121 161-220-38z" fill="url(#glow)"/>
+<path d="m89 287 314-158 538 78-245 131z" fill="#12202a" stroke="#72868a" stroke-width="2"/>
+<path d="m89 287 607 51 245-131v23L696 366 89 310Z" fill="#344a51"/>
+<path d="m89 310 607 56M403 153l293 185M540 176l156 162M676 197l20 141M801 218l-105 120" stroke="#8b9da0" stroke-opacity=".5" stroke-width="2"/>
+<path d="M143 313v298M409 336v202M695 365v146" stroke="#0f2028" stroke-width="12"/>
+<path d="M147 314v294M413 337v197M699 366v140" stroke="#8a9c9d" stroke-width="2"/>
+<path d="m147 353 35-36M413 375l35-35M699 398l31-33" stroke="#799095" stroke-width="4"/>
+<path d="M256 324v40M558 349v26" stroke="#a6b0a8" stroke-width="2"/>
+<path d="m237 364 39 2 7 17-53-3zM544 375l29 2 6 13-41-3z" fill="#e5bc75"/>
+<path d="m237 383 44 3 68 173-167 16zM543 390l37 3 46 136-108 2z" fill="url(#glow)"/>
+<path d="M324 332v57" stroke="#899a9b" stroke-width="2"/>
+<path d="m283 386 83 6v67l-83-7z" fill="#0f2028" stroke="#96a5a4"/>
+<text x="303" y="435" fill="#d7dbcf" font-family="serif" font-size="36" letter-spacing="3">07</text>
+<path d="m185 537 152-31 5 16-152 33z" fill="#6a6b5c" stroke="#aea28a"/>
+<path d="m195 552 5 34M328 525l4 35" stroke="#14212a" stroke-width="7"/>
+<path d="m236 495 47-9 21 17-48 12z" fill="#b6a58a"/><path d="m236 495 20 20v30l-20-20z" fill="#88785d"/><path d="m256 515 48-12v31l-48 11z" fill="#ac9774"/>
+<path d="m256 491 19 19v30M247 527l55-13" fill="none" stroke="#446e60" stroke-width="3"/>
+<path d="m270 507 19-4 1 11-18 4z" fill="#e9dfc5"/>
+<path d="m169 627 180-32M390 598l94-22M694 680l125 24" stroke="#9b9780" stroke-opacity=".35" stroke-width="2"/>
+<path fill="url(#rain)" d="M0 0h1000v760H0z"/>
+</svg>

@@ -1,0 +1,1297 @@
+{
+  "schema_version": 1,
+  "curated_on": "2026-10-11",
+  "curation_snapshot_utc": "2026-10-11T00:37:25.644596+00:00",
+  "trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-first-type",
+  "copy_method": "Exact stopped final source and six explicit-top actual native openings per case. No transformed fonts/artwork/images.",
+  "input_version": "0.1.0-dev.12",
+  "input_archive_sha256": "937a852fde1d6da0529651096cd773e3c671e7c95280043ea27eb9b6a36fb4a8",
+  "study_kind": "Three fresh guided dev.12 first builds and one identical-brief dev.11 control; preserved initial sources and focused rendered repairs.",
+  "cases": [
+    {
+      "slug": "little-stage",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "source_file_count": 21,
+      "source_bytes": 1030232,
+      "required_notices": [
+        "NOTICES.md",
+        "assets/fonts/alegreya-OFL.txt",
+        "assets/fonts/karla-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "assets/fonts/alegreya-italic.ttf",
+          "notice": "assets/fonts/alegreya-OFL.txt",
+          "internal_names": [
+            "Alegreya",
+            "Alegreya-Italic",
+            "Italic"
+          ],
+          "axes": {
+            "wght": {
+              "min": 400.0,
+              "default": 400.0,
+              "max": 900.0
+            }
+          },
+          "weight": 400,
+          "bytes": 425852,
+          "sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391"
+        },
+        {
+          "file": "assets/fonts/alegreya-roman.ttf",
+          "notice": "assets/fonts/alegreya-OFL.txt",
+          "internal_names": [
+            "Alegreya",
+            "Alegreya-Regular",
+            "Regular"
+          ],
+          "axes": {
+            "wght": {
+              "min": 400.0,
+              "default": 400.0,
+              "max": 900.0
+            }
+          },
+          "weight": 400,
+          "bytes": 425288,
+          "sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12"
+        },
+        {
+          "file": "assets/fonts/karla-roman.ttf",
+          "notice": "assets/fonts/karla-OFL.txt",
+          "internal_names": [
+            "Karla",
+            "Karla-Regular",
+            "Regular"
+          ],
+          "axes": {
+            "wght": {
+              "min": 200.0,
+              "default": 400.0,
+              "max": 800.0
+            }
+          },
+          "weight": 400,
+          "bytes": 94016,
+          "sha256": "ed3ca4cd9bdd899c543927c30bf5ff50706b24b3f2b7328e64b25f7d2a9d23dc"
+        }
+      ],
+      "bundled_photographs": [],
+      "runtime": "Fictional theatre programme and exact local ticket budget; no reservation, availability, purchase or sending. Original static HTML/CSS/JavaScript with explicit local keep/download/recovery.",
+      "initial_source_preserved": true,
+      "final_source_snapshot": [
+        {
+          "path": "NOTICES.md",
+          "bytes": 2604,
+          "sha256": "a9a113d5fcd1e1e7577c3f5b3210cb9791f97c966586f5d78f69e31eca95e370"
+        },
+        {
+          "path": "README.md",
+          "bytes": 1160,
+          "sha256": "271be6dab755318c96ce2cf3a17645150736c73af99ecb3a06f87de963b9d5b5"
+        },
+        {
+          "path": "assets/art/mark.svg",
+          "bytes": 254,
+          "sha256": "c79e194b82633050acea1224f90e79caf5c75473607f8730a7d31343961bf394"
+        },
+        {
+          "path": "assets/art/stage.svg",
+          "bytes": 1470,
+          "sha256": "1beb36f7dbb5376361abe76a4ca2b62c9585af12522f24c3add92c487a54ade4"
+        },
+        {
+          "path": "assets/fonts/PACKAGED_FONT_SOURCE.json",
+          "bytes": 2171,
+          "sha256": "35412ee1ddc3f9d1129b2bc1140f80be229d3c39867c5aa6ea41207b1a7607f6"
+        },
+        {
+          "path": "assets/fonts/PACKAGED_NOTICES.md",
+          "bytes": 2002,
+          "sha256": "92792b4d489e256a63d833a24a867cea61e068da7226df47692e587afddda557"
+        },
+        {
+          "path": "assets/fonts/alegreya-METADATA.pb",
+          "bytes": 1375,
+          "sha256": "9bff810f5954762cad87d175c60b4bd7a5dbd1c6deb2540c56dfaf1186d5f5fc"
+        },
+        {
+          "path": "assets/fonts/alegreya-OFL.txt",
+          "bytes": 4395,
+          "sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68"
+        },
+        {
+          "path": "assets/fonts/alegreya-italic.ttf",
+          "bytes": 425852,
+          "sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391"
+        },
+        {
+          "path": "assets/fonts/alegreya-roman.ttf",
+          "bytes": 425288,
+          "sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12"
+        },
+        {
+          "path": "assets/fonts/karla-METADATA.pb",
+          "bytes": 1168,
+          "sha256": "6bf0bf977bd80e6d6655a302450bd4fc566857b577f056db4d8d054bbc7c67dd"
+        },
+        {
+          "path": "assets/fonts/karla-OFL.txt",
+          "bytes": 4384,
+          "sha256": "edf2c840acb9570fe02f40721126aa0da4e4011a0030cc6dce30780569f609b6"
+        },
+        {
+          "path": "assets/fonts/karla-roman.ttf",
+          "bytes": 94016,
+          "sha256": "ed3ca4cd9bdd899c543927c30bf5ff50706b24b3f2b7328e64b25f7d2a9d23dc"
+        },
+        {
+          "path": "budget-model.js",
+          "bytes": 4803,
+          "sha256": "14524157068f0062d752a747f3449db4bd2286efd9c40b5fe3c5d6f662c6d9a0"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 7811,
+          "sha256": "d228752a9951229c869694f3e8ab8fd460eaff683bcd9de110ff93c0fd26b821"
+        },
+        {
+          "path": "fixtures/model.test.cjs",
+          "bytes": 2591,
+          "sha256": "c46c0004f53bfe634f12953acec33eb7f305481b3e0f171c74f7d69922f6f8bf"
+        },
+        {
+          "path": "fixtures/structure.py",
+          "bytes": 2519,
+          "sha256": "5a1dbd7a027acfea7f849b4f5ff28f38bdc083a5098d0a3be8a816e898e58f4c"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 7812,
+          "sha256": "ef0d94abdee44dd62eea3ddc58f59db405624757a2efdeb0d5ee24fcc4bc914e"
+        },
+        {
+          "path": "index.html",
+          "bytes": 4641,
+          "sha256": "2bc948f0cad41bfdb6152fd221ce781a291a723cf68a448bc441c6a8f9e2c6da"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 25028,
+          "sha256": "026b0a479705faf5a9c38016c343db8cceffe42210811f8d46c68ada38c57ad2"
+        },
+        {
+          "path": "worksheet.js",
+          "bytes": 8888,
+          "sha256": "c0004a072a7e393abf64aea3f0da8de586ec21c90d37dfbb3c99e0754fdb6852"
+        }
+      ],
+      "capture_phase": "final-2"
+    },
+    {
+      "slug": "kiln-notes",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "source_file_count": 20,
+      "source_bytes": 1387617,
+      "required_notices": [
+        "NOTICES.md",
+        "fonts/alegreya-OFL.txt",
+        "fonts/fraunces-OFL.txt",
+        "fonts/karla-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/alegreya-italic.ttf",
+          "notice": "fonts/alegreya-OFL.txt",
+          "internal_names": [
+            "Alegreya",
+            "Alegreya-Italic",
+            "Italic"
+          ],
+          "axes": {
+            "wght": {
+              "min": 400.0,
+              "default": 400.0,
+              "max": 900.0
+            }
+          },
+          "weight": 400,
+          "bytes": 425852,
+          "sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391"
+        },
+        {
+          "file": "fonts/alegreya-roman.ttf",
+          "notice": "fonts/alegreya-OFL.txt",
+          "internal_names": [
+            "Alegreya",
+            "Alegreya-Regular",
+            "Regular"
+          ],
+          "axes": {
+            "wght": {
+              "min": 400.0,
+              "default": 400.0,
+              "max": 900.0
+            }
+          },
+          "weight": 400,
+          "bytes": 425288,
+          "sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12"
+        },
+        {
+          "file": "fonts/fraunces.ttf",
+          "notice": "fonts/fraunces-OFL.txt",
+          "internal_names": [
+            "Black",
+            "Fraunces",
+            "Fraunces-9ptBlack",
+            "Regular"
+          ],
+          "axes": {
+            "opsz": {
+              "min": 9.0,
+              "default": 9.0,
+              "max": 144.0
+            },
+            "wght": {
+              "min": 100.0,
+              "default": 900.0,
+              "max": 900.0
+            },
+            "SOFT": {
+              "min": 0.0,
+              "default": 0.0,
+              "max": 100.0
+            },
+            "WONK": {
+              "min": 0.0,
+              "default": 1.0,
+              "max": 1.0
+            }
+          },
+          "weight": 900,
+          "bytes": 360440,
+          "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+        },
+        {
+          "file": "fonts/karla-roman.ttf",
+          "notice": "fonts/karla-OFL.txt",
+          "internal_names": [
+            "Karla",
+            "Karla-Regular",
+            "Regular"
+          ],
+          "axes": {
+            "wght": {
+              "min": 200.0,
+              "default": 400.0,
+              "max": 800.0
+            }
+          },
+          "weight": 400,
+          "bytes": 94016,
+          "sha256": "ed3ca4cd9bdd899c543927c30bf5ff50706b24b3f2b7328e64b25f7d2a9d23dc"
+        }
+      ],
+      "bundled_photographs": [],
+      "runtime": "Fictional ceramics journal and proportional dry-batch arithmetic; formulas are illustrative and untested, with no firing or materials claim. Original static HTML/CSS/JavaScript with explicit local keep/download/recovery.",
+      "initial_source_preserved": true,
+      "final_source_snapshot": [
+        {
+          "path": "NOTICES.md",
+          "bytes": 1754,
+          "sha256": "4a405b7e2055a3f9dbc5a0ab96708227123ee063ad64ce10b5e8c117a96b15ec"
+        },
+        {
+          "path": "art/mark.svg",
+          "bytes": 243,
+          "sha256": "1083bd325eb6f48b769b3775dba6826bc7bb0fc1711b4f859d608b39b1e8d0b0"
+        },
+        {
+          "path": "art/material-study.svg",
+          "bytes": 2672,
+          "sha256": "fd5ee00fa8773650faa74cabb276c50a3fd485f63ad4155a7b08079315f81456"
+        },
+        {
+          "path": "batch-model.js",
+          "bytes": 4657,
+          "sha256": "be4d66198101ebb105ad397cc92741b41f61c7d2a55a671b46a3e687772ac969"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 7380,
+          "sha256": "c535ad851154ddb20b398ea3bb60fcfb644e148cc1c15c39e4d3c2fffa0260fd"
+        },
+        {
+          "path": "fonts/alegreya-METADATA.pb",
+          "bytes": 1375,
+          "sha256": "9bff810f5954762cad87d175c60b4bd7a5dbd1c6deb2540c56dfaf1186d5f5fc"
+        },
+        {
+          "path": "fonts/alegreya-OFL.txt",
+          "bytes": 4395,
+          "sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68"
+        },
+        {
+          "path": "fonts/alegreya-italic.ttf",
+          "bytes": 425852,
+          "sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391"
+        },
+        {
+          "path": "fonts/alegreya-roman.ttf",
+          "bytes": 425288,
+          "sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12"
+        },
+        {
+          "path": "fonts/fraunces-OFL.txt",
+          "bytes": 4391,
+          "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+        },
+        {
+          "path": "fonts/fraunces-source.json",
+          "bytes": 984,
+          "sha256": "e26c21e5ebd43a1604eae63f2590b46ec54d6ac9b88c26b9fbc64cea8e441ed6"
+        },
+        {
+          "path": "fonts/fraunces.ttf",
+          "bytes": 360440,
+          "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+        },
+        {
+          "path": "fonts/karla-METADATA.pb",
+          "bytes": 1168,
+          "sha256": "6bf0bf977bd80e6d6655a302450bd4fc566857b577f056db4d8d054bbc7c67dd"
+        },
+        {
+          "path": "fonts/karla-OFL.txt",
+          "bytes": 4384,
+          "sha256": "edf2c840acb9570fe02f40721126aa0da4e4011a0030cc6dce30780569f609b6"
+        },
+        {
+          "path": "fonts/karla-roman.ttf",
+          "bytes": 94016,
+          "sha256": "ed3ca4cd9bdd899c543927c30bf5ff50706b24b3f2b7328e64b25f7d2a9d23dc"
+        },
+        {
+          "path": "fonts/sunday-font-sources.json",
+          "bytes": 2171,
+          "sha256": "35412ee1ddc3f9d1129b2bc1140f80be229d3c39867c5aa6ea41207b1a7607f6"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 10408,
+          "sha256": "6b89e7fcb27c8e02632c977f4dc00b97b127e31bb655a0bfd29698b6e92b5e27"
+        },
+        {
+          "path": "index.html",
+          "bytes": 6021,
+          "sha256": "cc427ba395ea017ae066695cb8be58f03fd9f6196f84264b18a69a45a04917e6"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 21440,
+          "sha256": "bffca013cc2d5193d08ec85b69fda101ecb7086c2451560a617d17e0d88ba10a"
+        },
+        {
+          "path": "worksheet.js",
+          "bytes": 8578,
+          "sha256": "c2732d2fb4892792f8eb5ad54a6ee20a2fc4e93591ff25ca3a56bfbfa5c336ab"
+        }
+      ],
+      "capture_phase": "final-3"
+    },
+    {
+      "slug": "home-current",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "source_file_count": 17,
+      "source_bytes": 1021551,
+      "required_notices": [
+        "NOTICES.md",
+        "fonts/alegreya-OFL.txt",
+        "fonts/karla-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/alegreya-italic.ttf",
+          "notice": "fonts/alegreya-OFL.txt",
+          "internal_names": [
+            "Alegreya",
+            "Alegreya-Italic",
+            "Italic"
+          ],
+          "axes": {
+            "wght": {
+              "min": 400.0,
+              "default": 400.0,
+              "max": 900.0
+            }
+          },
+          "weight": 400,
+          "bytes": 425852,
+          "sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391"
+        },
+        {
+          "file": "fonts/alegreya-roman.ttf",
+          "notice": "fonts/alegreya-OFL.txt",
+          "internal_names": [
+            "Alegreya",
+            "Alegreya-Regular",
+            "Regular"
+          ],
+          "axes": {
+            "wght": {
+              "min": 400.0,
+              "default": 400.0,
+              "max": 900.0
+            }
+          },
+          "weight": 400,
+          "bytes": 425288,
+          "sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12"
+        },
+        {
+          "file": "fonts/karla-roman.ttf",
+          "notice": "fonts/karla-OFL.txt",
+          "internal_names": [
+            "Karla",
+            "Karla-Regular",
+            "Regular"
+          ],
+          "axes": {
+            "wght": {
+              "min": 200.0,
+              "default": 400.0,
+              "max": 800.0
+            }
+          },
+          "weight": 400,
+          "bytes": 94016,
+          "sha256": "ed3ca4cd9bdd899c543927c30bf5ff50706b24b3f2b7328e64b25f7d2a9d23dc"
+        }
+      ],
+      "bundled_photographs": [],
+      "runtime": "Fictional one-appliance constant-power energy and cost sheet using entered values; no actual tariffs, meters, energy advice, integrations or payments. Original static HTML/CSS/JavaScript with explicit local keep/download/recovery.",
+      "initial_source_preserved": true,
+      "final_source_snapshot": [
+        {
+          "path": "NOTICES.md",
+          "bytes": 2249,
+          "sha256": "ac00074809c3b9a1ea710444b4d19146ff1c1f93a89a303145103c0415e63d85"
+        },
+        {
+          "path": "art/heater.svg",
+          "bytes": 1622,
+          "sha256": "db72f22c92d002a497811cc0020da5432218640ec8cf6cdf68bec47356421dd4"
+        },
+        {
+          "path": "art/mark.svg",
+          "bytes": 281,
+          "sha256": "385d758d9f0563418fbee52142f0439ebfe40ddba49b0c82cf8ae1a342da7ed8"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 7628,
+          "sha256": "6778e3ad6ecbf928a2310799bf31cec38ea350844f3118f5cf84e9144d9d675d"
+        },
+        {
+          "path": "energy-model.js",
+          "bytes": 6232,
+          "sha256": "5471505361f344f3cc978a739c6ec61c9b4e7407f21f38d737b890134c448bef"
+        },
+        {
+          "path": "fonts/FONT_SOURCE.json",
+          "bytes": 2171,
+          "sha256": "35412ee1ddc3f9d1129b2bc1140f80be229d3c39867c5aa6ea41207b1a7607f6"
+        },
+        {
+          "path": "fonts/alegreya-METADATA.pb",
+          "bytes": 1375,
+          "sha256": "9bff810f5954762cad87d175c60b4bd7a5dbd1c6deb2540c56dfaf1186d5f5fc"
+        },
+        {
+          "path": "fonts/alegreya-OFL.txt",
+          "bytes": 4395,
+          "sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68"
+        },
+        {
+          "path": "fonts/alegreya-italic.ttf",
+          "bytes": 425852,
+          "sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391"
+        },
+        {
+          "path": "fonts/alegreya-roman.ttf",
+          "bytes": 425288,
+          "sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12"
+        },
+        {
+          "path": "fonts/karla-METADATA.pb",
+          "bytes": 1168,
+          "sha256": "6bf0bf977bd80e6d6655a302450bd4fc566857b577f056db4d8d054bbc7c67dd"
+        },
+        {
+          "path": "fonts/karla-OFL.txt",
+          "bytes": 4384,
+          "sha256": "edf2c840acb9570fe02f40721126aa0da4e4011a0030cc6dce30780569f609b6"
+        },
+        {
+          "path": "fonts/karla-roman.ttf",
+          "bytes": 94016,
+          "sha256": "ed3ca4cd9bdd899c543927c30bf5ff50706b24b3f2b7328e64b25f7d2a9d23dc"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 9326,
+          "sha256": "5b521f3aa876a12f2b73537b7ac0ad5f68971ab1d4bbd3f831345f31afb1844d"
+        },
+        {
+          "path": "index.html",
+          "bytes": 4366,
+          "sha256": "74a50a744319728abd06ad191b217cc8a04a361efe2c529f5576faba89b2cf2b"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 23164,
+          "sha256": "fca226034602934614e3583cb12163169d5d56ebb6a04fa37818a4141f099007"
+        },
+        {
+          "path": "worksheet.js",
+          "bytes": 8034,
+          "sha256": "dbb6501c21be94961be0fce5b28d525cf0f2fe63e12788e811f5b30b2bdd9cea"
+        }
+      ],
+      "capture_phase": "final-2"
+    }
+  ],
+  "files": [
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/NOTICES.md",
+      "bytes": 2604,
+      "sha256": "a9a113d5fcd1e1e7577c3f5b3210cb9791f97c966586f5d78f69e31eca95e370",
+      "original_trial_relative_path": "little-stage/site/NOTICES.md",
+      "original_sha256": "a9a113d5fcd1e1e7577c3f5b3210cb9791f97c966586f5d78f69e31eca95e370"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/README.md",
+      "bytes": 1160,
+      "sha256": "271be6dab755318c96ce2cf3a17645150736c73af99ecb3a06f87de963b9d5b5",
+      "original_trial_relative_path": "little-stage/site/README.md",
+      "original_sha256": "271be6dab755318c96ce2cf3a17645150736c73af99ecb3a06f87de963b9d5b5"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/assets/art/mark.svg",
+      "bytes": 254,
+      "sha256": "c79e194b82633050acea1224f90e79caf5c75473607f8730a7d31343961bf394",
+      "original_trial_relative_path": "little-stage/site/assets/art/mark.svg",
+      "original_sha256": "c79e194b82633050acea1224f90e79caf5c75473607f8730a7d31343961bf394"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/assets/art/stage.svg",
+      "bytes": 1470,
+      "sha256": "1beb36f7dbb5376361abe76a4ca2b62c9585af12522f24c3add92c487a54ade4",
+      "original_trial_relative_path": "little-stage/site/assets/art/stage.svg",
+      "original_sha256": "1beb36f7dbb5376361abe76a4ca2b62c9585af12522f24c3add92c487a54ade4"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/assets/fonts/PACKAGED_FONT_SOURCE.json",
+      "bytes": 2171,
+      "sha256": "35412ee1ddc3f9d1129b2bc1140f80be229d3c39867c5aa6ea41207b1a7607f6",
+      "original_trial_relative_path": "little-stage/site/assets/fonts/PACKAGED_FONT_SOURCE.json",
+      "original_sha256": "35412ee1ddc3f9d1129b2bc1140f80be229d3c39867c5aa6ea41207b1a7607f6"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/assets/fonts/PACKAGED_NOTICES.md",
+      "bytes": 2002,
+      "sha256": "92792b4d489e256a63d833a24a867cea61e068da7226df47692e587afddda557",
+      "original_trial_relative_path": "little-stage/site/assets/fonts/PACKAGED_NOTICES.md",
+      "original_sha256": "92792b4d489e256a63d833a24a867cea61e068da7226df47692e587afddda557"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/assets/fonts/alegreya-METADATA.pb",
+      "bytes": 1375,
+      "sha256": "9bff810f5954762cad87d175c60b4bd7a5dbd1c6deb2540c56dfaf1186d5f5fc",
+      "original_trial_relative_path": "little-stage/site/assets/fonts/alegreya-METADATA.pb",
+      "original_sha256": "9bff810f5954762cad87d175c60b4bd7a5dbd1c6deb2540c56dfaf1186d5f5fc"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/assets/fonts/alegreya-OFL.txt",
+      "bytes": 4395,
+      "sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68",
+      "original_trial_relative_path": "little-stage/site/assets/fonts/alegreya-OFL.txt",
+      "original_sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/assets/fonts/alegreya-italic.ttf",
+      "bytes": 425852,
+      "sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391",
+      "original_trial_relative_path": "little-stage/site/assets/fonts/alegreya-italic.ttf",
+      "original_sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/assets/fonts/alegreya-roman.ttf",
+      "bytes": 425288,
+      "sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12",
+      "original_trial_relative_path": "little-stage/site/assets/fonts/alegreya-roman.ttf",
+      "original_sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/assets/fonts/karla-METADATA.pb",
+      "bytes": 1168,
+      "sha256": "6bf0bf977bd80e6d6655a302450bd4fc566857b577f056db4d8d054bbc7c67dd",
+      "original_trial_relative_path": "little-stage/site/assets/fonts/karla-METADATA.pb",
+      "original_sha256": "6bf0bf977bd80e6d6655a302450bd4fc566857b577f056db4d8d054bbc7c67dd"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/assets/fonts/karla-OFL.txt",
+      "bytes": 4384,
+      "sha256": "edf2c840acb9570fe02f40721126aa0da4e4011a0030cc6dce30780569f609b6",
+      "original_trial_relative_path": "little-stage/site/assets/fonts/karla-OFL.txt",
+      "original_sha256": "edf2c840acb9570fe02f40721126aa0da4e4011a0030cc6dce30780569f609b6"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/assets/fonts/karla-roman.ttf",
+      "bytes": 94016,
+      "sha256": "ed3ca4cd9bdd899c543927c30bf5ff50706b24b3f2b7328e64b25f7d2a9d23dc",
+      "original_trial_relative_path": "little-stage/site/assets/fonts/karla-roman.ttf",
+      "original_sha256": "ed3ca4cd9bdd899c543927c30bf5ff50706b24b3f2b7328e64b25f7d2a9d23dc"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/budget-model.js",
+      "bytes": 4803,
+      "sha256": "14524157068f0062d752a747f3449db4bd2286efd9c40b5fe3c5d6f662c6d9a0",
+      "original_trial_relative_path": "little-stage/site/budget-model.js",
+      "original_sha256": "14524157068f0062d752a747f3449db4bd2286efd9c40b5fe3c5d6f662c6d9a0"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/demo.html",
+      "bytes": 7811,
+      "sha256": "d228752a9951229c869694f3e8ab8fd460eaff683bcd9de110ff93c0fd26b821",
+      "original_trial_relative_path": "little-stage/site/demo.html",
+      "original_sha256": "d228752a9951229c869694f3e8ab8fd460eaff683bcd9de110ff93c0fd26b821"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/fixtures/model.test.cjs",
+      "bytes": 2591,
+      "sha256": "c46c0004f53bfe634f12953acec33eb7f305481b3e0f171c74f7d69922f6f8bf",
+      "original_trial_relative_path": "little-stage/site/fixtures/model.test.cjs",
+      "original_sha256": "c46c0004f53bfe634f12953acec33eb7f305481b3e0f171c74f7d69922f6f8bf"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/fixtures/structure.py",
+      "bytes": 2519,
+      "sha256": "5a1dbd7a027acfea7f849b4f5ff28f38bdc083a5098d0a3be8a816e898e58f4c",
+      "original_trial_relative_path": "little-stage/site/fixtures/structure.py",
+      "original_sha256": "5a1dbd7a027acfea7f849b4f5ff28f38bdc083a5098d0a3be8a816e898e58f4c"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/guide.html",
+      "bytes": 7812,
+      "sha256": "ef0d94abdee44dd62eea3ddc58f59db405624757a2efdeb0d5ee24fcc4bc914e",
+      "original_trial_relative_path": "little-stage/site/guide.html",
+      "original_sha256": "ef0d94abdee44dd62eea3ddc58f59db405624757a2efdeb0d5ee24fcc4bc914e"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/index.html",
+      "bytes": 4641,
+      "sha256": "2bc948f0cad41bfdb6152fd221ce781a291a723cf68a448bc441c6a8f9e2c6da",
+      "original_trial_relative_path": "little-stage/site/index.html",
+      "original_sha256": "2bc948f0cad41bfdb6152fd221ce781a291a723cf68a448bc441c6a8f9e2c6da"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/styles.css",
+      "bytes": 25028,
+      "sha256": "026b0a479705faf5a9c38016c343db8cceffe42210811f8d46c68ada38c57ad2",
+      "original_trial_relative_path": "little-stage/site/styles.css",
+      "original_sha256": "026b0a479705faf5a9c38016c343db8cceffe42210811f8d46c68ada38c57ad2"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/site/worksheet.js",
+      "bytes": 8888,
+      "sha256": "c0004a072a7e393abf64aea3f0da8de586ec21c90d37dfbb3c99e0754fdb6852",
+      "original_trial_relative_path": "little-stage/site/worksheet.js",
+      "original_sha256": "c0004a072a7e393abf64aea3f0da8de586ec21c90d37dfbb3c99e0754fdb6852"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/captures/home-desktop.jpg",
+      "bytes": 95343,
+      "sha256": "e8bceeca8404991619dd041859fe3c2f206b594cfc50d737d47ea22a4baeed0d",
+      "original_trial_relative_path": "captures/final-2/little-stage/home-desktop.jpg",
+      "original_sha256": "e8bceeca8404991619dd041859fe3c2f206b594cfc50d737d47ea22a4baeed0d",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/captures/home-phone.jpg",
+      "bytes": 39965,
+      "sha256": "54b24d44236f14ec1e18f026fbe654a7062df3cda958bdbb23d8fc133c77dd84",
+      "original_trial_relative_path": "captures/final-2/little-stage/home-phone.jpg",
+      "original_sha256": "54b24d44236f14ec1e18f026fbe654a7062df3cda958bdbb23d8fc133c77dd84",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/captures/demo-desktop.jpg",
+      "bytes": 107608,
+      "sha256": "ee633e2ca778f89cd017c3035b7cae7a309eb6b94d77bf8f949091e96fc87c9f",
+      "original_trial_relative_path": "captures/final-2/little-stage/demo-desktop.jpg",
+      "original_sha256": "ee633e2ca778f89cd017c3035b7cae7a309eb6b94d77bf8f949091e96fc87c9f",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/captures/demo-phone.jpg",
+      "bytes": 46105,
+      "sha256": "92f19936e90e8d225301d60fe562d640df860017c77dc481d13dac89faf58d14",
+      "original_trial_relative_path": "captures/final-2/little-stage/demo-phone.jpg",
+      "original_sha256": "92f19936e90e8d225301d60fe562d640df860017c77dc481d13dac89faf58d14",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/captures/guide-desktop.jpg",
+      "bytes": 87676,
+      "sha256": "4f7e429c6f459af1087ad3c1cf0d3eb5c38a61f72460de8800386b4990522d35",
+      "original_trial_relative_path": "captures/final-2/little-stage/guide-desktop.jpg",
+      "original_sha256": "4f7e429c6f459af1087ad3c1cf0d3eb5c38a61f72460de8800386b4990522d35",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/little-stage/captures/guide-phone.jpg",
+      "bytes": 45367,
+      "sha256": "190b768535672c06d0ba20ff9089b4da9891ce71c0e169d3767eef9ea38b0b69",
+      "original_trial_relative_path": "captures/final-2/little-stage/guide-phone.jpg",
+      "original_sha256": "190b768535672c06d0ba20ff9089b4da9891ce71c0e169d3767eef9ea38b0b69",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/NOTICES.md",
+      "bytes": 1754,
+      "sha256": "4a405b7e2055a3f9dbc5a0ab96708227123ee063ad64ce10b5e8c117a96b15ec",
+      "original_trial_relative_path": "kiln-notes/site/NOTICES.md",
+      "original_sha256": "4a405b7e2055a3f9dbc5a0ab96708227123ee063ad64ce10b5e8c117a96b15ec"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/art/mark.svg",
+      "bytes": 243,
+      "sha256": "1083bd325eb6f48b769b3775dba6826bc7bb0fc1711b4f859d608b39b1e8d0b0",
+      "original_trial_relative_path": "kiln-notes/site/art/mark.svg",
+      "original_sha256": "1083bd325eb6f48b769b3775dba6826bc7bb0fc1711b4f859d608b39b1e8d0b0"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/art/material-study.svg",
+      "bytes": 2672,
+      "sha256": "fd5ee00fa8773650faa74cabb276c50a3fd485f63ad4155a7b08079315f81456",
+      "original_trial_relative_path": "kiln-notes/site/art/material-study.svg",
+      "original_sha256": "fd5ee00fa8773650faa74cabb276c50a3fd485f63ad4155a7b08079315f81456"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/batch-model.js",
+      "bytes": 4657,
+      "sha256": "be4d66198101ebb105ad397cc92741b41f61c7d2a55a671b46a3e687772ac969",
+      "original_trial_relative_path": "kiln-notes/site/batch-model.js",
+      "original_sha256": "be4d66198101ebb105ad397cc92741b41f61c7d2a55a671b46a3e687772ac969"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/demo.html",
+      "bytes": 7380,
+      "sha256": "c535ad851154ddb20b398ea3bb60fcfb644e148cc1c15c39e4d3c2fffa0260fd",
+      "original_trial_relative_path": "kiln-notes/site/demo.html",
+      "original_sha256": "c535ad851154ddb20b398ea3bb60fcfb644e148cc1c15c39e4d3c2fffa0260fd"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/fonts/alegreya-METADATA.pb",
+      "bytes": 1375,
+      "sha256": "9bff810f5954762cad87d175c60b4bd7a5dbd1c6deb2540c56dfaf1186d5f5fc",
+      "original_trial_relative_path": "kiln-notes/site/fonts/alegreya-METADATA.pb",
+      "original_sha256": "9bff810f5954762cad87d175c60b4bd7a5dbd1c6deb2540c56dfaf1186d5f5fc"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/fonts/alegreya-OFL.txt",
+      "bytes": 4395,
+      "sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68",
+      "original_trial_relative_path": "kiln-notes/site/fonts/alegreya-OFL.txt",
+      "original_sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/fonts/alegreya-italic.ttf",
+      "bytes": 425852,
+      "sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391",
+      "original_trial_relative_path": "kiln-notes/site/fonts/alegreya-italic.ttf",
+      "original_sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/fonts/alegreya-roman.ttf",
+      "bytes": 425288,
+      "sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12",
+      "original_trial_relative_path": "kiln-notes/site/fonts/alegreya-roman.ttf",
+      "original_sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/fonts/fraunces-OFL.txt",
+      "bytes": 4391,
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+      "original_trial_relative_path": "kiln-notes/site/fonts/fraunces-OFL.txt",
+      "original_sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/fonts/fraunces-source.json",
+      "bytes": 984,
+      "sha256": "e26c21e5ebd43a1604eae63f2590b46ec54d6ac9b88c26b9fbc64cea8e441ed6",
+      "original_trial_relative_path": "kiln-notes/site/fonts/fraunces-source.json",
+      "original_sha256": "e26c21e5ebd43a1604eae63f2590b46ec54d6ac9b88c26b9fbc64cea8e441ed6"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/fonts/fraunces.ttf",
+      "bytes": 360440,
+      "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb",
+      "original_trial_relative_path": "kiln-notes/site/fonts/fraunces.ttf",
+      "original_sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/fonts/karla-METADATA.pb",
+      "bytes": 1168,
+      "sha256": "6bf0bf977bd80e6d6655a302450bd4fc566857b577f056db4d8d054bbc7c67dd",
+      "original_trial_relative_path": "kiln-notes/site/fonts/karla-METADATA.pb",
+      "original_sha256": "6bf0bf977bd80e6d6655a302450bd4fc566857b577f056db4d8d054bbc7c67dd"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/fonts/karla-OFL.txt",
+      "bytes": 4384,
+      "sha256": "edf2c840acb9570fe02f40721126aa0da4e4011a0030cc6dce30780569f609b6",
+      "original_trial_relative_path": "kiln-notes/site/fonts/karla-OFL.txt",
+      "original_sha256": "edf2c840acb9570fe02f40721126aa0da4e4011a0030cc6dce30780569f609b6"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/fonts/karla-roman.ttf",
+      "bytes": 94016,
+      "sha256": "ed3ca4cd9bdd899c543927c30bf5ff50706b24b3f2b7328e64b25f7d2a9d23dc",
+      "original_trial_relative_path": "kiln-notes/site/fonts/karla-roman.ttf",
+      "original_sha256": "ed3ca4cd9bdd899c543927c30bf5ff50706b24b3f2b7328e64b25f7d2a9d23dc"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/fonts/sunday-font-sources.json",
+      "bytes": 2171,
+      "sha256": "35412ee1ddc3f9d1129b2bc1140f80be229d3c39867c5aa6ea41207b1a7607f6",
+      "original_trial_relative_path": "kiln-notes/site/fonts/sunday-font-sources.json",
+      "original_sha256": "35412ee1ddc3f9d1129b2bc1140f80be229d3c39867c5aa6ea41207b1a7607f6"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/guide.html",
+      "bytes": 10408,
+      "sha256": "6b89e7fcb27c8e02632c977f4dc00b97b127e31bb655a0bfd29698b6e92b5e27",
+      "original_trial_relative_path": "kiln-notes/site/guide.html",
+      "original_sha256": "6b89e7fcb27c8e02632c977f4dc00b97b127e31bb655a0bfd29698b6e92b5e27"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/index.html",
+      "bytes": 6021,
+      "sha256": "cc427ba395ea017ae066695cb8be58f03fd9f6196f84264b18a69a45a04917e6",
+      "original_trial_relative_path": "kiln-notes/site/index.html",
+      "original_sha256": "cc427ba395ea017ae066695cb8be58f03fd9f6196f84264b18a69a45a04917e6"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/styles.css",
+      "bytes": 21440,
+      "sha256": "bffca013cc2d5193d08ec85b69fda101ecb7086c2451560a617d17e0d88ba10a",
+      "original_trial_relative_path": "kiln-notes/site/styles.css",
+      "original_sha256": "bffca013cc2d5193d08ec85b69fda101ecb7086c2451560a617d17e0d88ba10a"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/site/worksheet.js",
+      "bytes": 8578,
+      "sha256": "c2732d2fb4892792f8eb5ad54a6ee20a2fc4e93591ff25ca3a56bfbfa5c336ab",
+      "original_trial_relative_path": "kiln-notes/site/worksheet.js",
+      "original_sha256": "c2732d2fb4892792f8eb5ad54a6ee20a2fc4e93591ff25ca3a56bfbfa5c336ab"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/captures/home-desktop.jpg",
+      "bytes": 85159,
+      "sha256": "e02413c0e7ead5892311e4e7d776ae372c20f79845c64123035620c1faeb248e",
+      "original_trial_relative_path": "captures/final-3/kiln-notes/home-desktop.jpg",
+      "original_sha256": "e02413c0e7ead5892311e4e7d776ae372c20f79845c64123035620c1faeb248e",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-3",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/captures/home-phone.jpg",
+      "bytes": 38499,
+      "sha256": "60dab536e282e2c61eeebca4b457e73394022d0b87deeee55896d22152a604fb",
+      "original_trial_relative_path": "captures/final-3/kiln-notes/home-phone.jpg",
+      "original_sha256": "60dab536e282e2c61eeebca4b457e73394022d0b87deeee55896d22152a604fb",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-3",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/captures/demo-desktop.jpg",
+      "bytes": 102540,
+      "sha256": "59fa554d1804e4b13a6a8fea89a01065a9618d54acad97f5389026fc57f2b8aa",
+      "original_trial_relative_path": "captures/final-3/kiln-notes/demo-desktop.jpg",
+      "original_sha256": "59fa554d1804e4b13a6a8fea89a01065a9618d54acad97f5389026fc57f2b8aa",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-3",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/captures/demo-phone.jpg",
+      "bytes": 39006,
+      "sha256": "540dfe3dd1423b1a7f4a25ec6fef1e4af1f4a5d85888b2a61b4a69c193161fa3",
+      "original_trial_relative_path": "captures/final-3/kiln-notes/demo-phone.jpg",
+      "original_sha256": "540dfe3dd1423b1a7f4a25ec6fef1e4af1f4a5d85888b2a61b4a69c193161fa3",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-3",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/captures/guide-desktop.jpg",
+      "bytes": 95358,
+      "sha256": "520f0cd1f0ea218182da9215b40aaae6bdbc3b7e8bba56b3363b293e8aa8cab1",
+      "original_trial_relative_path": "captures/final-3/kiln-notes/guide-desktop.jpg",
+      "original_sha256": "520f0cd1f0ea218182da9215b40aaae6bdbc3b7e8bba56b3363b293e8aa8cab1",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-3",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/kiln-notes/captures/guide-phone.jpg",
+      "bytes": 49568,
+      "sha256": "2df31182a8dbe07bf3cd6fb467d5074289b1af660f763451cd459fc8ab333f55",
+      "original_trial_relative_path": "captures/final-3/kiln-notes/guide-phone.jpg",
+      "original_sha256": "2df31182a8dbe07bf3cd6fb467d5074289b1af660f763451cd459fc8ab333f55",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-3",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/NOTICES.md",
+      "bytes": 2249,
+      "sha256": "ac00074809c3b9a1ea710444b4d19146ff1c1f93a89a303145103c0415e63d85",
+      "original_trial_relative_path": "home-current/site/NOTICES.md",
+      "original_sha256": "ac00074809c3b9a1ea710444b4d19146ff1c1f93a89a303145103c0415e63d85"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/art/heater.svg",
+      "bytes": 1622,
+      "sha256": "db72f22c92d002a497811cc0020da5432218640ec8cf6cdf68bec47356421dd4",
+      "original_trial_relative_path": "home-current/site/art/heater.svg",
+      "original_sha256": "db72f22c92d002a497811cc0020da5432218640ec8cf6cdf68bec47356421dd4"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/art/mark.svg",
+      "bytes": 281,
+      "sha256": "385d758d9f0563418fbee52142f0439ebfe40ddba49b0c82cf8ae1a342da7ed8",
+      "original_trial_relative_path": "home-current/site/art/mark.svg",
+      "original_sha256": "385d758d9f0563418fbee52142f0439ebfe40ddba49b0c82cf8ae1a342da7ed8"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/demo.html",
+      "bytes": 7628,
+      "sha256": "6778e3ad6ecbf928a2310799bf31cec38ea350844f3118f5cf84e9144d9d675d",
+      "original_trial_relative_path": "home-current/site/demo.html",
+      "original_sha256": "6778e3ad6ecbf928a2310799bf31cec38ea350844f3118f5cf84e9144d9d675d"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/energy-model.js",
+      "bytes": 6232,
+      "sha256": "5471505361f344f3cc978a739c6ec61c9b4e7407f21f38d737b890134c448bef",
+      "original_trial_relative_path": "home-current/site/energy-model.js",
+      "original_sha256": "5471505361f344f3cc978a739c6ec61c9b4e7407f21f38d737b890134c448bef"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/fonts/FONT_SOURCE.json",
+      "bytes": 2171,
+      "sha256": "35412ee1ddc3f9d1129b2bc1140f80be229d3c39867c5aa6ea41207b1a7607f6",
+      "original_trial_relative_path": "home-current/site/fonts/FONT_SOURCE.json",
+      "original_sha256": "35412ee1ddc3f9d1129b2bc1140f80be229d3c39867c5aa6ea41207b1a7607f6"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/fonts/alegreya-METADATA.pb",
+      "bytes": 1375,
+      "sha256": "9bff810f5954762cad87d175c60b4bd7a5dbd1c6deb2540c56dfaf1186d5f5fc",
+      "original_trial_relative_path": "home-current/site/fonts/alegreya-METADATA.pb",
+      "original_sha256": "9bff810f5954762cad87d175c60b4bd7a5dbd1c6deb2540c56dfaf1186d5f5fc"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/fonts/alegreya-OFL.txt",
+      "bytes": 4395,
+      "sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68",
+      "original_trial_relative_path": "home-current/site/fonts/alegreya-OFL.txt",
+      "original_sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/fonts/alegreya-italic.ttf",
+      "bytes": 425852,
+      "sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391",
+      "original_trial_relative_path": "home-current/site/fonts/alegreya-italic.ttf",
+      "original_sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/fonts/alegreya-roman.ttf",
+      "bytes": 425288,
+      "sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12",
+      "original_trial_relative_path": "home-current/site/fonts/alegreya-roman.ttf",
+      "original_sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/fonts/karla-METADATA.pb",
+      "bytes": 1168,
+      "sha256": "6bf0bf977bd80e6d6655a302450bd4fc566857b577f056db4d8d054bbc7c67dd",
+      "original_trial_relative_path": "home-current/site/fonts/karla-METADATA.pb",
+      "original_sha256": "6bf0bf977bd80e6d6655a302450bd4fc566857b577f056db4d8d054bbc7c67dd"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/fonts/karla-OFL.txt",
+      "bytes": 4384,
+      "sha256": "edf2c840acb9570fe02f40721126aa0da4e4011a0030cc6dce30780569f609b6",
+      "original_trial_relative_path": "home-current/site/fonts/karla-OFL.txt",
+      "original_sha256": "edf2c840acb9570fe02f40721126aa0da4e4011a0030cc6dce30780569f609b6"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/fonts/karla-roman.ttf",
+      "bytes": 94016,
+      "sha256": "ed3ca4cd9bdd899c543927c30bf5ff50706b24b3f2b7328e64b25f7d2a9d23dc",
+      "original_trial_relative_path": "home-current/site/fonts/karla-roman.ttf",
+      "original_sha256": "ed3ca4cd9bdd899c543927c30bf5ff50706b24b3f2b7328e64b25f7d2a9d23dc"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/guide.html",
+      "bytes": 9326,
+      "sha256": "5b521f3aa876a12f2b73537b7ac0ad5f68971ab1d4bbd3f831345f31afb1844d",
+      "original_trial_relative_path": "home-current/site/guide.html",
+      "original_sha256": "5b521f3aa876a12f2b73537b7ac0ad5f68971ab1d4bbd3f831345f31afb1844d"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/index.html",
+      "bytes": 4366,
+      "sha256": "74a50a744319728abd06ad191b217cc8a04a361efe2c529f5576faba89b2cf2b",
+      "original_trial_relative_path": "home-current/site/index.html",
+      "original_sha256": "74a50a744319728abd06ad191b217cc8a04a361efe2c529f5576faba89b2cf2b"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/styles.css",
+      "bytes": 23164,
+      "sha256": "fca226034602934614e3583cb12163169d5d56ebb6a04fa37818a4141f099007",
+      "original_trial_relative_path": "home-current/site/styles.css",
+      "original_sha256": "fca226034602934614e3583cb12163169d5d56ebb6a04fa37818a4141f099007"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/site/worksheet.js",
+      "bytes": 8034,
+      "sha256": "dbb6501c21be94961be0fce5b28d525cf0f2fe63e12788e811f5b30b2bdd9cea",
+      "original_trial_relative_path": "home-current/site/worksheet.js",
+      "original_sha256": "dbb6501c21be94961be0fce5b28d525cf0f2fe63e12788e811f5b30b2bdd9cea"
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/captures/home-desktop.jpg",
+      "bytes": 91811,
+      "sha256": "15c52595beb0afdf42fca8fd4ce91cfd057d9770f0e20e26a480a9ce8d288ef5",
+      "original_trial_relative_path": "captures/final-2/home-current/home-desktop.jpg",
+      "original_sha256": "15c52595beb0afdf42fca8fd4ce91cfd057d9770f0e20e26a480a9ce8d288ef5",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/captures/home-phone.jpg",
+      "bytes": 41798,
+      "sha256": "70dc4cd15839a025787bd59f49b7cc27d38184662af01700c64efb9ddcebc407",
+      "original_trial_relative_path": "captures/final-2/home-current/home-phone.jpg",
+      "original_sha256": "70dc4cd15839a025787bd59f49b7cc27d38184662af01700c64efb9ddcebc407",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/captures/demo-desktop.jpg",
+      "bytes": 106411,
+      "sha256": "928855c0e3a85893eba078e8e7bb784bc5bea495cca99ef119da4de52183995e",
+      "original_trial_relative_path": "captures/final-2/home-current/demo-desktop.jpg",
+      "original_sha256": "928855c0e3a85893eba078e8e7bb784bc5bea495cca99ef119da4de52183995e",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/captures/demo-phone.jpg",
+      "bytes": 44578,
+      "sha256": "5a510dc4a188e1a8ecacbd4ac39dbcc9e7f20996938a47ce74e0dbc548080251",
+      "original_trial_relative_path": "captures/final-2/home-current/demo-phone.jpg",
+      "original_sha256": "5a510dc4a188e1a8ecacbd4ac39dbcc9e7f20996938a47ce74e0dbc548080251",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/captures/guide-desktop.jpg",
+      "bytes": 112865,
+      "sha256": "73b33a4af1cf4d859dcdfd27beb119dd12018dd94ef632474909b8164e05adf0",
+      "original_trial_relative_path": "captures/final-2/home-current/guide-desktop.jpg",
+      "original_sha256": "73b33a4af1cf4d859dcdfd27beb119dd12018dd94ef632474909b8164e05adf0",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/home-current/captures/guide-phone.jpg",
+      "bytes": 51427,
+      "sha256": "0878288504ddcb230aa636b28a0108c69624a2107a996a17f57068a3f316290d",
+      "original_trial_relative_path": "captures/final-2/home-current/guide-phone.jpg",
+      "original_sha256": "0878288504ddcb230aa636b28a0108c69624a2107a996a17f57068a3f316290d",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport; explicit top reset; allowed site route matches stopped source freeze."
+      }
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/NOTICES.md",
+      "bytes": 3410,
+      "sha256": "3b2dee505639c1cdcdd4ba7e5b38531c22eb75c104c34d7b95267be360965220",
+      "origin": "Original Begin conditional method or curated scope/check record."
+    },
+    {
+      "skill_relative_path": "assets/first-type-cases/CHECKS.json",
+      "bytes": 1247,
+      "sha256": "f9c67e4493272ad0a76585371705e4b3df472574fee08682a11378526d041b31",
+      "origin": "Original Begin conditional method or curated scope/check record."
+    },
+    {
+      "skill_relative_path": "references/type-in-new-tasks.md",
+      "bytes": 6565,
+      "sha256": "094d9ed808e2ac8742f695590f762545b1304c51493808a2b5a38dbcd584869a",
+      "origin": "Original Begin conditional method or curated scope/check record."
+    }
+  ],
+  "evidence_boundary": "Explicit guided frozen-pack transfers and internal rendered criticism; one blinded same-brief comparison. No causal effect, population success rate, automatic discovery, beginner acceptance, all-host/model quality or commercial result established.",
+  "reference_was_forward_tested": false,
+  "exclusions": [
+    "Raw studies, initial sites, dev.11 control, critiques, state/narrow supplements, project instructions, archive inputs, host installations"
+  ]
+}

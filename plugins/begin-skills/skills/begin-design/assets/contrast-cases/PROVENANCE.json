@@ -1,0 +1,1336 @@
+{
+  "schema_version": 1,
+  "curated_on": "2026-10-11",
+  "curation_snapshot_utc": "2026-10-11T06:09:09.103167+00:00",
+  "trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-diverse-directions",
+  "copy_method": "Byte-identical stopped final source and six explicit-top actual native openings per case. No transformed fonts, artwork or images.",
+  "input_version": "0.1.0-dev.13",
+  "input_archive_sha256": "3bea34d4d995f37cbbb7eb93a0e31775ec2f7da6895ae5ff179f85898c0411b9",
+  "study_kind": "Three fresh guided dev.13 first builds; first sources frozen before new-site rendering; independent internal pixel criticism and focused rendered repairs.",
+  "cases": [
+    {
+      "slug": "night-signal",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "source_file_count": 16,
+      "source_bytes": 499489,
+      "required_notices": [
+        "NOTICES.md",
+        "assets/notices/IBMPlexMono-OFL.txt",
+        "assets/notices/SpaceGrotesk-OFL.txt"
+      ],
+      "font_notice_sources": [
+        {
+          "file": "assets/notices/IBMPlexMono-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+          "copied_from_frozen_input": "begin-design/assets/type-transfer-cases/relay/site/assets/notices/IBMPlexMono-OFL.txt",
+          "modified": false,
+          "bytes": 4456,
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        },
+        {
+          "file": "assets/notices/SpaceGrotesk-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/OFL.txt",
+          "copied_from_frozen_input": "begin-design/assets/type-transfer-cases/relay/site/assets/notices/SpaceGrotesk-OFL.txt",
+          "modified": false,
+          "bytes": 4495,
+          "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+        }
+      ],
+      "bundled_fonts": [
+        {
+          "file": "assets/fonts/IBMPlexMono-Medium.ttf",
+          "notice": "assets/notices/IBMPlexMono-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Medium.ttf",
+          "source_repository": "https://github.com/google/fonts",
+          "copied_from_frozen_input": "begin-design/assets/type-transfer-cases/relay/site/assets/fonts/IBMPlexMono-Medium.ttf",
+          "modified": false,
+          "internal_names": [
+            "IBM Plex Mono",
+            "IBM Plex Mono Medium",
+            "IBMPlexMono-Medium",
+            "Medium",
+            "Regular"
+          ],
+          "axes": {},
+          "weight": 500,
+          "bytes": 136704,
+          "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+        },
+        {
+          "file": "assets/fonts/IBMPlexMono-Regular.ttf",
+          "notice": "assets/notices/IBMPlexMono-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+          "source_repository": "https://github.com/google/fonts",
+          "copied_from_frozen_input": "begin-design/assets/type-transfer-cases/relay/site/assets/fonts/IBMPlexMono-Regular.ttf",
+          "modified": false,
+          "internal_names": [
+            "IBM Plex Mono",
+            "IBMPlexMono-Regular",
+            "Regular"
+          ],
+          "axes": {},
+          "weight": 400,
+          "bytes": 135580,
+          "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+        },
+        {
+          "file": "assets/fonts/SpaceGrotesk-Variable.ttf",
+          "notice": "assets/notices/SpaceGrotesk-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/SpaceGrotesk%5Bwght%5D.ttf",
+          "source_repository": "https://github.com/google/fonts",
+          "copied_from_frozen_input": "begin-design/assets/type-transfer-cases/relay/site/assets/fonts/SpaceGrotesk-Variable.ttf",
+          "modified": false,
+          "internal_names": [
+            "Light",
+            "Regular",
+            "Space Grotesk",
+            "Space Grotesk Light",
+            "SpaceGrotesk-Light"
+          ],
+          "axes": {
+            "wght": {
+              "min": 300.0,
+              "default": 300.0,
+              "max": 700.0
+            }
+          },
+          "weight": 300,
+          "bytes": 136676,
+          "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+        }
+      ],
+      "bundled_photographs": [],
+      "original_artwork": "Original event identity, orbit field and mark; the field is graphic art, not an accurate star chart.",
+      "runtime": "Fictional community astronomy programme and local personal itinerary; no booking, place, ticket, weather, payment or calendar service. Original static HTML/CSS/JavaScript with explicit local keep/download/recovery.",
+      "initial_source_preserved": true,
+      "initial_source": {
+        "file_count": 16,
+        "bytes": 497750,
+        "consumed_input_files": 26
+      },
+      "initial_source_note": "Complete first website source remains frozen before new-site rendering.",
+      "final_source_snapshot": [
+        {
+          "path": "FONT_SOURCES.json",
+          "bytes": 2084,
+          "sha256": "88c18c6b8994a2a6a4ed5afc561311c1fa30c3102a93d1007f36a1d3d9bbe3a6"
+        },
+        {
+          "path": "NOTICES.md",
+          "bytes": 2362,
+          "sha256": "07fa55b20521925cc3117e5cb275033da6cfdfb3bb16b89a4973a26bf2460f8e"
+        },
+        {
+          "path": "assets/art/mark.svg",
+          "bytes": 314,
+          "sha256": "02ee0b6b30c4073c3585f8019e97acb9b8063e6f33ce3971f128c56337970d70"
+        },
+        {
+          "path": "assets/art/night-field.svg",
+          "bytes": 2603,
+          "sha256": "432ea310d1d5b9033cb826950a04c1c15e39aef5e0021516066c9a77e6fef613"
+        },
+        {
+          "path": "assets/fonts/IBMPlexMono-Medium.ttf",
+          "bytes": 136704,
+          "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+        },
+        {
+          "path": "assets/fonts/IBMPlexMono-Regular.ttf",
+          "bytes": 135580,
+          "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+        },
+        {
+          "path": "assets/fonts/SpaceGrotesk-Variable.ttf",
+          "bytes": 136676,
+          "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+        },
+        {
+          "path": "assets/notices/IBMPlexMono-OFL.txt",
+          "bytes": 4456,
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        },
+        {
+          "path": "assets/notices/SpaceGrotesk-OFL.txt",
+          "bytes": 4495,
+          "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 9290,
+          "sha256": "8e0f3c66cd55cca91c52aa44aa2fcc645107548121262e144655d1f93d8b9323"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 11830,
+          "sha256": "0c7712d23b1ab7df63f92f87fb6df828e7556355ee0bb4503cdf4bf3f2465f60"
+        },
+        {
+          "path": "index.html",
+          "bytes": 6843,
+          "sha256": "c96c66ece815aa5183ad069bb1f9985269daf6a5443fb7ab1fc59e5b48953e1c"
+        },
+        {
+          "path": "itinerary.js",
+          "bytes": 11355,
+          "sha256": "08a6dd7f628ce804a7635fab2c1f86f1c325fb3a6470cc5df5a31487872c8f2f"
+        },
+        {
+          "path": "model.js",
+          "bytes": 7128,
+          "sha256": "b20a46ae840e8f22aca06500fe28c616a914307e4aa8589d0a4e31af5bdf443f"
+        },
+        {
+          "path": "site.js",
+          "bytes": 399,
+          "sha256": "363e572630f83329c84be3493aba5a352368dd2b05aad5b3de24e23597d55986"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 27370,
+          "sha256": "e2ab49995715d2c9a42187a4fcf8bd3b940a547ec91974834e61bb8729b7be60"
+        }
+      ],
+      "capture_phase": "final"
+    },
+    {
+      "slug": "form-bureau",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "source_file_count": 22,
+      "source_bytes": 527455,
+      "required_notices": [
+        "NOTICES.md",
+        "assets/notices/IBMPlexMono-OFL.txt",
+        "assets/notices/SpaceGrotesk-OFL.txt"
+      ],
+      "font_notice_sources": [
+        {
+          "file": "assets/notices/IBMPlexMono-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+          "copied_from_frozen_input": "begin-design/assets/type-transfer-cases/relay/site/assets/notices/IBMPlexMono-OFL.txt",
+          "modified": false,
+          "bytes": 4456,
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        },
+        {
+          "file": "assets/notices/SpaceGrotesk-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/OFL.txt",
+          "copied_from_frozen_input": "begin-design/assets/type-transfer-cases/relay/site/assets/notices/SpaceGrotesk-OFL.txt",
+          "modified": false,
+          "bytes": 4495,
+          "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+        }
+      ],
+      "bundled_fonts": [
+        {
+          "file": "assets/fonts/IBMPlexMono-Medium.ttf",
+          "notice": "assets/notices/IBMPlexMono-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Medium.ttf",
+          "source_repository": "https://github.com/google/fonts",
+          "copied_from_frozen_input": "begin-design/assets/type-transfer-cases/relay/site/assets/fonts/IBMPlexMono-Medium.ttf",
+          "modified": false,
+          "internal_names": [
+            "IBM Plex Mono",
+            "IBM Plex Mono Medium",
+            "IBMPlexMono-Medium",
+            "Medium",
+            "Regular"
+          ],
+          "axes": {},
+          "weight": 500,
+          "bytes": 136704,
+          "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+        },
+        {
+          "file": "assets/fonts/IBMPlexMono-Regular.ttf",
+          "notice": "assets/notices/IBMPlexMono-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+          "source_repository": "https://github.com/google/fonts",
+          "copied_from_frozen_input": "begin-design/assets/type-transfer-cases/relay/site/assets/fonts/IBMPlexMono-Regular.ttf",
+          "modified": false,
+          "internal_names": [
+            "IBM Plex Mono",
+            "IBMPlexMono-Regular",
+            "Regular"
+          ],
+          "axes": {},
+          "weight": 400,
+          "bytes": 135580,
+          "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+        },
+        {
+          "file": "assets/fonts/SpaceGrotesk-Variable.ttf",
+          "notice": "assets/notices/SpaceGrotesk-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/SpaceGrotesk%5Bwght%5D.ttf",
+          "source_repository": "https://github.com/google/fonts",
+          "copied_from_frozen_input": "begin-design/assets/type-transfer-cases/relay/site/assets/fonts/SpaceGrotesk-Variable.ttf",
+          "modified": false,
+          "internal_names": [
+            "Light",
+            "Regular",
+            "Space Grotesk",
+            "Space Grotesk Light",
+            "SpaceGrotesk-Light"
+          ],
+          "axes": {
+            "wght": {
+              "min": 300.0,
+              "default": 300.0,
+              "max": 700.0
+            }
+          },
+          "weight": 300,
+          "bytes": 136676,
+          "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+        }
+      ],
+      "bundled_photographs": [],
+      "original_artwork": "Original identity and six original SVG drawings of invented industrial objects; these are specimens, not product photographs.",
+      "runtime": "Fictional industrial object research catalogue and local shortlist; invented dimensions, materials and prices, with no stock, quote, acquisition, payment or suitability claim. Original static HTML/CSS/JavaScript with explicit local keep/download/recovery.",
+      "initial_source_preserved": true,
+      "initial_source": {
+        "file_count": 28,
+        "bytes": 545488,
+        "consumed_input_files": 22
+      },
+      "initial_source_note": "Form Bureau's first freeze also includes six historical study records; its original raw location and that complete freeze remain preserved.",
+      "final_source_snapshot": [
+        {
+          "path": "FONT_PROVENANCE.json",
+          "bytes": 2145,
+          "sha256": "812ae22d88604556779ec170f7b841ce231d1e8c68b443502e1ce0ced11a23fa"
+        },
+        {
+          "path": "NOTICES.md",
+          "bytes": 1811,
+          "sha256": "452feb134e8289f1fb0dbef0dbfa1a6ded884be4a6a6bdb3e2c0c746dc3f600b"
+        },
+        {
+          "path": "assets/art/arc-lamp.svg",
+          "bytes": 2721,
+          "sha256": "8de0cc1a1e745c7572eda77705ba307d65ffb33b6076971a2888dfd02b4a25a8"
+        },
+        {
+          "path": "assets/art/fold-tray.svg",
+          "bytes": 1781,
+          "sha256": "b478d61f27d83ae50fe4c4a7240ac8232fa0878bde9c90d25628f5bfb8d0599a"
+        },
+        {
+          "path": "assets/art/frame-stool.svg",
+          "bytes": 1776,
+          "sha256": "a0192e7638fe2082f1c2bcc84716913098bcdb33baeeb21a1795682fae193747"
+        },
+        {
+          "path": "assets/art/grid-organizer.svg",
+          "bytes": 1799,
+          "sha256": "e2d5b231f9e38533e9119e388a5ac77ccadcd8fdedf15cd81821cf9edbaf9f74"
+        },
+        {
+          "path": "assets/art/loop-rack.svg",
+          "bytes": 1643,
+          "sha256": "04d415f8f93dec537d8985c253cece24f5b09b70962ebbf488c47f5564631279"
+        },
+        {
+          "path": "assets/art/meridian-clock.svg",
+          "bytes": 1962,
+          "sha256": "08a5b652f145b8cc2f7a38d263fb528d107c34633d772ee702f94e3d60d94b46"
+        },
+        {
+          "path": "assets/fonts/IBMPlexMono-Medium.ttf",
+          "bytes": 136704,
+          "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+        },
+        {
+          "path": "assets/fonts/IBMPlexMono-Regular.ttf",
+          "bytes": 135580,
+          "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+        },
+        {
+          "path": "assets/fonts/SpaceGrotesk-Variable.ttf",
+          "bytes": 136676,
+          "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+        },
+        {
+          "path": "assets/notices/IBMPlexMono-OFL.txt",
+          "bytes": 4456,
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        },
+        {
+          "path": "assets/notices/SpaceGrotesk-OFL.txt",
+          "bytes": 4495,
+          "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+        },
+        {
+          "path": "catalogue.js",
+          "bytes": 3780,
+          "sha256": "5b36ceee3349beaec5b1e5b13e5ba251489c0ea0d3c17016f6350dc63dcac872"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 6924,
+          "sha256": "a0a86e4c012ef566bbab393bc8047f14837bf5d55d3e34cd5f1ccbab80f7d19d"
+        },
+        {
+          "path": "fixtures/model.cjs",
+          "bytes": 2448,
+          "sha256": "d7c920a4cc9107a3fbf4091fd9e2358777180ae332df1d9717b019b17175a1b5"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 14571,
+          "sha256": "a40dd5b2f62f031be24a9d96a195abb9520acd7576f86c20eb589943f71ee4b4"
+        },
+        {
+          "path": "index.html",
+          "bytes": 9087,
+          "sha256": "8ca98539f9e99ab3af29a8c2549f7a977b7963fd4a756f57e4ecb23a8541852e"
+        },
+        {
+          "path": "shortlist-model.js",
+          "bytes": 4346,
+          "sha256": "a84e9cad9d4a9aee129eba6dad9f6ce96114f34ddc6150197da0e96c485cbeb6"
+        },
+        {
+          "path": "shortlist.js",
+          "bytes": 12856,
+          "sha256": "e8ebd4ca1b7e09020d484749f708c188aa1fc48940da0f0d96c34c3e3a2eb653"
+        },
+        {
+          "path": "site.js",
+          "bytes": 504,
+          "sha256": "d6655c1ff63177e0643ed88dacce4326a78a9664e61d5e30f43edf8cbc6a0102"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 39390,
+          "sha256": "34f03d08d2b59170e06dd9ecfe4068799fde868d8903aa0033dbd7ee876fc6ca"
+        }
+      ],
+      "capture_phase": "final",
+      "runtime_html_ids": {
+        "demo.html": [
+          "object-arc",
+          "object-fold",
+          "object-meridian",
+          "object-frame",
+          "object-loop",
+          "object-grid"
+        ]
+      },
+      "runtime_target_evidence": {
+        "original_trial_relative_path": "form-bureau/RUNTIME_TARGETS.json",
+        "bytes": 1847,
+        "sha256": "b1de5c6fc3935bf71f711e6c21ce4a038f71b99444f17a13fc9fbdf32d863064",
+        "source_phase": "final",
+        "source_receipt": "SOURCE-final.json",
+        "source_receipt_identity": {
+          "bytes": 9139,
+          "sha256": "ec9eb033d75fa3dd9b469b66e8ece8c86cf138b060d0ab154569bd4668b625de"
+        },
+        "scope": "Recorded visible DOM IDs on six native home-link routes. Static resource validation accepts these declared fragments only; declarations do not independently establish behavior."
+      }
+    },
+    {
+      "slug": "signal-desk",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "source_file_count": 16,
+      "source_bytes": 529733,
+      "required_notices": [
+        "NOTICES.md",
+        "assets/notices/IBMPlexMono-OFL.txt",
+        "assets/notices/SpaceGrotesk-OFL.txt"
+      ],
+      "font_notice_sources": [
+        {
+          "file": "assets/notices/IBMPlexMono-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+          "copied_from_frozen_input": "begin-design/assets/type-transfer-cases/relay/site/assets/notices/IBMPlexMono-OFL.txt",
+          "modified": false,
+          "bytes": 4456,
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        },
+        {
+          "file": "assets/notices/SpaceGrotesk-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/OFL.txt",
+          "copied_from_frozen_input": "begin-design/assets/type-transfer-cases/relay/site/assets/notices/SpaceGrotesk-OFL.txt",
+          "modified": false,
+          "bytes": 4495,
+          "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+        }
+      ],
+      "bundled_fonts": [
+        {
+          "file": "assets/fonts/IBMPlexMono-Medium.ttf",
+          "notice": "assets/notices/IBMPlexMono-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Medium.ttf",
+          "source_repository": "https://github.com/google/fonts",
+          "copied_from_frozen_input": "begin-design/assets/type-transfer-cases/relay/site/assets/fonts/IBMPlexMono-Medium.ttf",
+          "modified": false,
+          "internal_names": [
+            "IBM Plex Mono",
+            "IBM Plex Mono Medium",
+            "IBMPlexMono-Medium",
+            "Medium",
+            "Regular"
+          ],
+          "axes": {},
+          "weight": 500,
+          "bytes": 136704,
+          "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+        },
+        {
+          "file": "assets/fonts/IBMPlexMono-Regular.ttf",
+          "notice": "assets/notices/IBMPlexMono-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+          "source_repository": "https://github.com/google/fonts",
+          "copied_from_frozen_input": "begin-design/assets/type-transfer-cases/relay/site/assets/fonts/IBMPlexMono-Regular.ttf",
+          "modified": false,
+          "internal_names": [
+            "IBM Plex Mono",
+            "IBMPlexMono-Regular",
+            "Regular"
+          ],
+          "axes": {},
+          "weight": 400,
+          "bytes": 135580,
+          "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+        },
+        {
+          "file": "assets/fonts/SpaceGrotesk-Variable.ttf",
+          "notice": "assets/notices/SpaceGrotesk-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/SpaceGrotesk%5Bwght%5D.ttf",
+          "source_repository": "https://github.com/google/fonts",
+          "copied_from_frozen_input": "begin-design/assets/type-transfer-cases/relay/site/assets/fonts/SpaceGrotesk-Variable.ttf",
+          "modified": false,
+          "internal_names": [
+            "Light",
+            "Regular",
+            "Space Grotesk",
+            "Space Grotesk Light",
+            "SpaceGrotesk-Light"
+          ],
+          "axes": {
+            "wght": {
+              "min": 300.0,
+              "default": 300.0,
+              "max": 700.0
+            }
+          },
+          "weight": 300,
+          "bytes": 136676,
+          "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+        }
+      ],
+      "bundled_photographs": [],
+      "original_artwork": "Original production identity and waveform mark; no audio file or external brand material included.",
+      "runtime": "Fictional fixed-week audio documentary planning queue and local production plan; illustrative capacity rules, with no backend, team synchronization, booking or transmission. Original static HTML/CSS/JavaScript with explicit local keep/download/recovery.",
+      "initial_source_preserved": true,
+      "initial_source": {
+        "file_count": 16,
+        "bytes": 528387,
+        "consumed_input_files": 27
+      },
+      "initial_source_note": "Complete first website source remains frozen before new-site rendering.",
+      "final_source_snapshot": [
+        {
+          "path": "FONT_SOURCES.json",
+          "bytes": 2824,
+          "sha256": "f072244949b119c025fa64601a83903d8517170ed3f52fc030e311f904d21517"
+        },
+        {
+          "path": "NOTICES.md",
+          "bytes": 1821,
+          "sha256": "aa640337647212534b7c68f1265ff50761fe960e5fc2d025a6a3a842033a424e"
+        },
+        {
+          "path": "assets/fonts/IBMPlexMono-Medium.ttf",
+          "bytes": 136704,
+          "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+        },
+        {
+          "path": "assets/fonts/IBMPlexMono-Regular.ttf",
+          "bytes": 135580,
+          "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+        },
+        {
+          "path": "assets/fonts/SpaceGrotesk-Variable.ttf",
+          "bytes": 136676,
+          "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+        },
+        {
+          "path": "assets/notices/IBMPlexMono-OFL.txt",
+          "bytes": 4456,
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        },
+        {
+          "path": "assets/notices/SpaceGrotesk-OFL.txt",
+          "bytes": 4495,
+          "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 16664,
+          "sha256": "8ca2daff7f492f0b9926c64050392a8f2fc30eb12f6f4b5b61ca8dd7b82aeca3"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 15808,
+          "sha256": "5fd1c1d143f8e3c93d45107bba512aa552b3a6224cfd713fefdc7ee563f56bde"
+        },
+        {
+          "path": "index.html",
+          "bytes": 11859,
+          "sha256": "5de6d2ec21edb3d83e7cd44063ea99e03b9c54454c2126b444427edbd08eca69"
+        },
+        {
+          "path": "overview.js",
+          "bytes": 1189,
+          "sha256": "5857942f56172c761708dba6e0e2509f72955eff4a82c37976c7810565682e0a"
+        },
+        {
+          "path": "plan-core.js",
+          "bytes": 8822,
+          "sha256": "4a46fa42f1b2f2764e725db5ce7a88792ccf972f966877370e3c22adaf534dc3"
+        },
+        {
+          "path": "plan-view.js",
+          "bytes": 1877,
+          "sha256": "afe330a6a6c6fb2bbf77f09db4542eb532cafc76ffe1b223d4f71a35d2207f9c"
+        },
+        {
+          "path": "queue.js",
+          "bytes": 13519,
+          "sha256": "d35ed44a121fa43eedc07d4f1ce72428f9df0efb2edf9aced5333ccc413a48b3"
+        },
+        {
+          "path": "signal.svg",
+          "bytes": 193,
+          "sha256": "b371557cc62e7886b19981980feb6a79e847242762a57dfcbdaba1ff41903331"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 37246,
+          "sha256": "3399286a5bd4fb80616c67722b25f668c26a585bcba0054fdf2983ff5a816f50"
+        }
+      ],
+      "capture_phase": "final"
+    }
+  ],
+  "files": [
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/site/FONT_SOURCES.json",
+      "bytes": 1882,
+      "sha256": "b3cdecaaa1063485e1ae84bf4b249c351058fc69d73f6ad78e777b8a12dbd0be",
+      "original_trial_relative_path": "night-signal/site/FONT_SOURCES.json",
+      "original_sha256": "88c18c6b8994a2a6a4ed5afc561311c1fa30c3102a93d1007f36a1d3d9bbe3a6",
+      "original_bytes": 2084,
+      "portable_metadata": true
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/site/NOTICES.md",
+      "bytes": 2362,
+      "sha256": "07fa55b20521925cc3117e5cb275033da6cfdfb3bb16b89a4973a26bf2460f8e",
+      "original_trial_relative_path": "night-signal/site/NOTICES.md",
+      "original_sha256": "07fa55b20521925cc3117e5cb275033da6cfdfb3bb16b89a4973a26bf2460f8e"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/site/assets/art/mark.svg",
+      "bytes": 314,
+      "sha256": "02ee0b6b30c4073c3585f8019e97acb9b8063e6f33ce3971f128c56337970d70",
+      "original_trial_relative_path": "night-signal/site/assets/art/mark.svg",
+      "original_sha256": "02ee0b6b30c4073c3585f8019e97acb9b8063e6f33ce3971f128c56337970d70"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/site/assets/art/night-field.svg",
+      "bytes": 2603,
+      "sha256": "432ea310d1d5b9033cb826950a04c1c15e39aef5e0021516066c9a77e6fef613",
+      "original_trial_relative_path": "night-signal/site/assets/art/night-field.svg",
+      "original_sha256": "432ea310d1d5b9033cb826950a04c1c15e39aef5e0021516066c9a77e6fef613"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/site/assets/fonts/IBMPlexMono-Medium.ttf",
+      "bytes": 136704,
+      "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+      "original_trial_relative_path": "night-signal/site/assets/fonts/IBMPlexMono-Medium.ttf",
+      "original_sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/site/assets/fonts/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "original_trial_relative_path": "night-signal/site/assets/fonts/IBMPlexMono-Regular.ttf",
+      "original_sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/site/assets/fonts/SpaceGrotesk-Variable.ttf",
+      "bytes": 136676,
+      "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+      "original_trial_relative_path": "night-signal/site/assets/fonts/SpaceGrotesk-Variable.ttf",
+      "original_sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/site/assets/notices/IBMPlexMono-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "original_trial_relative_path": "night-signal/site/assets/notices/IBMPlexMono-OFL.txt",
+      "original_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/site/assets/notices/SpaceGrotesk-OFL.txt",
+      "bytes": 4495,
+      "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+      "original_trial_relative_path": "night-signal/site/assets/notices/SpaceGrotesk-OFL.txt",
+      "original_sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/site/demo.html",
+      "bytes": 9290,
+      "sha256": "8e0f3c66cd55cca91c52aa44aa2fcc645107548121262e144655d1f93d8b9323",
+      "original_trial_relative_path": "night-signal/site/demo.html",
+      "original_sha256": "8e0f3c66cd55cca91c52aa44aa2fcc645107548121262e144655d1f93d8b9323"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/site/guide.html",
+      "bytes": 11830,
+      "sha256": "0c7712d23b1ab7df63f92f87fb6df828e7556355ee0bb4503cdf4bf3f2465f60",
+      "original_trial_relative_path": "night-signal/site/guide.html",
+      "original_sha256": "0c7712d23b1ab7df63f92f87fb6df828e7556355ee0bb4503cdf4bf3f2465f60"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/site/index.html",
+      "bytes": 6843,
+      "sha256": "c96c66ece815aa5183ad069bb1f9985269daf6a5443fb7ab1fc59e5b48953e1c",
+      "original_trial_relative_path": "night-signal/site/index.html",
+      "original_sha256": "c96c66ece815aa5183ad069bb1f9985269daf6a5443fb7ab1fc59e5b48953e1c"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/site/itinerary.js",
+      "bytes": 11355,
+      "sha256": "08a6dd7f628ce804a7635fab2c1f86f1c325fb3a6470cc5df5a31487872c8f2f",
+      "original_trial_relative_path": "night-signal/site/itinerary.js",
+      "original_sha256": "08a6dd7f628ce804a7635fab2c1f86f1c325fb3a6470cc5df5a31487872c8f2f"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/site/model.js",
+      "bytes": 7128,
+      "sha256": "b20a46ae840e8f22aca06500fe28c616a914307e4aa8589d0a4e31af5bdf443f",
+      "original_trial_relative_path": "night-signal/site/model.js",
+      "original_sha256": "b20a46ae840e8f22aca06500fe28c616a914307e4aa8589d0a4e31af5bdf443f"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/site/site.js",
+      "bytes": 399,
+      "sha256": "363e572630f83329c84be3493aba5a352368dd2b05aad5b3de24e23597d55986",
+      "original_trial_relative_path": "night-signal/site/site.js",
+      "original_sha256": "363e572630f83329c84be3493aba5a352368dd2b05aad5b3de24e23597d55986"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/site/styles.css",
+      "bytes": 27370,
+      "sha256": "e2ab49995715d2c9a42187a4fcf8bd3b940a547ec91974834e61bb8729b7be60",
+      "original_trial_relative_path": "night-signal/site/styles.css",
+      "original_sha256": "e2ab49995715d2c9a42187a4fcf8bd3b940a547ec91974834e61bb8729b7be60"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/captures/home-desktop.jpg",
+      "bytes": 98271,
+      "sha256": "5ebb8cada58145a4de67707600a82efa09f35aa53d953e63fcf44ab5dc644d6b",
+      "original_trial_relative_path": "captures/final/night-signal/home-desktop.jpg",
+      "original_sha256": "5ebb8cada58145a4de67707600a82efa09f35aa53d953e63fcf44ab5dc644d6b",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/captures/home-phone.jpg",
+      "bytes": 42130,
+      "sha256": "0384048f4c3190bbf2e13576b8ae4772a17d55aa35600ee5a76dc2c2c65b2748",
+      "original_trial_relative_path": "captures/final/night-signal/home-phone.jpg",
+      "original_sha256": "0384048f4c3190bbf2e13576b8ae4772a17d55aa35600ee5a76dc2c2c65b2748",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/captures/demo-desktop.jpg",
+      "bytes": 105466,
+      "sha256": "006218e6d98f00072ec65ec8075d475adf47d70d2b2f7eb8667fdb6669e8252d",
+      "original_trial_relative_path": "captures/final/night-signal/demo-desktop.jpg",
+      "original_sha256": "006218e6d98f00072ec65ec8075d475adf47d70d2b2f7eb8667fdb6669e8252d",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/captures/demo-phone.jpg",
+      "bytes": 42792,
+      "sha256": "f63a0ad63a57cdb8710abcd3e6ccddc08d1436abc282c45116d31c42656bdde6",
+      "original_trial_relative_path": "captures/final/night-signal/demo-phone.jpg",
+      "original_sha256": "f63a0ad63a57cdb8710abcd3e6ccddc08d1436abc282c45116d31c42656bdde6",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/captures/guide-desktop.jpg",
+      "bytes": 107047,
+      "sha256": "465b142c70d1ba4546cd05ca3f028081a4ca1520ca0a5016c9d3a4efb3daab9f",
+      "original_trial_relative_path": "captures/final/night-signal/guide-desktop.jpg",
+      "original_sha256": "465b142c70d1ba4546cd05ca3f028081a4ca1520ca0a5016c9d3a4efb3daab9f",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/night-signal/captures/guide-phone.jpg",
+      "bytes": 54317,
+      "sha256": "557b544c5a008aa95b25aa663ee40f66d06cb694eacca3fd68b6ae3c52d49b5a",
+      "original_trial_relative_path": "captures/final/night-signal/guide-phone.jpg",
+      "original_sha256": "557b544c5a008aa95b25aa663ee40f66d06cb694eacca3fd68b6ae3c52d49b5a",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/FONT_PROVENANCE.json",
+      "bytes": 1640,
+      "sha256": "eb928e6170c6241f6dbeb39be779b0f1ed333697b43387161c6e456c6cd85644",
+      "original_trial_relative_path": "form-bureau/site/FONT_PROVENANCE.json",
+      "original_sha256": "812ae22d88604556779ec170f7b841ce231d1e8c68b443502e1ce0ced11a23fa",
+      "original_bytes": 2145,
+      "portable_metadata": true
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/NOTICES.md",
+      "bytes": 1811,
+      "sha256": "452feb134e8289f1fb0dbef0dbfa1a6ded884be4a6a6bdb3e2c0c746dc3f600b",
+      "original_trial_relative_path": "form-bureau/site/NOTICES.md",
+      "original_sha256": "452feb134e8289f1fb0dbef0dbfa1a6ded884be4a6a6bdb3e2c0c746dc3f600b"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/assets/art/arc-lamp.svg",
+      "bytes": 2721,
+      "sha256": "8de0cc1a1e745c7572eda77705ba307d65ffb33b6076971a2888dfd02b4a25a8",
+      "original_trial_relative_path": "form-bureau/site/assets/art/arc-lamp.svg",
+      "original_sha256": "8de0cc1a1e745c7572eda77705ba307d65ffb33b6076971a2888dfd02b4a25a8"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/assets/art/fold-tray.svg",
+      "bytes": 1781,
+      "sha256": "b478d61f27d83ae50fe4c4a7240ac8232fa0878bde9c90d25628f5bfb8d0599a",
+      "original_trial_relative_path": "form-bureau/site/assets/art/fold-tray.svg",
+      "original_sha256": "b478d61f27d83ae50fe4c4a7240ac8232fa0878bde9c90d25628f5bfb8d0599a"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/assets/art/frame-stool.svg",
+      "bytes": 1776,
+      "sha256": "a0192e7638fe2082f1c2bcc84716913098bcdb33baeeb21a1795682fae193747",
+      "original_trial_relative_path": "form-bureau/site/assets/art/frame-stool.svg",
+      "original_sha256": "a0192e7638fe2082f1c2bcc84716913098bcdb33baeeb21a1795682fae193747"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/assets/art/grid-organizer.svg",
+      "bytes": 1799,
+      "sha256": "e2d5b231f9e38533e9119e388a5ac77ccadcd8fdedf15cd81821cf9edbaf9f74",
+      "original_trial_relative_path": "form-bureau/site/assets/art/grid-organizer.svg",
+      "original_sha256": "e2d5b231f9e38533e9119e388a5ac77ccadcd8fdedf15cd81821cf9edbaf9f74"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/assets/art/loop-rack.svg",
+      "bytes": 1643,
+      "sha256": "04d415f8f93dec537d8985c253cece24f5b09b70962ebbf488c47f5564631279",
+      "original_trial_relative_path": "form-bureau/site/assets/art/loop-rack.svg",
+      "original_sha256": "04d415f8f93dec537d8985c253cece24f5b09b70962ebbf488c47f5564631279"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/assets/art/meridian-clock.svg",
+      "bytes": 1962,
+      "sha256": "08a5b652f145b8cc2f7a38d263fb528d107c34633d772ee702f94e3d60d94b46",
+      "original_trial_relative_path": "form-bureau/site/assets/art/meridian-clock.svg",
+      "original_sha256": "08a5b652f145b8cc2f7a38d263fb528d107c34633d772ee702f94e3d60d94b46"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/assets/fonts/IBMPlexMono-Medium.ttf",
+      "bytes": 136704,
+      "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+      "original_trial_relative_path": "form-bureau/site/assets/fonts/IBMPlexMono-Medium.ttf",
+      "original_sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/assets/fonts/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "original_trial_relative_path": "form-bureau/site/assets/fonts/IBMPlexMono-Regular.ttf",
+      "original_sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/assets/fonts/SpaceGrotesk-Variable.ttf",
+      "bytes": 136676,
+      "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+      "original_trial_relative_path": "form-bureau/site/assets/fonts/SpaceGrotesk-Variable.ttf",
+      "original_sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/assets/notices/IBMPlexMono-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "original_trial_relative_path": "form-bureau/site/assets/notices/IBMPlexMono-OFL.txt",
+      "original_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/assets/notices/SpaceGrotesk-OFL.txt",
+      "bytes": 4495,
+      "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+      "original_trial_relative_path": "form-bureau/site/assets/notices/SpaceGrotesk-OFL.txt",
+      "original_sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/catalogue.js",
+      "bytes": 3780,
+      "sha256": "5b36ceee3349beaec5b1e5b13e5ba251489c0ea0d3c17016f6350dc63dcac872",
+      "original_trial_relative_path": "form-bureau/site/catalogue.js",
+      "original_sha256": "5b36ceee3349beaec5b1e5b13e5ba251489c0ea0d3c17016f6350dc63dcac872"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/demo.html",
+      "bytes": 6924,
+      "sha256": "a0a86e4c012ef566bbab393bc8047f14837bf5d55d3e34cd5f1ccbab80f7d19d",
+      "original_trial_relative_path": "form-bureau/site/demo.html",
+      "original_sha256": "a0a86e4c012ef566bbab393bc8047f14837bf5d55d3e34cd5f1ccbab80f7d19d"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/fixtures/model.cjs",
+      "bytes": 2448,
+      "sha256": "d7c920a4cc9107a3fbf4091fd9e2358777180ae332df1d9717b019b17175a1b5",
+      "original_trial_relative_path": "form-bureau/site/fixtures/model.cjs",
+      "original_sha256": "d7c920a4cc9107a3fbf4091fd9e2358777180ae332df1d9717b019b17175a1b5"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/guide.html",
+      "bytes": 14571,
+      "sha256": "a40dd5b2f62f031be24a9d96a195abb9520acd7576f86c20eb589943f71ee4b4",
+      "original_trial_relative_path": "form-bureau/site/guide.html",
+      "original_sha256": "a40dd5b2f62f031be24a9d96a195abb9520acd7576f86c20eb589943f71ee4b4"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/index.html",
+      "bytes": 9087,
+      "sha256": "8ca98539f9e99ab3af29a8c2549f7a977b7963fd4a756f57e4ecb23a8541852e",
+      "original_trial_relative_path": "form-bureau/site/index.html",
+      "original_sha256": "8ca98539f9e99ab3af29a8c2549f7a977b7963fd4a756f57e4ecb23a8541852e"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/shortlist-model.js",
+      "bytes": 4346,
+      "sha256": "a84e9cad9d4a9aee129eba6dad9f6ce96114f34ddc6150197da0e96c485cbeb6",
+      "original_trial_relative_path": "form-bureau/site/shortlist-model.js",
+      "original_sha256": "a84e9cad9d4a9aee129eba6dad9f6ce96114f34ddc6150197da0e96c485cbeb6"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/shortlist.js",
+      "bytes": 12856,
+      "sha256": "e8ebd4ca1b7e09020d484749f708c188aa1fc48940da0f0d96c34c3e3a2eb653",
+      "original_trial_relative_path": "form-bureau/site/shortlist.js",
+      "original_sha256": "e8ebd4ca1b7e09020d484749f708c188aa1fc48940da0f0d96c34c3e3a2eb653"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/site.js",
+      "bytes": 504,
+      "sha256": "d6655c1ff63177e0643ed88dacce4326a78a9664e61d5e30f43edf8cbc6a0102",
+      "original_trial_relative_path": "form-bureau/site/site.js",
+      "original_sha256": "d6655c1ff63177e0643ed88dacce4326a78a9664e61d5e30f43edf8cbc6a0102"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/site/styles.css",
+      "bytes": 39390,
+      "sha256": "34f03d08d2b59170e06dd9ecfe4068799fde868d8903aa0033dbd7ee876fc6ca",
+      "original_trial_relative_path": "form-bureau/site/styles.css",
+      "original_sha256": "34f03d08d2b59170e06dd9ecfe4068799fde868d8903aa0033dbd7ee876fc6ca"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/captures/home-desktop.jpg",
+      "bytes": 85588,
+      "sha256": "bcf2364ea28abb7fa56bf43a222e4c9c9ad0e8eb6f2242b0c17f65f22bea8331",
+      "original_trial_relative_path": "captures/final/form-bureau/home-desktop.jpg",
+      "original_sha256": "bcf2364ea28abb7fa56bf43a222e4c9c9ad0e8eb6f2242b0c17f65f22bea8331",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/captures/home-phone.jpg",
+      "bytes": 23608,
+      "sha256": "5d81a8482d4e34736ead7aafdd5b957f521da7cdd4740ff08007905f0b5d116d",
+      "original_trial_relative_path": "captures/final/form-bureau/home-phone.jpg",
+      "original_sha256": "5d81a8482d4e34736ead7aafdd5b957f521da7cdd4740ff08007905f0b5d116d",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/captures/demo-desktop.jpg",
+      "bytes": 96922,
+      "sha256": "9abb7a85327d9d9dfc39a41202f33aca3eaa50ec079ca11b1c0e82412f84aa1d",
+      "original_trial_relative_path": "captures/final/form-bureau/demo-desktop.jpg",
+      "original_sha256": "9abb7a85327d9d9dfc39a41202f33aca3eaa50ec079ca11b1c0e82412f84aa1d",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/captures/demo-phone.jpg",
+      "bytes": 29745,
+      "sha256": "537011902a0168a9fcec2de5dfa3fe99f023f328cb57b7886eaeca3896911a03",
+      "original_trial_relative_path": "captures/final/form-bureau/demo-phone.jpg",
+      "original_sha256": "537011902a0168a9fcec2de5dfa3fe99f023f328cb57b7886eaeca3896911a03",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/captures/guide-desktop.jpg",
+      "bytes": 113373,
+      "sha256": "6b677abf8e94e27eb80a36268842ea076825c766fc1034c05d9c1b54b1ea9add",
+      "original_trial_relative_path": "captures/final/form-bureau/guide-desktop.jpg",
+      "original_sha256": "6b677abf8e94e27eb80a36268842ea076825c766fc1034c05d9c1b54b1ea9add",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/form-bureau/captures/guide-phone.jpg",
+      "bytes": 44291,
+      "sha256": "e86bbc4a87c845cf2b72abb8f66fe7f66ae1ae9778f87fdaa78b278bb652944b",
+      "original_trial_relative_path": "captures/final/form-bureau/guide-phone.jpg",
+      "original_sha256": "e86bbc4a87c845cf2b72abb8f66fe7f66ae1ae9778f87fdaa78b278bb652944b",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/site/FONT_SOURCES.json",
+      "bytes": 2319,
+      "sha256": "1865c353eeef24f30d67ed6fe38de9af96d1cd3b06bf99f8291ee19da6891fec",
+      "original_trial_relative_path": "signal-desk/site/FONT_SOURCES.json",
+      "original_sha256": "f072244949b119c025fa64601a83903d8517170ed3f52fc030e311f904d21517",
+      "original_bytes": 2824,
+      "portable_metadata": true
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/site/NOTICES.md",
+      "bytes": 1821,
+      "sha256": "aa640337647212534b7c68f1265ff50761fe960e5fc2d025a6a3a842033a424e",
+      "original_trial_relative_path": "signal-desk/site/NOTICES.md",
+      "original_sha256": "aa640337647212534b7c68f1265ff50761fe960e5fc2d025a6a3a842033a424e"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/site/assets/fonts/IBMPlexMono-Medium.ttf",
+      "bytes": 136704,
+      "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+      "original_trial_relative_path": "signal-desk/site/assets/fonts/IBMPlexMono-Medium.ttf",
+      "original_sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/site/assets/fonts/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "original_trial_relative_path": "signal-desk/site/assets/fonts/IBMPlexMono-Regular.ttf",
+      "original_sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/site/assets/fonts/SpaceGrotesk-Variable.ttf",
+      "bytes": 136676,
+      "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+      "original_trial_relative_path": "signal-desk/site/assets/fonts/SpaceGrotesk-Variable.ttf",
+      "original_sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/site/assets/notices/IBMPlexMono-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "original_trial_relative_path": "signal-desk/site/assets/notices/IBMPlexMono-OFL.txt",
+      "original_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/site/assets/notices/SpaceGrotesk-OFL.txt",
+      "bytes": 4495,
+      "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+      "original_trial_relative_path": "signal-desk/site/assets/notices/SpaceGrotesk-OFL.txt",
+      "original_sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/site/demo.html",
+      "bytes": 16664,
+      "sha256": "8ca2daff7f492f0b9926c64050392a8f2fc30eb12f6f4b5b61ca8dd7b82aeca3",
+      "original_trial_relative_path": "signal-desk/site/demo.html",
+      "original_sha256": "8ca2daff7f492f0b9926c64050392a8f2fc30eb12f6f4b5b61ca8dd7b82aeca3"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/site/guide.html",
+      "bytes": 15808,
+      "sha256": "5fd1c1d143f8e3c93d45107bba512aa552b3a6224cfd713fefdc7ee563f56bde",
+      "original_trial_relative_path": "signal-desk/site/guide.html",
+      "original_sha256": "5fd1c1d143f8e3c93d45107bba512aa552b3a6224cfd713fefdc7ee563f56bde"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/site/index.html",
+      "bytes": 11859,
+      "sha256": "5de6d2ec21edb3d83e7cd44063ea99e03b9c54454c2126b444427edbd08eca69",
+      "original_trial_relative_path": "signal-desk/site/index.html",
+      "original_sha256": "5de6d2ec21edb3d83e7cd44063ea99e03b9c54454c2126b444427edbd08eca69"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/site/overview.js",
+      "bytes": 1189,
+      "sha256": "5857942f56172c761708dba6e0e2509f72955eff4a82c37976c7810565682e0a",
+      "original_trial_relative_path": "signal-desk/site/overview.js",
+      "original_sha256": "5857942f56172c761708dba6e0e2509f72955eff4a82c37976c7810565682e0a"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/site/plan-core.js",
+      "bytes": 8822,
+      "sha256": "4a46fa42f1b2f2764e725db5ce7a88792ccf972f966877370e3c22adaf534dc3",
+      "original_trial_relative_path": "signal-desk/site/plan-core.js",
+      "original_sha256": "4a46fa42f1b2f2764e725db5ce7a88792ccf972f966877370e3c22adaf534dc3"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/site/plan-view.js",
+      "bytes": 1877,
+      "sha256": "afe330a6a6c6fb2bbf77f09db4542eb532cafc76ffe1b223d4f71a35d2207f9c",
+      "original_trial_relative_path": "signal-desk/site/plan-view.js",
+      "original_sha256": "afe330a6a6c6fb2bbf77f09db4542eb532cafc76ffe1b223d4f71a35d2207f9c"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/site/queue.js",
+      "bytes": 13519,
+      "sha256": "d35ed44a121fa43eedc07d4f1ce72428f9df0efb2edf9aced5333ccc413a48b3",
+      "original_trial_relative_path": "signal-desk/site/queue.js",
+      "original_sha256": "d35ed44a121fa43eedc07d4f1ce72428f9df0efb2edf9aced5333ccc413a48b3"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/site/signal.svg",
+      "bytes": 193,
+      "sha256": "b371557cc62e7886b19981980feb6a79e847242762a57dfcbdaba1ff41903331",
+      "original_trial_relative_path": "signal-desk/site/signal.svg",
+      "original_sha256": "b371557cc62e7886b19981980feb6a79e847242762a57dfcbdaba1ff41903331"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/site/styles.css",
+      "bytes": 37246,
+      "sha256": "3399286a5bd4fb80616c67722b25f668c26a585bcba0054fdf2983ff5a816f50",
+      "original_trial_relative_path": "signal-desk/site/styles.css",
+      "original_sha256": "3399286a5bd4fb80616c67722b25f668c26a585bcba0054fdf2983ff5a816f50"
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/captures/home-desktop.jpg",
+      "bytes": 104739,
+      "sha256": "d1bdb0acc55a7ed4d42b63da4895a77254c76ebfbeb75973aac1bc9ef5cc5873",
+      "original_trial_relative_path": "captures/final/signal-desk/home-desktop.jpg",
+      "original_sha256": "d1bdb0acc55a7ed4d42b63da4895a77254c76ebfbeb75973aac1bc9ef5cc5873",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/captures/home-phone.jpg",
+      "bytes": 42072,
+      "sha256": "0b13408db0c6c2329b764f8558e36fd119feb0f695254dc437818f19cd5b096f",
+      "original_trial_relative_path": "captures/final/signal-desk/home-phone.jpg",
+      "original_sha256": "0b13408db0c6c2329b764f8558e36fd119feb0f695254dc437818f19cd5b096f",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/captures/demo-desktop.jpg",
+      "bytes": 115851,
+      "sha256": "26124e52030c8a536fd4ce6a26db024930260863384f685d3e3b3bd5fc068e81",
+      "original_trial_relative_path": "captures/final/signal-desk/demo-desktop.jpg",
+      "original_sha256": "26124e52030c8a536fd4ce6a26db024930260863384f685d3e3b3bd5fc068e81",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/captures/demo-phone.jpg",
+      "bytes": 40225,
+      "sha256": "da6cdbf443457261de0dcb1bcfec65b18a0c23f566be20803889eb3a532fc662",
+      "original_trial_relative_path": "captures/final/signal-desk/demo-phone.jpg",
+      "original_sha256": "da6cdbf443457261de0dcb1bcfec65b18a0c23f566be20803889eb3a532fc662",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/captures/guide-desktop.jpg",
+      "bytes": 108303,
+      "sha256": "46916447c370c1e62f04b8218e754655ca86e5f112efde30b01894b905de30bb",
+      "original_trial_relative_path": "captures/final/signal-desk/guide-desktop.jpg",
+      "original_sha256": "46916447c370c1e62f04b8218e754655ca86e5f112efde30b01894b905de30bb",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/signal-desk/captures/guide-phone.jpg",
+      "bytes": 51048,
+      "sha256": "c4bdff9b50d6cec43a2cda4ad93f4d43261faa548cf6854c9c116b5cc757ed04",
+      "original_trial_relative_path": "captures/final/signal-desk/guide-phone.jpg",
+      "original_sha256": "c4bdff9b50d6cec43a2cda4ad93f4d43261faa548cf6854c9c116b5cc757ed04",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport opening; explicit top reset; current served source matches stopped source freeze. No transformed capture."
+      }
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/NOTICES.md",
+      "bytes": 3367,
+      "sha256": "2d0e4aaf28224f32716a71c3398cefe1d4bc16c79af5f017870d2fc4ac8e2dfe",
+      "origin": "Original Begin conditional method or curated scope/check record."
+    },
+    {
+      "skill_relative_path": "assets/contrast-cases/CHECKS.json",
+      "bytes": 3273,
+      "sha256": "6d602b238aa28bd5355a0a49728ed9bc1d2d6dfa5270a7ec97ab2b779661b2b4",
+      "origin": "Original Begin conditional method or curated scope/check record."
+    },
+    {
+      "skill_relative_path": "references/contrasting-tasks.md",
+      "bytes": 6064,
+      "sha256": "f668cb85e7e3b1276e93b2e04705e5d1618eb010388e1fbb33b2bc15f4730ddf",
+      "origin": "Original Begin conditional method or curated scope/check record."
+    }
+  ],
+  "evidence_boundary": "Three independently generated first builds used the exact frozen dev.13 pack with explicit contrasting task and composition guidance, then received internal rendered criticism and focused revisions. All three use Space Grotesk and IBM Plex Mono; this does not establish broad font-family selection. No causal effect, population success rate, automatic discovery, beginner acceptance, all-host/model quality or commercial result established.",
+  "reference_was_forward_tested": false,
+  "exclusions": [
+    "Raw studies",
+    "initial sites",
+    "critiques",
+    "state/narrow supplements",
+    "project instructions",
+    "archive inputs",
+    "host installations"
+  ],
+  "original_provenance_sha256": "1265475a09cb7def2040f1ceee014746784cdd851389fa627c7724f249786716",
+  "delivery_note": "Only records marked portable_metadata derive local origin paths for delivery. All other resources retain their original bytes."
+}

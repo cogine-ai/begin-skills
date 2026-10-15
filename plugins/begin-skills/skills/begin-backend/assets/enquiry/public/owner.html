@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Owner inbox · Begin enquiry example</title>
+    <link rel="stylesheet" href="/app.css" />
+    <script type="module" src="/owner.mjs"></script>
+  </head>
+  <body>
+    <header class="shell header">
+      <a class="wordmark" href="/">Begin <span>Field notes / 01</span></a>
+      <nav aria-label="Example views">
+        <a href="/">Visitor form <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <main class="shell owner-layout">
+      <div class="owner-intro">
+        <p class="eyebrow">For the website owner</p>
+        <h1>Your conversations,<br />in one quiet place.</h1>
+        <p class="lede">
+          Each local account can see only the enquiries sent to its own website.
+        </p>
+      </div>
+      <section
+        id="login-panel"
+        class="panel login-panel"
+        aria-labelledby="login-title"
+      >
+        <p class="eyebrow">Local owner access</p>
+        <h2 id="login-title">Open your inbox</h2>
+        <p class="hint">
+          Use the synthetic local account you created with
+          <code>npm run setup</code>. No external account is needed.
+        </p>
+        <form id="login-form">
+          <div class="field">
+            <label for="username">Local username</label
+            ><input
+              id="username"
+              name="username"
+              autocomplete="username"
+              minlength="3"
+              maxlength="32"
+              required
+            />
+          </div>
+          <div class="field">
+            <label for="password">Local password</label
+            ><input
+              id="password"
+              name="password"
+              type="password"
+              autocomplete="current-password"
+              maxlength="256"
+              required
+            />
+          </div>
+          <button id="login-button" type="submit">
+            Sign in <span aria-hidden="true">→</span>
+          </button>
+        </form>
+      </section>
+      <section
+        id="inbox-panel"
+        class="inbox"
+        hidden
+        aria-labelledby="inbox-title"
+      >
+        <div class="inbox-heading">
+          <div>
+            <p class="eyebrow">Private owner inbox</p>
+            <h2 id="inbox-title"></h2>
+            <p class="hint">
+              Latest 50 enquiries. Messages stay in this local database.
+            </p>
+          </div>
+          <div class="actions">
+            <button id="refresh" class="secondary" type="button">Refresh</button
+            ><button id="logout" class="text-button" type="button">
+              Sign out
+            </button>
+          </div>
+        </div>
+        <div id="enquiries" class="enquiry-list"></div>
+      </section>
+      <div
+        id="owner-status"
+        class="status owner-status"
+        role="status"
+        aria-live="polite"
+        tabindex="-1"
+      ></div>
+      <aside class="scope">
+        <p>
+          This is a local authentication adapter for learning. It uses password
+          hashes, session cookies, expiry and server access checks. Follow the
+          README before adapting it to a hosted product.
+        </p>
+      </aside>
+    </main>
+    <footer class="shell footer">
+      <span>Local data. Explicit access. Useful recovery.</span
+      ><a href="/">Back to visitor form</a>
+    </footer>
+  </body>
+</html>

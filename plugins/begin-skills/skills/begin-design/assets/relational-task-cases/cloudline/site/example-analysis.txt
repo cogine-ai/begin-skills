@@ -1,0 +1,26 @@
+CLOUDLINE / RAINFALL ANALYSIS
+Report: A week above the ridge
+Observation period: 1–7 October 2026
+Unit: millimetres (mm)
+Comparison threshold: 5.0 mm (count values strictly above)
+
+SUMMARY
+Total rainfall: 35.6 mm
+Mean daily rainfall: 5.09 mm/day
+Maximum daily rainfall: 14.4 mm
+Maximum date(s): 4 October 2026
+Days strictly above 5.0 mm: 3 of 7
+
+DAILY READINGS
+1 October 2026: 1.2 mm
+2 October 2026: 0.0 mm
+3 October 2026: 6.8 mm
+4 October 2026: 14.4 mm
+5 October 2026: 3.6 mm
+6 October 2026: 0.0 mm
+7 October 2026: 9.6 mm
+
+NOTE
+Invented observations for a reading exercise.
+
+Fictional educational observations. No forecast, flood warning or real weather claim.

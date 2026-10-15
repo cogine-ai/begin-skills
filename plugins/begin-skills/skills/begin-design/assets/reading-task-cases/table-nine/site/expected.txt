@@ -1,0 +1,22 @@
+TABLE NINE — SEATING RECORD
+Event: One evening at Table Nine
+Guests: 8
+Tables: 2 · 4 seats each
+Booking pair: G01 Aida Moreno + G02 Noor Rahman (same table)
+
+NORTH — 4 / 4
+Seat 1 | G01 | Aida Moreno | Dietary note: Vegetarian
+Seat 2 | G02 | Noor Rahman | Dietary note: No peanuts
+Seat 3 | G03 | Celia Park | Dietary note: None
+Seat 4 | G04 | Lucian Bell | Dietary note: Vegan
+
+SOUTH — 4 / 4
+Seat 1 | G05 | Mara Ellery | Dietary note: No dairy
+Seat 2 | G06 | Émile Laurent | Dietary note: None
+Seat 3 | G07 | Rowan Cole | Dietary note: Vegetarian
+Seat 4 | G08 | Tess Okafor | Dietary note: None
+
+SERVICE NOTE
+Confirm dietary needs directly before service.
+
+Local illustrative record. Confirm dietary needs directly; this is not a medical guarantee.

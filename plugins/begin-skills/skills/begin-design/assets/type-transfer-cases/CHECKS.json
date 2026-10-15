@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-11",
+  "curation_scope": "Exact source/capture byte copies, existing resource checks, JS syntax, SVG XML, font binary metadata and full notices; native operation and independent review records retain their own scopes.",
+  "static_checks": {
+    "source_files": 47,
+    "opening_captures": 18,
+    "javascript_syntax_files": 6,
+    "svg_xml_files": 6,
+    "font_binaries": 9,
+    "preserved_archives": 22,
+    "preserved_curated_assets": 321,
+    "frozen_input_payload_files": 481
+  },
+  "browser_assertions": {
+    "attempts": 35,
+    "passed": 33,
+    "failed": 2,
+    "failed_attempts": "Two obsolete/wrong test selectors retained and corrected; see raw TOOL_NOTES.md.",
+    "actual_text_exports": 6
+  },
+  "final_responsive": {
+    "phase": "final-2",
+    "observations": 126,
+    "viewport_overflow": 0,
+    "broken_images": 0,
+    "heading_font_checks_false": 0
+  },
+  "evidence_boundary": "Explicitly guided frozen-pack transfer, actual native checks and independent internal critique. All initial builds required refinement; no automatic discovery, ordinary-person acceptance, all-host/model consistency or population success-rate claim."
+}

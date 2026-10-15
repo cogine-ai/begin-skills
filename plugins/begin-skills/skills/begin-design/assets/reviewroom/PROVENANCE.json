@@ -1,0 +1,446 @@
+{
+  "schema_version": 1,
+  "title": "Original Reviewroom SaaS cases",
+  "trial_date": "2026-10-09",
+  "curated_on": "2026-10-10",
+  "original_trial_repository_relative_root": "products/begin-skills/.review/2026-10-09-saas-six-directions",
+  "curated_paths_relative_to": "begin-design Skill root",
+  "copy_policy": "All 27 original final site files and six selected final captures have unchanged bytes. Capture filenames use .jpg to match original JPEG content; raw source filenames remain .png. No reference images, trial inputs, upstream Skill bodies, generators, archives, or comparison board are included.",
+  "hash_scope": "SHA256 covers every curated resource file and references/reviewroom.md except this PROVENANCE.json itself, which cannot hash itself. Historical source records identify the reviewed trial evidence without making it a runtime dependency.",
+  "external_composition_studies": [
+    {
+      "case": "attio",
+      "observed_on": "2026-10-09",
+      "mobbin_url": "https://mobbin.com/screens/13891686-f515-469b-a91a-d421932f9089",
+      "use": "Provenance only; external screenshots and websites are excluded"
+    },
+    {
+      "case": "mintlify",
+      "observed_on": "2026-10-09",
+      "mobbin_url": "https://mobbin.com/screens/b57adf85-2368-4479-9449-a41ae8ccacbe",
+      "use": "Provenance only; external screenshots and websites are excluded"
+    }
+  ],
+  "font_derivation": {
+    "recorded_source_skill_relative_path": "assets/fieldnotes/NOTICES.md",
+    "fonttools_version": "4.66.1",
+    "coverage": "U+0000-00FF,U+0100-024F,U+2000-206F,U+20AC,U+2190-21FF",
+    "sources": [
+      {
+        "served_filename": "fieldnotes-sans.woff2",
+        "source_family": "Source Sans 3",
+        "renamed_family": "Fieldnotes Sans",
+        "ttf_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/SourceSans3%5Bwght%5D.ttf",
+        "notice_filename": "source-sans-3-OFL.txt",
+        "license": "SIL Open Font License 1.1"
+      },
+      {
+        "served_filename": "source-serif-4.woff2",
+        "source_family": "Source Serif 4",
+        "ttf_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/SourceSerif4%5Bopsz%2Cwght%5D.ttf",
+        "notice_filename": "source-serif-4-OFL.txt",
+        "license": "SIL Open Font License 1.1"
+      }
+    ]
+  },
+  "historical_source_metadata": [
+    {
+      "trial_relative_path": "FINAL_MANIFEST.json",
+      "sha256": "4761bcde026c38042073ab7baa9f97f0d3a1ab5cd7a004f56657f6eb2f923497"
+    },
+    {
+      "trial_relative_path": "FINAL_CHECK.json",
+      "sha256": "4b2934e4704e65cb554e1600e4b7005cfddcbd35a57a1b119e0ff9af65053030"
+    },
+    {
+      "trial_relative_path": "SOURCE_CHECK.json",
+      "sha256": "4b966b0422da907111ebf908796985bc3994a2fed45500b0557583d7829a782a"
+    },
+    {
+      "trial_relative_path": "BEHAVIOR_RESULTS.json",
+      "sha256": "8f7d9727d3cb80e61cdc61a7b1d9dff965f535f9d5cc7c705bf63c52cab966d7"
+    },
+    {
+      "trial_relative_path": "RESPONSIVE_RESULTS.json",
+      "sha256": "0ec1d815c3be079cb89e273b9718dc68c395053c2bc342a8d00477c1690782d9"
+    },
+    {
+      "trial_relative_path": "STATUS_CONTRAST_FINAL.json",
+      "sha256": "7bfe9410a02279a883f7d2d7776c810215864f01371139ee289fca31c75390b6"
+    },
+    {
+      "trial_relative_path": "captures/FINAL_METRICS.json",
+      "sha256": "3aff8c278cd02f8446010968c17315062777184b6f4ac4daf56cfb5547584b1e"
+    },
+    {
+      "trial_relative_path": "GUIDE_INTERACTION.json",
+      "sha256": "00afb01e9f326cc2ac9b6283c0cc2fcf3aa56162cd7d11dfad7b897226c7283c"
+    },
+    {
+      "trial_relative_path": "reviews/final/FINAL_REVIEW.md",
+      "sha256": "7858819922b391ec55cd69eb52bca1a535dedb42ca2d7881c560614a6af1d45a"
+    },
+    {
+      "trial_relative_path": "references/SOURCES.json",
+      "sha256": "bef369fc13ddc1752eb10148c064c3c6a4149562760f0f56771b93d26781d09a"
+    },
+    {
+      "trial_relative_path": "directions/attio/REVISION.md",
+      "sha256": "264096ca0422202c6a4ab05d6b0b4edad30b219d8ecffee7481a384227feb793"
+    },
+    {
+      "trial_relative_path": "directions/mintlify/REVISION.md",
+      "sha256": "e7cf33a16337185ad4776049ea9201ebdb9c85ef7f4ddeddcc9848cc8d51782f"
+    }
+  ],
+  "files": [
+    {
+      "skill_relative_path": "assets/reviewroom/CHECKS.json",
+      "bytes": 11323,
+      "sha256": "cc77fad7d82f623b756cda9d940138898df08bf94f20e4c8ab2b9cee3bd6db09",
+      "origin": "Original resource guidance or curation metadata authored 2026-10-10"
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/NOTICES.md",
+      "bytes": 3700,
+      "sha256": "c5dd0f3b007112bb6b1205a8b736f311edfe66df5ea4189e54ae1e60cbc875c1",
+      "origin": "Original resource guidance or curation metadata authored 2026-10-10"
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/attio/captures/demo-desktop.jpg",
+      "bytes": 74009,
+      "sha256": "10242464246cec19fcb92cfd0a9df2e36f7fcb6dde37b5599b686c36da23d565",
+      "original_trial_relative_path": "captures/final/attio/demo-desktop.png",
+      "original_sha256": "10242464246cec19fcb92cfd0a9df2e36f7fcb6dde37b5599b686c36da23d565",
+      "matches_final_manifest": true,
+      "capture": {
+        "date": "2026-10-09",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Landing page v03 / Awaiting review / no comments",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg"
+      },
+      "filename_correction": "Original trial .png filename contains JPEG data; curated .jpg extension corrected with no pixel or byte changes."
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/attio/captures/home-desktop.jpg",
+      "bytes": 82360,
+      "sha256": "6d28e652b388d4050b2be1cd67c4510513655013153af05b20a25c25546cf60a",
+      "original_trial_relative_path": "captures/final/attio/home-desktop.png",
+      "original_sha256": "6d28e652b388d4050b2be1cd67c4510513655013153af05b20a25c25546cf60a",
+      "matches_final_manifest": true,
+      "capture": {
+        "date": "2026-10-09",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Welcome email v02 / Changes requested / original sample feedback",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg"
+      },
+      "filename_correction": "Original trial .png filename contains JPEG data; curated .jpg extension corrected with no pixel or byte changes."
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/attio/captures/home-phone.jpg",
+      "bytes": 38577,
+      "sha256": "01848ef6d95cc9b02f0572246b2e18176c624fde11a80f5b649483465d090e34",
+      "original_trial_relative_path": "captures/final/attio/home-phone.png",
+      "original_sha256": "01848ef6d95cc9b02f0572246b2e18176c624fde11a80f5b649483465d090e34",
+      "matches_final_manifest": true,
+      "capture": {
+        "date": "2026-10-09",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Welcome email v02 / Changes requested / original sample feedback",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg"
+      },
+      "filename_correction": "Original trial .png filename contains JPEG data; curated .jpg extension corrected with no pixel or byte changes."
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/attio/site/demo.html",
+      "bytes": 5065,
+      "sha256": "35505249a9163f178c7c18b20283e2059486107b0ad37c79726540b2fdd4037d",
+      "original_trial_relative_path": "directions/attio/site/demo.html",
+      "original_sha256": "35505249a9163f178c7c18b20283e2059486107b0ad37c79726540b2fdd4037d",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/attio/site/fonts/fieldnotes-sans.woff2",
+      "bytes": 67504,
+      "sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0",
+      "original_trial_relative_path": "directions/attio/site/fonts/fieldnotes-sans.woff2",
+      "original_sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/attio/site/fonts/source-sans-3-OFL.txt",
+      "bytes": 4579,
+      "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "original_trial_relative_path": "directions/attio/site/fonts/source-sans-3-OFL.txt",
+      "original_sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/attio/site/fonts/source-serif-4-OFL.txt",
+      "bytes": 4400,
+      "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+      "original_trial_relative_path": "directions/attio/site/fonts/source-serif-4-OFL.txt",
+      "original_sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/attio/site/fonts/source-serif-4.woff2",
+      "bytes": 222928,
+      "sha256": "ec0754e1fb47c9465d0282c89e3a890ddcf8c4e6a912a695ce1b09fb3d1b571d",
+      "original_trial_relative_path": "directions/attio/site/fonts/source-serif-4.woff2",
+      "original_sha256": "ec0754e1fb47c9465d0282c89e3a890ddcf8c4e6a912a695ce1b09fb3d1b571d",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/attio/site/guide.html",
+      "bytes": 5183,
+      "sha256": "dd74b99131763394ecad89fd17d4d6f68598c9aea529a2e9db09116d98be6d4e",
+      "original_trial_relative_path": "directions/attio/site/guide.html",
+      "original_sha256": "dd74b99131763394ecad89fd17d4d6f68598c9aea529a2e9db09116d98be6d4e",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/attio/site/index.html",
+      "bytes": 6319,
+      "sha256": "b3c5bc8c8e183601f152db6c1e7bb39823298f66f77d552c943f97617e660bf1",
+      "original_trial_relative_path": "directions/attio/site/index.html",
+      "original_sha256": "b3c5bc8c8e183601f152db6c1e7bb39823298f66f77d552c943f97617e660bf1",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/attio/site/review.js",
+      "bytes": 6262,
+      "sha256": "5f2553eb054d771c6a4454ce019eeea3641536d8ecfb71d7067f8fe8840d168a",
+      "original_trial_relative_path": "directions/attio/site/review.js",
+      "original_sha256": "5f2553eb054d771c6a4454ce019eeea3641536d8ecfb71d7067f8fe8840d168a",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/attio/site/style.css",
+      "bytes": 26457,
+      "sha256": "f895e75157078ad6508195fe1f80c4ea3fc3a6524c1c007a0dda18dfc990cf1c",
+      "original_trial_relative_path": "directions/attio/site/style.css",
+      "original_sha256": "f895e75157078ad6508195fe1f80c4ea3fc3a6524c1c007a0dda18dfc990cf1c",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/attio/site/work/email.svg",
+      "bytes": 1830,
+      "sha256": "820a4769fc366395d4c4f5feabb4d6a92fd152ce4fc0614d76d5e800b13e7297",
+      "original_trial_relative_path": "directions/attio/site/work/email.svg",
+      "original_sha256": "820a4769fc366395d4c4f5feabb4d6a92fd152ce4fc0614d76d5e800b13e7297",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/attio/site/work/landing.svg",
+      "bytes": 1795,
+      "sha256": "ac2a367a71b80f774762e0430c0a87d9753bc497bf737854068b5324dee915e8",
+      "original_trial_relative_path": "directions/attio/site/work/landing.svg",
+      "original_sha256": "ac2a367a71b80f774762e0430c0a87d9753bc497bf737854068b5324dee915e8",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/attio/site/work/walkthrough.svg",
+      "bytes": 2779,
+      "sha256": "708da5390820824b01c3a1150932a660a3fdba1f9e124bdce2048a3b406b39de",
+      "original_trial_relative_path": "directions/attio/site/work/walkthrough.svg",
+      "original_sha256": "708da5390820824b01c3a1150932a660a3fdba1f9e124bdce2048a3b406b39de",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/captures/demo-desktop.jpg",
+      "bytes": 73681,
+      "sha256": "3dfbe3fc09e928620edc51da5c5c3e961f04dc83c0455b0e788649ad17c611ab",
+      "original_trial_relative_path": "captures/final/mintlify/demo-desktop.png",
+      "original_sha256": "3dfbe3fc09e928620edc51da5c5c3e961f04dc83c0455b0e788649ad17c611ab",
+      "matches_final_manifest": true,
+      "capture": {
+        "date": "2026-10-09",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Landing page v03 / Awaiting review / no comments",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg"
+      },
+      "filename_correction": "Original trial .png filename contains JPEG data; curated .jpg extension corrected with no pixel or byte changes."
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/captures/home-desktop.jpg",
+      "bytes": 77688,
+      "sha256": "b686cc5bb59910f0d89819515f9a5ad49475670f0a023d48ccfaecb34df5143f",
+      "original_trial_relative_path": "captures/final/mintlify/home-desktop.png",
+      "original_sha256": "b686cc5bb59910f0d89819515f9a5ad49475670f0a023d48ccfaecb34df5143f",
+      "matches_final_manifest": true,
+      "capture": {
+        "date": "2026-10-09",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Welcome email v02 / Changes requested / original sample feedback",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg"
+      },
+      "filename_correction": "Original trial .png filename contains JPEG data; curated .jpg extension corrected with no pixel or byte changes."
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/captures/home-phone.jpg",
+      "bytes": 38089,
+      "sha256": "a1eeb2f80855a39911005baf5f5215188342aee8c1874303fb5a8751f55ca49b",
+      "original_trial_relative_path": "captures/final/mintlify/home-phone.png",
+      "original_sha256": "a1eeb2f80855a39911005baf5f5215188342aee8c1874303fb5a8751f55ca49b",
+      "matches_final_manifest": true,
+      "capture": {
+        "date": "2026-10-09",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Welcome email v02 / Changes requested / original sample feedback",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg"
+      },
+      "filename_correction": "Original trial .png filename contains JPEG data; curated .jpg extension corrected with no pixel or byte changes."
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/site/NOTICES.md",
+      "bytes": 536,
+      "sha256": "a59388bd0a2c055428833284a86a05d0febffc634ad04ac82d1c54b74860c7e7",
+      "original_trial_relative_path": "directions/mintlify/site/NOTICES.md",
+      "original_sha256": "a59388bd0a2c055428833284a86a05d0febffc634ad04ac82d1c54b74860c7e7",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/site/art/favicon.svg",
+      "bytes": 254,
+      "sha256": "44e0abe4d9f9068f3d2110d50449771e4714ccda96803b4babd5606114eb6f1e",
+      "original_trial_relative_path": "directions/mintlify/site/art/favicon.svg",
+      "original_sha256": "44e0abe4d9f9068f3d2110d50449771e4714ccda96803b4babd5606114eb6f1e",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/site/context.js",
+      "bytes": 815,
+      "sha256": "aa6134efefddb19f91f35caf2bdc10ee4e1f07b7a898d0b10f96ef2cadf56c4a",
+      "original_trial_relative_path": "directions/mintlify/site/context.js",
+      "original_sha256": "aa6134efefddb19f91f35caf2bdc10ee4e1f07b7a898d0b10f96ef2cadf56c4a",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/site/demo.html",
+      "bytes": 4813,
+      "sha256": "0ff58f1231edae06d97e748accfafd1caa88e17d307d67be5a4166bb6ae08cf3",
+      "original_trial_relative_path": "directions/mintlify/site/demo.html",
+      "original_sha256": "0ff58f1231edae06d97e748accfafd1caa88e17d307d67be5a4166bb6ae08cf3",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/site/fonts/fieldnotes-sans.woff2",
+      "bytes": 67504,
+      "sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0",
+      "original_trial_relative_path": "directions/mintlify/site/fonts/fieldnotes-sans.woff2",
+      "original_sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/site/fonts/source-sans-3-OFL.txt",
+      "bytes": 4579,
+      "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "original_trial_relative_path": "directions/mintlify/site/fonts/source-sans-3-OFL.txt",
+      "original_sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/site/fonts/source-serif-4-OFL.txt",
+      "bytes": 4400,
+      "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+      "original_trial_relative_path": "directions/mintlify/site/fonts/source-serif-4-OFL.txt",
+      "original_sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/site/fonts/source-serif-4.woff2",
+      "bytes": 222928,
+      "sha256": "ec0754e1fb47c9465d0282c89e3a890ddcf8c4e6a912a695ce1b09fb3d1b571d",
+      "original_trial_relative_path": "directions/mintlify/site/fonts/source-serif-4.woff2",
+      "original_sha256": "ec0754e1fb47c9465d0282c89e3a890ddcf8c4e6a912a695ce1b09fb3d1b571d",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/site/guide.html",
+      "bytes": 5682,
+      "sha256": "79d7bc646179133e857f3431fb0638bf3fd4bef6419a5893c996eb7548dc1a2d",
+      "original_trial_relative_path": "directions/mintlify/site/guide.html",
+      "original_sha256": "79d7bc646179133e857f3431fb0638bf3fd4bef6419a5893c996eb7548dc1a2d",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/site/index.html",
+      "bytes": 7633,
+      "sha256": "4105caf1735209f42ed9fcedce3e7e48c7671f744d2a4e34e4ad688f1297b562",
+      "original_trial_relative_path": "directions/mintlify/site/index.html",
+      "original_sha256": "4105caf1735209f42ed9fcedce3e7e48c7671f744d2a4e34e4ad688f1297b562",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/site/review.js",
+      "bytes": 6262,
+      "sha256": "5f2553eb054d771c6a4454ce019eeea3641536d8ecfb71d7067f8fe8840d168a",
+      "original_trial_relative_path": "directions/mintlify/site/review.js",
+      "original_sha256": "5f2553eb054d771c6a4454ce019eeea3641536d8ecfb71d7067f8fe8840d168a",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/site/styles.css",
+      "bytes": 27649,
+      "sha256": "d9815554b9f38107a9feb5aa4af0939ec2c41d597ebd5587a72ee6ecd1cd7c63",
+      "original_trial_relative_path": "directions/mintlify/site/styles.css",
+      "original_sha256": "d9815554b9f38107a9feb5aa4af0939ec2c41d597ebd5587a72ee6ecd1cd7c63",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/site/work/email.svg",
+      "bytes": 1830,
+      "sha256": "820a4769fc366395d4c4f5feabb4d6a92fd152ce4fc0614d76d5e800b13e7297",
+      "original_trial_relative_path": "directions/mintlify/site/work/email.svg",
+      "original_sha256": "820a4769fc366395d4c4f5feabb4d6a92fd152ce4fc0614d76d5e800b13e7297",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/site/work/landing.svg",
+      "bytes": 1795,
+      "sha256": "ac2a367a71b80f774762e0430c0a87d9753bc497bf737854068b5324dee915e8",
+      "original_trial_relative_path": "directions/mintlify/site/work/landing.svg",
+      "original_sha256": "ac2a367a71b80f774762e0430c0a87d9753bc497bf737854068b5324dee915e8",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "assets/reviewroom/mintlify/site/work/walkthrough.svg",
+      "bytes": 2779,
+      "sha256": "708da5390820824b01c3a1150932a660a3fdba1f9e124bdce2048a3b406b39de",
+      "original_trial_relative_path": "directions/mintlify/site/work/walkthrough.svg",
+      "original_sha256": "708da5390820824b01c3a1150932a660a3fdba1f9e124bdce2048a3b406b39de",
+      "matches_final_manifest": true
+    },
+    {
+      "skill_relative_path": "references/reviewroom.md",
+      "bytes": 11099,
+      "sha256": "783bb63232663a2f256eb7279e0f8c6ee2856d36653ea97518160e2c307097b3",
+      "origin": "Original resource guidance or curation metadata authored 2026-10-10"
+    }
+  ],
+  "capture_metadata_correction": {
+    "corrected_on": "2026-10-10",
+    "reason": "Raw .png capture filenames contain JPEG data; prior dimensions were incorrectly parsed as PNG.",
+    "method": "Read JPEG SOF frame width/height; verify dimensions and SHA256 against original source.",
+    "pixels_or_bytes_changed": false
+  }
+}

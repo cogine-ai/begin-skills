@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Build, keep and export an exact study week. Current fields and your kept plan stay distinct."><title>Build your week — Cadence</title><link rel="icon" href="assets/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/styles.css"><script src="assets/plan-model.js" defer></script><script src="assets/planner.js" defer></script></head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header page-width"><a class="brand" href="index.html" aria-label="Cadence home"><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>Cadence</a><nav aria-label="Main navigation"><a class="nav-home" href="index.html">Overview</a><a href="guide.html">Guide</a><a class="nav-build" href="demo.html" aria-current="page">Build a week <span aria-hidden="true">↗</span></a></nav></header>
+<main id="main" class="page-width">
+ <div class="task-heading"><h1>Build your week</h1><a class="text-link" href="guide.html#build">Try the Spanish example <span aria-hidden="true">↗</span></a></div>
+ <noscript><p class="noscript">This planner needs JavaScript to build and keep a plan. The <a href="index.html">sample week</a> and <a href="guide.html">complete guide</a> are still readable.</p></noscript>
+ <form id="planner-form" class="planner-form" novalidate>
+  <div id="error-summary" class="error-summary" role="alert" tabindex="-1" hidden><p>Check these fields, then build again</p><ul id="error-list"></ul></div>
+  <div class="form-top">
+   <div class="field goal-field"><label for="goal">What are you learning?</label><input class="input" id="goal" name="goal" type="text" maxlength="80" value="Learn Spanish" required aria-describedby="goal-help goal-error"><p class="field-help" id="goal-help"><span>A short goal for the week</span><span id="goal-count">13 / 80</span></p><p class="field-error" id="goal-error"></p></div>
+   <div class="field week-field"><label for="week">Week beginning</label><input class="input" id="week" name="week" type="date" value="2026-11-16" required aria-describedby="week-help week-error"><p class="field-help" id="week-help">Choose a Monday</p><p class="field-error" id="week-error"></p></div>
+   <div class="session-fields" role="group" aria-label="Session time and length">
+    <div class="field duration-field"><label for="duration">Session length</label><select class="input" id="duration" name="duration" aria-describedby="session-rule duration-error"><option value="30">30 minutes</option><option value="45" selected>45 minutes</option><option value="60">60 minutes</option></select><p class="field-error" id="duration-error"></p></div>
+    <div class="field time-field"><label for="start">Start time</label><input class="input" id="start" name="start" type="time" step="60" value="18:00" required aria-describedby="start-help session-rule start-error"><p class="field-help" id="start-help">24-hour time</p><p class="field-error" id="start-error"></p></div>
+    <p class="session-rule" id="session-rule">Every chosen day uses this time and length.</p>
+   </div>
+  </div>
+  <div class="form-bottom"><fieldset class="days-field" aria-describedby="days-error"><legend>Study days</legend><div class="day-options"><label class="day-option"><input id="day-mon" name="days" type="checkbox" value="0" checked><span>Mon</span></label><label class="day-option"><input name="days" type="checkbox" value="1"><span>Tue</span></label><label class="day-option"><input name="days" type="checkbox" value="2" checked><span>Wed</span></label><label class="day-option"><input name="days" type="checkbox" value="3"><span>Thu</span></label><label class="day-option"><input name="days" type="checkbox" value="4" checked><span>Fri</span></label></div><p class="field-error" id="days-error"></p></fieldset><div class="build-actions"><button class="button" type="submit">Build plan <span aria-hidden="true">↓</span></button></div></div>
+ </form>
+ <p id="app-message" class="app-message" role="status" aria-live="polite">The sample fields are ready. Build a plan to see the exact week.</p>
+ <section id="prepared-panel" class="prepared" aria-labelledby="prepared-heading">
+  <div class="prepared-heading"><h2 id="prepared-heading" tabindex="-1">Your prepared week</h2><p id="result-state" class="result-state" data-state="empty">Not built yet</p></div>
+  <p id="result-warning" class="result-warning" hidden>These fields have changed. Rebuild before keeping or exporting. The week below shows the earlier result.</p>
+  <div id="empty-result" class="empty-result">Your dates, session times and total will appear here.</div>
+  <div id="plan-output"></div>
+  <div class="prepared-actions"><div class="keep-group"><button id="keep-plan" class="button" type="button" disabled>Keep plan <span aria-hidden="true">✓</span></button><p id="keep-help">Build the current fields first. Keeping stores one plan in this browser.</p></div><div class="export-group" aria-label="Download the current prepared plan"><button class="button secondary" id="export-text" type="button" disabled>Export text <span aria-hidden="true">↓</span></button><button class="button secondary" id="export-json" type="button" disabled>Export JSON <span aria-hidden="true">↓</span></button></div></div>
+ </section>
+ <section class="saved-section" aria-labelledby="saved-heading"><div class="saved-title"><h2 id="saved-heading">Kept in this browser</h2><p>Draft edits leave your kept plan here.</p></div><div class="saved-card"><div id="saved-details"><p class="saved-empty">Nothing kept yet. Build a week, then choose Keep plan.</p></div><div class="saved-actions"><button id="return-saved" class="button secondary" type="button" disabled>Return to kept plan <span aria-hidden="true">↶</span></button><button id="forget-saved" class="quiet-button" type="button" disabled>Forget kept plan</button></div></div></section>
+ <div class="draft-tools"><p>Reset restores the example fields and leaves your kept plan available.</p><button id="reset-draft" class="quiet-button" type="button">Reset draft</button></div>
+</main>
+<footer class="site-footer page-width"><p>Cadence is a fictional local study planner. Browser storage can be cleared or unavailable. Keep an export if you need another copy.</p><a href="NOTICES.md">Source & font notices</a></footer>
+</body></html>

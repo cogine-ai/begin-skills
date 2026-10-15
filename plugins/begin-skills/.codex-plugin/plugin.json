@@ -1,0 +1,28 @@
+{
+  "name": "begin-skills",
+  "version": "0.1.0-alpha.5",
+  "description": "Give your AI the skills to build the website you have in mind.",
+  "author": {
+    "name": "Cogine AI"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Begin",
+    "shortDescription": "Professional website-making skills for your AI.",
+    "developerName": "Cogine AI",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Testing"
+    ],
+    "defaultPrompt": [
+      "Use Begin to set up this workspace for my website."
+    ]
+  },
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/begin-setup/SKILL.md"
+    }
+  }
+}

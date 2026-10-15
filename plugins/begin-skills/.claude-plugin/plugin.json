@@ -1,0 +1,15 @@
+{
+  "name": "begin-skills",
+  "version": "0.1.0-alpha.5",
+  "description": "Give your AI the skills to build the website you have in mind.",
+  "author": {
+    "name": "Cogine AI"
+  },
+  "keywords": [
+    "website",
+    "design",
+    "frontend",
+    "backend",
+    "deployment"
+  ]
+}

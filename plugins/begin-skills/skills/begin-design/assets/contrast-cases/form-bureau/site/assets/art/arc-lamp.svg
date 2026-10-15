@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 520" role="img" aria-labelledby="title desc">
+<title id="title">Arc 04 counterweight desk lamp</title><desc id="desc">An imagined lilac aluminium task lamp with an angled stem, articulated neck, broad cone shade and circular steel base.</desc>
+<defs><linearGradient id="stem"><stop stop-color="#6c667f"/><stop offset=".35" stop-color="#c5bddb"/><stop offset=".58" stop-color="#b9b0d1"/><stop offset="1" stop-color="#767084"/></linearGradient><linearGradient id="shade" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ece5f8"/><stop offset=".48" stop-color="#c0b4da"/><stop offset="1" stop-color="#827797"/></linearGradient><linearGradient id="base" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#dad2e8"/><stop offset="1" stop-color="#81778f"/></linearGradient><radialGradient id="light"><stop stop-color="#fdf9ec"/><stop offset="1" stop-color="#cabda5"/></radialGradient><filter id="shadow" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="8"/></filter></defs>
+<ellipse cx="245" cy="466" rx="127" ry="16" fill="#383344" opacity=".17" filter="url(#shadow)"/>
+<path d="M253 443c32 3 40 16 80 15 30-1 35-9 57-6" fill="none" stroke="#746e7c" stroke-width="3"/>
+<path d="M139 432v13c0 18 49 34 105 34s105-16 105-34v-13" fill="url(#base)"/>
+<ellipse cx="244" cy="432" rx="105" ry="32" fill="#c1b6d2"/><ellipse cx="244" cy="429" rx="99" ry="29" fill="url(#shade)"/>
+<ellipse cx="245" cy="428" rx="19" ry="7" fill="#716777"/>
+<path d="M247 427 202 249" stroke="#6a6273" stroke-width="18" stroke-linecap="round"/><path d="M245 422 201 249" stroke="url(#stem)" stroke-width="13" stroke-linecap="round"/>
+<path d="M204 250 291 178" stroke="#6d647b" stroke-width="16" stroke-linecap="round"/><path d="M203 247 291 175" stroke="url(#stem)" stroke-width="10" stroke-linecap="round"/>
+<path d="m201 251-51 43" stroke="#857b99" stroke-width="11" stroke-linecap="round"/><path d="m142 278 19 17-12 17-19-17z" fill="#9e93b2"/><circle cx="201" cy="249" r="17" fill="#837990"/><circle cx="198" cy="245" r="13" fill="#d1c7e3"/><circle cx="198" cy="245" r="5" fill="#6e647c"/>
+<path d="M285 179c5-30 11-40 34-39" stroke="url(#stem)" stroke-width="14" fill="none" stroke-linecap="round"/>
+<path d="m287 91 54 30 58 122-161-82z" fill="url(#shade)"/><path d="m287 91 54 30" stroke="#f1eafa" stroke-width="2" opacity=".7"/>
+<ellipse cx="318" cy="202" rx="90" ry="27" transform="rotate(27 318 202)" fill="#8e829e"/><ellipse cx="318" cy="199" rx="84" ry="21" transform="rotate(27 318 199)" fill="url(#light)"/><ellipse cx="318" cy="197" rx="12" ry="13" fill="#fff8d7" opacity=".95"/>
+<path d="m241 412-5-22" stroke="#e8dff2" stroke-width="2" opacity=".75"/>
+</svg>

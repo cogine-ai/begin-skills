@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370">
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#202929"/><stop offset="1" stop-color="#736f58"/></linearGradient><linearGradient id="light" x2="0" y2="1"><stop stop-color="#d9ca87" stop-opacity=".55"/><stop offset="1" stop-color="#d9ca87" stop-opacity="0"/></linearGradient><pattern id="grain" width="9" height="9" patternUnits="userSpaceOnUse"><path d="M0 0h1m4 4h1" stroke="#ddd2b2" stroke-opacity=".09"/></pattern><pattern id="slats" width="13" height="13" patternUnits="userSpaceOnUse"><path d="M0 0v13" stroke="#afaa85" stroke-opacity=".16"/></pattern></defs>
+<path fill="url(#sky)" d="M0 0h1200v370H0z"/><circle cx="915" cy="166" r="45" fill="#d6c68a" opacity=".5"/><path d="M0 211l170-32 125 10 158-29 132 32 100-12 100 19 164-28 116 16 135-16v199H0z" fill="#252e2b"/><path d="M0 241h1200v129H0z" fill="#121a19"/>
+<path d="M0 84L568 0h122L0 118zM20 0h32v244H20zM278 0h18v255h-18z" fill="#111a19"/><path d="M39 0l250 255M39 255L278 0" stroke="#45514a" stroke-width="3"/>
+<path d="M48 238L840 199l360 46v125H0z" fill="#18211f"/><path d="M-40 290L820 209l420 40M-40 324L820 214l420 59M100 370L820 219l380 86" stroke="#696e59" stroke-width="1"/>
+<path d="M0 184L793 159l407 17M0 190L793 165l407 17" stroke="#a5a284" stroke-width="3" fill="none"/><path d="M0 207L796 180l404 16" stroke="#777e6b" stroke-width="2" fill="none"/>
+<g stroke="#9c9c7a" stroke-width="3"><path d="M84 184v83M206 180v75M330 176v66M455 173v56M580 169v49M705 165v41M834 164v46M950 170v53M1083 174v64M1188 179v72"/></g>
+<path d="M550 121h104v102H550z" fill="#121c1a" stroke="#777b65" stroke-width="2"/><path d="M555 127h42v89h-42zM607 127h42v89h-42z" fill="url(#slats)" stroke="#5e6959"/><path d="M588 163h11m8 0h11" stroke="#ccb979" stroke-width="2"/>
+<path d="M656 113h12v114h-12z" fill="#111b18"/><path d="M663 151l65 2v62" stroke="#b2a680" stroke-width="2" fill="none"/><path d="M683 153v64m17-63v63m17-62v62" stroke="#6e7761" stroke-width="1.5"/>
+<path d="M410 22h56v8h-56z" fill="#d4c890"/><path d="M431 30h13l68 188H360z" fill="url(#light)"/><path d="M866 70h24v4h-24z" fill="#d4c890"/><path d="M873 74h9l24 132h-56z" fill="url(#light)"/>
+<path fill="url(#grain)" d="M0 0h1200v370H0z"/>
+</svg>

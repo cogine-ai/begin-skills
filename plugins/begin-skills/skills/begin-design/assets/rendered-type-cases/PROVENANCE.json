@@ -1,0 +1,1115 @@
+{
+  "schema_version": 1,
+  "curated_on": "2026-10-11",
+  "curation_snapshot_utc": "2026-10-11T12:06:51.190949+00:00",
+  "trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-open-task-type",
+  "copy_method": "Byte-identical stopped final sources and selected native viewport captures. No font, artwork or image transformations.",
+  "input_version": "0.1.0-dev.18",
+  "input_archive_sha256": "734a549dea5588b0d36cfe1bb582e059d0751690bcad7b8554fbda2e9849e01d",
+  "selection_note": "Frozen independent final sources, exact matching native openings and identical prepared baseline records. Original and author sources remain separate.",
+  "study_kind": "Task/material briefs with open visual choices; raw generation, author rendered review and independent criticism kept separate.",
+  "cases": [
+    {
+      "runtime": "Local fictional task with complete preparation, exact UTF-8 export and deliberate keeping/recovery.",
+      "choice_stage": "Fonts and composition chosen from open task/material briefs; raw, author and independent phases preserved separately.",
+      "slug": "gridshift",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "capture_pages": [
+        "home",
+        "demo",
+        "guide"
+      ],
+      "source_file_count": 14,
+      "source_bytes": 400967,
+      "required_notices": [
+        "notices/Barlow-OFL.txt",
+        "notices/BarlowCondensed-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "assets/fonts/BarlowCondensed-ExtraBold.ttf",
+          "notice": "notices/BarlowCondensed-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraBold.ttf",
+          "bytes": 110296,
+          "sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260",
+          "role": "Display family Barlow Condensed, ExtraBold, actual weight 800",
+          "identity_scope": "Unchanged frozen-input bytes, recorded upstream source and complete notice; no new upstream fetch or complete glyph claim.",
+          "modified": false
+        },
+        {
+          "file": "assets/fonts/Barlow-Regular.ttf",
+          "notice": "notices/Barlow-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/Barlow-Regular.ttf",
+          "bytes": 104068,
+          "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+          "role": "Reading family Barlow Regular, actual weight 400",
+          "identity_scope": "Unchanged frozen-input bytes, recorded upstream source and complete notice; no new upstream fetch or complete glyph claim.",
+          "modified": false
+        },
+        {
+          "file": "assets/fonts/Barlow-SemiBold.ttf",
+          "notice": "notices/Barlow-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/Barlow-SemiBold.ttf",
+          "bytes": 108348,
+          "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5",
+          "role": "Labels and controls, actual weight 600",
+          "identity_scope": "Unchanged frozen-input bytes, recorded upstream source and complete notice; no new upstream fetch or complete glyph claim.",
+          "modified": false
+        }
+      ],
+      "bundled_photographs": [],
+      "runtime_html_ids": {},
+      "initial_source_preserved": true,
+      "initial_source": {
+        "website_source_files": 12,
+        "website_source_bytes": 390333
+      },
+      "final_source_snapshot": [
+        {
+          "path": "FONT_SOURCES.json",
+          "bytes": 11551,
+          "sha256": "b48982ac7a47f59289e894a6bc96a92e3a426b96d9749c5d26fa5f51ab170a04"
+        },
+        {
+          "path": "assets/fonts/Barlow-Regular.ttf",
+          "bytes": 104068,
+          "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea"
+        },
+        {
+          "path": "assets/fonts/Barlow-SemiBold.ttf",
+          "bytes": 108348,
+          "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5"
+        },
+        {
+          "path": "assets/fonts/BarlowCondensed-ExtraBold.ttf",
+          "bytes": 110296,
+          "sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 4283,
+          "sha256": "73bd8e4a6e8824bc3ebb7d1cd822c3db286260e6b8a6dcf64d205b164f998f9f"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 6875,
+          "sha256": "8ccb7a11a1993a7b99b74090c058ad9c5b12832e2b4d0bb02a1bdcfd411e7409"
+        },
+        {
+          "path": "index.html",
+          "bytes": 2939,
+          "sha256": "e3bebbf6a150e9512356f1b5650135da98a32771bf8f19e938be3ea52db69e1d"
+        },
+        {
+          "path": "model.mjs",
+          "bytes": 5844,
+          "sha256": "404cf633768e454b0d926392a85dbd16db55af5a465e4b358c8156e5d6b45883"
+        },
+        {
+          "path": "notices/Barlow-OFL.txt",
+          "bytes": 4377,
+          "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+        },
+        {
+          "path": "notices/BarlowCondensed-OFL.txt",
+          "bytes": 4377,
+          "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+        },
+        {
+          "path": "organizer.mjs",
+          "bytes": 5975,
+          "sha256": "65b51617dbf0ad2dfeaf442e074e31ca546d826c5a76d16d8050c755a891a21d"
+        },
+        {
+          "path": "spectator.mjs",
+          "bytes": 1548,
+          "sha256": "243cfd3e4c9792bb80a9b1df3b9ee6031cc76e65a1a9c0a8def3a6e0e40ca69f"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 23945,
+          "sha256": "f987500bc8f2ea96d8b1b55b14cca6bdb6aee71c589e600199c107b7151a1541"
+        },
+        {
+          "path": "view.mjs",
+          "bytes": 6541,
+          "sha256": "9aefdace2eefeb738d1ec00bcc1b0322cfa55c9d5ef16a18bb28875876bef74b"
+        }
+      ],
+      "excluded_generated_project_guidance": [],
+      "source_phase": "final",
+      "capture_phase": "final",
+      "opening_capture_phases": {
+        "home": "final",
+        "demo": "final",
+        "guide": "final"
+      },
+      "populated_result_captures": [
+        {
+          "file": "result/captures/demo-desktop.jpg",
+          "view": "desktop",
+          "role": "populated result excerpt"
+        },
+        {
+          "file": "result/captures/demo-phone.jpg",
+          "view": "phone",
+          "role": "populated result excerpt"
+        }
+      ]
+    },
+    {
+      "runtime": "Local fictional task with complete preparation, exact UTF-8 export and deliberate keeping/recovery.",
+      "choice_stage": "Fonts and composition chosen from open task/material briefs; raw, author and independent phases preserved separately.",
+      "slug": "checkout",
+      "pages": [
+        "index.html",
+        "guide.html"
+      ],
+      "capture_pages": [
+        "home",
+        "guide"
+      ],
+      "source_file_count": 11,
+      "source_bytes": 549682,
+      "required_notices": [
+        "assets/fonts/BarlowCondensed-OFL.txt",
+        "assets/fonts/WorkSans-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "assets/fonts/BarlowCondensed-ExtraBold.ttf",
+          "notice": "assets/fonts/BarlowCondensed-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraBold.ttf",
+          "bytes": 110296,
+          "sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260",
+          "role": "Display; actual 800 weight",
+          "identity_scope": "Unchanged frozen-input bytes, recorded upstream source and complete notice; no new upstream fetch or complete glyph claim.",
+          "modified": false
+        },
+        {
+          "file": "assets/fonts/WorkSans-Variable.ttf",
+          "notice": "assets/fonts/WorkSans-OFL.txt",
+          "source_url": "https://github.com/weiweihuanghuang/Work-Sans",
+          "bytes": 361072,
+          "sha256": "f50f61f2ba738e239442d40bf1069adb195c224b6a5a73a581fc2f3ed62a9f63",
+          "role": "Reading and controls; variable roman 100\u2013900",
+          "identity_scope": "Unchanged frozen-input bytes, recorded upstream source and complete notice; no new upstream fetch or complete glyph claim.",
+          "modified": false
+        }
+      ],
+      "bundled_photographs": [],
+      "runtime_html_ids": {},
+      "initial_source_preserved": true,
+      "initial_source": {
+        "website_source_files": 11,
+        "website_source_bytes": 549023
+      },
+      "final_source_snapshot": [
+        {
+          "path": "FONT_SOURCES.json",
+          "bytes": 2222,
+          "sha256": "4ac358a586c6f2425b3149e170cb14b61be687ae88d19ae4890e91ee85813bee"
+        },
+        {
+          "path": "app.mjs",
+          "bytes": 15089,
+          "sha256": "e50497aa1507175ae4387e2b47e5e50a7d0bd4d232b798b3ceafcbd553e02441"
+        },
+        {
+          "path": "assets/equipment.svg",
+          "bytes": 1590,
+          "sha256": "f5887fe0804fe9039dabb0692dd26c31e7e2c05afae11117e6dc9b9221900f16"
+        },
+        {
+          "path": "assets/fonts/BarlowCondensed-ExtraBold.ttf",
+          "bytes": 110296,
+          "sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260"
+        },
+        {
+          "path": "assets/fonts/BarlowCondensed-OFL.txt",
+          "bytes": 4377,
+          "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+        },
+        {
+          "path": "assets/fonts/WorkSans-OFL.txt",
+          "bytes": 4396,
+          "sha256": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272"
+        },
+        {
+          "path": "assets/fonts/WorkSans-Variable.ttf",
+          "bytes": 361072,
+          "sha256": "f50f61f2ba738e239442d40bf1069adb195c224b6a5a73a581fc2f3ed62a9f63"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 9762,
+          "sha256": "3ee3df0efdeedb95cc84f49db51cf5b11a9dde338db8197914ee8aa9b1ceb849"
+        },
+        {
+          "path": "index.html",
+          "bytes": 6542,
+          "sha256": "5ed5b5d1a05437c15a2758db4799cc689dcf5c9385973b1ba58c062904a1917c"
+        },
+        {
+          "path": "model.mjs",
+          "bytes": 13040,
+          "sha256": "3c6867f457f3dcfc3df0c2bac9358071b85cf245e9f54ab595184d1db10e2877"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 21296,
+          "sha256": "12e376eb60cb79b3d7760ad999e2658691bab6b60ad1ae848f60a40dc9ddb0a7"
+        }
+      ],
+      "excluded_generated_project_guidance": [],
+      "source_phase": "final",
+      "capture_phase": "final",
+      "opening_capture_phases": {
+        "home": "final",
+        "guide": "final"
+      },
+      "populated_result_captures": [
+        {
+          "file": "result/captures/home-desktop.jpg",
+          "view": "desktop",
+          "role": "populated result excerpt"
+        },
+        {
+          "file": "result/captures/home-phone.jpg",
+          "view": "phone",
+          "role": "populated result excerpt"
+        }
+      ]
+    },
+    {
+      "runtime": "Local fictional task with complete preparation, exact UTF-8 export and deliberate keeping/recovery.",
+      "choice_stage": "Fonts and composition chosen from open task/material briefs; raw, author and independent phases preserved separately.",
+      "slug": "elsewhere",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "capture_pages": [
+        "home",
+        "demo",
+        "guide"
+      ],
+      "source_file_count": 14,
+      "source_bytes": 1297234,
+      "required_notices": [
+        "assets/fonts/OFL-IBMPlexMono.txt",
+        "assets/fonts/OFL-Newsreader.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "assets/fonts/newsreader-roman.ttf",
+          "notice": "assets/fonts/OFL-Newsreader.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/Newsreader%5Bopsz,wght%5D.ttf",
+          "bytes": 451664,
+          "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+          "role": "Newsreader",
+          "identity_scope": "Unchanged frozen-input bytes, recorded upstream source and complete notice; no new upstream fetch or complete glyph claim.",
+          "modified": false
+        },
+        {
+          "file": "assets/fonts/newsreader-italic.ttf",
+          "notice": "assets/fonts/OFL-Newsreader.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/Newsreader-Italic%5Bopsz,wght%5D.ttf",
+          "bytes": 495684,
+          "sha256": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792",
+          "role": "Newsreader",
+          "identity_scope": "Unchanged frozen-input bytes, recorded upstream source and complete notice; no new upstream fetch or complete glyph claim.",
+          "modified": false
+        },
+        {
+          "file": "assets/fonts/IBMPlexMono-Regular.ttf",
+          "notice": "assets/fonts/OFL-IBMPlexMono.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+          "bytes": 135580,
+          "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+          "role": "IBM Plex Mono",
+          "identity_scope": "Unchanged frozen-input bytes, recorded upstream source and complete notice; no new upstream fetch or complete glyph claim.",
+          "modified": false
+        },
+        {
+          "file": "assets/fonts/IBMPlexMono-Medium.ttf",
+          "notice": "assets/fonts/OFL-IBMPlexMono.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Medium.ttf",
+          "bytes": 136704,
+          "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+          "role": "IBM Plex Mono",
+          "identity_scope": "Unchanged frozen-input bytes, recorded upstream source and complete notice; no new upstream fetch or complete glyph claim.",
+          "modified": false
+        }
+      ],
+      "bundled_photographs": [],
+      "runtime_html_ids": {},
+      "initial_source_preserved": true,
+      "initial_source": {
+        "website_source_files": 14,
+        "website_source_bytes": 1296976
+      },
+      "final_source_snapshot": [
+        {
+          "path": "FONT_SOURCES.json",
+          "bytes": 4889,
+          "sha256": "7d3fdc897e37bc17ce9bc5e4230fc23111de25cd86c25f1030ebb772aa4cf17a"
+        },
+        {
+          "path": "assets/fonts/IBMPlexMono-Medium.ttf",
+          "bytes": 136704,
+          "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+        },
+        {
+          "path": "assets/fonts/IBMPlexMono-Regular.ttf",
+          "bytes": 135580,
+          "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+        },
+        {
+          "path": "assets/fonts/OFL-IBMPlexMono.txt",
+          "bytes": 4456,
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        },
+        {
+          "path": "assets/fonts/OFL-Newsreader.txt",
+          "bytes": 4394,
+          "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+        },
+        {
+          "path": "assets/fonts/newsreader-italic.ttf",
+          "bytes": 495684,
+          "sha256": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792"
+        },
+        {
+          "path": "assets/fonts/newsreader-roman.ttf",
+          "bytes": 451664,
+          "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1"
+        },
+        {
+          "path": "assets/station.svg",
+          "bytes": 3711,
+          "sha256": "d0514b97a7b931cc830b0d2b724c6c093d5b2e7c7032699a408b861127de2de5"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 5736,
+          "sha256": "f4c69bc8788d1dbdb5b7cd00800baced7ee7bbd3ed39136de6685406e6cb3a52"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 6034,
+          "sha256": "1b1053c03499aa4279e088bd8eaa48c94b5d73c2bad89ca2b32c98165df2a0c8"
+        },
+        {
+          "path": "index.html",
+          "bytes": 2601,
+          "sha256": "a5264517e2a0a1a870b79c1baf05c633bb6eb4d7f65d73508d7b843244af7a4d"
+        },
+        {
+          "path": "reader.mjs",
+          "bytes": 12401,
+          "sha256": "3daf8c71673e48273a7766ce357e62c6dc234b9c2b92cf4454b634148816532c"
+        },
+        {
+          "path": "story-model.mjs",
+          "bytes": 15921,
+          "sha256": "8e37578417376cf47ed2a67cc44248031fb353836380d4ac5c9c84e6641fc0f2"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 17459,
+          "sha256": "e9e24f3d8423c5461e5d23b1288b151d58248c4797ce237f9e8023df070a34b2"
+        }
+      ],
+      "excluded_generated_project_guidance": [],
+      "source_phase": "final",
+      "capture_phase": "final",
+      "opening_capture_phases": {
+        "home": "final",
+        "demo": "final",
+        "guide": "final"
+      },
+      "populated_result_captures": [
+        {
+          "file": "result/captures/demo-desktop.jpg",
+          "view": "desktop",
+          "role": "populated result excerpt"
+        },
+        {
+          "file": "result/captures/demo-phone.jpg",
+          "view": "phone",
+          "role": "populated result excerpt"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/site/FONT_SOURCES.json",
+      "bytes": 11551,
+      "sha256": "b48982ac7a47f59289e894a6bc96a92e3a426b96d9749c5d26fa5f51ab170a04",
+      "original_trial_relative_path": "gridshift/freeze-final/site/FONT_SOURCES.json",
+      "original_sha256": "b48982ac7a47f59289e894a6bc96a92e3a426b96d9749c5d26fa5f51ab170a04"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/site/assets/fonts/Barlow-Regular.ttf",
+      "bytes": 104068,
+      "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+      "original_trial_relative_path": "gridshift/freeze-final/site/assets/fonts/Barlow-Regular.ttf",
+      "original_sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/site/assets/fonts/Barlow-SemiBold.ttf",
+      "bytes": 108348,
+      "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5",
+      "original_trial_relative_path": "gridshift/freeze-final/site/assets/fonts/Barlow-SemiBold.ttf",
+      "original_sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/site/assets/fonts/BarlowCondensed-ExtraBold.ttf",
+      "bytes": 110296,
+      "sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260",
+      "original_trial_relative_path": "gridshift/freeze-final/site/assets/fonts/BarlowCondensed-ExtraBold.ttf",
+      "original_sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/site/demo.html",
+      "bytes": 4283,
+      "sha256": "73bd8e4a6e8824bc3ebb7d1cd822c3db286260e6b8a6dcf64d205b164f998f9f",
+      "original_trial_relative_path": "gridshift/freeze-final/site/demo.html",
+      "original_sha256": "73bd8e4a6e8824bc3ebb7d1cd822c3db286260e6b8a6dcf64d205b164f998f9f"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/site/guide.html",
+      "bytes": 6875,
+      "sha256": "8ccb7a11a1993a7b99b74090c058ad9c5b12832e2b4d0bb02a1bdcfd411e7409",
+      "original_trial_relative_path": "gridshift/freeze-final/site/guide.html",
+      "original_sha256": "8ccb7a11a1993a7b99b74090c058ad9c5b12832e2b4d0bb02a1bdcfd411e7409"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/site/index.html",
+      "bytes": 2939,
+      "sha256": "e3bebbf6a150e9512356f1b5650135da98a32771bf8f19e938be3ea52db69e1d",
+      "original_trial_relative_path": "gridshift/freeze-final/site/index.html",
+      "original_sha256": "e3bebbf6a150e9512356f1b5650135da98a32771bf8f19e938be3ea52db69e1d"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/site/model.mjs",
+      "bytes": 5844,
+      "sha256": "404cf633768e454b0d926392a85dbd16db55af5a465e4b358c8156e5d6b45883",
+      "original_trial_relative_path": "gridshift/freeze-final/site/model.mjs",
+      "original_sha256": "404cf633768e454b0d926392a85dbd16db55af5a465e4b358c8156e5d6b45883"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/site/notices/Barlow-OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "original_trial_relative_path": "gridshift/freeze-final/site/notices/Barlow-OFL.txt",
+      "original_sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/site/notices/BarlowCondensed-OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "original_trial_relative_path": "gridshift/freeze-final/site/notices/BarlowCondensed-OFL.txt",
+      "original_sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/site/organizer.mjs",
+      "bytes": 5975,
+      "sha256": "65b51617dbf0ad2dfeaf442e074e31ca546d826c5a76d16d8050c755a891a21d",
+      "original_trial_relative_path": "gridshift/freeze-final/site/organizer.mjs",
+      "original_sha256": "65b51617dbf0ad2dfeaf442e074e31ca546d826c5a76d16d8050c755a891a21d"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/site/spectator.mjs",
+      "bytes": 1548,
+      "sha256": "243cfd3e4c9792bb80a9b1df3b9ee6031cc76e65a1a9c0a8def3a6e0e40ca69f",
+      "original_trial_relative_path": "gridshift/freeze-final/site/spectator.mjs",
+      "original_sha256": "243cfd3e4c9792bb80a9b1df3b9ee6031cc76e65a1a9c0a8def3a6e0e40ca69f"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/site/styles.css",
+      "bytes": 23945,
+      "sha256": "f987500bc8f2ea96d8b1b55b14cca6bdb6aee71c589e600199c107b7151a1541",
+      "original_trial_relative_path": "gridshift/freeze-final/site/styles.css",
+      "original_sha256": "f987500bc8f2ea96d8b1b55b14cca6bdb6aee71c589e600199c107b7151a1541"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/site/view.mjs",
+      "bytes": 6541,
+      "sha256": "9aefdace2eefeb738d1ec00bcc1b0322cfa55c9d5ef16a18bb28875876bef74b",
+      "original_trial_relative_path": "gridshift/freeze-final/site/view.mjs",
+      "original_sha256": "9aefdace2eefeb738d1ec00bcc1b0322cfa55c9d5ef16a18bb28875876bef74b"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/captures/home-desktop.jpg",
+      "bytes": 96103,
+      "sha256": "3082e77cec9ec76368e34e17261f2862e1af3f0ef9766e6402d40133fdd6d9d4",
+      "original_trial_relative_path": "captures/final/gridshift/home-desktop.jpg",
+      "original_sha256": "3082e77cec9ec76368e34e17261f2862e1af3f0ef9766e6402d40133fdd6d9d4",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/captures/home-phone.jpg",
+      "bytes": 45906,
+      "sha256": "f6b1c1492a3cc5feec7fc1aa270505f34b47964ca97a299ea2da5bb9eaf315b4",
+      "original_trial_relative_path": "captures/final/gridshift/home-phone.jpg",
+      "original_sha256": "f6b1c1492a3cc5feec7fc1aa270505f34b47964ca97a299ea2da5bb9eaf315b4",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/captures/demo-desktop.jpg",
+      "bytes": 95239,
+      "sha256": "9aa2f994a01f55ee69b4c7c04f3568b109b0e1feb3e49cdc4f33a6c5dade6ffd",
+      "original_trial_relative_path": "captures/final/gridshift/demo-desktop.jpg",
+      "original_sha256": "9aa2f994a01f55ee69b4c7c04f3568b109b0e1feb3e49cdc4f33a6c5dade6ffd",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/captures/demo-phone.jpg",
+      "bytes": 49570,
+      "sha256": "96cb8a05784365ee0c1532e86d36f971220a6eee6be0bf16a7b614c444d4e9cb",
+      "original_trial_relative_path": "captures/final/gridshift/demo-phone.jpg",
+      "original_sha256": "96cb8a05784365ee0c1532e86d36f971220a6eee6be0bf16a7b614c444d4e9cb",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/captures/guide-desktop.jpg",
+      "bytes": 94093,
+      "sha256": "9d41d751b2286885dbed24657039b4925e3b1c2129ef8c7928cb8676c32171ff",
+      "original_trial_relative_path": "captures/final/gridshift/guide-desktop.jpg",
+      "original_sha256": "9d41d751b2286885dbed24657039b4925e3b1c2129ef8c7928cb8676c32171ff",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/captures/guide-phone.jpg",
+      "bytes": 49794,
+      "sha256": "480c9704b54fdc5776cc7dddc8e734b68d4ab8f2bb0c38e7194e61f213a9b804",
+      "original_trial_relative_path": "captures/final/gridshift/guide-phone.jpg",
+      "original_sha256": "480c9704b54fdc5776cc7dddc8e734b68d4ab8f2bb0c38e7194e61f213a9b804",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/result/captures/demo-desktop.jpg",
+      "bytes": 80713,
+      "sha256": "18b5f4bd9fb12cf22cef47eb92f444b96a22d2a965984720e9c9f863a403b432",
+      "original_trial_relative_path": "captures/final/gridshift/demo-desktop-prepared-result.jpg",
+      "original_sha256": "18b5f4bd9fb12cf22cef47eb92f444b96a22d2a965984720e9c9f863a403b432",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 1437,
+        "phase": "final",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/gridshift/result/captures/demo-phone.jpg",
+      "bytes": 47009,
+      "sha256": "402b924d35e1978d6760df44f16c6d324bc4f578eb238e2d0839be0621318e93",
+      "original_trial_relative_path": "captures/final/gridshift/demo-phone-prepared-result.jpg",
+      "original_sha256": "402b924d35e1978d6760df44f16c6d324bc4f578eb238e2d0839be0621318e93",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 2500,
+        "phase": "final",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/site/FONT_SOURCES.json",
+      "bytes": 2222,
+      "sha256": "4ac358a586c6f2425b3149e170cb14b61be687ae88d19ae4890e91ee85813bee",
+      "original_trial_relative_path": "checkout/freeze-final/site/FONT_SOURCES.json",
+      "original_sha256": "4ac358a586c6f2425b3149e170cb14b61be687ae88d19ae4890e91ee85813bee"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/site/app.mjs",
+      "bytes": 15089,
+      "sha256": "e50497aa1507175ae4387e2b47e5e50a7d0bd4d232b798b3ceafcbd553e02441",
+      "original_trial_relative_path": "checkout/freeze-final/site/app.mjs",
+      "original_sha256": "e50497aa1507175ae4387e2b47e5e50a7d0bd4d232b798b3ceafcbd553e02441"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/site/assets/equipment.svg",
+      "bytes": 1590,
+      "sha256": "f5887fe0804fe9039dabb0692dd26c31e7e2c05afae11117e6dc9b9221900f16",
+      "original_trial_relative_path": "checkout/freeze-final/site/assets/equipment.svg",
+      "original_sha256": "f5887fe0804fe9039dabb0692dd26c31e7e2c05afae11117e6dc9b9221900f16"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/site/assets/fonts/BarlowCondensed-ExtraBold.ttf",
+      "bytes": 110296,
+      "sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260",
+      "original_trial_relative_path": "checkout/freeze-final/site/assets/fonts/BarlowCondensed-ExtraBold.ttf",
+      "original_sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/site/assets/fonts/BarlowCondensed-OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "original_trial_relative_path": "checkout/freeze-final/site/assets/fonts/BarlowCondensed-OFL.txt",
+      "original_sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/site/assets/fonts/WorkSans-OFL.txt",
+      "bytes": 4396,
+      "sha256": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272",
+      "original_trial_relative_path": "checkout/freeze-final/site/assets/fonts/WorkSans-OFL.txt",
+      "original_sha256": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/site/assets/fonts/WorkSans-Variable.ttf",
+      "bytes": 361072,
+      "sha256": "f50f61f2ba738e239442d40bf1069adb195c224b6a5a73a581fc2f3ed62a9f63",
+      "original_trial_relative_path": "checkout/freeze-final/site/assets/fonts/WorkSans-Variable.ttf",
+      "original_sha256": "f50f61f2ba738e239442d40bf1069adb195c224b6a5a73a581fc2f3ed62a9f63"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/site/guide.html",
+      "bytes": 9762,
+      "sha256": "3ee3df0efdeedb95cc84f49db51cf5b11a9dde338db8197914ee8aa9b1ceb849",
+      "original_trial_relative_path": "checkout/freeze-final/site/guide.html",
+      "original_sha256": "3ee3df0efdeedb95cc84f49db51cf5b11a9dde338db8197914ee8aa9b1ceb849"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/site/index.html",
+      "bytes": 6542,
+      "sha256": "5ed5b5d1a05437c15a2758db4799cc689dcf5c9385973b1ba58c062904a1917c",
+      "original_trial_relative_path": "checkout/freeze-final/site/index.html",
+      "original_sha256": "5ed5b5d1a05437c15a2758db4799cc689dcf5c9385973b1ba58c062904a1917c"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/site/model.mjs",
+      "bytes": 13040,
+      "sha256": "3c6867f457f3dcfc3df0c2bac9358071b85cf245e9f54ab595184d1db10e2877",
+      "original_trial_relative_path": "checkout/freeze-final/site/model.mjs",
+      "original_sha256": "3c6867f457f3dcfc3df0c2bac9358071b85cf245e9f54ab595184d1db10e2877"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/site/styles.css",
+      "bytes": 21296,
+      "sha256": "12e376eb60cb79b3d7760ad999e2658691bab6b60ad1ae848f60a40dc9ddb0a7",
+      "original_trial_relative_path": "checkout/freeze-final/site/styles.css",
+      "original_sha256": "12e376eb60cb79b3d7760ad999e2658691bab6b60ad1ae848f60a40dc9ddb0a7"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/captures/home-desktop.jpg",
+      "bytes": 102328,
+      "sha256": "d50710bec22d5d1ee9b274a8e459dc9a9abfcc1c8395a31ead7bade31af37361",
+      "original_trial_relative_path": "captures/final/checkout/home-desktop.jpg",
+      "original_sha256": "d50710bec22d5d1ee9b274a8e459dc9a9abfcc1c8395a31ead7bade31af37361",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/captures/home-phone.jpg",
+      "bytes": 34685,
+      "sha256": "ef904668b1594c857f8428944a39e51bb32c60bf958108bcba00272867d2bf56",
+      "original_trial_relative_path": "captures/final/checkout/home-phone.jpg",
+      "original_sha256": "ef904668b1594c857f8428944a39e51bb32c60bf958108bcba00272867d2bf56",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/captures/guide-desktop.jpg",
+      "bytes": 113960,
+      "sha256": "df95777dc42e4e7d0d3199e973d35c547486f69b1d9f11e6d7d8b7c203195f4d",
+      "original_trial_relative_path": "captures/final/checkout/guide-desktop.jpg",
+      "original_sha256": "df95777dc42e4e7d0d3199e973d35c547486f69b1d9f11e6d7d8b7c203195f4d",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/captures/guide-phone.jpg",
+      "bytes": 42714,
+      "sha256": "f9357d48feebe61b5104271f5a59a799314e50f2b9ebbef0b2036fb4ff7688f3",
+      "original_trial_relative_path": "captures/final/checkout/guide-phone.jpg",
+      "original_sha256": "f9357d48feebe61b5104271f5a59a799314e50f2b9ebbef0b2036fb4ff7688f3",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/result/captures/home-desktop.jpg",
+      "bytes": 74840,
+      "sha256": "cf5959f96b5e7d75e731d9e76c538e0c0fc615bf737dfbe2abb82bcab01ff57b",
+      "original_trial_relative_path": "captures/final/checkout/demo-desktop-prepared-result.jpg",
+      "original_sha256": "cf5959f96b5e7d75e731d9e76c538e0c0fc615bf737dfbe2abb82bcab01ff57b",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 1752,
+        "phase": "final",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/checkout/result/captures/home-phone.jpg",
+      "bytes": 38185,
+      "sha256": "cdfb531f2ff55e9940c9b83c916aff726d8d8018e22a0562fd5c80a3c781b6b7",
+      "original_trial_relative_path": "captures/final/checkout/demo-phone-prepared-result.jpg",
+      "original_sha256": "cdfb531f2ff55e9940c9b83c916aff726d8d8018e22a0562fd5c80a3c781b6b7",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 3600,
+        "phase": "final",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/site/FONT_SOURCES.json",
+      "bytes": 4889,
+      "sha256": "7d3fdc897e37bc17ce9bc5e4230fc23111de25cd86c25f1030ebb772aa4cf17a",
+      "original_trial_relative_path": "elsewhere/freeze-final/site/FONT_SOURCES.json",
+      "original_sha256": "7d3fdc897e37bc17ce9bc5e4230fc23111de25cd86c25f1030ebb772aa4cf17a"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/site/assets/fonts/IBMPlexMono-Medium.ttf",
+      "bytes": 136704,
+      "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+      "original_trial_relative_path": "elsewhere/freeze-final/site/assets/fonts/IBMPlexMono-Medium.ttf",
+      "original_sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/site/assets/fonts/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "original_trial_relative_path": "elsewhere/freeze-final/site/assets/fonts/IBMPlexMono-Regular.ttf",
+      "original_sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/site/assets/fonts/OFL-IBMPlexMono.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "original_trial_relative_path": "elsewhere/freeze-final/site/assets/fonts/OFL-IBMPlexMono.txt",
+      "original_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/site/assets/fonts/OFL-Newsreader.txt",
+      "bytes": 4394,
+      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+      "original_trial_relative_path": "elsewhere/freeze-final/site/assets/fonts/OFL-Newsreader.txt",
+      "original_sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/site/assets/fonts/newsreader-italic.ttf",
+      "bytes": 495684,
+      "sha256": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792",
+      "original_trial_relative_path": "elsewhere/freeze-final/site/assets/fonts/newsreader-italic.ttf",
+      "original_sha256": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/site/assets/fonts/newsreader-roman.ttf",
+      "bytes": 451664,
+      "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+      "original_trial_relative_path": "elsewhere/freeze-final/site/assets/fonts/newsreader-roman.ttf",
+      "original_sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/site/assets/station.svg",
+      "bytes": 3711,
+      "sha256": "d0514b97a7b931cc830b0d2b724c6c093d5b2e7c7032699a408b861127de2de5",
+      "original_trial_relative_path": "elsewhere/freeze-final/site/assets/station.svg",
+      "original_sha256": "d0514b97a7b931cc830b0d2b724c6c093d5b2e7c7032699a408b861127de2de5"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/site/demo.html",
+      "bytes": 5736,
+      "sha256": "f4c69bc8788d1dbdb5b7cd00800baced7ee7bbd3ed39136de6685406e6cb3a52",
+      "original_trial_relative_path": "elsewhere/freeze-final/site/demo.html",
+      "original_sha256": "f4c69bc8788d1dbdb5b7cd00800baced7ee7bbd3ed39136de6685406e6cb3a52"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/site/guide.html",
+      "bytes": 6034,
+      "sha256": "1b1053c03499aa4279e088bd8eaa48c94b5d73c2bad89ca2b32c98165df2a0c8",
+      "original_trial_relative_path": "elsewhere/freeze-final/site/guide.html",
+      "original_sha256": "1b1053c03499aa4279e088bd8eaa48c94b5d73c2bad89ca2b32c98165df2a0c8"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/site/index.html",
+      "bytes": 2601,
+      "sha256": "a5264517e2a0a1a870b79c1baf05c633bb6eb4d7f65d73508d7b843244af7a4d",
+      "original_trial_relative_path": "elsewhere/freeze-final/site/index.html",
+      "original_sha256": "a5264517e2a0a1a870b79c1baf05c633bb6eb4d7f65d73508d7b843244af7a4d"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/site/reader.mjs",
+      "bytes": 12401,
+      "sha256": "3daf8c71673e48273a7766ce357e62c6dc234b9c2b92cf4454b634148816532c",
+      "original_trial_relative_path": "elsewhere/freeze-final/site/reader.mjs",
+      "original_sha256": "3daf8c71673e48273a7766ce357e62c6dc234b9c2b92cf4454b634148816532c"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/site/story-model.mjs",
+      "bytes": 15921,
+      "sha256": "8e37578417376cf47ed2a67cc44248031fb353836380d4ac5c9c84e6641fc0f2",
+      "original_trial_relative_path": "elsewhere/freeze-final/site/story-model.mjs",
+      "original_sha256": "8e37578417376cf47ed2a67cc44248031fb353836380d4ac5c9c84e6641fc0f2"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/site/styles.css",
+      "bytes": 17459,
+      "sha256": "e9e24f3d8423c5461e5d23b1288b151d58248c4797ce237f9e8023df070a34b2",
+      "original_trial_relative_path": "elsewhere/freeze-final/site/styles.css",
+      "original_sha256": "e9e24f3d8423c5461e5d23b1288b151d58248c4797ce237f9e8023df070a34b2"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/captures/home-desktop.jpg",
+      "bytes": 92989,
+      "sha256": "9a0cdb4dd081a88a33863324bcfd1b64ddbcd00b6a9ffbdd4bb637a936e9d99f",
+      "original_trial_relative_path": "captures/final/elsewhere/home-desktop.jpg",
+      "original_sha256": "9a0cdb4dd081a88a33863324bcfd1b64ddbcd00b6a9ffbdd4bb637a936e9d99f",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/captures/home-phone.jpg",
+      "bytes": 38318,
+      "sha256": "ec36f4e14c6a46f8a540cbfe14d540ad75d7ab604596efa7e7c59fc7ba5e7f19",
+      "original_trial_relative_path": "captures/final/elsewhere/home-phone.jpg",
+      "original_sha256": "ec36f4e14c6a46f8a540cbfe14d540ad75d7ab604596efa7e7c59fc7ba5e7f19",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/captures/demo-desktop.jpg",
+      "bytes": 112718,
+      "sha256": "880d6bcd332442bcd80c6333bd7b347cff1f64eaeeaf69630a63fdf38e1e3f8c",
+      "original_trial_relative_path": "captures/final/elsewhere/demo-desktop.jpg",
+      "original_sha256": "880d6bcd332442bcd80c6333bd7b347cff1f64eaeeaf69630a63fdf38e1e3f8c",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/captures/demo-phone.jpg",
+      "bytes": 55087,
+      "sha256": "e31c74a4ea15ad72ccfd0a2351b813bcfd6f081342de4aee99238df6239e91ab",
+      "original_trial_relative_path": "captures/final/elsewhere/demo-phone.jpg",
+      "original_sha256": "e31c74a4ea15ad72ccfd0a2351b813bcfd6f081342de4aee99238df6239e91ab",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/captures/guide-desktop.jpg",
+      "bytes": 128037,
+      "sha256": "a4253ef102b665dfff2fb0a1410f693b836d33a7a65f57fa988032cfa14de878",
+      "original_trial_relative_path": "captures/final/elsewhere/guide-desktop.jpg",
+      "original_sha256": "a4253ef102b665dfff2fb0a1410f693b836d33a7a65f57fa988032cfa14de878",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/captures/guide-phone.jpg",
+      "bytes": 48036,
+      "sha256": "ea11723e0f7abd14a92a9aa7b262d006457c43d80d53a9cf7228e73fe1d168d6",
+      "original_trial_relative_path": "captures/final/elsewhere/guide-phone.jpg",
+      "original_sha256": "ea11723e0f7abd14a92a9aa7b262d006457c43d80d53a9cf7228e73fe1d168d6",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/result/captures/demo-desktop.jpg",
+      "bytes": 107664,
+      "sha256": "6d89b2798dbc2382ba64c25b6fec0438aa3f8f6eb33f5cf7dc055a4aa2358657",
+      "original_trial_relative_path": "captures/final/elsewhere/demo-desktop-prepared-result.jpg",
+      "original_sha256": "6d89b2798dbc2382ba64c25b6fec0438aa3f8f6eb33f5cf7dc055a4aa2358657",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 1366,
+        "phase": "final",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/elsewhere/result/captures/demo-phone.jpg",
+      "bytes": 49692,
+      "sha256": "aba64096688b28e0fe4b33bae730d2ddae15cda89fa8e28e5ad1ca4e612a0926",
+      "original_trial_relative_path": "captures/final/elsewhere/demo-phone-prepared-result.jpg",
+      "original_sha256": "aba64096688b28e0fe4b33bae730d2ddae15cda89fa8e28e5ad1ca4e612a0926",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 2453,
+        "phase": "final",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/NOTICES.md",
+      "bytes": 278,
+      "sha256": "331c592d91e2a11ac1ab8307e331eacc4c6148332fbaef13c4a2f3ab310b131d"
+    },
+    {
+      "skill_relative_path": "assets/rendered-type-cases/CHECKS.json",
+      "bytes": 2860,
+      "sha256": "585ba4e1fda16b36b47a5adc04eb7c9d907ac420ac49bea1a7246960da02e93d"
+    },
+    {
+      "skill_relative_path": "references/rendered-type-choices.md",
+      "bytes": 5998,
+      "sha256": "87efce7ab7446cb7f81742c101d3f1b4e0b67f978ac8af297be52c5443424d22"
+    }
+  ]
+}

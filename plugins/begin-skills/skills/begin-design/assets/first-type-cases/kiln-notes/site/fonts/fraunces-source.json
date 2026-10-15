@@ -1,0 +1,23 @@
+{
+  "display_family": "Fraunces",
+  "original_files": [
+    {
+      "file": "fraunces.ttf",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/Fraunces%5BSOFT%2CWONK%2Copsz%2Cwght%5D.ttf",
+      "project": "https://github.com/undercasetype/Fraunces",
+      "bytes": 360440,
+      "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+    },
+    {
+      "file": "fraunces-OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/OFL.txt",
+      "project": "https://github.com/undercasetype/Fraunces",
+      "bytes": 4391,
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+    }
+  ],
+  "body_family": "Fieldnotes Sans",
+  "body_file": "fonts/source-sans-3.woff2",
+  "body_notice": "fonts/source-sans-3-OFL.txt",
+  "body_source": "Unchanged dev.10 Side A asset; historical filename retained, actual internal family is Fieldnotes Sans derived from Source Sans 3."
+}

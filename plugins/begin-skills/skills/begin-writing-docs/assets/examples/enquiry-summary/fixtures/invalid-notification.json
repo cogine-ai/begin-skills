@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "enquiries": [
+    {
+      "id": "enq-001",
+      "site_id": "north-star",
+      "saved_at": "2026-10-01T09:00:00Z",
+      "notification": {"state": "sent", "attempts": 1}
+    }
+  ]
+}

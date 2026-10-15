@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Make a two-session Side A itinerary, keep it locally, recover it, fix a timing conflict and download the exact text.">
+  <meta name="theme-color" content="#080808"><title>Itinerary guide — Side A</title>
+  <link rel="icon" href="mark.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="header-inner wrap"><a class="brand" href="index.html" aria-label="Side A home">SIDE A<span aria-hidden="true">●</span></a><nav aria-label="Main navigation"><a href="index.html#programme">Programme</a><a href="demo.html">Your evening</a><a href="guide.html" aria-current="page">Guide</a></nav></div></header>
+  <main class="guide-main wrap" id="main">
+    <div class="guide-layout">
+      <aside class="guide-side"><h1>Itinerary<br> guide</h1><nav aria-label="Guide contents"><a href="#try-it">Make the plan</a><a href="#keep-recover">Keep &amp; recover</a><a href="#correct">Fix a conflict</a><a href="#download">Download &amp; clear</a><a href="#reference">Local data reference</a></nav><details class="guide-jump"><summary>Jump to a step</summary><nav aria-label="Guide step navigation"><a href="#try-it">Make the plan</a><a href="#keep-recover">Keep &amp; recover</a><a href="#correct">Fix a conflict</a><a href="#download">Download &amp; clear</a><a href="#reference">Local data reference</a></nav></details></aside>
+      <div class="guide-body">
+        <section class="guide-section first-guide" id="try-it" aria-labelledby="try-title">
+          <h2 id="try-title">A two-session plan</h2>
+          <p>Prepare Deep Listening and After Hours for Friday 13 November 2026. You will get <strong>120 minutes of listening</strong> with <strong>90 minutes between sessions</strong>.</p>
+          <a class="button button-dark guide-entry" href="demo.html?session=deep-listening&amp;session=after-hours">Open these two sessions <span aria-hidden="true">↗</span></a>
+          <p>The link selects the two sessions. If you already kept a different itinerary, that saved version remains available. You can begin without clearing it.</p>
+          <ol class="guide-steps"><li>Check that <strong>Deep Listening</strong> and <strong>After Hours</strong> are selected, and that <strong>Night Shift</strong> is not.</li><li>Select <strong>Prepare itinerary</strong>. The result should show this running order:</li></ol>
+          <div class="guide-fixture"><div><span>19:00–20:00</span><strong>Deep Listening</strong><small>60 minutes listening</small></div><div class="fixture-gap"><span>20:00–21:30</span><strong>Between sessions</strong><small>90 minutes</small></div><div><span>21:30–22:30</span><strong>After Hours</strong><small>60 minutes listening</small></div><p><strong>120 minutes listening</strong><span>90 minutes between · 19:00–22:30</span></p></div>
+          <p>Check the date and venue too: <strong>Friday 13 November 2026</strong>, <strong>The Cabinet Room</strong>. All times are the venue’s local time. This is a fictional evening; preparing a plan makes no booking.</p>
+        </section>
+        <section class="guide-section" id="keep-recover" aria-labelledby="keep-recover-title">
+          <h2 id="keep-recover-title">Keep it and come back</h2>
+          <ol class="guide-steps"><li>With the current prepared itinerary visible, select <strong>Keep in this browser</strong>. This replaces any earlier Side A itinerary kept in this browser.</li><li>Check the message under the buttons: it should name <strong>Deep Listening + After Hours</strong>, with <strong>120 minutes listening</strong> and <strong>90 minutes between</strong>.</li><li>Reload the page. The two checked sessions and prepared itinerary should return. You can also select <strong>Reload kept version</strong> to restore that snapshot while working.</li></ol>
+          <p>A kept itinerary belongs to this browser on this device. A different browser or cleared website storage will not have that copy. If keeping fails, the current prepared itinerary remains available for a text download.</p>
+        </section>
+        <section class="guide-section" id="correct" aria-labelledby="correct-title">
+          <h2 id="correct-title">Hear the conflict, then correct it</h2>
+          <ol class="guide-steps"><li>Keep the two-session selection and also select <strong>Night Shift</strong>.</li><li>Read the conflict message: <strong>Deep Listening</strong> and <strong>Night Shift</strong> overlap from <strong>19:30 to 20:00</strong>, for <strong>30 minutes</strong>. All three choices remain checked so you can decide what to remove.</li><li>The old result now says <strong>Selection changed — rebuild this itinerary</strong>. It still shows the last prepared schedule; keeping and downloading are unavailable while it is stale. Your kept version remains unchanged.</li><li>Deselect <strong>Night Shift</strong>. Select <strong>Prepare itinerary</strong> again and check the original two-session times and totals.</li></ol>
+          <p>If you remove Deep Listening instead, Night Shift + After Hours is compatible: 19:30–21:00, then 21:30–22:30, with 150 minutes listening and 30 minutes between. Keeping that new result would replace the old saved version.</p>
+          <p>If no session is selected, the planner asks you to choose at least one and prepares nothing. Your previous result and kept version remain available.</p>
+        </section>
+        <section class="guide-section" id="download" aria-labelledby="download-title">
+          <h2 id="download-title">Take a text copy</h2>
+          <p>With a current prepared itinerary visible, select <strong>Download text</strong>. Open <strong>side-a-13-nov-2026.txt</strong> from your downloads. It should contain the date, venue, both session times, the 90-minute gap, 120-minute listening total and 19:00–22:30 evening span.</p>
+          <p>The download contains the current prepared version. It does not change your kept version. If you change your choices first, prepare again before downloading.</p>
+          <h3>Clear only when you want to start over</h3>
+          <p><strong>Clear itinerary</strong> removes the browser’s kept version and resets the current choices and result. Use it if you want an empty task. It does not delete a text file you already downloaded.</p>
+        </section>
+        <section class="guide-section guide-reference" id="reference" aria-labelledby="reference-title">
+          <details><summary id="reference-title">Local data reference &amp; troubleshooting</summary><div class="technical-content">
+            <h3>What is kept</h3><p>The browser stores one Side A itinerary under <code>side-a.itinerary.v1</code>. The record includes a format version, saving time and the prepared date, venue, sessions, listening total and gaps. The model checks stored values against the fixed programme before restoring them. It collects no name or contact details.</p>
+            <h3>If recovery fails</h3><p>If storage is blocked, you can still prepare and download a text copy. If a stored version is unreadable, the planner says so and leaves your current work available. Prepare and keep a new version to replace it, or clear it when you no longer need it.</p>
+            <h3>Files and limits</h3><p>The three pages and their assets run locally without an account. The <a href="itinerary-model.js">itinerary model</a> owns programme values and calculations; <a href="itinerary.js">the interface script</a> owns selection, keeping, recovery and download actions. The photograph’s source and context are in <a href="NOTICES.md">credits and notices</a>.</p><p>This example has no cloud sync, reservations, tickets, payments, availability feed or sending action. Private browsing and local-file origins can treat storage differently; a text export is a separate portable copy.</p>
+          </div></details>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="footer-inner wrap"><a class="footer-brand" href="index.html">SIDE A ●</a><p>An evening for listening<br>A fictional programme, a useful local plan</p><div class="footer-links"><a href="demo.html">Make your evening</a><a href="NOTICES.md">Credits &amp; notices</a></div></div></footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "Fieldnotes — Articles and practical guides",
+  "type": "editorial",
+  "centralAction": "Read an article or follow a complete guide on this website",
+  "fixtureNote": "Fieldnotes is an original fictional publication. Its essay, guide, and illustration are example content authored for Begin, not published research or client work. The footer contact remains hello@example.com until configured.",
+  "version": "0.1.0",
+  "entry": "index.html",
+  "contactSelector": "[data-begin-contact]",
+  "dependencies": [],
+  "assets": "Original Begin-authored writing, SVG, HTML, CSS, and JavaScript; system fonts only."
+}

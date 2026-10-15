@@ -1,0 +1,38 @@
+[
+  {
+    "file": "lake.jpg",
+    "author": "Philip Jahn",
+    "source_page": "https://unsplash.com/photos/a-cabin-on-a-lake-0Y2e9PwgqrE",
+    "original_resource": "https://images.unsplash.com/photo-1666942590959-bb49a90d3dcd",
+    "download_url": "https://images.unsplash.com/photo-1666942590959-bb49a90d3dcd?auto=format&fm=jpg&w=1800&q=85&fit=max",
+    "date": "2026-10-11",
+    "license": "https://unsplash.com/license",
+    "bytes": 1172244,
+    "sha256": "0795ef59f2a722e444dd755770ebf042a750416039cc7cbb6f2c4b6563d203ec",
+    "purpose": "Illustrative stock photography for a fictional inn; subjects are from different real locations"
+  },
+  {
+    "file": "room.jpg",
+    "author": "Aquilion Property",
+    "source_page": "https://unsplash.com/photos/a-hotel-room-with-a-large-bed-and-a-window-qbhF5gOzhVU",
+    "original_resource": "https://images.unsplash.com/photo-1702014861736-d62834317c5e",
+    "download_url": "https://images.unsplash.com/photo-1702014861736-d62834317c5e?auto=format&fm=jpg&w=1800&q=85&fit=max",
+    "date": "2026-10-11",
+    "license": "https://unsplash.com/license",
+    "bytes": 310624,
+    "sha256": "0b06d9925c15234b42f68a5fa3d6f5175583a1ba7228574462e1fb27d59ee109",
+    "purpose": "Illustrative stock photography for a fictional inn; subjects are from different real locations"
+  },
+  {
+    "file": "breakfast.jpg",
+    "author": "Konrad Hofmann",
+    "source_page": "https://unsplash.com/photos/a-table-with-a-plate-of-croissants-and-a-cup-of-coffee-on-3XF2O71bRBI",
+    "original_resource": "https://images.unsplash.com/photo-1721821299313-7d0d490f10a9",
+    "download_url": "https://images.unsplash.com/photo-1721821299313-7d0d490f10a9?auto=format&fm=jpg&w=1800&q=85&fit=max",
+    "date": "2026-10-11",
+    "license": "https://unsplash.com/license",
+    "bytes": 1269349,
+    "sha256": "926103fddd03bd211abfdb84d6faae5436959f3d61dee08322f7eb2960559d84",
+    "purpose": "Illustrative stock photography for a fictional inn; subjects are from different real locations"
+  }
+]

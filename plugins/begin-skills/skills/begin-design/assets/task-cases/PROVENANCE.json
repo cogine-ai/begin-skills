@@ -1,0 +1,1906 @@
+{
+  "schema_version": 1,
+  "curated_on": "2026-10-10",
+  "trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-10-range-trials",
+  "copy_method": "Byte-for-byte current functional/source-notice files and six native opening JPEGs per case; dev.6 captures remain historical, dev.7 owner copy revision uses fresh matching captures. Project guidance, raw reviews and research captures excluded.",
+  "builder_input_archive_sha256": "ff2d1a6c5c205c4867d3066fd396fda14b73c35a7d026ac10d4b84fa5888393e",
+  "case_assets_were_in_builder_input": false,
+  "cases": [
+    {
+      "slug": "lantern",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "required_notices": [
+        "LICENSE_STATUS.md"
+      ],
+      "runtime": "Static HTML/CSS/JavaScript and browser local storage; no account or external service",
+      "fonts": "System fonts; no bundled font files",
+      "bundled_fonts": []
+    },
+    {
+      "slug": "common-ground",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "required_notices": [
+        "NOTICES.md"
+      ],
+      "runtime": "Static HTML/CSS/JavaScript and browser local storage; no account or external service",
+      "fonts": "System fonts; no bundled font files",
+      "bundled_fonts": []
+    },
+    {
+      "slug": "northline",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "required_notices": [
+        "NOTICES.md",
+        "fonts/source-sans-3-OFL.txt",
+        "fonts/source-serif-4-OFL.txt"
+      ],
+      "runtime": "Static HTML/CSS/JavaScript and browser local storage; no account or external service",
+      "fonts": "Unchanged supplied Source Serif 4 and renamed Fieldnotes Sans subsets with full OFL notices",
+      "bundled_fonts": [
+        {
+          "file": "fonts/fieldnotes-sans.woff2",
+          "notice": "fonts/source-sans-3-OFL.txt"
+        },
+        {
+          "file": "fonts/source-serif-4.woff2",
+          "notice": "fonts/source-serif-4-OFL.txt"
+        }
+      ]
+    },
+    {
+      "slug": "handoff",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "required_notices": [
+        "NOTICES.md",
+        "fonts/source-sans-3-OFL.txt",
+        "fonts/source-serif-4-OFL.txt"
+      ],
+      "runtime": "Static HTML/CSS/JavaScript; explicit browser-local draft save, clipboard/text download; no upload, message receipt or external service",
+      "fonts": "Unchanged supplied renamed Fieldnotes Sans and Source Serif 4 subsets with complete OFL notices",
+      "bundled_fonts": [
+        {
+          "file": "fonts/fieldnotes-sans.woff2",
+          "notice": "fonts/source-sans-3-OFL.txt"
+        },
+        {
+          "file": "fonts/source-serif-4.woff2",
+          "notice": "fonts/source-serif-4-OFL.txt"
+        }
+      ],
+      "state_contract": "Guide review, empty audience/date/problem, Not prepared, no local save. Explicit save retains raw draft and prior prepared snapshot, even stale. Returning exactly to the raw basis restores Ready to use. Reset requires confirmation.",
+      "storage_key": "handoff-office-brief-v1",
+      "trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "builder_input_archive_sha256": "aa7779f9adbbbb7948954a5388893dc084fb262c0dfbd88877cc40479df99db6",
+      "builder_input_version": "0.1.0-dev.8",
+      "case_assets_were_in_builder_input": false,
+      "prior_case_assets_were_in_builder_input": true,
+      "conditional_material_and_density_guidance_was_in_builder_input": true,
+      "first_source_freeze_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/handoff/freeze-initial",
+      "initial_manifest_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/handoff/INITIAL_SOURCE.json"
+    },
+    {
+      "slug": "aldermere",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "required_notices": [
+        "NOTICES.md",
+        "PHOTO_PROVENANCE.json"
+      ],
+      "runtime": "Static HTML/CSS/JavaScript; fixed-rate date calculation, prepared enquiry, browser-local save and text download; no availability lookup, message delivery, reservation or payment",
+      "fonts": "Georgia and system sans; no bundled font files",
+      "bundled_fonts": [],
+      "bundled_photographs": [
+        {
+          "file": "photos/lake.jpg",
+          "notice": "NOTICES.md",
+          "provenance": "PHOTO_PROVENANCE.json"
+        },
+        {
+          "file": "photos/room.jpg",
+          "notice": "NOTICES.md",
+          "provenance": "PHOTO_PROVENANCE.json"
+        },
+        {
+          "file": "photos/breakfast.jpg",
+          "notice": "NOTICES.md",
+          "provenance": "PHOTO_PROVENANCE.json"
+        }
+      ],
+      "state_contract": "Empty dates/note, two guests, Not prepared, no saved enquiry. Only a current prepared enquiry may save/export. Each edit increments revision; reverting still requires preparation. Reset is immediate.",
+      "storage_key": "aldermere.prepared-enquiry.v1",
+      "trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "builder_input_archive_sha256": "aa7779f9adbbbb7948954a5388893dc084fb262c0dfbd88877cc40479df99db6",
+      "builder_input_version": "0.1.0-dev.8",
+      "case_assets_were_in_builder_input": false,
+      "prior_case_assets_were_in_builder_input": true,
+      "conditional_material_and_density_guidance_was_in_builder_input": true,
+      "first_source_freeze_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/aldermere/freeze-initial",
+      "initial_manifest_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/aldermere/INITIAL_SOURCE.json"
+    },
+    {
+      "slug": "pressline",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "required_notices": [
+        "fonts/source-sans-3-OFL.txt"
+      ],
+      "runtime": "Static HTML/CSS/JavaScript; fictional saved job collection, filters and inspected ID in browser storage; drafts/marking temporary; no backend, account, shared staff access or studio integration",
+      "fonts": "Unchanged supplied renamed Fieldnotes Sans derivative under local filename source-sans-3.woff2 with full OFL; CSS alias Pressline Sans",
+      "bundled_fonts": [
+        {
+          "file": "fonts/source-sans-3.woff2",
+          "notice": "fonts/source-sans-3-OFL.txt"
+        }
+      ],
+      "state_contract": "Original twelve jobs, totals 10 active / 6 due in fixed 11\u201315 October 2026 / 2 blocked / 39 hours. P-1049 open: Blocked, 14 October, 7 hours. All filters, empty search, zero marked. Save commits drafts; collection/filters/open ID persist; drafts/marking do not.",
+      "storage_key": "pressline.production-desk.v1",
+      "trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "builder_input_archive_sha256": "aa7779f9adbbbb7948954a5388893dc084fb262c0dfbd88877cc40479df99db6",
+      "builder_input_version": "0.1.0-dev.8",
+      "case_assets_were_in_builder_input": false,
+      "prior_case_assets_were_in_builder_input": true,
+      "conditional_material_and_density_guidance_was_in_builder_input": true,
+      "first_source_freeze_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/pressline/freeze-initial",
+      "initial_manifest_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/pressline/INITIAL_SOURCE.json"
+    }
+  ],
+  "historical_evidence_snapshots": [
+    {
+      "trial_relative_path": "curation-evidence-snapshot/BEHAVIOR_ALL.json",
+      "bytes": 22619,
+      "sha256": "0a2846c940a814234c80f1792719f37e13d71855c350395dfb65e8d187fb98ad",
+      "snapshot_utc": "2026-10-09T19:04:40+00:00",
+      "original_live_trial_relative_path": "BEHAVIOR_ALL.json",
+      "retention_note": "Exact bytes matching the curation-time digest retained before further live-record changes. Original live path is separately recorded."
+    },
+    {
+      "trial_relative_path": "curation-evidence-snapshot/RESPONSIVE_ALL.json",
+      "bytes": 424308,
+      "sha256": "082c99539d1f4edcb1c59dcc5757658851acf6de2dbfa5a604733e7a8dae1235",
+      "snapshot_utc": "2026-10-09T19:04:40+00:00",
+      "original_live_trial_relative_path": "RESPONSIVE_ALL.json",
+      "retention_note": "Exact bytes matching the curation-time digest retained before further live-record changes. Original live path is separately recorded."
+    },
+    {
+      "trial_relative_path": "reviews/LANTERN_FINAL.md",
+      "bytes": 4434,
+      "sha256": "32c12d89740915613c25bc186bc617169cfdf5c5e7c995db9665302cb55fd033",
+      "snapshot_utc": "2026-10-09T19:04:40+00:00"
+    },
+    {
+      "trial_relative_path": "reviews/COMMON_GROUND_FINAL.md",
+      "bytes": 4410,
+      "sha256": "73a1e61624330df08d8c65d1f236e3fcb40c76b1ec257246a836ff7a9b27ac50",
+      "snapshot_utc": "2026-10-09T19:04:40+00:00"
+    },
+    {
+      "trial_relative_path": "reviews/NORTHLINE_FINAL.md",
+      "bytes": 6156,
+      "sha256": "2ee5ee96af9ee281ca18775e3ac7e22a52fb0b18dfe5d6920b5a3e0cf21d9fdf",
+      "snapshot_utc": "2026-10-09T19:04:40+00:00"
+    },
+    {
+      "trial_relative_path": "INPUT.json",
+      "bytes": 25979,
+      "sha256": "6c69c39221909862c23afe25bbceeba467ae59accb320f63f9d412596cee0618",
+      "snapshot_utc": "2026-10-09T19:04:40+00:00"
+    },
+    {
+      "trial_relative_path": "COMMON_GROUND_PHONE_FINAL.json",
+      "bytes": 336,
+      "sha256": "7a2c5a1db2f9ee507756c9d916a9f0ed65fa779b4e408b6c82d3f9bb52440d40",
+      "snapshot_utc": "2026-10-09T19:04:40+00:00"
+    }
+  ],
+  "files": [
+    {
+      "skill_relative_path": "assets/task-cases/CHECKS.json",
+      "bytes": 33293,
+      "sha256": "42e3ade9cb766bb720f1536a61d26fdb0b40d604df85804ab812a8239bd4c099",
+      "origin": "Original conditional case guidance or curation metadata extended for the three-case expansion on 2026-10-11",
+      "previous_dev6": {
+        "bytes": 12291,
+        "sha256": "9cc3e1e6cbd8c50daa2629a22516cd8babf44ce2157a4fa0b63d14e019d5e8f5",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/CHECKS.json"
+      },
+      "previous_dev7": {
+        "bytes": 13080,
+        "sha256": "c938606f5be6692518140363f2a2ea265f8427a41bde484296a74bd74679adb8",
+        "retained_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+        "retained_trial_relative_path": "prior-dev7-curation/task-cases/CHECKS.json"
+      },
+      "previous_alpha2": {
+        "bytes": 33293,
+        "sha256": "11b006b0d2b7c98c0007a30fe86ab7b7edd4a52773e908068c476940fd5c3ea4",
+        "retained_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-15-review-and-ship",
+        "retained_trial_relative_path": "prior-task-checks.json"
+      },
+      "metadata_revision": {
+        "date": "2026-10-15",
+        "reason": "Describe owner feedback without an environment-only model-family identifier; underlying source, captures and fonts are unchanged."
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/NOTICES.md",
+      "bytes": 7106,
+      "sha256": "d9e8ace5781e22d14c710b5b0fcedb6e25456fe023ece0a002885b2d0eca7100",
+      "origin": "Original conditional case guidance or curation metadata extended for the three-case expansion on 2026-10-11",
+      "previous_dev7": {
+        "bytes": 3883,
+        "sha256": "4f6e1c523697f927e5efb955d7ab71f306e70dab5e9ed5fd227b8308eb93b684",
+        "retained_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+        "retained_trial_relative_path": "prior-dev7-curation/task-cases/NOTICES.md"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/captures/demo-desktop.jpg",
+      "bytes": 93586,
+      "sha256": "16f42e2a90ffacf84860cb34877e749939115fd8fee98902244511013e52863d",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/captures/final/demo-desktop.jpg",
+      "original_sha256": "16f42e2a90ffacf84860cb34877e749939115fd8fee98902244511013e52863d",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Empty dates/note, two guests, Not prepared, no saved enquiry. Only a current prepared enquiry may save/export. Each edit increments revision; reverting still requires preparation. Reset is immediate.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/captures/demo-phone.jpg",
+      "bytes": 36565,
+      "sha256": "c9db6e88d9b19544da5d6ebb36ba8da9e7d18b5ad4c8c6e8810eb8ab4d5369e1",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/captures/final/demo-phone.jpg",
+      "original_sha256": "c9db6e88d9b19544da5d6ebb36ba8da9e7d18b5ad4c8c6e8810eb8ab4d5369e1",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Empty dates/note, two guests, Not prepared, no saved enquiry. Only a current prepared enquiry may save/export. Each edit increments revision; reverting still requires preparation. Reset is immediate.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/captures/guide-desktop.jpg",
+      "bytes": 126932,
+      "sha256": "dbf7304df3c77c835d65f3184bea1bb3361176c7fcf0eb62228a8d67af6ad91a",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/captures/final/guide-desktop.jpg",
+      "original_sha256": "dbf7304df3c77c835d65f3184bea1bb3361176c7fcf0eb62228a8d67af6ad91a",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Static fictional home explanation or guide teaching example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/captures/guide-phone.jpg",
+      "bytes": 49656,
+      "sha256": "c49e6582db7afec49a079d2668c1410a16ae639b398175d531f3b688bd4cf463",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/captures/final/guide-phone.jpg",
+      "original_sha256": "c49e6582db7afec49a079d2668c1410a16ae639b398175d531f3b688bd4cf463",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Static fictional home explanation or guide teaching example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/captures/home-desktop.jpg",
+      "bytes": 154387,
+      "sha256": "db1ea438f9ff0b30877111aab5de1b858fe50b1704d53408ab36bd20e8fb9e5d",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/captures/final/home-desktop.jpg",
+      "original_sha256": "db1ea438f9ff0b30877111aab5de1b858fe50b1704d53408ab36bd20e8fb9e5d",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Static fictional home explanation or guide teaching example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/captures/home-phone.jpg",
+      "bytes": 57720,
+      "sha256": "579fb44262c2796678c7ac94f02623f296f5779f5e734dfd1bba16690d430612",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/captures/final/home-phone.jpg",
+      "original_sha256": "579fb44262c2796678c7ac94f02623f296f5779f5e734dfd1bba16690d430612",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Static fictional home explanation or guide teaching example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/site/NOTICES.md",
+      "bytes": 2036,
+      "sha256": "14e0c1ba82664673ad5b1d6db9df8abb65323f4a6572f10342b4e67ca6390555",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/output/NOTICES.md",
+      "original_sha256": "14e0c1ba82664673ad5b1d6db9df8abb65323f4a6572f10342b4e67ca6390555"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/site/PHOTO_PROVENANCE.json",
+      "bytes": 2010,
+      "sha256": "98bc7a70f92941cca2a5e7318b8bd5e28bd801e5ced1cd4648b2737d4f1e8a8a",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/output/PHOTO_PROVENANCE.json",
+      "original_sha256": "98bc7a70f92941cca2a5e7318b8bd5e28bd801e5ced1cd4648b2737d4f1e8a8a"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/site/core.js",
+      "bytes": 5144,
+      "sha256": "a3302ae606b2dfeed87c386986930b85982524b442210bb5d8184a06abab873b",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/output/site/core.js",
+      "original_sha256": "a3302ae606b2dfeed87c386986930b85982524b442210bb5d8184a06abab873b"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/site/demo.html",
+      "bytes": 6390,
+      "sha256": "0a404c87704462155a54c4f5eafc616410b7ec4bde1ae7ad0534377e0b04f5e7",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/output/site/demo.html",
+      "original_sha256": "0a404c87704462155a54c4f5eafc616410b7ec4bde1ae7ad0534377e0b04f5e7"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/site/enquiry.js",
+      "bytes": 6314,
+      "sha256": "ed9dc6db3c1a2bd1769cd9f7b4153ffb53a83333db09ba6d22d278d188febccb",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/output/site/enquiry.js",
+      "original_sha256": "ed9dc6db3c1a2bd1769cd9f7b4153ffb53a83333db09ba6d22d278d188febccb"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/site/guide.html",
+      "bytes": 6794,
+      "sha256": "0becc544e61a20c0d1d50fa0dba70afcaae1acd3284abfd1a286b25230462f3a",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/output/site/guide.html",
+      "original_sha256": "0becc544e61a20c0d1d50fa0dba70afcaae1acd3284abfd1a286b25230462f3a"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/site/index.html",
+      "bytes": 4401,
+      "sha256": "b621c3e1c83449e65ebd372cb8d8756d8f938ea9e1b2b3aa975213ce8e35e95f",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/output/site/index.html",
+      "original_sha256": "b621c3e1c83449e65ebd372cb8d8756d8f938ea9e1b2b3aa975213ce8e35e95f"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/site/photos/breakfast.jpg",
+      "bytes": 1269349,
+      "sha256": "926103fddd03bd211abfdb84d6faae5436959f3d61dee08322f7eb2960559d84",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/output/site/photos/breakfast.jpg",
+      "original_sha256": "926103fddd03bd211abfdb84d6faae5436959f3d61dee08322f7eb2960559d84",
+      "image": {
+        "width": 1800,
+        "height": 2695,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "role": "illustrative photograph"
+      },
+      "photograph_provenance": {
+        "file": "breakfast.jpg",
+        "author": "Konrad Hofmann",
+        "source_page": "https://unsplash.com/photos/a-table-with-a-plate-of-croissants-and-a-cup-of-coffee-on-3XF2O71bRBI",
+        "original_resource": "https://images.unsplash.com/photo-1721821299313-7d0d490f10a9",
+        "download_url": "https://images.unsplash.com/photo-1721821299313-7d0d490f10a9?auto=format&fm=jpg&w=1800&q=85&fit=max",
+        "date": "2026-10-11",
+        "license": "https://unsplash.com/license",
+        "bytes": 1269349,
+        "sha256": "926103fddd03bd211abfdb84d6faae5436959f3d61dee08322f7eb2960559d84",
+        "purpose": "Illustrative stock photography for a fictional inn; subjects are from different real locations"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/site/photos/lake.jpg",
+      "bytes": 1172244,
+      "sha256": "0795ef59f2a722e444dd755770ebf042a750416039cc7cbb6f2c4b6563d203ec",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/output/site/photos/lake.jpg",
+      "original_sha256": "0795ef59f2a722e444dd755770ebf042a750416039cc7cbb6f2c4b6563d203ec",
+      "image": {
+        "width": 1800,
+        "height": 2699,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "role": "illustrative photograph"
+      },
+      "photograph_provenance": {
+        "file": "lake.jpg",
+        "author": "Philip Jahn",
+        "source_page": "https://unsplash.com/photos/a-cabin-on-a-lake-0Y2e9PwgqrE",
+        "original_resource": "https://images.unsplash.com/photo-1666942590959-bb49a90d3dcd",
+        "download_url": "https://images.unsplash.com/photo-1666942590959-bb49a90d3dcd?auto=format&fm=jpg&w=1800&q=85&fit=max",
+        "date": "2026-10-11",
+        "license": "https://unsplash.com/license",
+        "bytes": 1172244,
+        "sha256": "0795ef59f2a722e444dd755770ebf042a750416039cc7cbb6f2c4b6563d203ec",
+        "purpose": "Illustrative stock photography for a fictional inn; subjects are from different real locations"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/site/photos/room.jpg",
+      "bytes": 310624,
+      "sha256": "0b06d9925c15234b42f68a5fa3d6f5175583a1ba7228574462e1fb27d59ee109",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/output/site/photos/room.jpg",
+      "original_sha256": "0b06d9925c15234b42f68a5fa3d6f5175583a1ba7228574462e1fb27d59ee109",
+      "image": {
+        "width": 1800,
+        "height": 1200,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "role": "illustrative photograph"
+      },
+      "photograph_provenance": {
+        "file": "room.jpg",
+        "author": "Aquilion Property",
+        "source_page": "https://unsplash.com/photos/a-hotel-room-with-a-large-bed-and-a-window-qbhF5gOzhVU",
+        "original_resource": "https://images.unsplash.com/photo-1702014861736-d62834317c5e",
+        "download_url": "https://images.unsplash.com/photo-1702014861736-d62834317c5e?auto=format&fm=jpg&w=1800&q=85&fit=max",
+        "date": "2026-10-11",
+        "license": "https://unsplash.com/license",
+        "bytes": 310624,
+        "sha256": "0b06d9925c15234b42f68a5fa3d6f5175583a1ba7228574462e1fb27d59ee109",
+        "purpose": "Illustrative stock photography for a fictional inn; subjects are from different real locations"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/aldermere/site/styles.css",
+      "bytes": 20482,
+      "sha256": "30b6a33bef22ae49a0cb44c9de56e979f2c069472ba826b27fd93333a95eb449",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "aldermere/output/site/styles.css",
+      "original_sha256": "30b6a33bef22ae49a0cb44c9de56e979f2c069472ba826b27fd93333a95eb449"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/captures/demo-desktop.jpg",
+      "bytes": 120475,
+      "sha256": "97aaa30ccf5e5fc98421d3f250a63c99ab462393c5e4c5c490657be2e4affdf2",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/common-ground/demo-desktop.jpg",
+      "original_sha256": "97aaa30ccf5e5fc98421d3f250a63c99ab462393c5e4c5c490657be2e4affdf2",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Clay basics / no date / 1 person / $48 / no saved plan",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 116543,
+        "sha256": "4125752e515e3194ea53f03d1de391449e2b0f59efa00e568fa756a8cda406b2",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/common-ground/captures/demo-desktop.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/captures/demo-phone.jpg",
+      "bytes": 46106,
+      "sha256": "55f5bf6e0bd9e407f9c8cf92e44324595fee63fee6258e36649c220cc93c7b70",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/common-ground/demo-phone.jpg",
+      "original_sha256": "55f5bf6e0bd9e407f9c8cf92e44324595fee63fee6258e36649c220cc93c7b70",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Clay basics / no date / 1 person / $48 / no saved plan",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 46976,
+        "sha256": "5473017af67d53336b7c7a893e523ee76cacb0c1661dbb25d53a02516d914032",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/common-ground/captures/demo-phone.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/captures/guide-desktop.jpg",
+      "bytes": 103799,
+      "sha256": "4c35b58bcba5fb60c88c44d714ade94f83dbf42f20fe5e0bb9bd7e7ab3c0a323",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/common-ground/guide-desktop.jpg",
+      "original_sha256": "4c35b58bcba5fb60c88c44d714ade94f83dbf42f20fe5e0bb9bd7e7ab3c0a323",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Static home explanation or guide example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 104856,
+        "sha256": "5a3a88bf2348df0170c81f1c9bbd1d63ffe15cce02ee931ba176b4cbb69eba6f",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/common-ground/captures/guide-desktop.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/captures/guide-phone.jpg",
+      "bytes": 43653,
+      "sha256": "d15a99b664c8efceff62dc90dfa908bf1c1573ed8e62b1c3cc11d1ef7de8174f",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/common-ground/guide-phone.jpg",
+      "original_sha256": "d15a99b664c8efceff62dc90dfa908bf1c1573ed8e62b1c3cc11d1ef7de8174f",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Static home explanation or guide example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 40611,
+        "sha256": "a3f48d338ebb93a9b13261617924dab8f571124f15a0c78b6c0f22591951bff9",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/common-ground/captures/guide-phone.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/captures/home-desktop.jpg",
+      "bytes": 115672,
+      "sha256": "f7c1360d4972a8ed95ae987c31ab0c7c277c589a6920af93b82eca1f6a6cd105",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/common-ground/home-desktop.jpg",
+      "original_sha256": "f7c1360d4972a8ed95ae987c31ab0c7c277c589a6920af93b82eca1f6a6cd105",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Static home explanation or guide example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 116707,
+        "sha256": "a8e71c2cac2f1f8cd4e30b8338781408b5fb5e26ad53eab2aced2ef192c03c03",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/common-ground/captures/home-desktop.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/captures/home-phone.jpg",
+      "bytes": 48994,
+      "sha256": "d1b361976c6f9b0f528ab5bc91855eca8a0867e166bdccbdf3cd8d7bb69b5cef",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/common-ground/home-phone.jpg",
+      "original_sha256": "d1b361976c6f9b0f528ab5bc91855eca8a0867e166bdccbdf3cd8d7bb69b5cef",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Static home explanation or guide example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 47466,
+        "sha256": "1814c8dabe7a7b036a2fbf131de1be7cd5b6a2e8546ffe39ee79f2fe66889623",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/common-ground/captures/home-phone.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/site/NOTICES.md",
+      "bytes": 1461,
+      "sha256": "590f93ef62621e2d44a3ae9f96b10ee1109a104cf5b6f653ddd810a416be553c",
+      "original_trial_relative_path": "common-ground/output/site/NOTICES.md",
+      "original_sha256": "590f93ef62621e2d44a3ae9f96b10ee1109a104cf5b6f653ddd810a416be553c"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/site/art/clay.svg",
+      "bytes": 1754,
+      "sha256": "0a56cf27ee56d95defab32533964bf30119d56017defa07b25416dc02da496f6",
+      "original_trial_relative_path": "common-ground/output/site/art/clay.svg",
+      "original_sha256": "0a56cf27ee56d95defab32533964bf30119d56017defa07b25416dc02da496f6"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/site/art/mark.svg",
+      "bytes": 269,
+      "sha256": "38328e0c5cd64f4b93b2c65c6e70f286335cb8ba9976749012b0a435945dcd68",
+      "original_trial_relative_path": "common-ground/output/site/art/mark.svg",
+      "original_sha256": "38328e0c5cd64f4b93b2c65c6e70f286335cb8ba9976749012b0a435945dcd68"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/site/art/print.svg",
+      "bytes": 1761,
+      "sha256": "ed3ddde8c84a28f152ca24963c87f92feb2b4316d6b7cb4b67d6587a0ecebfbc",
+      "original_trial_relative_path": "common-ground/output/site/art/print.svg",
+      "original_sha256": "ed3ddde8c84a28f152ca24963c87f92feb2b4316d6b7cb4b67d6587a0ecebfbc"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/site/art/walk.svg",
+      "bytes": 1968,
+      "sha256": "af03141b17e714ba48a309b099123deb6ee1fbcf8b1cc480e22d1f6c91dc6361",
+      "original_trial_relative_path": "common-ground/output/site/art/walk.svg",
+      "original_sha256": "af03141b17e714ba48a309b099123deb6ee1fbcf8b1cc480e22d1f6c91dc6361"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/site/demo.html",
+      "bytes": 8978,
+      "sha256": "5bbcdde6f1b43e18c4ab0f685a958dfdb1939ec52c99c9b1cacd6ac5c0e71a2b",
+      "original_trial_relative_path": "common-ground/output/site/demo.html",
+      "original_sha256": "5bbcdde6f1b43e18c4ab0f685a958dfdb1939ec52c99c9b1cacd6ac5c0e71a2b",
+      "previous_dev6": {
+        "bytes": 8978,
+        "sha256": "1597920a461fd067ce19b69a7ccdc6cf498bb42ae2d405be7d49db65ac03e8c1",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/common-ground/site/demo.html"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/site/guide.html",
+      "bytes": 8686,
+      "sha256": "c26360b5b440f3486dba1197b1a34fe3be1a15731e85e705fff337d32a286c37",
+      "original_trial_relative_path": "common-ground/output/site/guide.html",
+      "original_sha256": "c26360b5b440f3486dba1197b1a34fe3be1a15731e85e705fff337d32a286c37",
+      "previous_dev6": {
+        "bytes": 8791,
+        "sha256": "ceef41dce3e7c71ef92d52a679077a7db69fd587d43ddcbda82a64db3bcba171",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/common-ground/site/guide.html"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/site/index.html",
+      "bytes": 6422,
+      "sha256": "22572899ed2084ad5eac694adab6068a1a9b9de6195e61141327926a366b40a6",
+      "original_trial_relative_path": "common-ground/output/site/index.html",
+      "original_sha256": "22572899ed2084ad5eac694adab6068a1a9b9de6195e61141327926a366b40a6",
+      "previous_dev6": {
+        "bytes": 6563,
+        "sha256": "028be8d8ac9a9beec95f3ee866fa56cc076aa2bbb9dcc0bb6d0c5f778b0bd1a1",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/common-ground/site/index.html"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/site/planner.js",
+      "bytes": 6210,
+      "sha256": "40a65d5121f4086cc02b6026dd3ea5615eb0f5e6b231ac169a53fe9a0c9fda6d",
+      "original_trial_relative_path": "common-ground/output/site/planner.js",
+      "original_sha256": "40a65d5121f4086cc02b6026dd3ea5615eb0f5e6b231ac169a53fe9a0c9fda6d"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/site/site.js",
+      "bytes": 8591,
+      "sha256": "3094d0b4ee6d522f3b284e62eb91ed855148fcb11e1eef0f58dd476da0070115",
+      "original_trial_relative_path": "common-ground/output/site/site.js",
+      "original_sha256": "3094d0b4ee6d522f3b284e62eb91ed855148fcb11e1eef0f58dd476da0070115"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/common-ground/site/styles.css",
+      "bytes": 37078,
+      "sha256": "4258441af707eddf1ed7c5a5f07119ea96feb5f036d3621fd51b9d1ef92e40fd",
+      "original_trial_relative_path": "common-ground/output/site/styles.css",
+      "original_sha256": "4258441af707eddf1ed7c5a5f07119ea96feb5f036d3621fd51b9d1ef92e40fd"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/captures/demo-desktop.jpg",
+      "bytes": 95305,
+      "sha256": "0fb99c72041e46ade51f93b58560f3215ee45855326f3436ba3d8ad6dcf36c4f",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/captures/final/demo-desktop.jpg",
+      "original_sha256": "0fb99c72041e46ade51f93b58560f3215ee45855326f3436ba3d8ad6dcf36c4f",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Guide review, empty audience/date/problem, Not prepared, no local save. Explicit save retains raw draft and prior prepared snapshot, even stale. Returning exactly to the raw basis restores Ready to use. Reset requires confirmation.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/captures/demo-phone.jpg",
+      "bytes": 40388,
+      "sha256": "fe101284f3b4af34101715f52dcb0b040820dc29fdac5afe4cc465e01b8c15d2",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/captures/final/demo-phone.jpg",
+      "original_sha256": "fe101284f3b4af34101715f52dcb0b040820dc29fdac5afe4cc465e01b8c15d2",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Guide review, empty audience/date/problem, Not prepared, no local save. Explicit save retains raw draft and prior prepared snapshot, even stale. Returning exactly to the raw basis restores Ready to use. Reset requires confirmation.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/captures/guide-desktop.jpg",
+      "bytes": 116151,
+      "sha256": "490390c885e5a80381d69df1b47f41dc70763eca314c26f791e8920d18639422",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/captures/final/guide-desktop.jpg",
+      "original_sha256": "490390c885e5a80381d69df1b47f41dc70763eca314c26f791e8920d18639422",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Static fictional home explanation or guide teaching example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening; Handoff guide includes later spacing correction"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/captures/guide-phone.jpg",
+      "bytes": 49921,
+      "sha256": "994bf0a5a8fa008c6e89c90cec6ce9dc0b7170e98f89443ea906454d93b4546e",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/captures/final/guide-phone.jpg",
+      "original_sha256": "994bf0a5a8fa008c6e89c90cec6ce9dc0b7170e98f89443ea906454d93b4546e",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Static fictional home explanation or guide teaching example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening; Handoff guide includes later spacing correction"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/captures/home-desktop.jpg",
+      "bytes": 111792,
+      "sha256": "df5df342625158853ef597c847114283cff7cd4a845cac2d2695beb1cead751f",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/captures/final/home-desktop.jpg",
+      "original_sha256": "df5df342625158853ef597c847114283cff7cd4a845cac2d2695beb1cead751f",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Static fictional home explanation or guide teaching example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/captures/home-phone.jpg",
+      "bytes": 45971,
+      "sha256": "3dfd7d897c80e7f150054e65051d39f719d9b4b5113c08f373ace35447998507",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/captures/final/home-phone.jpg",
+      "original_sha256": "3dfd7d897c80e7f150054e65051d39f719d9b4b5113c08f373ace35447998507",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Static fictional home explanation or guide teaching example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/site/NOTICES.md",
+      "bytes": 1654,
+      "sha256": "6903c5d6826507fb98f8159358ab8cfbfa3fc6b5014f7765fb5398148e51d9d1",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/output/site/NOTICES.md",
+      "original_sha256": "6903c5d6826507fb98f8159358ab8cfbfa3fc6b5014f7765fb5398148e51d9d1"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/site/brief-core.js",
+      "bytes": 5424,
+      "sha256": "6e5dd031ce64a2f788c1082567dce8a730fe3767af1e1bde14f84cb48df8b603",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/output/site/brief-core.js",
+      "original_sha256": "6e5dd031ce64a2f788c1082567dce8a730fe3767af1e1bde14f84cb48df8b603"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/site/brief.js",
+      "bytes": 7119,
+      "sha256": "2ab1b088989aaf43b99765441a5ec720b2dcb237521ced4ed12e0de66ace67d3",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/output/site/brief.js",
+      "original_sha256": "2ab1b088989aaf43b99765441a5ec720b2dcb237521ced4ed12e0de66ace67d3"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/site/demo.html",
+      "bytes": 6770,
+      "sha256": "71a4fd9142a27dfbb6d77545f2529423f231fe47eb3f1a27a54028c9019682a7",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/output/site/demo.html",
+      "original_sha256": "71a4fd9142a27dfbb6d77545f2529423f231fe47eb3f1a27a54028c9019682a7"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/site/fonts/fieldnotes-sans.woff2",
+      "bytes": 67504,
+      "sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/output/site/fonts/fieldnotes-sans.woff2",
+      "original_sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/site/fonts/source-sans-3-OFL.txt",
+      "bytes": 4579,
+      "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/output/site/fonts/source-sans-3-OFL.txt",
+      "original_sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/site/fonts/source-serif-4-OFL.txt",
+      "bytes": 4400,
+      "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/output/site/fonts/source-serif-4-OFL.txt",
+      "original_sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/site/fonts/source-serif-4.woff2",
+      "bytes": 222928,
+      "sha256": "ec0754e1fb47c9465d0282c89e3a890ddcf8c4e6a912a695ce1b09fb3d1b571d",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/output/site/fonts/source-serif-4.woff2",
+      "original_sha256": "ec0754e1fb47c9465d0282c89e3a890ddcf8c4e6a912a695ce1b09fb3d1b571d"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/site/guide.html",
+      "bytes": 7193,
+      "sha256": "901010784d235c5e570279fb0e5e983b4464023f905c561b8abb9b3da2ae76f3",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/output/site/guide.html",
+      "original_sha256": "901010784d235c5e570279fb0e5e983b4464023f905c561b8abb9b3da2ae76f3"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/site/index.html",
+      "bytes": 6900,
+      "sha256": "77e0f4941547b08c6e441ae6fb9eb58b31bcaccd032794b48af3bf9c2e36884a",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/output/site/index.html",
+      "original_sha256": "77e0f4941547b08c6e441ae6fb9eb58b31bcaccd032794b48af3bf9c2e36884a"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/handoff/site/styles.css",
+      "bytes": 21306,
+      "sha256": "a05326da70691574dc834e415675fe2083a5e7524b673636000b6d0ac6a07546",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "handoff/output/site/styles.css",
+      "original_sha256": "a05326da70691574dc834e415675fe2083a5e7524b673636000b6d0ac6a07546"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/lantern/captures/demo-desktop.jpg",
+      "bytes": 80787,
+      "sha256": "b5051bb0bc76273abbeaa777d5acc5c54891eecb9cb88c63454858f0336d83a2",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/lantern/demo-desktop.jpg",
+      "original_sha256": "b5051bb0bc76273abbeaa777d5acc5c54891eecb9cb88c63454858f0336d83a2",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "All / event_1044 / original Delivered 200, 142 ms, attempt 1 / original sample stored in browser",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 79122,
+        "sha256": "63421ac58243e152512014b6f5b9f6d475bbf5d3fa51d3defe46fb7b432d9139",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/lantern/captures/demo-desktop.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/lantern/captures/demo-phone.jpg",
+      "bytes": 36126,
+      "sha256": "9f48086437e6da7b2188638642a32ea7bfd718eb9e93eed7f629a5c638d8baa9",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/lantern/demo-phone.jpg",
+      "original_sha256": "9f48086437e6da7b2188638642a32ea7bfd718eb9e93eed7f629a5c638d8baa9",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "All / event_1044 / original Delivered 200, 142 ms, attempt 1 / original sample stored in browser",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 36040,
+        "sha256": "8a6c03217d24d79500bf8482e88625d343c6ee2d21fa78a5d021a2718ce19289",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/lantern/captures/demo-phone.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/lantern/captures/guide-desktop.jpg",
+      "bytes": 76115,
+      "sha256": "4d89326cbcc2f5e6f8e5349b4642c0a42900fb93526ee07162d9a7243a172540",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/lantern/guide-desktop.jpg",
+      "original_sha256": "4d89326cbcc2f5e6f8e5349b4642c0a42900fb93526ee07162d9a7243a172540",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Static home explanation or guide example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 77098,
+        "sha256": "c36b2f52edb759f503160e0a2d577d885bda0a68c1a90d521b3e015318261125",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/lantern/captures/guide-desktop.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/lantern/captures/guide-phone.jpg",
+      "bytes": 38439,
+      "sha256": "0d090218858db647afc84c291533766845d1f132058aae04db5664fa39d2d0ac",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/lantern/guide-phone.jpg",
+      "original_sha256": "0d090218858db647afc84c291533766845d1f132058aae04db5664fa39d2d0ac",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Static home explanation or guide example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 38069,
+        "sha256": "595355eb91f2deb2a6e174d8f86be8e41c47d42ade30f13f70d0563115325f09",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/lantern/captures/guide-phone.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/lantern/captures/home-desktop.jpg",
+      "bytes": 93517,
+      "sha256": "501e93c8a00c4bd16759cb760c29e27597186d73930841113955eef3f2642ddd",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/lantern/home-desktop.jpg",
+      "original_sha256": "501e93c8a00c4bd16759cb760c29e27597186d73930841113955eef3f2642ddd",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Static home explanation or guide example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 91973,
+        "sha256": "19685819508b7bb3ec37e3706786dec2890b9ee55fe3d173fa0168cb8cc9d1a8",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/lantern/captures/home-desktop.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/lantern/captures/home-phone.jpg",
+      "bytes": 40553,
+      "sha256": "d6197dbc058328286dcb217dd6436fc7c584b078239de500f98f22d65145e832",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/lantern/home-phone.jpg",
+      "original_sha256": "d6197dbc058328286dcb217dd6436fc7c584b078239de500f98f22d65145e832",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Static home explanation or guide example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 39556,
+        "sha256": "b3ec72cad6eb0343785e07e7b8418e1bd4c7cb53a4d2cbf8afb77c912796d48c",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/lantern/captures/home-phone.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/lantern/site/LICENSE_STATUS.md",
+      "bytes": 729,
+      "sha256": "9cd3f5c7bd63c897cb39a042f3950abe63f6cbafa17fba992ef9da9f692c6617",
+      "original_trial_relative_path": "lantern/output/site/LICENSE_STATUS.md",
+      "original_sha256": "9cd3f5c7bd63c897cb39a042f3950abe63f6cbafa17fba992ef9da9f692c6617"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/lantern/site/art/lantern.svg",
+      "bytes": 258,
+      "sha256": "9b2ab1606b28307f7afc53dbc247e58d51c56a08334738a57297d793d3a419e6",
+      "original_trial_relative_path": "lantern/output/site/art/lantern.svg",
+      "original_sha256": "9b2ab1606b28307f7afc53dbc247e58d51c56a08334738a57297d793d3a419e6"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/lantern/site/demo.html",
+      "bytes": 5283,
+      "sha256": "78376586edd8f144adc1cc2fa361a81587c24e85dde201d1aa29c689194f967a",
+      "original_trial_relative_path": "lantern/output/site/demo.html",
+      "original_sha256": "78376586edd8f144adc1cc2fa361a81587c24e85dde201d1aa29c689194f967a",
+      "previous_dev6": {
+        "bytes": 5286,
+        "sha256": "ddabd61460a9dfe5e7d0853c39ffc34f2112fadbb9c5cd149fc28d395326c556",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/lantern/site/demo.html"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/lantern/site/guide.html",
+      "bytes": 12777,
+      "sha256": "8d2abd3efaa144bed76cc53469f8a27920c810351586ea91b5b4b52e225e4f74",
+      "original_trial_relative_path": "lantern/output/site/guide.html",
+      "original_sha256": "8d2abd3efaa144bed76cc53469f8a27920c810351586ea91b5b4b52e225e4f74",
+      "previous_dev6": {
+        "bytes": 12850,
+        "sha256": "e717bfd2ee773621b960926618935d0d7c3bbde8b1ded304c701a6e0f64b65ca",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/lantern/site/guide.html"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/lantern/site/index.html",
+      "bytes": 4997,
+      "sha256": "aec0ac931f799b7b0157f1c2ded8cf334552fc46d908ddf42ad60b963c43b015",
+      "original_trial_relative_path": "lantern/output/site/index.html",
+      "original_sha256": "aec0ac931f799b7b0157f1c2ded8cf334552fc46d908ddf42ad60b963c43b015",
+      "previous_dev6": {
+        "bytes": 4999,
+        "sha256": "c2e1ca483f9d6ad637bd19388fb1b1d816dbc8028d1bcdbffa50115f5cf4212d",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/lantern/site/index.html"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/lantern/site/inspector-core.js",
+      "bytes": 5424,
+      "sha256": "f69350d5caffb14106c4402227f546cbb0bfddbceb13703fb5ce4a5eb2c5ba20",
+      "original_trial_relative_path": "lantern/output/site/inspector-core.js",
+      "original_sha256": "f69350d5caffb14106c4402227f546cbb0bfddbceb13703fb5ce4a5eb2c5ba20"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/lantern/site/inspector.js",
+      "bytes": 7051,
+      "sha256": "dfa8d01d3de9bb848231bc3b149ad757c6bc743f4d2d2c807e0569382b2aaa84",
+      "original_trial_relative_path": "lantern/output/site/inspector.js",
+      "original_sha256": "dfa8d01d3de9bb848231bc3b149ad757c6bc743f4d2d2c807e0569382b2aaa84"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/lantern/site/styles.css",
+      "bytes": 35857,
+      "sha256": "76c3f3729b8179db8dddfd278fd898fc989a3b5945eeefc1a78e24ec5bde6943",
+      "original_trial_relative_path": "lantern/output/site/styles.css",
+      "original_sha256": "76c3f3729b8179db8dddfd278fd898fc989a3b5945eeefc1a78e24ec5bde6943"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/captures/demo-desktop.jpg",
+      "bytes": 115479,
+      "sha256": "63e72cba414172c13f58d9ec5f2cfc015f85583e20154009d44d26381758bb97",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/northline/demo-desktop.jpg",
+      "original_sha256": "63e72cba414172c13f58d9ec5f2cfc015f85583e20154009d44d26381758bb97",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "A quieter table / Hospitality / 8 \u00d7 12 m / Ambient, Task, Accent all on / Hospitality project / empty title and goal / Not prepared / Save unavailable",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 111921,
+        "sha256": "26651ba794e6048c690ff78796690945b10adf1639088ee03391ce0d2ab1e1d5",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/northline/captures/demo-desktop.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/captures/demo-phone.jpg",
+      "bytes": 40506,
+      "sha256": "d376ec4cfa88f674de5a809e717c3604cb060cadda5295c783af5b07813c8430",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/northline/demo-phone.jpg",
+      "original_sha256": "d376ec4cfa88f674de5a809e717c3604cb060cadda5295c783af5b07813c8430",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "A quieter table / Hospitality / 8 \u00d7 12 m / Ambient, Task, Accent all on / Hospitality project / empty title and goal / Not prepared / Save unavailable",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 39588,
+        "sha256": "6e38b342e592394f3992d4be02e55b4156fead99e4c18cdd254042bc32d02d85",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/northline/captures/demo-phone.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/captures/guide-desktop.jpg",
+      "bytes": 110101,
+      "sha256": "828784d278317f94a07996fe371a54b61bbebe5517bb8757b4a8be7dc31a9912",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/northline/guide-desktop.jpg",
+      "original_sha256": "828784d278317f94a07996fe371a54b61bbebe5517bb8757b4a8be7dc31a9912",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Static original study or guide teaching example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 113287,
+        "sha256": "c49b9ab11063051e2cadde07483908132149088977fe1d2b4f00de3777e5d1cc",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/northline/captures/guide-desktop.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/captures/guide-phone.jpg",
+      "bytes": 43000,
+      "sha256": "96c12076ababbfb9caceb3ecba50ab3e0e10edb16405000e0969ad26e33c4a3d",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/northline/guide-phone.jpg",
+      "original_sha256": "96c12076ababbfb9caceb3ecba50ab3e0e10edb16405000e0969ad26e33c4a3d",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Static original study or guide teaching example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 43351,
+        "sha256": "c62707ec3f5db925482d0c6b3612762664e2e49331b9c2179b7d6028ef3333d3",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/northline/captures/guide-phone.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/captures/home-desktop.jpg",
+      "bytes": 104501,
+      "sha256": "d3b6baede5d542ab041f9d235f854ae5d963531da4dd4f3fde901a3ca7ce1ed1",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/northline/home-desktop.jpg",
+      "original_sha256": "d3b6baede5d542ab041f9d235f854ae5d963531da4dd4f3fde901a3ca7ce1ed1",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Static original study or guide teaching example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 103893,
+        "sha256": "586150d635fb106dc117d7a7dccbec61caba70c4465655f893f38f30e416d1ea",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/northline/captures/home-desktop.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/captures/home-phone.jpg",
+      "bytes": 46011,
+      "sha256": "faf181e6a00f55a98b70df65ff8e6938f0b73799e802c8082181bddf4af5ac80",
+      "original_trial_relative_path": "copy-edit-2026-10-11/captures/northline/home-phone.jpg",
+      "original_sha256": "faf181e6a00f55a98b70df65ff8e6938f0b73799e802c8082181bddf4af5ac80",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Static original study or guide teaching example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Owner copy edit; native refreshed opening"
+      },
+      "previous_dev6": {
+        "bytes": 45739,
+        "sha256": "48840117f3bf52160a6085ec26a01654ca07823b70889f7ca47f081624988dea",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/northline/captures/home-phone.jpg"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/NOTICES.md",
+      "bytes": 1130,
+      "sha256": "e5de6aee5d6705559bb0453f5f62c2bb3d6e6a3c128730617f049186248be826",
+      "original_trial_relative_path": "northline/output/site/NOTICES.md",
+      "original_sha256": "e5de6aee5d6705559bb0453f5f62c2bb3d6e6a3c128730617f049186248be826"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/art/focus-accent-detail.svg",
+      "bytes": 5907,
+      "sha256": "404c645dd1e31dde73f608332fabb12371b4bbf7049ce56771e6277127adcbe3",
+      "original_trial_relative_path": "northline/output/site/art/focus-accent-detail.svg",
+      "original_sha256": "404c645dd1e31dde73f608332fabb12371b4bbf7049ce56771e6277127adcbe3"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/art/focus-ambient-detail.svg",
+      "bytes": 5909,
+      "sha256": "dc7c5130e521e67b0617dd419b40331c2e79f0bad33ac3115b88a37c22b8ea0e",
+      "original_trial_relative_path": "northline/output/site/art/focus-ambient-detail.svg",
+      "original_sha256": "dc7c5130e521e67b0617dd419b40331c2e79f0bad33ac3115b88a37c22b8ea0e"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/art/focus-room.svg",
+      "bytes": 6393,
+      "sha256": "ac96cc109e4548232d01874572accc5d335151bf2f4ae5818078cfbfb8b6e7f9",
+      "original_trial_relative_path": "northline/output/site/art/focus-room.svg",
+      "original_sha256": "ac96cc109e4548232d01874572accc5d335151bf2f4ae5818078cfbfb8b6e7f9"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/art/focus-task-detail.svg",
+      "bytes": 5903,
+      "sha256": "5de647f171cec8a8a4e71957a07ac8e5200f512803c33f49d9ad18622b22d750",
+      "original_trial_relative_path": "northline/output/site/art/focus-task-detail.svg",
+      "original_sha256": "5de647f171cec8a8a4e71957a07ac8e5200f512803c33f49d9ad18622b22d750"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/art/focus.svg",
+      "bytes": 6343,
+      "sha256": "f4681813325015831d9f154081292b9f1bb25cac381a301ebe0b3ea4e9db90ac",
+      "original_trial_relative_path": "northline/output/site/art/focus.svg",
+      "original_sha256": "f4681813325015831d9f154081292b9f1bb25cac381a301ebe0b3ea4e9db90ac"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/art/home-room.svg",
+      "bytes": 4862,
+      "sha256": "aebe979fe06deb74e62df80ef041230188db4b1d47c9adc360be61f6e57da2fd",
+      "original_trial_relative_path": "northline/output/site/art/home-room.svg",
+      "original_sha256": "aebe979fe06deb74e62df80ef041230188db4b1d47c9adc360be61f6e57da2fd"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/art/home.svg",
+      "bytes": 4831,
+      "sha256": "4423789ffc76ad1be2be180047ed347111a1eb259d29b0800c8f0b186c55e5f3",
+      "original_trial_relative_path": "northline/output/site/art/home.svg",
+      "original_sha256": "4423789ffc76ad1be2be180047ed347111a1eb259d29b0800c8f0b186c55e5f3"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/art/table-room.svg",
+      "bytes": 5458,
+      "sha256": "01037948189896b966c51cd67fcaac5ae94a4198dc21288033714d31d8412045",
+      "original_trial_relative_path": "northline/output/site/art/table-room.svg",
+      "original_sha256": "01037948189896b966c51cd67fcaac5ae94a4198dc21288033714d31d8412045"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/art/table.svg",
+      "bytes": 5408,
+      "sha256": "bd4b59844e7422b1c6f7a28ac3ec2ed5688c8f5a3212ecb6cd08721ee49534c3",
+      "original_trial_relative_path": "northline/output/site/art/table.svg",
+      "original_sha256": "bd4b59844e7422b1c6f7a28ac3ec2ed5688c8f5a3212ecb6cd08721ee49534c3"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/core.js",
+      "bytes": 3244,
+      "sha256": "8fd42bf5113931c700a65ccefff8a2211411f3aca535e8944d132bbc8b24d715",
+      "original_trial_relative_path": "northline/output/site/core.js",
+      "original_sha256": "8fd42bf5113931c700a65ccefff8a2211411f3aca535e8944d132bbc8b24d715"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/demo.html",
+      "bytes": 6846,
+      "sha256": "904bc1ebe9091a9efbe783a6efe4a2df58574c073b97d29e3be591f4ddb75122",
+      "original_trial_relative_path": "northline/output/site/demo.html",
+      "original_sha256": "904bc1ebe9091a9efbe783a6efe4a2df58574c073b97d29e3be591f4ddb75122",
+      "previous_dev6": {
+        "bytes": 6848,
+        "sha256": "b4fc318300e39cdd5cd572b4f21d17d763ccef7af26a5c694b9de607dcaf27ff",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/northline/site/demo.html"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/fonts/fieldnotes-sans.woff2",
+      "bytes": 67504,
+      "sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0",
+      "original_trial_relative_path": "northline/output/site/fonts/fieldnotes-sans.woff2",
+      "original_sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/fonts/source-sans-3-OFL.txt",
+      "bytes": 4579,
+      "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "original_trial_relative_path": "northline/output/site/fonts/source-sans-3-OFL.txt",
+      "original_sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/fonts/source-serif-4-OFL.txt",
+      "bytes": 4400,
+      "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+      "original_trial_relative_path": "northline/output/site/fonts/source-serif-4-OFL.txt",
+      "original_sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/fonts/source-serif-4.woff2",
+      "bytes": 222928,
+      "sha256": "ec0754e1fb47c9465d0282c89e3a890ddcf8c4e6a912a695ce1b09fb3d1b571d",
+      "original_trial_relative_path": "northline/output/site/fonts/source-serif-4.woff2",
+      "original_sha256": "ec0754e1fb47c9465d0282c89e3a890ddcf8c4e6a912a695ce1b09fb3d1b571d"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/guide.html",
+      "bytes": 11837,
+      "sha256": "8837a2248acc7aa7d8d97e6d4acb94d247085013b2f5cca0ad715f506be3a1e1",
+      "original_trial_relative_path": "northline/output/site/guide.html",
+      "original_sha256": "8837a2248acc7aa7d8d97e6d4acb94d247085013b2f5cca0ad715f506be3a1e1",
+      "previous_dev6": {
+        "bytes": 11987,
+        "sha256": "d56a829b69997af65e29e8e4c99c65e4a98cf474c71ea06b8fc084b386fea911",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/northline/site/guide.html"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/index.html",
+      "bytes": 6951,
+      "sha256": "57755ff13e07360b394f55f4aee372d7e5729d70db4babd2e0e0b76da0e0d3d1",
+      "original_trial_relative_path": "northline/output/site/index.html",
+      "original_sha256": "57755ff13e07360b394f55f4aee372d7e5729d70db4babd2e0e0b76da0e0d3d1",
+      "previous_dev6": {
+        "bytes": 7015,
+        "sha256": "fccb525a48f7e47746230169af215ff17a5b5bddcc9ba5408c7f45c2effcc142",
+        "retained_trial_relative_path": "copy-edit-2026-10-11/before/curated-task-cases/northline/site/index.html"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/northline.css",
+      "bytes": 25327,
+      "sha256": "016eb306754cb46a8ed58cb77884c1a354f94a58a62e071481ea064ee98553c9",
+      "original_trial_relative_path": "northline/output/site/northline.css",
+      "original_sha256": "016eb306754cb46a8ed58cb77884c1a354f94a58a62e071481ea064ee98553c9"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/site.js",
+      "bytes": 8206,
+      "sha256": "444c1da86e35fd1e516c22c4738b2db7d545e3046fdae7933fa4db5f09c77d80",
+      "original_trial_relative_path": "northline/output/site/site.js",
+      "original_sha256": "444c1da86e35fd1e516c22c4738b2db7d545e3046fdae7933fa4db5f09c77d80"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/northline/site/studies.js",
+      "bytes": 38283,
+      "sha256": "2473b1cc18b1301204e0d549223fa9ec79315e640144f32b43ba3635e16662b6",
+      "original_trial_relative_path": "northline/output/site/studies.js",
+      "original_sha256": "2473b1cc18b1301204e0d549223fa9ec79315e640144f32b43ba3635e16662b6"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/pressline/captures/demo-desktop.jpg",
+      "bytes": 107499,
+      "sha256": "1915f94b9feceff8a901f20a9e6cdd959bea78e7792f99812bcad50fbaf94f1a",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "pressline/captures/final/demo-desktop.jpg",
+      "original_sha256": "1915f94b9feceff8a901f20a9e6cdd959bea78e7792f99812bcad50fbaf94f1a",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Original twelve jobs, totals 10 active / 6 due in fixed 11\u201315 October 2026 / 2 blocked / 39 hours. P-1049 open: Blocked, 14 October, 7 hours. All filters, empty search, zero marked. Save commits drafts; collection/filters/open ID persist; drafts/marking do not.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/pressline/captures/demo-phone.jpg",
+      "bytes": 34002,
+      "sha256": "e0dbd58fe637e3674e4178804623abba9c7f57000edb82945039569209724fbb",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "pressline/captures/final/demo-phone.jpg",
+      "original_sha256": "e0dbd58fe637e3674e4178804623abba9c7f57000edb82945039569209724fbb",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Original twelve jobs, totals 10 active / 6 due in fixed 11\u201315 October 2026 / 2 blocked / 39 hours. P-1049 open: Blocked, 14 October, 7 hours. All filters, empty search, zero marked. Save commits drafts; collection/filters/open ID persist; drafts/marking do not.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/pressline/captures/guide-desktop.jpg",
+      "bytes": 99100,
+      "sha256": "73209ce2296f07b2a342129e7a7fc50805fbfdeec1d5b785e774e5e080e9dda1",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "pressline/captures/final/guide-desktop.jpg",
+      "original_sha256": "73209ce2296f07b2a342129e7a7fc50805fbfdeec1d5b785e774e5e080e9dda1",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Static fictional home explanation or guide teaching example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/pressline/captures/guide-phone.jpg",
+      "bytes": 41094,
+      "sha256": "467c90aa4eda66f1466f6f565e23f5198a56dd5ab411d581e63104fdea812f92",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "pressline/captures/final/guide-phone.jpg",
+      "original_sha256": "467c90aa4eda66f1466f6f565e23f5198a56dd5ab411d581e63104fdea812f92",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Static fictional home explanation or guide teaching example",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/pressline/captures/home-desktop.jpg",
+      "bytes": 90571,
+      "sha256": "7d8875102696d6f19480ec2e931400c4a1f2e1cf0f569f31cfb63b74b181acb1",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "pressline/captures/final/home-desktop.jpg",
+      "original_sha256": "7d8875102696d6f19480ec2e931400c4a1f2e1cf0f569f31cfb63b74b181acb1",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Original twelve jobs, totals 10 active / 6 due in fixed 11\u201315 October 2026 / 2 blocked / 39 hours. P-1049 open: Blocked, 14 October, 7 hours. All filters, empty search, zero marked. Save commits drafts; collection/filters/open ID persist; drafts/marking do not.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/pressline/captures/home-phone.jpg",
+      "bytes": 40871,
+      "sha256": "1b6f06e74f84754dee2458ff43ab64e0a997f454c819f8647ad088534a6c0054",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "pressline/captures/final/home-phone.jpg",
+      "original_sha256": "1b6f06e74f84754dee2458ff43ab64e0a997f454c819f8647ad088534a6c0054",
+      "capture": {
+        "date": "2026-10-11",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Original twelve jobs, totals 10 active / 6 due in fixed 11\u201315 October 2026 / 2 blocked / 39 hours. P-1049 open: Blocked, 14 October, 7 hours. All filters, empty search, zero marked. Save commits drafts; collection/filters/open ID persist; drafts/marking do not.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "Final reviewed local expansion opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/task-cases/pressline/site/demo.html",
+      "bytes": 7282,
+      "sha256": "c6cfa54da9821a3b8468a51315844d09a55be5f9aaccc2f64c9d5037e85b592d",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "pressline/output/site/demo.html",
+      "original_sha256": "c6cfa54da9821a3b8468a51315844d09a55be5f9aaccc2f64c9d5037e85b592d"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/pressline/site/desk-core.js",
+      "bytes": 7473,
+      "sha256": "28e98bb78ae9a51022f318abfd0af8a673d3a656fd62b6095d406a6c3d724164",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "pressline/output/site/desk-core.js",
+      "original_sha256": "28e98bb78ae9a51022f318abfd0af8a673d3a656fd62b6095d406a6c3d724164"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/pressline/site/desk.js",
+      "bytes": 11943,
+      "sha256": "fa1c190b1fafe6fff80f4ba0e019f0e86eb643640013285e715459b1ea19c110",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "pressline/output/site/desk.js",
+      "original_sha256": "fa1c190b1fafe6fff80f4ba0e019f0e86eb643640013285e715459b1ea19c110"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/pressline/site/fonts/source-sans-3-OFL.txt",
+      "bytes": 4579,
+      "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "pressline/output/site/fonts/source-sans-3-OFL.txt",
+      "original_sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/pressline/site/fonts/source-sans-3.woff2",
+      "bytes": 67504,
+      "sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "pressline/output/site/fonts/source-sans-3.woff2",
+      "original_sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/pressline/site/guide.html",
+      "bytes": 8491,
+      "sha256": "a5ca1a51ead84451da5d210b4fe3c605aa33da11a43437bc815a10bcaa06627b",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "pressline/output/site/guide.html",
+      "original_sha256": "a5ca1a51ead84451da5d210b4fe3c605aa33da11a43437bc815a10bcaa06627b"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/pressline/site/index.html",
+      "bytes": 4845,
+      "sha256": "9560d95a0b04a5ffef2f5c7912300e91a75de145342b43cce2653d0a9a5bbe4c",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "pressline/output/site/index.html",
+      "original_sha256": "9560d95a0b04a5ffef2f5c7912300e91a75de145342b43cce2653d0a9a5bbe4c"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/pressline/site/mark.svg",
+      "bytes": 238,
+      "sha256": "051174a304f0a0b237d6808b18678d1bb6adee80affea6d5d650fde27f0beb8e",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "pressline/output/site/mark.svg",
+      "original_sha256": "051174a304f0a0b237d6808b18678d1bb6adee80affea6d5d650fde27f0beb8e"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/pressline/site/overview.js",
+      "bytes": 1962,
+      "sha256": "fdc8de88adbacc7bf5def651f4350c764bd90c48f47fad38b999ac797f407028",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "pressline/output/site/overview.js",
+      "original_sha256": "fdc8de88adbacc7bf5def651f4350c764bd90c48f47fad38b999ac797f407028"
+    },
+    {
+      "skill_relative_path": "assets/task-cases/pressline/site/styles.css",
+      "bytes": 35575,
+      "sha256": "d2894dfdbb8f26079cb7a8df95677955185637e6849eb6be913ec4e52fe5b599",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "original_trial_relative_path": "pressline/output/site/styles.css",
+      "original_sha256": "d2894dfdbb8f26079cb7a8df95677955185637e6849eb6be913ec4e52fe5b599"
+    },
+    {
+      "skill_relative_path": "references/task-cases.md",
+      "bytes": 31900,
+      "sha256": "6ff4a5e4f4d115dc4e0bd3f114deafaae1a7aee63d0c75362a961c22873e92e3",
+      "origin": "Original conditional case guidance or curation metadata extended for the three-case expansion on 2026-10-11",
+      "previous_dev6": {
+        "bytes": 16041,
+        "sha256": "e96446b94265ae34e3b917405a5cb45c71e9eb93ea54c2f6cdd780c9d1c29c81"
+      },
+      "previous_dev7": {
+        "bytes": 16347,
+        "sha256": "6139909980b23b6be3ff4c14eede9df7fda71aca8e8933d0d0368c089a1834fc",
+        "retained_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+        "retained_trial_relative_path": "prior-dev7-curation/task-cases.md"
+      }
+    }
+  ],
+  "latest_copy_revision": {
+    "date": "2026-10-11",
+    "reason": "Owner requested selective title punctuation and supporting-copy refinement",
+    "scope": "HTML copy and refreshed native opening captures; behavior code, styles, art and font bytes retained",
+    "previous_curation_snapshot": "copy-edit-2026-10-11/before/curated-task-cases",
+    "copy_edit_record": "copy-edit-2026-10-11/EDITS.json",
+    "native_render_receipt": "copy-edit-2026-10-11/RENDER_CHECKS.json"
+  },
+  "latest_expansion_curation": {
+    "date": "2026-10-11",
+    "snapshot_utc": "2026-10-10T20:41:12.108987+00:00",
+    "trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+    "builder_input_archive_sha256": "aa7779f9adbbbb7948954a5388893dc084fb262c0dfbd88877cc40479df99db6",
+    "builder_input_version": "0.1.0-dev.8",
+    "builder_input_context": "Frozen pack containing previous three original cases plus conditional material/density guidance; new cases absent",
+    "new_case_assets_were_in_builder_input": false,
+    "copy_method": "Byte-for-byte new functional/source-notice files and six native final opening JPEGs per case; full captures, initial source/reviews, project guidance, research and private records excluded from delivery",
+    "new_source_files": 32,
+    "new_opening_captures": 18,
+    "unchanged_existing_cases": [
+      "lantern",
+      "common-ground",
+      "northline"
+    ],
+    "coordinator_browser_evidence_snapshot_status": "Completed: 37 passing behavior assertions, two separately retained corrected test-selector mismatches",
+    "evidence_snapshots": [
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/INPUT.json",
+        "bytes": 505,
+        "sha256": "67661a0ee3c1c33cd89efed483b4c8a301557f1beeb3990778fc3bf371dd3001",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/PRIOR_CURATION.json",
+        "bytes": 7443,
+        "sha256": "59ed9efc3d1bf95e9987eaba1f2c4da76e1d5d533330b5b77c12ded937617f42",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/MATERIAL_INSPECTION.json",
+        "bytes": 644,
+        "sha256": "191a08d03c7b1f6301724555088f84e27e56c8f39100408185bf95b0386c57c4",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/handoff/INITIAL_SOURCE.json",
+        "bytes": 2935,
+        "sha256": "1834e20ec11e30809c12906075b6d8587ea965e5f6ae88bec615edcc4956faca",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/handoff/FINAL_REVIEW.md",
+        "bytes": 4082,
+        "sha256": "279959afc530764c41772a91d86b5d8244402be0d54d2e14e906ba9130bf5601",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/handoff/INDEPENDENT_REVIEW.md",
+        "bytes": 5108,
+        "sha256": "53c8553b07a4c5042e09df45f1eb0761c3f5de229d04038b98fab0213270304d",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/handoff/output/CHECKS.md",
+        "bytes": 3642,
+        "sha256": "76b6b1892a927f32e0b4fdf4b2109e195f157519ea6658106537bfbee43252d0",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/handoff/output/RESOURCE_USE.md",
+        "bytes": 4438,
+        "sha256": "1ba23a0dcd7e0ea20478cfde6646c129ababa194aaf5fdebb2ebf7857805a1d0",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/handoff/output/REVISIONS.md",
+        "bytes": 2453,
+        "sha256": "105dc057595a138b724c3f8b929cf2bde40ff7266fdf8a03edbfa7fe03a643ac",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/aldermere/INITIAL_SOURCE.json",
+        "bytes": 2978,
+        "sha256": "99e4aa1fd6af29986072d3af16b10bb7761a634db6785a6ab35de74cb5334b88",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/aldermere/FINAL_REVIEW.md",
+        "bytes": 4802,
+        "sha256": "2600edb2506e69bc54b381667e790c9788f7baee5d0676272a8f22a68511d0f6",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/aldermere/INDEPENDENT_REVIEW.md",
+        "bytes": 6013,
+        "sha256": "38a34d16b54894dd7a2f41123ee38c5896bfccf0c7e56239ee0d081cecfa74d2",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/aldermere/output/CHECKS.md",
+        "bytes": 3094,
+        "sha256": "21c263186b935be3912683f2ba4e941baefc29cb608d8bd46a52fecd0e6ebbfa",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/aldermere/output/RESOURCE_USE.md",
+        "bytes": 3498,
+        "sha256": "1d61d6863360931cc6da0a59cb20ecf8dc35a131a1c81a76fed23e08931762d9",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/aldermere/output/REVISIONS.md",
+        "bytes": 1551,
+        "sha256": "5d56060199069e95eaa7418b111938fb10ef76a56e1bfe2e4f2096b8db093997",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/pressline/INITIAL_SOURCE.json",
+        "bytes": 2947,
+        "sha256": "54c2e39c6732b1fd11442989c4e59901c3ba6f9d527e4040a3acd2040087a056",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/pressline/FINAL_REVIEW.md",
+        "bytes": 2493,
+        "sha256": "374d29dbefcde3f59a0da81dcfb31d7feb14ff8439397f8922f61fb4e2c80d68",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/pressline/INDEPENDENT_REVIEW.md",
+        "bytes": 3976,
+        "sha256": "d35df6881099ff4c10e4b0d2040ce6d696a955009cf288d2857728faa9084b01",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/pressline/output/CHECKS.md",
+        "bytes": 2644,
+        "sha256": "eddfdc989f8c8c66e321331e4e77b9a1c6eefd889edd2c3efe24473ff7009d53",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/pressline/output/RESOURCE_USE.md",
+        "bytes": 4905,
+        "sha256": "8f4b455196372de4fa8d927ae3d5f2e368098a91e4d50461f79812c023a0d1ed",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/pressline/output/REVISIONS.md",
+        "bytes": 2249,
+        "sha256": "e23c73f47ca5b926027b95127b9f6a6547e235a1e73175411b9ac7aee7d9f886",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/BROWSER_TESTS.json",
+        "bytes": 7769,
+        "sha256": "2288f45e81bcefedcb9e1ee6708c6fe18e0a203e86a04b3dcc972559771fbc5a",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/ROOT_RENDER_NOTES.md",
+        "bytes": 3991,
+        "sha256": "e8f996a33d2d496cb8da8698ba82810bbc4cb8107b2ae23912093d033ff6ce97",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/BROWSER_LOGS.json",
+        "bytes": 86,
+        "sha256": "61e98ef81b3e5bc3b26a4671e55bdd0132cc55aa77a207a82a004055dbaa31b5",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/RESPONSIVE.json",
+        "bytes": 23852,
+        "sha256": "6bd9f4fa779e85f3065531220190482c7338f02d792d6ebaf65150ba9c59846a",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/OBSERVATIONS.json",
+        "bytes": 11128,
+        "sha256": "6ffe1469bb39142fc34a13b6c9e3f7a742200c36a8153c89adc440f77c8c8d90",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/CAPTURES.json",
+        "bytes": 21761,
+        "sha256": "c06867547da43100e2415ab66ea7618aaf97e7f4a32394dbe057152ab4b73377",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/handoff/FINAL_SOURCE.json",
+        "bytes": 2791,
+        "sha256": "0ef36025f9916ffb67791ff161ae55d6a5584a2f0851504f8fe08d61b3d0683b",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/aldermere/FINAL_SOURCE.json",
+        "bytes": 2760,
+        "sha256": "1eb4fd968f134536530e5ed803990590e634f346340bbeff4ffd85c4d4705a9e",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      },
+      {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion/pressline/FINAL_SOURCE.json",
+        "bytes": 2614,
+        "sha256": "5254e412fc029af09efeeb2fd6476a619ac612417559f2df99d4d44e6a529f82",
+        "snapshot_utc": "2026-10-10T20:41:12.108987+00:00"
+      }
+    ],
+    "previous_dev7_curation": {
+      "trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-expansion",
+      "files": [
+        {
+          "original_skill_relative_path": "references/task-cases.md",
+          "retained_trial_relative_path": "prior-dev7-curation/task-cases.md",
+          "bytes": 16347,
+          "sha256": "6139909980b23b6be3ff4c14eede9df7fda71aca8e8933d0d0368c089a1834fc"
+        },
+        {
+          "original_skill_relative_path": "assets/task-cases/PROVENANCE.json",
+          "retained_trial_relative_path": "prior-dev7-curation/task-cases/PROVENANCE.json",
+          "bytes": 41922,
+          "sha256": "f8df7a2c1c94d99cd6a0f3cce2e98465560e08e7deff4c391f7f20095c2c535d"
+        },
+        {
+          "original_skill_relative_path": "assets/task-cases/NOTICES.md",
+          "retained_trial_relative_path": "prior-dev7-curation/task-cases/NOTICES.md",
+          "bytes": 3883,
+          "sha256": "4f6e1c523697f927e5efb955d7ab71f306e70dab5e9ed5fd227b8308eb93b684"
+        },
+        {
+          "original_skill_relative_path": "assets/task-cases/CHECKS.json",
+          "retained_trial_relative_path": "prior-dev7-curation/task-cases/CHECKS.json",
+          "bytes": 13080,
+          "sha256": "c938606f5be6692518140363f2a2ea265f8427a41bde484296a74bd74679adb8"
+        }
+      ]
+    },
+    "supplemental_handoff_heading_correction": "A source/native phone-text audit found a title-space defect missed in the initial final image review. Source and current guide opening/full captures were corrected; the same independent critic inspected four refreshed guide images and supplemented the final review. Previous four final guide views remain in the trial."
+  }
+}

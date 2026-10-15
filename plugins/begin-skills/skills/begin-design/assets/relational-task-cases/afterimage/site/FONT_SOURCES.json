@@ -1,0 +1,34 @@
+{
+  "fonts": [
+    {
+      "file": "fonts/Sora-Variable.ttf",
+      "notice": "fonts/Sora-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sora/Sora%5Bwght%5D.ttf",
+      "bytes": 111400,
+      "sha256": "84ff7096ae3ec6c8be47d906d1a0ba4de7f2ce78c615275c77301964a316e16c",
+      "notice_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sora/OFL.txt",
+      "notice_bytes": 4385,
+      "notice_sha256": "ba0b9729c9428ba79a0459ab8ec575791b51509dbec213e383d0316d37fec299"
+    },
+    {
+      "file": "fonts/IBMPlexMono-Regular.ttf",
+      "notice": "fonts/IBMPlexMono-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "notice_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+      "notice_bytes": 4456,
+      "notice_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "file": "fonts/IBMPlexMono-Medium.ttf",
+      "notice": "fonts/IBMPlexMono-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Medium.ttf",
+      "bytes": 136704,
+      "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+      "notice_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+      "notice_bytes": 4456,
+      "notice_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    }
+  ]
+}

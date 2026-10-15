@@ -1,0 +1,87 @@
+{
+  "fonts": [
+    {
+      "file": "assets/fonts/newsreader-roman.ttf",
+      "family": "Newsreader",
+      "frozen_input_path": "begin-design/assets/open-choice-cases/good-measure/site/assets/fonts/newsreader-roman.ttf",
+      "bytes": 451664,
+      "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+      "upstream_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/Newsreader%5Bopsz,wght%5D.ttf",
+      "source_repository": "https://github.com/google/fonts",
+      "license": "SIL Open Font License 1.1",
+      "full_notice_file": "assets/fonts/OFL-Newsreader.txt",
+      "modified": false,
+      "retrieval": "Copied unchanged from frozen portable dev.18; upstream URL from its font provenance, no new network retrieval."
+    },
+    {
+      "file": "assets/fonts/newsreader-italic.ttf",
+      "family": "Newsreader",
+      "frozen_input_path": "begin-design/assets/open-choice-cases/good-measure/site/assets/fonts/newsreader-italic.ttf",
+      "bytes": 495684,
+      "sha256": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792",
+      "upstream_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/Newsreader-Italic%5Bopsz,wght%5D.ttf",
+      "source_repository": "https://github.com/google/fonts",
+      "license": "SIL Open Font License 1.1",
+      "full_notice_file": "assets/fonts/OFL-Newsreader.txt",
+      "modified": false,
+      "retrieval": "Copied unchanged from frozen portable dev.18; upstream URL from its font provenance, no new network retrieval."
+    },
+    {
+      "file": "assets/fonts/OFL-Newsreader.txt",
+      "family": "Newsreader",
+      "frozen_input_path": "begin-design/assets/open-choice-cases/good-measure/site/assets/fonts/OFL-Newsreader.txt",
+      "bytes": 4394,
+      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+      "upstream_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/OFL.txt",
+      "source_repository": "https://github.com/google/fonts",
+      "license": "SIL Open Font License 1.1",
+      "full_notice_file": "assets/fonts/OFL-Newsreader.txt",
+      "modified": false,
+      "retrieval": "Copied unchanged from frozen portable dev.18; upstream URL from its font provenance, no new network retrieval."
+    },
+    {
+      "file": "assets/fonts/IBMPlexMono-Regular.ttf",
+      "family": "IBM Plex Mono",
+      "frozen_input_path": "begin-design/assets/type-transfer-cases/relay/site/assets/fonts/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "upstream_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "source_repository": "https://github.com/google/fonts",
+      "license": "SIL Open Font License 1.1",
+      "full_notice_file": "assets/fonts/OFL-IBMPlexMono.txt",
+      "modified": false,
+      "retrieval": "Copied unchanged from frozen portable dev.18; upstream URL from its font provenance, no new network retrieval."
+    },
+    {
+      "file": "assets/fonts/IBMPlexMono-Medium.ttf",
+      "family": "IBM Plex Mono",
+      "frozen_input_path": "begin-design/assets/type-transfer-cases/relay/site/assets/fonts/IBMPlexMono-Medium.ttf",
+      "bytes": 136704,
+      "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+      "upstream_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Medium.ttf",
+      "source_repository": "https://github.com/google/fonts",
+      "license": "SIL Open Font License 1.1",
+      "full_notice_file": "assets/fonts/OFL-IBMPlexMono.txt",
+      "modified": false,
+      "retrieval": "Copied unchanged from frozen portable dev.18; upstream URL from its font provenance, no new network retrieval."
+    },
+    {
+      "file": "assets/fonts/OFL-IBMPlexMono.txt",
+      "family": "IBM Plex Mono",
+      "frozen_input_path": "begin-design/assets/type-transfer-cases/relay/site/assets/notices/IBMPlexMono-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "upstream_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+      "source_repository": "https://github.com/google/fonts",
+      "license": "SIL Open Font License 1.1",
+      "full_notice_file": "assets/fonts/OFL-IBMPlexMono.txt",
+      "modified": false,
+      "retrieval": "Copied unchanged from frozen portable dev.18; upstream URL from its font provenance, no new network retrieval."
+    }
+  ],
+  "runtime_remote_requests": false,
+  "copyright": {
+    "Newsreader": "Copyright 2020 The Newsreader Project Authors (http://github.com/productiontype/Newsreader)",
+    "IBM Plex Mono": "Copyright \u00a9 2017 IBM Corp. with Reserved Font Name \"Plex\""
+  }
+}

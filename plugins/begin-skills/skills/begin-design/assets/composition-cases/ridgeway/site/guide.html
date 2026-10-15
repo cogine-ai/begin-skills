@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Make a complete Ridgeway sample plan, compare the expected result, and understand preparing, saving, editing and clearing.">
+  <meta name="theme-color" content="#123f38"><title>Plan guide — Ridgeway</title>
+  <link rel="icon" href="mark.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><script src="guide.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap"><a class="brand" href="index.html" aria-label="Ridgeway home"><img src="mark.svg" alt="" width="40" height="40"><span>Ridgeway</span></a><nav class="main-nav" aria-label="Main navigation"><a href="index.html#walks">Walks</a><a href="demo.html">Plan</a><a href="guide.html" aria-current="page">Guide</a></nav></header>
+  <main id="main" class="guide-main">
+    <div class="guide-heading"><h1>Your plan guide</h1><a class="text-link" href="demo.html">Open the planner <span aria-hidden="true">↗</span></a></div>
+    <nav class="guide-contents" aria-label="Guide contents"><a href="#try-it">Make a plan</a><a href="#edit-plan">Change details</a><a href="#local-save">Save &amp; download</a><a href="#recover-plan">Recover &amp; clear</a><a class="appendix-link" href="#technical-appendix">Technical appendix</a></nav>
+    <div class="guide-index"><label for="guide-jump">Find a section</label><div class="guide-index-controls"><select id="guide-jump"><option value="try-it">Make a complete plan</option><option value="edit-plan">Change the details</option><option value="local-save">Save and download</option><option value="recover-plan">Recover or clear a plan</option><option value="technical-appendix">Technical appendix</option></select><button type="button" id="guide-go">Go <span aria-hidden="true">↓</span></button></div></div>
+    <section class="guide-section" id="try-it" aria-labelledby="exercise-title">
+      <h2 class="guide-label" id="exercise-title"><span>01 / TRY IT</span>Make one complete plan</h2>
+      <div class="guide-content">
+        <ol class="guide-steps"><li>Open the <a href="demo.html">planner</a>. If you already have a saved plan, <strong>Clear plan and start again</strong> removes it and resets the fields. Download a copy first if you want to keep it.</li><li>Enter the values below. The blue panel should show <strong>High Meadow Way · 7.5 km · 2 hrs 50 min · 4 walkers</strong>.</li><li>Select <strong>Prepare plan</strong>. The result below the action should read <strong>Current</strong> and match this complete output.</li></ol>
+        <dl class="fixture"><div><dt>Choose your walk</dt><dd>High Meadow Way</dd></div><div><dt>Number of walkers</dt><dd>4</dd></div><div><dt>Pace preference</dt><dd>Lingering</dd></div><div><dt>Intended date</dt><dd>7 November 2026</dd></div></dl>
+        <div class="guide-output"><p class="output-label">Expected prepared text</p><pre id="example-output">RIDGEWAY / SAMPLE WALK PLAN
+
+High Meadow Way
+Distance: 7.5 km
+Time to allow: 2 hrs 50 min
+Time basis: 150 min + 20 min for lingering pace
+Walkers: 4
+Pace: Lingering
+Intended date: 7 November 2026
+Imagined sequence: Fern gate → High meadow → Fern gate
+
+A fictional plan for exploring this example. No booking or enquiry has been made.</pre></div>
+        <p style="margin-top:20px">The 170-minute result is the walk’s 150-minute sample duration plus 20 minutes for Lingering. Four walkers do not multiply the distance or duration. There is no cost calculation.</p>
+      </div>
+    </section>
+    <section class="guide-section" id="edit-plan" aria-labelledby="edit-title">
+      <h2 class="guide-label" id="edit-title"><span>02 / CHANGE IT</span>Edit without losing the saved copy</h2>
+      <div class="guide-content">
+        <p>Select <strong>Save in this browser</strong>. The saved section should show High Meadow Way, 7.5 km, 2 hrs 50 min, 4 walkers, Lingering pace and 7 November 2026.</p>
+        <p>Change Number of walkers to <strong>5</strong>. The current choices now show 5 walkers, while the prepared text and saved copy still say 4. The prepared plan becomes <strong>Out of date</strong>; Save and Download are unavailable.</p>
+        <div class="guide-state"><span class="state" data-state="current">Current</span><span aria-hidden="true">→</span><span class="state" data-state="stale">Out of date</span><span>After any field edit</span></div>
+        <p>Select <strong>Prepare plan</strong> again to make a current 5-walker plan. The saved section still keeps the 4-walker version until you select Save. Returning a field to its old value also needs preparation again.</p>
+        <p><strong>Return to saved plan</strong> restores the saved fields and its prepared result together, and makes that result Current. Unsaved edits are replaced. Reloading the ordinary planner page also restores the last valid saved plan.</p>
+      </div>
+    </section>
+    <section class="guide-section" id="local-save" aria-labelledby="save-title">
+      <h2 class="guide-label" id="save-title"><span>03 / KEEP IT</span>Save and download</h2>
+      <div class="guide-content">
+        <p><strong>Save in this browser</strong> keeps one Current prepared plan here. A later Save replaces that copy. Editing and preparing do not change the saved plan.</p>
+        <p>When you return to the ordinary planner page or reload it, your last valid saved plan appears with the same fields and prepared result. A walk link from the home page starts a fresh choice for that walk while keeping your saved copy below.</p>
+        <p><strong>Download text</strong> gives you the exact Current prepared text as a file. For the exercise above, the filename is <code>ridgeway-high-meadow-plan.txt</code>. Download does not save a browser copy; Save does not create a downloaded file.</p>
+        <p class="boundary">The saved copy belongs to this browser profile and site address. It is not shared across devices or protected by an account. Use sample information. Nothing is sent to Ridgeway, and no booking is made.</p>
+      </div>
+    </section>
+    <section class="guide-section" id="recover-plan" aria-labelledby="recover-title">
+      <h2 class="guide-label" id="recover-title"><span>04 / START AGAIN</span>Recover or clear a plan</h2>
+      <div class="guide-content">
+        <h3 class="first-heading">Correct a marked field</h3><p>The marked field keeps your input and receives focus. Number of walkers needs a whole number from 1 to 8. The date is optional; choose a real date with your browser’s date picker, or leave it empty. Correct the field, then select <strong>Prepare plan</strong> again. Your previous prepared or saved plan is kept until the new action succeeds.</p>
+        <h3>Return to a saved plan</h3><p>Select <strong>Return to saved plan</strong> to replace the current fields and prepared result with your saved copy. It becomes Current again. Unsaved edits are replaced.</p>
+        <h3>Clear the plan</h3><p><strong>Clear plan and start again</strong> removes the browser’s saved copy and clears the prepared result. The fields return to Pinefold Loop, 2 walkers, Steady pace and no intended date. Downloaded files are kept wherever you saved them.</p>
+        <h3>If the saved copy cannot be used</h3><p>A warning explains when a saved copy is invalid or browser saving is blocked. An invalid saved copy stays untouched. Prepare and save a new plan to replace it, or clear it explicitly.</p><p>When saving is blocked, you can still prepare a plan and download its text. If the browser cannot clear storage, the fields reset and a warning explains that an old saved copy may return after reload.</p>
+      </div>
+    </section>
+    <section class="guide-section guide-appendix" id="technical-appendix" aria-labelledby="appendix-title">
+      <h2 class="guide-label" id="appendix-title"><span>APPENDIX</span>For builders</h2>
+      <div class="guide-content">
+        <details class="technical-details"><summary>Storage contract and field names</summary><div class="technical-content">
+          <p>Explicit Save writes one Current prepared plan to <code>localStorage</code> under <code>ridgeway.walk-plan.v1</code>. A later Save replaces it. Preparing, editing and downloading do not write to storage. Clear removes that same key.</p>
+          <p>The saved record contains <code>schemaVersion: 1</code>, the four <code>inputs</code> below, the calculated <code>plan</code>, and an ISO timestamp named <code>savedAt</code>. The timestamp records saving; it is not the intended walk date or a booking confirmation. The page validates the stored record and recomputes its calculation before restoring it.</p>
+          <h3>Complete exercise input</h3><pre class="guide-storage-example">{
+  "walkId": "high-meadow",
+  "walkers": 4,
+  "pace": "lingering",
+  "intendedDate": "2026-11-07"
+}</pre>
+          <dl class="reference-list">
+            <div><dt>walkId</dt><dd>“Choose your walk”. Required. <code>pinefold</code> = Pinefold Loop, 4 km, 90 minutes. <code>high-meadow</code> = High Meadow Way, 7.5 km, 150 minutes. <code>granite</code> = Granite Passage, 11 km, 210 minutes. Default: pinefold.</dd></div>
+            <div><dt>walkers</dt><dd>“Number of walkers”. Required integer from 1 to 8. Default: 2. Blank, fractional, negative and larger values are rejected at preparation. Group size does not multiply distance or time.</dd></div>
+            <div><dt>pace</dt><dd>“Pace preference”. <code>steady</code> adds 0 minutes; <code>lingering</code> adds 20. Default: steady. The duration is a sample time allowance, not a tested route estimate.</dd></div>
+            <div><dt>intendedDate</dt><dd>“Intended date”. Optional real calendar date in <code>YYYY-MM-DD</code> form, with a four-digit year from 0001 to 9999. Default: empty, shown as “Not set”. Past and future dates are accepted, without an availability check. Display uses day, month and year without a time zone shift.</dd></div>
+            <div><dt>Prepared plan</dt><dd>Contains the sample name, distance, duration, its time basis, walkers, pace, intended date and imagined sequence. Any field edit makes that snapshot Out of date, including returning a field to its old value. Prepare plan makes a new Current snapshot.</dd></div>
+            <div><dt>Walk links</dt><dd><code>demo.html?walk=granite</code> starts Granite Passage with the other defaults and keeps the saved plan below. A valid explicit walk choice takes priority over restoring saved fields on page load. Unknown walk values are ignored.</dd></div>
+          </dl>
+          <p class="boundary">The walk names, sequences and planning values are fictional. The photograph by Ali Kazal illustrates a scene under the <a href="https://unsplash.com/license">Unsplash License</a>; it does not show a sample route. This example has no backend, account, live availability, payment, real booking or enquiry transmission.</p>
+        </div></details>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer wrap"><a class="footer-brand" href="index.html">Ridgeway</a><p>An original fictional walking service. Your saved plan stays in this browser; a downloaded copy stays wherever you keep it.</p><div class="footer-links"><a href="demo.html">Plan a walk</a><a href="NOTICES.md">Credits &amp; notices</a></div></footer>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "Nora Vale — Original visual portfolio",
+  "type": "portfolio",
+  "centralAction": "Contact the portfolio owner",
+  "fixtureNote": "Nora Vale is fictional. All artwork is original self-initiated work, not client commissions. Contact links use hello@example.com until configured.",
+  "version": "0.1.0",
+  "entry": "index.html",
+  "contactSelector": "[data-begin-contact]",
+  "dependencies": [],
+  "assets": "Original Begin-authored SVG/HTML/CSS artwork; system fonts only."
+}

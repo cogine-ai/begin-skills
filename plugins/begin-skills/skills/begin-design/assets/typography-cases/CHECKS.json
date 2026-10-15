@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-11",
+  "curation_scope": "Byte copies, exact final source/capture identities, resource resolution, JavaScript syntax, SVG XML, JPEG dimensions, font and photograph identities, complete notices and preserved earlier resources. No browser, server or new website build was run during curation.",
+  "static_checks": {
+    "source_files_copied_unchanged": 15,
+    "source_bytes": 1027389,
+    "source_files_match_final_receipt": 15,
+    "opening_captures_copied_unchanged": 6,
+    "opening_capture_bytes": 394457,
+    "desktop_dimensions": [
+      1440,
+      1000
+    ],
+    "phone_dimensions": [
+      390,
+      844
+    ],
+    "capture_scroll_y": 0,
+    "site_resource_checks_passed": 1,
+    "javascript_syntax_checks_passed": 2,
+    "svg_xml_checks_passed": 1,
+    "retained_baseline_files_byte_identical": [
+      "index.html",
+      "itinerary-model.js",
+      "itinerary.js",
+      "mark.svg",
+      "PHOTO.json",
+      "photos/musician.jpg",
+      "fonts/source-sans-3.woff2",
+      "fonts/source-sans-3-OFL.txt"
+    ],
+    "new_font_and_full_notice_match_fetched_identities": 2,
+    "display_font_matches_recorded_inspected_binary": true,
+    "display_font_axes_record": {
+      "file": "candidates/fraunces/site/fonts/fraunces.ttf",
+      "names": [
+        "Fraunces",
+        "Fraunces 9pt Black",
+        "Fraunces-9ptBlack",
+        "Regular"
+      ],
+      "axes": {
+        "opsz": {
+          "min": 9.0,
+          "default": 9.0,
+          "max": 144.0
+        },
+        "wght": {
+          "min": 100.0,
+          "default": 900.0,
+          "max": 900.0
+        },
+        "SOFT": {
+          "min": 0.0,
+          "default": 0.0,
+          "max": 100.0
+        },
+        "WONK": {
+          "min": 0.0,
+          "default": 1.0,
+          "max": 1.0
+        }
+      },
+      "unitsPerEm": 2000,
+      "capHeight": 1400
+    },
+    "body_font_and_full_notice_byte_identical_to_prior_resource": true,
+    "body_name_table_evidence": "Prior verified transfer-cases provenance; exact current binary hash matched, no fresh WOFF2 name-table inspection performed during curation.",
+    "illustrative_photograph_matches_source_identity": true,
+    "photograph_dimensions": [
+      2400,
+      3606
+    ],
+    "preserved_prior_archives_unchanged": 20,
+    "preserved_prior_curated_resources_unchanged": 297
+  },
+  "recorded_native_browser_assertions": {
+    "record": "BROWSER_ASSERTIONS.json",
+    "attempts": 7,
+    "passed": 7,
+    "failed": 0,
+    "scope": "Direct final-source itinerary fixture, prepared totals, keep, reload, conflict blocking, actual text download and refreshed short legend; this is not a complete new behavior or host test."
+  },
+  "recorded_final_responsive_observations": {
+    "record": "RESPONSIVE.json",
+    "observations": 33,
+    "pages": [
+      "index",
+      "demo",
+      "guide"
+    ],
+    "widths": [
+      320,
+      360,
+      500,
+      501,
+      759,
+      760,
+      761,
+      768,
+      1100,
+      1101,
+      1440
+    ],
+    "observations_per_page": 11,
+    "phase": "final-short-legend",
+    "viewport_overflow_observed": false,
+    "fonts_loaded_observations": 33,
+    "all_recorded_headings_report_font_loaded": true
+  },
+  "recorded_final_opening_captures": {
+    "record": "ACCEPTED_CAPTURES.json",
+    "entries": 6,
+    "phase": "final-short-legend",
+    "method": "native viewport",
+    "source_documents_freshly_navigated": true,
+    "all_scroll_y_zero": true,
+    "images_copied_without_transformation": true
+  },
+  "independent_rendered_review": {
+    "record": "REVIEW.md",
+    "scope": "Reviewed home/guide openings, eighteen actual scrolled reading captures, prepared/conflict excerpts, narrow guide and three fresh short-legend task captures. Earlier excerpts contain the old legend and were assessed only for unchanged utility/state layout. Full-page images with omitted layers were rejected as complete-page evidence. The type and state-layout scope is accepted."
+  },
+  "evidence_boundary": "Existing dev.10 Side A local refinement with three actual display-family specimens and a revised chosen family. Equal CSS sizes were an exploratory specimen, not a controlled visible-height or causal font experiment. No new scenario, fresh updated-Skill generation, ordinary-person acceptance, first-draft consistency, all-device/host, deployment or commercial claim."
+}

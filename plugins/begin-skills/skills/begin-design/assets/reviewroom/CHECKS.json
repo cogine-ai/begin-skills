@@ -1,0 +1,392 @@
+{
+  "curated_on": "2026-10-10",
+  "current_curation_checks": {
+    "copied_files_checked": 33,
+    "original_source_and_final_manifest_sha256_matches": 33,
+    "html_pages": 6,
+    "local_resource_references_checked": 146,
+    "javascript_syntax_files": [
+      "assets/reviewroom/attio/site/review.js",
+      "assets/reviewroom/mintlify/site/review.js",
+      "assets/reviewroom/mintlify/site/context.js"
+    ],
+    "local_http_files_served_with_matching_hash": 36,
+    "errors": [],
+    "scope": "Copy integrity, portable file/anchor links, JS syntax, and local static HTTP responses. No browser was used in this curation pass; interaction and rendered behavior were not rerun.",
+    "capture_format_checks": [
+      {
+        "skill_relative_path": "assets/reviewroom/attio/captures/demo-desktop.jpg",
+        "original_trial_relative_path": "captures/final/attio/demo-desktop.png",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "width": 1440,
+        "height": 1000,
+        "source_bytes_unchanged": true,
+        "sha256": "10242464246cec19fcb92cfd0a9df2e36f7fcb6dde37b5599b686c36da23d565"
+      },
+      {
+        "skill_relative_path": "assets/reviewroom/attio/captures/home-desktop.jpg",
+        "original_trial_relative_path": "captures/final/attio/home-desktop.png",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "width": 1440,
+        "height": 1000,
+        "source_bytes_unchanged": true,
+        "sha256": "6d28e652b388d4050b2be1cd67c4510513655013153af05b20a25c25546cf60a"
+      },
+      {
+        "skill_relative_path": "assets/reviewroom/attio/captures/home-phone.jpg",
+        "original_trial_relative_path": "captures/final/attio/home-phone.png",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "width": 390,
+        "height": 844,
+        "source_bytes_unchanged": true,
+        "sha256": "01848ef6d95cc9b02f0572246b2e18176c624fde11a80f5b649483465d090e34"
+      },
+      {
+        "skill_relative_path": "assets/reviewroom/mintlify/captures/demo-desktop.jpg",
+        "original_trial_relative_path": "captures/final/mintlify/demo-desktop.png",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "width": 1440,
+        "height": 1000,
+        "source_bytes_unchanged": true,
+        "sha256": "3dfbe3fc09e928620edc51da5c5c3e961f04dc83c0455b0e788649ad17c611ab"
+      },
+      {
+        "skill_relative_path": "assets/reviewroom/mintlify/captures/home-desktop.jpg",
+        "original_trial_relative_path": "captures/final/mintlify/home-desktop.png",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "width": 1440,
+        "height": 1000,
+        "source_bytes_unchanged": true,
+        "sha256": "b686cc5bb59910f0d89819515f9a5ad49475670f0a023d48ccfaecb34df5143f"
+      },
+      {
+        "skill_relative_path": "assets/reviewroom/mintlify/captures/home-phone.jpg",
+        "original_trial_relative_path": "captures/final/mintlify/home-phone.png",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "width": 390,
+        "height": 844,
+        "source_bytes_unchanged": true,
+        "sha256": "a1eeb2f80855a39911005baf5f5215188342aee8c1874303fb5a8751f55ca49b"
+      }
+    ],
+    "local_http_capture_content_type": "image/jpeg"
+  },
+  "historical_local_trial": {
+    "date": "2026-10-09",
+    "source_checks": [
+      {
+        "direction": "attio",
+        "ready": true,
+        "errors": [],
+        "pages": 3
+      },
+      {
+        "direction": "mintlify",
+        "ready": true,
+        "errors": [],
+        "pages": 3
+      }
+    ],
+    "behavior_after_status_fix": [
+      {
+        "direction": "attio",
+        "view": "desktop",
+        "checks": [
+          "initial state",
+          "empty request focuses required comment",
+          "per-item draft preservation",
+          "change request and literal unicode/text",
+          "approval and disabled repeat",
+          "reload persistence",
+          "all three item choices and scoped comments",
+          "reset and reload",
+          "direct linked selection",
+          "list status styles match all state transitions"
+        ],
+        "passed": true,
+        "phase": "final-after-status-fix"
+      },
+      {
+        "direction": "attio",
+        "view": "phone",
+        "checks": [
+          "initial state",
+          "empty request focuses required comment",
+          "per-item draft preservation",
+          "change request and literal unicode/text",
+          "approval and disabled repeat",
+          "reload persistence",
+          "all three item choices and scoped comments",
+          "reset and reload",
+          "direct linked selection",
+          "list status styles match all state transitions"
+        ],
+        "passed": true,
+        "phase": "final-after-status-fix"
+      },
+      {
+        "direction": "mintlify",
+        "view": "desktop",
+        "checks": [
+          "initial state",
+          "empty request focuses required comment",
+          "per-item draft preservation",
+          "change request and literal unicode/text",
+          "approval and disabled repeat",
+          "reload persistence",
+          "all three item choices and scoped comments",
+          "reset and reload",
+          "direct linked selection",
+          "list status styles match all state transitions"
+        ],
+        "passed": true,
+        "phase": "final-after-status-fix"
+      },
+      {
+        "direction": "mintlify",
+        "view": "phone",
+        "checks": [
+          "initial state",
+          "empty request focuses required comment",
+          "per-item draft preservation",
+          "change request and literal unicode/text",
+          "approval and disabled repeat",
+          "reload persistence",
+          "all three item choices and scoped comments",
+          "reset and reload",
+          "direct linked selection",
+          "list status styles match all state transitions"
+        ],
+        "passed": true,
+        "phase": "final-after-status-fix"
+      }
+    ],
+    "guide_interaction": [
+      {
+        "direction": "attio",
+        "disclosureTested": true,
+        "anchorTested": "#decision",
+        "passed": true
+      },
+      {
+        "direction": "mintlify",
+        "disclosureTested": false,
+        "anchorTested": "#decision",
+        "passed": true
+      }
+    ],
+    "responsive": {
+      "attio": {
+        "observations": 39,
+        "tested_widths": [
+          320,
+          390,
+          649,
+          650,
+          651,
+          768,
+          899,
+          900,
+          901,
+          1099,
+          1100,
+          1101,
+          1440
+        ],
+        "failures": 0
+      },
+      "mintlify": {
+        "observations": 57,
+        "tested_widths": [
+          320,
+          369,
+          370,
+          371,
+          390,
+          649,
+          650,
+          651,
+          759,
+          760,
+          761,
+          768,
+          899,
+          900,
+          901,
+          1099,
+          1100,
+          1101,
+          1440
+        ],
+        "failures": 0
+      }
+    },
+    "status_contrast_minimum": {
+      "attio": 5.55,
+      "mintlify": 5.13
+    },
+    "latest_render_metrics": [
+      {
+        "direction": "attio",
+        "page": "home",
+        "view": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "overflow": 0,
+        "fonts": "loaded",
+        "unloaded_images": []
+      },
+      {
+        "direction": "attio",
+        "page": "demo",
+        "view": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "overflow": 0,
+        "fonts": "loaded",
+        "unloaded_images": [],
+        "workTop": 460.6953125,
+        "commentTop": 574.171875
+      },
+      {
+        "direction": "attio",
+        "page": "guide",
+        "view": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "overflow": 0,
+        "fonts": "loaded",
+        "unloaded_images": []
+      },
+      {
+        "direction": "attio",
+        "page": "home",
+        "view": "phone",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "overflow": 0,
+        "fonts": "loaded",
+        "unloaded_images": []
+      },
+      {
+        "direction": "attio",
+        "page": "demo",
+        "view": "phone",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "overflow": 0,
+        "fonts": "loaded",
+        "unloaded_images": [],
+        "workTop": 590.0859375,
+        "commentTop": 956.25
+      },
+      {
+        "direction": "attio",
+        "page": "guide",
+        "view": "phone",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "overflow": 0,
+        "fonts": "loaded",
+        "unloaded_images": []
+      },
+      {
+        "direction": "mintlify",
+        "page": "home",
+        "view": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "overflow": 0,
+        "fonts": "loaded",
+        "unloaded_images": []
+      },
+      {
+        "direction": "mintlify",
+        "page": "demo",
+        "view": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "overflow": 0,
+        "fonts": "loaded",
+        "unloaded_images": [],
+        "workTop": 460.2734375,
+        "commentTop": 470.2109375
+      },
+      {
+        "direction": "mintlify",
+        "page": "guide",
+        "view": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "overflow": 0,
+        "fonts": "loaded",
+        "unloaded_images": []
+      },
+      {
+        "direction": "mintlify",
+        "page": "home",
+        "view": "phone",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "overflow": 0,
+        "fonts": "loaded",
+        "unloaded_images": []
+      },
+      {
+        "direction": "mintlify",
+        "page": "demo",
+        "view": "phone",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "overflow": 0,
+        "fonts": "loaded",
+        "unloaded_images": [],
+        "workTop": 618.859375,
+        "commentTop": 974.546875
+      },
+      {
+        "direction": "mintlify",
+        "page": "guide",
+        "view": "phone",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "overflow": 0,
+        "fonts": "loaded",
+        "unloaded_images": []
+      }
+    ],
+    "visual_review": {
+      "judgment": "Attio favored for the working review interface; Mintlify favored for explaining version, work, and feedback to a new visitor.",
+      "remaining_tradeoffs": {
+        "attio": "The phone home item list delays the artwork; feature/process explanations repeat.",
+        "mintlify": "The offset desktop hero leaves empty space; sparse feedback and a subtle arc contribute little explanation."
+      },
+      "owner_acceptance": false
+    }
+  },
+  "evidence_limits": [
+    "Fictional local sample with browser storage only",
+    "No production SaaS, account, upload, payment, backend or real client transmission",
+    "No owner acceptance or commercial proof",
+    "No all-host support or repeatability proof",
+    "New adaptations require their own rendered and functional checks"
+  ]
+}

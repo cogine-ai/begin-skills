@@ -1,0 +1,21 @@
+sequenceDiagram
+    %% Status: illustrative fictional system. Requests are solid; replies are dashed.
+    accTitle: Illustrative message submission outcomes
+    accDescr: Invalid fields produce field errors. Valid fields reach storage. The page confirms a save only after storage succeeds.
+    participant page as Visitor page
+    participant server as Enquiry handler
+    participant store as Message store
+    page->>server: Submit message fields
+    server->>server: Validate fields
+    alt Invalid fields
+        server-->>page: Return field errors
+    else Valid fields
+        server->>store: Insert message
+        alt Save succeeds
+            store-->>server: Return message ID
+            server-->>page: Confirm message saved
+        else Save fails
+            store-->>server: Return storage error
+            server-->>page: Explain retry option
+        end
+    end

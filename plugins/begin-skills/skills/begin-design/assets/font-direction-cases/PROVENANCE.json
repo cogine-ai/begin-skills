@@ -1,0 +1,1179 @@
+{
+  "schema_version": 1,
+  "curated_on": "2026-10-11",
+  "curation_snapshot_utc": "2026-10-11T07:01:26.264412+00:00",
+  "trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-font-directions",
+  "copy_method": "Byte-identical stopped final sources and explicit-top actual native viewport openings; no transformed fonts, art or images.",
+  "input_version": "0.1.0-dev.14",
+  "input_archive_sha256": "88eb3452bdccf094793d12ea28f137f3e15df486793da0260ede8431c910b264",
+  "study_kind": "Three guided dev.14 first builds with explicit distinctive font suggestions; complete first sources frozen before native rendering; independent criticism and scoped revisions.",
+  "cases": [
+    {
+      "slug": "tide-club",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "source_file_count": 15,
+      "source_bytes": 596403,
+      "required_notices": [
+        "NOTICES.md",
+        "fonts/OFL-Anton.txt",
+        "fonts/OFL-WorkSans.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/Anton-Regular.ttf",
+          "notice": "fonts/OFL-Anton.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/anton/Anton-Regular.ttf",
+          "source_repository": "https://github.com/google/fonts",
+          "modified": false,
+          "internal_names": [
+            "Anton",
+            "Anton Regular",
+            "Anton-Regular",
+            "Regular"
+          ],
+          "axes": {},
+          "bytes": 170812,
+          "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+        },
+        {
+          "file": "fonts/WorkSans-Variable.ttf",
+          "notice": "fonts/OFL-WorkSans.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/worksans/WorkSans%5Bwght%5D.ttf",
+          "source_repository": "https://github.com/google/fonts",
+          "modified": false,
+          "internal_names": [
+            "Regular",
+            "Work Sans",
+            "Work Sans Regular",
+            "WorkSans-Regular"
+          ],
+          "axes": {
+            "wght": {
+              "min": 100.0,
+              "default": 400.0,
+              "max": 900.0
+            }
+          },
+          "bytes": 361072,
+          "sha256": "f50f61f2ba738e239442d40bf1069adb195c224b6a5a73a581fc2f3ed62a9f63"
+        }
+      ],
+      "bundled_photographs": [],
+      "original_artwork": "Original fictional identity and graphic artwork; no external commercial identity or asset copied.",
+      "runtime": "Fictional browser-local planning example; explicit prepare/keep/recover/reset/forget/download. No booking, purchase, backend or transmission.",
+      "initial_source_preserved": true,
+      "initial_source": {
+        "files": 14,
+        "bytes": 587534,
+        "consumed_input_resources": 8
+      },
+      "final_source_snapshot": [
+        {
+          "path": "NOTICES.md",
+          "bytes": 1206,
+          "sha256": "9a95cc620226172d655ec8ecdd18c05a702e77c0410c78d5e89e0395b3f86f64"
+        },
+        {
+          "path": "app.js",
+          "bytes": 4360,
+          "sha256": "54b91014e2560d16d72e35f71b3065e3e574788d0e2ea56bf13b4a88a83f7fdb"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 7511,
+          "sha256": "7d2e52b92774c8a267dde89a015f746f10136658d8d2dd549f052d98081e3b12"
+        },
+        {
+          "path": "engine.cjs",
+          "bytes": 3185,
+          "sha256": "d60d2ceacd0a2ccfdb00c856bdc7e5cc9232293610bad99fea0a507949bf61f8"
+        },
+        {
+          "path": "fonts/Anton-METADATA.pb",
+          "bytes": 914,
+          "sha256": "53e7d98a610693d7163915083540a2400f2663ec775753230d15861087c116e1"
+        },
+        {
+          "path": "fonts/Anton-Regular.ttf",
+          "bytes": 170812,
+          "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+        },
+        {
+          "path": "fonts/OFL-Anton.txt",
+          "bytes": 4484,
+          "sha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4"
+        },
+        {
+          "path": "fonts/OFL-WorkSans.txt",
+          "bytes": 4396,
+          "sha256": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272"
+        },
+        {
+          "path": "fonts/WorkSans-METADATA.pb",
+          "bytes": 1267,
+          "sha256": "b55627dfda8d7bdb0b2500b0f6b2b942c1f8242bf756ca5c98e8a7cd22b28946"
+        },
+        {
+          "path": "fonts/WorkSans-Variable.ttf",
+          "bytes": 361072,
+          "sha256": "f50f61f2ba738e239442d40bf1069adb195c224b6a5a73a581fc2f3ed62a9f63"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 8220,
+          "sha256": "a49f709d4b069dc428dc1b9b15618aaf8ab93efe7933ca1eaeef435028020352"
+        },
+        {
+          "path": "index.html",
+          "bytes": 3646,
+          "sha256": "b313374a603b3f95af47f831a5bea656b5cbec4c3525c228904a4ff38dd360d7"
+        },
+        {
+          "path": "pool.svg",
+          "bytes": 1553,
+          "sha256": "25e74023d23de2399cf5cd9a480bc91cdf01445795627541e06858a05425d61c"
+        },
+        {
+          "path": "sheet.js",
+          "bytes": 1664,
+          "sha256": "40e43f7cc6c86b53312f6db76031dfadb00566e515d5f5f51d80cd7f871b40f0"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 22113,
+          "sha256": "bcb24d2dff24dfa2f52cf02c5b69e92633c996831238d4a0096b668c499ca6d1"
+        }
+      ],
+      "capture_phase": "final-2"
+    },
+    {
+      "slug": "margin-press",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "source_file_count": 18,
+      "source_bytes": 1056330,
+      "required_notices": [
+        "NOTICES.md",
+        "fonts/bodonimoda-OFL.txt",
+        "fonts/sourcesans3-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/BodoniModa-Roman.ttf",
+          "notice": "fonts/bodonimoda-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/bodonimoda/BodoniModa%5Bopsz%2Cwght%5D.ttf",
+          "source_repository": "https://github.com/google/fonts",
+          "modified": false,
+          "internal_names": [
+            "Bodoni Moda",
+            "Bodoni Moda Regular",
+            "BodoniModa-Regular",
+            "Regular"
+          ],
+          "axes": {
+            "wght": {
+              "min": 400.0,
+              "default": 400.0,
+              "max": 900.0
+            },
+            "opsz": {
+              "min": 6.0,
+              "default": 11.0,
+              "max": 96.0
+            }
+          },
+          "bytes": 162104,
+          "sha256": "550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf"
+        },
+        {
+          "file": "fonts/BodoniModa-Italic.ttf",
+          "notice": "fonts/bodonimoda-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/bodonimoda/BodoniModa-Italic%5Bopsz%2Cwght%5D.ttf",
+          "source_repository": "https://github.com/google/fonts",
+          "modified": false,
+          "internal_names": [
+            "Bodoni Moda",
+            "Bodoni Moda Italic",
+            "BodoniModa-Italic",
+            "Italic"
+          ],
+          "axes": {
+            "wght": {
+              "min": 400.0,
+              "default": 400.0,
+              "max": 900.0
+            },
+            "opsz": {
+              "min": 6.0,
+              "default": 11.0,
+              "max": 96.0
+            }
+          },
+          "bytes": 176300,
+          "sha256": "dfff1619f8f6871c6372f8855b67211f9a73b4e93d45aca868cd8f46a48622de"
+        },
+        {
+          "file": "fonts/SourceSans3-Roman.ttf",
+          "notice": "fonts/sourcesans3-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/sourcesans3/SourceSans3%5Bwght%5D.ttf",
+          "source_repository": "https://github.com/google/fonts",
+          "modified": false,
+          "internal_names": [
+            "Regular",
+            "Source Sans 3",
+            "Source Sans 3 ExtraLight",
+            "SourceSans3-Roman"
+          ],
+          "axes": {
+            "wght": {
+              "min": 200.0,
+              "default": 200.0,
+              "max": 900.0
+            }
+          },
+          "bytes": 646340,
+          "sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9"
+        }
+      ],
+      "bundled_photographs": [],
+      "original_artwork": "Original fictional identity and graphic artwork; no external commercial identity or asset copied.",
+      "runtime": "Fictional browser-local planning example; explicit prepare/keep/recover/reset/forget/download. No booking, purchase, backend or transmission.",
+      "initial_source_preserved": true,
+      "initial_source": {
+        "files": 17,
+        "bytes": 1053510,
+        "consumed_input_resources": 12
+      },
+      "final_source_snapshot": [
+        {
+          "path": "NOTICES.md",
+          "bytes": 1295,
+          "sha256": "112899a25448e97bb63aa43da0bfb75e6cd59b432a76eaeb30db98ecf08b33c4"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 7866,
+          "sha256": "464dd31efd5ab48da79a3aa593bb6fe31b4681f6ecfd87b8d0bd23f6e5d485fa"
+        },
+        {
+          "path": "fonts/BodoniModa-Italic.ttf",
+          "bytes": 176300,
+          "sha256": "dfff1619f8f6871c6372f8855b67211f9a73b4e93d45aca868cd8f46a48622de"
+        },
+        {
+          "path": "fonts/BodoniModa-Roman.ttf",
+          "bytes": 162104,
+          "sha256": "550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf"
+        },
+        {
+          "path": "fonts/FONT_SOURCES.json",
+          "bytes": 2853,
+          "sha256": "0fca476324c57122be28ca773d2964bcb87b80215ebd6db96cd2b1bc7167e337"
+        },
+        {
+          "path": "fonts/SourceSans3-Roman.ttf",
+          "bytes": 646340,
+          "sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9"
+        },
+        {
+          "path": "fonts/bodonimoda-DESCRIPTION.en_us.html",
+          "bytes": 502,
+          "sha256": "87ca8a210b55573b23b69c8483997ca009109ebc44bb3db6fb10843a001efe41"
+        },
+        {
+          "path": "fonts/bodonimoda-METADATA.pb",
+          "bytes": 1468,
+          "sha256": "f4ba29335a79d264135d7062fc1c79e8fa9a076719e99095416334e27aa00489"
+        },
+        {
+          "path": "fonts/bodonimoda-OFL.txt",
+          "bytes": 4400,
+          "sha256": "931dfe2e0cd3c9443295f5c1d754b8a8403bf060df50c1d5900267ade83d0046"
+        },
+        {
+          "path": "fonts/sourcesans3-DESCRIPTION.en_us.html",
+          "bytes": 292,
+          "sha256": "2f8a0cd41ad87407c195c29fcfbc0ce265ed7976d72a410a2c7f6ead65c6cdef"
+        },
+        {
+          "path": "fonts/sourcesans3-METADATA.pb",
+          "bytes": 995,
+          "sha256": "f855c7833e0c780c90e5a797a003f86e1201990c0af65b9c75d0a04c9be05ed7"
+        },
+        {
+          "path": "fonts/sourcesans3-OFL.txt",
+          "bytes": 4579,
+          "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 9698,
+          "sha256": "0f4f196eeef9f12916325e5d5ea55d8edfdea0513b0fb0d751ce20b64e1e742d"
+        },
+        {
+          "path": "index.html",
+          "bytes": 5113,
+          "sha256": "e6c148f6275e31bad293595e8e990811999ecb18decec707b3977138246667b0"
+        },
+        {
+          "path": "reading-text.js",
+          "bytes": 968,
+          "sha256": "c070542801478cb112e551ccd2e19e152637670304bc79b3b087d86c4c5bcc11"
+        },
+        {
+          "path": "shelf-core.js",
+          "bytes": 3740,
+          "sha256": "7a6f04308a62153fe1dd86601b36699f9782c7bd16deb23874beed7ab39bc37a"
+        },
+        {
+          "path": "shelf.js",
+          "bytes": 5910,
+          "sha256": "85000efbc4ba857487b4cf0519114c0c0b16ebb8c43308241b7271ce95043a50"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 21907,
+          "sha256": "d2394029b5dbde84806f00775ed582a2660961426e204e393cc1fa9559409acf"
+        }
+      ],
+      "capture_phase": "final"
+    },
+    {
+      "slug": "open-form",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "source_file_count": 18,
+      "source_bytes": 450259,
+      "required_notices": [
+        "NOTICES.md",
+        "fonts/dm-sans-OFL.txt",
+        "fonts/syne-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/syne.ttf",
+          "notice": "fonts/syne-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/syne/Syne%5Bwght%5D.ttf",
+          "source_repository": "https://github.com/google/fonts",
+          "modified": false,
+          "internal_names": [
+            "Regular",
+            "Syne",
+            "Syne Regular",
+            "Syne-Regular"
+          ],
+          "axes": {
+            "wght": {
+              "min": 400.0,
+              "default": 400.0,
+              "max": 800.0
+            }
+          },
+          "bytes": 146980,
+          "sha256": "ce5ac77142a65cab2248a1a2ebb740b1d4d9c20b52488877d3ff664d1356104a"
+        },
+        {
+          "file": "fonts/dm-sans.ttf",
+          "notice": "fonts/dm-sans-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/dmsans/DMSans%5Bopsz%2Cwght%5D.ttf",
+          "source_repository": "https://github.com/google/fonts",
+          "modified": false,
+          "internal_names": [
+            "DM Sans 9pt",
+            "DM Sans 9pt Regular",
+            "DMSans-9ptRegular",
+            "Regular"
+          ],
+          "axes": {
+            "opsz": {
+              "min": 9.0,
+              "default": 9.0,
+              "max": 40.0
+            },
+            "wght": {
+              "min": 100.0,
+              "default": 400.0,
+              "max": 1000.0
+            }
+          },
+          "bytes": 240164,
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        }
+      ],
+      "bundled_photographs": [],
+      "original_artwork": "Original fictional identity and graphic artwork; no external commercial identity or asset copied.",
+      "runtime": "Fictional browser-local planning example; explicit prepare/keep/recover/reset/forget/download. No booking, purchase, backend or transmission.",
+      "initial_source_preserved": true,
+      "initial_source": {
+        "files": 18,
+        "bytes": 449435,
+        "consumed_input_resources": 10
+      },
+      "final_source_snapshot": [
+        {
+          "path": "NOTICES.md",
+          "bytes": 934,
+          "sha256": "13deff9aebad6795855792c7aec040e4e3dec0f04574a9cf0d56b5accf2f8547"
+        },
+        {
+          "path": "art/print-shapes.svg",
+          "bytes": 772,
+          "sha256": "e9878b4af9a1dd099e03141ba3177d048afd4063fb26ba2483fbbad1428afd29"
+        },
+        {
+          "path": "core.js",
+          "bytes": 4077,
+          "sha256": "55a3bdbe7e49882cfc3afa858b83d1a80e2315059be27130cde0612beae42593"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 7362,
+          "sha256": "170b0983feda1c03b386f059c1ef9bf5e1a6d3ce554b7d370017f8cd637f95f2"
+        },
+        {
+          "path": "fixture-route.txt",
+          "bytes": 956,
+          "sha256": "e6b0043eb8215c253d428fe1d757def8bcfd0a405a14f7921673c2043d48be16"
+        },
+        {
+          "path": "fonts/FONT_SOURCE.json",
+          "bytes": 2443,
+          "sha256": "179803d277e2b5725f225867ac161c9425a3bc6e3b3c4eee39da45ba7680c903"
+        },
+        {
+          "path": "fonts/dm-sans-DESCRIPTION.html",
+          "bytes": 677,
+          "sha256": "f262e10129f274ada6f05a77ecb83539297e3fa9087a56aec5d11cb3335e81c6"
+        },
+        {
+          "path": "fonts/dm-sans-METADATA.pb",
+          "bytes": 1283,
+          "sha256": "55b3697a416f7d08c093918a4019a75cca7186c64bc56b1bb23e197a5d559dee"
+        },
+        {
+          "path": "fonts/dm-sans-OFL.txt",
+          "bytes": 4482,
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        },
+        {
+          "path": "fonts/dm-sans.ttf",
+          "bytes": 240164,
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "path": "fonts/syne-DESCRIPTION.html",
+          "bytes": 1145,
+          "sha256": "20e981506a1a4475f8d055c9eb1b616ada7e65f8ef55f7d6c0bb0e7fc578dfda"
+        },
+        {
+          "path": "fonts/syne-METADATA.pb",
+          "bytes": 924,
+          "sha256": "ed8e42eac65f684ca698aaa4f918b3985c932a7a12d57e55183184fe8dcaadb7"
+        },
+        {
+          "path": "fonts/syne-OFL.txt",
+          "bytes": 4402,
+          "sha256": "cc43cdce6f91c57989af8459341c276655e34224e954fa69c2ad700831a742d8"
+        },
+        {
+          "path": "fonts/syne.ttf",
+          "bytes": 146980,
+          "sha256": "ce5ac77142a65cab2248a1a2ebb740b1d4d9c20b52488877d3ff664d1356104a"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 7520,
+          "sha256": "75d36837ce44d215b653a86b40e49c93e6cdbb7a6097358babf93bb7d7639cf5"
+        },
+        {
+          "path": "index.html",
+          "bytes": 5148,
+          "sha256": "033eb08c8a17ac05d335c9b95dbd21e48143c17dc2c312767b59dd4afc05df2e"
+        },
+        {
+          "path": "route.js",
+          "bytes": 4931,
+          "sha256": "287f2f9c1328e6df0cd55c2c42d2eadfb65be0b26705930d26f909cb4d61429c"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 16059,
+          "sha256": "decca8c00962acbfcbd65e51c16f84abf9963412da2f6c7941b4ec632418424a"
+        }
+      ],
+      "capture_phase": "final-2"
+    }
+  ],
+  "files": [
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/site/NOTICES.md",
+      "bytes": 1206,
+      "sha256": "9a95cc620226172d655ec8ecdd18c05a702e77c0410c78d5e89e0395b3f86f64",
+      "original_trial_relative_path": "tide-club/freeze-final/site/NOTICES.md",
+      "original_sha256": "9a95cc620226172d655ec8ecdd18c05a702e77c0410c78d5e89e0395b3f86f64"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/site/app.js",
+      "bytes": 4360,
+      "sha256": "54b91014e2560d16d72e35f71b3065e3e574788d0e2ea56bf13b4a88a83f7fdb",
+      "original_trial_relative_path": "tide-club/freeze-final/site/app.js",
+      "original_sha256": "54b91014e2560d16d72e35f71b3065e3e574788d0e2ea56bf13b4a88a83f7fdb"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/site/demo.html",
+      "bytes": 7511,
+      "sha256": "7d2e52b92774c8a267dde89a015f746f10136658d8d2dd549f052d98081e3b12",
+      "original_trial_relative_path": "tide-club/freeze-final/site/demo.html",
+      "original_sha256": "7d2e52b92774c8a267dde89a015f746f10136658d8d2dd549f052d98081e3b12"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/site/engine.cjs",
+      "bytes": 3185,
+      "sha256": "d60d2ceacd0a2ccfdb00c856bdc7e5cc9232293610bad99fea0a507949bf61f8",
+      "original_trial_relative_path": "tide-club/freeze-final/site/engine.cjs",
+      "original_sha256": "d60d2ceacd0a2ccfdb00c856bdc7e5cc9232293610bad99fea0a507949bf61f8"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/site/fonts/Anton-METADATA.pb",
+      "bytes": 914,
+      "sha256": "53e7d98a610693d7163915083540a2400f2663ec775753230d15861087c116e1",
+      "original_trial_relative_path": "tide-club/freeze-final/site/fonts/Anton-METADATA.pb",
+      "original_sha256": "53e7d98a610693d7163915083540a2400f2663ec775753230d15861087c116e1"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/site/fonts/Anton-Regular.ttf",
+      "bytes": 170812,
+      "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab",
+      "original_trial_relative_path": "tide-club/freeze-final/site/fonts/Anton-Regular.ttf",
+      "original_sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/site/fonts/OFL-Anton.txt",
+      "bytes": 4484,
+      "sha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4",
+      "original_trial_relative_path": "tide-club/freeze-final/site/fonts/OFL-Anton.txt",
+      "original_sha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/site/fonts/OFL-WorkSans.txt",
+      "bytes": 4396,
+      "sha256": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272",
+      "original_trial_relative_path": "tide-club/freeze-final/site/fonts/OFL-WorkSans.txt",
+      "original_sha256": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/site/fonts/WorkSans-METADATA.pb",
+      "bytes": 1267,
+      "sha256": "b55627dfda8d7bdb0b2500b0f6b2b942c1f8242bf756ca5c98e8a7cd22b28946",
+      "original_trial_relative_path": "tide-club/freeze-final/site/fonts/WorkSans-METADATA.pb",
+      "original_sha256": "b55627dfda8d7bdb0b2500b0f6b2b942c1f8242bf756ca5c98e8a7cd22b28946"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/site/fonts/WorkSans-Variable.ttf",
+      "bytes": 361072,
+      "sha256": "f50f61f2ba738e239442d40bf1069adb195c224b6a5a73a581fc2f3ed62a9f63",
+      "original_trial_relative_path": "tide-club/freeze-final/site/fonts/WorkSans-Variable.ttf",
+      "original_sha256": "f50f61f2ba738e239442d40bf1069adb195c224b6a5a73a581fc2f3ed62a9f63"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/site/guide.html",
+      "bytes": 8220,
+      "sha256": "a49f709d4b069dc428dc1b9b15618aaf8ab93efe7933ca1eaeef435028020352",
+      "original_trial_relative_path": "tide-club/freeze-final/site/guide.html",
+      "original_sha256": "a49f709d4b069dc428dc1b9b15618aaf8ab93efe7933ca1eaeef435028020352"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/site/index.html",
+      "bytes": 3646,
+      "sha256": "b313374a603b3f95af47f831a5bea656b5cbec4c3525c228904a4ff38dd360d7",
+      "original_trial_relative_path": "tide-club/freeze-final/site/index.html",
+      "original_sha256": "b313374a603b3f95af47f831a5bea656b5cbec4c3525c228904a4ff38dd360d7"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/site/pool.svg",
+      "bytes": 1553,
+      "sha256": "25e74023d23de2399cf5cd9a480bc91cdf01445795627541e06858a05425d61c",
+      "original_trial_relative_path": "tide-club/freeze-final/site/pool.svg",
+      "original_sha256": "25e74023d23de2399cf5cd9a480bc91cdf01445795627541e06858a05425d61c"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/site/sheet.js",
+      "bytes": 1664,
+      "sha256": "40e43f7cc6c86b53312f6db76031dfadb00566e515d5f5f51d80cd7f871b40f0",
+      "original_trial_relative_path": "tide-club/freeze-final/site/sheet.js",
+      "original_sha256": "40e43f7cc6c86b53312f6db76031dfadb00566e515d5f5f51d80cd7f871b40f0"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/site/styles.css",
+      "bytes": 22113,
+      "sha256": "bcb24d2dff24dfa2f52cf02c5b69e92633c996831238d4a0096b668c499ca6d1",
+      "original_trial_relative_path": "tide-club/freeze-final/site/styles.css",
+      "original_sha256": "bcb24d2dff24dfa2f52cf02c5b69e92633c996831238d4a0096b668c499ca6d1"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/captures/home-desktop.jpg",
+      "bytes": 126339,
+      "sha256": "e918a7b6425058cf70e0da390b790170134a5b8375beff4b3af0464d092b3bff",
+      "original_trial_relative_path": "captures/final-2/tide-club/home-desktop.jpg",
+      "original_sha256": "e918a7b6425058cf70e0da390b790170134a5b8375beff4b3af0464d092b3bff",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/captures/home-phone.jpg",
+      "bytes": 48309,
+      "sha256": "336f90af68f202f66df02e598caa8a256f7387d1b7f5321d43e81b4830bb2d5f",
+      "original_trial_relative_path": "captures/final-2/tide-club/home-phone.jpg",
+      "original_sha256": "336f90af68f202f66df02e598caa8a256f7387d1b7f5321d43e81b4830bb2d5f",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/captures/demo-desktop.jpg",
+      "bytes": 109018,
+      "sha256": "71883253bb2c44ab498a67951b45bbf38519ff43b9938f62cbb1d8c871ec106c",
+      "original_trial_relative_path": "captures/final-2/tide-club/demo-desktop.jpg",
+      "original_sha256": "71883253bb2c44ab498a67951b45bbf38519ff43b9938f62cbb1d8c871ec106c",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/captures/demo-phone.jpg",
+      "bytes": 48274,
+      "sha256": "82de5d656126ec7b68e060a344375ce07098c66ad2686eb908df05fd4939d73d",
+      "original_trial_relative_path": "captures/final-2/tide-club/demo-phone.jpg",
+      "original_sha256": "82de5d656126ec7b68e060a344375ce07098c66ad2686eb908df05fd4939d73d",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/captures/guide-desktop.jpg",
+      "bytes": 104173,
+      "sha256": "09e6d79583a9129bf59abd1a70c441dab5c8266b1250bf90a2f3dacb7b932d4d",
+      "original_trial_relative_path": "captures/final-2/tide-club/guide-desktop.jpg",
+      "original_sha256": "09e6d79583a9129bf59abd1a70c441dab5c8266b1250bf90a2f3dacb7b932d4d",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/tide-club/captures/guide-phone.jpg",
+      "bytes": 46557,
+      "sha256": "150e3c6809a6df822aa15bb3339f5e8e217542a1e5c9185a9cc300178c4bc4a8",
+      "original_trial_relative_path": "captures/final-2/tide-club/guide-phone.jpg",
+      "original_sha256": "150e3c6809a6df822aa15bb3339f5e8e217542a1e5c9185a9cc300178c4bc4a8",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/NOTICES.md",
+      "bytes": 1295,
+      "sha256": "112899a25448e97bb63aa43da0bfb75e6cd59b432a76eaeb30db98ecf08b33c4",
+      "original_trial_relative_path": "margin-press/freeze-final/site/NOTICES.md",
+      "original_sha256": "112899a25448e97bb63aa43da0bfb75e6cd59b432a76eaeb30db98ecf08b33c4"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/demo.html",
+      "bytes": 7866,
+      "sha256": "464dd31efd5ab48da79a3aa593bb6fe31b4681f6ecfd87b8d0bd23f6e5d485fa",
+      "original_trial_relative_path": "margin-press/freeze-final/site/demo.html",
+      "original_sha256": "464dd31efd5ab48da79a3aa593bb6fe31b4681f6ecfd87b8d0bd23f6e5d485fa"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/fonts/BodoniModa-Italic.ttf",
+      "bytes": 176300,
+      "sha256": "dfff1619f8f6871c6372f8855b67211f9a73b4e93d45aca868cd8f46a48622de",
+      "original_trial_relative_path": "margin-press/freeze-final/site/fonts/BodoniModa-Italic.ttf",
+      "original_sha256": "dfff1619f8f6871c6372f8855b67211f9a73b4e93d45aca868cd8f46a48622de"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/fonts/BodoniModa-Roman.ttf",
+      "bytes": 162104,
+      "sha256": "550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf",
+      "original_trial_relative_path": "margin-press/freeze-final/site/fonts/BodoniModa-Roman.ttf",
+      "original_sha256": "550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/fonts/FONT_SOURCES.json",
+      "bytes": 2853,
+      "sha256": "0fca476324c57122be28ca773d2964bcb87b80215ebd6db96cd2b1bc7167e337",
+      "original_trial_relative_path": "margin-press/freeze-final/site/fonts/FONT_SOURCES.json",
+      "original_sha256": "0fca476324c57122be28ca773d2964bcb87b80215ebd6db96cd2b1bc7167e337"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/fonts/SourceSans3-Roman.ttf",
+      "bytes": 646340,
+      "sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9",
+      "original_trial_relative_path": "margin-press/freeze-final/site/fonts/SourceSans3-Roman.ttf",
+      "original_sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/fonts/bodonimoda-DESCRIPTION.en_us.html",
+      "bytes": 502,
+      "sha256": "87ca8a210b55573b23b69c8483997ca009109ebc44bb3db6fb10843a001efe41",
+      "original_trial_relative_path": "margin-press/freeze-final/site/fonts/bodonimoda-DESCRIPTION.en_us.html",
+      "original_sha256": "87ca8a210b55573b23b69c8483997ca009109ebc44bb3db6fb10843a001efe41"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/fonts/bodonimoda-METADATA.pb",
+      "bytes": 1468,
+      "sha256": "f4ba29335a79d264135d7062fc1c79e8fa9a076719e99095416334e27aa00489",
+      "original_trial_relative_path": "margin-press/freeze-final/site/fonts/bodonimoda-METADATA.pb",
+      "original_sha256": "f4ba29335a79d264135d7062fc1c79e8fa9a076719e99095416334e27aa00489"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/fonts/bodonimoda-OFL.txt",
+      "bytes": 4400,
+      "sha256": "931dfe2e0cd3c9443295f5c1d754b8a8403bf060df50c1d5900267ade83d0046",
+      "original_trial_relative_path": "margin-press/freeze-final/site/fonts/bodonimoda-OFL.txt",
+      "original_sha256": "931dfe2e0cd3c9443295f5c1d754b8a8403bf060df50c1d5900267ade83d0046"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/fonts/sourcesans3-DESCRIPTION.en_us.html",
+      "bytes": 292,
+      "sha256": "2f8a0cd41ad87407c195c29fcfbc0ce265ed7976d72a410a2c7f6ead65c6cdef",
+      "original_trial_relative_path": "margin-press/freeze-final/site/fonts/sourcesans3-DESCRIPTION.en_us.html",
+      "original_sha256": "2f8a0cd41ad87407c195c29fcfbc0ce265ed7976d72a410a2c7f6ead65c6cdef"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/fonts/sourcesans3-METADATA.pb",
+      "bytes": 995,
+      "sha256": "f855c7833e0c780c90e5a797a003f86e1201990c0af65b9c75d0a04c9be05ed7",
+      "original_trial_relative_path": "margin-press/freeze-final/site/fonts/sourcesans3-METADATA.pb",
+      "original_sha256": "f855c7833e0c780c90e5a797a003f86e1201990c0af65b9c75d0a04c9be05ed7"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/fonts/sourcesans3-OFL.txt",
+      "bytes": 4579,
+      "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "original_trial_relative_path": "margin-press/freeze-final/site/fonts/sourcesans3-OFL.txt",
+      "original_sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/guide.html",
+      "bytes": 9698,
+      "sha256": "0f4f196eeef9f12916325e5d5ea55d8edfdea0513b0fb0d751ce20b64e1e742d",
+      "original_trial_relative_path": "margin-press/freeze-final/site/guide.html",
+      "original_sha256": "0f4f196eeef9f12916325e5d5ea55d8edfdea0513b0fb0d751ce20b64e1e742d"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/index.html",
+      "bytes": 5113,
+      "sha256": "e6c148f6275e31bad293595e8e990811999ecb18decec707b3977138246667b0",
+      "original_trial_relative_path": "margin-press/freeze-final/site/index.html",
+      "original_sha256": "e6c148f6275e31bad293595e8e990811999ecb18decec707b3977138246667b0"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/reading-text.js",
+      "bytes": 968,
+      "sha256": "c070542801478cb112e551ccd2e19e152637670304bc79b3b087d86c4c5bcc11",
+      "original_trial_relative_path": "margin-press/freeze-final/site/reading-text.js",
+      "original_sha256": "c070542801478cb112e551ccd2e19e152637670304bc79b3b087d86c4c5bcc11"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/shelf-core.js",
+      "bytes": 3740,
+      "sha256": "7a6f04308a62153fe1dd86601b36699f9782c7bd16deb23874beed7ab39bc37a",
+      "original_trial_relative_path": "margin-press/freeze-final/site/shelf-core.js",
+      "original_sha256": "7a6f04308a62153fe1dd86601b36699f9782c7bd16deb23874beed7ab39bc37a"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/shelf.js",
+      "bytes": 5910,
+      "sha256": "85000efbc4ba857487b4cf0519114c0c0b16ebb8c43308241b7271ce95043a50",
+      "original_trial_relative_path": "margin-press/freeze-final/site/shelf.js",
+      "original_sha256": "85000efbc4ba857487b4cf0519114c0c0b16ebb8c43308241b7271ce95043a50"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/site/styles.css",
+      "bytes": 21907,
+      "sha256": "d2394029b5dbde84806f00775ed582a2660961426e204e393cc1fa9559409acf",
+      "original_trial_relative_path": "margin-press/freeze-final/site/styles.css",
+      "original_sha256": "d2394029b5dbde84806f00775ed582a2660961426e204e393cc1fa9559409acf"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/captures/home-desktop.jpg",
+      "bytes": 94443,
+      "sha256": "ef84e474909fa9b272ac21284052b4f8b8febb255b1ef9388eb51330679edfcd",
+      "original_trial_relative_path": "captures/final/margin-press/home-desktop.jpg",
+      "original_sha256": "ef84e474909fa9b272ac21284052b4f8b8febb255b1ef9388eb51330679edfcd",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/captures/home-phone.jpg",
+      "bytes": 35949,
+      "sha256": "a7ede3cfb6df150577d65bf295d46460054b2f4529228f1e99cc9bd5bbc3518e",
+      "original_trial_relative_path": "captures/final/margin-press/home-phone.jpg",
+      "original_sha256": "a7ede3cfb6df150577d65bf295d46460054b2f4529228f1e99cc9bd5bbc3518e",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/captures/demo-desktop.jpg",
+      "bytes": 87706,
+      "sha256": "e1799a7a176c0f8553dfacb114b2573f453555f086f4c9c8eb135e2576f24fc4",
+      "original_trial_relative_path": "captures/final/margin-press/demo-desktop.jpg",
+      "original_sha256": "e1799a7a176c0f8553dfacb114b2573f453555f086f4c9c8eb135e2576f24fc4",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/captures/demo-phone.jpg",
+      "bytes": 39439,
+      "sha256": "ab36bf56938628c3e35c4feeff65340ea146f5c4379f0fe2570250b2def688df",
+      "original_trial_relative_path": "captures/final/margin-press/demo-phone.jpg",
+      "original_sha256": "ab36bf56938628c3e35c4feeff65340ea146f5c4379f0fe2570250b2def688df",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/captures/guide-desktop.jpg",
+      "bytes": 98215,
+      "sha256": "302272a10161ec617158303f7f27ee91d52e0bcc4a716198777accf3df02d9b1",
+      "original_trial_relative_path": "captures/final/margin-press/guide-desktop.jpg",
+      "original_sha256": "302272a10161ec617158303f7f27ee91d52e0bcc4a716198777accf3df02d9b1",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/margin-press/captures/guide-phone.jpg",
+      "bytes": 41219,
+      "sha256": "2f7973cca0dc227a1ed031a3c451e9231098aee71965bbdea1a3713fa0a4605f",
+      "original_trial_relative_path": "captures/final/margin-press/guide-phone.jpg",
+      "original_sha256": "2f7973cca0dc227a1ed031a3c451e9231098aee71965bbdea1a3713fa0a4605f",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/NOTICES.md",
+      "bytes": 934,
+      "sha256": "13deff9aebad6795855792c7aec040e4e3dec0f04574a9cf0d56b5accf2f8547",
+      "original_trial_relative_path": "open-form/freeze-final/site/NOTICES.md",
+      "original_sha256": "13deff9aebad6795855792c7aec040e4e3dec0f04574a9cf0d56b5accf2f8547"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/art/print-shapes.svg",
+      "bytes": 772,
+      "sha256": "e9878b4af9a1dd099e03141ba3177d048afd4063fb26ba2483fbbad1428afd29",
+      "original_trial_relative_path": "open-form/freeze-final/site/art/print-shapes.svg",
+      "original_sha256": "e9878b4af9a1dd099e03141ba3177d048afd4063fb26ba2483fbbad1428afd29"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/core.js",
+      "bytes": 4077,
+      "sha256": "55a3bdbe7e49882cfc3afa858b83d1a80e2315059be27130cde0612beae42593",
+      "original_trial_relative_path": "open-form/freeze-final/site/core.js",
+      "original_sha256": "55a3bdbe7e49882cfc3afa858b83d1a80e2315059be27130cde0612beae42593"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/demo.html",
+      "bytes": 7362,
+      "sha256": "170b0983feda1c03b386f059c1ef9bf5e1a6d3ce554b7d370017f8cd637f95f2",
+      "original_trial_relative_path": "open-form/freeze-final/site/demo.html",
+      "original_sha256": "170b0983feda1c03b386f059c1ef9bf5e1a6d3ce554b7d370017f8cd637f95f2"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/fixture-route.txt",
+      "bytes": 956,
+      "sha256": "e6b0043eb8215c253d428fe1d757def8bcfd0a405a14f7921673c2043d48be16",
+      "original_trial_relative_path": "open-form/freeze-final/site/fixture-route.txt",
+      "original_sha256": "e6b0043eb8215c253d428fe1d757def8bcfd0a405a14f7921673c2043d48be16"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/fonts/FONT_SOURCE.json",
+      "bytes": 2443,
+      "sha256": "179803d277e2b5725f225867ac161c9425a3bc6e3b3c4eee39da45ba7680c903",
+      "original_trial_relative_path": "open-form/freeze-final/site/fonts/FONT_SOURCE.json",
+      "original_sha256": "179803d277e2b5725f225867ac161c9425a3bc6e3b3c4eee39da45ba7680c903"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/fonts/dm-sans-DESCRIPTION.html",
+      "bytes": 677,
+      "sha256": "f262e10129f274ada6f05a77ecb83539297e3fa9087a56aec5d11cb3335e81c6",
+      "original_trial_relative_path": "open-form/freeze-final/site/fonts/dm-sans-DESCRIPTION.html",
+      "original_sha256": "f262e10129f274ada6f05a77ecb83539297e3fa9087a56aec5d11cb3335e81c6"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/fonts/dm-sans-METADATA.pb",
+      "bytes": 1283,
+      "sha256": "55b3697a416f7d08c093918a4019a75cca7186c64bc56b1bb23e197a5d559dee",
+      "original_trial_relative_path": "open-form/freeze-final/site/fonts/dm-sans-METADATA.pb",
+      "original_sha256": "55b3697a416f7d08c093918a4019a75cca7186c64bc56b1bb23e197a5d559dee"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/fonts/dm-sans-OFL.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+      "original_trial_relative_path": "open-form/freeze-final/site/fonts/dm-sans-OFL.txt",
+      "original_sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/fonts/dm-sans.ttf",
+      "bytes": 240164,
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+      "original_trial_relative_path": "open-form/freeze-final/site/fonts/dm-sans.ttf",
+      "original_sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/fonts/syne-DESCRIPTION.html",
+      "bytes": 1145,
+      "sha256": "20e981506a1a4475f8d055c9eb1b616ada7e65f8ef55f7d6c0bb0e7fc578dfda",
+      "original_trial_relative_path": "open-form/freeze-final/site/fonts/syne-DESCRIPTION.html",
+      "original_sha256": "20e981506a1a4475f8d055c9eb1b616ada7e65f8ef55f7d6c0bb0e7fc578dfda"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/fonts/syne-METADATA.pb",
+      "bytes": 924,
+      "sha256": "ed8e42eac65f684ca698aaa4f918b3985c932a7a12d57e55183184fe8dcaadb7",
+      "original_trial_relative_path": "open-form/freeze-final/site/fonts/syne-METADATA.pb",
+      "original_sha256": "ed8e42eac65f684ca698aaa4f918b3985c932a7a12d57e55183184fe8dcaadb7"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/fonts/syne-OFL.txt",
+      "bytes": 4402,
+      "sha256": "cc43cdce6f91c57989af8459341c276655e34224e954fa69c2ad700831a742d8",
+      "original_trial_relative_path": "open-form/freeze-final/site/fonts/syne-OFL.txt",
+      "original_sha256": "cc43cdce6f91c57989af8459341c276655e34224e954fa69c2ad700831a742d8"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/fonts/syne.ttf",
+      "bytes": 146980,
+      "sha256": "ce5ac77142a65cab2248a1a2ebb740b1d4d9c20b52488877d3ff664d1356104a",
+      "original_trial_relative_path": "open-form/freeze-final/site/fonts/syne.ttf",
+      "original_sha256": "ce5ac77142a65cab2248a1a2ebb740b1d4d9c20b52488877d3ff664d1356104a"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/guide.html",
+      "bytes": 7520,
+      "sha256": "75d36837ce44d215b653a86b40e49c93e6cdbb7a6097358babf93bb7d7639cf5",
+      "original_trial_relative_path": "open-form/freeze-final/site/guide.html",
+      "original_sha256": "75d36837ce44d215b653a86b40e49c93e6cdbb7a6097358babf93bb7d7639cf5"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/index.html",
+      "bytes": 5148,
+      "sha256": "033eb08c8a17ac05d335c9b95dbd21e48143c17dc2c312767b59dd4afc05df2e",
+      "original_trial_relative_path": "open-form/freeze-final/site/index.html",
+      "original_sha256": "033eb08c8a17ac05d335c9b95dbd21e48143c17dc2c312767b59dd4afc05df2e"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/route.js",
+      "bytes": 4931,
+      "sha256": "287f2f9c1328e6df0cd55c2c42d2eadfb65be0b26705930d26f909cb4d61429c",
+      "original_trial_relative_path": "open-form/freeze-final/site/route.js",
+      "original_sha256": "287f2f9c1328e6df0cd55c2c42d2eadfb65be0b26705930d26f909cb4d61429c"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/site/styles.css",
+      "bytes": 16059,
+      "sha256": "decca8c00962acbfcbd65e51c16f84abf9963412da2f6c7941b4ec632418424a",
+      "original_trial_relative_path": "open-form/freeze-final/site/styles.css",
+      "original_sha256": "decca8c00962acbfcbd65e51c16f84abf9963412da2f6c7941b4ec632418424a"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/captures/home-desktop.jpg",
+      "bytes": 94522,
+      "sha256": "b37f583897c7f9d26b6d41b0acab3b923e8f4f2e39172786f0a8891c19083814",
+      "original_trial_relative_path": "captures/final-2/open-form/home-desktop.jpg",
+      "original_sha256": "b37f583897c7f9d26b6d41b0acab3b923e8f4f2e39172786f0a8891c19083814",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/captures/home-phone.jpg",
+      "bytes": 50671,
+      "sha256": "a290af6ded81449056474238c115203f378c49cf05e3a0e4803b37556883d8b5",
+      "original_trial_relative_path": "captures/final-2/open-form/home-phone.jpg",
+      "original_sha256": "a290af6ded81449056474238c115203f378c49cf05e3a0e4803b37556883d8b5",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/captures/demo-desktop.jpg",
+      "bytes": 114928,
+      "sha256": "667f394cf5d17f04c97cbb59ed58db5312170475bff6f5018e2e215fc7cbb3b7",
+      "original_trial_relative_path": "captures/final-2/open-form/demo-desktop.jpg",
+      "original_sha256": "667f394cf5d17f04c97cbb59ed58db5312170475bff6f5018e2e215fc7cbb3b7",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/captures/demo-phone.jpg",
+      "bytes": 45319,
+      "sha256": "be83ea7e36ea89184afaf124eb2af2cef3156709eb422d5034e1c297580c92ae",
+      "original_trial_relative_path": "captures/final-2/open-form/demo-phone.jpg",
+      "original_sha256": "be83ea7e36ea89184afaf124eb2af2cef3156709eb422d5034e1c297580c92ae",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/captures/guide-desktop.jpg",
+      "bytes": 98192,
+      "sha256": "fa7e179fdabf7df4e3bc82d6c2fa1ce1f62a6a49c4515e25f08964c45d2e69cc",
+      "original_trial_relative_path": "captures/final-2/open-form/guide-desktop.jpg",
+      "original_sha256": "fa7e179fdabf7df4e3bc82d6c2fa1ce1f62a6a49c4515e25f08964c45d2e69cc",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/open-form/captures/guide-phone.jpg",
+      "bytes": 43487,
+      "sha256": "993c348279383fe84f56927023d46d61700bafa670d9bd9e853e3357d672ad54",
+      "original_trial_relative_path": "captures/final-2/open-form/guide-phone.jpg",
+      "original_sha256": "993c348279383fe84f56927023d46d61700bafa670d9bd9e853e3357d672ad54",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Actual native viewport via cua_repl"
+      }
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/NOTICES.md",
+      "bytes": 322,
+      "sha256": "0b94c9fdda47ccbc22e854d5600fed0917dc1a81e72fa294da60030947fd1ee7"
+    },
+    {
+      "skill_relative_path": "assets/font-direction-cases/CHECKS.json",
+      "bytes": 132135,
+      "sha256": "182354f8887439e902d5055c6474eb85f6d62ddd36dd055b0f8d0099ae0fedb3"
+    },
+    {
+      "skill_relative_path": "references/font-directions.md",
+      "bytes": 7543,
+      "sha256": "b7295ebbe3ec759da20bc67af7e9cbfa087049d0fbf152c2f5345ce8e8584a95"
+    }
+  ]
+}

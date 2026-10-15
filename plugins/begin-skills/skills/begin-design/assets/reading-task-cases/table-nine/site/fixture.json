@@ -1,0 +1,62 @@
+{
+  "title": "One evening at Table Nine",
+  "note": "Confirm dietary needs directly before service.",
+  "guests": [
+    {
+      "id": "G01",
+      "name": "Aida Moreno",
+      "dietary": "Vegetarian",
+      "table": "north",
+      "seat": "1"
+    },
+    {
+      "id": "G02",
+      "name": "Noor Rahman",
+      "dietary": "No peanuts",
+      "table": "north",
+      "seat": "2"
+    },
+    {
+      "id": "G03",
+      "name": "Celia Park",
+      "dietary": "None",
+      "table": "north",
+      "seat": "3"
+    },
+    {
+      "id": "G04",
+      "name": "Lucian Bell",
+      "dietary": "Vegan",
+      "table": "north",
+      "seat": "4"
+    },
+    {
+      "id": "G05",
+      "name": "Mara Ellery",
+      "dietary": "No dairy",
+      "table": "south",
+      "seat": "1"
+    },
+    {
+      "id": "G06",
+      "name": "Émile Laurent",
+      "dietary": "None",
+      "table": "south",
+      "seat": "2"
+    },
+    {
+      "id": "G07",
+      "name": "Rowan Cole",
+      "dietary": "Vegetarian",
+      "table": "south",
+      "seat": "3"
+    },
+    {
+      "id": "G08",
+      "name": "Tess Okafor",
+      "dietary": "None",
+      "table": "south",
+      "seat": "4"
+    }
+  ]
+}

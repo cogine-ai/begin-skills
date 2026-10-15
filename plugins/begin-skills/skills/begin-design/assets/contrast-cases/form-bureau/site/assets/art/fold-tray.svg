@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img" aria-labelledby="title desc">
+<title id="title">Fold 02 shallow correspondence tray</title><desc id="desc">A brushed aluminium rectangular tray in perspective, with folded corners, slender lifted edges and a darker inner plane.</desc>
+<defs><linearGradient id="floor" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c3c7ca"/><stop offset=".48" stop-color="#f4f3ef"/><stop offset="1" stop-color="#9ca5ab"/></linearGradient><linearGradient id="rim"><stop stop-color="#eef0ee"/><stop offset=".5" stop-color="#9fa8ad"/><stop offset="1" stop-color="#d1d7d8"/></linearGradient><pattern id="grain" patternUnits="userSpaceOnUse" width="4" height="4"><path d="M0 1h4" stroke="#eff2f2" stroke-width=".5" opacity=".4"/></pattern><filter id="s"><feGaussianBlur stdDeviation="7"/></filter></defs>
+<ellipse cx="244" cy="260" rx="160" ry="25" fill="#343a41" opacity=".17" filter="url(#s)"/>
+<path d="m54 152 219-57 158 92-208 79z" fill="#909aa0"/><path d="m54 131 218-61 159 97-208 78z" fill="url(#floor)"/>
+<path d="m54 131 13 28 154 80 2 27-169-91z" fill="url(#rim)"/><path d="m223 245 208-78-10 30-198 69z" fill="#939fa5"/>
+<path d="m54 131 218-61 3 20-208 69z" fill="url(#rim)"/><path d="m272 70 159 97-12 21-144-98z" fill="#b7c1c5"/>
+<path d="m70 157 207-64 137 93-190 60z" fill="url(#floor)"/><path d="m70 157 207-64 137 93-190 60z" fill="url(#grain)"/>
+<path d="m55 131 219-61 157 97M70 157l154 89 190-60" stroke="#f6f8f5" stroke-width="2" fill="none"/><path d="m275 90 2 3M68 157l2 1m344 28 5 2m-195 58-1-1" stroke="#67767e" stroke-width="2"/>
+<path d="m104 157 158-47" stroke="#fff" opacity=".38"/><path d="m132 180 153-46" stroke="#fff" opacity=".24"/><path d="m178 208 144-45" stroke="#fff" opacity=".3"/>
+</svg>

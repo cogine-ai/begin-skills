@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-labelledby="title desc">
+<title id="title">The imagined Canal Circuit</title><desc id="desc">An original looping line connects a start flag, a canal bend, a bridge and a finish flag. This is graphic club material, not a navigable map.</desc>
+<defs><pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M 80 0 L 0 0 0 80" fill="none" stroke="#c7d3be" stroke-opacity=".13" stroke-width="1"/></pattern></defs>
+<path fill="#182419" d="M0 0h1280v560H0z"/><path fill="url(#grid)" d="M0 0h1280v560H0z"/>
+<path d="M-30 390C210 285 292 341 412 270S630 199 760 80 1004 157 1300 7" fill="none" stroke="#a8bda3" stroke-width="27" stroke-opacity=".12"/>
+<path d="M-30 390C210 285 292 341 412 270S630 199 760 80 1004 157 1300 7" fill="none" stroke="#a8bda3" stroke-width="1" stroke-opacity=".6"/>
+<g fill="none" stroke="#c7d3be" stroke-width="1" stroke-opacity=".3"><path d="M130 0l90 560M370 0l-120 560M570 0l130 560M1080 0l-160 560"/><path d="M0 173l1280 45M0 426l1280-85"/></g>
+<path d="M263 386C174 367 134 297 185 228C231 166 334 191 375 141C405 104 451 91 505 117L574 158C613 181 683 160 726 194L793 244C843 282 922 213 977 252C1039 296 1058 364 997 401C938 435 848 443 778 418L677 382C605 356 554 426 495 424L382 422C325 421 323 401 263 386Z" fill="none" stroke="#dfff39" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#182419" stroke="#dfff39" stroke-width="6"><circle cx="263" cy="386" r="17"/><circle cx="506" cy="117" r="17"/><circle cx="978" cy="253" r="17"/></g>
+<g stroke="#f6f3ea" stroke-width="3" fill="none"><path d="M230 358V297l54 14-54 18"/><path d="m717 188 35-26m-26 39 35-26"/></g>
+<g fill="#f6f3ea"><path d="m389 135 17 4-13 12Z"/><path d="m875 238 16-1-8 15Z"/><path d="m563 399-17 3 7-16Z"/></g>
+<circle cx="1157" cy="93" r="36" fill="none" stroke="#f6f3ea" stroke-opacity=".5"/><path d="m1157 71 9 34-9-5-9 5Z" fill="#dfff39"/>
+</svg>

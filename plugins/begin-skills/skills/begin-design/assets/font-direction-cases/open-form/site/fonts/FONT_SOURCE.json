@@ -1,0 +1,54 @@
+{
+  "google_fonts_commit": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+  "retrieved": "2026-10-11",
+  "files": [
+    {
+      "file": "fonts/syne.ttf",
+      "source": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/syne/Syne%5Bwght%5D.ttf",
+      "bytes": 146980,
+      "sha256": "ce5ac77142a65cab2248a1a2ebb740b1d4d9c20b52488877d3ff664d1356104a"
+    },
+    {
+      "file": "fonts/syne-OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/syne/OFL.txt",
+      "bytes": 4402,
+      "sha256": "cc43cdce6f91c57989af8459341c276655e34224e954fa69c2ad700831a742d8"
+    },
+    {
+      "file": "fonts/syne-METADATA.pb",
+      "source": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/syne/METADATA.pb",
+      "bytes": 924,
+      "sha256": "ed8e42eac65f684ca698aaa4f918b3985c932a7a12d57e55183184fe8dcaadb7"
+    },
+    {
+      "file": "fonts/syne-DESCRIPTION.html",
+      "source": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/syne/DESCRIPTION.en_us.html",
+      "bytes": 1145,
+      "sha256": "20e981506a1a4475f8d055c9eb1b616ada7e65f8ef55f7d6c0bb0e7fc578dfda"
+    },
+    {
+      "file": "fonts/dm-sans.ttf",
+      "source": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/dmsans/DMSans%5Bopsz%2Cwght%5D.ttf",
+      "bytes": 240164,
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "file": "fonts/dm-sans-OFL.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/dmsans/OFL.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "file": "fonts/dm-sans-METADATA.pb",
+      "source": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/dmsans/METADATA.pb",
+      "bytes": 1283,
+      "sha256": "55b3697a416f7d08c093918a4019a75cca7186c64bc56b1bb23e197a5d559dee"
+    },
+    {
+      "file": "fonts/dm-sans-DESCRIPTION.html",
+      "source": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/dmsans/DESCRIPTION.en_us.html",
+      "bytes": 677,
+      "sha256": "f262e10129f274ada6f05a77ecb83539297e3fa9087a56aec5d11cb3335e81c6"
+    }
+  ]
+}

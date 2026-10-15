@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1040">
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1">
+      <stop stop-color="#d6d1e5" />
+      <stop offset="1" stop-color="#ece7f0" />
+    </linearGradient>
+    <radialGradient id="ball" cx=".33" cy=".26">
+      <stop stop-color="#fff2d9" />
+      <stop offset=".65" stop-color="#e3baa0" />
+      <stop offset="1" stop-color="#b97964" />
+    </radialGradient>
+    <linearGradient id="arch" x2="1" y2="0">
+      <stop stop-color="#8b95cc" />
+      <stop offset="1" stop-color="#4e578d" />
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="22" /></filter>
+  </defs>
+  <rect width="1000" height="1040" fill="url(#bg)" />
+  <path d="M0 746h1000v294H0z" fill="#e9e4ed" />
+  <ellipse
+    cx="535"
+    cy="842"
+    rx="325"
+    ry="55"
+    fill="#a7a0b5"
+    opacity=".3"
+    filter="url(#blur)"
+  />
+  <path d="M132 657h404v168H132z" fill="#cec7dc" />
+  <path d="m132 657 104-69h404l-104 69z" fill="#f5f0f6" />
+  <path d="m536 657 104-69v168l-104 68z" fill="#b2a8c5" />
+  <circle cx="363" cy="465" r="195" fill="url(#ball)" />
+  <path
+    d="M591 814V437a149 149 0 0 1 298 0v377h-85V437a64 64 0 0 0-128 0v377z"
+    fill="url(#arch)"
+  />
+  <ellipse cx="740" cy="814" rx="149" ry="29" fill="#505887" />
+  <path
+    d="M183 139c33-24 50-12 66 9m-34-46 5 75"
+    stroke="#827794"
+    stroke-width="3"
+    fill="none"
+  />
+  <text
+    x="60"
+    y="975"
+    fill="#71677f"
+    font-family="Arial,sans-serif"
+    font-size="14"
+    letter-spacing="3"
+  >
+    STILL FORM / AN ORIGINAL OBJECT STUDY
+  </text>
+</svg>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Prepare a review brief for the fictional Handoff Office service. Save your draft in this browser or download a prepared text file. Nothing is sent.">
+  <meta name="theme-color" content="#f5f4ee">
+  <title>Prepare a review brief — Handoff Office</title>
+  <link rel="preload" href="fonts/fieldnotes-sans.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="brief-core.js" defer></script>
+  <script src="brief.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header wrap"><a class="brand" href="index.html" aria-label="Handoff Office home"><span class="brand-mark" aria-hidden="true">↗</span><span>Handoff<br>Office</span></a><nav aria-label="Main navigation"><a href="index.html#services">Services</a><a href="demo.html" aria-current="page">Prepare a brief <span aria-hidden="true">↗</span></a><a href="guide.html">Guide</a></nav></header>
+  <main id="main" class="wrap brief-main">
+    <header class="page-heading"><h1>Prepare a review brief</h1><p>Describe one task and the people who need to complete it. This fictional example prepares text on your device. No message or document is uploaded.</p></header>
+    <noscript><p class="notice">This brief tool needs JavaScript. You can still <a href="guide.html">read the field guide</a> and write the same four details in a text file.</p></noscript>
+    <div class="brief-layout">
+      <section class="input-panel" aria-labelledby="current-title"><div class="panel-heading"><h2 id="current-title">Current input</h2><span class="paper-number">01</span></div>
+      <form id="brief-form" novalidate>
+        <fieldset class="scope-choices"><legend>Scope</legend><div class="scope-options"><label class="scope-choice"><input type="radio" name="scope" value="document-review" checked><span><strong>Guide review</strong><small>Review an existing document</small></span></label><label class="scope-choice"><input type="radio" name="scope" value="support-handoff"><span><strong>Support handoff</strong><small>Shape a diagnostic support task</small></span></label></div><p class="field-error" id="scope-error" hidden></p></fieldset>
+        <div class="selected-scope" id="scope-note"><strong>Guide review includes</strong><p>An annotated draft, open questions, and revised instructions for the agreed section.</p></div>
+        <div class="field"><label for="audience">Audience</label><p class="field-hint" id="audience-hint">Name who will follow the instructions and what they already know.</p><input id="audience" name="audience" type="text" autocomplete="off" maxlength="200" placeholder="First-time users setting up the sensor" aria-describedby="audience-hint audience-error" required><p class="field-error" id="audience-error" hidden></p></div>
+        <div class="field"><label for="handoff-date">Intended handoff date</label><p class="field-hint" id="date-hint">Choose today or a future date. This is a target, not an agreed delivery date.</p><input id="handoff-date" name="handoffDate" type="date" aria-describedby="date-hint handoffDate-error" required><p class="field-error" id="handoffDate-error" hidden></p></div>
+        <div class="field"><label for="problem">Current problem</label><p class="field-hint" id="problem-hint">Describe the step that causes difficulty and what the reader needs to do. Use at least 24 characters and 5 words; omit private or sensitive information.</p><textarea id="problem" name="problem" rows="5" maxlength="2000" placeholder="The setup guide says to wait for the sensor to be ready, but it never names the status light or explains when to stop retrying." aria-describedby="problem-hint problem-error" required></textarea><p class="field-error" id="problem-error" hidden></p></div>
+        <p class="validation-summary" id="validation-summary" role="alert" hidden></p>
+        <button class="button primary prepare-button" type="submit">Prepare a review brief <span aria-hidden="true">↗</span></button>
+      </form>
+      </section>
+      <section class="prepared-panel" aria-labelledby="prepared-title"><div class="panel-heading"><h2 id="prepared-title" tabindex="-1">Prepared brief</h2><span class="paper-number">02</span></div><div class="status-row"><span class="status-badge" id="prepared-state">Not prepared</span><p id="state-explanation" aria-live="polite">Fill in the current input, then prepare your brief.</p></div><div class="empty-result" id="empty-result"><p>Your prepared text will appear here.</p><a class="text-link" href="guide.html#example">See a complete example <span aria-hidden="true">↗</span></a></div><div id="prepared-content" hidden><p class="prepared-date" id="prepared-date"></p><pre class="brief-text" id="brief-text"></pre></div><div class="export-actions"><button class="button secondary" id="copy-brief" type="button" disabled>Copy brief</button><button class="button secondary" id="download-brief" type="button" disabled>Download .txt <span aria-hidden="true">↓</span></button></div><p class="export-status" id="export-status" aria-live="polite"></p><p class="small-note">Preparing, saving, copying, and downloading do not send a message or book work.</p></section>
+      <section class="local-tools" aria-label="Local saving and reset"><div class="local-actions"><button class="button secondary" id="save-local" type="button">Save locally</button><button class="quiet-button" id="reset" type="button" aria-controls="reset-confirmation" aria-expanded="false">Reset</button></div><p class="save-status" id="save-status" aria-live="polite">No local save yet</p><p class="small-note">A local save keeps the current input and the last prepared brief in this browser on this site. It is not shared with Handoff Office.</p><div class="reset-confirmation" id="reset-confirmation" hidden><p>Clear the input, prepared brief, and this site's local save?</p><div><button class="button secondary" id="confirm-reset" type="button">Clear this brief</button><button class="quiet-button" id="cancel-reset" type="button">Keep working</button></div></div></section>
+    </div>
+    <section class="brief-bottom"><p>Need help naming the task? <a href="guide.html">Use the brief guide</a>.</p><p><a href="mailto:demo@example.invalid">Example contact: demo@example.invalid</a><span class="small-note">Opens an email app. The address is a fixture.</span></p></section>
+  </main>
+  <footer class="wrap site-footer"><p>Handoff Office · A fictional service example</p><a href="index.html">Explore the service</a><a href="guide.html">Using the brief</a></footer>
+</body>
+</html>

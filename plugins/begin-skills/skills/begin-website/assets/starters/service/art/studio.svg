@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 440">
+  <rect width="620" height="440" fill="#d8c7bd" />
+  <rect x="42" y="38" width="536" height="364" fill="#f7f1e8" />
+  <g font-family="Arial,sans-serif" fill="#493832">
+    <text x="64" y="70" font-size="12" font-weight="700">COMMON / STUDIO</text>
+    <text x="490" y="70" font-size="9">CONTACT ↗</text>
+  </g>
+  <text
+    x="63"
+    y="144"
+    fill="#493832"
+    font-family="Georgia,serif"
+    font-size="44"
+  >
+    A clear offer.
+  </text>
+  <text
+    x="63"
+    y="189"
+    fill="#493832"
+    font-family="Georgia,serif"
+    font-size="44"
+    font-style="italic"
+  >
+    A useful next step.
+  </text>
+  <rect x="64" y="229" width="235" height="119" fill="#c98263" />
+  <circle cx="181" cy="290" r="36" fill="#ecd8b9" />
+  <path d="M152 290h58M181 261v58" stroke="#493832" stroke-width="2" />
+  <rect x="313" y="229" width="242" height="119" fill="#7f8b90" />
+  <path d="m358 312 77-60 77 60z" fill="#f2ebda" />
+  <g font-family="Arial,sans-serif" fill="#493832" font-size="8">
+    <text x="64" y="373">ORIGINAL SERVICE SITE CONCEPT</text>
+    <text x="423" y="373">SELF-INITIATED WORK</text>
+  </g>
+</svg>

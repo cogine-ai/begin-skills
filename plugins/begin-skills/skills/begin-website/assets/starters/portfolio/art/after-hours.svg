@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 850">
+  <rect width="820" height="850" fill="#d4bf97" />
+  <rect x="50" y="46" width="720" height="758" fill="#33477b" />
+  <path d="M236 618V314a174 174 0 0 1 348 0v304z" fill="#ddbd84" />
+  <circle cx="413" cy="350" r="93" fill="#e59173" />
+  <path d="M236 438h348M410 146v474" stroke="#33477b" stroke-width="13" />
+  <path d="M178 640h464" stroke="#e5ce9f" stroke-width="3" />
+  <g fill="#e5ce9f" text-anchor="middle">
+    <text
+      x="410"
+      y="705"
+      font-family="Georgia,serif"
+      font-size="43"
+      font-style="italic"
+    >
+      After hours.
+    </text>
+    <text
+      x="410"
+      y="745"
+      font-family="Arial,sans-serif"
+      font-size="10"
+      letter-spacing="3"
+    >
+      A SLOWER KIND OF EVENING
+    </text>
+  </g>
+  <text
+    x="81"
+    y="86"
+    fill="#e5ce9f"
+    font-family="Arial,sans-serif"
+    font-size="9"
+    letter-spacing="2"
+  >
+    ORIGINAL IDENTITY CONCEPT
+  </text>
+</svg>

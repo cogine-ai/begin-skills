@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Edit seven invented daily rainfall readings and prepare a complete local analysis."><title>Analysis desk — Cloudline</title><link rel="stylesheet" href="styles.css"><link rel="icon" href="mark.svg" type="image/svg+xml"><script defer src="model.js"></script><script defer src="desk.js"></script></head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><a class="brand" href="index.html" aria-label="Cloudline home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3 15h26M8 21v7M16 19v9M24 22v6M7 15a6 6 0 0 1 10-5 5 5 0 0 1 9 5"/></svg>Cloudline</a><nav aria-label="Main navigation"><a href="index.html">The observation</a><a href="demo.html" aria-current="page">Make an analysis</a><a href="guide.html">Field guide</a></nav></header>
+<main id="main" class="page-width desk-page">
+  <div class="desk-heading"><div><p class="eyebrow">The analysis desk</p><h1>Read your week</h1></div><p>Change the invented record, choose a comparison line, and prepare a complete report. Everything stays in this browser.</p></div>
+  <noscript><p class="notice error">JavaScript is needed to prepare, download and keep an analysis. You can still read the observation and field guide.</p></noscript>
+  <div class="desk-layout">
+    <section class="input-section" aria-labelledby="input-title">
+      <div class="section-heading"><h2 id="input-title">Your observations</h2><button type="button" class="button compact" id="load-example">Load example</button></div>
+      <p class="section-note">1–7 October 2026 · dates stay fixed</p>
+      <form id="analysis-form" novalidate>
+        <div class="field"><label for="report-title">Report title <span>Required · at most 80 characters</span></label><input id="report-title" name="title" type="text" maxlength="80" autocomplete="off" aria-describedby="title-error" placeholder="Give this week a title"><p class="field-error" id="title-error" hidden></p></div>
+        <div class="field"><label for="report-note">Observation note <span>Optional · at most 400 characters</span></label><textarea id="report-note" name="note" maxlength="400" rows="3" aria-describedby="note-error" placeholder="Where did the readings come from? What should a reader know?"></textarea><p class="field-error" id="note-error" hidden></p></div>
+        <fieldset class="daily-fields"><legend>Daily rainfall <span>millimetres (mm)</span></legend><p id="reading-rules" class="field-hint">Enter each reading from 0 to 200.0 mm, with at most one decimal place. Zero is valid. Empty is missing.</p>
+          <div class="reading-row"><label for="day-1"><b>01</b><span>Thursday<small>1 October 2026</small></span></label><div class="measurement"><input id="day-1" name="day1" type="text" inputmode="decimal" autocomplete="off" aria-describedby="reading-rules day1-error" placeholder="0.0"><span>mm</span></div><p class="field-error" id="day1-error" hidden></p></div>
+          <div class="reading-row"><label for="day-2"><b>02</b><span>Friday<small>2 October 2026</small></span></label><div class="measurement"><input id="day-2" name="day2" type="text" inputmode="decimal" autocomplete="off" aria-describedby="reading-rules day2-error" placeholder="0.0"><span>mm</span></div><p class="field-error" id="day2-error" hidden></p></div>
+          <div class="reading-row"><label for="day-3"><b>03</b><span>Saturday<small>3 October 2026</small></span></label><div class="measurement"><input id="day-3" name="day3" type="text" inputmode="decimal" autocomplete="off" aria-describedby="reading-rules day3-error" placeholder="0.0"><span>mm</span></div><p class="field-error" id="day3-error" hidden></p></div>
+          <div class="reading-row"><label for="day-4"><b>04</b><span>Sunday<small>4 October 2026</small></span></label><div class="measurement"><input id="day-4" name="day4" type="text" inputmode="decimal" autocomplete="off" aria-describedby="reading-rules day4-error" placeholder="0.0"><span>mm</span></div><p class="field-error" id="day4-error" hidden></p></div>
+          <div class="reading-row"><label for="day-5"><b>05</b><span>Monday<small>5 October 2026</small></span></label><div class="measurement"><input id="day-5" name="day5" type="text" inputmode="decimal" autocomplete="off" aria-describedby="reading-rules day5-error" placeholder="0.0"><span>mm</span></div><p class="field-error" id="day5-error" hidden></p></div>
+          <div class="reading-row"><label for="day-6"><b>06</b><span>Tuesday<small>6 October 2026</small></span></label><div class="measurement"><input id="day-6" name="day6" type="text" inputmode="decimal" autocomplete="off" aria-describedby="reading-rules day6-error" placeholder="0.0"><span>mm</span></div><p class="field-error" id="day6-error" hidden></p></div>
+          <div class="reading-row"><label for="day-7"><b>07</b><span>Wednesday<small>7 October 2026</small></span></label><div class="measurement"><input id="day-7" name="day7" type="text" inputmode="decimal" autocomplete="off" aria-describedby="reading-rules day7-error" placeholder="0.0"><span>mm</span></div><p class="field-error" id="day7-error" hidden></p></div>
+        </fieldset>
+        <div class="field threshold-field"><label for="threshold">Comparison threshold <span>Your chosen line · millimetres (mm)</span></label><div class="measurement"><input id="threshold" name="threshold" type="text" inputmode="decimal" autocomplete="off" value="5.0" aria-describedby="threshold-hint threshold-error"><span>mm</span></div><p id="threshold-hint" class="field-hint">Same rules as a reading. The count includes values strictly above this line; a value equal to it is excluded.</p><p class="field-error" id="threshold-error" hidden></p></div>
+        <p id="form-feedback" class="notice" role="status" aria-live="polite">Load the example or enter a title and all seven readings, then prepare.</p>
+        <button class="button primary prepare-button" id="prepare-analysis" type="submit">Prepare analysis <span aria-hidden="true">↗</span></button>
+      </form>
+    </section>
+    <section class="result-section" aria-labelledby="result-label">
+      <div class="section-heading"><h2 id="result-label">Prepared analysis</h2><span class="state-label" id="result-status">Not prepared</span></div>
+      <div id="result-empty" class="empty-result"><span class="empty-mark" aria-hidden="true">∑</span><p>Your report will appear here.</p><p>Prepare valid observations to see the total, daily mean, maximum and threshold count, with every dated reading.</p></div>
+      <div id="prepared-result" hidden>
+        <p class="notice stale-notice" id="stale-notice" hidden>Earlier analysis — current inputs have changed. Prepare valid input again before keeping or downloading.</p>
+        <article class="analysis-sheet" id="analysis-sheet" aria-labelledby="prepared-title">
+          <p class="eyebrow">Cloudline / Rainfall analysis</p><h3 id="prepared-title"></h3><p class="sheet-period">1–7 October 2026 <span>Seven daily readings</span></p>
+          <div class="total-reading"><p>Total rainfall</p><strong id="prepared-total"></strong><span>mm across seven days</span></div>
+          <dl class="summary-readings"><div><dt>Mean daily rainfall</dt><dd><strong id="prepared-mean"></strong> <span>mm/day</span></dd></div><div><dt>Maximum daily rainfall</dt><dd><strong id="prepared-maximum"></strong> <span>mm</span><small id="prepared-max-dates"></small></dd></div><div><dt id="prepared-count-label"></dt><dd><strong id="prepared-count"></strong> <span>of 7 days</span></dd></div></dl>
+          <div class="sheet-readings"><h4>Complete observation record</h4><div id="prepared-readings"></div></div>
+          <div class="sheet-note"><h4>Observation note</h4><p id="prepared-note"></p></div><p class="sheet-limit">Fictional educational observations. No forecast, flood warning or real weather claim.</p>
+        </article>
+        <details class="exact-text"><summary>Inspect exact export text</summary><pre id="export-text"></pre></details>
+      </div>
+      <div class="result-actions"><button type="button" class="button primary" id="download-exact" disabled>Download exact text <span aria-hidden="true">↓</span></button><button type="button" class="button" id="keep-work" disabled>Keep in this browser</button></div>
+      <p class="section-note" id="result-action-note">These actions become available after a valid preparation.</p>
+      <section class="browser-copy" aria-labelledby="copy-title"><h3 id="copy-title">Your browser copy</h3><p id="copy-status" class="copy-status" role="status" aria-live="polite">Checking for a kept copy…</p><p>A kept copy returns on reload. Current edits are temporary until you deliberately keep a newly prepared analysis.</p><div class="copy-actions"><button type="button" class="button" id="recover-work">Recover kept work</button><button type="button" class="button" id="reset-work">Reset current work</button><button type="button" class="button quiet-danger" id="forget-work">Forget kept copy</button></div><p class="section-note">Reset clears current work and preserves a kept copy. Forget removes only the kept copy.</p><a class="text-link" href="guide.html#keep">Read the keeping and recovery guide →</a></section>
+    </section>
+  </div>
+</main>
+<footer class="site-footer page-width"><p class="footer-name">Cloudline <span>Small records, closely read.</span></p><p>Fictional educational observations. No forecast or warning. <br>No server, transmission, purchase or telemetry.</p><a href="guide.html#limits">About this record</a></footer>
+</body></html>

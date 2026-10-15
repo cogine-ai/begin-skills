@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 420" role="img" aria-labelledby="title desc">
+<title id="title">Grid 05 folded desktop utensil organizer</title><desc id="desc">A three compartment blue green anodised aluminium organizer, with folded seams and a taller rear division.</desc>
+<defs><linearGradient id="panel"><stop stop-color="#bcccd0"/><stop offset=".5" stop-color="#7f9ca5"/><stop offset="1" stop-color="#597681"/></linearGradient><linearGradient id="side"><stop stop-color="#a6bcc4"/><stop offset="1" stop-color="#678691"/></linearGradient><filter id="s"><feGaussianBlur stdDeviation="7"/></filter></defs>
+<ellipse cx="243" cy="341" rx="145" ry="23" fill="#2f4750" opacity=".18" filter="url(#s)"/>
+<path d="m100 187 177-54 106 69-175 57z" fill="#617b84"/><path d="m100 187 177-54 106 69v112l-175 53-108-66z" fill="url(#panel)"/>
+<path d="m208 259 175-57v112l-175 53z" fill="url(#side)"/><path d="m100 187 108 72v108l-108-66z" fill="#7895a0"/>
+<path d="m102 187 177-54v92l-177 55z" fill="#809ca5"/><path d="m102 187 177-54v-34l-177 52z" fill="url(#panel)"/><path d="m279 99 104 67v36l-104-69z" fill="#6b8791"/>
+<path d="m167 164 3 118 104 66V232z" fill="#b1c4c9"/><path d="m169 164 105 68 1 116" fill="none" stroke="#e4ecec" stroke-width="2"/>
+<path d="m100 222 175-56 106 68-174 56z" fill="#526e79"/><path d="m100 222 106 68v34L100 254z" fill="#9eb6be"/><path d="m207 290 174-56v35l-174 55z" fill="#a9bec6"/>
+<path d="m100 187 108 72 175-57M102 151l177-52 104 67M208 259v108" fill="none" stroke="#d8e3e6" stroke-width="2"/>
+<path d="m115 294 77 48m30 6 146-45" stroke="#466672" stroke-width="1.5" opacity=".6"/><g fill="#d8e1e2"><circle cx="114" cy="289" r="2"/><circle cx="192" cy="339" r="2"/><circle cx="223" cy="343" r="2"/><circle cx="368" cy="300" r="2"/></g>
+</svg>

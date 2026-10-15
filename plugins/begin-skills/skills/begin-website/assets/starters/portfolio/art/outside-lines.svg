@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 1040">
+  <rect width="820" height="1040" fill="#ef916c" />
+  <rect x="67" y="68" width="686" height="904" fill="#ddd4ee" />
+  <g
+    fill="#443763"
+    font-family="Arial,sans-serif"
+    font-weight="700"
+    font-size="129"
+    letter-spacing="-11"
+  >
+    <text x="103" y="267">OUTSIDE</text>
+    <text x="234" y="416">THE</text>
+    <text x="133" y="565">LINES.</text>
+  </g>
+  <path
+    d="M129 748C321 558 320 924 512 698S645 885 690 801"
+    stroke="#ef916c"
+    stroke-width="34"
+    stroke-linecap="round"
+    fill="none"
+  />
+  <g fill="#443763" font-family="Arial,sans-serif" font-size="13">
+    <text x="106" y="899">A GATHERING FOR CURIOUS MINDS</text>
+    <text x="106" y="924" font-size="10">
+      ORIGINAL SELF-INITIATED POSTER CONCEPT
+    </text>
+  </g>
+</svg>

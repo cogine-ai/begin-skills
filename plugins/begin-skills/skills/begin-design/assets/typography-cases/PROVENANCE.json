@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "curated_on": "2026-10-11",
+  "curation_snapshot_utc": "2026-10-10T22:58:35.877822+00:00",
+  "trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+  "copy_method": "Byte-for-byte final frozen complete site and exactly six accepted fresh native opening JPEGs. No source, font, photo or capture transformation. Only final chosen font is bundled; discarded specimens and raw evidence remain excluded.",
+  "study_kind": "existing composition refinement",
+  "new_scenario": false,
+  "fresh_generation_from_updated_skill": false,
+  "builder_input_archive_used_for_new_build": false,
+  "baseline_version": "0.1.0-dev.10",
+  "reference_was_forward_tested": false,
+  "cases": [
+    {
+      "slug": "side-a",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "source_file_count": 15,
+      "source_bytes": 1027389,
+      "required_notices": [
+        "NOTICES.md",
+        "fonts/fraunces-OFL.txt",
+        "fonts/source-sans-3-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/fraunces.ttf",
+          "notice": "fonts/fraunces-OFL.txt",
+          "family": "Fraunces",
+          "role": "display",
+          "internal_names": [
+            "Fraunces",
+            "Fraunces 9pt Black",
+            "Fraunces-9ptBlack",
+            "Regular"
+          ],
+          "axes": {
+            "opsz": {
+              "min": 9.0,
+              "default": 9.0,
+              "max": 144.0
+            },
+            "wght": {
+              "min": 100.0,
+              "default": 900.0,
+              "max": 900.0
+            },
+            "SOFT": {
+              "min": 0.0,
+              "default": 0.0,
+              "max": 100.0
+            },
+            "WONK": {
+              "min": 0.0,
+              "default": 1.0,
+              "max": 1.0
+            }
+          },
+          "project": "https://github.com/undercasetype/Fraunces",
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/Fraunces%5BSOFT%2CWONK%2Copsz%2Cwght%5D.ttf",
+          "bytes": 360440,
+          "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+        },
+        {
+          "file": "fonts/source-sans-3.woff2",
+          "notice": "fonts/source-sans-3-OFL.txt",
+          "family": "Fieldnotes Sans",
+          "role": "reading and utility",
+          "internal_names": [
+            "Fieldnotes Sans",
+            "FieldnotesSans-Roman"
+          ],
+          "historical_filename_retained": true,
+          "prior_skill_relative_path": "assets/transfer-cases/side-a/site/fonts/source-sans-3.woff2",
+          "bytes": 67504,
+          "sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0"
+        }
+      ],
+      "bundled_photographs": [
+        {
+          "file": "photos/musician.jpg",
+          "notice": "NOTICES.md",
+          "provenance": "PHOTO.json",
+          "author": "Konstantin Aal",
+          "source_page": "https://unsplash.com/photos/man-playing-saxophone-Otx5FHbr3OE",
+          "license": "https://unsplash.com/license"
+        }
+      ],
+      "runtime": "Static HTML/CSS/JavaScript; fictional programme and browser-local itinerary. Session choices, exact listening/gap totals, keep, reload, conflicts and current text export retain prior model/interface bytes. No booking, payment, sending or backend.",
+      "study": "Refinement of existing Side A, comparing Bricolage Grotesque, Archivo and Fraunces with fixed original photo, copy, color, layout and body. The chosen Fraunces direction was then refined across the three pages, including role-specific weights, phrase grouping and visible alignment anchors.",
+      "baseline_skill_relative_path": "assets/transfer-cases/side-a/site",
+      "baseline_version": "0.1.0-dev.10",
+      "baseline_receipt": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/BASELINE.json",
+        "bytes": 1740,
+        "sha256": "4b9f1027a10bbd2baf7f7d61a4ba321d94678c664bbf1f3828199db95b1d093e"
+      },
+      "final_source_snapshot": [
+        {
+          "path": "FONT_SOURCE.json",
+          "bytes": 984,
+          "sha256": "e26c21e5ebd43a1604eae63f2590b46ec54d6ac9b88c26b9fbc64cea8e441ed6"
+        },
+        {
+          "path": "NOTICES.md",
+          "bytes": 3142,
+          "sha256": "155170f99287dd6e621163a8cf4405d08a04eb3ab1dd2cbf0de714385757be72"
+        },
+        {
+          "path": "PHOTO.json",
+          "bytes": 565,
+          "sha256": "1affd773d132ee2f65b67b30f9de5d08a27960d32fbe3532242936f5668d55fa"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 5581,
+          "sha256": "68e2af1a41b5a6d75e1da7a9aa5aafca8a6ff0f3efa00a901ea687b5e10f97f6"
+        },
+        {
+          "path": "fonts/fraunces-OFL.txt",
+          "bytes": 4391,
+          "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+        },
+        {
+          "path": "fonts/fraunces.ttf",
+          "bytes": 360440,
+          "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+        },
+        {
+          "path": "fonts/source-sans-3-OFL.txt",
+          "bytes": 4579,
+          "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+        },
+        {
+          "path": "fonts/source-sans-3.woff2",
+          "bytes": 67504,
+          "sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 8486,
+          "sha256": "61ee4ecf8ecb84c6dbde5aa81d03a2c6ba2dd173cb52ad515fab303a84feb5f1"
+        },
+        {
+          "path": "index.html",
+          "bytes": 5879,
+          "sha256": "c881a4992def05e280700fef1e1c0e7b2e4285d68e7f24cdaf320df9077da864"
+        },
+        {
+          "path": "itinerary-model.js",
+          "bytes": 5391,
+          "sha256": "c62072f93f4a5b1fe372a9141ccb4d59efbc286fa38c706763b2954debfd4ecb"
+        },
+        {
+          "path": "itinerary.js",
+          "bytes": 8238,
+          "sha256": "a2f628fbc0cecca7a9d1ff437e979a4276e647ce284b8ada7361acae6e3acd3e"
+        },
+        {
+          "path": "mark.svg",
+          "bytes": 205,
+          "sha256": "af2cc6cc79e03c3ddff8cd8e8c042d4e92740ccf3d9a32374447c05d3ac88d21"
+        },
+        {
+          "path": "photos/musician.jpg",
+          "bytes": 522086,
+          "sha256": "c26eba574fc299a46538336b8595b77a50da0efb8d5e155a8e915959a2bb8b6f"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 29918,
+          "sha256": "3d104e13fba32e3e8e75df20603d19f4dac01b7734eea180f79b9567436fb758"
+        }
+      ],
+      "final_source_receipt": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/FINAL_SOURCE.json",
+        "bytes": 1925,
+        "sha256": "616ea2e455c319441f9ea1f86f0e69407076f78929e2fa1c5bbee2c624f054c1"
+      },
+      "accepted_capture_receipt": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/ACCEPTED_CAPTURES.json",
+        "bytes": 1473,
+        "sha256": "4bccb8ae3a3b05f4ba39e34eb5bb079d9eee5b57cefc2730a17658d5ba16072b"
+      },
+      "storage_key": "side-a.itinerary.v1",
+      "native_operation_record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/BROWSER_ASSERTIONS.json",
+        "bytes": 1679,
+        "sha256": "41d28fc1328e96fd5426d49cbee4f9c20bde99ee2e3ee3bf0c8faa5f2c21c61f"
+      },
+      "independent_review_record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/REVIEW.md",
+        "bytes": 2461,
+        "sha256": "9123af110f42577a7dfe3f2551726a4ff07d05c57925ab3e5ca6de5f886f477d"
+      }
+    }
+  ],
+  "evidence_records": [
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/PLAN.md",
+      "bytes": 968,
+      "sha256": "d8c6bf68294ece69ce6c000d8fdd06a0a943bb26ee0485ad8bd4d38b1d80948a"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/BASELINE.json",
+      "bytes": 1740,
+      "sha256": "4b9f1027a10bbd2baf7f7d61a4ba321d94678c664bbf1f3828199db95b1d093e"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/CANDIDATE_SOURCE.json",
+      "bytes": 5781,
+      "sha256": "45b8856b145ea56b00a8a5d720a0111caf062c5ed587ca42a538f5aa93b87143"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/FONT_DOWNLOADS.json",
+      "bytes": 4143,
+      "sha256": "c4a46f9db9d4685d846992803ad691a3f9e2c75b52073c8804d8d5109c7fa367"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/FONT_INSPECTION.json",
+      "bytes": 1555,
+      "sha256": "0f7ceefde4cbc84146ab7b7d90e51a8a693b49f6f1937cf1b033663ad1f92e22"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/FINAL_SOURCE.json",
+      "bytes": 1925,
+      "sha256": "616ea2e455c319441f9ea1f86f0e69407076f78929e2fa1c5bbee2c624f054c1"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/ACCEPTED_CAPTURES.json",
+      "bytes": 1473,
+      "sha256": "4bccb8ae3a3b05f4ba39e34eb5bb079d9eee5b57cefc2730a17658d5ba16072b"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/BROWSER_ASSERTIONS.json",
+      "bytes": 1679,
+      "sha256": "41d28fc1328e96fd5426d49cbee4f9c20bde99ee2e3ee3bf0c8faa5f2c21c61f"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/RESPONSIVE.json",
+      "bytes": 62375,
+      "sha256": "eeac705baa23941fa41f5ec8852c42171069bc09e25c9aee83caa593be302249"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/READING.json",
+      "bytes": 5280,
+      "sha256": "0be4446c018e1ce84064be7a73e4762813cb74992e0fbe0da6bdf5ab3daf71a4"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/REVIEW.md",
+      "bytes": 2461,
+      "sha256": "9123af110f42577a7dfe3f2551726a4ff07d05c57925ab3e5ca6de5f886f477d"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/TOOL_NOTES.md",
+      "bytes": 2826,
+      "sha256": "a87524638c0167744178a80b0bc06fac0abe5d94f607940c241fc92a077ac301"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/EXPORT.txt",
+      "bytes": 436,
+      "sha256": "b8ce32517f180f386bce1bef443c24178e275a593be8fe79324abc46f68972f8"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail/PRESERVE.json",
+      "bytes": 45530,
+      "sha256": "dc2a7f2570fc969c3ac7d3ffb0e4bea6b46ac67f12a36eb6b1a6e3912830b1dc"
+    }
+  ],
+  "files": [
+    {
+      "skill_relative_path": "assets/typography-cases/CHECKS.json",
+      "bytes": 4387,
+      "sha256": "e6d5133b6f49045a36242f68b4870bb9c37a0fdf8740c9b66b0dca0ecc6e4109",
+      "origin": "Original typography collection curation metadata, written 2026-10-11."
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/NOTICES.md",
+      "bytes": 3678,
+      "sha256": "87c122396d1541aa727d48a29e6a5de8d0b5a6da30daa79fdaee95795926a70a",
+      "origin": "Original typography collection curation metadata, written 2026-10-11."
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/captures/demo-desktop.jpg",
+      "bytes": 88095,
+      "sha256": "8abafa66eaf5eed9d678de62c2bda86415baa08a74ae8685727fd5ecfc52708f",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "captures/accepted/demo-desktop.jpg",
+      "original_sha256": "8abafa66eaf5eed9d678de62c2bda86415baa08a74ae8685727fd5ecfc52708f",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "demo",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "source_phase": "final-short-legend",
+        "method": "native viewport",
+        "bytes_unchanged": true,
+        "state": "Fresh final native opening from a freshly navigated local document; curation introduced no state changes."
+      }
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/captures/demo-phone.jpg",
+      "bytes": 39127,
+      "sha256": "8355a397c8c68756af2f553f8f52fde68f6971fb015390e4071a368930d1662d",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "captures/accepted/demo-phone.jpg",
+      "original_sha256": "8355a397c8c68756af2f553f8f52fde68f6971fb015390e4071a368930d1662d",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "demo",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "source_phase": "final-short-legend",
+        "method": "native viewport",
+        "bytes_unchanged": true,
+        "state": "Fresh final native opening from a freshly navigated local document; curation introduced no state changes."
+      }
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/captures/guide-desktop.jpg",
+      "bytes": 96790,
+      "sha256": "3501c0ce8805971a3955347433788115c1d6a2b864729ad69b947b0df62a735d",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "captures/accepted/guide-desktop.jpg",
+      "original_sha256": "3501c0ce8805971a3955347433788115c1d6a2b864729ad69b947b0df62a735d",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "guide",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "source_phase": "final-short-legend",
+        "method": "native viewport",
+        "bytes_unchanged": true,
+        "state": "Fresh final native opening from a freshly navigated local document; curation introduced no state changes."
+      }
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/captures/guide-phone.jpg",
+      "bytes": 47275,
+      "sha256": "933e9155670271a5db69e88f1f1ac87389a6c46a013db2fabc80243bb6f2f908",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "captures/accepted/guide-phone.jpg",
+      "original_sha256": "933e9155670271a5db69e88f1f1ac87389a6c46a013db2fabc80243bb6f2f908",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "guide",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "source_phase": "final-short-legend",
+        "method": "native viewport",
+        "bytes_unchanged": true,
+        "state": "Fresh final native opening from a freshly navigated local document; curation introduced no state changes."
+      }
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/captures/home-desktop.jpg",
+      "bytes": 89404,
+      "sha256": "8cd27e85cbe20d396bc486db7a796f3e83a45021ec3d229fddba748a2955f708",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "captures/accepted/home-desktop.jpg",
+      "original_sha256": "8cd27e85cbe20d396bc486db7a796f3e83a45021ec3d229fddba748a2955f708",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "index",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "source_phase": "final-short-legend",
+        "method": "native viewport",
+        "bytes_unchanged": true,
+        "state": "Fresh final native opening from a freshly navigated local document; curation introduced no state changes."
+      }
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/captures/home-phone.jpg",
+      "bytes": 33766,
+      "sha256": "b0692d6557dbf9f7b3ab0ae0277b9ef44da1c1bfb2b1ca3c8e59de5a1329049f",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "captures/accepted/home-phone.jpg",
+      "original_sha256": "b0692d6557dbf9f7b3ab0ae0277b9ef44da1c1bfb2b1ca3c8e59de5a1329049f",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "index",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "source_phase": "final-short-legend",
+        "method": "native viewport",
+        "bytes_unchanged": true,
+        "state": "Fresh final native opening from a freshly navigated local document; curation introduced no state changes."
+      }
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/site/FONT_SOURCE.json",
+      "bytes": 984,
+      "sha256": "e26c21e5ebd43a1604eae63f2590b46ec54d6ac9b88c26b9fbc64cea8e441ed6",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "final/site/FONT_SOURCE.json",
+      "original_sha256": "e26c21e5ebd43a1604eae63f2590b46ec54d6ac9b88c26b9fbc64cea8e441ed6"
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/site/NOTICES.md",
+      "bytes": 3142,
+      "sha256": "155170f99287dd6e621163a8cf4405d08a04eb3ab1dd2cbf0de714385757be72",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "final/site/NOTICES.md",
+      "original_sha256": "155170f99287dd6e621163a8cf4405d08a04eb3ab1dd2cbf0de714385757be72"
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/site/PHOTO.json",
+      "bytes": 565,
+      "sha256": "1affd773d132ee2f65b67b30f9de5d08a27960d32fbe3532242936f5668d55fa",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "final/site/PHOTO.json",
+      "original_sha256": "1affd773d132ee2f65b67b30f9de5d08a27960d32fbe3532242936f5668d55fa"
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/site/demo.html",
+      "bytes": 5581,
+      "sha256": "68e2af1a41b5a6d75e1da7a9aa5aafca8a6ff0f3efa00a901ea687b5e10f97f6",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "final/site/demo.html",
+      "original_sha256": "68e2af1a41b5a6d75e1da7a9aa5aafca8a6ff0f3efa00a901ea687b5e10f97f6"
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/site/fonts/fraunces-OFL.txt",
+      "bytes": 4391,
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "final/site/fonts/fraunces-OFL.txt",
+      "original_sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/site/fonts/fraunces.ttf",
+      "bytes": 360440,
+      "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "final/site/fonts/fraunces.ttf",
+      "original_sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/site/fonts/source-sans-3-OFL.txt",
+      "bytes": 4579,
+      "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "final/site/fonts/source-sans-3-OFL.txt",
+      "original_sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/site/fonts/source-sans-3.woff2",
+      "bytes": 67504,
+      "sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "final/site/fonts/source-sans-3.woff2",
+      "original_sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0"
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/site/guide.html",
+      "bytes": 8486,
+      "sha256": "61ee4ecf8ecb84c6dbde5aa81d03a2c6ba2dd173cb52ad515fab303a84feb5f1",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "final/site/guide.html",
+      "original_sha256": "61ee4ecf8ecb84c6dbde5aa81d03a2c6ba2dd173cb52ad515fab303a84feb5f1"
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/site/index.html",
+      "bytes": 5879,
+      "sha256": "c881a4992def05e280700fef1e1c0e7b2e4285d68e7f24cdaf320df9077da864",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "final/site/index.html",
+      "original_sha256": "c881a4992def05e280700fef1e1c0e7b2e4285d68e7f24cdaf320df9077da864"
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/site/itinerary-model.js",
+      "bytes": 5391,
+      "sha256": "c62072f93f4a5b1fe372a9141ccb4d59efbc286fa38c706763b2954debfd4ecb",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "final/site/itinerary-model.js",
+      "original_sha256": "c62072f93f4a5b1fe372a9141ccb4d59efbc286fa38c706763b2954debfd4ecb"
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/site/itinerary.js",
+      "bytes": 8238,
+      "sha256": "a2f628fbc0cecca7a9d1ff437e979a4276e647ce284b8ada7361acae6e3acd3e",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "final/site/itinerary.js",
+      "original_sha256": "a2f628fbc0cecca7a9d1ff437e979a4276e647ce284b8ada7361acae6e3acd3e"
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/site/mark.svg",
+      "bytes": 205,
+      "sha256": "af2cc6cc79e03c3ddff8cd8e8c042d4e92740ccf3d9a32374447c05d3ac88d21",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "final/site/mark.svg",
+      "original_sha256": "af2cc6cc79e03c3ddff8cd8e8c042d4e92740ccf3d9a32374447c05d3ac88d21"
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/site/photos/musician.jpg",
+      "bytes": 522086,
+      "sha256": "c26eba574fc299a46538336b8595b77a50da0efb8d5e155a8e915959a2bb8b6f",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "final/site/photos/musician.jpg",
+      "original_sha256": "c26eba574fc299a46538336b8595b77a50da0efb8d5e155a8e915959a2bb8b6f",
+      "image": {
+        "width": 2400,
+        "height": 3606,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "role": "illustrative photograph",
+        "bytes_unchanged": true
+      }
+    },
+    {
+      "skill_relative_path": "assets/typography-cases/side-a/site/styles.css",
+      "bytes": 29918,
+      "sha256": "3d104e13fba32e3e8e75df20603d19f4dac01b7734eea180f79b9567436fb758",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-detail",
+      "original_trial_relative_path": "final/site/styles.css",
+      "original_sha256": "3d104e13fba32e3e8e75df20603d19f4dac01b7734eea180f79b9567436fb758"
+    },
+    {
+      "skill_relative_path": "references/typography.md",
+      "bytes": 5379,
+      "sha256": "ed8380b95ed6c85152a3011e44d8772d0c5b3f34b8130125ebd64cbf17d2533a",
+      "origin": "Original worked typography method written for this local refinement; no forward generation test."
+    }
+  ],
+  "exclusions": [
+    "Unselected display fonts and specimens",
+    "Raw instructions and reports",
+    "Earlier and overwritten exploratory opening paths",
+    "Full-page captures with omitted layers",
+    "Earlier reading or task-state excerpts",
+    "External reference captures",
+    "Host installation and archive inputs"
+  ],
+  "evidence_boundary": "Existing dev.10 Side A local refinement with three actual display-family specimens and a revised chosen family. Equal CSS sizes were an exploratory specimen, not a controlled visible-height or causal font experiment. No new scenario, fresh updated-Skill generation, ordinary-person acceptance, first-draft consistency, all-device/host, deployment or commercial claim."
+}

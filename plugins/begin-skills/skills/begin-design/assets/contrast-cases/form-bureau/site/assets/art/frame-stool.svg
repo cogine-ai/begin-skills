@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 470" role="img" aria-labelledby="title desc">
+<title id="title">Frame 03 triangulated workshop stool</title><desc id="desc">A grey blue tubular steel stool with a pale ash seat, three triangulated legs and visible welded cross braces.</desc>
+<defs><linearGradient id="wood" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e2d3b5"/><stop offset=".5" stop-color="#cbb793"/><stop offset="1" stop-color="#a98f69"/></linearGradient><linearGradient id="tube"><stop stop-color="#485e66"/><stop offset=".48" stop-color="#9cacb0"/><stop offset="1" stop-color="#607983"/></linearGradient><filter id="s"><feGaussianBlur stdDeviation="6"/></filter></defs>
+<ellipse cx="211" cy="417" rx="131" ry="19" fill="#35464a" opacity=".18" filter="url(#s)"/>
+<g stroke="url(#tube)" stroke-width="13" stroke-linejoin="round" stroke-linecap="round" fill="none"><path d="m149 184-50 218m113-203 58 221m27-240 37 212"/><path d="m123 299 118 18 73-17M126 299l170-117M243 317l-94-133M317 300l-105-101"/></g>
+<g fill="#536b75"><path d="m89 399 18 4-1 9-18-4z"/><path d="m260 416 20-4 3 11-20 3z"/><path d="m325 388 17-3 2 12-17 2z"/></g>
+<path d="M94 153v26c0 25 51 45 115 45s116-20 116-45v-26" fill="#a38b65"/><ellipse cx="209" cy="153" rx="115" ry="44" fill="url(#wood)"/><ellipse cx="209" cy="150" rx="111" ry="40" fill="#ddccac"/>
+<g stroke="#bda581" stroke-width="1.4" fill="none" opacity=".7"><path d="M103 146c54 19 111-31 199 11M111 164c76 12 114-25 195-8M129 177c55 3 102-17 152-12M125 133c52 5 112-13 167 0"/></g><path d="M112 157c7 17 69 31 119 25" stroke="#f0e4cc" stroke-width="2" opacity=".6" fill="none"/>
+<g fill="#a8b7bd"><circle cx="126" cy="299" r="4"/><circle cx="242" cy="316" r="4"/><circle cx="316" cy="298" r="4"/></g>
+</svg>

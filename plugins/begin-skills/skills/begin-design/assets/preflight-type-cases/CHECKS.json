@@ -1,0 +1,41 @@
+{
+  "scope": "One local native browser and three independently authored dev.19 tasks. Candidate specimen comparison, complete-page pixels, native controls, downloaded artifact rendering, model tests, geometry and byte identity have separate evidence. No printer/public/model-host/commercial success claim.",
+  "candidate_native_images": 36,
+  "candidate_geometry_observations": 18,
+  "complete_initial_source_files": 48,
+  "complete_initial_source_bytes": 2257933,
+  "selected_final_source_files": 48,
+  "selected_final_source_bytes": 2280236,
+  "selected_final_phases": {
+    "flipturn": "final-3",
+    "nightbus": "final-4",
+    "postmark": "final-2"
+  },
+  "selected_responsive_observations": 138,
+  "selected_geometry_issues": [],
+  "native_assertions": 48,
+  "native_assertion_failures": [],
+  "root_native_evidence": "CAPTURES.json/RESPONSIVE.json/ASSERTIONS.json; full research excluded from installers",
+  "model_tests": 31,
+  "independent_source_audit": "AUDIT_PRECURATION.json",
+  "independent_pixel_review": [
+    "FINAL_PIXEL_REVIEW.md",
+    "HOME_COMPOSITION_REVIEW.md",
+    "HOME_REPAIR_PIXEL_REVIEW.md",
+    "HOME_FINAL_PIXEL_REVIEW.md"
+  ],
+  "known_limits": [
+    "First homes converge on warm split openings; a separate NIGHTBUS query/journey/service home rebuild improves its explanation while the set still favors warm paper surfaces.",
+    "Minor empty recovery-control height/format differences remain.",
+    "POSTMARK guide opening remains long on a phone.",
+    "Blocked or corrupted browser storage has model evidence; physical printing and screen-reader/visitor acceptance are unverified.",
+    "The complete NIGHTBUS home journey costs phone reading distance; it is later refinement, not better first-draft evidence."
+  ],
+  "schema_version": 1,
+  "checked_on": "2026-10-11",
+  "input_version": "0.1.0-dev.19",
+  "source_files": 47,
+  "native_openings": 18,
+  "result_excerpts": 6,
+  "font_binaries": 8
+}

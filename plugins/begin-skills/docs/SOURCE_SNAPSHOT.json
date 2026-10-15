@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-09",
+  "local_packages": {
+    "coding-engineer-skills@0.2.5": {
+      "cache_relative_directory": "cogine-ai/coding-engineer-skills/0.2.5",
+      "files": {
+        "skills/ai-app-security-audit/SKILL.md": {
+          "sha256": "ed34077447373cafa75753436c7224b9ac863d2af6f90fd594ef9480bb867d9a"
+        },
+        "skills/codebase-design/DEEPENING.md": {
+          "sha256": "f3dd099ce99289bd213914d8ee3e2429b78309c3957ca4583f7659551b1d53c1"
+        },
+        "skills/codebase-design/DESIGN-IT-TWICE.md": {
+          "sha256": "52b52e75655a27aea59c6966b410bac82448968ad46ef1ebb9f07c274e3ae010"
+        },
+        "skills/codebase-design/SKILL.md": {
+          "sha256": "2c20617f87ec8af6a434859f381b2f061a69b530444e74eb39e78bb016a6d1e2"
+        },
+        "skills/domain-modeling/ADR-FORMAT.md": {
+          "sha256": "62cad402bec5e6bf10b6eca047e6ca9dc7e18efb1ba898e0ac666784c781a06b"
+        },
+        "skills/domain-modeling/GLOSSARY-FORMAT.md": {
+          "sha256": "21dcc40cdec8e151a829b98ab1517c1867bc444e3665134a98c6983411996801"
+        },
+        "skills/domain-modeling/SKILL.md": {
+          "sha256": "b5d97083289b02c4cfbf57a911b876c6a0c4b5734912ba52ec2669594e69c8d7"
+        },
+        "skills/frontend-design/SKILL.md": {
+          "sha256": "0495c2d0a26a9b2cbc10c4dd52f264a4cf53b0ebf45f66d012db9b337d84c290"
+        },
+        "skills/run-smoke-tests/SKILL.md": {
+          "sha256": "848c9f34af50f8a0edecbdc239707b694f5f9ac497c61b5907f2bf0caa1372fb"
+        },
+        "skills/tdd/SKILL.md": {
+          "sha256": "d62fb317b45ca78844cf4774dcbf3aa42bca26f53b1dbdb62afb68d3c316b133"
+        },
+        "skills/tdd/mocking.md": {
+          "sha256": "3ceb807fdf4a47d6a93d4d9a891e5ba6d362a6247bd08adc451feebfc17361ef"
+        },
+        "skills/tdd/tests.md": {
+          "sha256": "859f9e592c188fda4fc7277dd180e4ce9c7a2e13f6efe1f6f29eccc9d28c106a"
+        }
+      }
+    },
+    "design-engineer-skills@0.1.5": {
+      "cache_relative_directory": "cogine-ai/design-engineer-skills/0.1.5",
+      "files": {
+        "skills/emil-design-eng/SKILL.md": {
+          "sha256": "ffbe68e6007fb42cb8149f089b400a1ca007d59ba23e8948e2be4476f3175939"
+        }
+      }
+    },
+    "neon-postgres@2.1.0": {
+      "cache_relative_directory": "openai-curated-remote/neon-postgres/2.1.0",
+      "files": {
+        "skills/neon-postgres/SKILL.md": {
+          "sha256": "83d3c75651bd81f06e5e8c47ffc306936cc4d2a1ac84d288e8f6a15fcfb724b4"
+        },
+        "skills/neon/SKILL.md": {
+          "sha256": "1071b8789dea0cb41c795059e728821756181ce55ae34f3f904120bfbfa8ff22"
+        }
+      }
+    },
+    "resend-plugin@5.0.0": {
+      "cache_relative_directory": "openai-curated-remote/app-6a3c407853888191beddc2151c2b6f8b/5.0.0",
+      "files": {
+        "skills/resend-cli/SKILL.md": {
+          "sha256": "b0e2f4ad948c413a5eed6e9dfeb18d13166416a4c24c19f2b14b4e600282460f"
+        }
+      }
+    },
+    "sites@0.1.75": {
+      "cache_relative_directory": "openai-curated-remote/sites/0.1.75",
+      "files": {
+        "skills/sites-hosting/SKILL.md": {
+          "sha256": "c1bf20036e4a2bc167e48c9c515c6cdae930deddd520698c917e2a10d07ed336"
+        }
+      }
+    },
+    "stripe@8.0.0": {
+      "cache_relative_directory": "openai-curated-remote/stripe/8.0.0",
+      "files": {
+        "skills/stripe-best-practices/SKILL.md": {
+          "sha256": "55c73cae0acb93e77df4e6d4027a4955620c6f41a2f2434352af33be648fa49b"
+        }
+      }
+    }
+  },
+  "local_unversioned": {
+    "repo-deconstruction-builder": {
+      "files": {
+        "SKILL.md": {
+          "sha256": "472124014a5d5d4915f0ce1baaad61ad7998dbecf92385010614e4dde2ff5ce3"
+        },
+        "references/build-checklist.md": {
+          "sha256": "8952e9969b46e02ad66e0d6c38e61c4b2976cab69031517407800994296260d7"
+        }
+      },
+      "skill_directory": "repo-deconstruction-builder",
+      "upstream_commit": null,
+      "version": null
+    },
+    "repo-deconstruction-method": {
+      "files": {
+        "SKILL.md": {
+          "sha256": "476c700cef99eda8bd81c1df53a88284ede07ff68f7e23ea52e0dd8035f93772"
+        },
+        "references/output-template.md": {
+          "sha256": "1ba0f511e657ad790cf808907263133e05a27a0871223ecfdd4516113110bf29"
+        }
+      },
+      "skill_directory": "repo-deconstruction-method",
+      "upstream_commit": null,
+      "version": null
+    }
+  },
+  "primary_pins": {
+    "matt_methods_local_mapping": "f3fc5632f401156837ee3872f14fe33ccf1024ea",
+    "matt_usage": "b0618bc436ad893b3c5e84e55fba86586d34a404",
+    "mermaid_12.1.0": "21f72f07ea22c0af48a3149c550654e80d8e40cb"
+  },
+  "purpose": "Identity of local method sources inspected in whole or in relevant portions; not a runtime dependency or upstream equivalence claim.",
+  "dev3_primary_methods": {
+    "checked_date": "2026-10-09",
+    "scope": "Original methods/examples; no copied standards dictionary, upstream Skill bodies, or provider execution.",
+    "content": [
+      "https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/plan-manage-content/identify-user-needs/",
+      "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "https://owl.purdue.edu/owl/general_writing/common_writing_assignments/argument_papers/body_paragraphs.html"
+    ],
+    "writing_docs": {
+      "direct": [
+        "https://diataxis.fr/tutorials/",
+        "https://diataxis.fr/how-to-guides/",
+        "https://diataxis.fr/reference/",
+        "https://diataxis.fr/explanation/"
+      ],
+      "indexed_official_text_direct_403": [
+        "https://www.asd-ste100.org/STE_faq.html",
+        "https://www.asd-ste100.org/software.html"
+      ]
+    },
+    "learn_products": [
+      "https://www.nngroup.com/articles/task-analysis/",
+      "https://www.nngroup.com/articles/wireflows/"
+    ],
+    "one_time_checkout": [
+      "https://docs.stripe.com/api/checkout/sessions/create",
+      "https://docs.stripe.com/api/checkout/sessions/retrieve",
+      "https://docs.stripe.com/checkout/fulfillment?payment-ui=stripe-hosted",
+      "https://docs.stripe.com/events/manage-webhook-endpoints",
+      "https://docs.stripe.com/api/idempotent_requests"
+    ]
+  }
+}

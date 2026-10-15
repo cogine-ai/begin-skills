@@ -1,0 +1,11 @@
+{
+  "name": "Daylight — Interactive product introduction",
+  "type": "product",
+  "centralAction": "Visit the configured product acquisition destination",
+  "fixtureNote": "Daylight is a fictional planning product. Its working demo stores tasks only in page memory and resets on reload. Acquisition links use https://example.com until configured.",
+  "version": "0.1.0",
+  "entry": "index.html",
+  "contactSelector": "[data-begin-contact]",
+  "dependencies": [],
+  "assets": "Original Begin-authored SVG/HTML/CSS artwork; system fonts only."
+}

@@ -1,0 +1,48 @@
+{
+  "source_commit": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+  "downloaded_utc": "2026-10-11",
+  "files": [
+    {
+      "file": "fonts/alegreya-roman.ttf",
+      "bytes": 425288,
+      "sha256": "ba5564634b93a8f8ba57b48cd4f1ae7417d2b4656fbac779028679b00de3cf12",
+      "source": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/alegreya/Alegreya%5Bwght%5D.ttf"
+    },
+    {
+      "file": "fonts/alegreya-italic.ttf",
+      "bytes": 425852,
+      "sha256": "fa915eec76227935dc5fb678953c94b71287c360928013cfdb441dfe52f5a391",
+      "source": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/alegreya/Alegreya-Italic%5Bwght%5D.ttf"
+    },
+    {
+      "file": "fonts/alegreya-OFL.txt",
+      "bytes": 4395,
+      "sha256": "f6f60d5d4cf4f4b1fc4e41353c897a2f5a16e6396c0cd8fa8bdfd2f4586a9a68",
+      "source": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/alegreya/OFL.txt"
+    },
+    {
+      "file": "fonts/alegreya-METADATA.pb",
+      "bytes": 1375,
+      "sha256": "9bff810f5954762cad87d175c60b4bd7a5dbd1c6deb2540c56dfaf1186d5f5fc",
+      "source": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/alegreya/METADATA.pb"
+    },
+    {
+      "file": "fonts/karla-roman.ttf",
+      "bytes": 94016,
+      "sha256": "ed3ca4cd9bdd899c543927c30bf5ff50706b24b3f2b7328e64b25f7d2a9d23dc",
+      "source": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/karla/Karla%5Bwght%5D.ttf"
+    },
+    {
+      "file": "fonts/karla-OFL.txt",
+      "bytes": 4384,
+      "sha256": "edf2c840acb9570fe02f40721126aa0da4e4011a0030cc6dce30780569f609b6",
+      "source": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/karla/OFL.txt"
+    },
+    {
+      "file": "fonts/karla-METADATA.pb",
+      "bytes": 1168,
+      "sha256": "6bf0bf977bd80e6d6655a302450bd4fc566857b577f056db4d8d054bbc7c67dd",
+      "source": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/karla/METADATA.pb"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "source": "Exact font binaries copied from frozen dev.19; primary URLs retained from its source evidence. No network retrieval.",
+  "fonts": [
+    {
+      "file": "fonts/syne.ttf",
+      "family": "Syne",
+      "style": "normal",
+      "supported_axes": {
+        "wght": [
+          400,
+          800
+        ]
+      },
+      "notice": "fonts/syne-OFL.txt",
+      "primary_source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/syne/Syne%5Bwght%5D.ttf",
+      "primary_source_commit_in_frozen_record": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+      "frozen_source_record": "input/begin-design/assets/font-direction-cases/open-form/site/fonts/FONT_SOURCE.json",
+      "modified": false,
+      "bytes": 146980,
+      "sha256": "ce5ac77142a65cab2248a1a2ebb740b1d4d9c20b52488877d3ff664d1356104a"
+    },
+    {
+      "file": "fonts/dm-sans.ttf",
+      "family": "DM Sans",
+      "style": "normal",
+      "supported_axes": {
+        "wght": [
+          100,
+          1000
+        ],
+        "opsz": [
+          9,
+          40
+        ]
+      },
+      "notice": "fonts/dm-sans-OFL.txt",
+      "primary_source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/dmsans/DMSans%5Bopsz%2Cwght%5D.ttf",
+      "primary_source_commit_in_frozen_record": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+      "frozen_source_record": "input/begin-design/assets/font-direction-cases/open-form/site/fonts/FONT_SOURCE.json",
+      "modified": false,
+      "bytes": 240164,
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    }
+  ]
+}

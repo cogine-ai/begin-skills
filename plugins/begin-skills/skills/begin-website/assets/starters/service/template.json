@@ -1,0 +1,11 @@
+{
+  "name": "Maya Ellis \u2014 Independent professional",
+  "type": "service",
+  "centralAction": "Start a conversation with the website owner",
+  "fixtureNote": "Maya Ellis is fictional. All three projects are original self-initiated concepts. Contact links use hello@example.com until configured.",
+  "version": "0.2.0",
+  "entry": "index.html",
+  "contactSelector": "[data-begin-contact]",
+  "dependencies": [],
+  "assets": "Original Begin-authored SVG/HTML/CSS artwork; unmodified local Syne and DM Sans fonts with complete SIL Open Font License notices."
+}

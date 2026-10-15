@@ -1,0 +1,26 @@
+# Type for relationships
+
+Use this resource when a website's useful material is a sequence, a dependency or a set of measurements. Read the complete records and the visitor's action before choosing type and composition. A timeline, tournament route and dated plot need different relationships; a catalogue is not an automatic starting point.
+
+The optional original cases below began with task and material only. Their makers received no font, palette, layout or visual reference recommendation and used the same frozen dev.16 portable pack. Complete first sources were preserved before rendering. Independent review supported retaining the selected families and compositions, with focused execution repairs. This is one internal Agent environment; it does not establish excellent first drafts or a causal quality improvement.
+
+## Inspect the relevant work
+
+| Case | Selected roles and material | Complete experience |
+| --- | --- | --- |
+| [Afterimage](../assets/relational-task-cases/afterimage/site/index.html) | Sora supplies the studio's voice; IBM Plex Mono distinguishes cue IDs and exact times. An original scene and broad cue sequence give sound work a visible artifact. | The [cue sheet](../assets/relational-task-cases/afterimage/site/demo.html) retains full titles, notes, starts, ends and durations. Occupied time differs from project span when cues have gaps. The [guide](../assets/relational-task-cases/afterimage/site/guide.html) explains an actual correction and recovery. |
+| [Bracket House](../assets/relational-task-cases/bracket-house/site/index.html) | Teko carries an emphatic tournament poster; Public Sans gives full team names and choices reading priority. Three rounds describe progression rather than comparable cards. | The [result desk](../assets/relational-task-cases/bracket-house/site/demo.html) connects actual feeder matches and their winners. A phone uses a continuous round ledger. The [guide](../assets/relational-task-cases/bracket-house/site/guide.html) explains why an upstream change clears dependent choices. |
+| [Cloudline](../assets/relational-task-cases/cloudline/site/index.html) | Spectral roman and true italic support an observation account; Public Sans carries dates, quantities and controls. A cool seven-day plot shares a scale and preserves zero readings. | The [analysis](../assets/relational-task-cases/cloudline/site/demo.html) gives the report its own complete hierarchy: total, mean, maximum and date, threshold count, every reading and the note. The [guide](../assets/relational-task-cases/cloudline/site/guide.html) distinguishes zero from missing input and a chosen line from a measurement. |
+
+Each case includes editable source, six matching native desktop/phone openings, unchanged local font files and complete notices. Inspect its `captures/` directory alongside the actual task and guide. Native populated-result excerpts also show the [cue sheet](../assets/relational-task-cases/afterimage/result/captures/demo-desktop.jpg), [tournament record](../assets/relational-task-cases/bracket-house/result/captures/demo-desktop.jpg) and [rainfall report](../assets/relational-task-cases/cloudline/result/captures/demo-desktop.jpg); each has a corresponding `demo-phone.jpg`. These are viewport excerpts from complete reading paths. [Provenance](../assets/relational-task-cases/PROVENANCE.json) and [checks](../assets/relational-task-cases/CHECKS.json) record source and observation boundaries. These are optional references alongside the four creation starters.
+
+## Decisions supported by the review
+
+- Give the consequential text enough room and contrast. A large expressive headline does not make tiny team names or exact timing labels readable. Judge the full names, values and units at their actual rendered size; reflow a group before shrinking its useful content to preserve a diagram.
+- Draw the relationship the data actually has. When connectors imply progression, their branches and destinations must meet the real source and destination rows. Inspect both empty and populated content. A narrow view can use explicit ordered groups instead of compressing the desktop geometry.
+- Preserve normal text when a deliberate break disappears. Hiding a `<br>` does not insert a missing space. Read the whole phrase at the reflow width and keep semantic spaces or use phrase groups that retain them.
+- Separate a family's fit from its execution. These three first choices remained suitable; small utility text, awkward phrase breaks and incorrect diagram alignment needed repair. Replacing the fonts would not have resolved those causes.
+- Give the prepared artifact a complete reading path and inspect it with real content. Full cue names, every match and every dated reading have meaning beyond the public opening. Keep an exact export inspectable when the visual report has a different hierarchy.
+- Write the guide for the visitor's operation. Explain input rules, output, corrections, keeping, recovery and local limits. Put internal model checks and edition-review status in delivery evidence rather than the public manual.
+
+Transfer the relationship that fits the new task. These choices do not prescribe a dark background, a display family, a fixed diagram or a universal type scale.

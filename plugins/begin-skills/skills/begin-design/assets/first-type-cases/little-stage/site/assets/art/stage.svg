@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="670" viewBox="0 0 720 670">
+  <rect width="720" height="670" fill="#f2d7bc"/>
+  <path d="M80 600V254C80 80 640 80 640 254V600Z" fill="#232d40"/>
+  <path d="M80 600V254C80 125 215 92 360 92C173 238 227 393 80 600Z" fill="#be4b3d"/>
+  <path d="M640 600V254C640 125 505 92 360 92C547 238 493 393 640 600Z" fill="#be4b3d"/>
+  <path d="M116 598C218 447 193 256 309 114M162 553C251 380 232 209 334 103M604 598C502 447 527 256 411 114M558 553C469 380 488 209 386 103" fill="none" stroke="#96392f" stroke-width="6"/>
+  <path d="M80 254C168 180 220 147 360 154C500 147 552 180 640 254V185C640 94 80 94 80 185Z" fill="#cf6350"/>
+  <path d="M87 211C192 152 248 165 360 189C472 165 528 152 633 211" fill="none" stroke="#e48d74" stroke-width="7"/>
+  <path d="M394 282C355 268 311 303 311 347C311 391 352 423 393 410C356 399 340 378 340 347C340 316 358 294 394 282Z" fill="#f2ca75"/>
+  <circle cx="441" cy="264" r="4" fill="#f2ca75"/><circle cx="284" cy="263" r="3" fill="#f2ca75"/><circle cx="458" cy="405" r="3" fill="#f2ca75"/>
+  <path d="m271 388 4-9 4 9 9 4-9 4-4 9-4-9-9-4Z" fill="#f2ca75"/>
+  <path d="M250 551L335 459H416L474 551Z" fill="#b4a4a1"/>
+  <path d="M335 459L348 456H405L416 459Z" fill="#f2ca75"/>
+  <rect x="45" y="585" width="630" height="20" fill="#232d40"/>
+  <rect x="73" y="605" width="574" height="20" fill="#be4b3d"/>
+  <path d="M300 585V552M435 585V552" stroke="#232d40" stroke-width="6"/>
+</svg>

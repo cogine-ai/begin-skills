@@ -1,0 +1,17 @@
+erDiagram
+    %% Status: illustrative fictional model. Entities have independent primary keys.
+    accTitle: Illustrative website and enquiry records
+    accDescr: Each website has one owner and zero or more enquiries. Each enquiry belongs to one website. An owner can maintain zero or more websites.
+    OWNER ||..o{ WEBSITE : maintains
+    WEBSITE ||..o{ ENQUIRY : receives
+    OWNER {
+        string id PK
+    }
+    WEBSITE {
+        string id PK
+        string owner_id FK
+    }
+    ENQUIRY {
+        string id PK
+        string website_id FK
+    }

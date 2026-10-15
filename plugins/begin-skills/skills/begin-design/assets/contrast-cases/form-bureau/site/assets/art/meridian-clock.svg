@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-labelledby="title desc">
+<title id="title">Meridian 01 cylindrical shelf clock</title><desc id="desc">A pale mineral composite cylindrical clock with a recessed aluminium dial, fine violet hands and a substantial chamfered rim.</desc>
+<defs><linearGradient id="body"><stop stop-color="#c6c1b7"/><stop offset=".45" stop-color="#efebe1"/><stop offset="1" stop-color="#b2ac9f"/></linearGradient><radialGradient id="face"><stop stop-color="#f4f2e9"/><stop offset="1" stop-color="#d8d5cd"/></radialGradient><filter id="s"><feGaussianBlur stdDeviation="6"/></filter><pattern id="speckle" patternUnits="userSpaceOnUse" width="23" height="31"><circle cx="4" cy="8" r=".7" fill="#82796f" opacity=".35"/><circle cx="15" cy="23" r=".55" fill="#fff" opacity=".7"/></pattern></defs>
+<ellipse cx="220" cy="349" rx="132" ry="18" fill="#3e3b36" opacity=".17" filter="url(#s)"/>
+<path d="M194 78c83-4 145 51 145 127s-43 139-122 139l-33-14z" fill="url(#body)"/><ellipse cx="188" cy="204" rx="117" ry="132" fill="#c8c3b9"/><ellipse cx="188" cy="200" rx="114" ry="129" fill="url(#body)"/><ellipse cx="188" cy="200" rx="114" ry="129" fill="url(#speckle)"/>
+<ellipse cx="188" cy="201" rx="92" ry="106" fill="#a9a59e"/><ellipse cx="184" cy="199" rx="89" ry="102" fill="url(#face)"/>
+<g stroke="#8c8985" stroke-width="1.6"><path d="M184 108v12m0 158v12M105 199h10m138 0h10M143 122l5 11m70 132 5 11M119 150l9 6m112 85 9 6M119 246l9-6m112-85 9-6M143 274l5-10m70-132 5-11"/></g>
+<path d="m184 199-37-33" stroke="#7c718f" stroke-width="7" stroke-linecap="round"/><path d="m184 199 37-69" stroke="#7c718f" stroke-width="4" stroke-linecap="round"/><path d="m184 199 7 58" stroke="#a79a76" stroke-width="1.5"/><circle cx="184" cy="199" r="7" fill="#736987"/><circle cx="184" cy="199" r="2.5" fill="#d5cbe3"/>
+<path d="M121 104c-22 20-38 51-44 83" fill="none" stroke="#fffaf0" stroke-width="2" opacity=".5"/>
+</svg>

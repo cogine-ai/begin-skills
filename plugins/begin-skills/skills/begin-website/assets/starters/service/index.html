@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="An original example website for an independent product design consultant. Explore services, self-initiated projects, and a clear way to get in touch." />
+    <meta name="theme-color" content="#f8f9fc" />
+    <title>Maya Ellis — Independent product designer</title>
+    <link rel="preload" href="fonts/syne.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="fonts/dm-sans.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="identity" href="#" aria-label="Maya Ellis, home"><span>Maya Ellis</span><small>Independent product designer</small></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>Menu <span aria-hidden="true">+</span></button>
+      <nav id="navigation" aria-label="Main navigation"><a href="#work">Work</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Let’s talk <span aria-hidden="true">↗</span></a></nav>
+    </header>
+    <main id="main">
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <h1 id="hero-title">Make the complex <span>feel clear</span></h1>
+        <div class="hero-bottom"><p>I work with small businesses and early-stage teams on clear websites, useful interfaces, and a direction everyone can follow.</p><a class="action-link" href="mailto:hello@example.com" data-begin-contact>Tell me what you’re making <span aria-hidden="true">↗</span></a></div>
+      </section>
+      <section class="work wrap" id="work" aria-labelledby="work-title">
+        <div class="section-heading"><h2 id="work-title">Selected explorations</h2><p>Three self-initiated concepts</p></div>
+        <div class="work-choices" aria-label="Choose a self-initiated concept" hidden>
+          <button type="button" id="choose-workshop" data-work="workshop"><span>01</span> Community</button>
+          <button type="button" id="choose-studio" data-work="studio"><span>02</span> Studio</button>
+          <button type="button" id="choose-planner" data-work="planner"><span>03</span> Planning</button>
+        </div>
+        <p class="sr-only" id="work-status" role="status" aria-live="polite"></p>
+        <div class="work-stage">
+          <article class="project" id="workshop" aria-labelledby="workshop-title">
+            <div class="project-image" data-image-frame><img src="art/workshop.svg" width="920" height="620" alt="Original workshop guide concept with a green event poster, workshop schedule, and orange circular motif" /><span class="image-fallback" hidden>Workshop guide illustration unavailable. The complete project description and design thinking remain below.</span></div>
+            <div class="project-copy"><div class="project-heading"><p class="project-kind">Community · Self-initiated concept</p><h3 id="workshop-title">A reason to get together</h3><p>A workshop guide that helps people find something they want to make, without sorting through a wall of information.</p></div><details open><summary>Design thinking <span aria-hidden="true">+</span></summary><div class="thinking"><p><strong>The question</strong> How can a first-time visitor choose a useful workshop without already knowing the community?</p><p><strong>The choice</strong> Put the activity and date first. Use a direct “Find a workshop” action, simple categories, and enough context to help people decide.</p></div></details></div>
+          </article>
+          <article class="project" id="studio" aria-labelledby="studio-title">
+            <div class="project-image" data-image-frame><img src="art/studio.svg" width="620" height="440" alt="Original small studio website concept with an oversized typographic statement and two contrasting project panels" /><span class="image-fallback" hidden>Studio illustration unavailable. The complete project description and design thinking remain below.</span></div>
+            <div class="project-copy"><div class="project-heading"><p class="project-kind">Services · Self-initiated concept</p><h3 id="studio-title">Make the offer easy to find</h3><p>A small studio website with a clear offer, a readable process, and one useful next step.</p></div><details open><summary>Design thinking <span aria-hidden="true">+</span></summary><div class="thinking"><p><strong>The question</strong> What does a potential client need before starting a conversation?</p><p><strong>The choice</strong> Explain the service before showing the work. Let the examples demonstrate the approach, and keep contact within reach.</p></div></details></div>
+          </article>
+          <article class="project" id="planner" aria-labelledby="planner-title">
+            <div class="project-image" data-image-frame><img src="art/planner.svg" width="620" height="440" alt="Original planning tool concept with a quiet weekly canvas and a clearly highlighted next action" /><span class="image-fallback" hidden>Planning tool illustration unavailable. The complete project description and design thinking remain below.</span></div>
+            <div class="project-copy"><div class="project-heading"><p class="project-kind">Interface · Self-initiated concept</p><h3 id="planner-title">One useful next step</h3><p>A planning interface that gives the next action more attention than the backlog.</p></div><details open><summary>Design thinking <span aria-hidden="true">+</span></summary><div class="thinking"><p><strong>The question</strong> How can a plan help someone start rather than simply list everything?</p><p><strong>The choice</strong> Give one task a distinct place, keep later work nearby, and make completing or changing the next step straightforward.</p></div></details></div>
+          </article>
+        </div>
+      </section>
+      <section class="services-section section" id="services" aria-labelledby="services-title"><div class="wrap"><div class="section-heading"><h2 id="services-title">How I can help</h2><p>Start with the part that needs attention.<br />We can define the right scope together.</p></div><div class="service-list">
+        <article><span class="service-number">01</span><h3>Product direction</h3><div><p>Find the central problem, organize the experience, and turn an ambitious idea into a scope you can act on.</p><p class="service-tags">Clarity · Structure · Priorities</p></div></article>
+        <article><span class="service-number">02</span><h3>Websites</h3><div><p>Explain your offer with considered content, distinctive design, and a visitor journey that leads somewhere useful.</p><p class="service-tags">Content · Design · Implementation</p></div></article>
+        <article><span class="service-number">03</span><h3>Interface design</h3><div><p>Make everyday tasks easier to understand, with careful attention to the states and details people actually use.</p><p class="service-tags">Flows · Components · Interaction</p></div></article>
+      </div></div></section>
+      <section class="process wrap section" aria-labelledby="process-title"><div class="section-heading"><h2 id="process-title">Understand, make, refine</h2><p>A short shared brief.<br />A working version. A careful finish.</p></div><ol class="process-list">
+        <li><span class="process-step">01 / Understand</span><h3>Find the real question</h3><p>We begin with the people, the purpose, and what needs to change. The outcome is a short, shared brief.</p></li>
+        <li><span class="process-step">02 / Make</span><h3>Make it tangible</h3><p>Explore a concrete direction and a working version. Seeing the idea makes the next choices easier.</p></li>
+        <li><span class="process-step">03 / Refine</span><h3>Refine the details</h3><p>Check the content, interactions, and small screens. Keep what works and improve what gets in the way.</p></li>
+      </ol></section>
+      <section class="about wrap section" id="about" aria-labelledby="about-title"><h2 id="about-title">Curious about <span class="phrase">the details</span></h2><div class="about-copy"><p>My approach is curious, practical, and close to the details. I care about how an idea reads, how an interface responds, and how the whole thing feels when someone uses it.</p><p>I work best through a clear conversation, honest feedback, and something tangible we can improve together.</p><a class="text-link" href="mailto:hello@example.com" data-begin-contact>Start a conversation <span aria-hidden="true">↗</span></a></div></section>
+      <section class="questions wrap section" aria-labelledby="questions-title"><h2 id="questions-title">Before we begin</h2><div class="question-list">
+        <details><summary>What should I bring to the first conversation?<span aria-hidden="true">+</span></summary><p>An idea, a problem, or a website you want to improve. Existing content and references help, but a polished brief is not required.</p></details>
+        <details><summary>Can we start with a small piece?<span aria-hidden="true">+</span></summary><p>Yes. A focused page, a difficult flow, or a clear first version can be a good starting point. We’ll agree on a scope before making.</p></details>
+        <details><summary>What happens after the design?<span aria-hidden="true">+</span></summary><p>The scope can include implementation or an organized handover. We’ll make that decision early so you know what you will receive.</p></details>
+      </div></section>
+      <section class="contact-section" id="contact" aria-labelledby="contact-title"><div class="wrap"><h2 id="contact-title">Something <span class="phrase">in mind?</span></h2><div class="contact-bottom"><p>A new idea, an existing product,<br />or one thing that could work better.</p><a class="contact-link" href="mailto:hello@example.com" data-begin-contact>Let’s talk <span aria-hidden="true">↗</span></a></div><p class="fixture-note"><span data-begin-contact-example>Example contact — configure the owner’s destination before publishing.</span></p></div></section>
+    </main>
+    <footer class="wrap footer"><span>Maya Ellis · Independent product designer</span><span>Original fictional example by Begin.<br />Projects are self-initiated concepts.</span><a href="#">Back to top ↑</a></footer>
+  </body>
+</html>

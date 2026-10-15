@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 470" role="img" aria-labelledby="title desc">
+<title id="title">Loop 06 freestanding folio rack</title><desc id="desc">A chrome wire rack formed from three repeated rounded loops, shown holding two plain study folios.</desc>
+<defs><linearGradient id="wire"><stop stop-color="#616d75"/><stop offset=".32" stop-color="#eef3f4"/><stop offset=".52" stop-color="#97a4ac"/><stop offset=".7" stop-color="#f4f5f4"/><stop offset="1" stop-color="#6c7980"/></linearGradient><filter id="s"><feGaussianBlur stdDeviation="6"/></filter></defs>
+<ellipse cx="210" cy="419" rx="124" ry="17" fill="#384147" opacity=".17" filter="url(#s)"/>
+<path d="m141 156 96-23 30 193-96 24z" fill="#888297"/><path d="m144 156 91-21 27 188-91 23z" fill="#d0c9dd"/><path d="m171 206 97-25 28 178-97 26z" fill="#77867f"/><path d="m175 207 91-23 26 174-92 23z" fill="#b5c1b9"/>
+<path d="m151 159 28 183M183 210l26 168" stroke="#f7f7f3" stroke-width="2" opacity=".65"/>
+<g stroke="url(#wire)" stroke-width="7" fill="none" stroke-linejoin="round"><path d="m109 402 130-33c10-3 17-12 15-24l-28-166c-2-13-13-20-26-17l-68 18c-13 4-21 16-20 29l15 151c1 11-2 20-18 42z"/><path d="m143 412 130-33c10-3 17-12 15-24l-28-166c-2-13-13-20-26-17l-68 18c-13 4-21 16-20 29l15 151c1 11-2 20-18 42z"/><path d="m179 422 130-33c10-3 17-12 15-24l-28-166c-2-13-13-20-26-17l-68 18c-13 4-21 16-20 29l15 151c1 11-2 20-18 42z"/><path d="m109 402 70 20m-51-62 69 19m42-10 70 20"/></g>
+<g stroke="#f8f9fa" stroke-width="1.2" fill="none" opacity=".8"><path d="m183 413 123-31c7-2 11-8 10-17l-26-161M148 403l121-30c7-3 10-10 9-18l-26-158"/></g>
+</svg>

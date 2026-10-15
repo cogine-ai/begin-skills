@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 370" role="img" aria-labelledby="title desc">
+  <title id="title">From a reader's question to a useful next action</title>
+  <desc id="desc">An original three-stage illustration: name a reader's question, arrange the content that answers it, and offer a clear next action. Short lines represent the content between those decisions.</desc>
+  <rect width="560" height="370" fill="#e2edf5"/>
+  <path d="M91 77V286H473" fill="none" stroke="#8cacbf" stroke-width="1.5"/>
+  <rect x="66" y="52" width="310" height="92" rx="7" fill="#fbfcfd" stroke="#9ab7ca"/>
+  <rect x="66" y="52" width="7" height="92" rx="3" fill="#235d80"/>
+  <text x="95" y="80" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11" font-weight="600" letter-spacing="1" fill="#546875">THE READER'S QUESTION</text>
+  <text x="95" y="112" font-family="Georgia,serif" font-size="22" fill="#183042">“Is this useful for me?”</text>
+  <path d="M325 144V171H249" fill="none" stroke="#8cacbf" stroke-width="1.5"/>
+  <rect x="188" y="169" width="291" height="91" rx="7" fill="#fbfcfd" stroke="#9ab7ca"/>
+  <text x="215" y="197" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="11" font-weight="600" letter-spacing="1" fill="#546875">CONTENT THAT ANSWERS</text>
+  <path d="M215 220H443M215 232H395" stroke="#abc0ce" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="91" cy="286" r="5" fill="#235d80"/>
+  <rect x="139" y="282" width="273" height="50" rx="6" fill="#235d80"/>
+  <text x="162" y="313" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" font-weight="600" fill="#fff">A clear next action</text>
+  <path d="M365 307H386M380 301L386 307L380 313" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M412 307H473" fill="none" stroke="#8cacbf" stroke-width="1.5"/>
+  <circle cx="473" cy="307" r="5" fill="#9b6420"/>
+</svg>

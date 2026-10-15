@@ -1,0 +1,12 @@
+{
+  "name": "begin",
+  "owner": {
+    "name": "Cogine AI"
+  },
+  "plugins": [
+    {
+      "name": "begin-skills",
+      "source": "./plugins/begin-skills"
+    }
+  ]
+}

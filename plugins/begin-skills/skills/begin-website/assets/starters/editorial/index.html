@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An original example publication about making useful websites, with a complete essay and a practical reading-site guide.">
+  <title>Fieldnotes — Thoughtful websites, useful words</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="index.html" aria-label="Fieldnotes home"><span class="brand-mark" aria-hidden="true"></span><span><span class="brand-name">Fieldnotes</span><span class="brand-desc">Notes on making useful things</span></span></a>
+      <nav class="site-nav" aria-label="Main"><a href="index.html" aria-current="page">Articles</a><a href="docs.html">Reading-site guide</a></nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <section class="index-intro" aria-labelledby="intro-title">
+      <div><p class="eyebrow">An example independent publication</p><h1 id="intro-title">Thoughtful websites.<br>Useful words.</h1></div>
+      <p class="intro-side">Essays and practical guides for people turning an idea into something others can use. A small library, made to be read.</p>
+    </section>
+    <section class="featured" aria-labelledby="featured-title">
+      <div class="featured-copy">
+        <p class="eyebrow">Featured essay <span class="dot" aria-hidden="true">·</span> Original example</p>
+        <h2 id="featured-title">The missing middle of a useful website</h2>
+        <p>A good-looking page is a beginning. The work between the idea and the finished website is where purpose, content, and behavior find their shape.</p>
+        <a class="text-action" href="article.html">Read the essay <span class="arrow" aria-hidden="true">→</span></a>
+      </div>
+      <figure class="featured-figure"><img src="art/reading-path.svg" alt="A reader's question leads to content that answers it, then a clear next action." width="560" height="370"><figcaption>Original illustration: a website starts with a reader's question.</figcaption></figure>
+    </section>
+    <section class="library" aria-labelledby="library-title">
+      <div class="section-heading"><h2 id="library-title">The reading room</h2><p>One complete essay, one guide, and an essay section.</p></div>
+      <div class="library-tools" data-library-tools hidden>
+        <div class="filters" role="group" aria-label="Filter the reading room"><button type="button" data-filter="all" aria-pressed="true">All writing</button><button type="button" data-filter="essay" aria-pressed="false">Essay &amp; section</button><button type="button" data-filter="guide" aria-pressed="false">Guide</button></div>
+        <div class="search"><label for="article-search">Search titles and summaries</label><input id="article-search" type="search" placeholder="Try “content” or “publish”" autocomplete="off"></div>
+      </div>
+      <p class="result-status" id="result-status" role="status" aria-live="polite" hidden></p>
+      <ul class="entries">
+        <li class="entry" data-entry data-category="essay"><div class="entry-type">Complete essay</div><div><h3><a href="article.html">The missing middle of a useful website</a></h3><p>Give a website a job, organize its content, and make the central action work.</p></div><div class="entry-meta">Website making<br>Original example</div></li>
+        <li class="entry" data-entry data-category="guide"><div class="entry-type">Practical guide</div><div><h3><a href="docs.html">Make a reading site your own</a></h3><p>A complete path from choosing your content to checking navigation and preparing a publishable folder.</p></div><div class="entry-meta">Setup &amp; publishing<br>Original example</div></li>
+        <li class="entry" data-entry data-category="essay"><div class="entry-type">Essay section</div><div><h3><a href="article.html#real-action">Build the action, not just the button</a></h3><p>Know what a click promises, where it leads, and which outcome you can actually observe.</p></div><div class="entry-meta">From the featured essay<br>Original example</div></li>
+      </ul>
+      <div class="empty" id="empty-results" hidden><h3>No matching entries</h3><p>Try a broader word, choose another category, or show the full reading room.</p><button id="reset-search" type="button">Clear search and filters</button></div>
+    </section>
+    <section class="about-publication" aria-labelledby="about-title"><h2 id="about-title">About this edition</h2><p>Fieldnotes is a fictional publication created for this editable starter. Every essay, guide, and illustration here is original example material. Replace the name and writing with your own work, and keep clear labels wherever an example remains.</p></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-row"><p class="footer-note">Fieldnotes · Original example publication. No subscriptions, accounts, analytics, or messages are collected by this starter.</p><a class="footer-link" href="mailto:hello@example.com" data-begin-contact>Contact the editor <span class="example-label" data-begin-contact-example>&nbsp;· example address</span></a></div></footer>
+</body>
+</html>

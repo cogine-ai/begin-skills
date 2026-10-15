@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "begin-skills",
+  "version": "0.1.0-alpha.5",
+  "description": "Give your AI the skills to build the website you have in mind.",
+  "author": {
+    "name": "Cogine AI"
+  },
+  "keywords": [
+    "website",
+    "design",
+    "frontend",
+    "backend",
+    "deployment"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Begin",
+        "shortDescription": "Professional website-making skills for your AI.",
+        "longDescription": "Design methods, English content, frontend and backend expertise, editable starters, functional examples, and a guided path from idea to a working website.",
+        "developerName": "Cogine AI",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Read",
+          "Write",
+          "Testing"
+        ],
+        "defaultPrompt": [
+          "Use Begin to set up this workspace for my website."
+        ]
+      },
+      "onboardingSkill": "./skills/begin-setup/SKILL.md"
+    }
+  }
+}

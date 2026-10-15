@@ -1,0 +1,1384 @@
+{
+  "schema_version": 1,
+  "curated_on": "2026-10-11",
+  "curation_snapshot_utc": "2026-10-10T22:18:32.165316+00:00",
+  "trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+  "copy_method": "Byte-for-byte complete current final functional/source-notice sites and six current native opening JPEGs per case. No transformation; project guidance, raw reports, full/intermediate/state images and external reference captures excluded.",
+  "builder_input_archive_sha256": "643cca65a8c47443e3a0cf5fe81ac10c170013c6eecf4aae86c8204ff5fec1d1",
+  "builder_input_version": "0.1.0-dev.9",
+  "builder_input_record": {
+    "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/INPUT.json",
+    "bytes": 51245,
+    "sha256": "8f67519c5c6b05ed4460a01dd999dab645766d7a1fd3f2ce0db350da0fa9d97e"
+  },
+  "builder_input_archive_repository_relative_path": "products/begin-skills/dist/begin-skills-0.1.0-dev.9-skills.zip",
+  "frozen_input_file_count": 391,
+  "case_assets_were_in_builder_input": false,
+  "curated_reference_was_in_builder_input": false,
+  "pre_build_composition_methods_were_in_builder_input": true,
+  "pre_build_method_inputs": [
+    {
+      "portable_relative_path": "begin-design/SKILL.md",
+      "sha256": "7dfa854b1b4573f12efb84ff0a12b252014f3ec8544dbd624fd3ac511e6e1b34"
+    },
+    {
+      "portable_relative_path": "begin-design/references/composition.md",
+      "sha256": "0e6879bd28ebb4bd4e494737d3d7b4a6be8f93b8903e994f023bb1676bbdec1a"
+    },
+    {
+      "portable_relative_path": "begin-design/references/composition-cases.md",
+      "sha256": "f92f75dc59ca0cd4dc5bc0e4ecd3404fcf68fcb5d694ba67a98954a9a37267c5"
+    },
+    {
+      "portable_relative_path": "begin-design/references/craft.md",
+      "sha256": "c47b861d12502c87b219fb83354b9c9cc3ec040cd32682fc15299b5939e8979f"
+    },
+    {
+      "portable_relative_path": "begin-design/references/polish.md",
+      "sha256": "ee34b9e01be683c7c51be0a0f23e16d1a0cb2edf94c6042992e231457e8bdeae"
+    }
+  ],
+  "initial_source_files": 41,
+  "initial_source_files_by_case": {
+    "folio": 19,
+    "side-a": 12,
+    "cadence": 10
+  },
+  "cases": [
+    {
+      "slug": "folio",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "source_file_count": 22,
+      "source_bytes": 3495602,
+      "required_notices": [
+        "NOTICES.md",
+        "fonts/source-sans-3-OFL.txt",
+        "fonts/source-serif-4-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/fieldnotes-sans.woff2",
+          "notice": "fonts/source-sans-3-OFL.txt",
+          "internal_names": [
+            "Fieldnotes Sans",
+            "FieldnotesSans-Roman"
+          ],
+          "builder_input_portable_relative_path": "begin-design/assets/composition-cases/offset/site/fonts/fieldnotes-sans.woff2",
+          "builder_input_sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0",
+          "notice_builder_input_portable_relative_path": "begin-design/assets/composition-cases/offset/site/fonts/source-sans-3-OFL.txt",
+          "notice_builder_input_sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+        },
+        {
+          "file": "fonts/source-serif-4.woff2",
+          "notice": "fonts/source-serif-4-OFL.txt",
+          "internal_names": [
+            "Source Serif 4",
+            "Source Serif 4 Regular",
+            "SourceSerif4Roman-Regular"
+          ],
+          "builder_input_portable_relative_path": "begin-design/assets/composition-cases/offset/site/fonts/source-serif-4.woff2",
+          "builder_input_sha256": "ec0754e1fb47c9465d0282c89e3a890ddcf8c4e6a912a695ce1b09fb3d1b571d",
+          "notice_builder_input_portable_relative_path": "begin-design/assets/composition-cases/offset/site/fonts/source-serif-4-OFL.txt",
+          "notice_builder_input_sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+        }
+      ],
+      "bundled_photographs": [],
+      "runtime": "Static HTML/CSS/JavaScript; fictional book catalogue with browser-local variant bag, exact USD totals, automatic persistence, correction and current text export. No order, sending service, payment or backend.",
+      "original_material": "Six original fictional books, cover studies, six authored text samples, two original interior drawings, publisher identity and source. Photography titles contain labeled field notes without photographic plates.",
+      "composition": "Compared catalogue ledger, featured spread and shared shelf with fixed six books. Selected attached-caption shelf followed by complete catalogue; phone uses one featured book before the range.",
+      "revision": "Added substantial selected-title samples, meaningful phone cover facts, bag/sample routes and labeled add amount; corrected stale feedback, guide-link treatment and current book/format query persistence.",
+      "state_contract": "Each book/format pair has quantity 1–8 and integer-cent USD arithmetic. Successful bag changes persist automatically; invalid quantity preserves input and prior bag. Current book/format query survives reload, keeping hash and unrelated query values. Text export reads the current successful bag; Clear removes this example's selection and obsolete Add feedback.",
+      "storage_key": "folio-press-sample-bag-v1",
+      "first_source_freeze_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/folio/freeze-initial/site",
+      "initial_source_file_count": 19,
+      "initial_manifest": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/folio/INITIAL.json",
+        "bytes": 3300,
+        "sha256": "617f474fec99a905f7a16182cba9e69918ca8167ec5def54da4135bd525f7d71"
+      },
+      "plan_record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/folio/PLAN.md",
+        "bytes": 5404,
+        "sha256": "c1e96b81b6e3aa80f34b95d6c2ba895668bc6e1a5c6df875568f45c99c3ddffe"
+      },
+      "resource_use_record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/folio/RESOURCE_USE.md",
+        "bytes": 8203,
+        "sha256": "510cab77ad643ffd688b8b9278a80a086024540530aec6bf4cdeea24e75360c9"
+      },
+      "revision_record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/folio/REVISION.md",
+        "bytes": 5561,
+        "sha256": "fbef0fbd283c96dc3cd8a69ebbdacfc28ab512c1b132bc50f165596b804d9875"
+      },
+      "final_review_record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/folio/FINAL_REVIEW.md",
+        "bytes": 11905,
+        "sha256": "66ae729b9aed90d22b369b2df044565399501bb080474ef6212995ae01283c5e"
+      },
+      "final_source_snapshot": [
+        {
+          "path": "NOTICES.md",
+          "bytes": 2822,
+          "sha256": "bcd7b52ced4375defb1856aab4c4808f4dfd8f64c5de9cd63e0ba857dc41eb3e"
+        },
+        {
+          "path": "art/favicon.svg",
+          "bytes": 196,
+          "sha256": "a166b95d3e41dfed9cf57df3aa22ee24fb4d3a5e18a767d2a408fc7cbecf5b96"
+        },
+        {
+          "path": "art/interiors/lines-between-places.svg",
+          "bytes": 389372,
+          "sha256": "8e102e1537c07bb808280281255433597d609b3a4a41a8f98162491eb76f3c18"
+        },
+        {
+          "path": "art/interiors/soft-geometry.svg",
+          "bytes": 389022,
+          "sha256": "f22fdcc622d5cde067344ed8ddc0afc28f8441f491a5fd3ef0ecf05bca2369f7"
+        },
+        {
+          "path": "art/lines-between-places.svg",
+          "bytes": 389047,
+          "sha256": "658a86da6be7250696ba9273c76417cf1a17e21921413ccc659faa3985adb08a"
+        },
+        {
+          "path": "art/night-windows.svg",
+          "bytes": 390524,
+          "sha256": "8aee333907f4131c98b3ee743845cb9e92951a7f351541340e91fa58f5dddd0f"
+        },
+        {
+          "path": "art/ordinary-light.svg",
+          "bytes": 389059,
+          "sha256": "706bfedcedabb952c4211e1faa211f28d69c55589b5ade46b53c2bb9b759d2fc"
+        },
+        {
+          "path": "art/soft-geometry.svg",
+          "bytes": 388901,
+          "sha256": "bf52bdc27f96a2ce7520280fe204225912aebc83bd9b364d47d4b308659f1d48"
+        },
+        {
+          "path": "art/the-room-next-door.svg",
+          "bytes": 388935,
+          "sha256": "202a612086e763d9138680bd7db06a7a0cb47ba8058b159a5d551cae7a3ff1af"
+        },
+        {
+          "path": "art/the-shape-of-a-pause.svg",
+          "bytes": 388837,
+          "sha256": "8b07794309e3a5ec25526a4126d367281f38a74cf6fd282fcd51776f7eb52101"
+        },
+        {
+          "path": "bag-core.js",
+          "bytes": 4774,
+          "sha256": "592af8debb1cfac5cb07545645dbbc2655bb728b01c0940c627d2594d289f454"
+        },
+        {
+          "path": "data.js",
+          "bytes": 3510,
+          "sha256": "15ed8a586ae23c0e843a3ddbc5f16b65d6edb1a0c180778c5923bdaa16557405"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 7856,
+          "sha256": "48f191d6887a446f8771b233a1bd0005446188f02adde534f627e9cce920a607"
+        },
+        {
+          "path": "fonts/fieldnotes-sans.woff2",
+          "bytes": 67504,
+          "sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0"
+        },
+        {
+          "path": "fonts/source-sans-3-OFL.txt",
+          "bytes": 4579,
+          "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+        },
+        {
+          "path": "fonts/source-serif-4-OFL.txt",
+          "bytes": 4400,
+          "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+        },
+        {
+          "path": "fonts/source-serif-4.woff2",
+          "bytes": 222928,
+          "sha256": "ec0754e1fb47c9465d0282c89e3a890ddcf8c4e6a912a695ce1b09fb3d1b571d"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 7381,
+          "sha256": "b5062ca1bdfdee6ed562034e28948375766af2465c5f753c45f2a23ea573ef99"
+        },
+        {
+          "path": "index.html",
+          "bytes": 9503,
+          "sha256": "709d0438158ab7255022879301c091197c10258f12b34d51904981682552a42d"
+        },
+        {
+          "path": "samples.js",
+          "bytes": 7207,
+          "sha256": "e340f6035f7ac7dca1236b56ef9625ac877870ed717b13bed0ae24561e513ea4"
+        },
+        {
+          "path": "site.js",
+          "bytes": 12404,
+          "sha256": "2257006dcca46b665b934bc9f451a0c58bc9518c4a2e9c175151d9a3e72db744"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 26841,
+          "sha256": "31c1af63c3acb05fea463406671d6cacd89fa457f510ccf7e62fb5c27859b5ab"
+        }
+      ]
+    },
+    {
+      "slug": "side-a",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "source_file_count": 12,
+      "source_bytes": 656110,
+      "required_notices": [
+        "NOTICES.md",
+        "fonts/source-sans-3-OFL.txt",
+        "PHOTO.json"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/source-sans-3.woff2",
+          "notice": "fonts/source-sans-3-OFL.txt",
+          "internal_names": [
+            "Fieldnotes Sans",
+            "FieldnotesSans-Roman"
+          ],
+          "builder_input_portable_relative_path": "begin-design/assets/composition-cases/ridgeway/site/fonts/source-sans-3.woff2",
+          "builder_input_sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0",
+          "notice_builder_input_portable_relative_path": "begin-design/assets/composition-cases/ridgeway/site/fonts/source-sans-3-OFL.txt",
+          "notice_builder_input_sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+        }
+      ],
+      "bundled_photographs": [
+        {
+          "file": "photos/musician.jpg",
+          "notice": "NOTICES.md",
+          "provenance": "PHOTO.json"
+        }
+      ],
+      "runtime": "Static HTML/CSS/JavaScript; three fictional sessions, exact overlap/chronological interval calculation, prepared itinerary, explicit local keep/recovery and current text export. No availability, booking, ticket or payment.",
+      "original_material": "Original fictional evening, venue, three sessions, record mark, page composition and source. One unchanged licensed Konstantin Aal concert photograph illustrates the scene.",
+      "composition": "Compared portrait/caption, separate image/copy and a shared black photographic poster. Selected useful facts in its negative space; phone composes the portrait, title and action as one scene. A practical running order follows.",
+      "revision": "Integrated hero type and facts within the photograph, quieted the empty result, added exact overlap cue and explicit time marker, cleared obsolete action feedback. Portable photo metadata identifies musician.jpg by basename.",
+      "state_contract": "At least one session; Deep Listening and Night Shift overlap 19:30–20:00 for 30 minutes and choices remain intact. Preparing snapshots compatible choices; later edits make it stale and block keep/export while retaining the earlier kept copy. Reload/recovery restores the valid saved version; export uses the current prepared result.",
+      "storage_key": "side-a.itinerary.v1",
+      "first_source_freeze_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/side-a/freeze-initial/site",
+      "initial_source_file_count": 12,
+      "initial_manifest": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/side-a/INITIAL.json",
+        "bytes": 3142,
+        "sha256": "257ec3bcd9f2dfa79ea50473f29f20646f6d5f91801d2a2e3312507345f0ed34"
+      },
+      "plan_record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/side-a/PLAN.md",
+        "bytes": 4113,
+        "sha256": "1cdc58bf606d5dac9913dae32586c20e9ac2e1c2ba292a8f5e12f63b85624653"
+      },
+      "resource_use_record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/side-a/RESOURCE_USE.md",
+        "bytes": 4474,
+        "sha256": "ab8f4c5369c0223f087ac6e154522cac53aab2f13e6deed4524c9a809afc35fd"
+      },
+      "revision_record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/side-a/REVISION.md",
+        "bytes": 5129,
+        "sha256": "38aff683c5bfb5c683578e1a3d8a036b82bf9cd15167f860071a413025103cc6"
+      },
+      "final_review_record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/side-a/FINAL_REVIEW.md",
+        "bytes": 8699,
+        "sha256": "e1b17d19e1452bd769d456e6ab2f5022fe5992b929dbce3a5dce3a97395a5fde"
+      },
+      "final_source_snapshot": [
+        {
+          "path": "NOTICES.md",
+          "bytes": 2187,
+          "sha256": "c540c1a93ac8af35488660d51115ff2071f1961aed6246351866b2a1bfcbe0b9"
+        },
+        {
+          "path": "PHOTO.json",
+          "bytes": 565,
+          "sha256": "1affd773d132ee2f65b67b30f9de5d08a27960d32fbe3532242936f5668d55fa"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 5591,
+          "sha256": "6da60b0e1090d57f80fc61bec4c87ef95b44d39fba188f3b96356dc6061e5255"
+        },
+        {
+          "path": "fonts/source-sans-3-OFL.txt",
+          "bytes": 4579,
+          "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+        },
+        {
+          "path": "fonts/source-sans-3.woff2",
+          "bytes": 67504,
+          "sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 8494,
+          "sha256": "fff53908b9ae58894fddc89e4f6ee3b4a414167291695683d0310efa2ca3f20c"
+        },
+        {
+          "path": "index.html",
+          "bytes": 5879,
+          "sha256": "c881a4992def05e280700fef1e1c0e7b2e4285d68e7f24cdaf320df9077da864"
+        },
+        {
+          "path": "itinerary-model.js",
+          "bytes": 5391,
+          "sha256": "c62072f93f4a5b1fe372a9141ccb4d59efbc286fa38c706763b2954debfd4ecb"
+        },
+        {
+          "path": "itinerary.js",
+          "bytes": 8238,
+          "sha256": "a2f628fbc0cecca7a9d1ff437e979a4276e647ce284b8ada7361acae6e3acd3e"
+        },
+        {
+          "path": "mark.svg",
+          "bytes": 205,
+          "sha256": "af2cc6cc79e03c3ddff8cd8e8c042d4e92740ccf3d9a32374447c05d3ac88d21"
+        },
+        {
+          "path": "photos/musician.jpg",
+          "bytes": 522086,
+          "sha256": "c26eba574fc299a46538336b8595b77a50da0efb8d5e155a8e915959a2bb8b6f"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 25391,
+          "sha256": "cb620fa888cde7e5af91174e9d70e13e96fe03397c20055990f5a7b3788a268f"
+        }
+      ]
+    },
+    {
+      "slug": "cadence",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "source_file_count": 10,
+      "source_bytes": 136432,
+      "required_notices": [
+        "NOTICES.md",
+        "assets/fonts/source-sans-3-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "assets/fonts/fieldnotes-sans.woff2",
+          "notice": "assets/fonts/source-sans-3-OFL.txt",
+          "internal_names": [
+            "Fieldnotes Sans",
+            "FieldnotesSans-Roman"
+          ],
+          "builder_input_portable_relative_path": "begin-design/assets/composition-cases/proofnote/site/fonts/fieldnotes-sans.woff2",
+          "builder_input_sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0",
+          "notice_builder_input_portable_relative_path": "begin-design/assets/composition-cases/proofnote/site/fonts/source-sans-3-OFL.txt",
+          "notice_builder_input_sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+        }
+      ],
+      "bundled_photographs": [],
+      "runtime": "Static HTML/CSS/JavaScript; exact local study week from goal, Monday date, weekdays, one repeated length and time, prepared/kept states and text/JSON exports. No calendar event, backend, account or sync.",
+      "original_material": "Original fictional utility identity, four-bar mark, sample study week, HTML agenda, English guide and source.",
+      "composition": "Compared compact statement over broad week, week-first and input-first. Selected a real five-day sample plan beneath a quiet statement; phone becomes a chronological readable agenda. The task uses input-first order.",
+      "revision": "Aligned phone empty-day dates, placed the repeated-time/length rule beside its fields, added a ruled guide comparison of current/prepared/kept work and preserved fixture-label gutter.",
+      "state_contract": "Build validates goal, real Monday date, selected weekdays, supported duration and 24-hour time. Each chosen day repeats one time and length with explicit next-day end dates when needed. Draft edits make the prepared plan stale and block keeping/export. Kept work stays separate; return restores it, reset clears the current result and retains kept work, and explicit forget removes it.",
+      "storage_key": "cadence-study-week-v1",
+      "first_source_freeze_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/cadence/freeze-initial/site",
+      "initial_source_file_count": 10,
+      "initial_manifest": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/cadence/INITIAL.json",
+        "bytes": 1835,
+        "sha256": "4772e001a16d4dd0f24f677bc727fa4e52cf0c2180f301333eded25f22df3cea"
+      },
+      "plan_record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/cadence/PLAN.md",
+        "bytes": 3972,
+        "sha256": "c7b024f80e608bb1d2de80db84ea299ed0e938de30271e38777345b53d7c808c"
+      },
+      "resource_use_record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/cadence/RESOURCE_USE.md",
+        "bytes": 4817,
+        "sha256": "fb0960e49dd3f1cfb5e9a8e256150820015ab43c86cc4c1c70e93149a5efc792"
+      },
+      "revision_record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/cadence/REVISION.md",
+        "bytes": 3299,
+        "sha256": "d0f1f597089fece9712d489106eabf196608fdc35b38c920f893d15fd6529138"
+      },
+      "final_review_record": {
+        "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/cadence/FINAL_REVIEW.md",
+        "bytes": 7021,
+        "sha256": "9110d7f32d8160ef19b9ed266712eca0d4b49d8ca96c60380d221f54f36db687"
+      },
+      "final_source_snapshot": [
+        {
+          "path": "NOTICES.md",
+          "bytes": 2249,
+          "sha256": "bff72bb5f558e4e25d2ce33e8e33f36e22c10b8ef910387fa3e41c2c22dd9310"
+        },
+        {
+          "path": "assets/fonts/fieldnotes-sans.woff2",
+          "bytes": 67504,
+          "sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0"
+        },
+        {
+          "path": "assets/fonts/source-sans-3-OFL.txt",
+          "bytes": 4579,
+          "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+        },
+        {
+          "path": "assets/mark.svg",
+          "bytes": 209,
+          "sha256": "22e5f5f50866cbe27b04703fb5d965009dcc37e1f569d9b2b3298ae505442494"
+        },
+        {
+          "path": "assets/plan-model.js",
+          "bytes": 7542,
+          "sha256": "370ed22f4dafba591a118cac331f2f12fb43388a6aa8037b86d5ef4e2501cbcc"
+        },
+        {
+          "path": "assets/planner.js",
+          "bytes": 11884,
+          "sha256": "84ed3c117ccaab21eb951fc043d68edcb911062f0a817a906fb3d7e03b7a2ede"
+        },
+        {
+          "path": "assets/styles.css",
+          "bytes": 23083,
+          "sha256": "b8603683b96f3156369eff1544550db65fa8e09bfb35b3aa9e9f33ad3ca84457"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 6451,
+          "sha256": "37849ae5ab0e0145c63de30c0d1a64d670b1828d9c731310a069b170b2a88237"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 8679,
+          "sha256": "6339a574e7533ae0ae2057e0aa0967c55c7c6a9da172bcac2ab2df3f744a5bb9"
+        },
+        {
+          "path": "index.html",
+          "bytes": 4252,
+          "sha256": "0bb24dc55bfba7d2f41227c6f0a9f17b833e6120ebf0745c67046e16481b3879"
+        }
+      ]
+    }
+  ],
+  "evidence_records": [
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/BROWSER_ASSERTIONS.json",
+      "bytes": 12143,
+      "sha256": "928038f9ea7051041ae31bbff96ea609e3c6b318354380c8f12d8e3c51d1ed2d"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/BROWSER_LOGS.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/CAPTURES.json",
+      "bytes": 21680,
+      "sha256": "ba1320f8d383fd38f5461ed9a2098a7df995b42000b38cb4e85f74dd5bd5fee4"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/INPUT.json",
+      "bytes": 51245,
+      "sha256": "8f67519c5c6b05ed4460a01dd999dab645766d7a1fd3f2ce0db350da0fa9d97e"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/OBSERVATIONS.json",
+      "bytes": 23264,
+      "sha256": "0807134777436957a4f49d16d282437ac371d4dc3f47bceb24a213d3fd30f75f"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/PLAN.md",
+      "bytes": 2465,
+      "sha256": "70c17e1f567e36ec12e8591b5238b47123f9421b26edf7454a1dc5f1443653b3"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/PRESERVE.json",
+      "bytes": 35744,
+      "sha256": "583e82352acfc6a415f6893d9d03c62c9456d02047a46cec34cb94ef5618a3d0"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/RESPONSIVE.json",
+      "bytes": 16635,
+      "sha256": "3719320a93404c818be2c93050683b911c34a85390facb892f18800fc2244df7"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/ROOT_FINAL_SOURCE.json",
+      "bytes": 6171,
+      "sha256": "8e619917c18642b4c89c00e8f75497dda2a9725aea28d833b75ca902e5c586b4"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/SOURCE_IMAGES.json",
+      "bytes": 1599,
+      "sha256": "5d3e577f8507a1404ed02f79aaa058c02de3b8a9477e2d09b15bdcbdab24ee7d"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/TOOL_NOTES.md",
+      "bytes": 1986,
+      "sha256": "0e73f0351faee81eb72ac727cebccc416748acd976db56dddf613dea8c24cdee"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/cadence/CHECKS.json",
+      "bytes": 4735,
+      "sha256": "003143fd38e5c1ad940c35b939cbaf0b6bc3497889c3bdf4556a468db7bbd864"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/cadence/EXPORT_INITIAL.json",
+      "bytes": 787,
+      "sha256": "a3e5748da0bf6e1587406d792f27e4bad1544651bdbb109e3ff1c0a12e098b78"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/cadence/INITIAL_REVIEW.md",
+      "bytes": 8436,
+      "sha256": "0ad34a2d349852b211dad53841d1a55d15f2fba2af07ad257c76389384ca1bbe"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/cadence/REVISION_CHECKS.json",
+      "bytes": 5104,
+      "sha256": "ddad994a30c9ae35f4a14fb8f4c6e942472050fa33c8bb4d71b2253eb4fecbd6"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/cadence/ROOT_INITIAL.json",
+      "bytes": 1031,
+      "sha256": "a28ff236a11b7f989b9518c1ed214547234b4587e1d88f2272cdc218d2dbbb9b"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/folio/CHECKS.json",
+      "bytes": 3118,
+      "sha256": "bb9720baaa1557f9ede25b49d16350372bd8bdbffda12786fe864ebfd7429838"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/folio/INITIAL_CHECKS.json",
+      "bytes": 2145,
+      "sha256": "8f2c356347b5c9397fb48011ad366dc10de9ddc28ad54312d4bd889d2d914b5a"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/folio/INITIAL_REVIEW.md",
+      "bytes": 10853,
+      "sha256": "ade32e8319f4dfa0ba6d75261d9185a4428ae7784e5fd2e774906d9927467f6d"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/folio/REVISION_1_CHECKS.json",
+      "bytes": 2714,
+      "sha256": "997b9638dad4dd6abfcbba5c1f43fe98877c7f9704bcd9124fb2ce4a207f3941"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/folio/REVISION_2.json",
+      "bytes": 3925,
+      "sha256": "e4d1572ccd77dd820c3633d2370f328c7b370f6529a98954c4b59f6a3dd304ef"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/folio/REVISION_SOURCE.json",
+      "bytes": 3782,
+      "sha256": "5307a45a606cedea726bea80835379bebb0bb9e72a5f52aca6f25c22371aa9d0"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/folio/ROOT_INITIAL.json",
+      "bytes": 2753,
+      "sha256": "f2a00381193d0436cb6069eb58d55b2a6fe3b720dd2ff5245882cb94b1e39fa0"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/side-a/CHECKS.json",
+      "bytes": 2600,
+      "sha256": "acf9955584a03f34101bb4a2622e14c77ce1241a2f7a541cc63226240a9b94f7"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/side-a/INITIAL_REVIEW.md",
+      "bytes": 8955,
+      "sha256": "2c9e8f1a167922b54385d2a122819ea97d7580395b92e18fc765be2c49fde3da"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/side-a/MUSIC_PHOTO.json",
+      "bytes": 565,
+      "sha256": "1affd773d132ee2f65b67b30f9de5d08a27960d32fbe3532242936f5668d55fa"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/side-a/REVISION_CHECKS.json",
+      "bytes": 3935,
+      "sha256": "10d1b7ce0704ac1196e8f4721b9a09d1b24740c3922f9ae9d9287b776c16b1ae"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/side-a/REVISION_METADATA.json",
+      "bytes": 3343,
+      "sha256": "487014df83ac775eef537113b811d152643fa7967bb4dee00b505f048e1b4efe"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer/side-a/ROOT_INITIAL.json",
+      "bytes": 1717,
+      "sha256": "cbce419e34d9346be148f21d481a396a7bcd35d69bb2ccdbc54fefa8066e42b1"
+    },
+    {
+      "source_repository_relative_path": "products/begin-skills/docs/design-trials/2026-10-11-composition-transfer/VERIFICATION.json",
+      "bytes": 10170,
+      "sha256": "b4b23db3b80fb5616dbfbb5173b8bf4e9fee9fc00a19207446608ef6ae1c8870"
+    }
+  ],
+  "root_native_ledger_snapshot": {
+    "attempts": 43,
+    "passed": 41,
+    "failed": 2,
+    "opening_observations": 42,
+    "responsive_observations": 45,
+    "capture_ledger_entries": 104
+  },
+  "licensing": "Original material retains the existing candidate licensing status; no new public redistribution rights. Third-party font and photograph notices remain applicable.",
+  "files": [
+    {
+      "skill_relative_path": "assets/transfer-cases/CHECKS.json",
+      "bytes": 10043,
+      "sha256": "64465075cecc8141f476e444786d848b8b08bd1f58880788e53e266ff147ca6b",
+      "origin": "Original transfer collection curation metadata, written 2026-10-11."
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/NOTICES.md",
+      "bytes": 2908,
+      "sha256": "b1e54822077018b149968df6aab3da1f5bda5e8d9d235686c6fed8b0c86ad797",
+      "origin": "Original transfer collection curation metadata, written 2026-10-11."
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/cadence/captures/demo-desktop.jpg",
+      "bytes": 87107,
+      "sha256": "7ce29aebae0393415c23ca6960e4f03acebfef4245cf3a44597e2648ff795c9e",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "cadence/captures/final/demo-desktop.jpg",
+      "original_sha256": "7ce29aebae0393415c23ca6960e4f03acebfef4245cf3a44597e2648ff795c9e",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "demo",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/cadence/captures/demo-phone.jpg",
+      "bytes": 36356,
+      "sha256": "b2153d25026e3918190cced21f3f1e5e7f8547ab1599e2703f5ef3eca6d734a3",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "cadence/captures/final/demo-phone.jpg",
+      "original_sha256": "b2153d25026e3918190cced21f3f1e5e7f8547ab1599e2703f5ef3eca6d734a3",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "demo",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/cadence/captures/guide-desktop.jpg",
+      "bytes": 93147,
+      "sha256": "3084eed6496da0531ef92d06335ad1119f1f43c5caa52d42eefe376da17da39b",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "cadence/captures/final/guide-desktop.jpg",
+      "original_sha256": "3084eed6496da0531ef92d06335ad1119f1f43c5caa52d42eefe376da17da39b",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "guide",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/cadence/captures/guide-phone.jpg",
+      "bytes": 44138,
+      "sha256": "1d3e8117f1d07d402e7e141ae4b8a4c4e329c5e47e6f25175f1a2bca674f2ea1",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "cadence/captures/final/guide-phone.jpg",
+      "original_sha256": "1d3e8117f1d07d402e7e141ae4b8a4c4e329c5e47e6f25175f1a2bca674f2ea1",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "guide",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/cadence/captures/home-desktop.jpg",
+      "bytes": 97376,
+      "sha256": "99ef3dafa60427b85abdf62eeae20690c815a38f0e20751a981dd78fed314659",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "cadence/captures/final/home-desktop.jpg",
+      "original_sha256": "99ef3dafa60427b85abdf62eeae20690c815a38f0e20751a981dd78fed314659",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "home",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/cadence/captures/home-phone.jpg",
+      "bytes": 40344,
+      "sha256": "654c1dc461cd64ceeb9a298e1e5b39ee0f8688aa704b3bfc96970330c938998f",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "cadence/captures/final/home-phone.jpg",
+      "original_sha256": "654c1dc461cd64ceeb9a298e1e5b39ee0f8688aa704b3bfc96970330c938998f",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "home",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/cadence/site/NOTICES.md",
+      "bytes": 2249,
+      "sha256": "bff72bb5f558e4e25d2ce33e8e33f36e22c10b8ef910387fa3e41c2c22dd9310",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "cadence/output/site/NOTICES.md",
+      "original_sha256": "bff72bb5f558e4e25d2ce33e8e33f36e22c10b8ef910387fa3e41c2c22dd9310"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/cadence/site/assets/fonts/fieldnotes-sans.woff2",
+      "bytes": 67504,
+      "sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "cadence/output/site/assets/fonts/fieldnotes-sans.woff2",
+      "original_sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/cadence/site/assets/fonts/source-sans-3-OFL.txt",
+      "bytes": 4579,
+      "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "cadence/output/site/assets/fonts/source-sans-3-OFL.txt",
+      "original_sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/cadence/site/assets/mark.svg",
+      "bytes": 209,
+      "sha256": "22e5f5f50866cbe27b04703fb5d965009dcc37e1f569d9b2b3298ae505442494",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "cadence/output/site/assets/mark.svg",
+      "original_sha256": "22e5f5f50866cbe27b04703fb5d965009dcc37e1f569d9b2b3298ae505442494"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/cadence/site/assets/plan-model.js",
+      "bytes": 7542,
+      "sha256": "370ed22f4dafba591a118cac331f2f12fb43388a6aa8037b86d5ef4e2501cbcc",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "cadence/output/site/assets/plan-model.js",
+      "original_sha256": "370ed22f4dafba591a118cac331f2f12fb43388a6aa8037b86d5ef4e2501cbcc"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/cadence/site/assets/planner.js",
+      "bytes": 11884,
+      "sha256": "84ed3c117ccaab21eb951fc043d68edcb911062f0a817a906fb3d7e03b7a2ede",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "cadence/output/site/assets/planner.js",
+      "original_sha256": "84ed3c117ccaab21eb951fc043d68edcb911062f0a817a906fb3d7e03b7a2ede"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/cadence/site/assets/styles.css",
+      "bytes": 23083,
+      "sha256": "b8603683b96f3156369eff1544550db65fa8e09bfb35b3aa9e9f33ad3ca84457",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "cadence/output/site/assets/styles.css",
+      "original_sha256": "b8603683b96f3156369eff1544550db65fa8e09bfb35b3aa9e9f33ad3ca84457"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/cadence/site/demo.html",
+      "bytes": 6451,
+      "sha256": "37849ae5ab0e0145c63de30c0d1a64d670b1828d9c731310a069b170b2a88237",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "cadence/output/site/demo.html",
+      "original_sha256": "37849ae5ab0e0145c63de30c0d1a64d670b1828d9c731310a069b170b2a88237"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/cadence/site/guide.html",
+      "bytes": 8679,
+      "sha256": "6339a574e7533ae0ae2057e0aa0967c55c7c6a9da172bcac2ab2df3f744a5bb9",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "cadence/output/site/guide.html",
+      "original_sha256": "6339a574e7533ae0ae2057e0aa0967c55c7c6a9da172bcac2ab2df3f744a5bb9"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/cadence/site/index.html",
+      "bytes": 4252,
+      "sha256": "0bb24dc55bfba7d2f41227c6f0a9f17b833e6120ebf0745c67046e16481b3879",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "cadence/output/site/index.html",
+      "original_sha256": "0bb24dc55bfba7d2f41227c6f0a9f17b833e6120ebf0745c67046e16481b3879"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/captures/demo-desktop.jpg",
+      "bytes": 83514,
+      "sha256": "f1c2269f685416ebe86cf25ee9dfce438b7be3ca102fe3c425498f29831170b9",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/captures/final/demo-desktop.jpg",
+      "original_sha256": "f1c2269f685416ebe86cf25ee9dfce438b7be3ca102fe3c425498f29831170b9",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "demo",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/captures/demo-phone.jpg",
+      "bytes": 38832,
+      "sha256": "d7c9f8bf9465509399300a70c9df8eac5a239ad422d79ad8ffcb8e0d32c21622",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/captures/final/demo-phone.jpg",
+      "original_sha256": "d7c9f8bf9465509399300a70c9df8eac5a239ad422d79ad8ffcb8e0d32c21622",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "demo",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/captures/guide-desktop.jpg",
+      "bytes": 94265,
+      "sha256": "7ce895698dbf759d692fb89cf1f155d5e725bc29e355d3fd88ee05a6bd75542c",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/captures/final/guide-desktop.jpg",
+      "original_sha256": "7ce895698dbf759d692fb89cf1f155d5e725bc29e355d3fd88ee05a6bd75542c",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "guide",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/captures/guide-phone.jpg",
+      "bytes": 48406,
+      "sha256": "547d2ba8d22a904882aae7e06810debb0ffb9c20fa34853077735a232b90e4ce",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/captures/final/guide-phone.jpg",
+      "original_sha256": "547d2ba8d22a904882aae7e06810debb0ffb9c20fa34853077735a232b90e4ce",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "guide",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/captures/home-desktop.jpg",
+      "bytes": 80826,
+      "sha256": "e76e5faed8f715b405bce3a25ead3c61810f3eab311ee604117e41a4040aeff0",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/captures/final/home-desktop.jpg",
+      "original_sha256": "e76e5faed8f715b405bce3a25ead3c61810f3eab311ee604117e41a4040aeff0",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "home",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/captures/home-phone.jpg",
+      "bytes": 32454,
+      "sha256": "7b257128d1dc4ef98612b91d0ed2df1cb9c9db8301a3ee2171615f20f832cfac",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/captures/final/home-phone.jpg",
+      "original_sha256": "7b257128d1dc4ef98612b91d0ed2df1cb9c9db8301a3ee2171615f20f832cfac",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "home",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/NOTICES.md",
+      "bytes": 2822,
+      "sha256": "bcd7b52ced4375defb1856aab4c4808f4dfd8f64c5de9cd63e0ba857dc41eb3e",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/NOTICES.md",
+      "original_sha256": "bcd7b52ced4375defb1856aab4c4808f4dfd8f64c5de9cd63e0ba857dc41eb3e"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/art/favicon.svg",
+      "bytes": 196,
+      "sha256": "a166b95d3e41dfed9cf57df3aa22ee24fb4d3a5e18a767d2a408fc7cbecf5b96",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/art/favicon.svg",
+      "original_sha256": "a166b95d3e41dfed9cf57df3aa22ee24fb4d3a5e18a767d2a408fc7cbecf5b96"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/art/interiors/lines-between-places.svg",
+      "bytes": 389372,
+      "sha256": "8e102e1537c07bb808280281255433597d609b3a4a41a8f98162491eb76f3c18",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/art/interiors/lines-between-places.svg",
+      "original_sha256": "8e102e1537c07bb808280281255433597d609b3a4a41a8f98162491eb76f3c18"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/art/interiors/soft-geometry.svg",
+      "bytes": 389022,
+      "sha256": "f22fdcc622d5cde067344ed8ddc0afc28f8441f491a5fd3ef0ecf05bca2369f7",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/art/interiors/soft-geometry.svg",
+      "original_sha256": "f22fdcc622d5cde067344ed8ddc0afc28f8441f491a5fd3ef0ecf05bca2369f7"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/art/lines-between-places.svg",
+      "bytes": 389047,
+      "sha256": "658a86da6be7250696ba9273c76417cf1a17e21921413ccc659faa3985adb08a",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/art/lines-between-places.svg",
+      "original_sha256": "658a86da6be7250696ba9273c76417cf1a17e21921413ccc659faa3985adb08a"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/art/night-windows.svg",
+      "bytes": 390524,
+      "sha256": "8aee333907f4131c98b3ee743845cb9e92951a7f351541340e91fa58f5dddd0f",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/art/night-windows.svg",
+      "original_sha256": "8aee333907f4131c98b3ee743845cb9e92951a7f351541340e91fa58f5dddd0f"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/art/ordinary-light.svg",
+      "bytes": 389059,
+      "sha256": "706bfedcedabb952c4211e1faa211f28d69c55589b5ade46b53c2bb9b759d2fc",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/art/ordinary-light.svg",
+      "original_sha256": "706bfedcedabb952c4211e1faa211f28d69c55589b5ade46b53c2bb9b759d2fc"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/art/soft-geometry.svg",
+      "bytes": 388901,
+      "sha256": "bf52bdc27f96a2ce7520280fe204225912aebc83bd9b364d47d4b308659f1d48",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/art/soft-geometry.svg",
+      "original_sha256": "bf52bdc27f96a2ce7520280fe204225912aebc83bd9b364d47d4b308659f1d48"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/art/the-room-next-door.svg",
+      "bytes": 388935,
+      "sha256": "202a612086e763d9138680bd7db06a7a0cb47ba8058b159a5d551cae7a3ff1af",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/art/the-room-next-door.svg",
+      "original_sha256": "202a612086e763d9138680bd7db06a7a0cb47ba8058b159a5d551cae7a3ff1af"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/art/the-shape-of-a-pause.svg",
+      "bytes": 388837,
+      "sha256": "8b07794309e3a5ec25526a4126d367281f38a74cf6fd282fcd51776f7eb52101",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/art/the-shape-of-a-pause.svg",
+      "original_sha256": "8b07794309e3a5ec25526a4126d367281f38a74cf6fd282fcd51776f7eb52101"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/bag-core.js",
+      "bytes": 4774,
+      "sha256": "592af8debb1cfac5cb07545645dbbc2655bb728b01c0940c627d2594d289f454",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/bag-core.js",
+      "original_sha256": "592af8debb1cfac5cb07545645dbbc2655bb728b01c0940c627d2594d289f454"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/data.js",
+      "bytes": 3510,
+      "sha256": "15ed8a586ae23c0e843a3ddbc5f16b65d6edb1a0c180778c5923bdaa16557405",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/data.js",
+      "original_sha256": "15ed8a586ae23c0e843a3ddbc5f16b65d6edb1a0c180778c5923bdaa16557405"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/demo.html",
+      "bytes": 7856,
+      "sha256": "48f191d6887a446f8771b233a1bd0005446188f02adde534f627e9cce920a607",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/demo.html",
+      "original_sha256": "48f191d6887a446f8771b233a1bd0005446188f02adde534f627e9cce920a607"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/fonts/fieldnotes-sans.woff2",
+      "bytes": 67504,
+      "sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/fonts/fieldnotes-sans.woff2",
+      "original_sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/fonts/source-sans-3-OFL.txt",
+      "bytes": 4579,
+      "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/fonts/source-sans-3-OFL.txt",
+      "original_sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/fonts/source-serif-4-OFL.txt",
+      "bytes": 4400,
+      "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/fonts/source-serif-4-OFL.txt",
+      "original_sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/fonts/source-serif-4.woff2",
+      "bytes": 222928,
+      "sha256": "ec0754e1fb47c9465d0282c89e3a890ddcf8c4e6a912a695ce1b09fb3d1b571d",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/fonts/source-serif-4.woff2",
+      "original_sha256": "ec0754e1fb47c9465d0282c89e3a890ddcf8c4e6a912a695ce1b09fb3d1b571d"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/guide.html",
+      "bytes": 7381,
+      "sha256": "b5062ca1bdfdee6ed562034e28948375766af2465c5f753c45f2a23ea573ef99",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/guide.html",
+      "original_sha256": "b5062ca1bdfdee6ed562034e28948375766af2465c5f753c45f2a23ea573ef99"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/index.html",
+      "bytes": 9503,
+      "sha256": "709d0438158ab7255022879301c091197c10258f12b34d51904981682552a42d",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/index.html",
+      "original_sha256": "709d0438158ab7255022879301c091197c10258f12b34d51904981682552a42d"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/samples.js",
+      "bytes": 7207,
+      "sha256": "e340f6035f7ac7dca1236b56ef9625ac877870ed717b13bed0ae24561e513ea4",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/samples.js",
+      "original_sha256": "e340f6035f7ac7dca1236b56ef9625ac877870ed717b13bed0ae24561e513ea4"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/site.js",
+      "bytes": 12404,
+      "sha256": "2257006dcca46b665b934bc9f451a0c58bc9518c4a2e9c175151d9a3e72db744",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/site.js",
+      "original_sha256": "2257006dcca46b665b934bc9f451a0c58bc9518c4a2e9c175151d9a3e72db744"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/folio/site/styles.css",
+      "bytes": 26841,
+      "sha256": "31c1af63c3acb05fea463406671d6cacd89fa457f510ccf7e62fb5c27859b5ab",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "folio/output/site/styles.css",
+      "original_sha256": "31c1af63c3acb05fea463406671d6cacd89fa457f510ccf7e62fb5c27859b5ab"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/captures/demo-desktop.jpg",
+      "bytes": 88442,
+      "sha256": "3db45688740d67ea76538e0f1499f12a7639ddfa0ff1d7c894fa1854937db5aa",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/captures/final/demo-desktop.jpg",
+      "original_sha256": "3db45688740d67ea76538e0f1499f12a7639ddfa0ff1d7c894fa1854937db5aa",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "demo",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/captures/demo-phone.jpg",
+      "bytes": 40670,
+      "sha256": "da763075c73fc66f1a912f8936fd9cfcbf0e8de5d43236bef81fd689c99c93aa",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/captures/final/demo-phone.jpg",
+      "original_sha256": "da763075c73fc66f1a912f8936fd9cfcbf0e8de5d43236bef81fd689c99c93aa",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "demo",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/captures/guide-desktop.jpg",
+      "bytes": 99847,
+      "sha256": "31d80b09e1e35d6a7934f5dc249d59d9e9446d5dd31af29d8de63343224a309a",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/captures/final/guide-desktop.jpg",
+      "original_sha256": "31d80b09e1e35d6a7934f5dc249d59d9e9446d5dd31af29d8de63343224a309a",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "guide",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/captures/guide-phone.jpg",
+      "bytes": 47956,
+      "sha256": "9dba14ad0e7c7e902f7376b89036d320f1ea35ef3890779a1b112eb55dcac92a",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/captures/final/guide-phone.jpg",
+      "original_sha256": "9dba14ad0e7c7e902f7376b89036d320f1ea35ef3890779a1b112eb55dcac92a",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "guide",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/captures/home-desktop.jpg",
+      "bytes": 85971,
+      "sha256": "f483704a692181240b1a84317a9209d43af7e27fb2612f3e28e05a23306ce7e5",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/captures/final/home-desktop.jpg",
+      "original_sha256": "f483704a692181240b1a84317a9209d43af7e27fb2612f3e28e05a23306ce7e5",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "home",
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/captures/home-phone.jpg",
+      "bytes": 33871,
+      "sha256": "124e29e7512dd088ff5a1f3860a0c0c3ac4a59c5f6c7a68f177f6b98a925dbc7",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/captures/final/home-phone.jpg",
+      "original_sha256": "124e29e7512dd088ff5a1f3860a0c0c3ac4a59c5f6c7a68f177f6b98a925dbc7",
+      "capture": {
+        "date": "2026-10-11",
+        "page": "home",
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "state": "Current final native opening of the local example; curation introduced no state changes.",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "bytes_unchanged": true,
+        "source_phase": "final"
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/site/NOTICES.md",
+      "bytes": 2187,
+      "sha256": "c540c1a93ac8af35488660d51115ff2071f1961aed6246351866b2a1bfcbe0b9",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/output/site/NOTICES.md",
+      "original_sha256": "c540c1a93ac8af35488660d51115ff2071f1961aed6246351866b2a1bfcbe0b9"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/site/PHOTO.json",
+      "bytes": 565,
+      "sha256": "1affd773d132ee2f65b67b30f9de5d08a27960d32fbe3532242936f5668d55fa",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/output/site/PHOTO.json",
+      "original_sha256": "1affd773d132ee2f65b67b30f9de5d08a27960d32fbe3532242936f5668d55fa"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/site/demo.html",
+      "bytes": 5591,
+      "sha256": "6da60b0e1090d57f80fc61bec4c87ef95b44d39fba188f3b96356dc6061e5255",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/output/site/demo.html",
+      "original_sha256": "6da60b0e1090d57f80fc61bec4c87ef95b44d39fba188f3b96356dc6061e5255"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/site/fonts/source-sans-3-OFL.txt",
+      "bytes": 4579,
+      "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/output/site/fonts/source-sans-3-OFL.txt",
+      "original_sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/site/fonts/source-sans-3.woff2",
+      "bytes": 67504,
+      "sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/output/site/fonts/source-sans-3.woff2",
+      "original_sha256": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/site/guide.html",
+      "bytes": 8494,
+      "sha256": "fff53908b9ae58894fddc89e4f6ee3b4a414167291695683d0310efa2ca3f20c",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/output/site/guide.html",
+      "original_sha256": "fff53908b9ae58894fddc89e4f6ee3b4a414167291695683d0310efa2ca3f20c"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/site/index.html",
+      "bytes": 5879,
+      "sha256": "c881a4992def05e280700fef1e1c0e7b2e4285d68e7f24cdaf320df9077da864",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/output/site/index.html",
+      "original_sha256": "c881a4992def05e280700fef1e1c0e7b2e4285d68e7f24cdaf320df9077da864"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/site/itinerary-model.js",
+      "bytes": 5391,
+      "sha256": "c62072f93f4a5b1fe372a9141ccb4d59efbc286fa38c706763b2954debfd4ecb",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/output/site/itinerary-model.js",
+      "original_sha256": "c62072f93f4a5b1fe372a9141ccb4d59efbc286fa38c706763b2954debfd4ecb"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/site/itinerary.js",
+      "bytes": 8238,
+      "sha256": "a2f628fbc0cecca7a9d1ff437e979a4276e647ce284b8ada7361acae6e3acd3e",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/output/site/itinerary.js",
+      "original_sha256": "a2f628fbc0cecca7a9d1ff437e979a4276e647ce284b8ada7361acae6e3acd3e"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/site/mark.svg",
+      "bytes": 205,
+      "sha256": "af2cc6cc79e03c3ddff8cd8e8c042d4e92740ccf3d9a32374447c05d3ac88d21",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/output/site/mark.svg",
+      "original_sha256": "af2cc6cc79e03c3ddff8cd8e8c042d4e92740ccf3d9a32374447c05d3ac88d21"
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/site/photos/musician.jpg",
+      "bytes": 522086,
+      "sha256": "c26eba574fc299a46538336b8595b77a50da0efb8d5e155a8e915959a2bb8b6f",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/output/site/photos/musician.jpg",
+      "original_sha256": "c26eba574fc299a46538336b8595b77a50da0efb8d5e155a8e915959a2bb8b6f",
+      "image": {
+        "width": 2400,
+        "height": 3606,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "role": "illustrative photograph",
+        "provenance": "assets/transfer-cases/side-a/site/PHOTO.json",
+        "bytes_unchanged": true
+      }
+    },
+    {
+      "skill_relative_path": "assets/transfer-cases/side-a/site/styles.css",
+      "bytes": 25391,
+      "sha256": "cb620fa888cde7e5af91174e9d70e13e96fe03397c20055990f5a7b3788a268f",
+      "original_trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-composition-transfer",
+      "original_trial_relative_path": "side-a/output/site/styles.css",
+      "original_sha256": "cb620fa888cde7e5af91174e9d70e13e96fe03397c20055990f5a7b3788a268f"
+    },
+    {
+      "skill_relative_path": "references/transfer-cases.md",
+      "bytes": 6483,
+      "sha256": "6764aa8aaab912e94b2b6652719fa8188ae64db5c7640cd84b08d116bb6c1c39",
+      "origin": "Original independently useful guided-transfer reference, authored from the retained local study records."
+    }
+  ]
+}

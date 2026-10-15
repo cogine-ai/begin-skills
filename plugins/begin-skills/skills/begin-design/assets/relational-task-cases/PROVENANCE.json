@@ -1,0 +1,1148 @@
+{
+  "schema_version": 1,
+  "curated_on": "2026-10-11",
+  "curation_snapshot_utc": "2026-10-11T09:20:40.753046+00:00",
+  "trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-wide-tasks",
+  "copy_method": "Byte-identical stopped final source and explicit-top native openings. No font, artwork or image transformations.",
+  "input_version": "0.1.0-dev.16",
+  "input_archive_sha256": "d108ecf6e6d3875028ab59cf06112b18c19d7b09aa986f95629712130c5b701c",
+  "study_kind": "Task/material-only briefs, no font/palette/composition/reference recommendations; complete first source frozen before rendering, independent pixel criticism and scoped refinement.",
+  "cases": [
+    {
+      "slug": "afterimage",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "source_file_count": 15,
+      "source_bytes": 477944,
+      "required_notices": [
+        "NOTICES.md",
+        "fonts/IBMPlexMono-OFL.txt",
+        "fonts/Sora-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/Sora-Variable.ttf",
+          "notice": "fonts/Sora-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sora/Sora%5Bwght%5D.ttf",
+          "bytes": 111400,
+          "sha256": "84ff7096ae3ec6c8be47d906d1a0ba4de7f2ce78c615275c77301964a316e16c",
+          "notice_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/sora/OFL.txt",
+          "notice_bytes": 4385,
+          "notice_sha256": "ba0b9729c9428ba79a0459ab8ec575791b51509dbec213e383d0316d37fec299",
+          "modified": false,
+          "identity_scope": "Unchanged original bytes, complete notice and recorded official source; no binary-axis or complete glyph-coverage claim."
+        },
+        {
+          "file": "fonts/IBMPlexMono-Regular.ttf",
+          "notice": "fonts/IBMPlexMono-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+          "bytes": 135580,
+          "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+          "notice_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+          "notice_bytes": 4456,
+          "notice_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+          "modified": false,
+          "identity_scope": "Unchanged original bytes, complete notice and recorded official source; no binary-axis or complete glyph-coverage claim."
+        },
+        {
+          "file": "fonts/IBMPlexMono-Medium.ttf",
+          "notice": "fonts/IBMPlexMono-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Medium.ttf",
+          "bytes": 136704,
+          "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+          "notice_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+          "notice_bytes": 4456,
+          "notice_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+          "modified": false,
+          "identity_scope": "Unchanged original bytes, complete notice and recorded official source; no binary-axis or complete glyph-coverage claim."
+        }
+      ],
+      "bundled_photographs": [],
+      "runtime_html_ids": {},
+      "original_artwork": "Original fictional identities and scene/route/observation artwork.",
+      "runtime": "Local fictional task with explicit preparation, exact export and deliberate browser keeping/recovery.",
+      "initial_source_preserved": true,
+      "initial_source": {
+        "website_source_files": 15,
+        "website_source_bytes": 473725,
+        "consumed_input_resources": 13
+      },
+      "final_source_snapshot": [
+        {
+          "path": "FONT_SOURCES.json",
+          "bytes": 1639,
+          "sha256": "d4885f7525e32d10716bed8703cba3bd89d57de8a66af6ca5a1bfc20e00e3339"
+        },
+        {
+          "path": "NOTICES.md",
+          "bytes": 568,
+          "sha256": "349d0d42bfac488abc0364b9342c45320bdd94204a00928004611013e0b4a93b"
+        },
+        {
+          "path": "app.js",
+          "bytes": 8512,
+          "sha256": "20b8e3f70b429282a6d1724c579e030b4bfad35eadc9d17febc1780a06ce74e2"
+        },
+        {
+          "path": "core.js",
+          "bytes": 8428,
+          "sha256": "3efc5f7bca0b5ee8df9c513857a6eb300efa99d8a7e8a4fa456471fab3a0ffcc"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 10502,
+          "sha256": "4964ffd28fd68fb320e664f8640e6c81b68fa5837d54197597ca15f659e5028c"
+        },
+        {
+          "path": "fonts/IBMPlexMono-Medium.ttf",
+          "bytes": 136704,
+          "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+        },
+        {
+          "path": "fonts/IBMPlexMono-OFL.txt",
+          "bytes": 4456,
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        },
+        {
+          "path": "fonts/IBMPlexMono-Regular.ttf",
+          "bytes": 135580,
+          "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+        },
+        {
+          "path": "fonts/Sora-OFL.txt",
+          "bytes": 4385,
+          "sha256": "ba0b9729c9428ba79a0459ab8ec575791b51509dbec213e383d0316d37fec299"
+        },
+        {
+          "path": "fonts/Sora-Variable.ttf",
+          "bytes": 111400,
+          "sha256": "84ff7096ae3ec6c8be47d906d1a0ba4de7f2ce78c615275c77301964a316e16c"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 16512,
+          "sha256": "65a2ebd95e7c3e24dd7cfae526bcad0b63e6ce661af850839728ae974af0e84b"
+        },
+        {
+          "path": "index.html",
+          "bytes": 4925,
+          "sha256": "2db1244ecb0f66e869c29fd1c624b459f64ad3128b06eccc81f69878696d3443"
+        },
+        {
+          "path": "mark.svg",
+          "bytes": 205,
+          "sha256": "f4d163e59e9718a3f473b85f87c38dde7395dd056c8600269af31aaa0c87552d"
+        },
+        {
+          "path": "scene.svg",
+          "bytes": 2281,
+          "sha256": "706e551f8bd6366db49639a6715590cdcf295374da2ee217997abc109b8a2931"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 31847,
+          "sha256": "3ecb570df194a4828e1dafa20bf21c1766820fe9f1b34aa077d5ca5b3151020d"
+        }
+      ],
+      "excluded_generated_project_guidance": [],
+      "capture_phase": "final",
+      "populated_result_captures": [
+        {
+          "file": "result/captures/demo-desktop.jpg",
+          "view": "desktop",
+          "role": "populated result excerpt"
+        },
+        {
+          "file": "result/captures/demo-phone.jpg",
+          "view": "phone",
+          "role": "populated result excerpt"
+        }
+      ]
+    },
+    {
+      "slug": "bracket-house",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "source_file_count": 13,
+      "source_bytes": 480181,
+      "required_notices": [
+        "NOTICES.md",
+        "fonts/PublicSans-OFL.txt",
+        "fonts/Teko-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/Teko-Variable.ttf",
+          "notice": "fonts/Teko-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/teko/Teko%5Bwght%5D.ttf",
+          "bytes": 292108,
+          "sha256": "d1321889f262bbbff632e7976349853399cd097b6f382d4b19790c915c13c1ae",
+          "modified": false,
+          "identity_scope": "Unchanged original bytes, complete notice and recorded official source; no binary-axis or complete glyph-coverage claim."
+        },
+        {
+          "file": "fonts/PublicSans-Variable.ttf",
+          "notice": "fonts/PublicSans-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/publicsans/PublicSans%5Bwght%5D.ttf",
+          "bytes": 103316,
+          "sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8",
+          "modified": false,
+          "identity_scope": "Unchanged original bytes, complete notice and recorded official source; no binary-axis or complete glyph-coverage claim."
+        }
+      ],
+      "bundled_photographs": [],
+      "runtime_html_ids": {},
+      "original_artwork": "Original fictional identities and scene/route/observation artwork.",
+      "runtime": "Local fictional task with explicit preparation, exact export and deliberate browser keeping/recovery.",
+      "initial_source_preserved": true,
+      "initial_source": {
+        "website_source_files": 13,
+        "website_source_bytes": 478468,
+        "consumed_input_resources": 20
+      },
+      "final_source_snapshot": [
+        {
+          "path": "FONT_SOURCES.json",
+          "bytes": 1167,
+          "sha256": "9170a2b04dd1beb95eef58397290c48cd26cab9a68d1a0900db28679f3497c80"
+        },
+        {
+          "path": "NOTICES.md",
+          "bytes": 822,
+          "sha256": "95db97162638c8dc91eba40bd8454b68af1cccf7331a7de60fba2d53dbc892aa"
+        },
+        {
+          "path": "bracket-model.js",
+          "bytes": 8422,
+          "sha256": "4488ba24567917d993b24cdff0a566a0c2db5149b69b25dc9776e3995abc3f37"
+        },
+        {
+          "path": "bracket.js",
+          "bytes": 13187,
+          "sha256": "c959277c3db0350c1300b5960d26b3035155b41fe5282c2b565e1b92fc9f69ef"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 5520,
+          "sha256": "79c28d7a3708a0b73d91648ce74c71a26197bf55e78a4b4130aa634a9af20f15"
+        },
+        {
+          "path": "fonts/PublicSans-OFL.txt",
+          "bytes": 4390,
+          "sha256": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac"
+        },
+        {
+          "path": "fonts/PublicSans-Variable.ttf",
+          "bytes": 103316,
+          "sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8"
+        },
+        {
+          "path": "fonts/Teko-OFL.txt",
+          "bytes": 4385,
+          "sha256": "4a193c54e911c1e8194d4db657423f2527f54a1239f24cb67ecb09128dc9f065"
+        },
+        {
+          "path": "fonts/Teko-Variable.ttf",
+          "bytes": 292108,
+          "sha256": "d1321889f262bbbff632e7976349853399cd097b6f382d4b19790c915c13c1ae"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 13085,
+          "sha256": "5c34fd8df51347a4fba380e922d4d99a4bea0c11e95082be27402a39658fd50d"
+        },
+        {
+          "path": "index.html",
+          "bytes": 4906,
+          "sha256": "b830fbb439f446b388c07a0ececcc7a7be9ac072948e3a88fbebb92727db8005"
+        },
+        {
+          "path": "mark.svg",
+          "bytes": 198,
+          "sha256": "c2add84938dbccf38ae99830cacd996884bb9e65aa1953cbfe50a3014b0e216c"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 28675,
+          "sha256": "4ab593c834628c139389c06c3cda51e4b70c55d5af8cf42e75268e5a4b2f0e8c"
+        }
+      ],
+      "excluded_generated_project_guidance": [],
+      "capture_phase": "final",
+      "populated_result_captures": [
+        {
+          "file": "result/captures/demo-desktop.jpg",
+          "view": "desktop",
+          "role": "populated result excerpt"
+        },
+        {
+          "file": "result/captures/demo-phone.jpg",
+          "view": "phone",
+          "role": "populated result excerpt"
+        }
+      ]
+    },
+    {
+      "slug": "cloudline",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "source_file_count": 15,
+      "source_bytes": 711932,
+      "required_notices": [
+        "NOTICES.md",
+        "fonts/PublicSans-OFL.txt",
+        "fonts/Spectral-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/Spectral-Regular.ttf",
+          "notice": "fonts/Spectral-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/spectral/Spectral-Regular.ttf",
+          "bytes": 261088,
+          "sha256": "c89021dc20720c8d0dcf40b0b2f6e00c13665fa8041717f581396f51b8c78f5d",
+          "modified": false,
+          "identity_scope": "Unchanged original bytes, complete notice and recorded official source; no binary-axis or complete glyph-coverage claim."
+        },
+        {
+          "file": "fonts/Spectral-Italic.ttf",
+          "notice": "fonts/Spectral-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/spectral/Spectral-Italic.ttf",
+          "bytes": 270468,
+          "sha256": "7ec97244259db4008c4b1224c7914e5371c797c0044af9d85c2d761ba0e5f787",
+          "modified": false,
+          "identity_scope": "Unchanged original bytes, complete notice and recorded official source; no binary-axis or complete glyph-coverage claim."
+        },
+        {
+          "file": "fonts/PublicSans-Variable.ttf",
+          "notice": "fonts/PublicSans-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/publicsans/PublicSans%5Bwght%5D.ttf",
+          "bytes": 103316,
+          "sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8",
+          "retrieval_url": "https://api.github.com/repos/google/fonts/contents/ofl/publicsans/PublicSans%5Bwght%5D.ttf",
+          "git_blob_sha": "c747e1de8c8deadb6ba852eb9a0a7d893b8bd36f",
+          "retrieval_note": "Official contents API base64 transport decoded to exact font bytes after raw endpoint handshake failures. No font transformation.",
+          "modified": false,
+          "identity_scope": "Unchanged original bytes, complete notice and recorded official source; no binary-axis or complete glyph-coverage claim."
+        }
+      ],
+      "bundled_photographs": [],
+      "runtime_html_ids": {},
+      "original_artwork": "Original fictional identities and scene/route/observation artwork.",
+      "runtime": "Local fictional task with explicit preparation, exact export and deliberate browser keeping/recovery.",
+      "initial_source_preserved": true,
+      "initial_source": {
+        "website_source_files": 15,
+        "website_source_bytes": 712105,
+        "consumed_input_resources": 15
+      },
+      "final_source_snapshot": [
+        {
+          "path": "FONT_SOURCES.json",
+          "bytes": 1840,
+          "sha256": "57fc717e04185486d47ac965771058804f722c2d5fbf14ad9fa47107cc866dcb"
+        },
+        {
+          "path": "NOTICES.md",
+          "bytes": 862,
+          "sha256": "eaa2849f9f3b80396fed0c4bc1cd17c116f298274ab3e0e5b46b8ed5c72dd5ce"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 9721,
+          "sha256": "0418426c2d26981d2e4cfb072446ff1ee539a56c39ae36f9a39d896ad8ebbcd3"
+        },
+        {
+          "path": "desk.js",
+          "bytes": 6851,
+          "sha256": "f6324b4c85a0ee9e4f5308f711a8a7e408a4468a49c1c6c3dd29f94edc0db447"
+        },
+        {
+          "path": "example-analysis.txt",
+          "bytes": 664,
+          "sha256": "d29aa8bba6f15538e1ab3a98fb9e419b3b31755e3390cce207ea1f1e4693bab8"
+        },
+        {
+          "path": "fonts/PublicSans-OFL.txt",
+          "bytes": 4390,
+          "sha256": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac"
+        },
+        {
+          "path": "fonts/PublicSans-Variable.ttf",
+          "bytes": 103316,
+          "sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8"
+        },
+        {
+          "path": "fonts/Spectral-Italic.ttf",
+          "bytes": 270468,
+          "sha256": "7ec97244259db4008c4b1224c7914e5371c797c0044af9d85c2d761ba0e5f787"
+        },
+        {
+          "path": "fonts/Spectral-OFL.txt",
+          "bytes": 4392,
+          "sha256": "501d6ceca8e552630fe3aa9442b9a818565680a1a2f79f3fb8c13d6f309a9e98"
+        },
+        {
+          "path": "fonts/Spectral-Regular.ttf",
+          "bytes": 261088,
+          "sha256": "c89021dc20720c8d0dcf40b0b2f6e00c13665fa8041717f581396f51b8c78f5d"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 11802,
+          "sha256": "11a6e7a46cf3e4be9b7fa7ccbd7c18a5f9fb5d2cb533f7e7b62b865ed81f856d"
+        },
+        {
+          "path": "index.html",
+          "bytes": 6220,
+          "sha256": "6479cd8eac53defe23f8413f5b3ae18e5e3741ad0fdc6214c72006685e54ce95"
+        },
+        {
+          "path": "mark.svg",
+          "bytes": 276,
+          "sha256": "e2ab4bf53a74b173d5ca3d418725aca23ee32d3cf56cc5445c1dc99479a8d543"
+        },
+        {
+          "path": "model.js",
+          "bytes": 7151,
+          "sha256": "0e3316c47389eaee38f8c126a9dfb47cefd9ecc0038653804600fdf9e6eabe49"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 22891,
+          "sha256": "5211e176978e77612d826c95c4f7286e5d6b96a02ae13b737658bd52a94989bb"
+        }
+      ],
+      "excluded_generated_project_guidance": [],
+      "capture_phase": "final",
+      "populated_result_captures": [
+        {
+          "file": "result/captures/demo-desktop.jpg",
+          "view": "desktop",
+          "role": "populated result excerpt"
+        },
+        {
+          "file": "result/captures/demo-phone.jpg",
+          "view": "phone",
+          "role": "populated result excerpt"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/site/FONT_SOURCES.json",
+      "bytes": 1639,
+      "sha256": "d4885f7525e32d10716bed8703cba3bd89d57de8a66af6ca5a1bfc20e00e3339",
+      "original_trial_relative_path": "afterimage/freeze-final/site/FONT_SOURCES.json",
+      "original_sha256": "d4885f7525e32d10716bed8703cba3bd89d57de8a66af6ca5a1bfc20e00e3339"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/site/NOTICES.md",
+      "bytes": 568,
+      "sha256": "349d0d42bfac488abc0364b9342c45320bdd94204a00928004611013e0b4a93b",
+      "original_trial_relative_path": "afterimage/freeze-final/site/NOTICES.md",
+      "original_sha256": "349d0d42bfac488abc0364b9342c45320bdd94204a00928004611013e0b4a93b"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/site/app.js",
+      "bytes": 8512,
+      "sha256": "20b8e3f70b429282a6d1724c579e030b4bfad35eadc9d17febc1780a06ce74e2",
+      "original_trial_relative_path": "afterimage/freeze-final/site/app.js",
+      "original_sha256": "20b8e3f70b429282a6d1724c579e030b4bfad35eadc9d17febc1780a06ce74e2"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/site/core.js",
+      "bytes": 8428,
+      "sha256": "3efc5f7bca0b5ee8df9c513857a6eb300efa99d8a7e8a4fa456471fab3a0ffcc",
+      "original_trial_relative_path": "afterimage/freeze-final/site/core.js",
+      "original_sha256": "3efc5f7bca0b5ee8df9c513857a6eb300efa99d8a7e8a4fa456471fab3a0ffcc"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/site/demo.html",
+      "bytes": 10502,
+      "sha256": "4964ffd28fd68fb320e664f8640e6c81b68fa5837d54197597ca15f659e5028c",
+      "original_trial_relative_path": "afterimage/freeze-final/site/demo.html",
+      "original_sha256": "4964ffd28fd68fb320e664f8640e6c81b68fa5837d54197597ca15f659e5028c"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/site/fonts/IBMPlexMono-Medium.ttf",
+      "bytes": 136704,
+      "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+      "original_trial_relative_path": "afterimage/freeze-final/site/fonts/IBMPlexMono-Medium.ttf",
+      "original_sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/site/fonts/IBMPlexMono-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "original_trial_relative_path": "afterimage/freeze-final/site/fonts/IBMPlexMono-OFL.txt",
+      "original_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/site/fonts/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "original_trial_relative_path": "afterimage/freeze-final/site/fonts/IBMPlexMono-Regular.ttf",
+      "original_sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/site/fonts/Sora-OFL.txt",
+      "bytes": 4385,
+      "sha256": "ba0b9729c9428ba79a0459ab8ec575791b51509dbec213e383d0316d37fec299",
+      "original_trial_relative_path": "afterimage/freeze-final/site/fonts/Sora-OFL.txt",
+      "original_sha256": "ba0b9729c9428ba79a0459ab8ec575791b51509dbec213e383d0316d37fec299"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/site/fonts/Sora-Variable.ttf",
+      "bytes": 111400,
+      "sha256": "84ff7096ae3ec6c8be47d906d1a0ba4de7f2ce78c615275c77301964a316e16c",
+      "original_trial_relative_path": "afterimage/freeze-final/site/fonts/Sora-Variable.ttf",
+      "original_sha256": "84ff7096ae3ec6c8be47d906d1a0ba4de7f2ce78c615275c77301964a316e16c"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/site/guide.html",
+      "bytes": 16512,
+      "sha256": "65a2ebd95e7c3e24dd7cfae526bcad0b63e6ce661af850839728ae974af0e84b",
+      "original_trial_relative_path": "afterimage/freeze-final/site/guide.html",
+      "original_sha256": "65a2ebd95e7c3e24dd7cfae526bcad0b63e6ce661af850839728ae974af0e84b"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/site/index.html",
+      "bytes": 4925,
+      "sha256": "2db1244ecb0f66e869c29fd1c624b459f64ad3128b06eccc81f69878696d3443",
+      "original_trial_relative_path": "afterimage/freeze-final/site/index.html",
+      "original_sha256": "2db1244ecb0f66e869c29fd1c624b459f64ad3128b06eccc81f69878696d3443"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/site/mark.svg",
+      "bytes": 205,
+      "sha256": "f4d163e59e9718a3f473b85f87c38dde7395dd056c8600269af31aaa0c87552d",
+      "original_trial_relative_path": "afterimage/freeze-final/site/mark.svg",
+      "original_sha256": "f4d163e59e9718a3f473b85f87c38dde7395dd056c8600269af31aaa0c87552d"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/site/scene.svg",
+      "bytes": 2281,
+      "sha256": "706e551f8bd6366db49639a6715590cdcf295374da2ee217997abc109b8a2931",
+      "original_trial_relative_path": "afterimage/freeze-final/site/scene.svg",
+      "original_sha256": "706e551f8bd6366db49639a6715590cdcf295374da2ee217997abc109b8a2931"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/site/styles.css",
+      "bytes": 31847,
+      "sha256": "3ecb570df194a4828e1dafa20bf21c1766820fe9f1b34aa077d5ca5b3151020d",
+      "original_trial_relative_path": "afterimage/freeze-final/site/styles.css",
+      "original_sha256": "3ecb570df194a4828e1dafa20bf21c1766820fe9f1b34aa077d5ca5b3151020d"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/captures/home-desktop.jpg",
+      "bytes": 84308,
+      "sha256": "6234e83476c7a03a7ae46a54547879c18343a251da7fd14f2a69271c95bc4c11",
+      "original_trial_relative_path": "captures/final/afterimage/home-desktop.jpg",
+      "original_sha256": "6234e83476c7a03a7ae46a54547879c18343a251da7fd14f2a69271c95bc4c11",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/captures/home-phone.jpg",
+      "bytes": 36466,
+      "sha256": "e35d63a400c04da586a26f980b18dd295c85bcb13f851a14b74e9c11ae64a182",
+      "original_trial_relative_path": "captures/final/afterimage/home-phone.jpg",
+      "original_sha256": "e35d63a400c04da586a26f980b18dd295c85bcb13f851a14b74e9c11ae64a182",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/captures/demo-desktop.jpg",
+      "bytes": 75789,
+      "sha256": "2371acd3e1a5ea12c146037f735107aa98f2cfb27596cf7721793ed7e33cffac",
+      "original_trial_relative_path": "captures/final/afterimage/demo-desktop.jpg",
+      "original_sha256": "2371acd3e1a5ea12c146037f735107aa98f2cfb27596cf7721793ed7e33cffac",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/captures/demo-phone.jpg",
+      "bytes": 36379,
+      "sha256": "acfe4b1528ff491154ff2cb07e92cc60b0e3871f315c62f392a93759a90cc533",
+      "original_trial_relative_path": "captures/final/afterimage/demo-phone.jpg",
+      "original_sha256": "acfe4b1528ff491154ff2cb07e92cc60b0e3871f315c62f392a93759a90cc533",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/captures/guide-desktop.jpg",
+      "bytes": 120298,
+      "sha256": "7dac086240e0c07614d8eaaa943b756c2465b72e1baf8a5f5a7925a05583d3fd",
+      "original_trial_relative_path": "captures/final/afterimage/guide-desktop.jpg",
+      "original_sha256": "7dac086240e0c07614d8eaaa943b756c2465b72e1baf8a5f5a7925a05583d3fd",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/captures/guide-phone.jpg",
+      "bytes": 43668,
+      "sha256": "6cc79c9a0dd6e3ab8c3725238f0952a4ae02ddc0b5cfd9151846c7de18c97701",
+      "original_trial_relative_path": "captures/final/afterimage/guide-phone.jpg",
+      "original_sha256": "6cc79c9a0dd6e3ab8c3725238f0952a4ae02ddc0b5cfd9151846c7de18c97701",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/result/captures/demo-desktop.jpg",
+      "bytes": 70168,
+      "sha256": "5edb2c8908b570807a4ed4ae0230ef285bf3cbea38cd6be219d94a7f11f03011",
+      "original_trial_relative_path": "captures/final/afterimage/demo-desktop-prepared-result.jpg",
+      "original_sha256": "5edb2c8908b570807a4ed4ae0230ef285bf3cbea38cd6be219d94a7f11f03011",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 1407,
+        "phase": "final",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native viewport after actual preparation and native scrolling; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/afterimage/result/captures/demo-phone.jpg",
+      "bytes": 29556,
+      "sha256": "b466dc7d528eb52f907d8774ccd44d6fce228505bec71d595fcd2e9279648e34",
+      "original_trial_relative_path": "captures/final/afterimage/demo-phone-prepared-result.jpg",
+      "original_sha256": "b466dc7d528eb52f907d8774ccd44d6fce228505bec71d595fcd2e9279648e34",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 2674,
+        "phase": "final",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native viewport after actual preparation and native scrolling; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/site/FONT_SOURCES.json",
+      "bytes": 1167,
+      "sha256": "9170a2b04dd1beb95eef58397290c48cd26cab9a68d1a0900db28679f3497c80",
+      "original_trial_relative_path": "bracket-house/freeze-final/site/FONT_SOURCES.json",
+      "original_sha256": "9170a2b04dd1beb95eef58397290c48cd26cab9a68d1a0900db28679f3497c80"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/site/NOTICES.md",
+      "bytes": 822,
+      "sha256": "95db97162638c8dc91eba40bd8454b68af1cccf7331a7de60fba2d53dbc892aa",
+      "original_trial_relative_path": "bracket-house/freeze-final/site/NOTICES.md",
+      "original_sha256": "95db97162638c8dc91eba40bd8454b68af1cccf7331a7de60fba2d53dbc892aa"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/site/bracket-model.js",
+      "bytes": 8422,
+      "sha256": "4488ba24567917d993b24cdff0a566a0c2db5149b69b25dc9776e3995abc3f37",
+      "original_trial_relative_path": "bracket-house/freeze-final/site/bracket-model.js",
+      "original_sha256": "4488ba24567917d993b24cdff0a566a0c2db5149b69b25dc9776e3995abc3f37"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/site/bracket.js",
+      "bytes": 13187,
+      "sha256": "c959277c3db0350c1300b5960d26b3035155b41fe5282c2b565e1b92fc9f69ef",
+      "original_trial_relative_path": "bracket-house/freeze-final/site/bracket.js",
+      "original_sha256": "c959277c3db0350c1300b5960d26b3035155b41fe5282c2b565e1b92fc9f69ef"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/site/demo.html",
+      "bytes": 5520,
+      "sha256": "79c28d7a3708a0b73d91648ce74c71a26197bf55e78a4b4130aa634a9af20f15",
+      "original_trial_relative_path": "bracket-house/freeze-final/site/demo.html",
+      "original_sha256": "79c28d7a3708a0b73d91648ce74c71a26197bf55e78a4b4130aa634a9af20f15"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/site/fonts/PublicSans-OFL.txt",
+      "bytes": 4390,
+      "sha256": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac",
+      "original_trial_relative_path": "bracket-house/freeze-final/site/fonts/PublicSans-OFL.txt",
+      "original_sha256": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/site/fonts/PublicSans-Variable.ttf",
+      "bytes": 103316,
+      "sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8",
+      "original_trial_relative_path": "bracket-house/freeze-final/site/fonts/PublicSans-Variable.ttf",
+      "original_sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/site/fonts/Teko-OFL.txt",
+      "bytes": 4385,
+      "sha256": "4a193c54e911c1e8194d4db657423f2527f54a1239f24cb67ecb09128dc9f065",
+      "original_trial_relative_path": "bracket-house/freeze-final/site/fonts/Teko-OFL.txt",
+      "original_sha256": "4a193c54e911c1e8194d4db657423f2527f54a1239f24cb67ecb09128dc9f065"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/site/fonts/Teko-Variable.ttf",
+      "bytes": 292108,
+      "sha256": "d1321889f262bbbff632e7976349853399cd097b6f382d4b19790c915c13c1ae",
+      "original_trial_relative_path": "bracket-house/freeze-final/site/fonts/Teko-Variable.ttf",
+      "original_sha256": "d1321889f262bbbff632e7976349853399cd097b6f382d4b19790c915c13c1ae"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/site/guide.html",
+      "bytes": 13085,
+      "sha256": "5c34fd8df51347a4fba380e922d4d99a4bea0c11e95082be27402a39658fd50d",
+      "original_trial_relative_path": "bracket-house/freeze-final/site/guide.html",
+      "original_sha256": "5c34fd8df51347a4fba380e922d4d99a4bea0c11e95082be27402a39658fd50d"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/site/index.html",
+      "bytes": 4906,
+      "sha256": "b830fbb439f446b388c07a0ececcc7a7be9ac072948e3a88fbebb92727db8005",
+      "original_trial_relative_path": "bracket-house/freeze-final/site/index.html",
+      "original_sha256": "b830fbb439f446b388c07a0ececcc7a7be9ac072948e3a88fbebb92727db8005"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/site/mark.svg",
+      "bytes": 198,
+      "sha256": "c2add84938dbccf38ae99830cacd996884bb9e65aa1953cbfe50a3014b0e216c",
+      "original_trial_relative_path": "bracket-house/freeze-final/site/mark.svg",
+      "original_sha256": "c2add84938dbccf38ae99830cacd996884bb9e65aa1953cbfe50a3014b0e216c"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/site/styles.css",
+      "bytes": 28675,
+      "sha256": "4ab593c834628c139389c06c3cda51e4b70c55d5af8cf42e75268e5a4b2f0e8c",
+      "original_trial_relative_path": "bracket-house/freeze-final/site/styles.css",
+      "original_sha256": "4ab593c834628c139389c06c3cda51e4b70c55d5af8cf42e75268e5a4b2f0e8c"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/captures/home-desktop.jpg",
+      "bytes": 93040,
+      "sha256": "a438549645da843b7e3d16710da5e3ce692dad9d02f6336c96d2305bca2ec0c4",
+      "original_trial_relative_path": "captures/final/bracket-house/home-desktop.jpg",
+      "original_sha256": "a438549645da843b7e3d16710da5e3ce692dad9d02f6336c96d2305bca2ec0c4",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/captures/home-phone.jpg",
+      "bytes": 45521,
+      "sha256": "3d0dd5f1586eecb72baa190679c12978a62083ab7302ac6ae02c77779dcab112",
+      "original_trial_relative_path": "captures/final/bracket-house/home-phone.jpg",
+      "original_sha256": "3d0dd5f1586eecb72baa190679c12978a62083ab7302ac6ae02c77779dcab112",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/captures/demo-desktop.jpg",
+      "bytes": 79018,
+      "sha256": "7f8f319f84be21b1f660067da13e119344032fd2f7f59c568c85cb0d697e47e1",
+      "original_trial_relative_path": "captures/final/bracket-house/demo-desktop.jpg",
+      "original_sha256": "7f8f319f84be21b1f660067da13e119344032fd2f7f59c568c85cb0d697e47e1",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/captures/demo-phone.jpg",
+      "bytes": 38441,
+      "sha256": "331f9c627f3bd1fa3d7979b43fd144826ab89c16fe591532482a1f7eb64e90e0",
+      "original_trial_relative_path": "captures/final/bracket-house/demo-phone.jpg",
+      "original_sha256": "331f9c627f3bd1fa3d7979b43fd144826ab89c16fe591532482a1f7eb64e90e0",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/captures/guide-desktop.jpg",
+      "bytes": 121538,
+      "sha256": "941715d15ce573bdc7cdff224767deea7a117ee4710589568b0604b25bbf3c47",
+      "original_trial_relative_path": "captures/final/bracket-house/guide-desktop.jpg",
+      "original_sha256": "941715d15ce573bdc7cdff224767deea7a117ee4710589568b0604b25bbf3c47",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/captures/guide-phone.jpg",
+      "bytes": 49442,
+      "sha256": "c74fb061d6f536c4b893b51b94e1c77e2b4b4bf76350093ff7c058fe327fc5e7",
+      "original_trial_relative_path": "captures/final/bracket-house/guide-phone.jpg",
+      "original_sha256": "c74fb061d6f536c4b893b51b94e1c77e2b4b4bf76350093ff7c058fe327fc5e7",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/result/captures/demo-desktop.jpg",
+      "bytes": 75560,
+      "sha256": "98cab030b287a33f6fd1c0863ec58091765bb2ba3911c05f5444d0863b5e8324",
+      "original_trial_relative_path": "captures/final/bracket-house/demo-desktop-prepared-result.jpg",
+      "original_sha256": "98cab030b287a33f6fd1c0863ec58091765bb2ba3911c05f5444d0863b5e8324",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 1667,
+        "phase": "final",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native viewport after actual preparation and native scrolling; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/bracket-house/result/captures/demo-phone.jpg",
+      "bytes": 32752,
+      "sha256": "d750d8983654dfb85b37028843234f0bea9b849a6537f48dc1b038ed57e6b942",
+      "original_trial_relative_path": "captures/final/bracket-house/demo-phone-prepared-result.jpg",
+      "original_sha256": "d750d8983654dfb85b37028843234f0bea9b849a6537f48dc1b038ed57e6b942",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 2666,
+        "phase": "final",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native viewport after actual preparation and native scrolling; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/site/FONT_SOURCES.json",
+      "bytes": 1840,
+      "sha256": "57fc717e04185486d47ac965771058804f722c2d5fbf14ad9fa47107cc866dcb",
+      "original_trial_relative_path": "cloudline/freeze-final/site/FONT_SOURCES.json",
+      "original_sha256": "57fc717e04185486d47ac965771058804f722c2d5fbf14ad9fa47107cc866dcb"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/site/NOTICES.md",
+      "bytes": 862,
+      "sha256": "eaa2849f9f3b80396fed0c4bc1cd17c116f298274ab3e0e5b46b8ed5c72dd5ce",
+      "original_trial_relative_path": "cloudline/freeze-final/site/NOTICES.md",
+      "original_sha256": "eaa2849f9f3b80396fed0c4bc1cd17c116f298274ab3e0e5b46b8ed5c72dd5ce"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/site/demo.html",
+      "bytes": 9721,
+      "sha256": "0418426c2d26981d2e4cfb072446ff1ee539a56c39ae36f9a39d896ad8ebbcd3",
+      "original_trial_relative_path": "cloudline/freeze-final/site/demo.html",
+      "original_sha256": "0418426c2d26981d2e4cfb072446ff1ee539a56c39ae36f9a39d896ad8ebbcd3"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/site/desk.js",
+      "bytes": 6851,
+      "sha256": "f6324b4c85a0ee9e4f5308f711a8a7e408a4468a49c1c6c3dd29f94edc0db447",
+      "original_trial_relative_path": "cloudline/freeze-final/site/desk.js",
+      "original_sha256": "f6324b4c85a0ee9e4f5308f711a8a7e408a4468a49c1c6c3dd29f94edc0db447"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/site/example-analysis.txt",
+      "bytes": 664,
+      "sha256": "d29aa8bba6f15538e1ab3a98fb9e419b3b31755e3390cce207ea1f1e4693bab8",
+      "original_trial_relative_path": "cloudline/freeze-final/site/example-analysis.txt",
+      "original_sha256": "d29aa8bba6f15538e1ab3a98fb9e419b3b31755e3390cce207ea1f1e4693bab8"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/site/fonts/PublicSans-OFL.txt",
+      "bytes": 4390,
+      "sha256": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac",
+      "original_trial_relative_path": "cloudline/freeze-final/site/fonts/PublicSans-OFL.txt",
+      "original_sha256": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/site/fonts/PublicSans-Variable.ttf",
+      "bytes": 103316,
+      "sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8",
+      "original_trial_relative_path": "cloudline/freeze-final/site/fonts/PublicSans-Variable.ttf",
+      "original_sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/site/fonts/Spectral-Italic.ttf",
+      "bytes": 270468,
+      "sha256": "7ec97244259db4008c4b1224c7914e5371c797c0044af9d85c2d761ba0e5f787",
+      "original_trial_relative_path": "cloudline/freeze-final/site/fonts/Spectral-Italic.ttf",
+      "original_sha256": "7ec97244259db4008c4b1224c7914e5371c797c0044af9d85c2d761ba0e5f787"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/site/fonts/Spectral-OFL.txt",
+      "bytes": 4392,
+      "sha256": "501d6ceca8e552630fe3aa9442b9a818565680a1a2f79f3fb8c13d6f309a9e98",
+      "original_trial_relative_path": "cloudline/freeze-final/site/fonts/Spectral-OFL.txt",
+      "original_sha256": "501d6ceca8e552630fe3aa9442b9a818565680a1a2f79f3fb8c13d6f309a9e98"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/site/fonts/Spectral-Regular.ttf",
+      "bytes": 261088,
+      "sha256": "c89021dc20720c8d0dcf40b0b2f6e00c13665fa8041717f581396f51b8c78f5d",
+      "original_trial_relative_path": "cloudline/freeze-final/site/fonts/Spectral-Regular.ttf",
+      "original_sha256": "c89021dc20720c8d0dcf40b0b2f6e00c13665fa8041717f581396f51b8c78f5d"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/site/guide.html",
+      "bytes": 11802,
+      "sha256": "11a6e7a46cf3e4be9b7fa7ccbd7c18a5f9fb5d2cb533f7e7b62b865ed81f856d",
+      "original_trial_relative_path": "cloudline/freeze-final/site/guide.html",
+      "original_sha256": "11a6e7a46cf3e4be9b7fa7ccbd7c18a5f9fb5d2cb533f7e7b62b865ed81f856d"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/site/index.html",
+      "bytes": 6220,
+      "sha256": "6479cd8eac53defe23f8413f5b3ae18e5e3741ad0fdc6214c72006685e54ce95",
+      "original_trial_relative_path": "cloudline/freeze-final/site/index.html",
+      "original_sha256": "6479cd8eac53defe23f8413f5b3ae18e5e3741ad0fdc6214c72006685e54ce95"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/site/mark.svg",
+      "bytes": 276,
+      "sha256": "e2ab4bf53a74b173d5ca3d418725aca23ee32d3cf56cc5445c1dc99479a8d543",
+      "original_trial_relative_path": "cloudline/freeze-final/site/mark.svg",
+      "original_sha256": "e2ab4bf53a74b173d5ca3d418725aca23ee32d3cf56cc5445c1dc99479a8d543"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/site/model.js",
+      "bytes": 7151,
+      "sha256": "0e3316c47389eaee38f8c126a9dfb47cefd9ecc0038653804600fdf9e6eabe49",
+      "original_trial_relative_path": "cloudline/freeze-final/site/model.js",
+      "original_sha256": "0e3316c47389eaee38f8c126a9dfb47cefd9ecc0038653804600fdf9e6eabe49"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/site/styles.css",
+      "bytes": 22891,
+      "sha256": "5211e176978e77612d826c95c4f7286e5d6b96a02ae13b737658bd52a94989bb",
+      "original_trial_relative_path": "cloudline/freeze-final/site/styles.css",
+      "original_sha256": "5211e176978e77612d826c95c4f7286e5d6b96a02ae13b737658bd52a94989bb"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/captures/home-desktop.jpg",
+      "bytes": 77993,
+      "sha256": "32f74f6837e8e4068b936e37fa87e410e273752f7df891b9fd631d2fa0354023",
+      "original_trial_relative_path": "captures/final/cloudline/home-desktop.jpg",
+      "original_sha256": "32f74f6837e8e4068b936e37fa87e410e273752f7df891b9fd631d2fa0354023",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/captures/home-phone.jpg",
+      "bytes": 35744,
+      "sha256": "b87d218fd601f97e586ee4ab7c818d2d41a3d232857f67fe0d5f1670273ec20c",
+      "original_trial_relative_path": "captures/final/cloudline/home-phone.jpg",
+      "original_sha256": "b87d218fd601f97e586ee4ab7c818d2d41a3d232857f67fe0d5f1670273ec20c",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/captures/demo-desktop.jpg",
+      "bytes": 102246,
+      "sha256": "984adb4a04864fe2174436d34ad0454b4b5bcc8f42bdbdb6fd66b6d318c07cc5",
+      "original_trial_relative_path": "captures/final/cloudline/demo-desktop.jpg",
+      "original_sha256": "984adb4a04864fe2174436d34ad0454b4b5bcc8f42bdbdb6fd66b6d318c07cc5",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/captures/demo-phone.jpg",
+      "bytes": 39950,
+      "sha256": "fef392693ea11cbcb875fb13a5f168320a138a90eb4f2b14a02d6742d88d9a70",
+      "original_trial_relative_path": "captures/final/cloudline/demo-phone.jpg",
+      "original_sha256": "fef392693ea11cbcb875fb13a5f168320a138a90eb4f2b14a02d6742d88d9a70",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/captures/guide-desktop.jpg",
+      "bytes": 103645,
+      "sha256": "c4da09c680af4cff5745d2515b344e6ebb63be01950d503b16381cf61a7a69cd",
+      "original_trial_relative_path": "captures/final/cloudline/guide-desktop.jpg",
+      "original_sha256": "c4da09c680af4cff5745d2515b344e6ebb63be01950d503b16381cf61a7a69cd",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/captures/guide-phone.jpg",
+      "bytes": 46763,
+      "sha256": "ed1150528c47f21b73fea7743ebc920f2f204e0fe5d0e5ca27a9f6a8b03a90e0",
+      "original_trial_relative_path": "captures/final/cloudline/guide-phone.jpg",
+      "original_sha256": "ed1150528c47f21b73fea7743ebc920f2f204e0fe5d0e5ca27a9f6a8b03a90e0",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native in-app browser viewport screenshot; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/result/captures/demo-desktop.jpg",
+      "bytes": 95453,
+      "sha256": "081ad84b0041d925df3f6754716a2c2d6cd48476aa79ae6e3d3f31b5b81d0083",
+      "original_trial_relative_path": "captures/final/cloudline/demo-desktop-prepared-result.jpg",
+      "original_sha256": "081ad84b0041d925df3f6754716a2c2d6cd48476aa79ae6e3d3f31b5b81d0083",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 279,
+        "phase": "final",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native viewport after actual preparation and native scrolling; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/cloudline/result/captures/demo-phone.jpg",
+      "bytes": 34284,
+      "sha256": "4035eb928488fd6691d92fd928a21dfa7e9f46d43ba64895a1b5b82054a7fc4c",
+      "original_trial_relative_path": "captures/final/cloudline/demo-phone-prepared-result.jpg",
+      "original_sha256": "4035eb928488fd6691d92fd928a21dfa7e9f46d43ba64895a1b5b82054a7fc4c",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 1759,
+        "phase": "final",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Native viewport after actual preparation and native scrolling; unchanged bytes"
+      }
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/NOTICES.md",
+      "bytes": 349,
+      "sha256": "ec5262084724a2db24ea2f0f368c549c6e2073e35e26c5f2aa2abde371a3f8d3"
+    },
+    {
+      "skill_relative_path": "assets/relational-task-cases/CHECKS.json",
+      "bytes": 219610,
+      "sha256": "651ef2d9dbd5fb3a25a2f7ae57383211391d47d685f7def7db4b4b2e9479b9c5"
+    },
+    {
+      "skill_relative_path": "references/relational-tasks.md",
+      "bytes": 5251,
+      "sha256": "e4eb6e3ebb1ff0b0f63001df9600aa5274ac743d121df5fb5ae7e69a8658f161"
+    }
+  ]
+}

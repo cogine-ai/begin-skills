@@ -1,0 +1,5311 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-11",
+  "input_version": "0.1.0-dev.15",
+  "source_files": 69,
+  "native_openings": 18,
+  "font_binaries": 9,
+  "preserved": {
+    "archives": 30,
+    "assets": 615,
+    "references": 16
+  },
+  "initial_native_tasks": [
+    {
+      "slug": "latch-parts",
+      "phase": "initial",
+      "download": {
+        "exact": true,
+        "bytes": 491,
+        "sha256": "8a164f4feb5c3c4bcf19cb242263e0735a13faddbd9006838c0b135bd0260753"
+      },
+      "invalid": {
+        "earlier": true,
+        "download_blocked": true,
+        "keep_blocked": true
+      },
+      "reload_recovery_exact": true,
+      "valid_change_invalidates": true,
+      "forget_disables_recovery": true
+    },
+    {
+      "slug": "good-measure",
+      "phase": "initial",
+      "expected_fixture": "4.50 m / GBP 74.00",
+      "download": {
+        "exact": true,
+        "bytes": 626,
+        "sha256": "9fdccfbdc0432cd206c46269444c75b57ca335db620c054488d263c982f7075e"
+      },
+      "invalid": {
+        "earlier": true,
+        "download_blocked": true,
+        "keep_blocked": true
+      },
+      "reload_recovery_exact": true,
+      "reset_retains_kept": true,
+      "forget_disables_recovery": true
+    },
+    {
+      "slug": "archive-of-play",
+      "phase": "initial",
+      "download": {
+        "exact": true,
+        "bytes": 970,
+        "sha256": "16f4dac881035ab2be26316690801f147e12728c89a96f97f9b1ab2852e0b32a"
+      },
+      "invalid": {
+        "earlier": true,
+        "download_blocked": true,
+        "keep_blocked": true
+      },
+      "reload_recovery_exact": true,
+      "reset_retains_kept": true,
+      "forget_disables_recovery": true
+    }
+  ],
+  "final_native_tasks": [
+    {
+      "slug": "latch-parts",
+      "phase": "final",
+      "download": {
+        "exact": true,
+        "bytes": 491,
+        "sha256": "8a164f4feb5c3c4bcf19cb242263e0735a13faddbd9006838c0b135bd0260753"
+      },
+      "invalid": {
+        "earlier": true,
+        "download_blocked": true,
+        "keep_blocked": true
+      },
+      "reload_recovery_exact": true,
+      "valid_change_invalidates": true,
+      "forget_disables_recovery": true
+    },
+    {
+      "slug": "good-measure",
+      "phase": "final",
+      "download": {
+        "exact": true,
+        "bytes": 626,
+        "sha256": "9fdccfbdc0432cd206c46269444c75b57ca335db620c054488d263c982f7075e"
+      },
+      "invalid": {
+        "earlier": true,
+        "download_blocked": true,
+        "keep_blocked": true
+      },
+      "reload_recovery_exact": true,
+      "reset_retains_kept": true,
+      "forget_disables_recovery": true
+    },
+    {
+      "slug": "archive-of-play",
+      "phase": "final",
+      "download": {
+        "exact": true,
+        "bytes": 970,
+        "sha256": "16f4dac881035ab2be26316690801f147e12728c89a96f97f9b1ab2852e0b32a"
+      },
+      "invalid": {
+        "earlier": true,
+        "download_blocked": true,
+        "keep_blocked": true
+      },
+      "reload_recovery_exact": true,
+      "reset_retains_kept": true,
+      "forget_disables_recovery": true
+    }
+  ],
+  "responsive": [
+    {
+      "slug": "good-measure",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Good fabricA good placeto start"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Find a good combination"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "\u00c9cru stripe with a narrow indigo selvedge"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Soft crosshatch in pine and chalk"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Small checks with a raised oat thread"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Plain weave in deep aubergine"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Washed twill with a fine diagonal grain"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Windowpane with uneven blue lines"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Measure twiceMake once"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Gather your cuts"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "See the whole project"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Keep a useful record"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 320
+    },
+    {
+      "slug": "good-measure",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Good fabricA good placeto start"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Find a good combination"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "\u00c9cru stripe with a narrow indigo selvedge"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Soft crosshatch in pine and chalk"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Small checks with a raised oat thread"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Plain weave in deep aubergine"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Washed twill with a fine diagonal grain"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Windowpane with uneven blue lines"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Measure twiceMake once"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Gather your cuts"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "See the whole project"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Keep a useful record"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 599
+    },
+    {
+      "slug": "good-measure",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Good fabricA good placeto start"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Find a good combination"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "\u00c9cru stripe with a narrow indigo selvedge"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Soft crosshatch in pine and chalk"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Small checks with a raised oat thread"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Plain weave in deep aubergine"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Washed twill with a fine diagonal grain"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Windowpane with uneven blue lines"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Measure twiceMake once"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Gather your cuts"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "See the whole project"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Keep a useful record"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 600
+    },
+    {
+      "slug": "good-measure",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Good fabricA good placeto start"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Find a good combination"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "\u00c9cru stripe with a narrow indigo selvedge"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Soft crosshatch in pine and chalk"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Small checks with a raised oat thread"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Plain weave in deep aubergine"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Washed twill with a fine diagonal grain"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Windowpane with uneven blue lines"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Measure twiceMake once"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Gather your cuts"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "See the whole project"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Keep a useful record"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 601
+    },
+    {
+      "slug": "good-measure",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Good fabricA good placeto start"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Find a good combination"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "\u00c9cru stripe with a narrow indigo selvedge"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Soft crosshatch in pine and chalk"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Small checks with a raised oat thread"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Plain weave in deep aubergine"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Washed twill with a fine diagonal grain"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Windowpane with uneven blue lines"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Measure twiceMake once"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Gather your cuts"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "See the whole project"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Keep a useful record"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 768
+    },
+    {
+      "slug": "good-measure",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Good fabricA good placeto start"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Find a good combination"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "\u00c9cru stripe with a narrow indigo selvedge"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Soft crosshatch in pine and chalk"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Small checks with a raised oat thread"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Plain weave in deep aubergine"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Washed twill with a fine diagonal grain"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Windowpane with uneven blue lines"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Measure twiceMake once"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Gather your cuts"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "See the whole project"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Keep a useful record"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 819
+    },
+    {
+      "slug": "good-measure",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Good fabricA good placeto start"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Find a good combination"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "\u00c9cru stripe with a narrow indigo selvedge"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Soft crosshatch in pine and chalk"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Small checks with a raised oat thread"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Plain weave in deep aubergine"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Washed twill with a fine diagonal grain"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Windowpane with uneven blue lines"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Measure twiceMake once"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Gather your cuts"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "See the whole project"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Keep a useful record"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 820
+    },
+    {
+      "slug": "good-measure",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Good fabricA good placeto start"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Find a good combination"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "\u00c9cru stripe with a narrow indigo selvedge"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Soft crosshatch in pine and chalk"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Small checks with a raised oat thread"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Plain weave in deep aubergine"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Washed twill with a fine diagonal grain"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Windowpane with uneven blue lines"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Measure twiceMake once"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Gather your cuts"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "See the whole project"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Keep a useful record"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 821
+    },
+    {
+      "slug": "good-measure",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Good fabricA good placeto start"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Find a good combination"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "\u00c9cru stripe with a narrow indigo selvedge"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Soft crosshatch in pine and chalk"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Small checks with a raised oat thread"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Plain weave in deep aubergine"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Washed twill with a fine diagonal grain"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Windowpane with uneven blue lines"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Measure twiceMake once"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Gather your cuts"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "See the whole project"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Keep a useful record"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1099
+    },
+    {
+      "slug": "good-measure",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Good fabricA good placeto start"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Find a good combination"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "\u00c9cru stripe with a narrow indigo selvedge"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Soft crosshatch in pine and chalk"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Small checks with a raised oat thread"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Plain weave in deep aubergine"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Washed twill with a fine diagonal grain"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Windowpane with uneven blue lines"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Measure twiceMake once"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Gather your cuts"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "See the whole project"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Keep a useful record"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1100
+    },
+    {
+      "slug": "good-measure",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Good fabricA good placeto start"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Find a good combination"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "\u00c9cru stripe with a narrow indigo selvedge"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Soft crosshatch in pine and chalk"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Small checks with a raised oat thread"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Plain weave in deep aubergine"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Washed twill with a fine diagonal grain"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Windowpane with uneven blue lines"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Measure twiceMake once"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Gather your cuts"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "See the whole project"
+        },
+        {
+          "check": true,
+          "family": "\"Work Sans\", Arial, sans-serif",
+          "text": "Keep a useful record"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1101
+    },
+    {
+      "slug": "good-measure",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a cut list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Name your project"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "A copy for later"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 320
+    },
+    {
+      "slug": "good-measure",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a cut list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Name your project"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "A copy for later"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 599
+    },
+    {
+      "slug": "good-measure",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a cut list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Name your project"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "A copy for later"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 600
+    },
+    {
+      "slug": "good-measure",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a cut list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Name your project"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "A copy for later"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 601
+    },
+    {
+      "slug": "good-measure",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a cut list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Name your project"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "A copy for later"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 768
+    },
+    {
+      "slug": "good-measure",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a cut list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Name your project"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "A copy for later"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 819
+    },
+    {
+      "slug": "good-measure",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a cut list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Name your project"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "A copy for later"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 820
+    },
+    {
+      "slug": "good-measure",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a cut list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Name your project"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "A copy for later"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 821
+    },
+    {
+      "slug": "good-measure",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a cut list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Name your project"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "A copy for later"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1099
+    },
+    {
+      "slug": "good-measure",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a cut list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Name your project"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "A copy for later"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1100
+    },
+    {
+      "slug": "good-measure",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a cut list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Name your project"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "A copy for later"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1101
+    },
+    {
+      "slug": "good-measure",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Cut-list guide"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Prepare a list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Lengths and totals"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a change"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Keep and recover"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Exact text export"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Kitchen cloths"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 320
+    },
+    {
+      "slug": "good-measure",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Cut-list guide"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Prepare a list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Lengths and totals"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a change"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Keep and recover"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Exact text export"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Kitchen cloths"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 599
+    },
+    {
+      "slug": "good-measure",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Cut-list guide"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Prepare a list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Lengths and totals"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a change"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Keep and recover"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Exact text export"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Kitchen cloths"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 600
+    },
+    {
+      "slug": "good-measure",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Cut-list guide"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Prepare a list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Lengths and totals"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a change"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Keep and recover"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Exact text export"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Kitchen cloths"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 601
+    },
+    {
+      "slug": "good-measure",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Cut-list guide"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Prepare a list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Lengths and totals"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a change"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Keep and recover"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Exact text export"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Kitchen cloths"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 768
+    },
+    {
+      "slug": "good-measure",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Cut-list guide"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Prepare a list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Lengths and totals"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a change"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Keep and recover"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Exact text export"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Kitchen cloths"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 819
+    },
+    {
+      "slug": "good-measure",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Cut-list guide"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Prepare a list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Lengths and totals"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a change"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Keep and recover"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Exact text export"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Kitchen cloths"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 820
+    },
+    {
+      "slug": "good-measure",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Cut-list guide"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Prepare a list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Lengths and totals"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a change"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Keep and recover"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Exact text export"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Kitchen cloths"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 821
+    },
+    {
+      "slug": "good-measure",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Cut-list guide"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Prepare a list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Lengths and totals"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a change"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Keep and recover"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Exact text export"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Kitchen cloths"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1099
+    },
+    {
+      "slug": "good-measure",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Cut-list guide"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Prepare a list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Lengths and totals"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a change"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Keep and recover"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Exact text export"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Kitchen cloths"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1100
+    },
+    {
+      "slug": "good-measure",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Cut-list guide"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Prepare a list"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Lengths and totals"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Make a change"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Keep and recover"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Exact text export"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "Kitchen cloths"
+        },
+        {
+          "check": true,
+          "family": "Newsreader, Georgia, serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1101
+    },
+    {
+      "slug": "latch-parts",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Cabinet pulls,measured first"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Six ways to take hold"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Round-bar pull with concealed fixing"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Offset pull with reversible mounting plate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Recessed edge pull for a narrow cabinet front"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "\u00c9lan loop with a brushed steel backplate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Wide bow with independent end mounts"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Start with the cabinet in front of you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 320
+    },
+    {
+      "slug": "latch-parts",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Cabinet pulls,measured first"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Six ways to take hold"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Round-bar pull with concealed fixing"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Offset pull with reversible mounting plate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Recessed edge pull for a narrow cabinet front"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "\u00c9lan loop with a brushed steel backplate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Wide bow with independent end mounts"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Start with the cabinet in front of you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 379
+    },
+    {
+      "slug": "latch-parts",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Cabinet pulls,measured first"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Six ways to take hold"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Round-bar pull with concealed fixing"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Offset pull with reversible mounting plate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Recessed edge pull for a narrow cabinet front"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "\u00c9lan loop with a brushed steel backplate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Wide bow with independent end mounts"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Start with the cabinet in front of you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 380
+    },
+    {
+      "slug": "latch-parts",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Cabinet pulls,measured first"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Six ways to take hold"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Round-bar pull with concealed fixing"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Offset pull with reversible mounting plate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Recessed edge pull for a narrow cabinet front"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "\u00c9lan loop with a brushed steel backplate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Wide bow with independent end mounts"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Start with the cabinet in front of you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 381
+    },
+    {
+      "slug": "latch-parts",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Cabinet pulls,measured first"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Six ways to take hold"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Round-bar pull with concealed fixing"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Offset pull with reversible mounting plate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Recessed edge pull for a narrow cabinet front"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "\u00c9lan loop with a brushed steel backplate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Wide bow with independent end mounts"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Start with the cabinet in front of you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 739
+    },
+    {
+      "slug": "latch-parts",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Cabinet pulls,measured first"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Six ways to take hold"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Round-bar pull with concealed fixing"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Offset pull with reversible mounting plate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Recessed edge pull for a narrow cabinet front"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "\u00c9lan loop with a brushed steel backplate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Wide bow with independent end mounts"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Start with the cabinet in front of you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 740
+    },
+    {
+      "slug": "latch-parts",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Cabinet pulls,measured first"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Six ways to take hold"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Round-bar pull with concealed fixing"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Offset pull with reversible mounting plate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Recessed edge pull for a narrow cabinet front"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "\u00c9lan loop with a brushed steel backplate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Wide bow with independent end mounts"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Start with the cabinet in front of you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 741
+    },
+    {
+      "slug": "latch-parts",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Cabinet pulls,measured first"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Six ways to take hold"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Round-bar pull with concealed fixing"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Offset pull with reversible mounting plate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Recessed edge pull for a narrow cabinet front"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "\u00c9lan loop with a brushed steel backplate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Wide bow with independent end mounts"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Start with the cabinet in front of you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 768
+    },
+    {
+      "slug": "latch-parts",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Cabinet pulls,measured first"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Six ways to take hold"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Round-bar pull with concealed fixing"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Offset pull with reversible mounting plate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Recessed edge pull for a narrow cabinet front"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "\u00c9lan loop with a brushed steel backplate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Wide bow with independent end mounts"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Start with the cabinet in front of you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1049
+    },
+    {
+      "slug": "latch-parts",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Cabinet pulls,measured first"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Six ways to take hold"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Round-bar pull with concealed fixing"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Offset pull with reversible mounting plate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Recessed edge pull for a narrow cabinet front"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "\u00c9lan loop with a brushed steel backplate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Wide bow with independent end mounts"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Start with the cabinet in front of you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1050
+    },
+    {
+      "slug": "latch-parts",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Cabinet pulls,measured first"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Six ways to take hold"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Round-bar pull with concealed fixing"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Offset pull with reversible mounting plate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Long rail with two flush fixing points"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Recessed edge pull for a narrow cabinet front"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "\u00c9lan loop with a brushed steel backplate"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Wide bow with independent end mounts"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Start with the cabinet in front of you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1051
+    },
+    {
+      "slug": "latch-parts",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Find your fit"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Matching components"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Kept in this browser"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 320
+    },
+    {
+      "slug": "latch-parts",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Find your fit"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Matching components"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Kept in this browser"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 379
+    },
+    {
+      "slug": "latch-parts",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Find your fit"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Matching components"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Kept in this browser"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 380
+    },
+    {
+      "slug": "latch-parts",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Find your fit"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Matching components"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Kept in this browser"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 381
+    },
+    {
+      "slug": "latch-parts",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Find your fit"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Matching components"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Kept in this browser"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 739
+    },
+    {
+      "slug": "latch-parts",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Find your fit"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Matching components"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Kept in this browser"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 740
+    },
+    {
+      "slug": "latch-parts",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Find your fit"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Matching components"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Kept in this browser"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 741
+    },
+    {
+      "slug": "latch-parts",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Find your fit"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Matching components"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Kept in this browser"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 768
+    },
+    {
+      "slug": "latch-parts",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Find your fit"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Matching components"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Kept in this browser"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1049
+    },
+    {
+      "slug": "latch-parts",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Find your fit"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Matching components"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Kept in this browser"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1050
+    },
+    {
+      "slug": "latch-parts",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Find your fit"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Matching components"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Your comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Kept in this browser"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1051
+    },
+    {
+      "slug": "latch-parts",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Measure & compare"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Compare LP02 with LP05"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Understand the dimensions"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Keep, recover or forget a comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "If storage does not work"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Change or correct measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "The complete dimension reference"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Local example & privacy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 320
+    },
+    {
+      "slug": "latch-parts",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Measure & compare"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Compare LP02 with LP05"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Understand the dimensions"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Keep, recover or forget a comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "If storage does not work"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Change or correct measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "The complete dimension reference"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Local example & privacy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 379
+    },
+    {
+      "slug": "latch-parts",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Measure & compare"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Compare LP02 with LP05"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Understand the dimensions"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Keep, recover or forget a comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "If storage does not work"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Change or correct measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "The complete dimension reference"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Local example & privacy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 380
+    },
+    {
+      "slug": "latch-parts",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Measure & compare"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Compare LP02 with LP05"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Understand the dimensions"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Keep, recover or forget a comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "If storage does not work"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Change or correct measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "The complete dimension reference"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Local example & privacy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 381
+    },
+    {
+      "slug": "latch-parts",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Measure & compare"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Compare LP02 with LP05"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Understand the dimensions"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Keep, recover or forget a comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "If storage does not work"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Change or correct measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "The complete dimension reference"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Local example & privacy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 739
+    },
+    {
+      "slug": "latch-parts",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Measure & compare"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Compare LP02 with LP05"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Understand the dimensions"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Keep, recover or forget a comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "If storage does not work"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Change or correct measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "The complete dimension reference"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Local example & privacy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 740
+    },
+    {
+      "slug": "latch-parts",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Measure & compare"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Compare LP02 with LP05"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Understand the dimensions"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Keep, recover or forget a comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "If storage does not work"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Change or correct measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "The complete dimension reference"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Local example & privacy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 741
+    },
+    {
+      "slug": "latch-parts",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Measure & compare"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Compare LP02 with LP05"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Understand the dimensions"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Keep, recover or forget a comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "If storage does not work"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Change or correct measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "The complete dimension reference"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Local example & privacy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 768
+    },
+    {
+      "slug": "latch-parts",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Measure & compare"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Compare LP02 with LP05"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Understand the dimensions"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Keep, recover or forget a comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "If storage does not work"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Change or correct measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "The complete dimension reference"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Local example & privacy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1049
+    },
+    {
+      "slug": "latch-parts",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Measure & compare"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Compare LP02 with LP05"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Understand the dimensions"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Keep, recover or forget a comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "If storage does not work"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Change or correct measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "The complete dimension reference"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Local example & privacy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1050
+    },
+    {
+      "slug": "latch-parts",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Measure & compare"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Compare LP02 with LP05"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Understand the dimensions"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Keep, recover or forget a comparison"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "If storage does not work"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Change or correct measurements"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "The complete dimension reference"
+        },
+        {
+          "check": true,
+          "family": "Archivo, Arial, sans-serif",
+          "text": "Local example & privacy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1051
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Small objects.Possible moves."
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The collection"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Turnfold"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Clockwork Meadow"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The Quiet Line"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Rattle, Roll & Remember"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Les petits passages"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A Map of Almost Everything"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Take the ruleswith you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 320
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Small objects.Possible moves."
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The collection"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Turnfold"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Clockwork Meadow"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The Quiet Line"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Rattle, Roll & Remember"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Les petits passages"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A Map of Almost Everything"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Take the ruleswith you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 358
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Small objects.Possible moves."
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The collection"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Turnfold"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Clockwork Meadow"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The Quiet Line"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Rattle, Roll & Remember"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Les petits passages"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A Map of Almost Everything"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Take the ruleswith you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 359
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Small objects.Possible moves."
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The collection"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Turnfold"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Clockwork Meadow"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The Quiet Line"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Rattle, Roll & Remember"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Les petits passages"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A Map of Almost Everything"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Take the ruleswith you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 360
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Small objects.Possible moves."
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The collection"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Turnfold"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Clockwork Meadow"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The Quiet Line"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Rattle, Roll & Remember"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Les petits passages"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A Map of Almost Everything"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Take the ruleswith you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 729
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Small objects.Possible moves."
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The collection"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Turnfold"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Clockwork Meadow"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The Quiet Line"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Rattle, Roll & Remember"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Les petits passages"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A Map of Almost Everything"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Take the ruleswith you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 730
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Small objects.Possible moves."
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The collection"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Turnfold"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Clockwork Meadow"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The Quiet Line"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Rattle, Roll & Remember"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Les petits passages"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A Map of Almost Everything"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Take the ruleswith you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 731
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Small objects.Possible moves."
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The collection"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Turnfold"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Clockwork Meadow"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The Quiet Line"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Rattle, Roll & Remember"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Les petits passages"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A Map of Almost Everything"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Take the ruleswith you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 768
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Small objects.Possible moves."
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The collection"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Turnfold"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Clockwork Meadow"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The Quiet Line"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Rattle, Roll & Remember"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Les petits passages"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A Map of Almost Everything"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Take the ruleswith you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1049
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Small objects.Possible moves."
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The collection"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Turnfold"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Clockwork Meadow"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The Quiet Line"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Rattle, Roll & Remember"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Les petits passages"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A Map of Almost Everything"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Take the ruleswith you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1050
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Small objects.Possible moves."
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The collection"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Turnfold"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Clockwork Meadow"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The Quiet Line"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Rattle, Roll & Remember"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Les petits passages"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A Map of Almost Everything"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Take the ruleswith you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1051
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Small objects.Possible moves."
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The collection"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Turnfold"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Clockwork Meadow"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The Quiet Line"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Rattle, Roll & Remember"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Les petits passages"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A Map of Almost Everything"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Take the ruleswith you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1549
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Small objects.Possible moves."
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The collection"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Turnfold"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Clockwork Meadow"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The Quiet Line"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Rattle, Roll & Remember"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Les petits passages"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A Map of Almost Everything"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Take the ruleswith you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1550
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "home",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Small objects.Possible moves."
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The collection"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Turnfold"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Clockwork Meadow"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "The Quiet Line"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Rattle, Roll & Remember"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Les petits passages"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A Map of Almost Everything"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Take the ruleswith you"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1551
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Make a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Ready foryour table"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Your kept copy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 320
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Make a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Ready foryour table"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Your kept copy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 358
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Make a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Ready foryour table"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Your kept copy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 359
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Make a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Ready foryour table"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Your kept copy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 360
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Make a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Ready foryour table"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Your kept copy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 729
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Make a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Ready foryour table"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Your kept copy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 730
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Make a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Ready foryour table"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Your kept copy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 731
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Make a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Ready foryour table"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Your kept copy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 768
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Make a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Ready foryour table"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Your kept copy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1049
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Make a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Ready foryour table"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Your kept copy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1050
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Make a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Ready foryour table"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Your kept copy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1051
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Make a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Ready foryour table"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Your kept copy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1549
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Make a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Ready foryour table"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Your kept copy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1550
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "demo",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Make a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Ready foryour table"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "Your kept copy"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1551
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A handout,step by step"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "01 Prepare a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "02 Change the working handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "03 Keep deliberately, then recover"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "04 Download the exact text"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "05 Try a rainy afternoon"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "06 Reset or forget"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "07 Know the local scope"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 320
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A handout,step by step"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "01 Prepare a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "02 Change the working handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "03 Keep deliberately, then recover"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "04 Download the exact text"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "05 Try a rainy afternoon"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "06 Reset or forget"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "07 Know the local scope"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 358
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A handout,step by step"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "01 Prepare a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "02 Change the working handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "03 Keep deliberately, then recover"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "04 Download the exact text"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "05 Try a rainy afternoon"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "06 Reset or forget"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "07 Know the local scope"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 359
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A handout,step by step"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "01 Prepare a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "02 Change the working handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "03 Keep deliberately, then recover"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "04 Download the exact text"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "05 Try a rainy afternoon"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "06 Reset or forget"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "07 Know the local scope"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 360
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A handout,step by step"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "01 Prepare a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "02 Change the working handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "03 Keep deliberately, then recover"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "04 Download the exact text"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "05 Try a rainy afternoon"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "06 Reset or forget"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "07 Know the local scope"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 729
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A handout,step by step"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "01 Prepare a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "02 Change the working handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "03 Keep deliberately, then recover"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "04 Download the exact text"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "05 Try a rainy afternoon"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "06 Reset or forget"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "07 Know the local scope"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 730
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A handout,step by step"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "01 Prepare a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "02 Change the working handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "03 Keep deliberately, then recover"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "04 Download the exact text"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "05 Try a rainy afternoon"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "06 Reset or forget"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "07 Know the local scope"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 731
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A handout,step by step"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "01 Prepare a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "02 Change the working handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "03 Keep deliberately, then recover"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "04 Download the exact text"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "05 Try a rainy afternoon"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "06 Reset or forget"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "07 Know the local scope"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 768
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A handout,step by step"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "01 Prepare a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "02 Change the working handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "03 Keep deliberately, then recover"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "04 Download the exact text"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "05 Try a rainy afternoon"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "06 Reset or forget"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "07 Know the local scope"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1049
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A handout,step by step"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "01 Prepare a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "02 Change the working handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "03 Keep deliberately, then recover"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "04 Download the exact text"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "05 Try a rainy afternoon"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "06 Reset or forget"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "07 Know the local scope"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1050
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A handout,step by step"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "01 Prepare a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "02 Change the working handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "03 Keep deliberately, then recover"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "04 Download the exact text"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "05 Try a rainy afternoon"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "06 Reset or forget"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "07 Know the local scope"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1051
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A handout,step by step"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "01 Prepare a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "02 Change the working handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "03 Keep deliberately, then recover"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "04 Download the exact text"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "05 Try a rainy afternoon"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "06 Reset or forget"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "07 Know the local scope"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1549
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A handout,step by step"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "01 Prepare a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "02 Change the working handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "03 Keep deliberately, then recover"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "04 Download the exact text"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "05 Try a rainy afternoon"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "06 Reset or forget"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "07 Know the local scope"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1550
+    },
+    {
+      "slug": "archive-of-play",
+      "page": "guide",
+      "broken_images": [],
+      "font_status": "loaded",
+      "heading_font_checks": [
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "A handout,step by step"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "01 Prepare a handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "02 Change the working handout"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "03 Keep deliberately, then recover"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "04 Download the exact text"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "05 Try a rainy afternoon"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "06 Reset or forget"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "07 Know the local scope"
+        },
+        {
+          "check": true,
+          "family": "Bricolage, Arial, sans-serif",
+          "text": "If something goes wrong"
+        }
+      ],
+      "overflow": 0,
+      "registered_faces": 3,
+      "width": 1551
+    }
+  ],
+  "scope": "Three independent task/material-only briefs under explicit frozen-pack invocation in one Agent environment; internally reviewed and refined. No causal quality rate, implicit activation, all-host/model or commercial acceptance claim."
+}

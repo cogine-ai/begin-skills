@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Choose a fictional Little Stage performance and prepare, keep or download a browser-local ticket budget.">
+  <title>Ticket worksheet | Little Stage</title><link rel="icon" href="assets/art/mark.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/alegreya-roman.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css"><script defer src="budget-model.js"></script><script defer src="worksheet.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="page-header wrap"><a class="brand" href="index.html"><img src="assets/art/mark.svg" width="30" height="32" alt="">Little Stage</a><nav aria-label="Main"><a href="index.html#programme">Programme</a><a href="demo.html" aria-current="page">Ticket worksheet</a><a href="guide.html">Visitor guide</a></nav></header>
+  <main id="main" class="task-main wrap">
+    <div class="task-heading"><div><p class="label">Your visit, on paper</p><h1>Ticket worksheet</h1></div><p class="small">Choose a show and prepare your ticket budget.<br><a href="guide.html#prepare">Try the three-ticket example ↗</a></p></div>
+    <noscript><p class="notice">Enable JavaScript to prepare and keep this local worksheet. Programme details and the <a href="guide.html">visitor guide</a> remain available.</p></noscript>
+    <div class="worksheet-layout">
+      <form id="budget-form" novalidate>
+        <fieldset class="performance-fieldset"><legend><span class="step-number">01</span> Choose your performance</legend>
+          <div class="show-options" id="show-options">
+            <label class="show-option"><input type="radio" name="show" value="moon" checked aria-describedby="show-error"><span><strong>The Borrowed Moon</strong><small>Friday 23 October · 19:30 <span>80 minutes</span></small></span><span class="radio-mark" aria-hidden="true"></span></label>
+            <label class="show-option"><input type="radio" name="show" value="revolution" aria-describedby="show-error"><span><strong>A Very Small Revolution</strong><small>Saturday 24 October · 16:00 <span>95 minutes</span></small></span><span class="radio-mark" aria-hidden="true"></span></label>
+            <label class="show-option"><input type="radio" name="show" value="letters" aria-describedby="show-error"><span><strong>Letters from the Back Row</strong><small>Sunday 25 October · 15:00 <span>70 minutes</span></small></span><span class="radio-mark" aria-hidden="true"></span></label>
+          </div><p class="field-error" id="show-error"></p>
+        </fieldset>
+        <fieldset class="party-fieldset"><legend><span class="step-number">02</span> Count your party</legend><p class="field-help" id="party-help">Whole numbers from 0 to 8 for each ticket type. Your party needs 1 to 8 tickets in total.</p>
+          <div class="count-fields">
+            <div><label for="adults">Adults <span>USD18 each</span></label><input id="adults" name="adults" type="text" inputmode="numeric" value="1" maxlength="12" autocomplete="off" aria-describedby="party-help adults-error party-error"><p class="field-error" id="adults-error"></p></div>
+            <div><label for="students">Students <span>USD12 each</span></label><input id="students" name="students" type="text" inputmode="numeric" value="0" maxlength="12" autocomplete="off" aria-describedby="party-help students-error party-error"><p class="field-error" id="students-error"></p></div>
+          </div><p class="field-error" id="party-error"></p>
+        </fieldset>
+        <div class="note-field"><label for="note">A note for your visit <span>Optional</span></label><textarea id="note" name="note" rows="3" maxlength="300" aria-describedby="note-help note-error" placeholder="A meeting time, a reminder, a little detail…"></textarea><p class="field-help" id="note-help">Up to 300 characters. Your note stays with the prepared budget.</p><p class="field-error" id="note-error"></p></div>
+        <p class="field-error error-summary" id="error-summary" role="alert"></p>
+        <button class="button dark prepare-button" id="prepare" type="submit">Prepare ticket budget <span aria-hidden="true">→</span></button>
+        <p class="small local-scope">This is local arithmetic for a fictional programme. No reservation, payment or availability check.</p>
+      </form>
+      <div class="result-column">
+        <section class="budget-sheet" aria-labelledby="result-title">
+          <div class="sheet-masthead"><span>Little Stage</span><span>October / Ticket budget</span></div>
+          <p class="result-status" id="result-status" role="status">Not prepared</p>
+          <div id="empty-result"><h2 id="result-title">Your ticket budget</h2><p>Choose your performance and party, then prepare a budget. Your show and exact total will appear here.</p><span class="empty-art" aria-hidden="true">☾</span></div>
+          <div id="prepared-result" hidden>
+            <h2 id="result-show"></h2><p id="result-date" class="prepared-date"></p><p id="result-duration" class="small"></p>
+            <table class="budget-table"><caption class="sr-only">Prepared ticket counts and costs</caption><thead><tr><th scope="col">Tickets</th><th scope="col" class="numeric">Count</th><th scope="col" class="numeric">Line total</th></tr></thead><tbody><tr><th scope="row">Adults <span>USD18 each</span></th><td class="numeric" id="result-adults"></td><td class="numeric" id="result-adult-line"></td></tr><tr><th scope="row">Students <span>USD12 each</span></th><td class="numeric" id="result-students"></td><td class="numeric" id="result-student-line"></td></tr></tbody></table>
+            <div class="budget-total"><div><span>Party size</span><strong id="result-party"></strong></div><div><span>Exact total</span><strong><small>USD</small><span id="result-total"></span></strong></div></div>
+            <div class="prepared-note" id="prepared-note" hidden><h3>Visitor note</h3><p id="result-note"></p></div>
+          </div>
+          <p class="sheet-foot">Prepared for your planning. Tickets are not reserved.</p>
+        </section>
+        <section class="version-tools" aria-labelledby="keep-title"><h2 id="keep-title">Take this version with you</h2><div class="save-actions"><button class="button outline" id="keep" type="button" disabled>Keep in this browser</button><button class="button outline" id="export" type="button" disabled>Download text <span aria-hidden="true">↓</span></button></div><p class="small" id="action-help">Prepare a budget to enable keeping and downloading.</p>
+          <p class="storage-status" id="storage-status" role="status">No kept budget in this browser.</p><div class="recovery-actions"><button class="link-button" id="restore" type="button" disabled>Restore kept version</button><button class="link-button" id="reset" type="button">Reset worksheet</button></div><p class="small">Reset empties the worksheet and returns to 1 adult for The Borrowed Moon. Your kept version remains available.</p><details class="forget-details"><summary>Remove the kept copy</summary><p class="small">This removes only the budget kept by Little Stage in this browser. Your visible worksheet and downloaded files remain.</p><button class="link-button danger" type="button" id="forget" disabled>Forget kept budget</button></details>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer wrap"><p><strong>Little Stage</strong><span>Browser-local worksheet · Fictional programme</span></p><nav aria-label="Footer"><a href="index.html#programme">Programme</a><a href="guide.html">Visitor guide</a><a href="NOTICES.md">Asset notices</a></nav></footer>
+</body>
+</html>

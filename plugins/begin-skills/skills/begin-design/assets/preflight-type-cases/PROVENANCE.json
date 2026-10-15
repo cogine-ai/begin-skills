@@ -1,0 +1,1257 @@
+{
+  "schema_version": 1,
+  "curated_on": "2026-10-11",
+  "curation_snapshot_utc": "2026-10-11T14:03:28.962517+00:00",
+  "trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-11-type-before-draft",
+  "copy_method": "Byte-identical stopped final sources and selected native viewport captures. No font, artwork or image transformations.",
+  "input_version": "0.1.0-dev.19",
+  "input_archive_sha256": "5dc54bf7407359e465c166b606b1a707ea405ee49ff122ef198d2ee56deae085",
+  "selection_note": "Font directions and scoped task repairs accepted separately from a later NIGHTBUS home communication rebuild and date/panel follow-up. First and intermediate sources, earlier selection, curation and candidate archives remain preserved. Warm palette and first-home convergence limit range.",
+  "study_kind": "Task/material briefs with open visual choices; rendered font comparisons precede complete first source and independent criticism.",
+  "cases": [
+    {
+      "scenario": "Named spatial memory game",
+      "type_preview_precedes_complete_initial_source": true,
+      "slug": "flipturn",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "capture_pages": [
+        "index",
+        "demo",
+        "guide"
+      ],
+      "source_file_count": 19,
+      "source_bytes": 459341,
+      "required_notices": [
+        "fonts/dm-sans-OFL.txt",
+        "fonts/syne-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/syne.ttf",
+          "family": "Syne",
+          "style": "normal",
+          "supported_axes": {
+            "wght": [
+              400,
+              800
+            ]
+          },
+          "notice": "fonts/syne-OFL.txt",
+          "primary_source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/syne/Syne%5Bwght%5D.ttf",
+          "primary_source_commit_in_frozen_record": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+          "frozen_source_record": "input/begin-design/assets/font-direction-cases/open-form/site/fonts/FONT_SOURCE.json",
+          "modified": false,
+          "bytes": 146980,
+          "sha256": "ce5ac77142a65cab2248a1a2ebb740b1d4d9c20b52488877d3ff664d1356104a",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/syne/Syne%5Bwght%5D.ttf"
+        },
+        {
+          "file": "fonts/dm-sans.ttf",
+          "family": "DM Sans",
+          "style": "normal",
+          "supported_axes": {
+            "wght": [
+              100,
+              1000
+            ],
+            "opsz": [
+              9,
+              40
+            ]
+          },
+          "notice": "fonts/dm-sans-OFL.txt",
+          "primary_source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/dmsans/DMSans%5Bopsz%2Cwght%5D.ttf",
+          "primary_source_commit_in_frozen_record": "bd8f81ddb5c74d5c8897b36ad88b440266245103",
+          "frozen_source_record": "input/begin-design/assets/font-direction-cases/open-form/site/fonts/FONT_SOURCE.json",
+          "modified": false,
+          "bytes": 240164,
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/bd8f81ddb5c74d5c8897b36ad88b440266245103/ofl/dmsans/DMSans%5Bopsz%2Cwght%5D.ttf"
+        }
+      ],
+      "bundled_photographs": [],
+      "runtime_html_ids": {},
+      "initial_source_preserved": true,
+      "initial_source": {
+        "website_source_files": 19,
+        "website_source_bytes": 457359
+      },
+      "final_source_snapshot": [
+        {
+          "path": "FONT_SOURCES.json",
+          "bytes": 1652,
+          "sha256": "601dbeeb91bb48d27b79ff6edfbefc0465f006d6b44c75880eea43b5d3d0797a"
+        },
+        {
+          "path": "NOTICES.md",
+          "bytes": 889,
+          "sha256": "173b76f7f5bcf13672b510eb9d6624a00e7703659059abdbf0acb98635b25765"
+        },
+        {
+          "path": "art/comet.svg",
+          "bytes": 528,
+          "sha256": "60c85a07db64344ed1b28b4f59e2728fa97db78bcd4a27868e79fc7932bae108"
+        },
+        {
+          "path": "art/jellyfish.svg",
+          "bytes": 614,
+          "sha256": "8428caa0777b74911470ef474603b60668b09ce9c56c20c4dde0023f350e47f6"
+        },
+        {
+          "path": "art/lantern.svg",
+          "bytes": 646,
+          "sha256": "664c6bb88f20ff4760ff1071100ae8e658c7947a7c2719045408dac38d885524"
+        },
+        {
+          "path": "art/octopus.svg",
+          "bytes": 1208,
+          "sha256": "545c1971c8c90b492b7bc432775acdedac38539c4e85992bedd0ecc6e5976ef8"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 7834,
+          "sha256": "6f19af91c7a9f658e6013fbc1442c7d56496403312705c53792661c031766915"
+        },
+        {
+          "path": "fonts/dm-sans-METADATA.pb",
+          "bytes": 1283,
+          "sha256": "55b3697a416f7d08c093918a4019a75cca7186c64bc56b1bb23e197a5d559dee"
+        },
+        {
+          "path": "fonts/dm-sans-OFL.txt",
+          "bytes": 4482,
+          "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        },
+        {
+          "path": "fonts/dm-sans.ttf",
+          "bytes": 240164,
+          "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+        },
+        {
+          "path": "fonts/frozen-open-form-sources.json",
+          "bytes": 2443,
+          "sha256": "179803d277e2b5725f225867ac161c9425a3bc6e3b3c4eee39da45ba7680c903"
+        },
+        {
+          "path": "fonts/syne-METADATA.pb",
+          "bytes": 924,
+          "sha256": "ed8e42eac65f684ca698aaa4f918b3985c932a7a12d57e55183184fe8dcaadb7"
+        },
+        {
+          "path": "fonts/syne-OFL.txt",
+          "bytes": 4402,
+          "sha256": "cc43cdce6f91c57989af8459341c276655e34224e954fa69c2ad700831a742d8"
+        },
+        {
+          "path": "fonts/syne.ttf",
+          "bytes": 146980,
+          "sha256": "ce5ac77142a65cab2248a1a2ebb740b1d4d9c20b52488877d3ff664d1356104a"
+        },
+        {
+          "path": "game-model.mjs",
+          "bytes": 5394,
+          "sha256": "4327b53060366ef8706d54702d630acab694493b83625b1aa06197e090b48ac3"
+        },
+        {
+          "path": "game.mjs",
+          "bytes": 10517,
+          "sha256": "da03fe653f173e04036a5a56a81a14445f95eaa36a8006e2a60f18ec1c827c9e"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 8478,
+          "sha256": "6e937d81f26322bf94213379299a3e568765f5e8c4c0c7e2e078b86388678bbd"
+        },
+        {
+          "path": "index.html",
+          "bytes": 3185,
+          "sha256": "c97718b5db7bc547cb46450a9c3965aa2426afddbcdcb6231dbc2ef31764fd6c"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 17718,
+          "sha256": "242d3a11fc54922fd1fd58178c740f9522a8923af364e61aa8518add40109bd6"
+        }
+      ],
+      "excluded_generated_project_guidance": [],
+      "source_phase": "stopped final source",
+      "capture_phase": "final-3",
+      "opening_capture_phases": {
+        "index": "final-3",
+        "demo": "final-3",
+        "guide": "final-3"
+      },
+      "populated_result_captures": [
+        {
+          "file": "result/captures/demo-desktop.jpg",
+          "view": "desktop",
+          "role": "populated result excerpt"
+        },
+        {
+          "file": "result/captures/demo-phone.jpg",
+          "view": "phone",
+          "role": "populated result excerpt"
+        }
+      ]
+    },
+    {
+      "scenario": "Fictional connection planner across midnight",
+      "type_preview_precedes_complete_initial_source": true,
+      "later_home_communication_refinement": true,
+      "slug": "nightbus",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "capture_pages": [
+        "index",
+        "demo",
+        "guide"
+      ],
+      "source_file_count": 13,
+      "source_bytes": 407441,
+      "required_notices": [
+        "assets/notices/Barlow-OFL.txt",
+        "assets/notices/BarlowCondensed-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "assets/fonts/BarlowCondensed-ExtraBold.ttf",
+          "notice": "assets/notices/BarlowCondensed-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraBold.ttf",
+          "bytes": 110296,
+          "sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260",
+          "modified": false
+        },
+        {
+          "file": "assets/fonts/Barlow-Regular.ttf",
+          "notice": "assets/notices/Barlow-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/Barlow-Regular.ttf",
+          "bytes": 104068,
+          "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+          "modified": false
+        },
+        {
+          "file": "assets/fonts/Barlow-SemiBold.ttf",
+          "notice": "assets/notices/Barlow-OFL.txt",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/Barlow-SemiBold.ttf",
+          "bytes": 108348,
+          "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5",
+          "modified": false
+        }
+      ],
+      "bundled_photographs": [],
+      "runtime_html_ids": {},
+      "initial_source_preserved": true,
+      "initial_source": {
+        "website_source_files": 13,
+        "website_source_bytes": 388800
+      },
+      "final_source_snapshot": [
+        {
+          "path": "FONT_SOURCES.json",
+          "bytes": 2880,
+          "sha256": "cd5fb45a730896faeefe679d0c5bf8d04dc365dc72a76d97221a408d3a4b1bba"
+        },
+        {
+          "path": "NOTICES.md",
+          "bytes": 648,
+          "sha256": "7304e615c6adc1cbd2de4b48a46a8cf2e733090f921bdc8bdaf3d0653b0ec079"
+        },
+        {
+          "path": "assets/fonts/Barlow-Regular.ttf",
+          "bytes": 104068,
+          "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea"
+        },
+        {
+          "path": "assets/fonts/Barlow-SemiBold.ttf",
+          "bytes": 108348,
+          "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5"
+        },
+        {
+          "path": "assets/fonts/BarlowCondensed-ExtraBold.ttf",
+          "bytes": 110296,
+          "sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260"
+        },
+        {
+          "path": "assets/notices/Barlow-OFL.txt",
+          "bytes": 4377,
+          "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+        },
+        {
+          "path": "assets/notices/BarlowCondensed-OFL.txt",
+          "bytes": 4377,
+          "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+        },
+        {
+          "path": "coremodel.mjs",
+          "bytes": 10790,
+          "sha256": "9cef05a8dddc723868de078d297e899df418112d429e94b2816389136f0e0423"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 5028,
+          "sha256": "dc00f8f715a71cb1a89a421debfa27ceaf84c5380b6954a322c511d1290c1c95"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 11881,
+          "sha256": "0b8ae833f7446b543f744757bdd157bb86da63bd02da2a93bfa01c460be6513c"
+        },
+        {
+          "path": "index.html",
+          "bytes": 5461,
+          "sha256": "dd91b6cbacc485a451b372706e02a5b36ec709ee0b57380803db011714e634c5"
+        },
+        {
+          "path": "planner.mjs",
+          "bytes": 10563,
+          "sha256": "6d66084e294db2ae8ef362bcea2987b22ac30152a4cfcc9c47467e747e50f209"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 28724,
+          "sha256": "ca3b934507ef857a8d9378d32b564e2790181ac31c7a57c64cea227c9676bdb0"
+        }
+      ],
+      "excluded_generated_project_guidance": [],
+      "source_phase": "stopped final-4 source after separate home communication refinement",
+      "capture_phase": "final-4",
+      "opening_capture_phases": {
+        "index": "final-4",
+        "demo": "final-4",
+        "guide": "final-4"
+      },
+      "populated_result_captures": [
+        {
+          "file": "result/captures/demo-desktop.jpg",
+          "view": "desktop",
+          "role": "populated result excerpt"
+        },
+        {
+          "file": "result/captures/demo-phone.jpg",
+          "view": "phone",
+          "role": "populated result excerpt"
+        }
+      ]
+    },
+    {
+      "scenario": "Personal printable postcard",
+      "type_preview_precedes_complete_initial_source": true,
+      "slug": "postmark",
+      "pages": [
+        "index.html",
+        "demo.html",
+        "guide.html"
+      ],
+      "capture_pages": [
+        "index",
+        "demo",
+        "guide"
+      ],
+      "source_file_count": 15,
+      "source_bytes": 1400625,
+      "required_notices": [
+        "notices/OFL-Newsreader.txt",
+        "notices/OFL-WorkSans.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/newsreader-roman.ttf",
+          "family": "Newsreader",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/Newsreader%5Bopsz,wght%5D.ttf",
+          "notice": "notices/OFL-Newsreader.txt",
+          "bytes": 451664,
+          "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+          "modified": false,
+          "frozen_source": "input/begin-design/assets/open-choice-cases/good-measure/site/assets/fonts/newsreader-roman.ttf"
+        },
+        {
+          "file": "fonts/newsreader-italic.ttf",
+          "family": "Newsreader",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/Newsreader-Italic%5Bopsz,wght%5D.ttf",
+          "notice": "notices/OFL-Newsreader.txt",
+          "bytes": 495684,
+          "sha256": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792",
+          "modified": false,
+          "frozen_source": "input/begin-design/assets/open-choice-cases/good-measure/site/assets/fonts/newsreader-italic.ttf"
+        },
+        {
+          "file": "fonts/work-sans-roman.ttf",
+          "family": "Work Sans",
+          "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/worksans/WorkSans%5Bwght%5D.ttf",
+          "notice": "notices/OFL-WorkSans.txt",
+          "bytes": 361072,
+          "sha256": "f50f61f2ba738e239442d40bf1069adb195c224b6a5a73a581fc2f3ed62a9f63",
+          "modified": false,
+          "frozen_source": "input/begin-design/assets/open-choice-cases/good-measure/site/assets/fonts/work-sans-roman.ttf"
+        }
+      ],
+      "bundled_photographs": [],
+      "runtime_html_ids": {},
+      "initial_source_preserved": true,
+      "initial_source": {
+        "website_source_files": 16,
+        "website_source_bytes": 1411774
+      },
+      "final_source_snapshot": [
+        {
+          "path": "FONT_SOURCES.json",
+          "bytes": 1674,
+          "sha256": "a2057d634d67d4f28add5523797174c28030846d5fd010ed64c03642756b04c3"
+        },
+        {
+          "path": "app.mjs",
+          "bytes": 9433,
+          "sha256": "817de8dab50f726e27ef95d996bad4a52acd29a99eaf023b68947348b89d7dcb"
+        },
+        {
+          "path": "demo.html",
+          "bytes": 7979,
+          "sha256": "2ff69ea80e92ce96415f8e38db931ebde7fc34db52ce2574a2016fb2984e5a21"
+        },
+        {
+          "path": "font-assets.mjs",
+          "bytes": 1000,
+          "sha256": "f1caa3d2f3f219a2a6785b8ef4b22daf69e9801ecc0d46d279df990d3e153a82"
+        },
+        {
+          "path": "font-metrics.mjs",
+          "bytes": 17793,
+          "sha256": "84c73c49f23a88b205618b70aceb12f28657d9481131b66134e66f28c4591686"
+        },
+        {
+          "path": "fonts/newsreader-italic.ttf",
+          "bytes": 495684,
+          "sha256": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792"
+        },
+        {
+          "path": "fonts/newsreader-roman.ttf",
+          "bytes": 451664,
+          "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1"
+        },
+        {
+          "path": "fonts/work-sans-roman.ttf",
+          "bytes": 361072,
+          "sha256": "f50f61f2ba738e239442d40bf1069adb195c224b6a5a73a581fc2f3ed62a9f63"
+        },
+        {
+          "path": "guide.html",
+          "bytes": 8877,
+          "sha256": "93f97b084c643bf7299ae793944a5f667bf38ab8585a4375621d1b1e1196700a"
+        },
+        {
+          "path": "index.html",
+          "bytes": 4550,
+          "sha256": "77b89283789478cb0e5d2cc7c99a1fccb8d8ec0d97d6c6c223333e05d6094351"
+        },
+        {
+          "path": "model.mjs",
+          "bytes": 12776,
+          "sha256": "93c0ff46f51d9c1ebf4b09301ce9a74244fa14d0a45e49ea258520edb417097e"
+        },
+        {
+          "path": "notices/OFL-Newsreader.txt",
+          "bytes": 4394,
+          "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+        },
+        {
+          "path": "notices/OFL-WorkSans.txt",
+          "bytes": 4396,
+          "sha256": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 18587,
+          "sha256": "d1be34d0156fd92705ff7581b3e7ea5a2e18fa14b6d9c51ea1a88226af37a9ee"
+        },
+        {
+          "path": "sun-after-rain.svg",
+          "bytes": 746,
+          "sha256": "5ade4cdb3242f6a6efa386c72613396cc2783189f9675c6de4cb28373a840ae5"
+        }
+      ],
+      "excluded_generated_project_guidance": [
+        "INPUT_USE.json"
+      ],
+      "source_phase": "stopped final source",
+      "capture_phase": "final-2",
+      "opening_capture_phases": {
+        "index": "final-2",
+        "demo": "final-2",
+        "guide": "final-2"
+      },
+      "populated_result_captures": [
+        {
+          "file": "result/captures/demo-desktop.jpg",
+          "view": "desktop",
+          "role": "populated result excerpt"
+        },
+        {
+          "file": "result/captures/demo-phone.jpg",
+          "view": "phone",
+          "role": "populated result excerpt"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/FONT_SOURCES.json",
+      "bytes": 1652,
+      "sha256": "601dbeeb91bb48d27b79ff6edfbefc0465f006d6b44c75880eea43b5d3d0797a",
+      "original_trial_relative_path": "flipturn/freeze-final/site/FONT_SOURCES.json",
+      "original_sha256": "601dbeeb91bb48d27b79ff6edfbefc0465f006d6b44c75880eea43b5d3d0797a"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/NOTICES.md",
+      "bytes": 889,
+      "sha256": "173b76f7f5bcf13672b510eb9d6624a00e7703659059abdbf0acb98635b25765",
+      "original_trial_relative_path": "flipturn/freeze-final/site/NOTICES.md",
+      "original_sha256": "173b76f7f5bcf13672b510eb9d6624a00e7703659059abdbf0acb98635b25765"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/art/comet.svg",
+      "bytes": 528,
+      "sha256": "60c85a07db64344ed1b28b4f59e2728fa97db78bcd4a27868e79fc7932bae108",
+      "original_trial_relative_path": "flipturn/freeze-final/site/art/comet.svg",
+      "original_sha256": "60c85a07db64344ed1b28b4f59e2728fa97db78bcd4a27868e79fc7932bae108"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/art/jellyfish.svg",
+      "bytes": 614,
+      "sha256": "8428caa0777b74911470ef474603b60668b09ce9c56c20c4dde0023f350e47f6",
+      "original_trial_relative_path": "flipturn/freeze-final/site/art/jellyfish.svg",
+      "original_sha256": "8428caa0777b74911470ef474603b60668b09ce9c56c20c4dde0023f350e47f6"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/art/lantern.svg",
+      "bytes": 646,
+      "sha256": "664c6bb88f20ff4760ff1071100ae8e658c7947a7c2719045408dac38d885524",
+      "original_trial_relative_path": "flipturn/freeze-final/site/art/lantern.svg",
+      "original_sha256": "664c6bb88f20ff4760ff1071100ae8e658c7947a7c2719045408dac38d885524"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/art/octopus.svg",
+      "bytes": 1208,
+      "sha256": "545c1971c8c90b492b7bc432775acdedac38539c4e85992bedd0ecc6e5976ef8",
+      "original_trial_relative_path": "flipturn/freeze-final/site/art/octopus.svg",
+      "original_sha256": "545c1971c8c90b492b7bc432775acdedac38539c4e85992bedd0ecc6e5976ef8"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/demo.html",
+      "bytes": 7834,
+      "sha256": "6f19af91c7a9f658e6013fbc1442c7d56496403312705c53792661c031766915",
+      "original_trial_relative_path": "flipturn/freeze-final/site/demo.html",
+      "original_sha256": "6f19af91c7a9f658e6013fbc1442c7d56496403312705c53792661c031766915"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/fonts/dm-sans-METADATA.pb",
+      "bytes": 1283,
+      "sha256": "55b3697a416f7d08c093918a4019a75cca7186c64bc56b1bb23e197a5d559dee",
+      "original_trial_relative_path": "flipturn/freeze-final/site/fonts/dm-sans-METADATA.pb",
+      "original_sha256": "55b3697a416f7d08c093918a4019a75cca7186c64bc56b1bb23e197a5d559dee"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/fonts/dm-sans-OFL.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+      "original_trial_relative_path": "flipturn/freeze-final/site/fonts/dm-sans-OFL.txt",
+      "original_sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/fonts/dm-sans.ttf",
+      "bytes": 240164,
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+      "original_trial_relative_path": "flipturn/freeze-final/site/fonts/dm-sans.ttf",
+      "original_sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/fonts/frozen-open-form-sources.json",
+      "bytes": 2443,
+      "sha256": "179803d277e2b5725f225867ac161c9425a3bc6e3b3c4eee39da45ba7680c903",
+      "original_trial_relative_path": "flipturn/freeze-final/site/fonts/frozen-open-form-sources.json",
+      "original_sha256": "179803d277e2b5725f225867ac161c9425a3bc6e3b3c4eee39da45ba7680c903"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/fonts/syne-METADATA.pb",
+      "bytes": 924,
+      "sha256": "ed8e42eac65f684ca698aaa4f918b3985c932a7a12d57e55183184fe8dcaadb7",
+      "original_trial_relative_path": "flipturn/freeze-final/site/fonts/syne-METADATA.pb",
+      "original_sha256": "ed8e42eac65f684ca698aaa4f918b3985c932a7a12d57e55183184fe8dcaadb7"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/fonts/syne-OFL.txt",
+      "bytes": 4402,
+      "sha256": "cc43cdce6f91c57989af8459341c276655e34224e954fa69c2ad700831a742d8",
+      "original_trial_relative_path": "flipturn/freeze-final/site/fonts/syne-OFL.txt",
+      "original_sha256": "cc43cdce6f91c57989af8459341c276655e34224e954fa69c2ad700831a742d8"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/fonts/syne.ttf",
+      "bytes": 146980,
+      "sha256": "ce5ac77142a65cab2248a1a2ebb740b1d4d9c20b52488877d3ff664d1356104a",
+      "original_trial_relative_path": "flipturn/freeze-final/site/fonts/syne.ttf",
+      "original_sha256": "ce5ac77142a65cab2248a1a2ebb740b1d4d9c20b52488877d3ff664d1356104a"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/game-model.mjs",
+      "bytes": 5394,
+      "sha256": "4327b53060366ef8706d54702d630acab694493b83625b1aa06197e090b48ac3",
+      "original_trial_relative_path": "flipturn/freeze-final/site/game-model.mjs",
+      "original_sha256": "4327b53060366ef8706d54702d630acab694493b83625b1aa06197e090b48ac3"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/game.mjs",
+      "bytes": 10517,
+      "sha256": "da03fe653f173e04036a5a56a81a14445f95eaa36a8006e2a60f18ec1c827c9e",
+      "original_trial_relative_path": "flipturn/freeze-final/site/game.mjs",
+      "original_sha256": "da03fe653f173e04036a5a56a81a14445f95eaa36a8006e2a60f18ec1c827c9e"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/guide.html",
+      "bytes": 8478,
+      "sha256": "6e937d81f26322bf94213379299a3e568765f5e8c4c0c7e2e078b86388678bbd",
+      "original_trial_relative_path": "flipturn/freeze-final/site/guide.html",
+      "original_sha256": "6e937d81f26322bf94213379299a3e568765f5e8c4c0c7e2e078b86388678bbd"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/index.html",
+      "bytes": 3185,
+      "sha256": "c97718b5db7bc547cb46450a9c3965aa2426afddbcdcb6231dbc2ef31764fd6c",
+      "original_trial_relative_path": "flipturn/freeze-final/site/index.html",
+      "original_sha256": "c97718b5db7bc547cb46450a9c3965aa2426afddbcdcb6231dbc2ef31764fd6c"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/site/styles.css",
+      "bytes": 17718,
+      "sha256": "242d3a11fc54922fd1fd58178c740f9522a8923af364e61aa8518add40109bd6",
+      "original_trial_relative_path": "flipturn/freeze-final/site/styles.css",
+      "original_sha256": "242d3a11fc54922fd1fd58178c740f9522a8923af364e61aa8518add40109bd6"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/captures/index-desktop.jpg",
+      "bytes": 106829,
+      "sha256": "3bf1113c43007ab9446eef10e423a8af338946b0ad77cbb80c37476dcc84356f",
+      "original_trial_relative_path": "captures/final-3/flipturn/index-desktop.jpg",
+      "original_sha256": "3bf1113c43007ab9446eef10e423a8af338946b0ad77cbb80c37476dcc84356f",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-3",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/captures/index-phone.jpg",
+      "bytes": 44205,
+      "sha256": "db1f187cd6ed93d317570c15edd94f1a2f926f2e1775bd3190851113aff140b5",
+      "original_trial_relative_path": "captures/final-3/flipturn/index-phone.jpg",
+      "original_sha256": "db1f187cd6ed93d317570c15edd94f1a2f926f2e1775bd3190851113aff140b5",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-3",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/captures/demo-desktop.jpg",
+      "bytes": 96063,
+      "sha256": "841c623fecfcdc6db4b891e74ae36355629ba14b1ee19c28c6f887d9a58048b8",
+      "original_trial_relative_path": "captures/final-3/flipturn/demo-desktop.jpg",
+      "original_sha256": "841c623fecfcdc6db4b891e74ae36355629ba14b1ee19c28c6f887d9a58048b8",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-3",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/captures/demo-phone.jpg",
+      "bytes": 40948,
+      "sha256": "a186682c3ccfa6a5b2d73586ce493dbb1dd88d4779075bfb62dc6bd7def86bc8",
+      "original_trial_relative_path": "captures/final-3/flipturn/demo-phone.jpg",
+      "original_sha256": "a186682c3ccfa6a5b2d73586ce493dbb1dd88d4779075bfb62dc6bd7def86bc8",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-3",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/captures/guide-desktop.jpg",
+      "bytes": 115783,
+      "sha256": "83aa1bfc8d68eee71f83ce5e17c44005f2586cb798b1ec991c3e4cd95c43218e",
+      "original_trial_relative_path": "captures/final-3/flipturn/guide-desktop.jpg",
+      "original_sha256": "83aa1bfc8d68eee71f83ce5e17c44005f2586cb798b1ec991c3e4cd95c43218e",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-3",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/captures/guide-phone.jpg",
+      "bytes": 54595,
+      "sha256": "e9ad5410cda2bf9cdaa11835386a838ac50fa966b0095a536dfc6e6199af34e1",
+      "original_trial_relative_path": "captures/final-3/flipturn/guide-phone.jpg",
+      "original_sha256": "e9ad5410cda2bf9cdaa11835386a838ac50fa966b0095a536dfc6e6199af34e1",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-3",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/result/captures/demo-desktop.jpg",
+      "bytes": 104277,
+      "sha256": "feee5202d54c1fa384d5a3f72dd455a8715691b63ffe06d13b862d52667dd582",
+      "original_trial_relative_path": "captures/final-3/flipturn/demo-desktop-prepared-result.jpg",
+      "original_sha256": "feee5202d54c1fa384d5a3f72dd455a8715691b63ffe06d13b862d52667dd582",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 626,
+        "phase": "final-3",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/flipturn/result/captures/demo-phone.jpg",
+      "bytes": 54435,
+      "sha256": "413c4009c21673c95131b381da4a3c5641c40b2dcc583aaa3b1e51906f31f0ff",
+      "original_trial_relative_path": "captures/final-3/flipturn/demo-phone-prepared-result.jpg",
+      "original_sha256": "413c4009c21673c95131b381da4a3c5641c40b2dcc583aaa3b1e51906f31f0ff",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 972,
+        "phase": "final-3",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/site/FONT_SOURCES.json",
+      "bytes": 2880,
+      "sha256": "cd5fb45a730896faeefe679d0c5bf8d04dc365dc72a76d97221a408d3a4b1bba",
+      "original_trial_relative_path": "nightbus/freeze-final-4/site/FONT_SOURCES.json",
+      "original_sha256": "cd5fb45a730896faeefe679d0c5bf8d04dc365dc72a76d97221a408d3a4b1bba"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/site/NOTICES.md",
+      "bytes": 648,
+      "sha256": "7304e615c6adc1cbd2de4b48a46a8cf2e733090f921bdc8bdaf3d0653b0ec079",
+      "original_trial_relative_path": "nightbus/freeze-final-4/site/NOTICES.md",
+      "original_sha256": "7304e615c6adc1cbd2de4b48a46a8cf2e733090f921bdc8bdaf3d0653b0ec079"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/site/assets/fonts/Barlow-Regular.ttf",
+      "bytes": 104068,
+      "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+      "original_trial_relative_path": "nightbus/freeze-final-4/site/assets/fonts/Barlow-Regular.ttf",
+      "original_sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/site/assets/fonts/Barlow-SemiBold.ttf",
+      "bytes": 108348,
+      "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5",
+      "original_trial_relative_path": "nightbus/freeze-final-4/site/assets/fonts/Barlow-SemiBold.ttf",
+      "original_sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/site/assets/fonts/BarlowCondensed-ExtraBold.ttf",
+      "bytes": 110296,
+      "sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260",
+      "original_trial_relative_path": "nightbus/freeze-final-4/site/assets/fonts/BarlowCondensed-ExtraBold.ttf",
+      "original_sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/site/assets/notices/Barlow-OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "original_trial_relative_path": "nightbus/freeze-final-4/site/assets/notices/Barlow-OFL.txt",
+      "original_sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/site/assets/notices/BarlowCondensed-OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "original_trial_relative_path": "nightbus/freeze-final-4/site/assets/notices/BarlowCondensed-OFL.txt",
+      "original_sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/site/coremodel.mjs",
+      "bytes": 10790,
+      "sha256": "9cef05a8dddc723868de078d297e899df418112d429e94b2816389136f0e0423",
+      "original_trial_relative_path": "nightbus/freeze-final-4/site/coremodel.mjs",
+      "original_sha256": "9cef05a8dddc723868de078d297e899df418112d429e94b2816389136f0e0423"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/site/demo.html",
+      "bytes": 5028,
+      "sha256": "dc00f8f715a71cb1a89a421debfa27ceaf84c5380b6954a322c511d1290c1c95",
+      "original_trial_relative_path": "nightbus/freeze-final-4/site/demo.html",
+      "original_sha256": "dc00f8f715a71cb1a89a421debfa27ceaf84c5380b6954a322c511d1290c1c95"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/site/guide.html",
+      "bytes": 11881,
+      "sha256": "0b8ae833f7446b543f744757bdd157bb86da63bd02da2a93bfa01c460be6513c",
+      "original_trial_relative_path": "nightbus/freeze-final-4/site/guide.html",
+      "original_sha256": "0b8ae833f7446b543f744757bdd157bb86da63bd02da2a93bfa01c460be6513c"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/site/index.html",
+      "bytes": 5461,
+      "sha256": "dd91b6cbacc485a451b372706e02a5b36ec709ee0b57380803db011714e634c5",
+      "original_trial_relative_path": "nightbus/freeze-final-4/site/index.html",
+      "original_sha256": "dd91b6cbacc485a451b372706e02a5b36ec709ee0b57380803db011714e634c5"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/site/planner.mjs",
+      "bytes": 10563,
+      "sha256": "6d66084e294db2ae8ef362bcea2987b22ac30152a4cfcc9c47467e747e50f209",
+      "original_trial_relative_path": "nightbus/freeze-final-4/site/planner.mjs",
+      "original_sha256": "6d66084e294db2ae8ef362bcea2987b22ac30152a4cfcc9c47467e747e50f209"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/site/styles.css",
+      "bytes": 28724,
+      "sha256": "ca3b934507ef857a8d9378d32b564e2790181ac31c7a57c64cea227c9676bdb0",
+      "original_trial_relative_path": "nightbus/freeze-final-4/site/styles.css",
+      "original_sha256": "ca3b934507ef857a8d9378d32b564e2790181ac31c7a57c64cea227c9676bdb0"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/captures/index-desktop.jpg",
+      "bytes": 96099,
+      "sha256": "2da32f38c93577e15fa9851299c25b688ebe5d539874c55235cb6e588b1b1598",
+      "original_trial_relative_path": "captures/final-4/nightbus/index-desktop.jpg",
+      "original_sha256": "2da32f38c93577e15fa9851299c25b688ebe5d539874c55235cb6e588b1b1598",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-4",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/captures/index-phone.jpg",
+      "bytes": 43959,
+      "sha256": "481c2eb3cb410dbb9963892ad350397109f524c19118bf2e10f6a4846ce1ee6d",
+      "original_trial_relative_path": "captures/final-4/nightbus/index-phone.jpg",
+      "original_sha256": "481c2eb3cb410dbb9963892ad350397109f524c19118bf2e10f6a4846ce1ee6d",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-4",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/captures/demo-desktop.jpg",
+      "bytes": 119507,
+      "sha256": "76d8eeb58de0e118ac397015accce1ebb562f8714a806d2ad5374487d667e279",
+      "original_trial_relative_path": "captures/final-4/nightbus/demo-desktop.jpg",
+      "original_sha256": "76d8eeb58de0e118ac397015accce1ebb562f8714a806d2ad5374487d667e279",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-4",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/captures/demo-phone.jpg",
+      "bytes": 40101,
+      "sha256": "9b43b3e1f838cf346b5373def3c760ca8650d2b2c31a4cddb969d66d86218982",
+      "original_trial_relative_path": "captures/final-4/nightbus/demo-phone.jpg",
+      "original_sha256": "9b43b3e1f838cf346b5373def3c760ca8650d2b2c31a4cddb969d66d86218982",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-4",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/captures/guide-desktop.jpg",
+      "bytes": 115621,
+      "sha256": "e459c0ae2cdda9124383f3f12d888c87e34cba2e96aab5802a2184e29b826790",
+      "original_trial_relative_path": "captures/final-4/nightbus/guide-desktop.jpg",
+      "original_sha256": "e459c0ae2cdda9124383f3f12d888c87e34cba2e96aab5802a2184e29b826790",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-4",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/captures/guide-phone.jpg",
+      "bytes": 48560,
+      "sha256": "cbbe0c22944ff97b9e4686db98ac6b45112be45fc22b6ab39af11662d875f62f",
+      "original_trial_relative_path": "captures/final-4/nightbus/guide-phone.jpg",
+      "original_sha256": "cbbe0c22944ff97b9e4686db98ac6b45112be45fc22b6ab39af11662d875f62f",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-4",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/result/captures/demo-desktop.jpg",
+      "bytes": 82394,
+      "sha256": "867aa186fc853fb7bdf6207793c9d41f2a50cb5342e538bd096c4c8d0e464405",
+      "original_trial_relative_path": "captures/final-4/nightbus/demo-desktop-prepared-result.jpg",
+      "original_sha256": "867aa186fc853fb7bdf6207793c9d41f2a50cb5342e538bd096c4c8d0e464405",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 803,
+        "phase": "final-4",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/nightbus/result/captures/demo-phone.jpg",
+      "bytes": 38898,
+      "sha256": "2570cbcc83b1a8902c67af73bb3a803a4c13b08502ce0807408d41ed25ce7909",
+      "original_trial_relative_path": "captures/final-4/nightbus/demo-phone-prepared-result.jpg",
+      "original_sha256": "2570cbcc83b1a8902c67af73bb3a803a4c13b08502ce0807408d41ed25ce7909",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 1747,
+        "phase": "final-4",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/site/FONT_SOURCES.json",
+      "bytes": 1674,
+      "sha256": "a2057d634d67d4f28add5523797174c28030846d5fd010ed64c03642756b04c3",
+      "original_trial_relative_path": "postmark/freeze-final/site/FONT_SOURCES.json",
+      "original_sha256": "a2057d634d67d4f28add5523797174c28030846d5fd010ed64c03642756b04c3"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/site/app.mjs",
+      "bytes": 9433,
+      "sha256": "817de8dab50f726e27ef95d996bad4a52acd29a99eaf023b68947348b89d7dcb",
+      "original_trial_relative_path": "postmark/freeze-final/site/app.mjs",
+      "original_sha256": "817de8dab50f726e27ef95d996bad4a52acd29a99eaf023b68947348b89d7dcb"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/site/demo.html",
+      "bytes": 7979,
+      "sha256": "2ff69ea80e92ce96415f8e38db931ebde7fc34db52ce2574a2016fb2984e5a21",
+      "original_trial_relative_path": "postmark/freeze-final/site/demo.html",
+      "original_sha256": "2ff69ea80e92ce96415f8e38db931ebde7fc34db52ce2574a2016fb2984e5a21"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/site/font-assets.mjs",
+      "bytes": 1000,
+      "sha256": "f1caa3d2f3f219a2a6785b8ef4b22daf69e9801ecc0d46d279df990d3e153a82",
+      "original_trial_relative_path": "postmark/freeze-final/site/font-assets.mjs",
+      "original_sha256": "f1caa3d2f3f219a2a6785b8ef4b22daf69e9801ecc0d46d279df990d3e153a82"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/site/font-metrics.mjs",
+      "bytes": 17793,
+      "sha256": "84c73c49f23a88b205618b70aceb12f28657d9481131b66134e66f28c4591686",
+      "original_trial_relative_path": "postmark/freeze-final/site/font-metrics.mjs",
+      "original_sha256": "84c73c49f23a88b205618b70aceb12f28657d9481131b66134e66f28c4591686"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/site/fonts/newsreader-italic.ttf",
+      "bytes": 495684,
+      "sha256": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792",
+      "original_trial_relative_path": "postmark/freeze-final/site/fonts/newsreader-italic.ttf",
+      "original_sha256": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/site/fonts/newsreader-roman.ttf",
+      "bytes": 451664,
+      "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+      "original_trial_relative_path": "postmark/freeze-final/site/fonts/newsreader-roman.ttf",
+      "original_sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/site/fonts/work-sans-roman.ttf",
+      "bytes": 361072,
+      "sha256": "f50f61f2ba738e239442d40bf1069adb195c224b6a5a73a581fc2f3ed62a9f63",
+      "original_trial_relative_path": "postmark/freeze-final/site/fonts/work-sans-roman.ttf",
+      "original_sha256": "f50f61f2ba738e239442d40bf1069adb195c224b6a5a73a581fc2f3ed62a9f63"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/site/guide.html",
+      "bytes": 8877,
+      "sha256": "93f97b084c643bf7299ae793944a5f667bf38ab8585a4375621d1b1e1196700a",
+      "original_trial_relative_path": "postmark/freeze-final/site/guide.html",
+      "original_sha256": "93f97b084c643bf7299ae793944a5f667bf38ab8585a4375621d1b1e1196700a"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/site/index.html",
+      "bytes": 4550,
+      "sha256": "77b89283789478cb0e5d2cc7c99a1fccb8d8ec0d97d6c6c223333e05d6094351",
+      "original_trial_relative_path": "postmark/freeze-final/site/index.html",
+      "original_sha256": "77b89283789478cb0e5d2cc7c99a1fccb8d8ec0d97d6c6c223333e05d6094351"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/site/model.mjs",
+      "bytes": 12776,
+      "sha256": "93c0ff46f51d9c1ebf4b09301ce9a74244fa14d0a45e49ea258520edb417097e",
+      "original_trial_relative_path": "postmark/freeze-final/site/model.mjs",
+      "original_sha256": "93c0ff46f51d9c1ebf4b09301ce9a74244fa14d0a45e49ea258520edb417097e"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/site/notices/OFL-Newsreader.txt",
+      "bytes": 4394,
+      "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+      "original_trial_relative_path": "postmark/freeze-final/site/notices/OFL-Newsreader.txt",
+      "original_sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/site/notices/OFL-WorkSans.txt",
+      "bytes": 4396,
+      "sha256": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272",
+      "original_trial_relative_path": "postmark/freeze-final/site/notices/OFL-WorkSans.txt",
+      "original_sha256": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/site/styles.css",
+      "bytes": 18587,
+      "sha256": "d1be34d0156fd92705ff7581b3e7ea5a2e18fa14b6d9c51ea1a88226af37a9ee",
+      "original_trial_relative_path": "postmark/freeze-final/site/styles.css",
+      "original_sha256": "d1be34d0156fd92705ff7581b3e7ea5a2e18fa14b6d9c51ea1a88226af37a9ee"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/site/sun-after-rain.svg",
+      "bytes": 746,
+      "sha256": "5ade4cdb3242f6a6efa386c72613396cc2783189f9675c6de4cb28373a840ae5",
+      "original_trial_relative_path": "postmark/freeze-final/site/sun-after-rain.svg",
+      "original_sha256": "5ade4cdb3242f6a6efa386c72613396cc2783189f9675c6de4cb28373a840ae5"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/captures/index-desktop.jpg",
+      "bytes": 102488,
+      "sha256": "adaac90300db6f05fb7f916368252702cf912a61eb1cbc686a6ed3fb8a555884",
+      "original_trial_relative_path": "captures/final-2/postmark/index-desktop.jpg",
+      "original_sha256": "adaac90300db6f05fb7f916368252702cf912a61eb1cbc686a6ed3fb8a555884",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/captures/index-phone.jpg",
+      "bytes": 44767,
+      "sha256": "6b2886f0ef0cd031922a3a766a5b686741fe1decd876a353c37a55d767d3379f",
+      "original_trial_relative_path": "captures/final-2/postmark/index-phone.jpg",
+      "original_sha256": "6b2886f0ef0cd031922a3a766a5b686741fe1decd876a353c37a55d767d3379f",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/captures/demo-desktop.jpg",
+      "bytes": 109229,
+      "sha256": "6f2e54c8bf4647a5b55098d928ab28d7dceaeef25a77b61dd6f47196d087ef39",
+      "original_trial_relative_path": "captures/final-2/postmark/demo-desktop.jpg",
+      "original_sha256": "6f2e54c8bf4647a5b55098d928ab28d7dceaeef25a77b61dd6f47196d087ef39",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/captures/demo-phone.jpg",
+      "bytes": 37108,
+      "sha256": "ff6b22ba6c3e3ec5f62883b46471b4db7915a349277289aa4a4b9441eb366204",
+      "original_trial_relative_path": "captures/final-2/postmark/demo-phone.jpg",
+      "original_sha256": "ff6b22ba6c3e3ec5f62883b46471b4db7915a349277289aa4a4b9441eb366204",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/captures/guide-desktop.jpg",
+      "bytes": 133193,
+      "sha256": "8279b8ca0a4dc65fcd77dc9284166eefb7f7f4ab871a9c8c2ef3cedd5d5f0301",
+      "original_trial_relative_path": "captures/final-2/postmark/guide-desktop.jpg",
+      "original_sha256": "8279b8ca0a4dc65fcd77dc9284166eefb7f7f4ab871a9c8c2ef3cedd5d5f0301",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/captures/guide-phone.jpg",
+      "bytes": 39549,
+      "sha256": "7a0a696bb7e90154c34a563269b9b62d583309edde2f8d8edabe2252d4e2bb06",
+      "original_trial_relative_path": "captures/final-2/postmark/guide-phone.jpg",
+      "original_sha256": "7a0a696bb7e90154c34a563269b9b62d583309edde2f8d8edabe2252d4e2bb06",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 0,
+        "phase": "final-2",
+        "role": "page opening",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/result/captures/demo-desktop.jpg",
+      "bytes": 125478,
+      "sha256": "6fd2fa81d761621bd4d93d56b561a087374b47dba74bea6ad7b2addbab736d2a",
+      "original_trial_relative_path": "captures/final-2/postmark/demo-desktop-prepared-result.jpg",
+      "original_sha256": "6fd2fa81d761621bd4d93d56b561a087374b47dba74bea6ad7b2addbab736d2a",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "scroll_y": 1033,
+        "phase": "final-2",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/postmark/result/captures/demo-phone.jpg",
+      "bytes": 40410,
+      "sha256": "889c9b636db9f9c25e91c928322a679bdec29428418f8a91680596f88faa1263",
+      "original_trial_relative_path": "captures/final-2/postmark/demo-phone-prepared-result.jpg",
+      "original_sha256": "889c9b636db9f9c25e91c928322a679bdec29428418f8a91680596f88faa1263",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "scroll_y": 1945,
+        "phase": "final-2",
+        "role": "populated result excerpt",
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "method": "Unchanged native browser viewport capture; opening or prepared result as recorded"
+      }
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/NOTICES.md",
+      "bytes": 279,
+      "sha256": "a86521a02bfe8dd4a1be4a4b5deac97cd4269f898a36f67160092cb58aa8ff66"
+    },
+    {
+      "skill_relative_path": "assets/preflight-type-cases/CHECKS.json",
+      "bytes": 1932,
+      "sha256": "45a35c2a1567f49b80ae033b6989b82e47ccbf4ccc7c63a363ccbfbde7dba1d9"
+    },
+    {
+      "skill_relative_path": "references/before-draft-type.md",
+      "bytes": 7360,
+      "sha256": "7904f907a89e094bf71dc846ce41012be36e09ed1b32c9a439c88e601056c769"
+    }
+  ]
+}

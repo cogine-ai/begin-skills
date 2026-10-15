@@ -1,0 +1,79 @@
+{
+  "retrieved_on": "2026-10-11",
+  "license": "SIL Open Font License 1.1",
+  "runtime_remote_requests": false,
+  "families": [
+    {
+      "family": "Archivo",
+      "style": "roman variable",
+      "weight": "100\u2013900",
+      "width": "62\u2013125",
+      "roles": "display width 90 weight 600; reading width 100 weights 400/500/600",
+      "coverage": "official Latin subset includes U+00C9 for \u00c9lan and U+2000\u2013206F punctuation; glyphs outside this subset fall back to system sans"
+    },
+    {
+      "family": "IBM Plex Mono",
+      "styles": [
+        "Regular 400",
+        "Medium 500"
+      ],
+      "roles": "dimension IDs, numeric facts, export text"
+    }
+  ],
+  "records": [
+    {
+      "file": "assets/fonts/Archivo-Variable.woff2",
+      "source_url": "https://fonts.gstatic.com/s/archivo/v25/k3kQo8UDI-1M0wlSfdnoLmvDIaI.woff2",
+      "bytes": 90096,
+      "sha256": "4c98b9d490d1698ec95f2ff17a6c7d0e72691864c0c5d7bc2a2c161b45afe5ad",
+      "modified": false
+    },
+    {
+      "file": "assets/fonts/Archivo-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/refs/heads/main/ofl/archivo/OFL.txt",
+      "bytes": 4388,
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+      "modified": false
+    },
+    {
+      "file": "assets/fonts/Archivo-METADATA.pb",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/refs/heads/main/ofl/archivo/METADATA.pb",
+      "bytes": 1339,
+      "sha256": "a2e8f63ffa4f9dfe43a65c349b4742e9cd85298802aed890a6315152f2ae231d",
+      "modified": false
+    },
+    {
+      "file": "assets/fonts/Archivo-GoogleFonts-CSS.txt",
+      "source_url": "https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap",
+      "request_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+      "bytes": 1338,
+      "sha256": "0251be14eb732a0359b61c1a4634359f137954a5e86c229240a6ede5b6b087cd",
+      "modified": false
+    },
+    {
+      "file": "assets/fonts/IBMPlexMono-Regular.ttf",
+      "frozen_source": "products/begin-skills/.review/2026-10-11-open-choices/input/begin-design/assets/type-transfer-cases/relay/site/assets/fonts/IBMPlexMono-Regular.ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "modified": false
+    },
+    {
+      "file": "assets/fonts/IBMPlexMono-Medium.ttf",
+      "frozen_source": "products/begin-skills/.review/2026-10-11-open-choices/input/begin-design/assets/type-transfer-cases/relay/site/assets/fonts/IBMPlexMono-Medium.ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Medium.ttf",
+      "bytes": 136704,
+      "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+      "modified": false
+    },
+    {
+      "file": "assets/fonts/IBMPlexMono-OFL.txt",
+      "frozen_source": "products/begin-skills/.review/2026-10-11-open-choices/input/begin-design/assets/type-transfer-cases/relay/site/assets/notices/IBMPlexMono-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "modified": false
+    }
+  ],
+  "retrieval_notes": "The large upstream TTF attempt timed out and was excluded. The complete official Google Fonts Latin WOFF2 is retained. Official CSS and upstream metadata declare the variable axes."
+}

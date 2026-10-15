@@ -1,0 +1,50 @@
+{
+  "source": "Unchanged frozen-pack fonts originally sourced from the official Google Fonts repository",
+  "files": [
+    {
+      "file": "assets/fonts/BarlowCondensed-ExtraBold.ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraBold.ttf",
+      "bytes": 110296,
+      "sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260",
+      "role": "Display family Barlow Condensed, ExtraBold, actual weight 800",
+      "frozen_input_path": "begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/BarlowCondensed-ExtraBold.ttf",
+      "modified": false
+    },
+    {
+      "file": "assets/fonts/Barlow-Regular.ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/Barlow-Regular.ttf",
+      "bytes": 104068,
+      "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+      "role": "Reading family Barlow Regular, actual weight 400",
+      "frozen_input_path": "begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/Barlow-Regular.ttf",
+      "modified": false
+    },
+    {
+      "file": "assets/fonts/Barlow-SemiBold.ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/Barlow-SemiBold.ttf",
+      "bytes": 108348,
+      "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5",
+      "role": "Labels and controls, actual weight 600",
+      "frozen_input_path": "begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/Barlow-SemiBold.ttf",
+      "modified": false
+    },
+    {
+      "file": "assets/fonts/BarlowCondensed-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "role": "Complete original copyright and SIL OFL 1.1",
+      "frozen_input_path": "begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/BarlowCondensed-OFL.txt",
+      "modified": false
+    },
+    {
+      "file": "assets/fonts/Barlow-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "role": "Complete original copyright and SIL OFL 1.1",
+      "frozen_input_path": "begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/Barlow-OFL.txt",
+      "modified": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Choose compatible Side A listening sessions. Prepare, keep, restore or download an exact local itinerary.">
+  <meta name="theme-color" content="#080808"><title>Your evening — Side A</title>
+  <link rel="icon" href="mark.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+  <script src="itinerary-model.js" defer></script><script src="itinerary.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="header-inner wrap"><a class="brand" href="index.html" aria-label="Side A home">SIDE A<span aria-hidden="true">●</span></a><nav aria-label="Main navigation"><a href="index.html#programme">Programme</a><a href="demo.html" aria-current="page">Your evening</a><a href="guide.html">Guide</a></nav></div></header>
+  <main class="task-main wrap" id="main">
+    <div class="task-heading"><h1>Your evening</h1><div><p>Friday 13 November 2026<br>The Cabinet Room · venue local time</p><a href="guide.html#try-it">Follow the two-session exercise <span aria-hidden="true">↗</span></a></div></div>
+    <noscript><p class="no-script">Enable JavaScript to prepare, keep or download an itinerary. The programme and guide remain readable.</p></noscript>
+    <div class="task-layout">
+      <form id="session-form" novalidate>
+        <fieldset class="session-fieldset" aria-describedby="selection-help selection-status">
+          <legend>Choose your listening sessions</legend>
+          <p id="selection-help" class="selection-help">Select one or more. The planner checks that the times fit together.</p>
+          <div class="session-choices">
+            <label class="session-choice"><input type="checkbox" name="session" value="deep-listening"><span class="choice-time">19:00<span>20:00</span></span><span class="choice-content"><strong>Deep Listening</strong><span class="choice-description">Spacious pieces, patient rhythms and close listening.</span><span class="choice-duration">60 minutes</span></span></label>
+            <label class="session-choice"><input type="checkbox" name="session" value="night-shift"><span class="choice-time">19:30<span>21:00</span></span><span class="choice-content"><strong>Night Shift</strong><span class="choice-description">Restless grooves, jazz and late electronics.</span><span class="choice-duration">90 minutes</span><span class="choice-overlap">Overlaps Deep Listening · 19:30–20:00</span></span></label>
+            <label class="session-choice"><input type="checkbox" name="session" value="after-hours"><span class="choice-time">21:30<span>22:30</span></span><span class="choice-content"><strong>After Hours</strong><span class="choice-description">Downtempo records and an unhurried finish.</span><span class="choice-duration">60 minutes</span></span></label>
+          </div>
+        </fieldset>
+        <p class="selection-status" id="selection-status" role="status" tabindex="-1">Choose at least one listening session.</p>
+        <button type="submit" class="button button-dark">Prepare itinerary <span aria-hidden="true">↗</span></button>
+        <p class="prepare-note">Changing your choices keeps the previous result visible until you prepare again.</p>
+      </form>
+      <div class="itinerary-column">
+        <section class="prepared-panel" id="prepared-panel" aria-labelledby="result-title">
+          <div class="prepared-top"><span class="sheet-brand">SIDE A</span><span class="sheet-date">13 / 11 / 26</span></div>
+          <h2 id="result-title" tabindex="-1">Your itinerary</h2>
+          <p id="result-status" class="result-status" role="status">Awaiting preparation</p>
+          <div id="result-content"><p class="empty-result">Your selected sessions, exact listening time and gaps will appear here after preparation.</p></div>
+          <p class="sheet-note">Fictional programme · no booking is made</p>
+        </section>
+        <section class="keep-section" aria-labelledby="keep-title">
+          <h2 id="keep-title">Keep this version</h2>
+          <p>Keep the current prepared itinerary in this browser, or download its exact text.</p>
+          <div class="primary-tools"><button class="button button-dark" type="button" id="keep-itinerary" disabled>Keep in this browser</button><button class="button button-outline" type="button" id="export-itinerary" disabled>Download text <span aria-hidden="true">↓</span></button></div>
+          <p class="saved-summary" id="saved-summary">No itinerary is kept in this browser yet.</p>
+          <div class="recovery-tools"><button type="button" id="reload-itinerary" disabled>Reload kept version</button><button type="button" id="clear-itinerary">Clear itinerary</button></div>
+          <p class="storage-feedback" id="storage-feedback" role="status"></p>
+        </section>
+      </div>
+    </div>
+    <p class="task-boundary">Your itinerary stays on this device. Keeping replaces this browser’s previous Side A version. Clearing removes the kept version and current choices. This fictional evening has no ticket, payment or availability service.</p>
+  </main>
+  <footer class="site-footer"><div class="footer-inner wrap"><a class="footer-brand" href="index.html">SIDE A ●</a><p>An evening for listening<br>A fictional programme, a useful local plan</p><div class="footer-links"><a href="guide.html">Itinerary guide</a><a href="NOTICES.md">Credits &amp; notices</a></div></div></footer>
+</body>
+</html>

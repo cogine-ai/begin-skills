@@ -1,0 +1,2 @@
+# Keep release resource bytes unchanged across Git checkouts.
+* -text

@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Nora Vale: an original fictional portfolio of self-initiated visual design, illustration, and object studies."
+    />
+    <meta name="theme-color" content="#e9e7f0" />
+    <title>Nora Vale — Visual worlds, thoughtfully made</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a href="#" class="wordmark" aria-label="Nora Vale, home"
+        >nora<span>vale</span
+        ><svg width="21" height="21" viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            d="M12 1v22M1 12h22M4 4l16 16M4 20 20 4"
+            stroke="currentColor"
+            stroke-width="1.8"
+          /></svg
+      ></a>
+      <p class="header-note">Visual design &amp; illustration</p>
+      <button
+        class="menu-toggle"
+        aria-controls="navigation"
+        aria-expanded="false"
+        type="button"
+        hidden
+      >
+        Menu +
+      </button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#work">Work</a><a href="#approach">Approach</a
+        ><a href="#contact">Say hello ↗</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-top">
+          <p>
+            A place for curious shapes,<br />considered colour, and new ideas.
+          </p>
+          <span class="hero-label">Independent visual practice</span>
+        </div>
+        <h1 id="hero-title">
+          Small worlds.<br /><span>Big <em>ideas.</em></span>
+        </h1>
+        <div class="hero-bottom">
+          <p>
+            I’m Nora. I make visual identities, illustrations, and playful
+            little worlds that give an idea a character of its own.
+          </p>
+          <a class="round-link" href="#work" aria-label="Explore selected work"
+            ><span aria-hidden="true">↓</span></a
+          >
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 800 360">
+            <defs>
+              <radialGradient id="sphere">
+                <stop stop-color="#faf4e5" />
+                <stop offset=".55" stop-color="#e9cdb6" />
+                <stop offset="1" stop-color="#ba8d79" />
+              </radialGradient>
+              <linearGradient id="tube" x2="0" y2="1">
+                <stop stop-color="#777ebb" />
+                <stop offset="1" stop-color="#454d87" />
+              </linearGradient>
+              <linearGradient id="pedestal" x2="0" y2="1">
+                <stop stop-color="#f1f0ef" />
+                <stop offset="1" stop-color="#c6c4d2" />
+              </linearGradient>
+            </defs>
+            <ellipse cx="437" cy="311" rx="270" ry="27" fill="#d1cedf" />
+            <path d="M173 213h245v86H173z" fill="url(#pedestal)" />
+            <path d="m173 213 45-28h245l-45 28z" fill="#f8f6f6" />
+            <path d="m418 213 45-28v85l-45 29z" fill="#b9b5cc" />
+            <circle cx="298" cy="137" r="88" fill="url(#sphere)" />
+            <path
+              d="M448 262V110a70 70 0 0 1 140 0v152h-47V110a23 23 0 0 0-46 0v152z"
+              fill="url(#tube)"
+            />
+            <ellipse cx="518" cy="262" rx="70" ry="14" fill="#454d87" />
+            <circle cx="608" cy="247" r="36" fill="#d49963" />
+            <path d="m590 247 18-24 18 24-18 24z" fill="#ebc287" />
+            <path
+              d="M132 158c15-6 30-5 39 6m-17-26 4 45"
+              fill="none"
+              stroke="#8c7d9f"
+              stroke-width="2"
+            />
+          </svg>
+        </div>
+      </section>
+      <section class="work" id="work" aria-labelledby="work-title">
+        <div class="work-heading">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2 id="work-title">Made to look<br />a little closer.</h2>
+          </div>
+          <div>
+            <p class="work-note">
+              Original self-initiated concepts.<br />No client commissions are
+              represented here.
+            </p>
+            <div
+              class="filters"
+              role="group"
+              aria-label="Filter projects"
+              hidden
+            >
+              <button aria-pressed="true" data-filter="all">All work</button
+              ><button aria-pressed="false" data-filter="identity">
+                Identity</button
+              ><button aria-pressed="false" data-filter="objects">
+                Objects
+              </button>
+            </div>
+          </div>
+        </div>
+        <p class="visually-hidden" id="filter-status" role="status"></p>
+        <div class="gallery">
+          <article class="project project-large" data-category="objects">
+            <a
+              class="art-link"
+              href="art/still-form.svg"
+              data-gallery
+              data-title="Still form"
+              data-caption="An original object study. Soft circles meet a sharp edge, exploring balance through shape, light, and colour."
+              ><img
+                src="art/still-form.svg"
+                alt="Original illustration of a peach sphere, blue arch and lavender plinth"
+                width="1000"
+                height="1040"
+              /><span class="art-fallback" hidden
+                >Still form — illustration unavailable. Select to view the
+                project details.</span
+              ><span class="view-label"
+                >Take a closer look <span aria-hidden="true">↗</span></span
+              ></a
+            >
+            <div class="project-caption">
+              <h3>Still form</h3>
+              <span>Objects · Light &amp; balance</span>
+            </div>
+          </article>
+          <article class="project project-offset" data-category="identity">
+            <a
+              class="art-link"
+              href="art/outside-lines.svg"
+              data-gallery
+              data-title="Outside the lines"
+              data-caption="An original poster concept for an imaginary creative gathering. Offset type and a single loose line make room for curiosity."
+              ><img
+                src="art/outside-lines.svg"
+                alt="Original lilac and orange Outside the Lines poster with expressive typography"
+                width="820"
+                height="1040"
+              /><span class="art-fallback" hidden
+                >Outside the lines — illustration unavailable. Select to view
+                the project details.</span
+              ><span class="view-label"
+                >Take a closer look <span aria-hidden="true">↗</span></span
+              ></a
+            >
+            <div class="project-caption">
+              <h3>Outside the lines</h3>
+              <span>Identity · A creative gathering</span>
+            </div>
+          </article>
+          <article class="project" data-category="identity">
+            <a
+              class="art-link"
+              href="art/after-hours.svg"
+              data-gallery
+              data-title="After hours"
+              data-caption="An original identity exploration for an imaginary evening café. Repeated shapes suggest a window, a table, and a slower pace."
+              ><img
+                src="art/after-hours.svg"
+                alt="Original After Hours identity artwork with a deep blue arched window and warm sun"
+                width="820"
+                height="850"
+              /><span class="art-fallback" hidden
+                >After hours — illustration unavailable. Select to view the
+                project details.</span
+              ><span class="view-label"
+                >Take a closer look <span aria-hidden="true">↗</span></span
+              ></a
+            >
+            <div class="project-caption">
+              <h3>After hours</h3>
+              <span>Identity · A slower kind of evening</span>
+            </div>
+          </article>
+          <article class="project project-wide" data-category="objects">
+            <a
+              class="art-link"
+              href="art/common-ground.svg"
+              data-gallery
+              data-title="Common ground"
+              data-caption="An original collection of imagined objects. Different shapes share one surface, exploring how separate pieces can feel like a family."
+              ><img
+                src="art/common-ground.svg"
+                alt="Original tabletop composition of a green bowl, orange cylinder and blue striped object"
+                width="1000"
+                height="720"
+              /><span class="art-fallback" hidden
+                >Common ground — illustration unavailable. Select to view the
+                project details.</span
+              ><span class="view-label"
+                >Take a closer look <span aria-hidden="true">↗</span></span
+              ></a
+            >
+            <div class="project-caption">
+              <h3>Common ground</h3>
+              <span>Objects · Different shapes, one family</span>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="approach" id="approach" aria-labelledby="approach-title">
+        <div class="approach-label">
+          <p class="eyebrow">How I approach the work</p>
+          <svg viewBox="0 0 120 120" width="92" height="92" aria-hidden="true">
+            <path
+              d="M60 3v114M3 60h114M20 20l80 80M20 100l80-80"
+              stroke="currentColor"
+              stroke-width="7"
+            />
+          </svg>
+        </div>
+        <div>
+          <h2 id="approach-title">A clear idea.<br />A little unexpected.</h2>
+          <p>
+            I start with what a project wants to say. Then I look for the
+            shapes, words, and details that make it feel specific.
+          </p>
+          <div class="approach-grid">
+            <article>
+              <h3>Identity with character</h3>
+              <p>
+                A visual language that belongs to the idea, from the big picture
+                to the small applications.
+              </p>
+            </article>
+            <article>
+              <h3>Images that say something</h3>
+              <p>
+                Illustration and visual compositions made around the content,
+                with room for a little surprise.
+              </p>
+            </article>
+          </div>
+          <p class="about-note">
+            This fictional portfolio explores a visual approach. All artwork was
+            made for this starter.
+          </p>
+        </div>
+      </section>
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow">Let’s make something interesting</p>
+        <div class="contact-main">
+          <h2 id="contact-title">An idea?<br /><em>I’m listening.</em></h2>
+          <a
+            class="contact-arrow"
+            href="mailto:hello@example.com"
+            data-begin-contact
+            aria-label="Contact Nora Vale"
+            ><span aria-hidden="true">↗</span></a
+          >
+        </div>
+        <a class="email-link" href="mailto:hello@example.com" data-begin-contact
+          >Say hello</a
+        >
+        <p class="fixture-note">
+          Example contact. Set the owner’s destination before publishing.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <span>Nora Vale · Visual design &amp; illustration</span
+      ><span>Original fictional portfolio by Begin.</span
+      ><a href="#">Back to top ↑</a>
+    </footer>
+    <dialog class="lightbox" aria-labelledby="lightbox-title">
+      <button class="lightbox-close" type="button" aria-label="Close project">
+        Close ×
+      </button>
+      <div class="lightbox-art">
+        <img id="lightbox-image" alt="" width="1000" height="1040" />
+        <p class="lightbox-fallback" hidden>
+          The illustration could not load. You can still read about the project
+          below.
+        </p>
+      </div>
+      <div class="lightbox-copy">
+        <h2 id="lightbox-title"></h2>
+        <p id="lightbox-caption"></p>
+        <div class="lightbox-navigation">
+          <button
+            type="button"
+            data-gallery-previous
+            aria-label="Previous project"
+          >
+            ← Previous</button
+          ><button type="button" data-gallery-next aria-label="Next project">
+            Next →
+          </button>
+        </div>
+      </div>
+    </dialog>
+  </body>
+</html>

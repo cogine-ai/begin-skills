@@ -1,0 +1,15 @@
+flowchart LR
+    %% Status: illustrative fictional system. Arrows show requests and database operations.
+    accTitle: Illustrative enquiry request boundaries
+    accDescr: A visitor submits to an enquiry handler. An owner requests an inbox. The server handlers write or query a message store.
+    visitor["Visitor browser"]
+    owner["Owner browser"]
+    subgraph server["Application server"]
+        enquiry["Enquiry handler"]
+        inbox["Owner inbox handler"]
+    end
+    messages[("Message store")]
+    visitor -->|Submit message| enquiry
+    enquiry -->|Validated insert| messages
+    owner -->|Authenticated request| inbox
+    inbox -->|Owner-scoped query| messages

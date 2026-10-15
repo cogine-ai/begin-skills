@@ -1,0 +1,69 @@
+{
+  "source": "Unmodified files from the exact frozen Begin dev.17 input; original URLs recorded by its font provenance",
+  "runtime_remote_requests": false,
+  "files": [
+    {
+      "path": "assets/fonts/BarlowCondensed-ExtraBold.ttf",
+      "frozen_input_path": "begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/BarlowCondensed-ExtraBold.ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/BarlowCondensed-ExtraBold.ttf",
+      "bytes": 110296,
+      "sha256": "724c9c25952d5f4a2d87185d9767aa006144c5f0d944dc05bf7d5d603551c260",
+      "modified": false,
+      "role": "Display, actual weight 800"
+    },
+    {
+      "path": "assets/fonts/Barlow-Regular.ttf",
+      "frozen_input_path": "begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/Barlow-Regular.ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/Barlow-Regular.ttf",
+      "bytes": 104068,
+      "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+      "modified": false,
+      "role": "Reading, actual weight 400"
+    },
+    {
+      "path": "assets/fonts/Barlow-SemiBold.ttf",
+      "frozen_input_path": "begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/Barlow-SemiBold.ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/Barlow-SemiBold.ttf",
+      "bytes": 108348,
+      "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5",
+      "modified": false,
+      "role": "Controls and labels, actual weight 600"
+    },
+    {
+      "path": "assets/fonts/BarlowCondensed-OFL.txt",
+      "frozen_input_path": "begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/BarlowCondensed-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "modified": false,
+      "role": "Complete original notice, SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/Barlow-OFL.txt",
+      "frozen_input_path": "begin-design/assets/type-transfer-cases/breakaway/site/assets/fonts/Barlow-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlow/OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "modified": false,
+      "role": "Complete original notice, SIL OFL 1.1"
+    },
+    {
+      "path": "assets/fonts/IBMPlexMono-Regular.ttf",
+      "frozen_input_path": "begin-design/assets/type-transfer-cases/relay/site/assets/fonts/IBMPlexMono-Regular.ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "modified": false,
+      "role": "Times, quantities and exact text, actual weight 400"
+    },
+    {
+      "path": "assets/fonts/IBMPlexMono-OFL.txt",
+      "frozen_input_path": "begin-design/assets/type-transfer-cases/relay/site/assets/notices/IBMPlexMono-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "modified": false,
+      "role": "Complete original notice, SIL OFL 1.1"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "fonts": [
+    {
+      "file": "fonts/Teko-Variable.ttf",
+      "notice": "fonts/Teko-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/teko/Teko%5Bwght%5D.ttf",
+      "bytes": 292108,
+      "sha256": "d1321889f262bbbff632e7976349853399cd097b6f382d4b19790c915c13c1ae"
+    },
+    {
+      "file": "fonts/PublicSans-Variable.ttf",
+      "notice": "fonts/PublicSans-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/publicsans/PublicSans%5Bwght%5D.ttf",
+      "bytes": 103316,
+      "sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8"
+    }
+  ],
+  "notices": [
+    {
+      "file": "fonts/Teko-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/teko/OFL.txt",
+      "bytes": 4385,
+      "sha256": "4a193c54e911c1e8194d4db657423f2527f54a1239f24cb67ecb09128dc9f065"
+    },
+    {
+      "file": "fonts/PublicSans-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/publicsans/OFL.txt",
+      "bytes": 4390,
+      "sha256": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac"
+    }
+  ]
+}
