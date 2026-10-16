@@ -2,11 +2,11 @@
 
 Open the folder for your website in Claude Code and copy:
 
-> Install Begin from https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-alpha.5 using Claude Code’s native plugin manager with project scope. Preserve my existing instructions and website files, then help me start.
+> Install Begin from https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.1 using Claude Code’s native plugin manager with project scope. Preserve my existing instructions and website files, then help me start.
 
 Claude Code registers the Begin marketplace and installs the plugin for this project. It includes fifteen Skills with their complete references, fonts, starters, examples and scripts.
 
-The shared [installation guide](INSTALL.md) owns the pinned Alpha.5 source, Skills CLI alternative and ZIP fallback. Use the dedicated public release repository above; preserve an existing installation before changing its source.
+The shared [installation guide](INSTALL.md) owns the pinned release source, Skills CLI alternative and ZIP fallback. Use the dedicated public release repository above; preserve an existing installation before changing its source.
 
 ## Set up once
 
@@ -44,7 +44,7 @@ Your source stays in your project. `BEGIN.md` carries useful decisions and actua
 
 ## Update or remove
 
-Use Claude Code’s plugin controls for this project installation. Select the next official release source when updating; the Alpha.5 tag itself is fixed. Updating the plugin should preserve your website and project notes.
+Use Claude Code’s plugin controls for this project installation. Select the next official release source when updating; the selected tag itself is fixed. Updating the plugin should preserve your website and project notes.
 
 For a Skills CLI installation, use that manager instead. A native plugin or ordinary Skills installation has no Begin receipt and should not be updated or removed with Begin’s custom ZIP installer.
 
@@ -53,7 +53,7 @@ For a Skills CLI installation, use that manager instead. A native plugin or ordi
 Run these from the website folder:
 
 ```sh
-claude plugin marketplace add cogine-ai/begin-skills#begin-skills-v0.1.0-alpha.5
+claude plugin marketplace add cogine-ai/begin-skills#begin-skills-v0.1.0-beta.1
 claude plugin install begin-skills@begin --scope project
 ```
 
@@ -77,7 +77,7 @@ When native plugins are unavailable, the pinned Skills CLI can copy the clean de
 A Unix-style terminal command from the website folder is:
 
 ```sh
-DISABLE_TELEMETRY=1 DO_NOT_TRACK=1 npx skills@1.7.2 add https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-alpha.5/plugins/begin-skills/skills --agent claude-code --skill '*' --copy
+DISABLE_TELEMETRY=1 DO_NOT_TRACK=1 npx skills@1.7.2 add https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.1/plugins/begin-skills/skills --agent claude-code --skill '*' --copy
 ```
 
 The Skills CLI requires Node.js 22.20 or later. Begin’s own helpers need Node.js 24. The environment settings disable that third-party CLI’s installation telemetry; adapt the syntax for another shell.

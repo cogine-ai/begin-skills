@@ -1,4 +1,56 @@
-# Alpha status
+# Release status
+
+## 0.1.0-beta.1 — release preparation, 2026-10-17
+
+Beta.1 assembles the reviewed nine-scenario update after Alpha.5: 53 design variants across 52 original scenarios and 153 main task pages, fifteen independent Skills and four creation starters. It includes the Apollo partial-save and cleared-note repairs merged through PR #455. Product tests, exact packaging and local browser observations are recorded below. Current public installation, upgrade, downloads and website observations belong in this version’s Release notes and the separate release evidence report. Earlier Alpha tags, archives, original assets and study stages remain fixed.
+
+## PR #455 recovery follow-up — 2026-10-17
+
+Two additional Apollo review findings received scoped repairs. A checkpoint-only Keep verifies removal of the stale draft before claiming safe recovery; failed verification keeps an explicit warning and the previous safe baseline. The leave check compares note text and effective chapter, including a cleared note, while treating the unedited initial chapter as the displayed first chapter. Thirteen Apollo model tests cover the recovery outcomes, cleanup/readback failures, normal later drafts and empty-page comparisons. The source-only branch review records the additional browser and delivery evidence. Earlier sources, recordings and published Alpha.5 stay fixed.
+
+## Complete branch review — 2026-10-17
+
+The three unreleased collections below received a complete branch review: nine scenarios and 22 pages. Four confirmed recovery issues were repaired in separate source freezes: full-capacity CANOPY backup/import, failed-saving outgoing navigation in Parcel and PHASE, and Folio pin identity validation. Fresh local Chromium inspection covers 66 page/width openings at 1440/390/320 without measured overflow, failed resources or page errors; focused browser regressions and actual downloads check the repairs. The source-only report is `docs/design-trials/2026-10-17-ship-review/README.md`. Earlier first/refined sources and recordings retain their actual phases. Native installed-Agent acceptance and public release remain separate; published Alpha.5 and Cloudflare stay unchanged.
+
+## Unreleased first interaction transfers — 2026-10-16
+
+Three new tasks use the updated frozen pack with open font and composition choices: Parcel reversible packing, Cue real rehearsal timing and Folio anchored object notes. The development library now has 53 variants across 52 original scenarios and 153 main task pages; four creation starters and fifteen independent Skills remain. The optional new collection has six complete working/guide pages, twelve actual desktop/phone openings, six operation views, three selected actual recordings, 36 complete source files and eight unchanged font binaries with full notices.
+
+All three complete firsts already provide meaningful operations and real outputs. Parcel solves and exports exact piece coordinates, Cue correctly accounts for real running time away while preserving pause, and Folio retains independent draft/checkpoint notes and complete literal portable text. All three still require consequential refinement. Two actual-content type candidates per case precede the frozen firsts; independent reviewers retain the selected families while correcting operating layout, keyboard continuity and mid-gesture identity. No causal first-draft improvement or reliable first-draft excellence is inferred.
+
+Parcel's selected compact operation keeps its full board, current piece, Rotate and feedback visible at 390×500 and 320×500 without persistence or a duplicate drawing. The native tray/board/Rotate route and arrow destination are visible in both keyboard directions. Cue protects available outgoing routes during storage failure while preserving exact destinations/fragments; normal running and paused continuation remain. Folio keeps the selected note and moving pin consistent before release, preserves native focus, removes repeated precision-edit motion, supplies compact coordinate context and exports readable 13px marker numbers with 44px links.
+
+The selected six pages have eighteen actual page/width observations at 1440/390/320 with loaded local fonts and no observed resource/page/overflow errors. Twenty-one root operation groups pass, including actual downloads, short-height task views, exact puzzle cells, real elapsed-time navigation, incomplete edits, relevant denied/malformed storage, literal annotation text and portable marker geometry. Three independent final reviewers approve the inspected repairs. Actual recordings, endpoint captures, synthetic visibility branches, emulated touch and native keyboard observations establish different scopes; no physical-device or live assistive-technology result is claimed.
+
+Conditional operation-feedback guidance and narrow implementation/review details are retained inside existing independent Skills. A separate reading-only review scopes held-phase resume at its point of use so a real domain clock is not silently paused. The new early representative-operation preview recommendation still needs a separate transfer trial. Cue's supported-long-name scrolling tradeoff, unavailable-storage reload limits and Folio's reading-only export scope remain documented.
+
+The source-only account is `docs/design-trials/2026-10-16-first-interactions/README.md`; `VERIFICATION.json` owns exact source phases, checks, archive consistency and preservation. Full probes, first sources, actual outputs and comparison recordings remain under the excluded local study. New internal candidates do not replace published Alpha.5 artifacts, public tags or Cloudflare deployment.
+
+## Unreleased motion transfer study — 2026-10-15
+
+The updated local pack is exercised on three new task relationships with font and composition choices left open: a configurable physical light, sourced illustrated reading, and a kinetic vector workbench. The development library now contains 50 design variants across 49 original scenarios and 147 main task pages; four creation starters remain separate. The new optional collection has seven complete pages and operation guides, fourteen actual openings, six operation views, three actual motion recordings and five unchanged font binaries with full notices.
+
+Two real-content type systems per case were rendered before complete first-source freezes. All three selected families survived independent criticism, while every complete first still needed consequential refinement. Actual review found phone tuning without a visible result, desktop Pause below the opening, a drawing that chased direct angle input, early phone diagram motion, merged words across responsive breaks and an implicit note/chapter association. The retained first/refined comparison separates those observations from later repairs.
+
+Compact previews restore simultaneous feedback where it is useful. MORA's first refinement exposed short-height reverse-keyboard focus obstruction; a separately reviewed repair retains full option/focus visibility. PHASE's synthetic doubled-text stress exposed an oversized persistent console; its separately reviewed fallback restores ordinary scrolling when a complete control cannot fit, and actual offscreen playback then suspends correctly. These intermediate regressions remain preserved. The verification receipt records the selected phases and precise scopes.
+
+The selected sources have 21 page/width observations at 1440/390/320. Sixteen root operation groups cover actual choices, calculations, native controls, exports, local recovery and relevant motion paths. Independent visual/interaction criticism and targeted short-height checks are separate from geometry. Hidden-document overrides are labelled synthetic; local browser recordings do not establish physical-device performance. The reader's replay row disappears on a live reduced-motion change, shifting its figure/following content by 54 px; cancellation works and the next Tab continues normally. This accepted local tradeoff remains recorded.
+
+Conditional design, frontend motion-state and moving-operation review methods are added inside the existing independent Skills. The source-only account is `docs/design-trials/2026-10-15-motion-transfers/README.md`; `VERIFICATION.json` owns exact selected phases, packaging and preservation outcomes. No causal improvement, consistently excellent first draft, new native installed-model result, all-host stability or visitor/commercial acceptance is inferred. Published Alpha.5 artifacts and deployment remain unchanged.
+
+## Unreleased interaction study — 2026-10-15
+
+The development pack adds three original task references after Alpha.5: AFTERIMAGE festival, LOOP refill shop and CANOPY inspection desk. Nine complete pages, eighteen actual desktop/phone openings, six populated-result excerpts, one later-work view and eight unchanged font binaries retain exact source/capture provenance and complete font notices. The library now contains 47 variants across 46 original scenarios and 140 main task pages; four creation starters remain separate.
+
+Makers used frozen Alpha.5 design/frontend/quality guidance and original fictional task facts, with open font and composition choices. Eighteen actual candidate page/width comparisons preceded the complete first sources. Separate first/refined snapshots, independent criticism and actual operations preserve the distinction between type-informed generation and later repair. The selected nine pages have 27 final page/width observations at 1440/390/320 with no measured overflow, missing resources, external requests or page errors. Twenty-eight operation groups cover exact calculations, keyboard/selection, edits/cancel, actual exports and relevant reload/invalid/denied-storage paths.
+
+The first shop lost an unsaved list through guide navigation; the selected refinement keeps an automatic working draft separately from an explicit recovery copy and warns when changed work cannot be protected. Phone selection/result round trips, useful peer inspection facts, larger operating metadata, phrase/time groups and a specific footer overflow were repaired. A separate CANOPY finish phase removes whitespace that incorrectly styled empty feedback; actual populated feedback remains visible.
+
+Conditional methods are added to the existing independent Skills. The new sources are original implementations, with unchanged licensed fonts. Broad external source research and public preview observations remain in the excluded study, separate from the curated resources. This controlled trial does not establish a causal quality gain, consistently excellent first drafts, a legal clearance opinion, visitor adoption or all-host/model stability. Fresh native installed-Agent workflows have not been rerun with these unreleased additions. Published Alpha.5 files and deployment remain unchanged.
+
+The source-only account is `docs/design-trials/2026-10-15-original-interactions/README.md`; its verification record owns packaging and resource-preservation results. The selected portable resources carry their own `PROVENANCE.json`, `CHECKS.json` and `NOTICES.md`.
+
+## Previous Alpha.5
 
 **0.1.0-alpha.5 — public release preparation, 2026-10-15.**
 

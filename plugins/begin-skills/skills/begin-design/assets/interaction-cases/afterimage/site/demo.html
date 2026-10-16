@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#101821">
+    <meta name="description" content="Explore six fictional installations, choose an evening and save or download a practical local visit plan.">
+    <title>Programme & my evening plan — AFTERIMAGE</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="preload" href="fonts/newsreader-roman.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="icon" href="assets/paper-sun.svg" type="image/svg+xml">
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="wrap">
+      <header class="site-header">
+        <a class="brand" href="index.html" aria-label="AFTERIMAGE home"><span class="brand-mark" aria-hidden="true">A/I</span><span class="brand-place">Bellweather Dock<br>19–21 March 2027</span></a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="demo.html" aria-current="page">Programme & plan</a>
+          <a href="guide.html">Visit guide</a>
+        </nav>
+      </header>
+      <main id="main">
+        <div class="page-heading">
+          <h1 class="planner-title"><span class="heading-phrase">An evening,</span> <span class="heading-phrase">your way</span></h1>
+          <p>Choose a day and add the works you want to see. Every installation is available during the evening, <span class="time-range">18:00–23:00</span>. Estimates are time with the works, rather than appointment slots.</p>
+        </div>
+        <noscript>
+          <p class="no-script">The complete programme and access notes are readable below. Enable JavaScript to add works, save on this device and download a plan.</p>
+        </noscript>
+        <div class="planner">
+          <div class="programme-column">
+            <fieldset class="day-picker">
+              <legend>1. Choose your evening</legend>
+              <div class="day-options">
+                <div class="day-option">
+                  <input type="radio" name="day" value="2027-03-19" id="day-19" checked disabled>
+                  <label for="day-19"><strong>Friday</strong> 19 March</label>
+                </div>
+                <div class="day-option">
+                  <input type="radio" name="day" value="2027-03-20" id="day-20"  disabled>
+                  <label for="day-20"><strong>Saturday</strong> 20 March</label>
+                </div>
+                <div class="day-option">
+                  <input type="radio" name="day" value="2027-03-21" id="day-21"  disabled>
+                  <label for="day-21"><strong>Sunday</strong> 21 March</label>
+                </div>
+              </div>
+            </fieldset>
+            <div class="programme-intro">
+              <h2 id="programme-title" tabindex="-1">2. Choose your works</h2>
+            </div>
+            <a class="plan-quick" id="plan-quick" href="#current-plan" aria-label="View my plan: 0 works, 0 min estimated"><span>My plan</span><span class="quick-facts"><span id="jump-count">0 works</span> · <span id="quick-total">0 min</span></span><span class="quick-arrow" aria-hidden="true">↓</span></a>
+            <div class="programme-list" aria-labelledby="programme-title">
+              <article class="programme-work" id="low-tide-choir" aria-labelledby="title-low-tide-choir">
+                <img class="programme-art" src="assets/low-tide-choir.svg" width="900" height="600" alt="" loading="lazy">
+                <div class="work-copy">
+                  <div class="work-heading">
+                    <h3 id="title-low-tide-choir">Low Tide Choir</h3>
+                    <span class="minutes">25 min</span>
+                  </div>
+                  <p class="artist">Marin Vale</p>
+                  <p class="place">East Jetty</p>
+                  <p class="access-line">Outdoor sound walk; level route</p>
+                  <details class="work-detail">
+                    <summary>About this work</summary>
+                    <p>A sound walk along the jetty. Give the work time, then leave room in your evening to linger by the water.</p>
+                  </details>
+                  <button class="add-work" type="button" data-work="low-tide-choir" aria-pressed="false" aria-label="Add Low Tide Choir to my plan" disabled><span class="button-label">Add to my plan</span><span class="symbol" aria-hidden="true">+</span></button>
+                </div>
+              </article>
+              <article class="programme-work" id="paper-sun" aria-labelledby="title-paper-sun">
+                <img class="programme-art" src="assets/paper-sun.svg" width="900" height="600" alt="" loading="lazy">
+                <div class="work-copy">
+                  <div class="work-heading">
+                    <h3 id="title-paper-sun">Paper Sun</h3>
+                    <span class="minutes">18 min</span>
+                  </div>
+                  <p class="artist">Éloïse Chen</p>
+                  <p class="place">Warehouse 2</p>
+                  <p class="access-line">Indoor projection; seated space</p>
+                  <details class="work-detail">
+                    <summary>About this work</summary>
+                    <p>A study of projected light inside Warehouse 2. A seated space makes this a place to pause within your evening.</p>
+                  </details>
+                  <button class="add-work" type="button" data-work="paper-sun" aria-pressed="false" aria-label="Add Paper Sun to my plan" disabled><span class="button-label">Add to my plan</span><span class="symbol" aria-hidden="true">+</span></button>
+                </div>
+              </article>
+              <article class="programme-work" id="signal-garden" aria-labelledby="title-signal-garden">
+                <img class="programme-art" src="assets/signal-garden.svg" width="900" height="600" alt="" loading="lazy">
+                <div class="work-copy">
+                  <div class="work-heading">
+                    <h3 id="title-signal-garden">Signal Garden</h3>
+                    <span class="minutes">12 min</span>
+                  </div>
+                  <p class="artist">Noor Okafor</p>
+                  <p class="place">Crane Court</p>
+                  <p class="access-line">Outdoor light field; step-free</p>
+                  <details class="work-detail">
+                    <summary>About this work</summary>
+                    <p>An outdoor light field in Crane Court. Add a short stop here between the longer indoor installations.</p>
+                  </details>
+                  <button class="add-work" type="button" data-work="signal-garden" aria-pressed="false" aria-label="Add Signal Garden to my plan" disabled><span class="button-label">Add to my plan</span><span class="symbol" aria-hidden="true">+</span></button>
+                </div>
+              </article>
+              <article class="programme-work" id="a-room-for-echoes" aria-labelledby="title-a-room-for-echoes">
+                <img class="programme-art" src="assets/a-room-for-echoes.svg" width="900" height="600" alt="" loading="lazy">
+                <div class="work-copy">
+                  <div class="work-heading">
+                    <h3 id="title-a-room-for-echoes">A Room for Echoes</h3>
+                    <span class="minutes">20 min</span>
+                  </div>
+                  <p class="artist">Ada Sørensen</p>
+                  <p class="place">Pump House</p>
+                  <p class="access-line">Indoor sound; quiet session available</p>
+                  <details class="work-detail">
+                    <summary>About this work</summary>
+                    <p>An indoor sound work in the Pump House. A quiet session is available; keep this access note with your plan.</p>
+                  </details>
+                  <button class="add-work" type="button" data-work="a-room-for-echoes" aria-pressed="false" aria-label="Add A Room for Echoes to my plan" disabled><span class="button-label">Add to my plan</span><span class="symbol" aria-hidden="true">+</span></button>
+                </div>
+              </article>
+              <article class="programme-work" id="after-the-rain" aria-labelledby="title-after-the-rain">
+                <img class="programme-art" src="assets/after-the-rain.svg" width="900" height="600" alt="" loading="lazy">
+                <div class="work-copy">
+                  <div class="work-heading">
+                    <h3 id="title-after-the-rain">After the Rain</h3>
+                    <span class="minutes">15 min</span>
+                  </div>
+                  <p class="artist">Tomás Reyes</p>
+                  <p class="place">North Basin</p>
+                  <p class="access-line">Outdoor reflection; waterside barrier</p>
+                  <details class="work-detail">
+                    <summary>About this work</summary>
+                    <p>A reflection work at the North Basin. This is a waterside installation with a barrier; take time to read its setting.</p>
+                  </details>
+                  <button class="add-work" type="button" data-work="after-the-rain" aria-pressed="false" aria-label="Add After the Rain to my plan" disabled><span class="button-label">Add to my plan</span><span class="symbol" aria-hidden="true">+</span></button>
+                </div>
+              </article>
+              <article class="programme-work" id="soft-machines" aria-labelledby="title-soft-machines">
+                <img class="programme-art" src="assets/soft-machines.svg" width="900" height="600" alt="" loading="lazy">
+                <div class="work-copy">
+                  <div class="work-heading">
+                    <h3 id="title-soft-machines">Soft Machines</h3>
+                    <span class="minutes">30 min</span>
+                  </div>
+                  <p class="artist">Jun Park</p>
+                  <p class="place">Workshop 4</p>
+                  <p class="access-line">Indoor kinetic installation; step-free</p>
+                  <details class="work-detail">
+                    <summary>About this work</summary>
+                    <p>A kinetic installation inside Workshop 4. Its thirty-minute estimate is the longest in the programme; leave it the space it needs.</p>
+                  </details>
+                  <button class="add-work" type="button" data-work="soft-machines" aria-pressed="false" aria-label="Add Soft Machines to my plan" disabled><span class="button-label">Add to my plan</span><span class="symbol" aria-hidden="true">+</span></button>
+                </div>
+              </article>
+            </div>
+          </div>
+          <aside class="plan-panel" id="current-plan" aria-labelledby="plan-title" tabindex="-1">
+            <h2 id="plan-title">My evening plan</h2>
+            <p class="chosen-day" id="chosen-day">Friday 19 March 2027</p>
+            <p class="plan-hours">Bellweather Dock · <span class="time-range">18:00–23:00</span></p>
+            <div class="plan-total"><output id="total-minutes" aria-label="Total estimated installation time">0</output><span>min estimated</span></div>
+            <p class="estimate-note" id="estimate-note">0 of 6 works · Add time to walk, pause and explore.</p>
+            <p class="empty-plan" id="empty-plan">Start with a work that catches your eye. Add it to see your plan here.</p>
+            <ol class="plan-list" id="plan-list" aria-label="Chosen installations"></ol>
+            <div class="plan-actions">
+              <a class="text-link plan-return" href="#programme-title">Choose more works <span class="arrow" aria-hidden="true">↑</span></a>
+              <button class="button" id="download-plan" type="button" disabled>Download my plan <span class="arrow" aria-hidden="true">↓</span></button>
+            </div>
+            <p class="local-state" id="storage-status" role="status">Your plan stays in this browser. Nothing is sent.</p>
+            <div class="plan-tools">
+              <button type="button" id="save-plan" disabled>Save on this device</button>
+              <button type="button" id="clear-plan" disabled>Clear plan</button>
+            </div>
+            <details class="copy-plan" id="copy-details">
+              <summary>Read or copy the complete plan</summary>
+              <label for="plan-text">Select this text to keep a copy</label>
+              <textarea id="plan-text" readonly spellcheck="false">Add an installation to prepare your complete plan.</textarea>
+            </details>
+            <p class="result-status" id="action-status" role="status" aria-live="polite"></p>
+          </aside>
+        </div>
+        <div class="planner-end">
+          <p>Plans list your choices in programme order. Durations are estimates; they do not include time between places. This local example does not sell tickets.</p>
+          <a class="text-link" href="guide.html#access">Check access notes <span class="arrow" aria-hidden="true">↗</span></a>
+        </div>
+      </main>
+      <script type="module" src="planner.mjs"></script>
+      <footer class="site-footer">
+        <p>AFTERIMAGE is a fictional local example. No tickets, bookings or messages are sent. Your visit plan stays on your device.</p>
+        <a href="NOTICES.md">Credits & font notices</a>
+      </footer>
+    </div>
+  </body>
+</html>

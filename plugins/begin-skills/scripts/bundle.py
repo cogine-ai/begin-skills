@@ -182,7 +182,7 @@ def release_entries(entries, version, kind):
     receipt = {
         "name": "begin-skills", "version": version, "kind": kind,
         "files": {name: hashlib.sha256(data).hexdigest() for name, data in sorted(entries.items())},
-        "notes": "Alpha evaluation build; inspect STATUS.md and LICENSE_STATUS.md. No runtime telemetry.",
+        "notes": "Evaluation release; inspect STATUS.md and LICENSE_STATUS.md. No runtime telemetry.",
     }
     return {**entries, "RELEASE.json": (json.dumps(receipt, indent=2, sort_keys=True) + "\n").encode()}
 

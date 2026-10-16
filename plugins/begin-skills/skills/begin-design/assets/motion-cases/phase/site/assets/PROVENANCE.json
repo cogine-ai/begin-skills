@@ -1,0 +1,28 @@
+{
+  "purpose": "PHASE local original trial; unmodified licensed fonts only",
+  "input_pack": "frozen local Begin pack at 3e7ae1b",
+  "license": "SIL Open Font License 1.1",
+  "font_source_manifest": "assets/FONT_SOURCES.json",
+  "records": [
+    {
+      "file": "assets/fonts/syne.ttf",
+      "frozen_source": "../type-probe/assets/fonts/syne.ttf",
+      "sha256": "ce5ac77142a65cab2248a1a2ebb740b1d4d9c20b52488877d3ff664d1356104a"
+    },
+    {
+      "file": "assets/notices/syne-OFL.txt",
+      "frozen_source": "../type-probe/assets/notices/syne-OFL.txt",
+      "sha256": "cc43cdce6f91c57989af8459341c276655e34224e954fa69c2ad700831a742d8"
+    },
+    {
+      "file": "assets/fonts/dm-sans.ttf",
+      "frozen_source": "../type-probe/assets/fonts/dm-sans.ttf",
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d"
+    },
+    {
+      "file": "assets/notices/dm-sans-OFL.txt",
+      "frozen_source": "../type-probe/assets/notices/dm-sans-OFL.txt",
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    }
+  ]
+}

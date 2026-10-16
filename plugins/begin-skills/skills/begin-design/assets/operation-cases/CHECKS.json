@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "checked_utc": "2026-10-15T17:23:33.378842+00:00",
+  "scope": "Controlled local Chromium operations, actual outputs and independent rendered criticism. Exact first/refined evidence remains in the source-only study.",
+  "pages": 6,
+  "native_openings": 12,
+  "populated_result_excerpts": 6,
+  "selected_actual_motion_recordings": 3,
+  "unchanged_font_binaries": 8,
+  "selected_final_source_files": 36,
+  "cases": [
+    {
+      "slug": "parcel",
+      "selected_trial_phase": "ship-review",
+      "page_width_observations": 6,
+      "functional_groups": [
+        {
+          "name": "Ordinary placement, exact solved cells and real JSON output at three widths",
+          "pass": true,
+          "detail": [
+            {
+              "width": 1440,
+              "rows": [
+                "AAABB",
+                "CADDB",
+                "CDDEB",
+                "CCEEE"
+              ],
+              "download": "parcel-arrangement.json"
+            },
+            {
+              "width": 390,
+              "rows": [
+                "AAABB",
+                "CADDB",
+                "CDDEB",
+                "CCEEE"
+              ],
+              "download": "parcel-arrangement.json"
+            },
+            {
+              "width": 320,
+              "rows": [
+                "AAABB",
+                "CADDB",
+                "CDDEB",
+                "CCEEE"
+              ],
+              "download": "parcel-arrangement.json"
+            }
+          ]
+        },
+        {
+          "name": "Actual direct pointer drag, invalid drop and cancellation retain valid state",
+          "pass": true,
+          "detail": {
+            "mid": {
+              "hidden": false,
+              "transform": "matrix(1, 0, 0, 1, 369.195, 529.766)",
+              "transition": "0s"
+            },
+            "invalidMessage": "Drag cancelled. Your last placement is still safe."
+          }
+        },
+        {
+          "name": "Keyboard placement, rotation, focus retention, undo and reset reversal",
+          "pass": true,
+          "detail": {
+            "focusAndUndo": true
+          }
+        },
+        {
+          "name": "Guide/reload recovery plus denied and malformed storage remain honest",
+          "pass": true,
+          "detail": {
+            "ordinaryRecovery": true,
+            "deniedAndMalformed": true
+          }
+        },
+        {
+          "name": "Reduced motion and changed preference leave placement immediately usable",
+          "pass": true,
+          "detail": {
+            "placementAndUndo": true
+          }
+        },
+        {
+          "name": "Rotate feedback and arrow-key destinations stay visible at short phone heights",
+          "pass": true,
+          "detail": [
+            {
+              "width": 390,
+              "board": {
+                "x": 38,
+                "y": 40.703125,
+                "width": 314,
+                "height": 251.1875
+              },
+              "rotate": {
+                "x": 226.28125,
+                "y": 303.890625,
+                "width": 125.71875,
+                "height": 47.5
+              },
+              "focused": {
+                "x": 50,
+                "y": 227.59375,
+                "width": 53.1875,
+                "height": 52.296875
+              }
+            },
+            {
+              "width": 320,
+              "board": {
+                "x": 29,
+                "y": 40.015625,
+                "width": 262,
+                "height": 209.59375
+              },
+              "rotate": {
+                "x": 175.046875,
+                "y": 261.609375,
+                "width": 115.953125,
+                "height": 47.5
+              },
+              "focused": {
+                "x": 38,
+                "y": 195.703125,
+                "width": 45.59375,
+                "height": 44.90625
+              }
+            }
+          ]
+        }
+      ],
+      "independent_review": {
+        "decision": "Approve",
+        "source_only_report": "docs/design-trials/2026-10-16-first-interactions/PARCEL_FINAL_REVIEW.md"
+      },
+      "first_issues": [
+        "Offscreen native keyboard destination",
+        "Rotate separated from board at short phone height",
+        "Written Tab route disagrees with focus order"
+      ]
+    },
+    {
+      "slug": "cue",
+      "selected_trial_phase": "refined",
+      "page_width_observations": 6,
+      "functional_groups": [
+        {
+          "name": "Immediate start, pause, held clock, resume and next at three widths",
+          "pass": true,
+          "detail": [
+            {
+              "width": 1440,
+              "held": "00:34",
+              "elapsed": "00:01"
+            },
+            {
+              "width": 390,
+              "held": "00:34",
+              "elapsed": "00:01"
+            },
+            {
+              "width": 320,
+              "held": "00:34",
+              "elapsed": "00:01"
+            }
+          ]
+        },
+        {
+          "name": "Real time away crosses cues, reload reconciles and paused recovery holds",
+          "pass": true,
+          "detail": {
+            "wallMs": 12239,
+            "elapsedAtReturn": 10,
+            "held": "00:04"
+          }
+        },
+        {
+          "name": "Invalid partial edits survive guide/reload and prevent start and export",
+          "pass": true,
+          "detail": {
+            "partialPreserved": true,
+            "restoredValidity": true
+          }
+        },
+        {
+          "name": "Actual exported programme retains edited names, explicit units and total",
+          "pass": true,
+          "detail": {
+            "filename": "cue-programme.json",
+            "cues": 4,
+            "total": 20
+          }
+        },
+        {
+          "name": "Denied storage protects every guide route while active; malformed recovery remains usable",
+          "pass": true,
+          "detail": {
+            "allRoutes": true,
+            "malformed": true
+          }
+        },
+        {
+          "name": "Reduced motion and hidden lifecycle do not pause real domain time",
+          "pass": true,
+          "detail": {
+            "syntheticVisibilityBranch": true,
+            "elapsedDomainContinues": true
+          }
+        }
+      ],
+      "independent_review": {
+        "decision": "Approve",
+        "source_only_report": "docs/design-trials/2026-10-16-first-interactions/CUE_FINAL_REVIEW.md"
+      },
+      "first_issues": [
+        "Lower guide routes lose active work when storage unavailable",
+        "Responsive sentence whitespace and heading punctuation"
+      ]
+    },
+    {
+      "slug": "folio",
+      "selected_trial_phase": "ship-review",
+      "page_width_observations": 6,
+      "functional_groups": [
+        {
+          "name": "Current subject, draft editing, guide/reload, saved checkpoint and cancellation",
+          "pass": true,
+          "detail": {
+            "identity": "p2",
+            "savedAndRecovered": true
+          }
+        },
+        {
+          "name": "New anchored note via ordinary tap, exact inputs, removal and undo at three widths",
+          "pass": true,
+          "detail": [
+            {
+              "width": 1440,
+              "anchor": [
+                0.62,
+                0.42
+              ]
+            },
+            {
+              "width": 390,
+              "anchor": [
+                0.62,
+                0.42
+              ]
+            },
+            {
+              "width": 320,
+              "anchor": [
+                0.62,
+                0.42
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Native pin keyboard selection retains focus and direct arrows remain usable",
+          "pass": true,
+          "detail": {
+            "selectionAndArrows": true
+          }
+        },
+        {
+          "name": "Actual pointer movement paints immediately and Cancel returns saved anchor",
+          "pass": true,
+          "detail": {
+            "mid": {
+              "left": "65%",
+              "top": "45%",
+              "transition": "none"
+            },
+            "checkpointRestored": true
+          }
+        },
+        {
+          "name": "Actual standalone HTML preserves all notes, draft status, positions and literal markup",
+          "pass": true,
+          "detail": {
+            "filename": "folio-hush-vessel-study.html",
+            "notes": 3,
+            "literalMarkup": true,
+            "externalRequests": 0
+          }
+        },
+        {
+          "name": "Denied and malformed storage remain honest; reduced motion keeps edit/export usable",
+          "pass": true,
+          "detail": {
+            "honestSaving": true,
+            "exportStillAvailable": true
+          }
+        },
+        {
+          "name": "Dragging another pin synchronizes its identity and editor before pointerup",
+          "pass": true,
+          "detail": {
+            "heading": "02 / An interrupted rim",
+            "name": "An interrupted rim",
+            "selected": "p2"
+          }
+        },
+        {
+          "name": "Portable anchor numbers retain readable scale and usable links at320",
+          "pass": true,
+          "detail": {
+            "fontSize": 13,
+            "rect": {
+              "x": 146.515625,
+              "y": 523.6875,
+              "width": 44,
+              "height": 44,
+              "top": 523.6875,
+              "right": 190.515625,
+              "bottom": 567.6875,
+              "left": 146.515625
+            }
+          }
+        },
+        {
+          "name": "Anchor-position editing retains a useful current drawing context on short phones",
+          "pass": true,
+          "detail": [
+            {
+              "width": 390,
+              "rect": {
+                "x": 44,
+                "y": 66.25,
+                "width": 151.578125,
+                "height": 172.828125
+              }
+            },
+            {
+              "width": 320,
+              "rect": {
+                "x": 34,
+                "y": 82.5,
+                "width": 132,
+                "height": 156.1875
+              }
+            }
+          ]
+        }
+      ],
+      "independent_review": {
+        "decision": "Approve",
+        "source_only_report": "docs/design-trials/2026-10-16-first-interactions/FOLIO_FINAL_REVIEW.md"
+      },
+      "first_issues": [
+        "Enter selection drops pin focus",
+        "Different-pin drag paints coordinates beneath old identity",
+        "Selected pulse restarts on ordinary precision movement",
+        "Phone coordinate fields lose drawing context",
+        "Portable marker numerals shrink with SVG",
+        "Responsive sentence whitespace and heading punctuation"
+      ]
+    }
+  ],
+  "known_limits": [
+    "Every complete first source needed consequential refinement; actual-content type specimens did not establish full-operation quality.",
+    "This small controlled model study does not establish causal improvement, unfamiliar-person success, all-Agent/model reliability or commercial acceptance.",
+    "Local Chromium and emulated touch/short heights do not establish physical-device, software-keyboard, assistive-technology or Safari/Firefox behavior.",
+    "Real guide waits establish rehearsal elapsed-time recovery. Synthetic document-visibility checks establish only their labelled lifecycle branches.",
+    "Cue: long supported names may require scrolling between full identity and transport on a short phone; short cue names are recommended.",
+    "Unavailable browser storage cannot preserve work through every reload/close/back action; inspected outgoing link fallbacks retain the active document.",
+    "Folio compact anchor context supplements the complete drawing; its standalone HTML is a reading record without import.",
+    "The new early representative-operation preview recommendation has not had a separate controlled first-draft comparison."
+  ],
+  "ship_review": {
+    "checked_utc": "2026-10-16T18:01:40.707964+00:00",
+    "scope": "Source review plus actual local Chromium regression after the original trials. No new native installed-Agent or public-release claim.",
+    "page_opening_observations": {
+      "collection_pages": 6,
+      "widths": [
+        1440,
+        390,
+        320
+      ],
+      "overflow_resource_or_page_errors": []
+    },
+    "regressions": [
+      "Parcel protects wordmark, notice and guide during failed saving; normal saved navigation and same-document keyboard fragment remain usable.",
+      "Folio rejects recovered ID/number aliases; canonical recovery, unique new p4 selection, Save, Remove and Undo preserve identity."
+    ],
+    "source_phase": "ship-review for patched cases; per-file source and media phases remain explicit.",
+    "current_sources": {
+      "cue": {
+        "files": 13,
+        "bytes": 458838
+      },
+      "parcel": {
+        "files": 11,
+        "bytes": 331048
+      },
+      "folio": {
+        "files": 12,
+        "bytes": 704011
+      }
+    }
+  }
+}

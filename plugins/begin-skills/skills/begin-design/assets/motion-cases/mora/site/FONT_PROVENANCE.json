@@ -1,0 +1,23 @@
+{
+  "family": "Space Grotesk",
+  "license": "SIL Open Font License 1.1",
+  "copyright": "Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)",
+  "origin": "Copied unchanged from the supplied frozen Begin pack for this trial. No third-party HTML, CSS, component code, artwork or historical example notice was copied.",
+  "frozen_asset_identifier": "begin-design/assets/type-transfer-cases/relay/site/assets/fonts/SpaceGrotesk-Variable.ttf",
+  "files": [
+    {
+      "file": "assets/fonts/SpaceGrotesk-Variable.ttf",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/SpaceGrotesk%5Bwght%5D.ttf",
+      "bytes": 136676,
+      "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+      "modified": false
+    },
+    {
+      "file": "assets/fonts/SpaceGrotesk-OFL.txt",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/OFL.txt",
+      "bytes": 4495,
+      "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+      "modified": false
+    }
+  ]
+}

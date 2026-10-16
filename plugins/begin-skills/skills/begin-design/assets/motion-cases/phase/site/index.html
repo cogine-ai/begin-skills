@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#171c18">
+  <meta name="description" content="An original kinetic sketchbook. Shape a looping vector pattern, inspect a frame and keep portable SVG and HTML files.">
+  <title>PHASE — a kinetic sketchbook</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#workbench">Skip to sketchbook</a>
+  <header class="masthead">
+    <a class="wordmark" href="index.html" aria-label="PHASE sketchbook">PHASE</a>
+    <p>A kinetic sketchbook</p>
+    <a class="guide-link" href="guide.html" id="guide-link">Operation guide <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="workbench">
+    <div class="task-heading"><h1>Shape a loop</h1><p>Start with a pattern. Make it move. Keep a moment.</p></div>
+    <div class="workbench-grid">
+      <section class="work" aria-label="Current sketch">
+        <div class="art-topline"><span id="sketch-name">Weave</span><span class="unit-readout" id="frame-readout">8 loops / 3.0 s / 60 travel</span></div>
+        <div id="preview-shell" class="preview-shell">
+          <svg id="preview" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="art-title art-description">
+            <title id="art-title">Weave — eight looping ellipses</title>
+            <desc id="art-description">An original vector sketch at phase 25 percent. Use the labelled controls to change the pattern or inspect a still frame.</desc>
+            <rect width="640" height="640" fill="#d7ef6b"/>
+            <g id="loops"><ellipse cx="320" cy="320" rx="64.22222" ry="42.38667" transform="rotate(45 320 320)" fill="none" stroke="#e94e35" stroke-width="5"/><ellipse cx="280.96771" cy="286.4" rx="77.51551" ry="40.74601" transform="rotate(67.5 280.96771 286.4)" fill="none" stroke="#20281f" stroke-width="2.6"/><ellipse cx="264.8" cy="320" rx="86.66667" ry="40.73333" transform="rotate(90 264.8 320)" fill="none" stroke="#20281f" stroke-width="2.6"/><ellipse cx="280.96771" cy="353.6" rx="95.81782" ry="50.36661" transform="rotate(112.5 280.96771 353.6)" fill="none" stroke="#20281f" stroke-width="2.6"/><ellipse cx="320" cy="320" rx="109.11111" ry="72.01333" transform="rotate(135 320 320)" fill="none" stroke="#20281f" stroke-width="2.6"/><ellipse cx="359.03229" cy="286.4" rx="128.26227" ry="101.88517" transform="rotate(157.5 359.03229 286.4)" fill="none" stroke="#20281f" stroke-width="2.6"/><ellipse cx="375.2" cy="320" rx="151.55556" ry="128.82222" transform="rotate(180 375.2 320)" fill="none" stroke="#20281f" stroke-width="2.6"/><ellipse cx="359.03229" cy="353.6" rx="174.84885" ry="138.89123" transform="rotate(202.5 359.03229 353.6)" fill="none" stroke="#20281f" stroke-width="2.6"/></g>
+          </svg>
+          <noscript><p class="noscript">Enable JavaScript to animate, change settings and create files. The operation guide remains available.</p></noscript>
+        </div>
+        <div class="transport">
+          <button type="button" id="play-toggle" class="button play-button" aria-pressed="false"><span id="play-icon" aria-hidden="true">▶</span><span id="play-label">Play</span></button>
+          <p id="playback-state">Paused at 25.0%</p>
+          <span class="model-label">MODEL / 01</span>
+        </div>
+        <div class="phase-control">
+          <div class="field-heading"><label for="phase-number">Phase <span class="quiet">/ inspect a moment</span></label><div class="number-unit"><input id="phase-number" type="number" min="0" max="100" step="0.1" value="25" inputmode="decimal"><span>%</span></div></div>
+          <input id="phase-range" type="range" min="0" max="100" step="0.1" value="25" aria-label="Phase slider">
+          <div class="range-endpoints" aria-hidden="true"><span>0%</span><span>100%</span></div>
+        </div>
+        <p class="motion-note" id="motion-note">Pause to inspect, or move Phase to hold a frame.</p>
+      </section>
+      <aside class="controls" aria-label="Sketch settings and files">
+        <section class="control-section presets-section" aria-labelledby="starting-heading">
+          <h2 id="starting-heading">Starting points</h2>
+          <div class="presets" role="group" aria-label="Starting presets">
+            <button type="button" class="preset" data-preset="weave" id="preset-weave" aria-pressed="true"><span class="preset-mark weave-mark" aria-hidden="true"></span><span>Weave</span><span class="preset-detail">Crossing paths</span></button>
+            <button type="button" class="preset" data-preset="orbit" id="preset-orbit" aria-pressed="false"><span class="preset-mark orbit-mark" aria-hidden="true"></span><span>Orbit</span><span class="preset-detail">Wider wander</span></button>
+            <button type="button" class="preset" data-preset="ripple" id="preset-ripple" aria-pressed="false"><span class="preset-mark ripple-mark" aria-hidden="true"></span><span>Ripple</span><span class="preset-detail">A shared center</span></button>
+          </div>
+        </section>
+        <form id="settings" class="control-section settings-section" novalidate>
+          <h2>Tune the pattern</h2>
+          <div class="setting-field"><div class="field-heading"><label for="count-number">Elements</label><div class="number-unit"><input id="count-number" type="number" min="3" max="12" step="1" value="8" inputmode="numeric"><span>loops</span></div></div><input id="count-range" type="range" min="3" max="12" step="1" value="8" aria-label="Elements slider"></div>
+          <div class="setting-field"><div class="field-heading"><label for="cycle-number">Cycle</label><div class="number-unit"><input id="cycle-number" type="number" min="1" max="6" step="0.1" value="3" inputmode="decimal"><span>sec</span></div></div><input id="cycle-range" type="range" min="1" max="6" step="0.1" value="3" aria-label="Cycle slider"></div>
+          <div class="setting-field"><div class="field-heading"><label for="travel-number">Travel</label><div class="number-unit"><input id="travel-number" type="number" min="0" max="100" step="1" value="60" inputmode="numeric"><span>units</span></div></div><input id="travel-range" type="range" min="0" max="100" step="1" value="60" aria-label="Travel slider"></div>
+          <p class="field-note" id="input-status" aria-live="polite">Count the loops, set the pace, spread their paths.</p>
+        </form>
+        <section class="control-section files-section" aria-labelledby="files-heading">
+          <h2 id="files-heading">Keep the work</h2>
+          <p>Export pauses at the frame you see.</p>
+          <div class="export-buttons"><button type="button" id="export-svg" class="button export-button">Save SVG <span aria-hidden="true">↓</span></button><button type="button" id="export-html" class="button export-button">Playback HTML <span aria-hidden="true">↓</span></button></div>
+          <p id="export-status" class="field-note" aria-live="polite">Vector still, or a complete loop with its own player.</p>
+          <div class="recovery-buttons"><button type="button" id="keep-sketch" class="text-button">Keep in this browser</button><button type="button" id="recover-sketch" class="text-button" disabled>Recover kept sketch</button></div>
+          <p class="storage-status" id="storage-status" aria-live="polite">Checking local recovery…</p>
+          <button type="button" id="reset-sketch" class="reset-button">Reset current sketch</button>
+        </section>
+      </aside>
+    </div>
+    <footer class="work-footer"><p>One formula. A different rhythm every time.</p><p>Made here. Stored here. Files leave only when you save them.</p></footer>
+  </main>
+  <dialog id="reset-dialog" aria-labelledby="reset-title">
+    <form method="dialog"><p class="dialog-eyebrow">Current work</p><h2 id="reset-title">Return to Weave?</h2><p>This replaces the current pattern with 8 loops, a 3.0 second cycle, 60 travel units and phase 25%. Playback will pause. Your separately kept sketch stays available.</p><div class="dialog-actions"><button class="button" value="cancel" autofocus>Keep working</button><button class="button solid" id="confirm-reset" value="reset">Reset to Weave</button></div></form>
+  </dialog>
+  <dialog id="leave-dialog" aria-labelledby="leave-title">
+    <p class="dialog-eyebrow">Browser recovery unavailable</p><h2 id="leave-title">Keep a portable copy</h2><p>This browser could not store your working copy. Save a playback HTML file before leaving if you want to keep these settings and this phase.</p><div class="dialog-actions"><button class="button solid" id="leave-export" type="button">Save playback HTML</button><button class="button" id="leave-stay" type="button" autofocus>Stay with sketch</button><a id="leave-anyway" href="guide.html">Open guide anyway ↗</a></div>
+  </dialog>
+</body>
+</html>

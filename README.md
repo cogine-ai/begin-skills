@@ -10,11 +10,11 @@ Begin brings design methods, professional web development guidance, editable web
 
 Open your website folder in Codex and copy:
 
-> Install Begin from https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-alpha.5 using Codex's native plugin manager. Preserve my existing instructions and website files, then help me start.
+> Install Begin from https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.1 using Codex's native plugin manager. Preserve my existing instructions and website files, then help me start.
 
 For Claude Code, ask it to use its native plugin manager with project scope. Both plugins include all fifteen Skills and their complete resources. The standard Skills CLI is another supported installation path; a ZIP is the fallback. Follow [installation](INSTALL.md), [Codex](plugins/begin-skills/docs/CODEX.md) or [Claude Code](plugins/begin-skills/docs/CLAUDE_CODE.md).
 
-The release source is the dedicated [Begin Skills repository](https://github.com/cogine-ai/begin-skills), pinned to `begin-skills-v0.1.0-alpha.5`. Keep the complete pack together so your Agent can use its references and working examples.
+The release source is the dedicated [Begin Skills repository](https://github.com/cogine-ai/begin-skills), pinned to `begin-skills-v0.1.0-beta.1`. Keep the complete pack together so your Agent can use its references and working examples.
 
 Open [Quick Start](plugins/begin-skills/docs/QUICKSTART.md) for the general flow. Ask your Agent:
 
@@ -58,9 +58,9 @@ Replace the sample content and contact destination before sharing a site. A copi
 
 For the backend example, follow [its README](plugins/begin-skills/skills/begin-backend/assets/enquiry/README.md). Maintainers working from the development repository's `products/begin-skills/` can build local archives with `python3 scripts/bundle.py` and the clean Git-installable tree with `python3 scripts/distribution.py --output /absolute/path/to/a/fresh-output`.
 
-## Alpha status
+## Beta status
 
-Version `0.1.0-alpha.5` brings the reviewed pack to its dedicated public repository, with MIT terms for Begin-authored material, retained third-party notices and direct repository feedback. Earlier archives remain fixed. Read [Status](plugins/begin-skills/STATUS.md) for the actual host evidence and its limits.
+Version `0.1.0-beta.1` adds nine complete interaction, motion and operation references, with methods for usable controls, visible feedback and reliable recovery. Fifteen Skills and four creation starters remain. Begin-authored material uses MIT; third-party notices stay with their resources. Earlier archives remain fixed. Read [Status](plugins/begin-skills/STATUS.md) for the actual host evidence and its limits.
 
 ## Help us make it better
 

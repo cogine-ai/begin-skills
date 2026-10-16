@@ -13,6 +13,10 @@ Implement the content hierarchy with semantic HTML and a small consistent style 
 
 For a changed interaction, identify its states, the component that owns them, and the event that confirms completion. Preserve behavior across route changes or rerenders when the task requires it. Keep data loading, submission, and visible feedback aligned with the project's existing model.
 
+For selection, editable records, quantity results or local recovery, use [interaction state](references/interaction-state.md). Keep identity, saved facts, current work and exports consistent through the complete operation, including a visit to the guide and back.
+
+For direct manipulation, selected-object editors, changing diagrams, continuous creative previews or elapsed-time controls, use [motion state](references/motion-state.md). Keep current facts, painted results, playback scheduling and portable output consistent; verify the actual visible surface after responsive changes.
+
 For a form, define where it sends, what success means, and what happens on failure before presenting it as functional. Client validation improves feedback; server validation and authorization still enforce the contract. Keep visitor input and show actionable errors. Do not return fake success from a disconnected demonstration.
 
 Use the existing project's runner and browser tools when available. Check the rendered change at the smallest supported width and around layout breakpoints; measure page overflow and comfortable touch targets for navigation and main actions. Keep existing content and configuration during edits. Report source, build, and rendered observations separately; mark browser checks unverified when access is unavailable. Select deeper performance work when measurements or the task justify it.

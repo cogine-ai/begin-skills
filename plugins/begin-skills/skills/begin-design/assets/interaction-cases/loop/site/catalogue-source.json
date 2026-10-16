@@ -1,0 +1,65 @@
+{
+  "scope": "Fictional demonstration catalogue supplied by the LOOP functional brief. No live stock or supplier claims.",
+  "products": [
+    {
+      "id": "olive-oil",
+      "name": "Extra virgin olive oil",
+      "base": 250,
+      "unit": "ml",
+      "pence": 480,
+      "note": "Clean, dry bottle with a tight lid",
+      "kind": "Food cupboard",
+      "color": "#f3c75c"
+    },
+    {
+      "id": "hand-soap",
+      "name": "Fragrance-free hand soap",
+      "base": 100,
+      "unit": "ml",
+      "pence": 90,
+      "note": "Pump bottle or a closed jar",
+      "kind": "Household refills",
+      "color": "#e4b7b3"
+    },
+    {
+      "id": "oats",
+      "name": "Rolled oats",
+      "base": 100,
+      "unit": "g",
+      "pence": 65,
+      "note": "Dry jar or sturdy food container",
+      "kind": "Food cupboard",
+      "color": "#d6bb85"
+    },
+    {
+      "id": "laundry",
+      "name": "Laundry powder",
+      "base": 100,
+      "unit": "g",
+      "pence": 120,
+      "note": "Dry, clearly labelled non-food container",
+      "kind": "Household refills",
+      "color": "#b3c7d0"
+    },
+    {
+      "id": "coffee",
+      "name": "House coffee beans",
+      "base": 100,
+      "unit": "g",
+      "pence": 280,
+      "note": "Dry jar or resealable coffee bag",
+      "kind": "Food cupboard",
+      "color": "#a66a49"
+    },
+    {
+      "id": "apricots",
+      "name": "Dried apricots",
+      "base": 100,
+      "unit": "g",
+      "pence": 160,
+      "note": "Clean food container with a lid",
+      "kind": "Food cupboard",
+      "color": "#e99659"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#ddea68"><meta name="description" content="A silent, local rehearsal timer. Shape four cues, practise your timing, and keep your programme."><title>Cue — rehearsal timer</title><link rel="stylesheet" href="styles.css"><script type="module" src="app.mjs"></script></head>
+<body>
+<a class="skip" href="#rehearsal">Skip to rehearsal</a>
+<header class="site-header"><a class="wordmark" href="index.html" aria-label="Cue rehearsal timer home">CUE<span class="mark" aria-hidden="true"></span></a><span class="header-note">A little room to rehearse.</span><a id="guide-link" class="nav-link" href="guide.html">How to use Cue <span aria-hidden="true">↗</span></a></header>
+<main>
+  <div class="intro"><h1>One cue at a time</h1><p>A silent timer for your next run-through. <br>Set your pace, then give the story your attention.</p></div>
+  <section class="rehearsal" id="rehearsal" aria-label="Rehearsal timer" data-state="idle">
+    <div class="clock-top"><span class="status" id="run-status">Ready</span><span class="cue-position" id="cue-position">Cue 01 of 04</span></div>
+    <div class="timer-layout"><div class="current"><h2 id="current-cue">Welcome</h2><p class="time" id="cue-time" role="timer" aria-live="off" aria-label="Time remaining in current cue">00:35</p><p class="time-caption" id="time-caption">left in this cue</p></div><div class="next-up"><span class="eyebrow" id="next-label">Up next</span><h3 id="next-name">Story</h3><span class="next-duration" id="next-duration">00:50</span><p id="run-hint">Start when you’re ready. Cues advance automatically.</p></div></div>
+    <div class="time-facts"><div><span>Programme left</span><strong id="programme-left">03:00</strong></div><div><span>Run elapsed</span><strong id="run-elapsed">00:00</strong></div></div>
+    <progress id="programme-progress" aria-label="Programme progress" max="180000" value="0"></progress>
+    <div class="transport"><button class="primary" id="toggle" type="button" disabled>Start rehearsal</button><button id="next" type="button" disabled>Next cue <span aria-hidden="true">→</span></button><button class="quiet" id="reset" type="button" disabled>Reset rehearsal</button></div>
+  </section>
+  <p class="storage-note" id="storage-status">Local saving needs JavaScript. Nothing is sent to a server.</p>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+  <noscript><p class="error-box">Cue needs JavaScript to run the timer and keep edits. The <a href="guide.html">guide</a> explains the controls and local limits.</p></noscript>
+  <section class="programme" id="programme" aria-labelledby="programme-heading"><div class="section-heading"><div><span class="eyebrow">Your running order</span><h2 id="programme-heading">The programme</h2></div><span class="programme-total" id="programme-total">4 cues · 03:00</span></div><p class="programme-help" id="programme-help">Edit names and seconds before you start. Changes save in this browser.</p><div class="ledger-head" aria-hidden="true"><span>Cue / name</span><span>Seconds</span></div><ol class="cue-list" id="cue-list"></ol><p class="input-rule">Each cue: 5–180 seconds, in steps of 5. Try four 5-second cues for a quick rehearsal.</p><div class="programme-actions"><button type="button" id="export" disabled>Export programme JSON <span aria-hidden="true">↓</span></button><p>A portable copy of your names and durations.</p></div><p id="export-result" class="export-result"></p></section>
+  <aside class="local-note"><span class="note-symbol" aria-hidden="true">↳</span><div><h2>This is your practice space</h2><p>Cue stays silent and saves on this browser. A running rehearsal keeps its place when you visit the guide or reload. <a href="guide.html#keeping">Read about local saving</a>.</p></div></aside>
+</main><footer><span>CUE / Local rehearsal timer</span><a href="guide.html">Guide &amp; timing notes</a><a href="NOTICES.md">Font notices</a></footer>
+</body></html>
