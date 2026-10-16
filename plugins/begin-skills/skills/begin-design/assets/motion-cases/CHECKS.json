@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "checked_utc": "2026-10-15T14:26:38.625424+00:00",
+  "scope": "Controlled local Chromium actual operations, downloads and independent rendered criticism. Synthetic visibility branches are labelled separately from actual observer/media tests. No native installed-Agent, physical-device, public release or commercial acceptance claim.",
+  "candidate_page_width_observations": 18,
+  "candidate_images": 36,
+  "pages": 7,
+  "native_openings": 14,
+  "populated_result_excerpts": 6,
+  "selected_actual_motion_recordings": 3,
+  "unchanged_font_binaries": 5,
+  "selected_final_source_files": 37,
+  "cases": [
+    {
+      "slug": "mora",
+      "selected_trial_phase": "final-1",
+      "pages": 3,
+      "page_width_observations": 9,
+      "overflow_or_resource_issues": [],
+      "functional_groups": [
+        {
+          "name": "Real choices, keyboard tilt, exact total and invalid quantity retain valid result",
+          "status": "passed"
+        },
+        {
+          "name": "Actual standalone HTML export matches all selected facts and survives offline opening",
+          "status": "passed"
+        },
+        {
+          "name": "Rapid retarget reaches latest state; idle/reduced/offscreen/visibility stop animation scheduling",
+          "status": "passed"
+        },
+        {
+          "name": "Valid working state survives reload and guide roundtrip even when browser storage is denied",
+          "status": "passed"
+        },
+        {
+          "name": "Malformed saved data and unsupported query rejected; no-script catalogue remains readable",
+          "status": "passed"
+        }
+      ],
+      "independent_review": "Independent REVIEW_REPAIR.md approves stopped final-1 after short-height pointer and forward/reverse keyboard checks",
+      "first_issues": [
+        "Eased direct angle manipulation",
+        "Phone tuning without visible object feedback",
+        "Responsive sentence spacing"
+      ]
+    },
+    {
+      "slug": "apollo",
+      "selected_trial_phase": "pr455-review-fixes",
+      "pages": 2,
+      "page_width_observations": 6,
+      "overflow_or_resource_issues": [],
+      "functional_groups": [
+        {
+          "name": "Ordinary direct chapters and correct still diagram with reduced motion",
+          "status": "passed"
+        },
+        {
+          "name": "Explicit note chapter and kept checkpoint remain distinct through a second chapter and export",
+          "status": "passed"
+        },
+        {
+          "name": "Draft and selected subject recover after reload and actual guide return",
+          "status": "passed"
+        },
+        {
+          "name": "Denied and invalid storage preserve a usable note and honest portable route",
+          "status": "passed"
+        },
+        {
+          "name": "Actual phone explanation, replay, live preference and synthetic hidden cancellation",
+          "status": "passed"
+        },
+        {
+          "name": "No-script reading and two narrow assembled headings keep complete words",
+          "status": "passed"
+        }
+      ],
+      "independent_review": "Independent review/REVIEW_FINAL.md approves stopped refined source with explicitly retained replay-row preference-change tradeoff",
+      "first_issues": [
+        "Merged responsive heading words",
+        "Implicit note chapter versus saved checkpoint",
+        "Phone descent finishes before its figure is encountered"
+      ]
+    },
+    {
+      "slug": "phase",
+      "selected_trial_phase": "ship-review",
+      "pages": 2,
+      "page_width_observations": 6,
+      "overflow_or_resource_issues": [],
+      "functional_groups": [
+        {
+          "name": "Native controls, exact held frame, preset identity and invalid-input recovery",
+          "status": "passed"
+        },
+        {
+          "name": "Real SVG and standalone playback HTML preserve visible geometry and settings",
+          "status": "passed"
+        },
+        {
+          "name": "Actual animation cancellation: pause, live motion preference, offscreen, synthetic visibility",
+          "status": "passed"
+        },
+        {
+          "name": "Separate checkpoint, reload, guide roundtrip, reset cancel/confirm and focus return",
+          "status": "passed"
+        },
+        {
+          "name": "Denied/malformed storage: usable artwork, honest state, actual portable escape",
+          "status": "passed"
+        }
+      ],
+      "independent_review": "Independent review/REVIEW_REPAIR.md approves stopped final-1 including synthetic doubled-text native-focus and actual offscreen cancellation/resume checks",
+      "first_issues": [
+        "Desktop Pause and Phase below opening",
+        "Phone tuning without visible artwork",
+        "Stale invalid-field feedback after restoration"
+      ]
+    }
+  ],
+  "known_limits": [
+    "All complete first sites needed consequential refinement despite useful real-content type selection.",
+    "A small controlled study does not establish causal quality gains or reliable all-host/model first drafts.",
+    "Hidden-tab checks use synthetic lifecycle branches where native browser backgrounding was unavailable.",
+    "Local Chromium and recorded output do not establish physical-phone, Safari/Firefox or low-end-device performance.",
+    "New conditional guidance and samples have not had a fresh native installed-model workflow.",
+    "Compact persistent previews spend phone space; inspect actual short heights and focus for each new use.",
+    "Reader: a live reduced-motion preference hides the replay row, moving its figure/following content upward 54 px and clearing replay focus; the next Tab continues to the chapter action. Recorded accepted local tradeoff."
+  ],
+  "ship_review": {
+    "checked_utc": "2026-10-16T18:01:40.707964+00:00",
+    "scope": "Source review plus actual local Chromium regression after the original trials. No new native installed-Agent or public-release claim.",
+    "page_opening_observations": {
+      "collection_pages": 7,
+      "widths": [
+        1440,
+        390,
+        320
+      ],
+      "overflow_resource_or_page_errors": []
+    },
+    "regressions": [
+      "PHASE denies unintended same-tab navigation during unavailable storage for wordmark and guide; Export, Stay and chosen Continue routes pass.",
+      "Same-document fragments, ordinary saved routes, MORA alternative routes and Apollo native leave cancellation remain usable."
+    ],
+    "source_phase": "ship-review for patched cases; per-file source and media phases remain explicit.",
+    "current_sources": {
+      "phase": {
+        "files": 12,
+        "bytes": 455751
+      },
+      "apollo": {
+        "files": 13,
+        "bytes": 668157
+      },
+      "mora": {
+        "files": 12,
+        "bytes": 227886
+      }
+    }
+  },
+  "pr455_followup": {
+    "checked_utc": "2026-10-16T19:28:51.073947+00:00",
+    "source_phase": "apollo/pr455-review-fixes/site",
+    "scope": "Actual current-source Chromium operations plus source/model tests. Original refined media are retained; no native installed-Agent, physical-device or public-release claim.",
+    "apollo_model_tests": 13,
+    "independent_storage_combinations": 36,
+    "independent_baseline_comparisons": 121,
+    "browser_cases": 12,
+    "genuine_quota_recovery": true,
+    "trusted_beforeunload_events": 14,
+    "actual_dialogs": 7,
+    "page_console_or_resource_errors": [],
+    "regressions": [
+      "Checkpoint-only keep removes and verifies stale draft; reload and actual download recover the latest note after genuine quota failures.",
+      "Cleanup throwing/no-op retains warning and native leave cancellation.",
+      "Healthy later drafts and checkpoint-failed/draft-saved recovery remain usable.",
+      "Cleared recovered note with failed saving warns on actual navigation/reload; cancelling keeps the empty edit.",
+      "Untouched blank pages, including denied storage, have no leave warning; successfully saved empty notes recover empty.",
+      "Explicit blank-note chapter edit warns if saving fails."
+    ],
+    "current_source_files": 13,
+    "current_source_bytes": 676246
+  }
+}

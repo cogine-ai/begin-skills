@@ -1,5 +1,26 @@
 # Changelog
 
+## Unreleased
+
+## 0.1.0-beta.1 — 2026-10-17
+
+- Repair Apollo's partial-save recovery and empty-note leave protection. Verify stale-draft invalidation after a checkpoint-only save, retain warnings when recovery is unconfirmed, and preserve later drafts and untouched blank pages. Add nine model regressions plus actual browser failure/recovery checks.
+
+- Review all nine new interaction/motion/operation scenarios before shipping. Repair full-capacity CANOPY backup imports, failed-saving navigation in Parcel and PHASE, and Folio recovered pin identity; add the portable model suites to product CI and retain separate repair evidence.
+
+- Add original reversible packing, real rehearsal-clock and anchored object-note examples: six complete pages, actual desktop/phone views, recordings and unchanged licensed fonts.
+- Preserve complete first sources and selected refinements. Repair short-height control/context separation, native keyboard continuity, mixed identity during dragging, repeated precision-edit animation, unsafe help routes during storage failure and scaled portable marker numbers.
+- Retain the successful distinction between a continuing domain clock and a deliberately held creative phase. Add conditional operation feedback, implementation and review methods inside the existing Skills; preserve fifteen Skills and four creation starters.
+
+- Add original task-light, sourced illustrated-reader and kinetic vector-workbench references with seven complete pages, fourteen actual openings, six operation views, three motion recordings and unchanged licensed fonts.
+- Preserve real-content font comparisons and complete first/refined sources. Review direct manipulation, simultaneous control/result access, visible diagram explanations and explicitly associated reading notes; retain matching actual portable downloads.
+- Add conditional task-motion, frontend scheduling/state and moving-operation review methods to the existing independent Skills. Keep published Alpha.5 and earlier resources fixed.
+
+- Add three independently authored festival, refill-shop and inspection-workspace references: nine working pages, matching desktop/phone views, original artwork, eight unchanged font binaries and full notices.
+- Preserve real-content font comparisons, complete first sources and later refinements. Repair phone result/return access, actual unsaved navigation loss, quantity/price grouping, peer inspection facts and narrow operating hierarchy.
+- Add conditional task-interaction and state guidance. Let new-site resource choice follow the task beyond the four creation helpers; retain fifteen independent Skills and the existing stack.
+- Keep per-family external catalog research, raw probes, first/intermediate sources and full review evidence outside installed resources. Published Alpha.5 archives, tags and marketing site remain unchanged.
+
 ## 0.1.0-alpha.5 — 2026-10-15
 
 - Target the dedicated public `cogine-ai/begin-skills` distribution and pinned release source.

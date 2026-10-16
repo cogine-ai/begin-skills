@@ -13,7 +13,7 @@ Read existing project instructions, `BEGIN.md` when present, and the website fil
 
 Use [the task brief](references/task-brief.md) when purpose, scope, states, or completion need clarification. Reuse known requirements; a small edit rarely needs a new document. For a definition-only request, provide the agreed behavior and open decisions without implementation.
 
-For a new site, use a new directory and a suitable starter from `assets/starters/`. For an existing site, follow its stack and protect current work; do not regenerate it over the existing files. Resolve resource paths relative to this installed Skill, never an assumed working directory.
+For a new site, use a new directory. Choose a suitable starter from `assets/starters/`, adapt a fitting original example available in the installed resources, or build the required structure directly. Let the content and operation determine that choice. For an existing site, follow its stack and protect current work; do not regenerate it over the existing files. Resolve resource paths relative to the installed resource, never an assumed working directory.
 
 Read [the making workflow](references/workflow.md) when starting or resuming. Read [helper commands](references/helpers.md) when creating or previewing a starter. New starters carry project guidance samples from `assets/project-guidance/`; preserve established guidance in an existing workspace.
 

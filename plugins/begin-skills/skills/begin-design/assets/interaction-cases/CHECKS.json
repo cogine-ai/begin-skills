@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "checked_utc": "2026-10-15T12:32:18.030185+00:00",
+  "scope": "Controlled local Chromium trials; initial font specimens, complete-page captures, actual operations, source models and independent visual criticism remain distinct. No new installed-Agent, user, public release or commercial acceptance claim.",
+  "candidate_page_width_observations": 18,
+  "candidate_images": 36,
+  "selected_final_source_files": 57,
+  "selected_final_source_bytes": 2772391,
+  "pages": 9,
+  "native_openings": 18,
+  "populated_result_excerpts": 6,
+  "additional_later_work_view": 1,
+  "unchanged_font_binaries": 8,
+  "cases": [
+    {
+      "slug": "afterimage",
+      "selected_trial_phase": "refined",
+      "source_files": 19,
+      "page_width_observations": 9,
+      "overflow_or_resource_issues": [],
+      "functional_groups": [
+        {
+          "name": "Exact durations, full names, bounded recovery and empty-export rejection",
+          "status": "passed"
+        },
+        {
+          "name": "Keyboard add, second selection, day change and actual downloaded plan",
+          "status": "passed"
+        },
+        {
+          "name": "Reload recovery, removal focus and scoped clear",
+          "status": "passed"
+        },
+        {
+          "name": "Populated 50-minute plan and narrow jump-to-plan path",
+          "status": "passed"
+        },
+        {
+          "name": "Malformed recovered state is rejected visibly",
+          "status": "passed"
+        },
+        {
+          "name": "Denied storage preserves current work and export route",
+          "status": "passed"
+        },
+        {
+          "name": "Essential programme survives JavaScript disabled",
+          "status": "passed"
+        },
+        {
+          "name": "No page errors across exercised contexts",
+          "status": "passed"
+        }
+      ],
+      "independent_visual_review": "INDEPENDENT_FIRST_REVIEW.md and INDEPENDENT_FINAL_REVIEW.md retained in excluded local study",
+      "first_issues": [
+        "Phone plan round trip",
+        "Narrow phrase/time groups"
+      ]
+    },
+    {
+      "slug": "loop",
+      "selected_trial_phase": "refined",
+      "source_files": 25,
+      "page_width_observations": 9,
+      "overflow_or_resource_issues": [],
+      "functional_groups": [
+        {
+          "name": "Exact pence, unit steps, malformed/duplicate recovery and empty-export rejection",
+          "status": "passed"
+        },
+        {
+          "name": "Three selected products, keyboard quantity changes and saved reload",
+          "status": "passed"
+        },
+        {
+          "name": "Actual standalone downloaded HTML opens with full items, units and total",
+          "status": "passed"
+        },
+        {
+          "name": "Invalid input retains explained prior value, removal and explicit recovery",
+          "status": "passed"
+        },
+        {
+          "name": "Populated phone/desktop views and scoped list clear",
+          "status": "passed"
+        },
+        {
+          "name": "Invalid saved copy leaves a usable current list",
+          "status": "passed"
+        },
+        {
+          "name": "Denied storage reports failure and preserves current exportable work",
+          "status": "passed"
+        },
+        {
+          "name": "Readable catalogue without JavaScript",
+          "status": "passed"
+        },
+        {
+          "name": "Unsaved guide round trip, draft versus checkpoint isolation, reload and phone return-to-edited product",
+          "status": "passed"
+        },
+        {
+          "name": "Blocked draft storage warns before guide navigation; Cancel preserves current work",
+          "status": "passed"
+        },
+        {
+          "name": "No page errors across exercised states",
+          "status": "passed"
+        }
+      ],
+      "independent_visual_review": "INDEPENDENT_FIRST_REVIEW.md and INDEPENDENT_FINAL_REVIEW.md retained in excluded local study",
+      "first_issues": [
+        "Unsaved guide-navigation data loss",
+        "Phone review/return access",
+        "Quantity/price grouping and guide formula"
+      ]
+    },
+    {
+      "slug": "canopy",
+      "selected_trial_phase": "ship-review",
+      "source_files": 13,
+      "page_width_observations": 9,
+      "overflow_or_resource_issues": [],
+      "functional_groups": [
+        {
+          "name": "Nine exact sample records, draft versus saved identity, fixed inspection date and invalid backup rejection",
+          "status": "passed"
+        },
+        {
+          "name": "Search, status count, keyboard selection and empty-result recovery retain identity",
+          "status": "passed"
+        },
+        {
+          "name": "Draft persists through reload without changing saved facts; Cancel discards it",
+          "status": "passed"
+        },
+        {
+          "name": "Save updates matching row and global counts, retains supplied inspection date, renders note as text and survives reload",
+          "status": "passed"
+        },
+        {
+          "name": "Actual downloaded nine-record backup, invalid import preserving current work, explicit reset and successful restoration",
+          "status": "passed"
+        },
+        {
+          "name": "Phone current-record focus, saved view, long-word draft and cancel",
+          "status": "passed"
+        },
+        {
+          "name": "Invalid stored data retained while current session remains editable",
+          "status": "passed"
+        },
+        {
+          "name": "Denied storage keeps editable session and downloadable backup with accurate failure message",
+          "status": "passed"
+        },
+        {
+          "name": "No page errors across exercised states",
+          "status": "passed"
+        }
+      ],
+      "independent_visual_review": "INDEPENDENT_FIRST_REVIEW.md and INDEPENDENT_FINAL_REVIEW.md retained in excluded local study",
+      "first_issues": [
+        "Peer comparison missing inspection facts",
+        "Tiny phone operating metadata and long framing",
+        "Split guide identifier",
+        "Six narrow footer overflows",
+        "Later formatted empty feedback whitespace, fixed in separate repair"
+      ]
+    }
+  ],
+  "known_limits": [
+    "Three independently authored scenarios do not establish causal improvement, universal Agent performance or ordinary-user success.",
+    "Existing Alpha.5 guidance informed the makers; added methods and curated references have not received a fresh native installed-model workflow.",
+    "Continuous graphics and their physical low-end-device performance were researched but not implemented in these cases.",
+    "AFTERIMAGE compact bar uses48px while browsing; LOOP permanent phone review uses69px and its small status repeats fuller recovery text.",
+    "CANOPY comparison costs vertical reading space; local recovery is not shared or cross-device storage.",
+    "Keyboard paths and browser failures were exercised; complete screen-reader and physical-device acceptance remain unverified."
+  ],
+  "frozen_implementation_source_files": 56,
+  "frozen_implementation_source_bytes": 2767826,
+  "delivery_metadata_adaptation": "Original study delivery: Stopped implementation/font/capture bytes unchanged. One historical Begin-authored source notice has local links retargeted and explanatory context added; the referenced unused-family OFL is copied unchanged. No font, code or image transformation. Subsequent ship-review source repairs and current guide captures are separately recorded below and in PROVENANCE.json.",
+  "ship_review": {
+    "checked_utc": "2026-10-16T18:01:40.707964+00:00",
+    "scope": "Source review plus actual local Chromium regression after the original trials. No new native installed-Agent or public-release claim.",
+    "page_opening_observations": {
+      "collection_pages": 9,
+      "widths": [
+        1440,
+        390,
+        320
+      ],
+      "overflow_resource_or_page_errors": []
+    },
+    "regressions": [
+      "CANOPY own-file backup/import roundtrip at full nine-record and nine-draft capacity, including Unicode, escaped control characters and lone surrogates; actual downloads up to 433,738 bytes.",
+      "One shared 512 KiB UTF-8 import bound; exact-boundary model tests, malformed and oversized actual imports preserve current work."
+    ],
+    "source_phase": "ship-review for patched cases; per-file source and media phases remain explicit.",
+    "current_sources": {
+      "canopy": {
+        "files": 13,
+        "bytes": 482926
+      },
+      "loop": {
+        "files": 25,
+        "bytes": 891731
+      },
+      "afterimage": {
+        "files": 19,
+        "bytes": 1399263
+      }
+    }
+  }
+}

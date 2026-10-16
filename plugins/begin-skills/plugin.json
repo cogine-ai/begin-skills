@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "begin-skills",
-  "version": "0.1.0-alpha.5",
+  "version": "0.1.0-beta.1",
   "description": "Give your AI the skills to build the website you have in mind.",
   "author": {
     "name": "Cogine AI"

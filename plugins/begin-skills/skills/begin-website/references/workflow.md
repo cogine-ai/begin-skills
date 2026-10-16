@@ -6,7 +6,7 @@ Understand the website owner, visitors, and main visitor action. A service site 
 
 Inspect the working environment: project path, existing instructions, supported execution tools, Node availability for the supplied helpers, and the host's way of showing a preview. Use an available path rather than inventing a browser tool or installing a new framework by habit.
 
-For a new site, first choose what the content needs: work that leads, a broad demonstration, a clear offer, an image scene, a useful collection, or an opening action. Select `service`, `portfolio`, `product`, or `editorial` for its useful source and behavior, create it in a new directory, and inspect its own guide before editing. State the destination. The helper must decline to overwrite an existing directory; choose another destination if it does. For an existing project, inspect its changes and use its own runner and dependencies.
+For a new site, first choose what the content needs: work that leads, a broad demonstration, a clear offer, an image scene, a useful collection, or an opening action. The creation helper offers `service`, `portfolio`, `product`, and `editorial`. Use one for its useful source and behavior, or independently assemble the fitting structure from original resources and the task. These four choices do not define the range of sites Begin can make. Create in a new directory and inspect any example's own guide before adapting it. State the destination. The helper must decline to overwrite an existing directory; choose another destination if it does. For an existing project, inspect its changes and use its own runner and dependencies.
 
 ## Shape the website
 

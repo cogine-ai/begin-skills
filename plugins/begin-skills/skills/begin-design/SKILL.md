@@ -23,6 +23,12 @@ When actual letterforms, phrase breaks or visual alignment need deeper study, us
 
 For a new direction with an open type choice, use [type before the draft](references/before-draft-type.md) to render competing type systems on the real wording before choosing. Keep that preview-informed first source distinct from complete-page refinement. Then inspect consequential names, facts, choices and end actions separately from display headings. [Rendered type choices](references/rendered-type-choices.md) contains earlier complete task comparisons.
 
+When value depends on choosing, comparing, editing or keeping work, use [task interactions](references/task-interactions.md). Its complete original programme, refill cupboard and inspection desk show how material, task, guide and populated states share a direction. Select the useful relationship before adding an effect.
+
+For a directly manipulated board, a timed operation or a drawing with associated notes, use [operation feedback](references/operation-feedback.md). Inspect the view after a real action, the complete keyboard route, current subject during movement and portable details at their actual scale.
+
+For a physical configurator, illustrated reading or moving creative work, use [task motion](references/task-motion.md). Keep feedback visible with the controls, distinguish direct manipulation from discrete transitions, and inspect the actual explanation or loop as well as its endpoints.
+
 For a manual, invitation or prepared artifact whose useful wording loses priority, inspect [reading priority](references/reading-priority.md): complete phrases, sustained prose, generated title/action groups and readable units. Inspect assembled line spacing as well as word grouping.
 
 For an expressive publication, graphic club or numeric tool, inspect the relevant [typography transfer](references/typography-transfers.md). Complete source and native openings show roles, readable conditions and useful anchors across a home, task and guide. Check the new content and consequential states before adopting the relationship.

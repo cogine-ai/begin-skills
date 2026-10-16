@@ -21,4 +21,6 @@ Candidate font previews leave the complete composition unverified. Match a domin
 
 For a design critique, a disappointing result, or a request for high visual quality, read [visual review](references/visual-review.md). Inspect the whole composition and the pages visitors actually use. A useful critique names what weakens the result and its effect; it can justify regrouping or reordering content rather than only adjusting CSS values. Use a fresh review perspective when available and useful, without making separate Agents a requirement.
 
+When motion or continuous visual feedback contributes to the task, use [motion review](references/motion-review.md). Inspect control access, direct response, actual in-view transitions, stopped scheduling and exported representations separately from still screenshots.
+
 For a defect, preserve the current work, trace its cause, apply a focused repair, and rerun the relevant check. After checks pass, broaden testing only for an unresolved issue or a new change. Record passed, failed, not-run, and unknown observations separately; capture user satisfaction or adoption only when the person actually states it.

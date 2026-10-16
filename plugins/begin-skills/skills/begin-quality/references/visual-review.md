@@ -38,6 +38,10 @@ Exercise the text relationships with relevant supported extremes: a longer note,
 
 For a long catalogue, inspect access to selected work after browsing later items. For a complete prepared artifact, check the actual post-action viewport: current identity, next operation and full preview should have a useful order. Inspect a local guide return or working-page link from the section where it is needed. Fixed controls and repeated links also have costs in screen space and reading flow.
 
+Test the complete phone round trip: choose a later item, inspect the changed result, then return to continue or correct the choice. A link at the top of a long collection may be out of reach when it is needed. A compact current-total jump can help, but it must not cover the result or consume the page. Follow the guide with changed work present and return; check recovery rather than assuming that an explicit Save button makes navigation safe.
+
+In a comparison surface, identify the facts the person must compare. Two names and status badges may identify peers while omitting the date or saved note needed for the decision. Keep the current record present when comparing those facts. Review the enlarged, populated version on a phone; stronger comparison can cost vertical space.
+
 At mixed italic/roman boundaries, inspect the visible word separation even when the text contains a correct space. In operating prose, preserve short identifiers and number/unit pairs while letting surrounding sentences wrap. For a styled note field, inspect the complete control with representative entered text; content below the viewport is different from an ending hidden inside the field. Normal scrolling remains useful for longer notes.
 
 If motion contributes to the task, inspect the transition in addition to its static endpoints. Look for overlapping labels, unreadable intermediate frames, jumping alignment, lost focus, and a result that remains unclear after movement stops. Check reduced motion when claiming that path works. A recorded video can demonstrate appearance; test the real page's controls and state separately.

@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f2f4ed">
+<title>Record inspection — CANOPY</title>
+<link rel="stylesheet" href="styles.css">
+<script type="module" src="app.mjs">
+</script>
+</head>
+<body data-page="record">
+<a class="skip" href="#main">Skip to workspace</a>
+<header class="masthead">
+<a class="brand" href="index.html">
+<svg viewBox="0 0 32 32" width="29" height="29" aria-hidden="true">
+<path d="M16 29V12M16 22 8 15M16 18l8-7"/>
+<path d="M11 24C2 22 1 12 8 9 8 0 23 0 24 9c8 3 6 15-3 16"/>
+</svg>CANOPY</a>
+<span class="context">Canal Quarter <span>/</span> Inspection register</span>
+<span class="local-mark">LOCAL EXAMPLE</span>
+<nav aria-label="Main navigation">
+<a href="index.html" >Desk</a>
+<a href="demo.html" data-record-link aria-current="page">Record</a>
+<a href="guide.html" >Guide</a>
+</nav>
+</header>
+<main id="main">
+<div class="record-page-top">
+<a class="text-link" href="index.html#records" data-desk-link>← Back to the register</a>
+<div class="detail-jumps">
+<a href="#saved-section">Saved note</a>
+<a href="#editor" id="edit-jump">Edit</a>
+<a href="#recovery">Recovery</a>
+</div>
+</div>
+<div class="record-page-grid">
+<section class="inspection-sheet" id="inspector" aria-labelledby="selected-species">
+<div class="sheet-head">
+<span class="sheet-label">Record inspection</span>
+<a class="back-link" href="index.html#records" data-desk-link>↑ Records</a>
+</div>
+<div class="record-heading">
+<div>
+<div class="record-meta">
+<span id="selected-id" class="mono">T-1042</span>
+<span id="selected-status">
+<span class="status due">Due</span>
+</span>
+</div>
+<h1 id="selected-species" tabindex="-1">London plane</h1>
+<p class="selected-location" id="selected-location">18 Pearson Road</p>
+</div>
+<div class="tree-seal" aria-hidden="true">
+<svg viewBox="0 0 32 32" width="29" height="29" aria-hidden="true">
+<path d="M16 29V12M16 22 8 15M16 18l8-7"/>
+<path d="M11 24C2 22 1 12 8 9 8 0 23 0 24 9c8 3 6 15-3 16"/>
+</svg>
+<span>CQ</span>
+</div>
+</div>
+<dl class="record-facts">
+<div>
+<dt>Last inspected</dt>
+<dd id="last-inspected">18 Sep 2026</dd>
+</div>
+<div>
+<dt>Local edit</dt>
+<dd id="local-edit">Original sample</dd>
+</div>
+</dl>
+<section class="saved-section" id="saved-section" aria-labelledby="saved-label">
+<div class="saved-heading">
+<h3 id="saved-label">Inspection note</h3>
+<span class="saved-indicator">Saved value</span>
+</div>
+<p class="saved-note" id="saved-note" tabindex="-1">Check the replaced guard</p>
+<button class="primary" id="edit-button" type="button">Edit inspection <span aria-hidden="true">↗</span>
+</button>
+</section>
+<form id="editor" class="editor" hidden>
+<div class="editor-heading">
+<h3>Edit inspection</h3>
+<span class="mono" id="edit-record-id">T-1042</span>
+</div>
+<label class="field-label" for="inspection-status">Inspection status</label>
+<select id="inspection-status" name="status">
+<option>Due</option>
+<option>Watch</option>
+<option>Complete</option>
+</select>
+<div class="note-label">
+<label class="field-label" for="inspection-note">Inspection note</label>
+<span class="note-count" id="note-count">0 / 4,000</span>
+</div>
+<textarea id="inspection-note" name="note" maxlength="4000" rows="5" aria-describedby="note-help draft-state">
+</textarea>
+<p class="help" id="note-help">Record an observation or next action for this tree. The supplied inspection date stays unchanged.</p>
+<p class="draft-state" id="draft-state">Changes are saved only when you choose Save changes.</p>
+<div class="form-actions">
+<button class="primary" type="submit">Save changes <span aria-hidden="true">✓</span>
+</button>
+<button class="secondary" id="cancel-edit" type="button">Cancel</button>
+</div>
+</form>
+<p class="feedback inspection-feedback" id="inspection-feedback" role="status"></p>
+<div class="sheet-bottom">
+<span class="storage-label" data-storage-label>Device saving available</span>
+</div>
+<p class="storage-warning" id="storage-warning" hidden>
+</p>
+</section>
+<aside class="record-context">
+<section class="companion" aria-labelledby="companion-title">
+<div class="section-heading">
+<h2 id="companion-title">Also on Pearson Road</h2>
+<span class="index-glyph" aria-hidden="true">↳</span>
+</div>
+<p id="companion-context">These records share the same named road. No distance or route is implied.</p>
+<div id="companion-list">
+</div>
+<a class="text-link companion-return" href="index.html#records" data-desk-link>Browse all nine records <span aria-hidden="true">→</span>
+</a>
+</section>
+<section class="field-key">
+<p class="eyebrow">Working with state</p>
+<h2>A clear next action</h2>
+<dl>
+<div>
+<dt>
+<span class="dot due">
+</span>Due</dt>
+<dd>Waiting for an inspection note or next action.</dd>
+</div>
+<div>
+<dt>
+<span class="dot watch">
+</span>Watch</dt>
+<dd>Keep this record in view for a follow-up.</dd>
+</div>
+<div>
+<dt>
+<span class="dot complete">
+</span>Complete</dt>
+<dd>The local demonstration task is closed.</dd>
+</div>
+</dl>
+<p>These are workspace labels for this sample, not inspection or safety guidance.</p>
+<a class="text-link" href="guide.html">Read the operation guide →</a>
+</section>
+</aside>
+</div>
+<section class="recovery" id="recovery" aria-labelledby="recovery-title">
+<div class="recovery-intro">
+<p class="eyebrow">Continue your work</p>
+<h2 id="recovery-title">Kept in this browser</h2>
+<p id="storage-message">Saved changes and drafts stay in this browser.</p>
+<span class="draft-total" id="draft-total">No unsaved drafts</span>
+</div>
+<div class="recovery-tools">
+<div class="recovery-actions">
+<button class="secondary" id="retry-storage" type="button">Retry device storage</button>
+<button class="secondary" id="download-backup" type="button">Download backup <span aria-hidden="true">↓</span>
+</button>
+<label class="file-button" for="restore-backup">Restore backup<input id="restore-backup" type="file" accept=".json,application/json">
+</label>
+</div>
+<p class="micro" id="storage-feedback">Device saving available.</p>
+<p class="feedback" id="recovery-feedback" role="status"></p>
+<details class="reset-tools">
+<summary>Start again with sample records</summary>
+<p>This replaces the saved notes, statuses and drafts for all nine records in this browser.</p>
+<button class="text-button" id="reset-sample" type="button">Reset sample records</button>
+<div id="reset-confirm" class="reset-confirm" hidden>
+<p>Replace this workspace with the original sample records?</p>
+<div>
+<button class="secondary" id="confirm-reset" type="button">Replace workspace</button>
+<button class="secondary" id="cancel-reset" type="button">Keep my work</button>
+</div>
+</div>
+</details>
+</div>
+</section>
+<noscript>
+<p class="noscript">This local workspace needs JavaScript to search, edit and save the sample records. The operation guide remains readable.</p>
+</noscript>
+</main>
+<footer class="site-footer">
+<span>CANOPY <span class="footer-slash">/</span> Fictional Canal Quarter records</span>
+<span>No live geographic or municipal connection</span>
+<a href="NOTICES.md">Font &amp; asset notices</a>
+</footer>
+</body>
+</html>

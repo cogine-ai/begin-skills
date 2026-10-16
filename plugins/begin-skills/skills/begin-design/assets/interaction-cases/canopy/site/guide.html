@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f2f4ed">
+<title>Operation guide — CANOPY</title>
+<link rel="stylesheet" href="styles.css">
+<script type="module" src="app.mjs">
+</script>
+</head>
+<body data-page="guide">
+<a class="skip" href="#main">Skip to workspace</a>
+<header class="masthead">
+<a class="brand" href="index.html">
+<svg viewBox="0 0 32 32" width="29" height="29" aria-hidden="true">
+<path d="M16 29V12M16 22 8 15M16 18l8-7"/>
+<path d="M11 24C2 22 1 12 8 9 8 0 23 0 24 9c8 3 6 15-3 16"/>
+</svg>CANOPY</a>
+<span class="context">Canal Quarter <span>/</span> Inspection register</span>
+<span class="local-mark">LOCAL EXAMPLE</span>
+<nav aria-label="Main navigation">
+<a href="index.html" >Desk</a>
+<a href="demo.html" data-record-link >Record</a>
+<a href="guide.html" aria-current="page">Guide</a>
+</nav>
+</header>
+<main id="main">
+<div class="guide-opening">
+<p class="eyebrow">Operation guide</p>
+<h1>Find, inspect, save</h1>
+<a class="primary" href="index.html" data-desk-link>Open the desk <span aria-hidden="true">↗</span>
+</a>
+</div>
+<div class="guide-layout">
+<nav class="guide-nav" aria-label="Guide contents">
+<a href="#find">01 <span>Find a record</span>
+</a>
+<a href="#compare">02 <span>Compare facts</span>
+</a>
+<a href="#edit">03 <span>Edit and save</span>
+</a>
+<a href="#resume">04 <span>Resume your work</span>
+</a>
+<a href="#recover">05 <span>Recover a workspace</span>
+</a>
+</nav>
+<article class="guide-body">
+<section id="find">
+<span class="step-no">01</span>
+<h2>Find a record</h2>
+<p>Open the desk and search by ID, species or location. Try <strong>T-1042</strong>, <strong>lime</strong> or <strong>Lock Lane</strong>. Status buttons narrow the current search. Their counts describe the search results; the three totals above the desk always describe all nine saved records.</p>
+<p>Select a row to inspect that tree. On a phone, selection moves to its inspection sheet. Use <strong>Records</strong> to return or <strong class="interface-label">Inspect <span data-current-id>T-1042</span></strong> to jump to the current selection. Every row is a keyboard button.</p>
+<div class="guide-example">
+<span class="mono">EXAMPLE</span>
+<p>
+<strong>Lock Lane</strong> → 2 records<br>
+<strong>Due</strong> → T-1048, Wild cherry</p>
+</div>
+<p>A selected record remains selected when a filter hides its row. Clear the search and filters to see it again. An empty result includes the same clear action.</p>
+</section>
+<section id="compare">
+<span class="step-no">02</span>
+<h2>Read the saved facts</h2>
+<p>The sheet connects the tree's ID, full species and location with its last-inspected date, status and saved note. A local edit time appears separately. Editing a note does not change the supplied inspection date.</p>
+<p>When two trees share a named road, the comparison keeps the other record’s saved date and note beside your current sheet. For example, <strong>T-1042</strong> and <strong>T-1043</strong> are both on Pearson Road. Other places show a small quarter index. This sample has no coordinates, distances or mapped route.</p>
+</section>
+<section id="edit">
+<span class="step-no">03</span>
+<h2>Edit with an explicit finish</h2>
+<ol>
+<li>Choose <strong>Edit inspection</strong> on the current sheet.</li>
+<li>Select Due, Watch or Complete and write the note. Notes can contain up to 4,000 characters; longer paragraphs expand into ordinary page scrolling.</li>
+<li>Choose <strong>Save changes</strong> to update the saved record. Its collection row, badge and all-register totals update together.</li>
+</ol>
+<p>
+<strong>Cancel</strong> discards this tree's draft and returns to its last saved note and status. Switching to another tree keeps the unsaved draft attached to its original ID. Reopening it resumes editing.</p>
+<div class="version-pair">
+<div>
+<span class="mono">SAVED RECORD</span>
+<strong>Used by counts and badges</strong>
+<p>Changes when you choose Save changes.</p>
+</div>
+<div>
+<span class="mono">UNSAVED DRAFT</span>
+<strong>Kept separately for editing</strong>
+<p>A draft marker follows the tree until you save or cancel.</p>
+</div>
+</div>
+<p>Due, Watch and Complete are local workspace labels. They do not certify a tree's condition or provide municipal inspection guidance.</p>
+<a class="text-link" href="demo.html" data-record-link>Open the current record <span aria-hidden="true">→</span>
+</a>
+</section>
+<section id="resume">
+<span class="step-no">04</span>
+<h2>Resume after a reload</h2>
+<p>With device storage available, the workspace keeps saved notes, statuses, unsaved drafts, search, filter and selected ID in this browser. A save is reported as <strong>saved on this device</strong> only after the page writes the data and reads the same data back.</p>
+<p>If the browser denies storage or a write fails, the workspace says <strong>Session only</strong>. Your current work stays in the open page. Reloading, leaving the page or closing it can lose that session. Use <strong>Download backup</strong> before leaving, or try <strong>Retry device storage</strong>.</p>
+<p>This sample does not sync across browsers, devices, people or simultaneous tabs. Avoid editing the same local workspace in two tabs.</p>
+</section>
+<section id="recover">
+<span class="step-no">05</span>
+<h2>Recover a workspace</h2>
+<p>Use <strong>Download backup</strong> to request a JSON copy containing all saved local records, drafts and your current selection. Check that the download reached your device. <strong>Restore backup</strong> accepts a valid CANOPY JSON file up to 512 KiB and replaces the current workspace.</p>
+<p>Unrecognized or damaged stored data is rejected before rendering. The page opens the original sample records and leaves that stored copy untouched. You can keep working for the session, download it, or deliberately reset the workspace. Invalid imported files leave current work unchanged.</p>
+<p>
+<strong>Start again with sample records</strong> requires a second, inline choice before replacing all saved notes, statuses and drafts. Download a backup first if you need them.</p>
+<div class="guide-return">
+<h3>Continue with <span data-current-id>T-1042</span>
+</h3>
+<p>Your selected record is ready to inspect.</p>
+<a class="primary" href="demo.html" data-record-link>Open current record <span aria-hidden="true">↗</span>
+</a>
+</div>
+</section>
+</article>
+</div>
+<aside class="guide-scope">
+<strong>Local demonstration</strong>
+<p>All nine records, places and work notes are fictional. This workspace has no municipal connection, live geographic service, remote account or shared team database. Keep real inspection and private data out of this example.</p>
+</aside>
+<noscript>
+<p class="noscript">This local workspace needs JavaScript to search, edit and save the sample records. The operation guide remains readable.</p>
+</noscript>
+</main>
+<footer class="site-footer">
+<span>CANOPY <span class="footer-slash">/</span> Fictional Canal Quarter records</span>
+<span>No live geographic or municipal connection</span>
+<a href="NOTICES.md">Font &amp; asset notices</a>
+</footer>
+</body>
+</html>

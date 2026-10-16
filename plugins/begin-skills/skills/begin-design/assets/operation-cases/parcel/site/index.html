@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#e4dff3"><meta name="description" content="Five colorful pieces. One small box. A quiet geometric packing puzzle with undo, local recovery and an arrangement you can keep."><title>Parcel — A little room for everything</title><link rel="stylesheet" href="styles.css"><script type="module" src="game.mjs"></script></head>
+<body>
+<a class="skip" href="#puzzle">Skip to puzzle</a>
+<header class="site-header"><a href="index.html" class="wordmark" aria-label="Parcel home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>PARCEL</a><nav aria-label="Main"><a href="guide.html" data-guide>How to play <span aria-hidden="true">↗</span></a></nav></header>
+<main>
+<section class="intro"><div><p class="eyebrow">A small packing puzzle</p><h1>A little room<br>for everything</h1></div><p class="lead">Turn five pieces into one neat rectangle.<br class="wide-only"> No overlaps, no gaps. Take your time.</p></section>
+<section class="game" id="puzzle" aria-label="Packing puzzle">
+<p class="first-action" id="board-help">Choose a piece, turn it, then tap the box to place its dotted corner. Dragging works too.</p>
+<div class="workbench">
+<div class="tray-panel"><div class="tray-heading"><h2>The pieces</h2><span class="mono">A–E</span></div><div id="tray" class="tray" role="toolbar" aria-label="Choose a piece. Arrow keys change pieces; Tab moves to the box."></div><p class="tray-note">The letters stay with their pieces.<br>Every piece uses four squares.</p></div>
+<div class="operation" id="operation">
+<div class="board-heading"><h2>The box</h2><span class="mono">5 × 4 squares</span></div><div class="board" id="board" role="group" aria-label="Five columns and four rows. Arrow keys move the dotted anchor; Enter places the selected piece." aria-describedby="board-help"></div>
+<div class="operation-controls"><div class="selection"><h3 id="selected-name">A · Apricot</h3><span id="selected-location" class="small">In the tray · 0°</span></div><button id="rotate" class="primary" type="button"><span aria-hidden="true">↻</span> Rotate <kbd>R</kbd></button></div>
+<div class="feedback" id="feedback" role="status" aria-live="polite">Apricot is ready. Try a corner of the box.</div>
+</div>
+</div>
+<div class="secondary-controls"><div class="board-caption"><span id="progress">0 of 5 pieces packed</span><span id="gap-count" class="mono">20 empty squares</span></div><div class="other-actions"><button id="choose-piece" type="button">Choose another piece <span aria-hidden="true">↑</span></button><button id="remove" type="button">Return to tray</button><button id="undo" type="button" disabled><span aria-hidden="true">↶</span> Undo</button><button id="reset" type="button">Reset</button></div></div>
+<section id="solved" class="solved" hidden aria-labelledby="solved-title"><span class="complete-mark" aria-hidden="true">✳</span><div><p class="eyebrow">Everything fits</p><h2 id="solved-title">Beautifully packed</h2><p>Five pieces. One complete rectangle. Export your arrangement below, or reset for another try.</p></div></section>
+</section>
+<section class="keep-row" aria-label="Keep your arrangement"><div><h2>A little something to keep</h2><p id="save-status">Checking browser recovery…</p></div><button id="export" type="button">Export arrangement <span aria-hidden="true">↓</span></button></section>
+<div class="keyboard-note"><p><strong>Keyboard, too.</strong> In the tray, use arrow keys to choose a piece. Tab moves into the box; there, arrows move the anchor and Enter places. <kbd>R</kbd> rotates; <kbd>Esc</kbd> deselects.</p><a href="guide.html#controls" data-guide>All controls <span aria-hidden="true">↗</span></a></div>
+<noscript><p class="noscript">This puzzle needs JavaScript to place pieces. The <a href="guide.html">guide</a> explains the rules.</p></noscript>
+</main>
+<footer class="site-footer"><span>Made for the pleasure of making things fit.</span><a href="NOTICES.md">Font & source notices</a></footer>
+<div id="drag-ghost" aria-hidden="true" hidden></div>
+</body></html>

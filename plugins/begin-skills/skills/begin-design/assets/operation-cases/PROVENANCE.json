@@ -1,0 +1,904 @@
+{
+  "schema_version": 1,
+  "curated_utc": "2026-10-15T17:23:33.379425+00:00",
+  "base_commit": "df135b0",
+  "input_guidance_version": "Unreleased updated local source after 0.1.0-alpha.5",
+  "trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-16-first-interactions",
+  "study_kind": "Task facts, open type/composition choices, actual type specimens, complete first freeze, independent operation/visual review and selected refinement",
+  "copy_method": "Immutable selected original source and assets copied without transformation. Patched cases have a separate ship-review source freeze; earlier trials, captures and recordings retain their recorded phases.",
+  "cases": [
+    {
+      "slug": "parcel",
+      "scenario": "Reversible geometric packing and exact progress output",
+      "pages": [
+        "guide.html",
+        "index.html"
+      ],
+      "capture_pages": [
+        "guide",
+        "index"
+      ],
+      "capture_format": "png",
+      "capture_phase": "final",
+      "source_file_count": 11,
+      "source_bytes": 331048,
+      "selected_trial_phase": "ship-review",
+      "initial_source_preserved": true,
+      "font_specimens_precede_complete_first_source": true,
+      "required_notices": [
+        "fonts/SpaceGrotesk-OFL.txt",
+        "fonts/IBMPlexMono-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/SpaceGrotesk-Variable.ttf",
+          "notice": "fonts/SpaceGrotesk-OFL.txt",
+          "modified": false,
+          "bytes": 136676,
+          "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+        },
+        {
+          "file": "fonts/IBMPlexMono-Regular.ttf",
+          "notice": "fonts/IBMPlexMono-OFL.txt",
+          "modified": false,
+          "bytes": 135580,
+          "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+        }
+      ],
+      "populated_result_captures": [
+        {
+          "view": "desktop",
+          "file": "result/captures/demo-desktop.png"
+        },
+        {
+          "view": "phone",
+          "file": "result/captures/demo-phone.png"
+        }
+      ],
+      "motion_recordings": [
+        "motion/phone.webm"
+      ],
+      "previous_selected_trial_phase": "refined",
+      "review_patch_scope": "Behavior/recovery repair after the original selected refinement; earlier first/refined sources and recordings remain unchanged. Existing screenshots/recordings retain their original recorded phases except the freshly captured CANOPY guide."
+    },
+    {
+      "slug": "cue",
+      "scenario": "Real elapsed rehearsal clock, held pause and portable programme",
+      "pages": [
+        "guide.html",
+        "index.html"
+      ],
+      "capture_pages": [
+        "guide",
+        "index"
+      ],
+      "capture_format": "png",
+      "capture_phase": "final",
+      "source_file_count": 13,
+      "source_bytes": 458838,
+      "selected_trial_phase": "refined",
+      "initial_source_preserved": true,
+      "font_specimens_precede_complete_first_source": true,
+      "required_notices": [
+        "notices/SpaceGrotesk-OFL.txt",
+        "notices/IBMPlexMono-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "assets/fonts/SpaceGrotesk-Variable.ttf",
+          "notice": "notices/SpaceGrotesk-OFL.txt",
+          "modified": false,
+          "bytes": 136676,
+          "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+        },
+        {
+          "file": "assets/fonts/IBMPlexMono-Regular.ttf",
+          "notice": "notices/IBMPlexMono-OFL.txt",
+          "modified": false,
+          "bytes": 135580,
+          "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+        },
+        {
+          "file": "assets/fonts/IBMPlexMono-Medium.ttf",
+          "notice": "notices/IBMPlexMono-OFL.txt",
+          "modified": false,
+          "bytes": 136704,
+          "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+        }
+      ],
+      "populated_result_captures": [
+        {
+          "view": "desktop",
+          "file": "result/captures/demo-desktop.png"
+        },
+        {
+          "view": "phone",
+          "file": "result/captures/demo-phone.png"
+        }
+      ],
+      "motion_recordings": [
+        "motion/desktop.webm"
+      ]
+    },
+    {
+      "slug": "folio",
+      "scenario": "Anchored visual notes, current subject and standalone annotated reading",
+      "pages": [
+        "guide.html",
+        "index.html"
+      ],
+      "capture_pages": [
+        "guide",
+        "index"
+      ],
+      "capture_format": "png",
+      "capture_phase": "final",
+      "source_file_count": 12,
+      "source_bytes": 704011,
+      "selected_trial_phase": "ship-review",
+      "initial_source_preserved": true,
+      "font_specimens_precede_complete_first_source": true,
+      "required_notices": [
+        "fonts/Spectral-OFL.txt",
+        "fonts/PublicSans-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/Spectral-Regular.ttf",
+          "notice": "fonts/Spectral-OFL.txt",
+          "modified": false,
+          "bytes": 261088,
+          "sha256": "c89021dc20720c8d0dcf40b0b2f6e00c13665fa8041717f581396f51b8c78f5d"
+        },
+        {
+          "file": "fonts/Spectral-Italic.ttf",
+          "notice": "fonts/Spectral-OFL.txt",
+          "modified": false,
+          "bytes": 270468,
+          "sha256": "7ec97244259db4008c4b1224c7914e5371c797c0044af9d85c2d761ba0e5f787"
+        },
+        {
+          "file": "fonts/PublicSans-Variable.ttf",
+          "notice": "fonts/PublicSans-OFL.txt",
+          "modified": false,
+          "bytes": 103316,
+          "sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8"
+        }
+      ],
+      "populated_result_captures": [
+        {
+          "view": "desktop",
+          "file": "result/captures/demo-desktop.png"
+        },
+        {
+          "view": "phone",
+          "file": "result/captures/demo-phone.png"
+        }
+      ],
+      "motion_recordings": [
+        "motion/phone.webm"
+      ],
+      "previous_selected_trial_phase": "refined",
+      "review_patch_scope": "Behavior/recovery repair after the original selected refinement; earlier first/refined sources and recordings remain unchanged. Existing screenshots/recordings retain their original recorded phases except the freshly captured CANOPY guide."
+    }
+  ],
+  "files": [
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/site/FONT_SOURCES.json",
+      "bytes": 1887,
+      "sha256": "3b3c50fc52e69b790b7d9f59d1824c2d85d4d9fa6b9c24abf8babe8cb1835a10",
+      "original_trial_relative_path": "parcel/ship-review/site/FONT_SOURCES.json",
+      "original_sha256": "3b3c50fc52e69b790b7d9f59d1824c2d85d4d9fa6b9c24abf8babe8cb1835a10",
+      "prior_selected_source": {
+        "original_trial_relative_path": "parcel/refined/site/FONT_SOURCES.json",
+        "original_sha256": "3b3c50fc52e69b790b7d9f59d1824c2d85d4d9fa6b9c24abf8babe8cb1835a10"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/site/NOTICES.md",
+      "bytes": 787,
+      "sha256": "6ae64e890dfb88ce7d680fc274a182945c6462a9cb35ff5115da0cc73fecac4a",
+      "original_trial_relative_path": "parcel/ship-review/site/NOTICES.md",
+      "original_sha256": "6ae64e890dfb88ce7d680fc274a182945c6462a9cb35ff5115da0cc73fecac4a",
+      "prior_selected_source": {
+        "original_trial_relative_path": "parcel/refined/site/NOTICES.md",
+        "original_sha256": "6ae64e890dfb88ce7d680fc274a182945c6462a9cb35ff5115da0cc73fecac4a"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/site/fonts/IBMPlexMono-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "original_trial_relative_path": "parcel/ship-review/site/fonts/IBMPlexMono-OFL.txt",
+      "original_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "prior_selected_source": {
+        "original_trial_relative_path": "parcel/refined/site/fonts/IBMPlexMono-OFL.txt",
+        "original_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/site/fonts/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "original_trial_relative_path": "parcel/ship-review/site/fonts/IBMPlexMono-Regular.ttf",
+      "original_sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "prior_selected_source": {
+        "original_trial_relative_path": "parcel/refined/site/fonts/IBMPlexMono-Regular.ttf",
+        "original_sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/site/fonts/SpaceGrotesk-OFL.txt",
+      "bytes": 4495,
+      "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+      "original_trial_relative_path": "parcel/ship-review/site/fonts/SpaceGrotesk-OFL.txt",
+      "original_sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+      "prior_selected_source": {
+        "original_trial_relative_path": "parcel/refined/site/fonts/SpaceGrotesk-OFL.txt",
+        "original_sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/site/fonts/SpaceGrotesk-Variable.ttf",
+      "bytes": 136676,
+      "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+      "original_trial_relative_path": "parcel/ship-review/site/fonts/SpaceGrotesk-Variable.ttf",
+      "original_sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+      "prior_selected_source": {
+        "original_trial_relative_path": "parcel/refined/site/fonts/SpaceGrotesk-Variable.ttf",
+        "original_sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/site/game.mjs",
+      "bytes": 15234,
+      "sha256": "b1480431c49dcaeebc49f306199bf5bdcbcf5549b150f0dbbfab5f784a24e67e",
+      "original_trial_relative_path": "parcel/ship-review/site/game.mjs",
+      "original_sha256": "b1480431c49dcaeebc49f306199bf5bdcbcf5549b150f0dbbfab5f784a24e67e",
+      "prior_selected_source": {
+        "original_trial_relative_path": "parcel/refined/site/game.mjs",
+        "original_sha256": "c841491f57bf5a48948b835156d68152fb46cfa2058fb2dc72c6b76b53d35707"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/site/guide.html",
+      "bytes": 5494,
+      "sha256": "efe7b8a049083ac22405d225a43e9bdfd10d4b93a4e0cc8c6daa2b81b07b8726",
+      "original_trial_relative_path": "parcel/ship-review/site/guide.html",
+      "original_sha256": "efe7b8a049083ac22405d225a43e9bdfd10d4b93a4e0cc8c6daa2b81b07b8726",
+      "prior_selected_source": {
+        "original_trial_relative_path": "parcel/refined/site/guide.html",
+        "original_sha256": "efe7b8a049083ac22405d225a43e9bdfd10d4b93a4e0cc8c6daa2b81b07b8726"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/site/index.html",
+      "bytes": 4212,
+      "sha256": "fe3d66418bbc9b1879a44a5198a1550e0bc1220b19ff914cbfe84dc2cd92ba61",
+      "original_trial_relative_path": "parcel/ship-review/site/index.html",
+      "original_sha256": "fe3d66418bbc9b1879a44a5198a1550e0bc1220b19ff914cbfe84dc2cd92ba61",
+      "prior_selected_source": {
+        "original_trial_relative_path": "parcel/refined/site/index.html",
+        "original_sha256": "fe3d66418bbc9b1879a44a5198a1550e0bc1220b19ff914cbfe84dc2cd92ba61"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/site/model.mjs",
+      "bytes": 4649,
+      "sha256": "74663e8473a327375914890b811fe24182e1111bd9dd79d15a820a9ca9604710",
+      "original_trial_relative_path": "parcel/ship-review/site/model.mjs",
+      "original_sha256": "74663e8473a327375914890b811fe24182e1111bd9dd79d15a820a9ca9604710",
+      "prior_selected_source": {
+        "original_trial_relative_path": "parcel/refined/site/model.mjs",
+        "original_sha256": "74663e8473a327375914890b811fe24182e1111bd9dd79d15a820a9ca9604710"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/site/styles.css",
+      "bytes": 17578,
+      "sha256": "90df583e80d0b2726938cf6a58eeb8187c2f9dfe7b95c1460f954460e54fd667",
+      "original_trial_relative_path": "parcel/ship-review/site/styles.css",
+      "original_sha256": "90df583e80d0b2726938cf6a58eeb8187c2f9dfe7b95c1460f954460e54fd667",
+      "prior_selected_source": {
+        "original_trial_relative_path": "parcel/refined/site/styles.css",
+        "original_sha256": "90df583e80d0b2726938cf6a58eeb8187c2f9dfe7b95c1460f954460e54fd667"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/captures/guide-desktop.png",
+      "bytes": 168962,
+      "sha256": "6230beb2df57bd3ea9bd1f60e878618c3f4f22f53f19f17657a8ec278af0d833",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "content_format": "PNG",
+        "media_type": "image/png",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      },
+      "original_trial_relative_path": "parcel/captures/refined/guide-1440.png",
+      "original_sha256": "6230beb2df57bd3ea9bd1f60e878618c3f4f22f53f19f17657a8ec278af0d833"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/captures/guide-phone.png",
+      "bytes": 76408,
+      "sha256": "a97752261ae366db70a64308778bf9ca99cf5b6926e5d3786b8500cdd155fc07",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "content_format": "PNG",
+        "media_type": "image/png",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      },
+      "original_trial_relative_path": "parcel/captures/refined/guide-390.png",
+      "original_sha256": "a97752261ae366db70a64308778bf9ca99cf5b6926e5d3786b8500cdd155fc07"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/captures/index-desktop.png",
+      "bytes": 93686,
+      "sha256": "680a06bf58ebe4c101c358b36a0fd35e4650b58bdbe365a9b8bbcbdba6f06e41",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "content_format": "PNG",
+        "media_type": "image/png",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      },
+      "original_trial_relative_path": "parcel/captures/refined/index-1440.png",
+      "original_sha256": "680a06bf58ebe4c101c358b36a0fd35e4650b58bdbe365a9b8bbcbdba6f06e41"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/captures/index-phone.png",
+      "bytes": 48952,
+      "sha256": "adcbac84583bb91303d16e2e5cb9fec8e323f7ca0640dc42b8ab1f919ffdc093",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "content_format": "PNG",
+        "media_type": "image/png",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      },
+      "original_trial_relative_path": "parcel/captures/refined/index-390.png",
+      "original_sha256": "adcbac84583bb91303d16e2e5cb9fec8e323f7ca0640dc42b8ab1f919ffdc093"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/result/captures/demo-desktop.png",
+      "bytes": 97673,
+      "sha256": "299a5f10986368a2e003c28659999e1be209d03892af61feff0a0eeda3f2d26e",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "media_type": "image/png",
+        "content_format": "PNG",
+        "phase": "final",
+        "trial_phase": "refined",
+        "role": "populated result excerpt",
+        "scope": "Actual operation viewport; not a full output or motion proof"
+      },
+      "original_trial_relative_path": "parcel/captures/refined/operation-1440.png",
+      "original_sha256": "299a5f10986368a2e003c28659999e1be209d03892af61feff0a0eeda3f2d26e"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/result/captures/demo-phone.png",
+      "bytes": 53801,
+      "sha256": "d40263982ad133c9a4618be4b2ec9bc971f54b47e095d42df8feaca86dc6e5f9",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "media_type": "image/png",
+        "content_format": "PNG",
+        "phase": "final",
+        "trial_phase": "refined",
+        "role": "populated result excerpt",
+        "scope": "Actual operation viewport; not a full output or motion proof"
+      },
+      "original_trial_relative_path": "parcel/captures/refined/operation-390.png",
+      "original_sha256": "d40263982ad133c9a4618be4b2ec9bc971f54b47e095d42df8feaca86dc6e5f9"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/parcel/motion/phone.webm",
+      "bytes": 249418,
+      "sha256": "344867347167e4b4eb8e337418476402057cc1f2441d0e5e43507b63b62b160a",
+      "recording": {
+        "media_type": "video/webm",
+        "codec": "vp8",
+        "width": 390,
+        "height": 844,
+        "duration_seconds": 4.96,
+        "phase": "final",
+        "trial_phase": "refined",
+        "scope": "Actual local Chromium recordVideo and ordinary controls; no synthesized frames"
+      },
+      "original_trial_relative_path": "parcel/captures/refined/motion-390.webm",
+      "original_sha256": "344867347167e4b4eb8e337418476402057cc1f2441d0e5e43507b63b62b160a"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/site/FONT_SOURCES.json",
+      "bytes": 2022,
+      "sha256": "267ca22d3a39adebcf35b53b66b35e1d27d08ce2a868715d6788349c64791b32",
+      "original_trial_relative_path": "cue/refined/site/FONT_SOURCES.json",
+      "original_sha256": "267ca22d3a39adebcf35b53b66b35e1d27d08ce2a868715d6788349c64791b32"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/site/NOTICES.md",
+      "bytes": 738,
+      "sha256": "08d3efd088cd5406a8fa643d8052c8c739fdded06c2e545a389ace07a4413715",
+      "original_trial_relative_path": "cue/refined/site/NOTICES.md",
+      "original_sha256": "08d3efd088cd5406a8fa643d8052c8c739fdded06c2e545a389ace07a4413715"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/site/app.mjs",
+      "bytes": 10529,
+      "sha256": "47cdb758d9e8d8ba8e6e492877fffc3b5d0ac9e78d204feb740ad9a91569fc22",
+      "original_trial_relative_path": "cue/refined/site/app.mjs",
+      "original_sha256": "47cdb758d9e8d8ba8e6e492877fffc3b5d0ac9e78d204feb740ad9a91569fc22"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/site/assets/fonts/IBMPlexMono-Medium.ttf",
+      "bytes": 136704,
+      "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+      "original_trial_relative_path": "cue/refined/site/assets/fonts/IBMPlexMono-Medium.ttf",
+      "original_sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/site/assets/fonts/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "original_trial_relative_path": "cue/refined/site/assets/fonts/IBMPlexMono-Regular.ttf",
+      "original_sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/site/assets/fonts/SpaceGrotesk-Variable.ttf",
+      "bytes": 136676,
+      "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+      "original_trial_relative_path": "cue/refined/site/assets/fonts/SpaceGrotesk-Variable.ttf",
+      "original_sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/site/guide.html",
+      "bytes": 4405,
+      "sha256": "64a1ed39e9b2342f7603fe024188c1b8cda1a4d5737147cf0015638b3de155ab",
+      "original_trial_relative_path": "cue/refined/site/guide.html",
+      "original_sha256": "64a1ed39e9b2342f7603fe024188c1b8cda1a4d5737147cf0015638b3de155ab"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/site/index.html",
+      "bytes": 4129,
+      "sha256": "2648cad44f2400014004cfa323bce6eccd4a26ac186dfc1b558e92994bed6165",
+      "original_trial_relative_path": "cue/refined/site/index.html",
+      "original_sha256": "2648cad44f2400014004cfa323bce6eccd4a26ac186dfc1b558e92994bed6165"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/site/model.mjs",
+      "bytes": 5410,
+      "sha256": "3375581b642138ac5f29ad24e6197875d58e708fafbe715943d00b04536095f2",
+      "original_trial_relative_path": "cue/refined/site/model.mjs",
+      "original_sha256": "3375581b642138ac5f29ad24e6197875d58e708fafbe715943d00b04536095f2"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/site/notices/IBMPlexMono-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "original_trial_relative_path": "cue/refined/site/notices/IBMPlexMono-OFL.txt",
+      "original_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/site/notices/SOURCE-SignalDesk.json",
+      "bytes": 2319,
+      "sha256": "1865c353eeef24f30d67ed6fe38de9af96d1cd3b06bf99f8291ee19da6891fec",
+      "original_trial_relative_path": "cue/refined/site/notices/SOURCE-SignalDesk.json",
+      "original_sha256": "1865c353eeef24f30d67ed6fe38de9af96d1cd3b06bf99f8291ee19da6891fec"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/site/notices/SpaceGrotesk-OFL.txt",
+      "bytes": 4495,
+      "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+      "original_trial_relative_path": "cue/refined/site/notices/SpaceGrotesk-OFL.txt",
+      "original_sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/site/styles.css",
+      "bytes": 11375,
+      "sha256": "080fb49915e9ee4513ca182aa35c99bbd61638797a7c0989f912041b06c4a271",
+      "original_trial_relative_path": "cue/refined/site/styles.css",
+      "original_sha256": "080fb49915e9ee4513ca182aa35c99bbd61638797a7c0989f912041b06c4a271"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/captures/guide-desktop.png",
+      "bytes": 159956,
+      "sha256": "36420fb530321ff10cfd4edd982ef653af26894ef8508712860a327291fa5418",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "content_format": "PNG",
+        "media_type": "image/png",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      },
+      "original_trial_relative_path": "cue/captures/refined/guide-1440.png",
+      "original_sha256": "36420fb530321ff10cfd4edd982ef653af26894ef8508712860a327291fa5418"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/captures/guide-phone.png",
+      "bytes": 74292,
+      "sha256": "96efa7455d0b2d46d7b54010acc07ed8f702858434853e448aadf3960c113283",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "content_format": "PNG",
+        "media_type": "image/png",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      },
+      "original_trial_relative_path": "cue/captures/refined/guide-390.png",
+      "original_sha256": "96efa7455d0b2d46d7b54010acc07ed8f702858434853e448aadf3960c113283"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/captures/index-desktop.png",
+      "bytes": 95024,
+      "sha256": "00f30a862122bc265d3b070481daf675551677df0aff749086e87c5ae26fea69",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "content_format": "PNG",
+        "media_type": "image/png",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      },
+      "original_trial_relative_path": "cue/captures/refined/index-1440.png",
+      "original_sha256": "00f30a862122bc265d3b070481daf675551677df0aff749086e87c5ae26fea69"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/captures/index-phone.png",
+      "bytes": 46353,
+      "sha256": "876ffab22266773685693893154cecdaa65c815488674d9297e0268b30b9b809",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "content_format": "PNG",
+        "media_type": "image/png",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      },
+      "original_trial_relative_path": "cue/captures/refined/index-390.png",
+      "original_sha256": "876ffab22266773685693893154cecdaa65c815488674d9297e0268b30b9b809"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/result/captures/demo-desktop.png",
+      "bytes": 86926,
+      "sha256": "831da0a18999571eaebbaf145a3e2159daf6684e7d3d87a2306b1dd276dade69",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "media_type": "image/png",
+        "content_format": "PNG",
+        "phase": "final",
+        "trial_phase": "refined",
+        "role": "populated result excerpt",
+        "scope": "Actual operation viewport; not a full output or motion proof"
+      },
+      "original_trial_relative_path": "cue/captures/refined/operation-1440.png",
+      "original_sha256": "831da0a18999571eaebbaf145a3e2159daf6684e7d3d87a2306b1dd276dade69"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/result/captures/demo-phone.png",
+      "bytes": 51379,
+      "sha256": "43b53fb5f613cffcdb74fb131044b16cd1a7aa5202bb89f60fb1381883d222c3",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "media_type": "image/png",
+        "content_format": "PNG",
+        "phase": "final",
+        "trial_phase": "refined",
+        "role": "populated result excerpt",
+        "scope": "Actual operation viewport; not a full output or motion proof"
+      },
+      "original_trial_relative_path": "cue/captures/refined/operation-390.png",
+      "original_sha256": "43b53fb5f613cffcdb74fb131044b16cd1a7aa5202bb89f60fb1381883d222c3"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/cue/motion/desktop.webm",
+      "bytes": 800494,
+      "sha256": "bd2a9d25f04fbb2e624f2f842017fa8e1fd3004d9df75632244ea58f918d9b94",
+      "recording": {
+        "media_type": "video/webm",
+        "codec": "vp8",
+        "width": 1280,
+        "height": 888,
+        "duration_seconds": 10.72,
+        "phase": "final",
+        "trial_phase": "refined",
+        "scope": "Actual local Chromium recordVideo and ordinary controls; no synthesized frames"
+      },
+      "original_trial_relative_path": "cue/captures/refined/motion-1440.webm",
+      "original_sha256": "bd2a9d25f04fbb2e624f2f842017fa8e1fd3004d9df75632244ea58f918d9b94"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/site/FONT_SOURCES.json",
+      "bytes": 2001,
+      "sha256": "ff645fa0e16b59305f5e4404ce0f4f49654a90f5ce33c849b20741aee17c601a",
+      "original_trial_relative_path": "folio/ship-review/site/FONT_SOURCES.json",
+      "original_sha256": "ff645fa0e16b59305f5e4404ce0f4f49654a90f5ce33c849b20741aee17c601a",
+      "prior_selected_source": {
+        "original_trial_relative_path": "folio/refined/site/FONT_SOURCES.json",
+        "original_sha256": "ff645fa0e16b59305f5e4404ce0f4f49654a90f5ce33c849b20741aee17c601a"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/site/NOTICES.md",
+      "bytes": 625,
+      "sha256": "edb7093e89b40a9f805ed5581b9b4a8bcd2083189f87fc320fa056df97cfbfc3",
+      "original_trial_relative_path": "folio/ship-review/site/NOTICES.md",
+      "original_sha256": "edb7093e89b40a9f805ed5581b9b4a8bcd2083189f87fc320fa056df97cfbfc3",
+      "prior_selected_source": {
+        "original_trial_relative_path": "folio/refined/site/NOTICES.md",
+        "original_sha256": "edb7093e89b40a9f805ed5581b9b4a8bcd2083189f87fc320fa056df97cfbfc3"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/site/README.md",
+      "bytes": 836,
+      "sha256": "0401995649142f1b9fcd796e21f1f84a20f75b65c0c4874462cd59d50942e8a9",
+      "original_trial_relative_path": "folio/ship-review/site/README.md",
+      "original_sha256": "0401995649142f1b9fcd796e21f1f84a20f75b65c0c4874462cd59d50942e8a9",
+      "prior_selected_source": {
+        "original_trial_relative_path": "folio/refined/site/README.md",
+        "original_sha256": "0401995649142f1b9fcd796e21f1f84a20f75b65c0c4874462cd59d50942e8a9"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/site/fonts/PublicSans-OFL.txt",
+      "bytes": 4390,
+      "sha256": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac",
+      "original_trial_relative_path": "folio/ship-review/site/fonts/PublicSans-OFL.txt",
+      "original_sha256": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac",
+      "prior_selected_source": {
+        "original_trial_relative_path": "folio/refined/site/fonts/PublicSans-OFL.txt",
+        "original_sha256": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/site/fonts/PublicSans-Variable.ttf",
+      "bytes": 103316,
+      "sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8",
+      "original_trial_relative_path": "folio/ship-review/site/fonts/PublicSans-Variable.ttf",
+      "original_sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8",
+      "prior_selected_source": {
+        "original_trial_relative_path": "folio/refined/site/fonts/PublicSans-Variable.ttf",
+        "original_sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/site/fonts/Spectral-Italic.ttf",
+      "bytes": 270468,
+      "sha256": "7ec97244259db4008c4b1224c7914e5371c797c0044af9d85c2d761ba0e5f787",
+      "original_trial_relative_path": "folio/ship-review/site/fonts/Spectral-Italic.ttf",
+      "original_sha256": "7ec97244259db4008c4b1224c7914e5371c797c0044af9d85c2d761ba0e5f787",
+      "prior_selected_source": {
+        "original_trial_relative_path": "folio/refined/site/fonts/Spectral-Italic.ttf",
+        "original_sha256": "7ec97244259db4008c4b1224c7914e5371c797c0044af9d85c2d761ba0e5f787"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/site/fonts/Spectral-OFL.txt",
+      "bytes": 4392,
+      "sha256": "501d6ceca8e552630fe3aa9442b9a818565680a1a2f79f3fb8c13d6f309a9e98",
+      "original_trial_relative_path": "folio/ship-review/site/fonts/Spectral-OFL.txt",
+      "original_sha256": "501d6ceca8e552630fe3aa9442b9a818565680a1a2f79f3fb8c13d6f309a9e98",
+      "prior_selected_source": {
+        "original_trial_relative_path": "folio/refined/site/fonts/Spectral-OFL.txt",
+        "original_sha256": "501d6ceca8e552630fe3aa9442b9a818565680a1a2f79f3fb8c13d6f309a9e98"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/site/fonts/Spectral-Regular.ttf",
+      "bytes": 261088,
+      "sha256": "c89021dc20720c8d0dcf40b0b2f6e00c13665fa8041717f581396f51b8c78f5d",
+      "original_trial_relative_path": "folio/ship-review/site/fonts/Spectral-Regular.ttf",
+      "original_sha256": "c89021dc20720c8d0dcf40b0b2f6e00c13665fa8041717f581396f51b8c78f5d",
+      "prior_selected_source": {
+        "original_trial_relative_path": "folio/refined/site/fonts/Spectral-Regular.ttf",
+        "original_sha256": "c89021dc20720c8d0dcf40b0b2f6e00c13665fa8041717f581396f51b8c78f5d"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/site/guide.html",
+      "bytes": 6477,
+      "sha256": "ac5f160ebbbd51545662e320b01886ee8f5ea692607f04d16a57660c350886fa",
+      "original_trial_relative_path": "folio/ship-review/site/guide.html",
+      "original_sha256": "ac5f160ebbbd51545662e320b01886ee8f5ea692607f04d16a57660c350886fa",
+      "prior_selected_source": {
+        "original_trial_relative_path": "folio/refined/site/guide.html",
+        "original_sha256": "ac5f160ebbbd51545662e320b01886ee8f5ea692607f04d16a57660c350886fa"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/site/index.html",
+      "bytes": 10296,
+      "sha256": "e47fc86cc7750c3d27511e1af7ad276a8ca4f8b34c49c07cd45358d0a4c43daf",
+      "original_trial_relative_path": "folio/ship-review/site/index.html",
+      "original_sha256": "e47fc86cc7750c3d27511e1af7ad276a8ca4f8b34c49c07cd45358d0a4c43daf",
+      "prior_selected_source": {
+        "original_trial_relative_path": "folio/refined/site/index.html",
+        "original_sha256": "e47fc86cc7750c3d27511e1af7ad276a8ca4f8b34c49c07cd45358d0a4c43daf"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/site/study.js",
+      "bytes": 23074,
+      "sha256": "3b63e230a2acec699d368e091034dfca8c02c551b1056cac4ce8b5b002aa6939",
+      "original_trial_relative_path": "folio/ship-review/site/study.js",
+      "original_sha256": "3b63e230a2acec699d368e091034dfca8c02c551b1056cac4ce8b5b002aa6939",
+      "prior_selected_source": {
+        "original_trial_relative_path": "folio/refined/site/study.js",
+        "original_sha256": "af4fbb21fecb18626ae59f697d477a66d9a6e568329e67a2c5e84f33622e29f5"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/site/styles.css",
+      "bytes": 17048,
+      "sha256": "9da8294b7acd1d3fe7f3cd8823d1c0aff3e7ca07c3d3254fd26f57517c29599d",
+      "original_trial_relative_path": "folio/ship-review/site/styles.css",
+      "original_sha256": "9da8294b7acd1d3fe7f3cd8823d1c0aff3e7ca07c3d3254fd26f57517c29599d",
+      "prior_selected_source": {
+        "original_trial_relative_path": "folio/refined/site/styles.css",
+        "original_sha256": "9da8294b7acd1d3fe7f3cd8823d1c0aff3e7ca07c3d3254fd26f57517c29599d"
+      }
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/captures/guide-desktop.png",
+      "bytes": 196418,
+      "sha256": "54c03285fd85023756e212f2e457fdbdf1dc9216ac4ae47c89601fde046b9c75",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "content_format": "PNG",
+        "media_type": "image/png",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      },
+      "original_trial_relative_path": "folio/captures/refined/guide-1440.png",
+      "original_sha256": "54c03285fd85023756e212f2e457fdbdf1dc9216ac4ae47c89601fde046b9c75"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/captures/guide-phone.png",
+      "bytes": 62820,
+      "sha256": "83522fdb4b1400bee9c261af1d6860c7b7a94ad2a0664498cc90adcf9acb81e5",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "content_format": "PNG",
+        "media_type": "image/png",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      },
+      "original_trial_relative_path": "folio/captures/refined/guide-390.png",
+      "original_sha256": "83522fdb4b1400bee9c261af1d6860c7b7a94ad2a0664498cc90adcf9acb81e5"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/captures/index-desktop.png",
+      "bytes": 206927,
+      "sha256": "5860b2742f6cc2afc31c787dbecdc01a018172a0492afa3a0e4a4eaec72489d9",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "content_format": "PNG",
+        "media_type": "image/png",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      },
+      "original_trial_relative_path": "folio/captures/refined/index-1440.png",
+      "original_sha256": "5860b2742f6cc2afc31c787dbecdc01a018172a0492afa3a0e4a4eaec72489d9"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/captures/index-phone.png",
+      "bytes": 77546,
+      "sha256": "dc44b9283b9e756169302f91d8977214d5f1d1be31ee400fa3958838164b40a5",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "content_format": "PNG",
+        "media_type": "image/png",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      },
+      "original_trial_relative_path": "folio/captures/refined/index-390.png",
+      "original_sha256": "dc44b9283b9e756169302f91d8977214d5f1d1be31ee400fa3958838164b40a5"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/result/captures/demo-desktop.png",
+      "bytes": 216660,
+      "sha256": "3b79b6e602a02fcf2d157c59323729085ab19d67902d9491d3b86793fc3dfbc0",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "media_type": "image/png",
+        "content_format": "PNG",
+        "phase": "final",
+        "trial_phase": "refined",
+        "role": "populated result excerpt",
+        "scope": "Actual operation viewport; not a full output or motion proof"
+      },
+      "original_trial_relative_path": "folio/captures/refined/operation-1440.png",
+      "original_sha256": "3b79b6e602a02fcf2d157c59323729085ab19d67902d9491d3b86793fc3dfbc0"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/result/captures/demo-phone.png",
+      "bytes": 48310,
+      "sha256": "4a9b300b5be6b5c9e8dbc92e59d2bee854ce995e30fdb00f7ed406b82323968e",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "media_type": "image/png",
+        "content_format": "PNG",
+        "phase": "final",
+        "trial_phase": "refined",
+        "role": "populated result excerpt",
+        "scope": "Actual operation viewport; not a full output or motion proof"
+      },
+      "original_trial_relative_path": "folio/captures/refined/operation-390.png",
+      "original_sha256": "4a9b300b5be6b5c9e8dbc92e59d2bee854ce995e30fdb00f7ed406b82323968e"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/folio/motion/phone.webm",
+      "bytes": 251858,
+      "sha256": "11704c1ad55a36e510667c5ccc4dcaaa2081fe1ebc278dbe3e439232f2d84553",
+      "recording": {
+        "media_type": "video/webm",
+        "codec": "vp8",
+        "width": 390,
+        "height": 844,
+        "duration_seconds": 4.44,
+        "phase": "final",
+        "trial_phase": "refined",
+        "scope": "Actual local Chromium recordVideo and ordinary controls; no synthesized frames"
+      },
+      "original_trial_relative_path": "folio/captures/refined/motion-390.webm",
+      "original_sha256": "11704c1ad55a36e510667c5ccc4dcaaa2081fe1ebc278dbe3e439232f2d84553"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/NOTICES.md",
+      "bytes": 961,
+      "sha256": "7551c09173212ed874f16b1cb7e666f5899ef527f27b83e803e205b928c6c092"
+    },
+    {
+      "skill_relative_path": "assets/operation-cases/CHECKS.json",
+      "bytes": 12976,
+      "sha256": "814b11cc5f29f2130f4da9e204b4e82082d4bdca06a6c4013969d50f8133ed81"
+    },
+    {
+      "skill_relative_path": "references/operation-feedback.md",
+      "bytes": 6033,
+      "sha256": "09fef246faf7f096d130b3edc07b9065c3e6734e46f8228935f49d5060cb68d7"
+    }
+  ],
+  "ship_review_utc": "2026-10-16T18:01:40.707964+00:00"
+}

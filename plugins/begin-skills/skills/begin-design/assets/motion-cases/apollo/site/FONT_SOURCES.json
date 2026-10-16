@@ -1,0 +1,28 @@
+{
+  "retrieval": "Unmodified local copies from the frozen updated Begin pack. No font network retrieval.",
+  "fonts": [
+    {
+      "file": "assets/fonts/newsreader-roman.ttf",
+      "family": "Newsreader",
+      "bytes": 451664,
+      "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+      "upstream_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/newsreader/Newsreader%5Bopsz,wght%5D.ttf",
+      "license": "SIL Open Font License 1.1",
+      "full_notice": "assets/fonts/OFL-Newsreader.txt",
+      "modified": false,
+      "frozen_source": "input-pack/skills/begin-design/assets/rendered-type-cases/elsewhere/site/assets/fonts/newsreader-roman.ttf"
+    },
+    {
+      "file": "assets/fonts/IBMPlexMono-Regular.ttf",
+      "family": "IBM Plex Mono",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "upstream_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "license": "SIL Open Font License 1.1",
+      "full_notice": "assets/fonts/OFL-IBMPlexMono.txt",
+      "modified": false,
+      "frozen_source": "input-pack/skills/begin-design/assets/rendered-type-cases/elsewhere/site/assets/fonts/IBMPlexMono-Regular.ttf"
+    }
+  ],
+  "runtime_remote_font_requests": false
+}
