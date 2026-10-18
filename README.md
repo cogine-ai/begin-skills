@@ -12,14 +12,26 @@ Begin brings design methods, professional web development guidance and working e
 
 Original examples, built and refined with Begin. Open an example for larger screenshots, phone views and editable source.
 
-| | |
-| --- | --- |
-| [![Offset Studio: a vivid portfolio of original posters, identities and publications](showcase/offset-desktop.jpg)](showcase/README.md#offset-studio) | [![AFTERIMAGE: a dark arts festival website with an illustrated waterfront](showcase/afterimage-desktop.jpg)](showcase/README.md#afterimage) |
-| **[Offset Studio](showcase/README.md#offset-studio)** · Creative portfolio | **[AFTERIMAGE](showcase/README.md#afterimage)** · Arts and events |
-| [![LOOP: expressive typography and illustrated refill products](showcase/loop-desktop.jpg)](showcase/README.md#loop) | [![MORA: a task-light product website with an adjustable configuration](showcase/mora-desktop.jpg)](showcase/README.md#mora) |
-| **[LOOP](showcase/README.md#loop)** · Local retail | **[MORA](showcase/README.md#mora)** · Product and configurator |
-| [![Down to the Moon: an editorial Apollo 11 reader with original diagrams](showcase/apollo-desktop.jpg)](showcase/README.md#down-to-the-moon) | [![Relay: a software product website with precise request and pricing details](showcase/relay-desktop.jpg)](showcase/README.md#relay) |
-| **[Down to the Moon](showcase/README.md#down-to-the-moon)** · Educational publishing | **[Relay](showcase/README.md#relay)** · Software and developer tools |
+<p>
+  <a href="showcase/README.md#offset-studio"><img src="showcase/offset-desktop.jpg" width="400" alt="Offset Studio — creative portfolio website captured from its running source"></a>
+  <a href="showcase/README.md#afterimage"><img src="showcase/afterimage-desktop.jpg" width="400" alt="AFTERIMAGE — arts and events website captured from its running source"></a>
+</p>
+
+**[Offset Studio](showcase/README.md#offset-studio)** · Creative portfolio / **[AFTERIMAGE](showcase/README.md#afterimage)** · Arts and events
+
+<p>
+  <a href="showcase/README.md#loop"><img src="showcase/loop-desktop.jpg" width="400" alt="LOOP — local retail website captured from its running source"></a>
+  <a href="showcase/README.md#mora"><img src="showcase/mora-desktop.jpg" width="400" alt="MORA — product and configurator website captured from its running source"></a>
+</p>
+
+**[LOOP](showcase/README.md#loop)** · Local retail / **[MORA](showcase/README.md#mora)** · Product and configurator
+
+<p>
+  <a href="showcase/README.md#down-to-the-moon"><img src="showcase/apollo-desktop.jpg" width="400" alt="Down to the Moon — educational publishing website captured from its running source"></a>
+  <a href="showcase/README.md#relay"><img src="showcase/relay-desktop.jpg" width="400" alt="Relay — software and developer tools website captured from its running source"></a>
+</p>
+
+**[Down to the Moon](showcase/README.md#down-to-the-moon)** · Educational publishing / **[Relay](showcase/README.md#relay)** · Software and developer tools
 
 These are original demonstration projects. Commercial names and prices are illustrative; the Apollo reader uses sourced historical facts. The screenshots show the running websites included in the pack. [See the phone views, source and capture details](showcase/README.md).
 
