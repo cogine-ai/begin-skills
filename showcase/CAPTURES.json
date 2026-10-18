@@ -1,0 +1,370 @@
+{
+  "format": 1,
+  "capturedOn": "2026-10-18",
+  "sourceRepository": "https://github.com/cogine-ai/begin-skills",
+  "sourceTag": "begin-skills-v0.1.0-beta.1",
+  "sourceCommit": "ae15793785aafcaa75860154f21a6879a14eb015",
+  "captureMethod": "Native Chromium viewport screenshots, saved directly as JPEG at quality 90 after local fonts and visible images loaded. No CSS, artwork, text or image composition was substituted.",
+  "reducedMotionPreference": "reduce",
+  "browser": "Chromium through Playwright",
+  "projectType": "Original demonstration projects; fictional commercial identities and sample prices, with sourced historical facts in the Apollo reader",
+  "totalScreenshotBytes": 1543520,
+  "cases": [
+    {
+      "slug": "offset",
+      "name": "Offset Studio",
+      "sourceDirectory": "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site",
+      "sourceFilesSha256": {
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/index.html": "4085e2e84d01e8f247d4aaba565ae0bc17ab8e1cf1ef20e2d31268e39661ee32",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/guide.html": "99f1a9263f117661ba7388fff15196dbf448cc650753ed59f92f073f8cd3d204",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/NOTICES.md": "a39cfffb09c6aa45ee721330697b4d996827d054687795c7809427ceb4b13548",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/styles.css": "1708619e9cac5c0c62ee96fc2d9258a05fea615fb9f07d6c0d65184c1283c230",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/core.js": "43642ba20a7d48b7b3c6cd51f2de4266e1d13a4c3d74fec9f8b119a330f695c6",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/data.js": "bd835a464621d0f94b99ee6bfda1e18a3e8b1fb0a32b8a8d3961dec51c2a740b",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/site.js": "19139f68966de5d40324f0579d0013082505e1324f302fc98726eb7e2f04ec6a",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/demo.html": "e31f86ade3a855a765ec273a9217aa0451f90e5d034bba2ff761933ab7771d65",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/art/common-frequency.svg": "1f72ed6854c94d9277823347be625be72e983cf61bf83fd8018043f4d5e474db",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/art/offsite.svg": "d750dacd02c25f01b3277133f78691987addce504e74b702079b51c06425d101",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/art/the-long-way.svg": "9a545a5374d269c219f13e1c47112da6c39b50af64fb085b2bea3755f5a911ac",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/art/open-interval.svg": "fdd5f3886d51f82e41f6176d891410813e64a337ff69b99644503ab801219b47",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/art/soft-signals.svg": "9f04a5bc0d7bac03a2d933caa59dabc2c75991342011ff34bc5f5e16a9e4163e",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/art/offsite-programme.svg": "c7e871085117ce2dfe8b16a0469bea19f202ba03e464cf72ee18aba4495bf87e",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/art/offsite-route.svg": "adcf0770435c68a9c4375f3e228a74e8679af8e3416adefc651b52bdf0dc864b",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/art/noon-editions.svg": "b2f4fce421174c98cd616e1fc937206619b25724fb7c57f0dd1187e96bbd2d75",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/art/favicon.svg": "876094d96e75e10c6c2da15e116147c0addfc0805f4ce8840d27f3ac8a5cf2b2",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/fonts/fieldnotes-sans.woff2": "62b17b5f0cb73804800bcdc18086d330a97a8f763351413f868e14ce5ce04fc0",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/fonts/source-serif-4-OFL.txt": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/fonts/source-sans-3-OFL.txt": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+        "plugins/begin-skills/skills/begin-design/assets/composition-cases/offset/site/fonts/source-serif-4.woff2": "ec0754e1fb47c9465d0282c89e3a890ddcf8c4e6a912a695ce1b09fb3d1b571d"
+      },
+      "pageTitle": "Selected work \u2014 Offset Studio",
+      "screenshots": [
+        {
+          "file": "offset-desktop.jpg",
+          "view": "desktop",
+          "viewportCssPixels": {
+            "width": 1440,
+            "height": 1000
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            1440,
+            1000
+          ],
+          "bytes": 191959,
+          "sha256": "76097ce33496fa08c37be52a10ca84cab7a96a26143ce9caa3270d88edd23ab9",
+          "capturedAtUtc": "2026-10-18T02:13:55.905327+00:00"
+        },
+        {
+          "file": "offset-mobile.jpg",
+          "view": "mobile",
+          "viewportCssPixels": {
+            "width": 390,
+            "height": 844
+          },
+          "pixelRatio": 2,
+          "imagePixels": [
+            780,
+            1688
+          ],
+          "bytes": 124450,
+          "sha256": "a8d5c72459d728ba2e133418c3e9c1f70d68cad50f41bf6317d1a7a0cd442aa4",
+          "capturedAtUtc": "2026-10-18T02:13:56.960294+00:00"
+        }
+      ]
+    },
+    {
+      "slug": "afterimage",
+      "name": "AFTERIMAGE",
+      "sourceDirectory": "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site",
+      "sourceFilesSha256": {
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/index.html": "3cef5e7c21f1234a571972902fd3c1f4a79725e7b29dbc38afbd2c5b7e17b0f8",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/guide.html": "a517f11500917299acf370fd539add59e8203e8fc67a783c97113b81fd38594f",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/NOTICES.md": "0953bb84b7891df23c60c0370d27e3cd5662ab6cb02b62aa72e14ea938b129d1",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/planner.mjs": "06f9d69648cea225c5aa728078aa945c38c3ddfe5496993aa5274bda13f0edba",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/site.css": "d3f649fd877bb6d194cf50f873bd843632420e7052d55d37a09522b3e1763dcc",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/demo.html": "84b8b8660821c1e998cbc0ce91c9c58e1c48bb7c2b2a32b2b5baa4813b840d07",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/model.mjs": "3fdbf19b670f21fabcd5529ff32a0cb08c96e9421db04b6f1860fd5cbfc51726",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/fonts/newsreader-roman.ttf": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/fonts/OFL-Newsreader.txt": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/fonts/work-sans-roman.ttf": "f50f61f2ba738e239442d40bf1069adb195c224b6a5a73a581fc2f3ed62a9f63",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/fonts/OFL-WorkSans.txt": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/fonts/newsreader-italic.ttf": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/assets/dock.svg": "d1e0642d23f4722c8ae4ae193a5a4df9031f653160c757b42c10677a3e63bc09",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/assets/a-room-for-echoes.svg": "891ce665a826d4cdfcdf232db8cb5c755fef997fa6bda4e4f08e6dd8ad22dc2f",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/assets/signal-garden.svg": "4e1bb789144436b805c81518ecdd0c244dbdce8d85fc730c8a5124023c8293e7",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/assets/soft-machines.svg": "6f737ac7f9991847ce4ccfefd8add6dc697f950918f74c42d7455e75c0c5a528",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/assets/low-tide-choir.svg": "e438f2bc716e15c30287c4219bed5a49141f6887dfbf362441a1a4c0ceac5b99",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/assets/paper-sun.svg": "987684da70ac4ccaefcd63e4a60f61b63d2d39b521c2801ae5ca95a57e45d223",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/afterimage/site/assets/after-the-rain.svg": "74ad0efe0b24c5e389405b15adab5af64afc9e18e445d830b583aab16b26724c"
+      },
+      "pageTitle": "Light, sound and an evening by the water \u2014 AFTERIMAGE",
+      "screenshots": [
+        {
+          "file": "afterimage-desktop.jpg",
+          "view": "desktop",
+          "viewportCssPixels": {
+            "width": 1440,
+            "height": 1000
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            1440,
+            1000
+          ],
+          "bytes": 132280,
+          "sha256": "9194afc0118c9e1c6df9f4aae88f1122a2fcde2869ab5d75e01f0671bfb3a582",
+          "capturedAtUtc": "2026-10-18T02:13:58.018892+00:00"
+        },
+        {
+          "file": "afterimage-mobile.jpg",
+          "view": "mobile",
+          "viewportCssPixels": {
+            "width": 390,
+            "height": 844
+          },
+          "pixelRatio": 2,
+          "imagePixels": [
+            780,
+            1688
+          ],
+          "bytes": 144330,
+          "sha256": "22b316adf8f3c05a6ca9939eee75d484c8f43b0c4200813643cba4367e888b02",
+          "capturedAtUtc": "2026-10-18T02:13:59.120845+00:00"
+        }
+      ]
+    },
+    {
+      "slug": "loop",
+      "name": "LOOP",
+      "sourceDirectory": "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site",
+      "sourceFilesSha256": {
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/index.html": "61009b1d66bcede9a29c3798132e04fe38acb106514d4d3551e937f88ded5df9",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/guide.html": "5d209361f501efe46460031848f59419105a1b193785d5b0bb957d2fbc12a60e",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/NOTICES.md": "51164651f89facb9c3604039c4cf67ee703e1fe68f6ad6b52b277b02cf1be0b3",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/styles.css": "aba2390c10776666dd3fa86b9ed36a70fc1ea2b4923d350dc5b85ec72b36e89c",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/PROVENANCE.md": "f62908bddb85bef8e0e1030fa9d83b5dcddcde84fb568216dc7e6e18ff442622",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/FONT-COPIES.json": "63432b0555989453f8774a52e76304fca65ce90fa4c542b8bfb213f322f4e252",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/app.mjs": "02451e9ca5a7570dc23f301b65239e435434823c0a372d9c325a50cfdd12dcb4",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/catalogue-source.json": "334598719fcc76f9ed0f0c9807556b7e85079cd9eb77027cb2dd637fe2c2c971",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/demo.html": "f3055a7a67738149eb6d04089ab82ba7532cc43f6ac4118fb8abf56b03d17157",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/model.mjs": "4482c3396c8217613731f771ff18d8bc475a0237092301897858cd18ef512484",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/assets/olive-oil.svg": "72c15631ca5b5f2c16f25b7358435cc63eadb02b27cb2a3dcd6bb29d898572d6",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/assets/oats.svg": "c1a574299b25bea591a630895fe2cb39ee4a296c7d7abbde0a6d27ea6f0e5748",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/assets/hand-soap.svg": "84f7b277171c6fd6fbb3e48e3239b5a531e40171e17c4bc6d350c457077c5ed6",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/assets/coffee.svg": "a8cb6e8eb9b3ac8d513b6d46103e1b66e9ae3933e6119de29f5f6a841d710dc9",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/assets/laundry.svg": "429e22e522b50f8e5a80a6d0708fafc514fe048b49bfe935155b85592b9c5a11",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/assets/apricots.svg": "873d734d0e5ae87182fee328475c21e9e192411a6a0e9175616dbcb060e08511",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/assets/fonts/SOURCE-Bricolage.json": "b3b9deedef6ff3ef2fe57f991d41f7e87289c7b9d757fab0c7cfe54a828502bc",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/assets/fonts/OFL-Newsreader.txt": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/assets/fonts/SOURCE-Archive-of-Play-NOTICES.md": "f6aeaf6854b3691fd9d16788f99fe11e4814c08542bb812e2f3f44488969e020",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/assets/fonts/work-sans-roman.ttf": "f50f61f2ba738e239442d40bf1069adb195c224b6a5a73a581fc2f3ed62a9f63",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/assets/fonts/OFL-WorkSans.txt": "749aca05078664ce682dce1b1b10096ac397cb088c1a6df4e1bb56f0092a9272",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/assets/fonts/BricolageGrotesque-OFL.txt": "4b5a7d8f37f5602621c8a8d7358a6a2e71317e6c231c661e15aef0275d3e07ba",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/assets/fonts/SOURCE-Newsreader-WorkSans.json": "55c41b8ce1e4adcbb6cadf40ae435bdae248321358936c416773995c136236e2",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/assets/fonts/BricolageGrotesque-Variable.ttf": "413e7357809ddd12fd80a96a8a396de0e401638d4acd3cb3e37532f0472ac682",
+        "plugins/begin-skills/skills/begin-design/assets/interaction-cases/loop/site/assets/fonts/SOURCE-Common-Tongue-NOTICES.md": "510a0c422f8e5aef93e00d468e8fca0e9e937f064381bdf61ab8e74566e006e3"
+      },
+      "pageTitle": "The everyday, refilled \u00b7 LOOP",
+      "screenshots": [
+        {
+          "file": "loop-desktop.jpg",
+          "view": "desktop",
+          "viewportCssPixels": {
+            "width": 1440,
+            "height": 1000
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            1440,
+            1000
+          ],
+          "bytes": 113783,
+          "sha256": "ce37cfa62c085e980dca886c32a8465dceaeca8af59fdef7315f74e148fc45eb",
+          "capturedAtUtc": "2026-10-18T02:14:00.326476+00:00"
+        },
+        {
+          "file": "loop-mobile.jpg",
+          "view": "mobile",
+          "viewportCssPixels": {
+            "width": 390,
+            "height": 844
+          },
+          "pixelRatio": 2,
+          "imagePixels": [
+            780,
+            1688
+          ],
+          "bytes": 110674,
+          "sha256": "5bbe6c143860fad70fe92068b1d0a2b1dffd5ba525342a36a9d4786df39695c6",
+          "capturedAtUtc": "2026-10-18T02:14:01.345612+00:00"
+        }
+      ]
+    },
+    {
+      "slug": "mora",
+      "name": "MORA",
+      "sourceDirectory": "plugins/begin-skills/skills/begin-design/assets/motion-cases/mora/site",
+      "sourceFilesSha256": {
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/mora/site/index.html": "e145373b4b6fab7aa66214187cb3788bd4ea687ecf3c6bd7db3e87e1151c8d5f",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/mora/site/guide.html": "98d7eb56ecd1b047c0c07b3c12d42866c3818ad58e441ab5b1e834c948290fb5",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/mora/site/NOTICES.md": "cd65ea4a8eb7b3e47727c6dc2da7a6a72e55b7e0c056e449e39b055d7e6f16f9",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/mora/site/styles.css": "8496bfe355246cc449136d6bbc6a924769cdbce138efb2a85af15cc96aead384",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/mora/site/README.md": "ae807f0f14960469dab7c72e4120b75dd42cdd05c725b1e38cb35c02eb83b244",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/mora/site/FONT_PROVENANCE.json": "b0d12dd63c5a94eaee4adfbf40bab24eee1e15219c9106625b019fbdc11b295b",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/mora/site/configure.html": "43fd806b2d33a7656a040059054902a2f33e8825a22afffc9518cb3933cd52d5",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/mora/site/app.mjs": "61806959b28d904015c79df4ef307b8408a464b52ce409d674015b8931058172",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/mora/site/model.mjs": "027046dc61e3a659218a9280a8101ba4a5e4d311c89d8e8bfbbab743eefa0926",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/mora/site/assets/mark.svg": "3324d3bc82c5f022e103f400b538376b39df96271f151eaec38b670e2be606fc",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/mora/site/assets/fonts/SpaceGrotesk-OFL.txt": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/mora/site/assets/fonts/SpaceGrotesk-Variable.ttf": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+      },
+      "pageTitle": "Light at your angle \u2014 MORA",
+      "screenshots": [
+        {
+          "file": "mora-desktop.jpg",
+          "view": "desktop",
+          "viewportCssPixels": {
+            "width": 1440,
+            "height": 1000
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            1440,
+            1000
+          ],
+          "bytes": 73767,
+          "sha256": "f90c051cb22bb53fda7ca0958432a92083f2ef3a307fa1af26cba13f30777626",
+          "capturedAtUtc": "2026-10-18T02:14:02.382605+00:00"
+        },
+        {
+          "file": "mora-mobile.jpg",
+          "view": "mobile",
+          "viewportCssPixels": {
+            "width": 390,
+            "height": 844
+          },
+          "pixelRatio": 2,
+          "imagePixels": [
+            780,
+            1688
+          ],
+          "bytes": 96463,
+          "sha256": "174a6e118f5ad384f2b3379fdc862869bb2e746eeea8a43a8dfc8f93b729e3e5",
+          "capturedAtUtc": "2026-10-18T02:14:03.372737+00:00"
+        }
+      ]
+    },
+    {
+      "slug": "apollo",
+      "name": "Down to the Moon",
+      "sourceDirectory": "plugins/begin-skills/skills/begin-design/assets/motion-cases/apollo/site",
+      "sourceFilesSha256": {
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/apollo/site/index.html": "981ed998ffae009efe8e5eba31df171678ba8324ad931d1ed61f162380d2d1cc",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/apollo/site/guide.html": "e175e9bffa6348bc449a30b3dd20fdaaf6bd49f9e291d29548879ba8f1b05c5a",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/apollo/site/NOTICES.md": "345664d669a999f069840c12725d5a60d5b5a794a91f4f7994412c5e41032e81",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/apollo/site/styles.css": "7a5967f63a8092e9d30d9b412f59c94414688a1491eb1a2c834b7a2309ac4038",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/apollo/site/FONT_SOURCES.json": "e1118331bb8ebc7b10a92e8d7e0c950fd6921c8c849cbea3ae19e8afba95b25f",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/apollo/site/model.test.mjs": "d57e196346b25974bfc1efc088402bc3f2313365d41b01644aab058ec7170e84",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/apollo/site/README.md": "f5f7c06a143bab578d1674a701b6ec8d23dc587ec2f919d48a62cf8844cf3562",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/apollo/site/reader.mjs": "843b08b9f54608a0095eb22eb01c777e6648e4659b21d8dd7390f2ee5a657ba8",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/apollo/site/model.mjs": "3db7a186ed53cc2bb76f3ba0bf6a9795c60a488abd2b610d000450a7f2c27c29",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/apollo/site/assets/fonts/OFL-IBMPlexMono.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/apollo/site/assets/fonts/newsreader-roman.ttf": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/apollo/site/assets/fonts/OFL-Newsreader.txt": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+        "plugins/begin-skills/skills/begin-design/assets/motion-cases/apollo/site/assets/fonts/IBMPlexMono-Regular.ttf": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+      },
+      "pageTitle": "DOWN TO THE MOON \u2014 an Apollo 11 reader",
+      "screenshots": [
+        {
+          "file": "apollo-desktop.jpg",
+          "view": "desktop",
+          "viewportCssPixels": {
+            "width": 1440,
+            "height": 1000
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            1440,
+            1000
+          ],
+          "bytes": 137455,
+          "sha256": "419854d39f418206f20e688ac7c1e8e931a3050e19cc4a5d54e36a3571f9f1ff",
+          "capturedAtUtc": "2026-10-18T02:14:04.400590+00:00"
+        },
+        {
+          "file": "apollo-mobile.jpg",
+          "view": "mobile",
+          "viewportCssPixels": {
+            "width": 390,
+            "height": 844
+          },
+          "pixelRatio": 2,
+          "imagePixels": [
+            780,
+            1688
+          ],
+          "bytes": 151599,
+          "sha256": "33e24771c3e1efc374adf03039b07e03160a21ba4780688b4401c29d7fbd13fb",
+          "capturedAtUtc": "2026-10-18T02:14:05.467841+00:00"
+        }
+      ]
+    },
+    {
+      "slug": "relay",
+      "name": "Relay",
+      "sourceDirectory": "plugins/begin-skills/skills/begin-design/assets/type-transfer-cases/relay/site",
+      "sourceFilesSha256": {
+        "plugins/begin-skills/skills/begin-design/assets/type-transfer-cases/relay/site/index.html": "e8439ebfa707bd46a814ee9ca3635534eced822fc098cb0dcbb8482e9706ea0d",
+        "plugins/begin-skills/skills/begin-design/assets/type-transfer-cases/relay/site/guide.html": "4cfad2655f7713567d36d334e324ffee699450572865a1e10feebf92ca270d68",
+        "plugins/begin-skills/skills/begin-design/assets/type-transfer-cases/relay/site/NOTICES.md": "9314d38f6307f1096b51cf4e8a835b05370aa7bdc2ba2dcfa5e22ce915fdf7f8",
+        "plugins/begin-skills/skills/begin-design/assets/type-transfer-cases/relay/site/styles.css": "e7b50b1c9ecdfa3f53305053d8e4252e6c29e6378497181d1e8897be11aae4a0",
+        "plugins/begin-skills/skills/begin-design/assets/type-transfer-cases/relay/site/core.js": "31509ff1a7b8b1ef414324c90718150c9893ff292a3eb80709405919accca5b7",
+        "plugins/begin-skills/skills/begin-design/assets/type-transfer-cases/relay/site/FONT_SOURCES.json": "32cbc47367ae83c2e1a0473438d77fe060d2b856017121dbf68d816d369673c3",
+        "plugins/begin-skills/skills/begin-design/assets/type-transfer-cases/relay/site/meter.js": "61a9bb93388542687c948a8bbc2a832c1b80a862f18204c13ab8779167ccc01c",
+        "plugins/begin-skills/skills/begin-design/assets/type-transfer-cases/relay/site/demo.html": "1e1e39af0ba2c61519be7eb65fb1199ea01d2899c270474efbd731f1b01701f0",
+        "plugins/begin-skills/skills/begin-design/assets/type-transfer-cases/relay/site/assets/relay.svg": "5093862752e44e8cae8034a66a632af7ae276f45702b4312c8c34f74abea2257",
+        "plugins/begin-skills/skills/begin-design/assets/type-transfer-cases/relay/site/assets/notices/SpaceGrotesk-OFL.txt": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+        "plugins/begin-skills/skills/begin-design/assets/type-transfer-cases/relay/site/assets/notices/IBMPlexMono-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+        "plugins/begin-skills/skills/begin-design/assets/type-transfer-cases/relay/site/assets/fonts/IBMPlexMono-Medium.ttf": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+        "plugins/begin-skills/skills/begin-design/assets/type-transfer-cases/relay/site/assets/fonts/IBMPlexMono-Regular.ttf": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+        "plugins/begin-skills/skills/begin-design/assets/type-transfer-cases/relay/site/assets/fonts/SpaceGrotesk-Variable.ttf": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72"
+      },
+      "pageTitle": "Relay \u2014 Know what your calls cost",
+      "screenshots": [
+        {
+          "file": "relay-desktop.jpg",
+          "view": "desktop",
+          "viewportCssPixels": {
+            "width": 1440,
+            "height": 1000
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            1440,
+            1000
+          ],
+          "bytes": 138386,
+          "sha256": "184f418570f407999c793aa424179bf05a6089e5c776ccfb7c4306fce55c361e",
+          "capturedAtUtc": "2026-10-18T02:14:06.617235+00:00"
+        },
+        {
+          "file": "relay-mobile.jpg",
+          "view": "mobile",
+          "viewportCssPixels": {
+            "width": 390,
+            "height": 844
+          },
+          "pixelRatio": 2,
+          "imagePixels": [
+            780,
+            1688
+          ],
+          "bytes": 128374,
+          "sha256": "fde17880ec3d898f6182b3f05436244824694f475278470b8570f68be19a90d9",
+          "capturedAtUtc": "2026-10-18T02:14:07.641779+00:00"
+        }
+      ]
+    }
+  ]
+}
