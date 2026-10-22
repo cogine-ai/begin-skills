@@ -8,6 +8,8 @@ Name the selected record, current input, prepared result and kept version where 
 
 An editable note and its saved value are different states. Cancel restores the saved value. Saving confirms the actual write before showing success. When changing records with unsaved work, preserve it or make the discard choice clear. Choose the behavior that suits the task, then test it after switching to a second record and returning.
 
+Keep state dimensions independent when they can coexist: an item can belong to a saved request and also be the current proposed selection. Preserve both visible meanings until the edit succeeds. Bind approval to the exact reviewed content or revision so a relevant edit clears the old decision. When a completion blocker names a known item, use a real control to select it, reveal the correct editor and place focus visibly; provide a return to the whole result without changing the item's collection or review state merely by navigating.
+
 For quantities and money, preserve the source unit and use exact arithmetic suitable for the domain. Calculate money in minor units when prices use a fixed currency precision. Parse input with explicit bounds and allowed steps. Derive line totals, summary totals and exported values from the same prepared data. A decorative counter must end at the actual value and remain understandable during repeated changes.
 
 ## Add an effect to a usable base

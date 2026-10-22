@@ -10,4 +10,4 @@ Keep credentials, private project files, visitor data and exploit details out of
 
 Reports may concern Begin's installation, update, removal, preview helpers or example boundaries. Identify whether the behavior comes from Begin, an Agent host, a third-party service or a website adapted from an example. Test only projects and data you control.
 
-The current Beta release is `0.1.0-beta.1`. Security repairs are made in a new release; older fixed archives are retained for integrity and are not patched in place. Use the latest published release. Included examples have explicit teaching boundaries and need project-specific production security checks before handling real visitor data.
+The current Beta release is `0.1.0-beta.2`. Security repairs are made in a new release; older fixed archives are retained for integrity and are not patched in place. Use the latest published release. Included examples have explicit teaching boundaries and need project-specific production security checks before handling real visitor data.

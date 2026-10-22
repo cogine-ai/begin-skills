@@ -1,14 +1,8 @@
 {
-  "format": 1,
-  "capturedOn": "2026-10-18",
+  "format": 2,
   "sourceRepository": "https://github.com/cogine-ai/begin-skills",
-  "sourceTag": "begin-skills-v0.1.0-beta.1",
-  "sourceCommit": "ae15793785aafcaa75860154f21a6879a14eb015",
-  "captureMethod": "Native Chromium viewport screenshots, saved directly as JPEG at quality 90 after local fonts and visible images loaded. No CSS, artwork, text or image composition was substituted.",
-  "reducedMotionPreference": "reduce",
-  "browser": "Chromium through Playwright",
   "projectType": "Original demonstration projects; fictional commercial identities and sample prices, with sourced historical facts in the Apollo reader",
-  "totalScreenshotBytes": 1543520,
+  "totalScreenshotBytes": 2373815,
   "cases": [
     {
       "slug": "offset",
@@ -71,7 +65,10 @@
           "sha256": "a8d5c72459d728ba2e133418c3e9c1f70d68cad50f41bf6317d1a7a0cd442aa4",
           "capturedAtUtc": "2026-10-18T02:13:56.960294+00:00"
         }
-      ]
+      ],
+      "captureBatch": "beta1-original",
+      "sourceTag": "begin-skills-v0.1.0-beta.1",
+      "sourceCommit": "ae15793785aafcaa75860154f21a6879a14eb015"
     },
     {
       "slug": "afterimage",
@@ -132,7 +129,10 @@
           "sha256": "22b316adf8f3c05a6ca9939eee75d484c8f43b0c4200813643cba4367e888b02",
           "capturedAtUtc": "2026-10-18T02:13:59.120845+00:00"
         }
-      ]
+      ],
+      "captureBatch": "beta1-original",
+      "sourceTag": "begin-skills-v0.1.0-beta.1",
+      "sourceCommit": "ae15793785aafcaa75860154f21a6879a14eb015"
     },
     {
       "slug": "loop",
@@ -199,7 +199,10 @@
           "sha256": "5bbe6c143860fad70fe92068b1d0a2b1dffd5ba525342a36a9d4786df39695c6",
           "capturedAtUtc": "2026-10-18T02:14:01.345612+00:00"
         }
-      ]
+      ],
+      "captureBatch": "beta1-original",
+      "sourceTag": "begin-skills-v0.1.0-beta.1",
+      "sourceCommit": "ae15793785aafcaa75860154f21a6879a14eb015"
     },
     {
       "slug": "mora",
@@ -253,7 +256,10 @@
           "sha256": "174a6e118f5ad384f2b3379fdc862869bb2e746eeea8a43a8dfc8f93b729e3e5",
           "capturedAtUtc": "2026-10-18T02:14:03.372737+00:00"
         }
-      ]
+      ],
+      "captureBatch": "beta1-original",
+      "sourceTag": "begin-skills-v0.1.0-beta.1",
+      "sourceCommit": "ae15793785aafcaa75860154f21a6879a14eb015"
     },
     {
       "slug": "apollo",
@@ -308,7 +314,10 @@
           "sha256": "33e24771c3e1efc374adf03039b07e03160a21ba4780688b4401c29d7fbd13fb",
           "capturedAtUtc": "2026-10-18T02:14:05.467841+00:00"
         }
-      ]
+      ],
+      "captureBatch": "beta1-original",
+      "sourceTag": "begin-skills-v0.1.0-beta.1",
+      "sourceCommit": "ae15793785aafcaa75860154f21a6879a14eb015"
     },
     {
       "slug": "relay",
@@ -364,7 +373,398 @@
           "sha256": "fde17880ec3d898f6182b3f05436244824694f475278470b8570f68be19a90d9",
           "capturedAtUtc": "2026-10-18T02:14:07.641779+00:00"
         }
+      ],
+      "captureBatch": "beta1-original",
+      "sourceTag": "begin-skills-v0.1.0-beta.1",
+      "sourceCommit": "ae15793785aafcaa75860154f21a6879a14eb015"
+    },
+    {
+      "slug": "lift",
+      "name": "LIFT",
+      "captureBatch": "beta2-product-surfaces",
+      "sourceTag": "begin-skills-v0.1.0-beta.2",
+      "sourceDirectory": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site",
+      "sourceFilesSha256": {
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/FONT_SOURCES.json": "fc301e8c1e9342ccbeed393c1fc434a1a10f2a0128c1e4cf2694e3cf4ac50c5b",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/NOTICES.md": "436b5c342a17ed6796aaf56815a42e47868746bae093fc68284999384d72c0d6",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/bike.js": "260937c594ee4cdd20659cdb3fb2ae3c505c96c9a09c80e469f81f89119f3756",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/fonts/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/fonts/Barlow-Regular.ttf": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/fonts/Barlow-SemiBold.ttf": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/fonts/BarlowCondensed-Bold.ttf": "e476562ec9c1e16cf16475895b511f08c804f438cc9a9f80a44ea50a0eeb5b65",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/fonts/BarlowCondensed-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/guide.html": "8cac969f7c4cf4224b4478e52d22b814b94dd61d7c62a4d47a49ecaa117a2f28",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/home.js": "ca49e9c007d2102bcea334d6c352c77d2080fb38cda814bfe18fc135b24da661",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/index.html": "8df76ce3a940ec159dad01bfea41b9b4a8c3ad7f0e81cd184e3ca94e6d9103fc",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/model.js": "91cc3a233fbf84e03db04b7a03474d073913568efbca65c42f652677010bcc52",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/studio.html": "80c32ad3df591c5d3094ab32e122936112017704da20a219de87190d152be762",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/studio.js": "af489134c2cf8f5f86ff2bbd187cac92f2143e776a0ab3d8e353fed36319c487",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/styles.css": "1a950d498408374170978ce37c5fa0bc2b5e2a0dfd150469faa55bde84278dd5"
+      },
+      "screenshots": [
+        {
+          "file": "lift-desktop.jpg",
+          "page": "index.html",
+          "view": "desktop",
+          "viewportCssPixels": {
+            "width": 1440,
+            "height": 1000
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            1440,
+            1000
+          ],
+          "bytes": 90826,
+          "sha256": "c7a9ec4cbc126fc60789c8420579f349bba16a836a5c14a4387001a1ec3f8242",
+          "sourceCapturePath": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/captures/index-desktop.jpg",
+          "copyMethod": "Unchanged original native JPEG bytes"
+        },
+        {
+          "file": "lift-mobile.jpg",
+          "page": "index.html",
+          "view": "mobile",
+          "viewportCssPixels": {
+            "width": 390,
+            "height": 844
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            390,
+            844
+          ],
+          "bytes": 40375,
+          "sha256": "33d0c8378d0445c6cc995fdd139be6f454f605158dd148caf3f4875cd67191b9",
+          "sourceCapturePath": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/captures/index-phone.jpg",
+          "copyMethod": "Unchanged original native JPEG bytes"
+        },
+        {
+          "file": "lift-studio-desktop.jpg",
+          "page": "studio.html",
+          "view": "desktop",
+          "viewportCssPixels": {
+            "width": 1440,
+            "height": 1000
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            1440,
+            1000
+          ],
+          "bytes": 90823,
+          "sha256": "7adb59f2f9a4f07f1fb18ee1fc855dd89625a82b508188ad363a0c28ee33c856",
+          "sourceCapturePath": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/captures/studio-desktop.jpg",
+          "copyMethod": "Unchanged original native JPEG bytes"
+        },
+        {
+          "file": "lift-studio-mobile.jpg",
+          "page": "studio.html",
+          "view": "mobile",
+          "viewportCssPixels": {
+            "width": 390,
+            "height": 844
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            390,
+            844
+          ],
+          "bytes": 38044,
+          "sha256": "6bc9ba6820a1a300db7a749e443b6a0abfb97f8e253907f7787e381b247c55bf",
+          "sourceCapturePath": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/captures/studio-phone.jpg",
+          "copyMethod": "Unchanged original native JPEG bytes"
+        }
+      ],
+      "captureSourceFilesSha256": {
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/FONT_SOURCES.json": "fc301e8c1e9342ccbeed393c1fc434a1a10f2a0128c1e4cf2694e3cf4ac50c5b",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/NOTICES.md": "436b5c342a17ed6796aaf56815a42e47868746bae093fc68284999384d72c0d6",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/bike.js": "260937c594ee4cdd20659cdb3fb2ae3c505c96c9a09c80e469f81f89119f3756",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/fonts/Barlow-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/fonts/Barlow-Regular.ttf": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/fonts/Barlow-SemiBold.ttf": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/fonts/BarlowCondensed-Bold.ttf": "e476562ec9c1e16cf16475895b511f08c804f438cc9a9f80a44ea50a0eeb5b65",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/fonts/BarlowCondensed-OFL.txt": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/guide.html": "8cac969f7c4cf4224b4478e52d22b814b94dd61d7c62a4d47a49ecaa117a2f28",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/home.js": "ca49e9c007d2102bcea334d6c352c77d2080fb38cda814bfe18fc135b24da661",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/index.html": "8df76ce3a940ec159dad01bfea41b9b4a8c3ad7f0e81cd184e3ca94e6d9103fc",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/model.js": "91cc3a233fbf84e03db04b7a03474d073913568efbca65c42f652677010bcc52",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/studio.html": "80c32ad3df591c5d3094ab32e122936112017704da20a219de87190d152be762",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/studio.js": "786204592d35022ab34ed86923de492bb2f330b03af62f94bfc754d200863529",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/styles.css": "1a950d498408374170978ce37c5fa0bc2b5e2a0dfd150469faa55bde84278dd5"
+      },
+      "sourceChangesSinceCapture": [
+        {
+          "file": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/lift/site/studio.js",
+          "captureSourceSha256": "786204592d35022ab34ed86923de492bb2f330b03af62f94bfc754d200863529",
+          "releaseSourceSha256": "af489134c2cf8f5f86ff2bbd187cac92f2143e776a0ab3d8e353fed36319c487",
+          "reason": "Query-parameter inheritance guard; original screenshot bytes preserved without rerendering."
+        }
       ]
+    },
+    {
+      "slug": "benchtime",
+      "name": "BENCHTIME",
+      "captureBatch": "beta2-product-surfaces",
+      "sourceTag": "begin-skills-v0.1.0-beta.2",
+      "sourceDirectory": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site",
+      "sourceFilesSha256": {
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/NOTICES.md": "55133ac212b9db503cbb68fb50e05037124b263c3c690da14f002060d3f25ce0",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/README.md": "72243f35c991ca363d7ea73e7928dbeefcbf969e095350ce44e46e78378f2530",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/app.mjs": "9d02cba37ced2aba8cd1a5941ec10862b0f9b468d9a25bd11cfdcf22cec7a006",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/cnc.svg": "4387d754f0e928883b29f551820de76de4c0a56de2775f8c50c190a913086c5f",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/fonts/Chivo-wght.ttf": "801674cbeff749011a0186b2c932dc9158187a8ca4ca6598db2a1f5c7c4342d1",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/fonts/FONT_SOURCES.json": "92f69540903b7875825614e85369316805f8f5bbb5bc92f55299e02acefca5d1",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/fonts/IBMPlexMono-Regular.ttf": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/fonts/chivo-OFL.txt": "c9b69fa18c372df2b187b49efc57b1ea643b86a938e5af32f6b5a7af1017c891",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/fonts/ibmplexmono-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/laser.svg": "84e9c0cbe2c86aed592fd8f957e522dfffc499bb4f499f3c1318fd9755f6ae4f",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/mark.svg": "7394f34b05b154351294b6f7b616d8af25710fe617fff1bfc2266ccc2107a5b7",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/press.svg": "895ff095ef4fd3c4957cf1cc73d6ab962c5c91e4b992a3f8b4f54cd3b35abd30",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/guide.html": "309800f9ffd9f1ff692b265a6c843c1c785e0ac078c9ffbdd02f727ce06d9aee",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/index.html": "fd007f839be781ae64d144476cd579bffb2de9ddd27bd5eff30de8a1639f5987",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/model.mjs": "85ab8495f2f7acdfd444972e58e8c416e8bab2c7c4b2d660481cea3e1ff83a02",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/planner.html": "9218fd237e06cd4498b331695a8a868aa5daa39acff3b7947cfbf3c117b5a2c7",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/styles.css": "07fc1348a943c065b01e32c66381324ba30ef337b08fd2effdc3dda8c58c32e9"
+      },
+      "screenshots": [
+        {
+          "file": "benchtime-desktop.jpg",
+          "page": "index.html",
+          "view": "desktop",
+          "viewportCssPixels": {
+            "width": 1440,
+            "height": 1000
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            1440,
+            1000
+          ],
+          "bytes": 106740,
+          "sha256": "0e62916cd943b312bcfbe1f4804d60b9c57875c913ad52a8fcf7e3341389181c",
+          "sourceCapturePath": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/captures/index-desktop.jpg",
+          "copyMethod": "Unchanged original native JPEG bytes"
+        },
+        {
+          "file": "benchtime-mobile.jpg",
+          "page": "index.html",
+          "view": "mobile",
+          "viewportCssPixels": {
+            "width": 390,
+            "height": 844
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            390,
+            844
+          ],
+          "bytes": 45917,
+          "sha256": "f18843215486edfbc5aa5cf0b57b35b8674b9cc939294ac19757c59064aef240",
+          "sourceCapturePath": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/captures/index-phone.jpg",
+          "copyMethod": "Unchanged original native JPEG bytes"
+        },
+        {
+          "file": "benchtime-planner-desktop.jpg",
+          "page": "planner.html",
+          "view": "desktop",
+          "viewportCssPixels": {
+            "width": 1440,
+            "height": 1000
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            1440,
+            1000
+          ],
+          "bytes": 119448,
+          "sha256": "6fabc0f7dd8407c2537f144077027ca21c5a275c1d8570ca8da1c2cc86e86155",
+          "sourceCapturePath": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/captures/planner-desktop.jpg",
+          "copyMethod": "Unchanged original native JPEG bytes"
+        },
+        {
+          "file": "benchtime-planner-mobile.jpg",
+          "page": "planner.html",
+          "view": "mobile",
+          "viewportCssPixels": {
+            "width": 390,
+            "height": 844
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            390,
+            844
+          ],
+          "bytes": 47467,
+          "sha256": "f3ce150f114848185ff5b8c6ef641243ab2dd2dedd0cbf280a5f57b4cdd7d3f6",
+          "sourceCapturePath": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/captures/planner-phone.jpg",
+          "copyMethod": "Unchanged original native JPEG bytes"
+        }
+      ],
+      "captureSourceFilesSha256": {
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/NOTICES.md": "55133ac212b9db503cbb68fb50e05037124b263c3c690da14f002060d3f25ce0",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/README.md": "72243f35c991ca363d7ea73e7928dbeefcbf969e095350ce44e46e78378f2530",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/app.mjs": "9d02cba37ced2aba8cd1a5941ec10862b0f9b468d9a25bd11cfdcf22cec7a006",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/cnc.svg": "4387d754f0e928883b29f551820de76de4c0a56de2775f8c50c190a913086c5f",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/fonts/Chivo-wght.ttf": "801674cbeff749011a0186b2c932dc9158187a8ca4ca6598db2a1f5c7c4342d1",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/fonts/FONT_SOURCES.json": "92f69540903b7875825614e85369316805f8f5bbb5bc92f55299e02acefca5d1",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/fonts/IBMPlexMono-Regular.ttf": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/fonts/chivo-OFL.txt": "c9b69fa18c372df2b187b49efc57b1ea643b86a938e5af32f6b5a7af1017c891",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/fonts/ibmplexmono-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/laser.svg": "84e9c0cbe2c86aed592fd8f957e522dfffc499bb4f499f3c1318fd9755f6ae4f",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/mark.svg": "7394f34b05b154351294b6f7b616d8af25710fe617fff1bfc2266ccc2107a5b7",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/assets/press.svg": "895ff095ef4fd3c4957cf1cc73d6ab962c5c91e4b992a3f8b4f54cd3b35abd30",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/guide.html": "309800f9ffd9f1ff692b265a6c843c1c785e0ac078c9ffbdd02f727ce06d9aee",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/index.html": "fd007f839be781ae64d144476cd579bffb2de9ddd27bd5eff30de8a1639f5987",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/model.mjs": "85ab8495f2f7acdfd444972e58e8c416e8bab2c7c4b2d660481cea3e1ff83a02",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/planner.html": "9218fd237e06cd4498b331695a8a868aa5daa39acff3b7947cfbf3c117b5a2c7",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/benchtime/site/styles.css": "07fc1348a943c065b01e32c66381324ba30ef337b08fd2effdc3dda8c58c32e9"
+      },
+      "sourceChangesSinceCapture": []
+    },
+    {
+      "slug": "cutline",
+      "name": "CUTLINE",
+      "captureBatch": "beta2-product-surfaces",
+      "sourceTag": "begin-skills-v0.1.0-beta.2",
+      "sourceDirectory": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site",
+      "sourceFilesSha256": {
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/FONT_SOURCES.json": "561222ac70bcccaa04960a03fbbfe046678c0180bb939d074863aa6a05c774d8",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/NOTICES.md": "8cfac089be259da8a18d041f0f4850530e933ac394eded7e4aa0352366c53521",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/art/favicon.svg": "98c7f227727add579ff15e1fa7536d6815dd24f3969e9eae30e8085e20be4fec",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/art/ferry.svg": "e41edf127985214d73ca4007dee495b08a9fb510c1f8b808fff1d11ba6b26550",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/art/glasshouse.svg": "7aedb840746364b465fda0e0350818b513e1e9cc50d3278c32a3759cdf411517",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/editor.html": "f8f4a0f44aa21fe0f3a69d43ff99448baf3225b1a7aba015c0e9d76f96432867",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/editor.js": "8b8b9951445920cc1c6d2887f94da3a2f1695ec2e0045df4b0c443f6b3d14941",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/fonts/IBMPlexMono.ttf": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/fonts/Oswald.ttf": "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/fonts/PublicSans.ttf": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/fonts/ibmplexmono-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/fonts/oswald-OFL.txt": "0fd731a904b729a4e02eaf5e8ebd06783edd9abe400e8882760160230675b652",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/fonts/publicsans-OFL.txt": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/guide.html": "effeb01beb0f41879a8a6f6bc4ef0ffae750996e365155865682d6d362377282",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/index.html": "be4f9d27961c0891f549755968ea2caf21d95ef9342f6302b236808966db1a5c",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/styles.css": "decb8751f69cba9172eefda984f871f1b9009ea0727c440809eb914dac3a1ea2"
+      },
+      "screenshots": [
+        {
+          "file": "cutline-desktop.jpg",
+          "page": "index.html",
+          "view": "desktop",
+          "viewportCssPixels": {
+            "width": 1440,
+            "height": 1000
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            1440,
+            1000
+          ],
+          "bytes": 87161,
+          "sha256": "9ce3bd657b831d0126ff72579200e496e4970048e457d35801e67f3851e73759",
+          "sourceCapturePath": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/captures/index-desktop.jpg",
+          "copyMethod": "Unchanged original native JPEG bytes"
+        },
+        {
+          "file": "cutline-mobile.jpg",
+          "page": "index.html",
+          "view": "mobile",
+          "viewportCssPixels": {
+            "width": 390,
+            "height": 844
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            390,
+            844
+          ],
+          "bytes": 38738,
+          "sha256": "87ae25f51b14786f579e3eb61fab1783cd4d104c432af0083b329078b6789623",
+          "sourceCapturePath": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/captures/index-phone.jpg",
+          "copyMethod": "Unchanged original native JPEG bytes"
+        },
+        {
+          "file": "cutline-editor-desktop.jpg",
+          "page": "editor.html",
+          "view": "desktop",
+          "viewportCssPixels": {
+            "width": 1440,
+            "height": 1000
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            1440,
+            1000
+          ],
+          "bytes": 90827,
+          "sha256": "55b4ef3c6337cc7ae2c9f087fe437b0eee8cd334e6fe722838ead33d9d1c55b1",
+          "sourceCapturePath": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/captures/editor-desktop.jpg",
+          "copyMethod": "Unchanged original native JPEG bytes"
+        },
+        {
+          "file": "cutline-editor-mobile.jpg",
+          "page": "editor.html",
+          "view": "mobile",
+          "viewportCssPixels": {
+            "width": 390,
+            "height": 844
+          },
+          "pixelRatio": 1,
+          "imagePixels": [
+            390,
+            844
+          ],
+          "bytes": 33929,
+          "sha256": "87c747bf8f17ef895060b983e73a8da5bf55e31d6b30511e788244ff6046181d",
+          "sourceCapturePath": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/captures/editor-phone.jpg",
+          "copyMethod": "Unchanged original native JPEG bytes"
+        }
+      ],
+      "captureSourceFilesSha256": {
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/FONT_SOURCES.json": "561222ac70bcccaa04960a03fbbfe046678c0180bb939d074863aa6a05c774d8",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/NOTICES.md": "8cfac089be259da8a18d041f0f4850530e933ac394eded7e4aa0352366c53521",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/art/favicon.svg": "98c7f227727add579ff15e1fa7536d6815dd24f3969e9eae30e8085e20be4fec",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/art/ferry.svg": "e41edf127985214d73ca4007dee495b08a9fb510c1f8b808fff1d11ba6b26550",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/art/glasshouse.svg": "7aedb840746364b465fda0e0350818b513e1e9cc50d3278c32a3759cdf411517",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/editor.html": "f8f4a0f44aa21fe0f3a69d43ff99448baf3225b1a7aba015c0e9d76f96432867",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/editor.js": "95413727b79c6c21d78eede4ab03379825bc7334543c7daf34f4fc7dbc7ff079",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/fonts/IBMPlexMono.ttf": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/fonts/Oswald.ttf": "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/fonts/PublicSans.ttf": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/fonts/ibmplexmono-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/fonts/oswald-OFL.txt": "0fd731a904b729a4e02eaf5e8ebd06783edd9abe400e8882760160230675b652",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/fonts/publicsans-OFL.txt": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/guide.html": "effeb01beb0f41879a8a6f6bc4ef0ffae750996e365155865682d6d362377282",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/index.html": "be4f9d27961c0891f549755968ea2caf21d95ef9342f6302b236808966db1a5c",
+        "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/styles.css": "decb8751f69cba9172eefda984f871f1b9009ea0727c440809eb914dac3a1ea2"
+      },
+      "sourceChangesSinceCapture": [
+        {
+          "file": "plugins/begin-skills/skills/begin-design/assets/product-surface-cases/cutline/site/editor.js",
+          "captureSourceSha256": "95413727b79c6c21d78eede4ab03379825bc7334543c7daf34f4fc7dbc7ff079",
+          "releaseSourceSha256": "8b8b9951445920cc1c6d2887f94da3a2f1695ec2e0045df4b0c443f6b3d14941",
+          "reason": "Query-parameter inheritance guard; original screenshot bytes preserved without rerendering."
+        }
+      ]
+    }
+  ],
+  "captureBatches": [
+    {
+      "id": "beta1-original",
+      "capturedOn": "2026-10-18",
+      "sourceTag": "begin-skills-v0.1.0-beta.1",
+      "sourceCommit": "ae15793785aafcaa75860154f21a6879a14eb015",
+      "captureMethod": "Native Chromium viewport screenshots, saved directly as JPEG at quality 90 after local fonts and visible images loaded. No CSS, artwork, text or image composition was substituted.",
+      "reducedMotionPreference": "reduce",
+      "browser": "Chromium through Playwright"
+    },
+    {
+      "id": "beta2-product-surfaces",
+      "capturedOn": "2026-10-22",
+      "dateTimeZone": "Asia/Taipei",
+      "sourceTag": "begin-skills-v0.1.0-beta.2",
+      "captureMethod": "Selected final native browser JPEG openings copied byte for byte from the bundled product-surface captures. No resizing, recomposition, restyling or replacement artwork. The original study records CSS frame widths; physical devices were not tested.",
+      "browser": "Native browser captures from the retained local study; engine and version not independently recorded for this presentation export.",
+      "sourceTagMeaning": "Release containing the distributed examples. Original native captures predate two query-parameter guard repairs; no new rendering was performed for this release. Per-case hashes distinguish the original capture source from the final release source."
     }
   ]
 }

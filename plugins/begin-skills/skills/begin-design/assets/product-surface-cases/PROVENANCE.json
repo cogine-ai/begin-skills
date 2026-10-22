@@ -1,0 +1,811 @@
+{
+  "schema_version": 1,
+  "curated_utc": "2026-10-21T19:42:50.279905+00:00",
+  "base_commit": "13f410d24282d0db96945f390e1a82769e86ee15",
+  "input_guidance_version": "Frozen Begin local skills from the 2026-10-22 product surfaces study",
+  "trial_root_repository_relative_path": "products/begin-skills/.review/2026-10-22-product-surfaces",
+  "study_kind": "Three original public product pages connected to complete local tasks; real-content type comparisons preceded first-source freeze; independent review informed focused refinements.",
+  "copy_method": "Selected refined/site files and original native JPEG openings are copied byte for byte, except LIFT studio.js and CUTLINE editor.js use the separately frozen beta2 release-review own-property input-identity repair. Their original first/refined sources and all captures are preserved. First sources, probes, raw research and upstream resources are excluded.",
+  "cases": [
+    {
+      "slug": "lift",
+      "scenario": "Modular city cargo bicycle, compatible parts and a local configuration sheet",
+      "pages": [
+        "index.html",
+        "studio.html",
+        "guide.html"
+      ],
+      "capture_pages": [
+        "index",
+        "studio",
+        "guide"
+      ],
+      "capture_format": "jpg",
+      "capture_phase": "final",
+      "selected_trial_phase": "refined with the bounded beta2 release-review input-identity repair",
+      "source_file_count": 15,
+      "source_bytes": 398771,
+      "required_notices": [
+        "fonts/Barlow-OFL.txt",
+        "fonts/BarlowCondensed-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/Barlow-Regular.ttf",
+          "notice": "fonts/Barlow-OFL.txt",
+          "modified": false,
+          "bytes": 104068,
+          "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea"
+        },
+        {
+          "file": "fonts/Barlow-SemiBold.ttf",
+          "notice": "fonts/Barlow-OFL.txt",
+          "modified": false,
+          "bytes": 108348,
+          "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5"
+        },
+        {
+          "file": "fonts/BarlowCondensed-Bold.ttf",
+          "notice": "fonts/BarlowCondensed-OFL.txt",
+          "modified": false,
+          "bytes": 109912,
+          "sha256": "e476562ec9c1e16cf16475895b511f08c804f438cc9a9f80a44ea50a0eeb5b65"
+        }
+      ],
+      "release_review_source_repository_relative_path": "products/begin-skills/.review/2026-10-22-beta2-release/review/lift/site"
+    },
+    {
+      "slug": "benchtime",
+      "scenario": "Shared workshop machine availability and an editable local session request",
+      "pages": [
+        "index.html",
+        "planner.html",
+        "guide.html"
+      ],
+      "capture_pages": [
+        "index",
+        "planner",
+        "guide"
+      ],
+      "capture_format": "jpg",
+      "capture_phase": "final",
+      "selected_trial_phase": "refined",
+      "source_file_count": 17,
+      "source_bytes": 378650,
+      "required_notices": [
+        "assets/fonts/chivo-OFL.txt",
+        "assets/fonts/ibmplexmono-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "assets/fonts/Chivo-wght.ttf",
+          "notice": "assets/fonts/chivo-OFL.txt",
+          "modified": false,
+          "bytes": 160636,
+          "sha256": "801674cbeff749011a0186b2c932dc9158187a8ca4ca6598db2a1f5c7c4342d1"
+        },
+        {
+          "file": "assets/fonts/IBMPlexMono-Regular.ttf",
+          "notice": "assets/fonts/ibmplexmono-OFL.txt",
+          "modified": false,
+          "bytes": 135580,
+          "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+        }
+      ]
+    },
+    {
+      "slug": "cutline",
+      "scenario": "Subtitle suggestions, cue review, complete revision approval and Unicode SRT output",
+      "pages": [
+        "index.html",
+        "editor.html",
+        "guide.html"
+      ],
+      "capture_pages": [
+        "index",
+        "editor",
+        "guide"
+      ],
+      "capture_format": "jpg",
+      "capture_phase": "final",
+      "selected_trial_phase": "refined with the bounded beta2 release-review input-identity repair",
+      "source_file_count": 16,
+      "source_bytes": 501427,
+      "required_notices": [
+        "fonts/oswald-OFL.txt",
+        "fonts/publicsans-OFL.txt",
+        "fonts/ibmplexmono-OFL.txt"
+      ],
+      "bundled_fonts": [
+        {
+          "file": "fonts/Oswald.ttf",
+          "notice": "fonts/oswald-OFL.txt",
+          "modified": false,
+          "bytes": 172088,
+          "sha256": "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817"
+        },
+        {
+          "file": "fonts/PublicSans.ttf",
+          "notice": "fonts/publicsans-OFL.txt",
+          "modified": false,
+          "bytes": 103316,
+          "sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8"
+        },
+        {
+          "file": "fonts/IBMPlexMono.ttf",
+          "notice": "fonts/ibmplexmono-OFL.txt",
+          "modified": false,
+          "bytes": 135580,
+          "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+        }
+      ],
+      "release_review_source_repository_relative_path": "products/begin-skills/.review/2026-10-22-beta2-release/review/cutline/site"
+    }
+  ],
+  "files": [
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/site/FONT_SOURCES.json",
+      "bytes": 1605,
+      "sha256": "fc301e8c1e9342ccbeed393c1fc434a1a10f2a0128c1e4cf2694e3cf4ac50c5b",
+      "original_trial_relative_path": "lift/refined/site/FONT_SOURCES.json",
+      "original_sha256": "fc301e8c1e9342ccbeed393c1fc434a1a10f2a0128c1e4cf2694e3cf4ac50c5b"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/site/NOTICES.md",
+      "bytes": 598,
+      "sha256": "436b5c342a17ed6796aaf56815a42e47868746bae093fc68284999384d72c0d6",
+      "original_trial_relative_path": "lift/refined/site/NOTICES.md",
+      "original_sha256": "436b5c342a17ed6796aaf56815a42e47868746bae093fc68284999384d72c0d6"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/site/bike.js",
+      "bytes": 7753,
+      "sha256": "260937c594ee4cdd20659cdb3fb2ae3c505c96c9a09c80e469f81f89119f3756",
+      "original_trial_relative_path": "lift/refined/site/bike.js",
+      "original_sha256": "260937c594ee4cdd20659cdb3fb2ae3c505c96c9a09c80e469f81f89119f3756"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/site/fonts/Barlow-OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "original_trial_relative_path": "lift/refined/site/fonts/Barlow-OFL.txt",
+      "original_sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/site/fonts/Barlow-Regular.ttf",
+      "bytes": 104068,
+      "sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea",
+      "original_trial_relative_path": "lift/refined/site/fonts/Barlow-Regular.ttf",
+      "original_sha256": "95aa02c7c43096e0dd44d787ba6216864a67157e402adab59b35572e0c1577ea"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/site/fonts/Barlow-SemiBold.ttf",
+      "bytes": 108348,
+      "sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5",
+      "original_trial_relative_path": "lift/refined/site/fonts/Barlow-SemiBold.ttf",
+      "original_sha256": "86577cb32f8abe3673db53ca0f4221e6856751a4f6730c867e00f720f8bb1fc5"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/site/fonts/BarlowCondensed-Bold.ttf",
+      "bytes": 109912,
+      "sha256": "e476562ec9c1e16cf16475895b511f08c804f438cc9a9f80a44ea50a0eeb5b65",
+      "original_trial_relative_path": "lift/refined/site/fonts/BarlowCondensed-Bold.ttf",
+      "original_sha256": "e476562ec9c1e16cf16475895b511f08c804f438cc9a9f80a44ea50a0eeb5b65"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/site/fonts/BarlowCondensed-OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "original_trial_relative_path": "lift/refined/site/fonts/BarlowCondensed-OFL.txt",
+      "original_sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/site/guide.html",
+      "bytes": 6379,
+      "sha256": "8cac969f7c4cf4224b4478e52d22b814b94dd61d7c62a4d47a49ecaa117a2f28",
+      "original_trial_relative_path": "lift/refined/site/guide.html",
+      "original_sha256": "8cac969f7c4cf4224b4478e52d22b814b94dd61d7c62a4d47a49ecaa117a2f28"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/site/home.js",
+      "bytes": 1854,
+      "sha256": "ca49e9c007d2102bcea334d6c352c77d2080fb38cda814bfe18fc135b24da661",
+      "original_trial_relative_path": "lift/refined/site/home.js",
+      "original_sha256": "ca49e9c007d2102bcea334d6c352c77d2080fb38cda814bfe18fc135b24da661"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/site/index.html",
+      "bytes": 5517,
+      "sha256": "8df76ce3a940ec159dad01bfea41b9b4a8c3ad7f0e81cd184e3ca94e6d9103fc",
+      "original_trial_relative_path": "lift/refined/site/index.html",
+      "original_sha256": "8df76ce3a940ec159dad01bfea41b9b4a8c3ad7f0e81cd184e3ca94e6d9103fc"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/site/model.js",
+      "bytes": 3649,
+      "sha256": "91cc3a233fbf84e03db04b7a03474d073913568efbca65c42f652677010bcc52",
+      "original_trial_relative_path": "lift/refined/site/model.js",
+      "original_sha256": "91cc3a233fbf84e03db04b7a03474d073913568efbca65c42f652677010bcc52"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/site/studio.html",
+      "bytes": 6855,
+      "sha256": "80c32ad3df591c5d3094ab32e122936112017704da20a219de87190d152be762",
+      "original_trial_relative_path": "lift/refined/site/studio.html",
+      "original_sha256": "80c32ad3df591c5d3094ab32e122936112017704da20a219de87190d152be762"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/site/studio.js",
+      "bytes": 12761,
+      "sha256": "af489134c2cf8f5f86ff2bbd187cac92f2143e776a0ab3d8e353fed36319c487",
+      "original_trial_relative_path": "../2026-10-22-beta2-release/review/lift/site/studio.js",
+      "original_sha256": "af489134c2cf8f5f86ff2bbd187cac92f2143e776a0ab3d8e353fed36319c487",
+      "original_trial_repository_relative_path": "products/begin-skills/.review/2026-10-22-beta2-release/review/lift/site/studio.js",
+      "previous_refined_sha256": "786204592d35022ab34ed86923de492bb2f330b03af62f94bfc754d200863529",
+      "release_review_change": "Own-property input selection only; full original first/refined and existing captures preserved."
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/site/styles.css",
+      "bytes": 20718,
+      "sha256": "1a950d498408374170978ce37c5fa0bc2b5e2a0dfd150469faa55bde84278dd5",
+      "original_trial_relative_path": "lift/refined/site/styles.css",
+      "original_sha256": "1a950d498408374170978ce37c5fa0bc2b5e2a0dfd150469faa55bde84278dd5"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/captures/index-desktop.jpg",
+      "bytes": 90826,
+      "sha256": "c7a9ec4cbc126fc60789c8420579f349bba16a836a5c14a4387001a1ec3f8242",
+      "original_trial_relative_path": "lift/captures/refined/index-1440.jpg",
+      "original_sha256": "c7a9ec4cbc126fc60789c8420579f349bba16a836a5c14a4387001a1ec3f8242",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/captures/index-phone.jpg",
+      "bytes": 40375,
+      "sha256": "33d0c8378d0445c6cc995fdd139be6f454f605158dd148caf3f4875cd67191b9",
+      "original_trial_relative_path": "lift/captures/refined/index-390.jpg",
+      "original_sha256": "33d0c8378d0445c6cc995fdd139be6f454f605158dd148caf3f4875cd67191b9",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/captures/studio-desktop.jpg",
+      "bytes": 90823,
+      "sha256": "7adb59f2f9a4f07f1fb18ee1fc855dd89625a82b508188ad363a0c28ee33c856",
+      "original_trial_relative_path": "lift/captures/refined/studio-1440.jpg",
+      "original_sha256": "7adb59f2f9a4f07f1fb18ee1fc855dd89625a82b508188ad363a0c28ee33c856",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/captures/studio-phone.jpg",
+      "bytes": 38044,
+      "sha256": "6bc9ba6820a1a300db7a749e443b6a0abfb97f8e253907f7787e381b247c55bf",
+      "original_trial_relative_path": "lift/captures/refined/studio-390.jpg",
+      "original_sha256": "6bc9ba6820a1a300db7a749e443b6a0abfb97f8e253907f7787e381b247c55bf",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/captures/guide-desktop.jpg",
+      "bytes": 116753,
+      "sha256": "d48f122411743a1d50190ea4a8faee3892bf628e36db6d8734dec91288f57177",
+      "original_trial_relative_path": "lift/captures/refined/guide-1440.jpg",
+      "original_sha256": "d48f122411743a1d50190ea4a8faee3892bf628e36db6d8734dec91288f57177",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/lift/captures/guide-phone.jpg",
+      "bytes": 43951,
+      "sha256": "e7d53eaf8d5a24375bdf5b37b795c8c0204bcdfa480cc2da0dc5af21ea231d3b",
+      "original_trial_relative_path": "lift/captures/refined/guide-390.jpg",
+      "original_sha256": "e7d53eaf8d5a24375bdf5b37b795c8c0204bcdfa480cc2da0dc5af21ea231d3b",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/NOTICES.md",
+      "bytes": 884,
+      "sha256": "55133ac212b9db503cbb68fb50e05037124b263c3c690da14f002060d3f25ce0",
+      "original_trial_relative_path": "benchtime/refined/site/NOTICES.md",
+      "original_sha256": "55133ac212b9db503cbb68fb50e05037124b263c3c690da14f002060d3f25ce0"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/README.md",
+      "bytes": 2075,
+      "sha256": "72243f35c991ca363d7ea73e7928dbeefcbf969e095350ce44e46e78378f2530",
+      "original_trial_relative_path": "benchtime/refined/site/README.md",
+      "original_sha256": "72243f35c991ca363d7ea73e7928dbeefcbf969e095350ce44e46e78378f2530"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/app.mjs",
+      "bytes": 17439,
+      "sha256": "9d02cba37ced2aba8cd1a5941ec10862b0f9b468d9a25bd11cfdcf22cec7a006",
+      "original_trial_relative_path": "benchtime/refined/site/app.mjs",
+      "original_sha256": "9d02cba37ced2aba8cd1a5941ec10862b0f9b468d9a25bd11cfdcf22cec7a006"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/assets/cnc.svg",
+      "bytes": 1196,
+      "sha256": "4387d754f0e928883b29f551820de76de4c0a56de2775f8c50c190a913086c5f",
+      "original_trial_relative_path": "benchtime/refined/site/assets/cnc.svg",
+      "original_sha256": "4387d754f0e928883b29f551820de76de4c0a56de2775f8c50c190a913086c5f"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/assets/fonts/Chivo-wght.ttf",
+      "bytes": 160636,
+      "sha256": "801674cbeff749011a0186b2c932dc9158187a8ca4ca6598db2a1f5c7c4342d1",
+      "original_trial_relative_path": "benchtime/refined/site/assets/fonts/Chivo-wght.ttf",
+      "original_sha256": "801674cbeff749011a0186b2c932dc9158187a8ca4ca6598db2a1f5c7c4342d1"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/assets/fonts/FONT_SOURCES.json",
+      "bytes": 916,
+      "sha256": "92f69540903b7875825614e85369316805f8f5bbb5bc92f55299e02acefca5d1",
+      "original_trial_relative_path": "benchtime/refined/site/assets/fonts/FONT_SOURCES.json",
+      "original_sha256": "92f69540903b7875825614e85369316805f8f5bbb5bc92f55299e02acefca5d1"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/assets/fonts/IBMPlexMono-Regular.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "original_trial_relative_path": "benchtime/refined/site/assets/fonts/IBMPlexMono-Regular.ttf",
+      "original_sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/assets/fonts/chivo-OFL.txt",
+      "bytes": 4385,
+      "sha256": "c9b69fa18c372df2b187b49efc57b1ea643b86a938e5af32f6b5a7af1017c891",
+      "original_trial_relative_path": "benchtime/refined/site/assets/fonts/chivo-OFL.txt",
+      "original_sha256": "c9b69fa18c372df2b187b49efc57b1ea643b86a938e5af32f6b5a7af1017c891"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/assets/fonts/ibmplexmono-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "original_trial_relative_path": "benchtime/refined/site/assets/fonts/ibmplexmono-OFL.txt",
+      "original_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/assets/laser.svg",
+      "bytes": 1760,
+      "sha256": "84e9c0cbe2c86aed592fd8f957e522dfffc499bb4f499f3c1318fd9755f6ae4f",
+      "original_trial_relative_path": "benchtime/refined/site/assets/laser.svg",
+      "original_sha256": "84e9c0cbe2c86aed592fd8f957e522dfffc499bb4f499f3c1318fd9755f6ae4f"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/assets/mark.svg",
+      "bytes": 167,
+      "sha256": "7394f34b05b154351294b6f7b616d8af25710fe617fff1bfc2266ccc2107a5b7",
+      "original_trial_relative_path": "benchtime/refined/site/assets/mark.svg",
+      "original_sha256": "7394f34b05b154351294b6f7b616d8af25710fe617fff1bfc2266ccc2107a5b7"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/assets/press.svg",
+      "bytes": 1065,
+      "sha256": "895ff095ef4fd3c4957cf1cc73d6ab962c5c91e4b992a3f8b4f54cd3b35abd30",
+      "original_trial_relative_path": "benchtime/refined/site/assets/press.svg",
+      "original_sha256": "895ff095ef4fd3c4957cf1cc73d6ab962c5c91e4b992a3f8b4f54cd3b35abd30"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/guide.html",
+      "bytes": 6092,
+      "sha256": "309800f9ffd9f1ff692b265a6c843c1c785e0ac078c9ffbdd02f727ce06d9aee",
+      "original_trial_relative_path": "benchtime/refined/site/guide.html",
+      "original_sha256": "309800f9ffd9f1ff692b265a6c843c1c785e0ac078c9ffbdd02f727ce06d9aee"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/index.html",
+      "bytes": 5112,
+      "sha256": "fd007f839be781ae64d144476cd579bffb2de9ddd27bd5eff30de8a1639f5987",
+      "original_trial_relative_path": "benchtime/refined/site/index.html",
+      "original_sha256": "fd007f839be781ae64d144476cd579bffb2de9ddd27bd5eff30de8a1639f5987"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/model.mjs",
+      "bytes": 4316,
+      "sha256": "85ab8495f2f7acdfd444972e58e8c416e8bab2c7c4b2d660481cea3e1ff83a02",
+      "original_trial_relative_path": "benchtime/refined/site/model.mjs",
+      "original_sha256": "85ab8495f2f7acdfd444972e58e8c416e8bab2c7c4b2d660481cea3e1ff83a02"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/planner.html",
+      "bytes": 6792,
+      "sha256": "9218fd237e06cd4498b331695a8a868aa5daa39acff3b7947cfbf3c117b5a2c7",
+      "original_trial_relative_path": "benchtime/refined/site/planner.html",
+      "original_sha256": "9218fd237e06cd4498b331695a8a868aa5daa39acff3b7947cfbf3c117b5a2c7"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/site/styles.css",
+      "bytes": 25779,
+      "sha256": "07fc1348a943c065b01e32c66381324ba30ef337b08fd2effdc3dda8c58c32e9",
+      "original_trial_relative_path": "benchtime/refined/site/styles.css",
+      "original_sha256": "07fc1348a943c065b01e32c66381324ba30ef337b08fd2effdc3dda8c58c32e9"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/captures/index-desktop.jpg",
+      "bytes": 106740,
+      "sha256": "0e62916cd943b312bcfbe1f4804d60b9c57875c913ad52a8fcf7e3341389181c",
+      "original_trial_relative_path": "benchtime/captures/refined/index-1440.jpg",
+      "original_sha256": "0e62916cd943b312bcfbe1f4804d60b9c57875c913ad52a8fcf7e3341389181c",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/captures/index-phone.jpg",
+      "bytes": 45917,
+      "sha256": "f18843215486edfbc5aa5cf0b57b35b8674b9cc939294ac19757c59064aef240",
+      "original_trial_relative_path": "benchtime/captures/refined/index-390.jpg",
+      "original_sha256": "f18843215486edfbc5aa5cf0b57b35b8674b9cc939294ac19757c59064aef240",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/captures/planner-desktop.jpg",
+      "bytes": 119448,
+      "sha256": "6fabc0f7dd8407c2537f144077027ca21c5a275c1d8570ca8da1c2cc86e86155",
+      "original_trial_relative_path": "benchtime/captures/refined/planner-1440.jpg",
+      "original_sha256": "6fabc0f7dd8407c2537f144077027ca21c5a275c1d8570ca8da1c2cc86e86155",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/captures/planner-phone.jpg",
+      "bytes": 47467,
+      "sha256": "f3ce150f114848185ff5b8c6ef641243ab2dd2dedd0cbf280a5f57b4cdd7d3f6",
+      "original_trial_relative_path": "benchtime/captures/refined/planner-390.jpg",
+      "original_sha256": "f3ce150f114848185ff5b8c6ef641243ab2dd2dedd0cbf280a5f57b4cdd7d3f6",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/captures/guide-desktop.jpg",
+      "bytes": 123929,
+      "sha256": "7a64da7431d21d1ff31ffef09ed398b0679af9293329a7a69fc0561dfef7f375",
+      "original_trial_relative_path": "benchtime/captures/refined/guide-1440.jpg",
+      "original_sha256": "7a64da7431d21d1ff31ffef09ed398b0679af9293329a7a69fc0561dfef7f375",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/benchtime/captures/guide-phone.jpg",
+      "bytes": 51609,
+      "sha256": "3ca06efd9dd090d3979a3a098aeb706adfef2b9b7112bc7475f0ba7f21f820d8",
+      "original_trial_relative_path": "benchtime/captures/refined/guide-390.jpg",
+      "original_sha256": "3ca06efd9dd090d3979a3a098aeb706adfef2b9b7112bc7475f0ba7f21f820d8",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/site/FONT_SOURCES.json",
+      "bytes": 1265,
+      "sha256": "561222ac70bcccaa04960a03fbbfe046678c0180bb939d074863aa6a05c774d8",
+      "original_trial_relative_path": "cutline/refined/site/FONT_SOURCES.json",
+      "original_sha256": "561222ac70bcccaa04960a03fbbfe046678c0180bb939d074863aa6a05c774d8"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/site/NOTICES.md",
+      "bytes": 679,
+      "sha256": "8cfac089be259da8a18d041f0f4850530e933ac394eded7e4aa0352366c53521",
+      "original_trial_relative_path": "cutline/refined/site/NOTICES.md",
+      "original_sha256": "8cfac089be259da8a18d041f0f4850530e933ac394eded7e4aa0352366c53521"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/site/art/favicon.svg",
+      "bytes": 191,
+      "sha256": "98c7f227727add579ff15e1fa7536d6815dd24f3969e9eae30e8085e20be4fec",
+      "original_trial_relative_path": "cutline/refined/site/art/favicon.svg",
+      "original_sha256": "98c7f227727add579ff15e1fa7536d6815dd24f3969e9eae30e8085e20be4fec"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/site/art/ferry.svg",
+      "bytes": 1630,
+      "sha256": "e41edf127985214d73ca4007dee495b08a9fb510c1f8b808fff1d11ba6b26550",
+      "original_trial_relative_path": "cutline/refined/site/art/ferry.svg",
+      "original_sha256": "e41edf127985214d73ca4007dee495b08a9fb510c1f8b808fff1d11ba6b26550"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/site/art/glasshouse.svg",
+      "bytes": 1293,
+      "sha256": "7aedb840746364b465fda0e0350818b513e1e9cc50d3278c32a3759cdf411517",
+      "original_trial_relative_path": "cutline/refined/site/art/glasshouse.svg",
+      "original_sha256": "7aedb840746364b465fda0e0350818b513e1e9cc50d3278c32a3759cdf411517"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/site/editor.html",
+      "bytes": 7239,
+      "sha256": "f8f4a0f44aa21fe0f3a69d43ff99448baf3225b1a7aba015c0e9d76f96432867",
+      "original_trial_relative_path": "cutline/refined/site/editor.html",
+      "original_sha256": "f8f4a0f44aa21fe0f3a69d43ff99448baf3225b1a7aba015c0e9d76f96432867"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/site/editor.js",
+      "bytes": 24469,
+      "sha256": "8b8b9951445920cc1c6d2887f94da3a2f1695ec2e0045df4b0c443f6b3d14941",
+      "original_trial_relative_path": "../2026-10-22-beta2-release/review/cutline/site/editor.js",
+      "original_sha256": "8b8b9951445920cc1c6d2887f94da3a2f1695ec2e0045df4b0c443f6b3d14941",
+      "original_trial_repository_relative_path": "products/begin-skills/.review/2026-10-22-beta2-release/review/cutline/site/editor.js",
+      "previous_refined_sha256": "95413727b79c6c21d78eede4ab03379825bc7334543c7daf34f4fc7dbc7ff079",
+      "release_review_change": "Own-property input selection only; full original first/refined and existing captures preserved."
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/site/fonts/IBMPlexMono.ttf",
+      "bytes": 135580,
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "original_trial_relative_path": "cutline/refined/site/fonts/IBMPlexMono.ttf",
+      "original_sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/site/fonts/Oswald.ttf",
+      "bytes": 172088,
+      "sha256": "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817",
+      "original_trial_relative_path": "cutline/refined/site/fonts/Oswald.ttf",
+      "original_sha256": "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/site/fonts/PublicSans.ttf",
+      "bytes": 103316,
+      "sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8",
+      "original_trial_relative_path": "cutline/refined/site/fonts/PublicSans.ttf",
+      "original_sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/site/fonts/ibmplexmono-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "original_trial_relative_path": "cutline/refined/site/fonts/ibmplexmono-OFL.txt",
+      "original_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/site/fonts/oswald-OFL.txt",
+      "bytes": 4483,
+      "sha256": "0fd731a904b729a4e02eaf5e8ebd06783edd9abe400e8882760160230675b652",
+      "original_trial_relative_path": "cutline/refined/site/fonts/oswald-OFL.txt",
+      "original_sha256": "0fd731a904b729a4e02eaf5e8ebd06783edd9abe400e8882760160230675b652"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/site/fonts/publicsans-OFL.txt",
+      "bytes": 4390,
+      "sha256": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac",
+      "original_trial_relative_path": "cutline/refined/site/fonts/publicsans-OFL.txt",
+      "original_sha256": "157a9e77f7580246e97c769490e2e977ae94399f9d30f4556015c41fe8c28bac"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/site/guide.html",
+      "bytes": 9932,
+      "sha256": "effeb01beb0f41879a8a6f6bc4ef0ffae750996e365155865682d6d362377282",
+      "original_trial_relative_path": "cutline/refined/site/guide.html",
+      "original_sha256": "effeb01beb0f41879a8a6f6bc4ef0ffae750996e365155865682d6d362377282"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/site/index.html",
+      "bytes": 6081,
+      "sha256": "be4f9d27961c0891f549755968ea2caf21d95ef9342f6302b236808966db1a5c",
+      "original_trial_relative_path": "cutline/refined/site/index.html",
+      "original_sha256": "be4f9d27961c0891f549755968ea2caf21d95ef9342f6302b236808966db1a5c"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/site/styles.css",
+      "bytes": 24335,
+      "sha256": "decb8751f69cba9172eefda984f871f1b9009ea0727c440809eb914dac3a1ea2",
+      "original_trial_relative_path": "cutline/refined/site/styles.css",
+      "original_sha256": "decb8751f69cba9172eefda984f871f1b9009ea0727c440809eb914dac3a1ea2"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/captures/index-desktop.jpg",
+      "bytes": 87161,
+      "sha256": "9ce3bd657b831d0126ff72579200e496e4970048e457d35801e67f3851e73759",
+      "original_trial_relative_path": "cutline/captures/refined/index-1440.jpg",
+      "original_sha256": "9ce3bd657b831d0126ff72579200e496e4970048e457d35801e67f3851e73759",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/captures/index-phone.jpg",
+      "bytes": 38738,
+      "sha256": "87ae25f51b14786f579e3eb61fab1783cd4d104c432af0083b329078b6789623",
+      "original_trial_relative_path": "cutline/captures/refined/index-390.jpg",
+      "original_sha256": "87ae25f51b14786f579e3eb61fab1783cd4d104c432af0083b329078b6789623",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/captures/editor-desktop.jpg",
+      "bytes": 90827,
+      "sha256": "55b4ef3c6337cc7ae2c9f087fe437b0eee8cd334e6fe722838ead33d9d1c55b1",
+      "original_trial_relative_path": "cutline/captures/refined/editor-1440.jpg",
+      "original_sha256": "55b4ef3c6337cc7ae2c9f087fe437b0eee8cd334e6fe722838ead33d9d1c55b1",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/captures/editor-phone.jpg",
+      "bytes": 33929,
+      "sha256": "87c747bf8f17ef895060b983e73a8da5bf55e31d6b30511e788244ff6046181d",
+      "original_trial_relative_path": "cutline/captures/refined/editor-390.jpg",
+      "original_sha256": "87c747bf8f17ef895060b983e73a8da5bf55e31d6b30511e788244ff6046181d",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/captures/guide-desktop.jpg",
+      "bytes": 104822,
+      "sha256": "f5947f0e597d93ca16171719e956fc6a5fb4e5d03079037a4f5f40f634844af0",
+      "original_trial_relative_path": "cutline/captures/refined/guide-1440.jpg",
+      "original_sha256": "f5947f0e597d93ca16171719e956fc6a5fb4e5d03079037a4f5f40f634844af0",
+      "capture": {
+        "width": 1440,
+        "height": 1000,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/cutline/captures/guide-phone.jpg",
+      "bytes": 48569,
+      "sha256": "f3754593d3cc2cfe32d515921bc97fa1652576deeb41f8c007554ae410fe9e07",
+      "original_trial_relative_path": "cutline/captures/refined/guide-390.jpg",
+      "original_sha256": "f3754593d3cc2cfe32d515921bc97fa1652576deeb41f8c007554ae410fe9e07",
+      "capture": {
+        "width": 390,
+        "height": 844,
+        "content_format": "JPEG",
+        "media_type": "image/jpeg",
+        "phase": "final",
+        "trial_phase": "refined",
+        "scroll_y": 0,
+        "role": "page opening"
+      }
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/NOTICES.md",
+      "bytes": 1890,
+      "sha256": "4f762b7a0b59344f0526c198afbd5387b9e72fa62cae50faf9e56a99281bfa91"
+    },
+    {
+      "skill_relative_path": "assets/product-surface-cases/CHECKS.json",
+      "bytes": 10615,
+      "sha256": "fc585abc582191a5e67baf0328abd6a5b82a0813b4504088fe9c7d480d01c652"
+    },
+    {
+      "skill_relative_path": "references/product-surfaces.md",
+      "bytes": 12849,
+      "sha256": "ce9704e600000761657fa4dfbb7cd84b4191347f3ebc48080168a92ce828a903"
+    }
+  ],
+  "runtime_evidence_boundary": "Core final browser verification is owned by root and recorded separately from this source/resource curation."
+}

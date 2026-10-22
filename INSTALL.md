@@ -4,15 +4,15 @@ Open the folder for your website in your Agent. Copy the request for your host:
 
 **Codex**
 
-> Install Begin from https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.1 using Codex's native plugin manager. Preserve my existing instructions and website files, then help me start.
+> Install Begin from https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.2 using Codex's native plugin manager. Preserve my existing instructions and website files, then help me start.
 
 **Claude Code**
 
-> Install Begin from https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.1 using Claude Code's native plugin manager with project scope. Preserve my existing instructions and website files, then help me start.
+> Install Begin from https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.2 using Claude Code's native plugin manager with project scope. Preserve my existing instructions and website files, then help me start.
 
 The plugin carries fifteen Skills and their full references, fonts, starters, examples and scripts. Codex installs a user plugin; Claude Code can install it for the selected project. Your website remains in your own folder.
 
-Release: `0.1.0-beta.1`, from the dedicated public [Begin Skills repository](https://github.com/cogine-ai/begin-skills). The source tag `begin-skills-v0.1.0-beta.1` is fixed; use that edition's source for a repeatable installation.
+Release: `0.1.0-beta.2`, from the dedicated public [Begin Skills repository](https://github.com/cogine-ai/begin-skills). The source tag `begin-skills-v0.1.0-beta.2` is fixed; use that edition's source for a repeatable installation.
 
 ## Start your website
 
@@ -43,7 +43,7 @@ Use the pinned release source below. Inspect an existing Begin installation befo
 ### Codex native plugin
 
 ```sh
-codex plugin marketplace add cogine-ai/begin-skills --ref begin-skills-v0.1.0-beta.1
+codex plugin marketplace add cogine-ai/begin-skills --ref begin-skills-v0.1.0-beta.2
 codex plugin add begin-skills@begin
 ```
 
@@ -54,7 +54,7 @@ For a supplied local distribution, replace `cogine-ai/begin-skills --ref ...` wi
 Run from the website folder:
 
 ```sh
-claude plugin marketplace add cogine-ai/begin-skills#begin-skills-v0.1.0-beta.1
+claude plugin marketplace add cogine-ai/begin-skills#begin-skills-v0.1.0-beta.2
 claude plugin install begin-skills@begin --scope project
 ```
 
@@ -65,7 +65,7 @@ For a supplied local distribution, replace the GitHub source with its absolute d
 Use this alternative when native plugins are unavailable. Inspect existing `begin-*` directories and preserve local changes first. Do not add `--yes` to skip this check: the CLI can overwrite same-name Skills.
 
 ```sh
-DISABLE_TELEMETRY=1 DO_NOT_TRACK=1 npx skills@1.7.2 add https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.1/plugins/begin-skills/skills --agent codex --skill '*' --copy
+DISABLE_TELEMETRY=1 DO_NOT_TRACK=1 npx skills@1.7.2 add https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.2/plugins/begin-skills/skills --agent codex --skill '*' --copy
 ```
 
 Use `--agent claude-code` for Claude Code. A local distribution can use its absolute `plugins/begin-skills/skills` path as the source. Keep the whole delivered directory; installing only `SKILL.md` loses required resources. Do not run against the BeginFleet monorepo root, which exposes a different internal Skill.
@@ -76,7 +76,7 @@ The pinned CLI requires Node.js 22.20 or later. Begin helpers require Node.js 24
 
 If you already use Begin, ask your Agent:
 
-> Update my existing Begin installation to 0.1.0-beta.1 from https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.1 using the manager that owns it. Preserve my website, BEGIN.md, existing instructions and unrelated Skills. Check the installed version and resources after updating.
+> Update my existing Begin installation to 0.1.0-beta.2 from https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.2 using the manager that owns it. Preserve my website, BEGIN.md, existing instructions and unrelated Skills. Check the installed version and resources after updating.
 
 Use the manager that installed Begin. A release tag has fixed bytes: choose the next official source to move to a new edition. Refreshing the current tag does not advance it to another release. Start a new conversation after a discovery change.
 
@@ -84,7 +84,7 @@ Native plugin removal should leave your website, project notes and instructions 
 
 ## ZIP fallback
 
-The complete portable archive is `begin-skills-0.1.0-beta.1-skills.zip`. Download from the [Beta.1 release](https://github.com/cogine-ai/begin-skills/releases/tag/begin-skills-v0.1.0-beta.1), verify the named version and SHA-256, and extract safely into a new directory outside your website folder.
+The complete portable archive is `begin-skills-0.1.0-beta.2-skills.zip`. Download from the [Beta.2 release](https://github.com/cogine-ai/begin-skills/releases/tag/begin-skills-v0.1.0-beta.2), verify the named version and SHA-256, and extract safely into a new directory outside your website folder.
 
 Tell Codex the extraction location and ask:
 

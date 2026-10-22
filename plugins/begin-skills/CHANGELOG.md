@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+## 0.1.0-beta.2 — 2026-10-22
+
+- Add three original complete product examples: LIFT cargo-bike configuration, BENCHTIME workshop requests and CUTLINE subtitle review. Nine pages connect a product explanation, a working task and a usable guide; eighteen actual desktop/phone openings retain exact source and font notices.
+- Preserve real-content font comparisons and complete first/refined sources. Repair backward focus behind a pinned preview, overlapping selection/status treatments, phone continuation and confirmation context, checkpoint readback, narrow time groups and actionable review blockers. Read back actual JSON, HTML, CSV and SRT downloads.
+- Retain conditional product-surface methods inside the existing design, frontend and quality Skills. Add nine domain/controller regressions and include the new resources in isolated archive checks. Keep fifteen Skills, four starters and the fixed public Beta.1 release.
+- Reject inherited object keys as clip or configuration identities so unknown URL parameters cannot break CUTLINE or LIFT initialization. Preserve valid sample selection and restored edited clips.
+
 ## 0.1.0-beta.1 — 2026-10-17
 
 - Repair Apollo's partial-save recovery and empty-note leave protection. Verify stale-draft invalidation after a checkpoint-only save, retain warnings when recovery is unconfirmed, and preserve later drafts and untouched blank pages. Add nine model regressions plus actual browser failure/recovery checks.

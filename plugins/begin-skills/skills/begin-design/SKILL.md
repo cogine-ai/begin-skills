@@ -25,6 +25,8 @@ For a new direction with an open type choice, use [type before the draft](refere
 
 When value depends on choosing, comparing, editing or keeping work, use [task interactions](references/task-interactions.md). Its complete original programme, refill cupboard and inspection desk show how material, task, guide and populated states share a direction. Select the useful relationship before adding an effect.
 
+For a product introduction connected to a working application, use [product surfaces](references/product-surfaces.md). Carry a recognizable example into its real operation, keep selection and result scope understandable, and distinguish a prepared local result from a completed external action.
+
 For a directly manipulated board, a timed operation or a drawing with associated notes, use [operation feedback](references/operation-feedback.md). Inspect the view after a real action, the complete keyboard route, current subject during movement and portable details at their actual scale.
 
 For a physical configurator, illustrated reading or moving creative work, use [task motion](references/task-motion.md). Keep feedback visible with the controls, distinguish direct manipulation from discrete transitions, and inspect the actual explanation or loop as well as its endpoints.

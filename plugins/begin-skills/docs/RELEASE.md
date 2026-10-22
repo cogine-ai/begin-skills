@@ -16,7 +16,7 @@ The clean tree's root contains both native marketplace catalogs, README and INST
 
 The owner approved the dedicated public `cogine-ai/begin-skills` repository, MIT for Begin-authored material and Cloudflare marketing-site deployment on 15 October 2026. Publish a clean distribution with new Git history; retain the private development monorepo. Keep third-party notices and immutable earlier artifacts.
 
-The Beta.1 source is `cogine-ai/begin-skills` at `begin-skills-v0.1.0-beta.1`. Publish that tag only from the exact clean distribution snapshot, with the plugin at its documented path. Upload the exact named Skills and plugin ZIPs as Release assets, or set equivalent verified mirror URLs. Publish the SHA-256 identities with those assets.
+The Beta.2 source is `cogine-ai/begin-skills` at `begin-skills-v0.1.0-beta.2`. Publish that tag only from the exact clean distribution snapshot, with the plugin at its documented path. Upload the exact named Skills and plugin ZIPs as Release assets, or set equivalent verified mirror URLs. Publish the SHA-256 identities with those assets.
 
 The named remote source must exist before installation acceptance can pass. Check the pinned tag anonymously from a fresh workspace. Keep every copy request, guide, catalog/source reference and metadata aligned before freezing the release.
 
