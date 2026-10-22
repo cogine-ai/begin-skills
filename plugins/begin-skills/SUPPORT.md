@@ -10,7 +10,7 @@ Begin is a capability pack for an Agent you already use. It contains fifteen ord
 
 The shared [installation guide](docs/INSTALL.md) owns the current release source, version and exact commands. Ordinary Skills-manager installation is an alternative. The complete Skills ZIP and Begin’s receipt installer are a separate fallback, rather than the normal installation path.
 
-The release source is `cogine-ai/begin-skills` at the fixed `begin-skills-v0.1.0-beta.1` tag. Beta.1 adds nine interaction, motion and operation references and their reviewed methods to the public pack. MIT terms for original material and third-party notices remain. The full native model workflows below retain their actual Alpha.2 input; public source, download and deployed-site acceptance are recorded separately in the release notes.
+The release source is `cogine-ai/begin-skills` at the fixed `begin-skills-v0.1.0-beta.2` tag. Beta.2 adds three complete product examples and their inspected selection, phone-continuation, keyboard and revision-review methods. Earlier Beta.1 interaction, motion and operation references remain. MIT terms for original material and third-party notices remain. The full native model workflows below retain their actual Alpha.2 input; public source, download and deployed-site acceptance are recorded separately in the release notes.
 
 ## What has actually been checked
 

@@ -1,0 +1,18 @@
+export const MODELS={swift:{name:'Swift',base:245000,seats:1,format:'Compact rear rack'},porter:{name:'Porter',base:410000,seats:2,format:'Front cargo box'},longtail:{name:'Longtail',base:365000,seats:2,format:'Extended rear rack'}};
+export const MODULES={seats:{name:'Child seat',price:12000,compatibility:'Swift: up to 1; Porter and Longtail: up to 2'},canopy:{name:'Weather canopy',price:24000,compatibility:'Porter only'},panniers:{name:'Pannier set',price:8500,compatibility:'All models'},crate:{name:'Front crate',price:16000,compatibility:'Porter only'}};
+export const money=cents=>new Intl.NumberFormat('en-IE',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(cents/100);
+export const fresh=()=>({model:'porter',seats:0,canopy:false,panniers:false,crate:false,name:'My everyday setup'});
+export function validate(input){
+ if(!input||typeof input!=='object'||Array.isArray(input)||!Object.hasOwn(MODELS,input.model))throw new Error('Unknown configuration');
+ if(!Number.isInteger(input.seats)||input.seats<0||input.seats>MODELS[input.model].seats)throw new Error('Invalid seat quantity');
+ for(const key of ['canopy','panniers','crate'])if(typeof input[key]!=='boolean')throw new Error('Invalid module');
+ if(input.model!=='porter'&&(input.canopy||input.crate))throw new Error('Incompatible module');
+ if(typeof input.name!=='string'||input.name.length>70)throw new Error('Invalid name');
+ return {model:input.model,seats:input.seats,canopy:input.canopy,panniers:input.panniers,crate:input.crate,name:input.name.trim()||'My everyday setup'};
+}
+export function lineItems(c){const m=MODELS[c.model];const rows=[{id:c.model,name:m.name+' base',quantity:1,unitPriceCents:m.base,lineTotalCents:m.base}];for(const [key,mod]of Object.entries(MODULES)){const q=key==='seats'?c.seats:Number(c[key]);if(q)rows.push({id:key,name:mod.name,quantity:q,unitPriceCents:mod.price,lineTotalCents:q*mod.price});}return rows;}
+export const total=c=>lineItems(c).reduce((sum,row)=>sum+row.lineTotalCents,0);
+export function moduleSummary(c){const p=[];if(c.seats)p.push(c.seats+' child seat'+(c.seats===1?'':'s'));if(c.canopy)p.push('weather canopy');if(c.panniers)p.push('pannier set');if(c.crate)p.push('front crate');return p.length?p.join(' · '):'No added modules';}
+export function switchModel(c,model){if(!Object.hasOwn(MODELS,model))throw new Error('Unknown model');const next={...c,model};const removed=[];if(next.seats>MODELS[model].seats){const n=next.seats-MODELS[model].seats;removed.push(n+' child seat'+(n===1?'':'s'));next.seats=MODELS[model].seats;}if(model!=='porter'){for(const key of ['canopy','crate']){if(next[key])removed.push(MODULES[key].name.toLowerCase());next[key]=false;}}return{config:next,removed};}
+export function preparedData(c){const valid=validate(c);return{schemaVersion:1,brand:'LIFT',configurationName:valid.name,status:'prepared locally, not ordered',preparedAt:new Date().toISOString(),currency:'EUR',conceptNotice:'LIFT is a fictional modular cargo bike concept. Prices are illustrative. No payment, order, reservation, stock, delivery, engineering specification, or safety certification is represented.',model:{id:valid.model,name:MODELS[valid.model].name,format:MODELS[valid.model].format,basePriceCents:MODELS[valid.model].base},selection:valid,accessories:Object.entries(MODULES).map(([id,m])=>({id,name:m.name,quantity:id==='seats'?valid.seats:Number(valid[id]),unitPriceCents:m.price,compatibility:m.compatibility})),lineItems:lineItems(valid),totalCents:total(valid)};}
+export const escapeHTML=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

@@ -2,7 +2,7 @@
 
 Open your website folder in Codex and copy this request:
 
-> Install Begin from https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.1 using Codex’s native plugin manager. Preserve my existing instructions and website files, then help me start.
+> Install Begin from https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.2 using Codex’s native plugin manager. Preserve my existing instructions and website files, then help me start.
 
 Codex manages the plugin for your user. Your website and its setup stay in the folder you choose. Begin includes fifteen Skills and their complete references, fonts, starters, examples and scripts.
 
@@ -57,7 +57,7 @@ If you installed through the Skills CLI, use that manager. If you installed thro
 The checked command shape is:
 
 ```sh
-codex plugin marketplace add cogine-ai/begin-skills --ref begin-skills-v0.1.0-beta.1
+codex plugin marketplace add cogine-ai/begin-skills --ref begin-skills-v0.1.0-beta.2
 codex plugin add begin-skills@begin
 ```
 
@@ -74,7 +74,7 @@ A Skills-manager installation is an alternative when native plugins are unavaila
 From the website folder, a Unix-style terminal command is:
 
 ```sh
-DISABLE_TELEMETRY=1 DO_NOT_TRACK=1 npx skills@1.7.2 add https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.1/plugins/begin-skills/skills --agent codex --skill '*' --copy
+DISABLE_TELEMETRY=1 DO_NOT_TRACK=1 npx skills@1.7.2 add https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.2/plugins/begin-skills/skills --agent codex --skill '*' --copy
 ```
 
 Use the full clean delivered Skill directory. The pinned Skills CLI requires Node.js 22.20 or later; Begin’s own helpers require Node.js 24. The environment settings disable that third-party CLI’s installation telemetry. Let the Agent adapt environment-variable syntax for a different shell.

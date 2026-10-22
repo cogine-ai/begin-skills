@@ -10,11 +10,11 @@ Begin brings design methods, professional web development guidance, editable web
 
 Open your website folder in Codex and copy:
 
-> Install Begin from https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.1 using Codex's native plugin manager. Preserve my existing instructions and website files, then help me start.
+> Install Begin from https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.2 using Codex's native plugin manager. Preserve my existing instructions and website files, then help me start.
 
 For Claude Code, ask it to use its native plugin manager with project scope. Both plugins include all fifteen Skills and their complete resources. The standard Skills CLI is another supported installation path; a ZIP is the fallback. Follow [installation](docs/INSTALL.md), [Codex](docs/CODEX.md) or [Claude Code](docs/CLAUDE_CODE.md).
 
-The release source is the dedicated [Begin Skills repository](https://github.com/cogine-ai/begin-skills), pinned to `begin-skills-v0.1.0-beta.1`. Keep the complete pack together so your Agent can use its references and working examples.
+The release source is the dedicated [Begin Skills repository](https://github.com/cogine-ai/begin-skills), pinned to `begin-skills-v0.1.0-beta.2`. Keep the complete pack together so your Agent can use its references and working examples.
 
 Open [Quick Start](docs/QUICKSTART.md) for the general flow. Ask your Agent:
 
@@ -60,7 +60,7 @@ For the backend example, follow [its README](skills/begin-backend/assets/enquiry
 
 ## Beta status
 
-Version `0.1.0-beta.1` adds nine complete interaction, motion and operation references, with methods for usable controls, visible feedback and reliable recovery. Fifteen Skills and four creation starters remain. Begin-authored material uses MIT; third-party notices stay with their resources. Earlier archives remain fixed. Read [Status](STATUS.md) for the actual host evidence and its limits.
+Version `0.1.0-beta.2` adds three complete product examples with public pages, working tasks and guides: cargo-bike configuration, workshop requests and subtitle revision review. The design library contains 56 variants across 55 scenarios, with methods for visible selection, phone continuation, keyboard return routes and reliable recovery. Fifteen Skills and four creation starters remain. Begin-authored material uses MIT; third-party notices stay with their resources. Earlier archives remain fixed. Read [Status](STATUS.md) for the actual host evidence and its limits.
 
 ## Help us make it better
 

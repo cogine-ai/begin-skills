@@ -10,7 +10,24 @@ Begin brings design methods, professional web development guidance and working e
 
 ## Made with Begin
 
-Original examples, built and refined with Begin. Open an example for larger screenshots, phone views and editable source.
+Original examples, built and refined with Begin. Beta.2 adds three complete products, each connecting a public page, a working local task and a usable guide. Open an example for larger screenshots, phone views and editable source.
+
+<p>
+  <a href="showcase/README.md#lift"><img src="showcase/lift-desktop.jpg" width="400" alt="LIFT — modular cargo-bicycle product page with an original bicycle illustration"></a>
+  <a href="showcase/README.md#benchtime"><img src="showcase/benchtime-planner-desktop.jpg" width="400" alt="BENCHTIME — workshop session planner with a selected machine, times and estimated price"></a>
+</p>
+
+**[LIFT](showcase/README.md#lift)** · Cargo-bike configuration / **[BENCHTIME](showcase/README.md#benchtime)** · Workshop session planning
+
+<p>
+  <a href="showcase/README.md#cutline"><img src="showcase/cutline-editor-desktop.jpg" width="400" alt="CUTLINE — subtitle editor with an illustrated frame, cue timings and correction decisions"></a>
+</p>
+
+**[CUTLINE](showcase/README.md#cutline)** · Subtitle review and SRT export
+
+Try compatible bicycle modules and export a configuration, prepare a workshop request, or review a subtitle revision and download SRT. These are local demonstration tasks; the source guides explain their scope.
+
+Earlier examples remain in the pack:
 
 <p>
   <a href="showcase/README.md#offset-studio"><img src="showcase/offset-desktop.jpg" width="400" alt="Offset Studio — creative portfolio website captured from its running source"></a>
@@ -33,13 +50,13 @@ Original examples, built and refined with Begin. Open an example for larger scre
 
 **[Down to the Moon](showcase/README.md#down-to-the-moon)** · Educational publishing / **[Relay](showcase/README.md#relay)** · Software and developer tools
 
-These are original demonstration projects. Commercial names and prices are illustrative; the Apollo reader uses sourced historical facts. The screenshots show the running websites included in the pack. [See the phone views, source and capture details](showcase/README.md).
+These are original demonstration projects. Commercial names and prices are illustrative; the Apollo reader uses sourced historical facts. The new three cases use unchanged native captures from their final local examples. The earlier six retain their original Beta.1 captures and source records. All nine examples are included in the current pack. [See the phone views, source and capture details](showcase/README.md).
 
 ## Start here
 
 Open your website folder in Codex and copy:
 
-> Install Begin from https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.1 using Codex's native plugin manager. Preserve my existing instructions and website files, then help me start.
+> Install Begin from https://github.com/cogine-ai/begin-skills/tree/begin-skills-v0.1.0-beta.2 using Codex's native plugin manager. Preserve my existing instructions and website files, then help me start.
 
 For Claude Code, ask it to use its native plugin manager with project scope. Both plugins include all fifteen Skills and their complete resources. The standard Skills CLI is another installation path; a ZIP is the fallback. Follow [installation](INSTALL.md), [Codex](plugins/begin-skills/docs/CODEX.md) or [Claude Code](plugins/begin-skills/docs/CLAUDE_CODE.md).
 
@@ -54,7 +71,7 @@ Begin helps your Agent clarify the brief, choose useful references, build, previ
 ## What's inside
 
 - **15 Skills** covering setup, website making, design, content, frontend, backend, data, security, services, publishing, quality, architecture, Learn Products, Writing Docs and diagrams.
-- **53 design variants across 52 original scenarios**, with editable source, reference guidance and actual desktop/phone captures.
+- **56 design variants across 55 original scenarios**, with editable source, reference guidance and actual desktop/phone captures.
 - **Four creation starters** for a professional service, creative portfolio, product introduction and editorial/documentation website.
 - Interactive component examples, researched articles, usable documentation and a persistent enquiry feature with server validation and owner access checks.
 - Native Codex and Claude Code plugin catalogs, portable Skills, preview helpers, guides and service recipes.
@@ -66,7 +83,7 @@ Begin helps your Agent clarify the brief, choose useful references, build, previ
 Clone this repository, then serve its examples locally:
 
 ```sh
-git clone --depth 1 https://github.com/cogine-ai/begin-skills.git
+git clone --depth 1 --branch begin-skills-v0.1.0-beta.2 https://github.com/cogine-ai/begin-skills.git
 cd begin-skills
 python3 -m http.server 8000 --bind 127.0.0.1 --directory plugins/begin-skills/skills/begin-design/assets
 ```
@@ -81,6 +98,6 @@ Show us what you made, or tell us where you got stuck. A screenshot, a link or a
 
 ## Release and license
 
-The current pack is **0.1.0-beta.1**. Read [Status](plugins/begin-skills/STATUS.md) for its actual verification scope and [Releases](https://github.com/cogine-ai/begin-skills/releases) for fixed versions and backup downloads.
+The current pack is **[0.1.0-beta.2](https://github.com/cogine-ai/begin-skills/releases/tag/begin-skills-v0.1.0-beta.2)**. Read [Status](plugins/begin-skills/STATUS.md) for its actual verification scope and [Releases](https://github.com/cogine-ai/begin-skills/releases) for fixed versions and backup downloads.
 
 Begin-authored material uses [MIT](LICENSE). Third-party fonts and other resources keep their original licenses. See [license details](plugins/begin-skills/LICENSE_STATUS.md), [showcase credits](showcase/NOTICES.md) and [contribution guidance](CONTRIBUTING.md).

@@ -1,0 +1,29 @@
+{
+  "retrieved": "2026-10-22",
+  "fonts": [
+    {
+      "family": "oswald",
+      "file": "Oswald.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/oswald/Oswald%5Bwght%5D.ttf",
+      "sha256": "5b38c246e255a12f5712d640d56bcced0472466fc68983d2d0410ec0457c2817",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/oswald/OFL.txt",
+      "license": "SIL Open Font License 1.1"
+    },
+    {
+      "family": "publicsans",
+      "file": "PublicSans.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/publicsans/PublicSans%5Bwght%5D.ttf",
+      "sha256": "d75a7dc1a27eb9e336d5b33f55489d2ecb5621bf694d5c43b2415bce2ca830a8",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/publicsans/OFL.txt",
+      "license": "SIL Open Font License 1.1"
+    },
+    {
+      "family": "ibmplexmono",
+      "file": "IBMPlexMono.ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+      "license": "SIL Open Font License 1.1"
+    }
+  ]
+}

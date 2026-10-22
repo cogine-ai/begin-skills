@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "checked_utc": "2026-10-21T19:42:50.279905+00:00",
+  "scope": "Byte-preserved refined source curation, static resource closure, JavaScript syntax, font notices and native JPEG dimensions, plus root-observed final keyboard, recovery and actual download checks on the recorded paths.",
+  "source_trial_repository_relative_path": "products/begin-skills/.review/2026-10-22-product-surfaces",
+  "cases": [
+    {
+      "slug": "lift",
+      "selected_source": "lift/refined/site",
+      "source_file_count": 15,
+      "source_bytes": 398771,
+      "local_resources_and_static_fragments": "passed using existing assert_site_resources",
+      "runtime_html_ids_required": false,
+      "node_syntax": {
+        "status": "passed",
+        "files": [
+          "bike.js",
+          "home.js",
+          "model.js",
+          "studio.js"
+        ]
+      },
+      "font_binaries_and_full_notices": "passed",
+      "capture_formats_and_dimensions": "passed; six original JPEGs at 1440x1000 and 390x844",
+      "core_runtime_verification": "passed for the bounded paths observed by root; packaging agent reconciled the retained records and actual output files without browser operation",
+      "observed_results": [
+        "At 320x844, returning with Shift+Tab twice from the prepared download area focused Prepare configuration with the complete button visible below the pinned bike preview.",
+        "Swift with one child seat saved at EUR 2570. Adding panniers reached EUR 2655. Guide navigation retained the working EUR 2655 setup; restoring the checkpoint and reloading returned EUR 2570.",
+        "Actual JSON and self-contained HTML were downloaded and read back. JSON identifies Swift, one seat, zero canopy/crate/panniers, base 245000 plus seat 12000 cents, EUR total 257000, and prepared locally, not ordered."
+      ],
+      "evidence_files": [
+        "LIFT_UI.json",
+        "lift-320-reverse-focus.jpg",
+        "LIFT-swift-configuration.json",
+        "LIFT-swift-configuration.html"
+      ],
+      "not_covered": [
+        "Denied or corrupted browser storage was not injected in this final runtime check.",
+        "Physical printing of the HTML configuration sheet was not tested."
+      ],
+      "evidence_directory_repository_relative_path": "products/begin-skills/.review/2026-10-22-product-surfaces/root-verification",
+      "release_review_selected_source": "products/begin-skills/.review/2026-10-22-beta2-release/review/lift/site"
+    },
+    {
+      "slug": "benchtime",
+      "selected_source": "benchtime/refined/site",
+      "source_file_count": 17,
+      "source_bytes": 378650,
+      "local_resources_and_static_fragments": "passed using existing assert_site_resources",
+      "runtime_html_ids_required": false,
+      "node_syntax": {
+        "status": "passed",
+        "files": [
+          "app.mjs",
+          "model.mjs"
+        ]
+      },
+      "font_binaries_and_full_notices": "passed",
+      "capture_formats_and_dimensions": "passed; six original JPEGs at 1440x1000 and 390x844",
+      "core_runtime_verification": "passed for the bounded paths observed by root; packaging agent reconciled the retained records and actual output files without browser operation",
+      "observed_results": [
+        "At 390px, the original 10:00-11:00 request with EUR 18 remained identified as In request while the tentative 10:30-11:00 edit showed EUR 9 with its own outline and dot; the editing highlight did not conceal In request.",
+        "The current machine, day and chosen interval remained visible before adding or updating the session.",
+        "At 390px and 320px, choosing an availability tile revealed the form and focused Start. Shift+Tab then Enter returned to the current selected tile.",
+        "A EUR 42 checkpoint survived Guide navigation and reload with a matches status. Removing a session changed the status to differs; restoring returned EUR 42 and matches.",
+        "An actual CSV download retained R\u00f3is\u00edn and No\u00e9, Europe/Dublin, the two requested sessions at EUR 18 and EUR 24, and EUR 42.00 total."
+      ],
+      "evidence_files": [
+        "BENCHTIME_UI.json",
+        "benchtime-390-edit-selection.jpg",
+        "benchtime-390-form-context.jpg",
+        "benchtime-320-next-step.jpg",
+        "benchtime-390-restored.jpg",
+        "benchtime-request-42.csv"
+      ],
+      "not_covered": [
+        "No server reservation or request submission is implemented or asserted by this local request path.",
+        "Denied or corrupted browser storage was not injected in this final runtime check."
+      ],
+      "evidence_directory_repository_relative_path": "products/begin-skills/.review/2026-10-22-product-surfaces/root-verification"
+    },
+    {
+      "slug": "cutline",
+      "selected_source": "cutline/refined/site",
+      "source_file_count": 16,
+      "source_bytes": 501427,
+      "local_resources_and_static_fragments": "passed using existing assert_site_resources",
+      "runtime_html_ids_required": false,
+      "node_syntax": {
+        "status": "passed",
+        "files": [
+          "editor.js"
+        ]
+      },
+      "font_binaries_and_full_notices": "passed",
+      "capture_formats_and_dimensions": "passed; six original JPEGs at 1440x1000 and 390x844",
+      "core_runtime_verification": "passed for the bounded paths observed by root; packaging agent reconciled the retained records and actual output files without browser operation",
+      "observed_results": [
+        "At 320px, Cue 01 and of 03 remained complete meaningful groups, and the cue sheet displayed the full IN/OUT time groups.",
+        "A review action selected and focused its associated cue in the same clip. The recorded Tab and Enter path entered cue 02.",
+        "After approving revision 01, changing only the final end time from 10.000 to 10.100 created revision 02, reset review to 0 of 3, and disabled approval and export.",
+        "Reviewing all three cues and approving again produced an actual three-cue SRT with No\u00e9 intact and the last end time 00:00:10,100.",
+        "Checkpoint restore and reload retained approved revision 02 and the selected cue 03."
+      ],
+      "evidence_files": [
+        "CUTLINE_UI.json",
+        "CUTLINE_RECOVERY.json",
+        "CUTLINE_RECOVERY_FULL.txt",
+        "cutline-320-cue-identity.jpg",
+        "cutline-320-times.jpg",
+        "cutline-320-keyboard-review.jpg",
+        "cutline-glasshouse-r02.srt",
+        "cutline-320-complete-times.jpg"
+      ],
+      "not_covered": [
+        "Playback, media synchronization and delivery to an external subtitle service were not tested or represented by these original still-frame examples.",
+        "Denied or corrupted browser storage was not injected in this final runtime check."
+      ],
+      "evidence_directory_repository_relative_path": "products/begin-skills/.review/2026-10-22-product-surfaces/root-verification",
+      "release_review_selected_source": "products/begin-skills/.review/2026-10-22-beta2-release/review/cutline/site"
+    }
+  ],
+  "archive_checks": {
+    "resource_assertion": "passed using existing assert_task_case_resources after byte-preserved copy",
+    "full_deterministic_archive_suite": "passed: 42 Python tests, including both archive formats and standalone Skill extraction; final fresh candidate verified separately in source-only VERIFICATION.json"
+  },
+  "runtime_checks": {
+    "status": "passed for recorded root-observed final paths",
+    "owner": "root",
+    "evidence_directory_repository_relative_path": "products/begin-skills/.review/2026-10-22-product-surfaces/root-verification",
+    "reconciled_by": "curation agent from root reports and retained UI/output files; no new browser operation",
+    "boundary": "Root UI observations establish only the explicitly recorded actions and states. Static source/capture checks, real local downloads, external submissions, physical output and broad visual acceptance remain distinct evidence."
+  },
+  "known_limits": [
+    "The collection includes only desktop and phone page openings. 320px observations, raw review and root verification records, first sources and type probes remain in the source-only study.",
+    "Native openings retain their exact original bytes; two controller input guards have separate release-review source freezes.",
+    "Per-case observed_results summarize root final UI and actual output checks. The packaging agent did not independently repeat the browser session."
+  ],
+  "root_results_reconciled_utc": "2026-10-21T19:46:07.224068+00:00",
+  "release_review_input_guards": {
+    "status": "passed in actual controller regressions and native browser follow-up",
+    "evidence_directory_repository_relative_path": "products/begin-skills/.review/2026-10-22-beta2-release/review",
+    "test_command": "node --test tests/product-surfaces.test.mjs tests/design-case-models.test.mjs",
+    "test_result": "29 passed: 20 existing design model tests, six original product-domain tests and three new controller regressions",
+    "observations": [
+      "Before the repair, all three new controller regressions failed against the shipped source. CUTLINE inherited clip query/recovery identities threw before initialization; LIFT inherited example keys prevented a valid saved configuration.",
+      "After own-property selection, constructor, toString and __proto__ fall back to the ordinary ferry clip or bike configuration name. A valid glasshouse/cue query, recovered edited wording and the EUR 4580 school-run preparation remain usable."
+    ],
+    "source_preservation": "Complete new release-review site freezes retain each original refined file except the repaired controller; original first/refined trees and existing captures remain unchanged.",
+    "boundary": "Execution uses the actual shipped controllers and LIFT domain module with minimal DOM and storage doubles. It establishes input/recovery selection and preparation behavior, not rendered layout, native navigation or browser storage behavior.",
+    "native_browser": {
+      "result": "PASS",
+      "evidence": "products/begin-skills/.review/2026-10-22-beta2-release/review/BROWSER_GUARDS.json",
+      "paths": [
+        "CUTLINE clip constructor/toString/__proto__ leaves a usable ferry editor",
+        "Normal Glasshouse selection and edited Unicode wording survive reload",
+        "LIFT inherited example keys prepare with an ordinary name",
+        "Normal Porter School run with two seats and canopy still prepares EUR4580"
+      ],
+      "scope": "Local Chromium at actual 1280px desktop width; no new physical-device or cross-host/model claim"
+    }
+  }
+}

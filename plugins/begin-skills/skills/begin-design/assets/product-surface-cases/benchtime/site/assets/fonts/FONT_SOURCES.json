@@ -1,0 +1,30 @@
+[
+  {
+    "family": "chivo",
+    "file": "Chivo-wght.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/chivo/Chivo%5Bwght%5D.ttf",
+    "bytes": 160636,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "family": "chivo",
+    "file": "chivo-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/chivo/OFL.txt",
+    "bytes": 4385,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "family": "ibmplexmono",
+    "file": "IBMPlexMono-Regular.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+    "bytes": 135580,
+    "license": "SIL Open Font License 1.1"
+  },
+  {
+    "family": "ibmplexmono",
+    "file": "ibmplexmono-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+    "bytes": 4456,
+    "license": "SIL Open Font License 1.1"
+  }
+]
